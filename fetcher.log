@@ -1173,3 +1173,45 @@
 [2024-05-09 01:12:31] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.6.tar.gz]
 [2024-05-09 01:12:31] INFO root fetch - main [MainThread]: End processing [moesifapi]: success
 [2024-05-09 01:12:31] INFO root fetch - main [MainThread]: Store serial: [23122149]
+[2024-05-09 01:14:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122149]
+[2024-05-09 01:14:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 01:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: playablez
+[2024-05-09 01:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-classification-generator
+[2024-05-09 01:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycotools
+[2024-05-09 01:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beanhub-import
+[2024-05-09 01:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freegenius
+[2024-05-09 01:14:39] INFO root fetch - processPackages [beanhub-import]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 01:14:39] INFO root fetch - processPackages [auto-classification-generator]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-09 01:14:39] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/ef/55/fca685b3b8f9bca05d22f547764ae55867a6245a869afb32281b49cf8033/beanhub_import-0.1.0.tar.gz
+[2024-05-09 01:14:39] WARNING root fetch - processPackages [playablez]: Skipping, unable to determine old version
+[2024-05-09 01:14:39] INFO root fetch - main [MainThread]: End processing [playablez] error
+[2024-05-09 01:14:39] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 01:14:39] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2024-05-09 01:14:40] INFO root fetch - processPackages [auto-classification-generator]: Downloading https://files.pythonhosted.org/packages/48/34/0c68d1540b64c924e07edb4030685740375579a7de4732718878a22f0519/auto_classification_generator-1.1.3.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [beanhub-import]: Downloading https://files.pythonhosted.org/packages/29/7c/bf50983fea24376a83820516d0106c0697b5da28bcd720748d70b398425e/beanhub_import-0.1.1.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [beanhub-import]: executing diffoscope
+[2024-05-09 01:14:40] INFO root fetch - processPackages [beanhub-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanhub_import-0.1.0.tar.gz tmp/beanhub_import-0.1.1.tar.gz --markdown 20240509/b/beanhub-import/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 01:14:40] INFO root fetch - processPackages [auto-classification-generator]: Downloading https://files.pythonhosted.org/packages/8f/cf/29609e39e27993d5760e69d8413dc2406d8cf2b9440f1426135590949b35/auto_classification_generator-1.1.4.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2024-05-09 01:14:40] INFO root fetch - processPackages [auto-classification-generator]: executing diffoscope
+[2024-05-09 01:14:40] INFO root fetch - processPackages [auto-classification-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_classification_generator-1.1.3.tar.gz tmp/auto_classification_generator-1.1.4.tar.gz --markdown 20240509/a/auto-classification-generator/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-09 01:14:40] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2024-05-09 01:14:40] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20240509/m/mycotools/0.9b8-0.9b9/README.md --exclude *.pyd
+[2024-05-09 01:14:40] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.1.0.tar.gz]
+[2024-05-09 01:14:40] INFO root fetch - processPackages [beanhub-import]: Remove: archive file [/home/abi/fetcher/tmp/beanhub_import-0.1.1.tar.gz]
+[2024-05-09 01:14:40] INFO root fetch - main [MainThread]: End processing [beanhub-import]: success
+[2024-05-09 01:14:40] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-09 01:14:41] INFO root fetch - processPackages [auto-classification-generator]: Remove: archive file [/home/abi/fetcher/tmp/auto_classification_generator-1.1.3.tar.gz]
+[2024-05-09 01:14:41] INFO root fetch - processPackages [auto-classification-generator]: Remove: archive file [/home/abi/fetcher/tmp/auto_classification_generator-1.1.4.tar.gz]
+[2024-05-09 01:14:41] INFO root fetch - main [MainThread]: End processing [auto-classification-generator]: success
+[2024-05-09 01:14:41] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2024-05-09 01:14:41] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2024-05-09 01:14:41] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2024-05-09 01:14:41] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-09 01:14:41] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240509/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 01:14:42] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-09 01:14:42] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-09 01:14:42] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-09 01:14:42] INFO root fetch - main [MainThread]: Store serial: [23122165]
