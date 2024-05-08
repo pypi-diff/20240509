@@ -1119,3 +1119,27 @@
 [2024-05-09 01:08:10] INFO root fetch - processPackages [pyrobosim]: Remove: archive file [/home/abi/fetcher/tmp/pyrobosim-2.0.0.tar.gz]
 [2024-05-09 01:08:10] INFO root fetch - main [MainThread]: End processing [pyrobosim]: success
 [2024-05-09 01:08:10] INFO root fetch - main [MainThread]: Store serial: [23122106]
+[2024-05-09 01:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122106]
+[2024-05-09 01:10:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sufi
+[2024-05-09 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynocapai
+[2024-05-09 01:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaogmaneo
+[2024-05-09 01:10:19] WARNING root fetch - processPackages [pynocapai]: Skipping, unable to determine old version
+[2024-05-09 01:10:19] INFO root fetch - main [MainThread]: End processing [pynocapai] error
+[2024-05-09 01:10:19] INFO root fetch - processPackages [sufi]: New version: [1.0.2.2] Old Version: [1.0.2.1]
+[2024-05-09 01:10:19] INFO root fetch - processPackages [pyaogmaneo]: New version: [2.6.0] Old Version: [2.5.3]
+[2024-05-09 01:10:20] INFO root fetch - processPackages [sufi]: Downloading https://files.pythonhosted.org/packages/08/8b/ed8ec422d8c38166648e58fe77c9afdb4d35cf4e272b53ac55472f86bf21/sufi-1.0.2.1.tar.gz
+[2024-05-09 01:10:20] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/71/d1/9a480c3eb478a41585ff49ced94994687a5e8c43187d8aee094d0cab3303/pyaogmaneo-2.5.3.tar.gz
+[2024-05-09 01:10:20] INFO root fetch - processPackages [sufi]: Downloading https://files.pythonhosted.org/packages/30/0d/2a2ab0ae604a9d57cc9f0079d921f5b0e7307b50d91238b9c5e369aa58cd/sufi-1.0.2.2.tar.gz
+[2024-05-09 01:10:20] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/ca/40/e67a82bf97d8a94819975197d866866d217e14b12e583175aacf304879c2/pyaogmaneo-2.6.0.tar.gz
+[2024-05-09 01:10:20] INFO root fetch - processPackages [sufi]: executing diffoscope
+[2024-05-09 01:10:20] INFO root fetch - processPackages [sufi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sufi-1.0.2.1.tar.gz tmp/sufi-1.0.2.2.tar.gz --markdown 20240509/s/sufi/1.0.2.1-1.0.2.2/README.md --exclude *.pyd
+[2024-05-09 01:10:20] INFO root fetch - processPackages [pyaogmaneo]: executing diffoscope
+[2024-05-09 01:10:20] INFO root fetch - processPackages [pyaogmaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaogmaneo-2.5.3.tar.gz tmp/pyaogmaneo-2.6.0.tar.gz --markdown 20240509/p/pyaogmaneo/2.5.3-2.6.0/README.md --exclude *.pyd
+[2024-05-09 01:10:21] INFO root fetch - processPackages [sufi]: Remove: archive file [/home/abi/fetcher/tmp/sufi-1.0.2.1.tar.gz]
+[2024-05-09 01:10:21] INFO root fetch - processPackages [sufi]: Remove: archive file [/home/abi/fetcher/tmp/sufi-1.0.2.2.tar.gz]
+[2024-05-09 01:10:21] INFO root fetch - main [MainThread]: End processing [sufi]: success
+[2024-05-09 01:10:21] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.5.3.tar.gz]
+[2024-05-09 01:10:21] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.6.0.tar.gz]
+[2024-05-09 01:10:21] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
+[2024-05-09 01:10:21] INFO root fetch - main [MainThread]: Store serial: [23122139]
