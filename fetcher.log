@@ -1305,3 +1305,36 @@
 [2024-05-09 01:21:17] INFO root fetch - processPackages [inspyre-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/inspyre_toolbox-1.5.1.tar.gz]
 [2024-05-09 01:21:17] INFO root fetch - main [MainThread]: End processing [inspyre-toolbox]: success
 [2024-05-09 01:21:17] INFO root fetch - main [MainThread]: Store serial: [23122211]
+[2024-05-09 01:23:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122211]
+[2024-05-09 01:23:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-09 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2024-05-09 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2024-05-09 01:23:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evdev-binary
+[2024-05-09 01:23:25] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:23:25] INFO root fetch - processPackages [xklb]: New version: [2.8.1] Old Version: [2.7.9]
+[2024-05-09 01:23:25] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:23:25] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-09 01:23:25] WARNING root fetch - processPackages [evdev-binary]: Skipping, unable to determine old version
+[2024-05-09 01:23:25] INFO root fetch - main [MainThread]: End processing [evdev-binary] error
+[2024-05-09 01:23:25] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d2/bf/093ab493fc3b7a04434a870d542db3bb651aed41485744c917d0feef7712/xklb-2.7.9.tar.gz
+[2024-05-09 01:23:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:23:26] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-09 01:23:26] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:23:26] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:23:26] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/2a/1a/420605c767db9276aebabe513a9a1768bf6c562dda316b5dd924231c6724/xklb-2.8.1.tar.gz
+[2024-05-09 01:23:26] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-09 01:23:26] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.7.9.tar.gz tmp/xklb-2.8.1.tar.gz --markdown 20240509/x/xklb/2.7.9-2.8.1/README.md --exclude *.pyd
+[2024-05-09 01:23:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:23:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:23:26] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:23:27] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-09 01:23:27] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-09 01:23:27] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240509/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-09 01:23:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.7.9.tar.gz]
+[2024-05-09 01:23:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.1.tar.gz]
+[2024-05-09 01:23:27] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-09 01:23:37] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-09 01:23:37] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-09 01:23:37] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-09 01:23:37] INFO root fetch - main [MainThread]: Store serial: [23122219]
