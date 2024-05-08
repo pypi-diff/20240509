@@ -1446,3 +1446,57 @@
 [2024-05-09 01:28:13] INFO root fetch - processPackages [ruleset-checking-tool]: Remove: archive file [/home/abi/fetcher/tmp/ruleset_checking_tool-0.2.5.tar.gz]
 [2024-05-09 01:28:13] INFO root fetch - main [MainThread]: End processing [ruleset-checking-tool]: success
 [2024-05-09 01:28:13] INFO root fetch - main [MainThread]: Store serial: [23122280]
+[2024-05-09 01:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122280]
+[2024-05-09 01:30:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profile-local
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fred-pandas
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sufi
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titokiz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-custom-sidebar-test
+[2024-05-09 01:30:23] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 01:30:23] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:30:23] WARNING root fetch - processPackages [fred-pandas]: Skipping, unable to determine old version
+[2024-05-09 01:30:23] INFO root fetch - main [MainThread]: End processing [fred-pandas] error
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.93] Old Version: [1.0.92]
+[2024-05-09 01:30:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sufi]: New version: [1.0.2.2] Old Version: [1.0.2.1]
+[2024-05-09 01:30:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/4b/d7/8af14a0850e980f53de36404fc2079c451edc1e65f24be79c595f88f602d/profile-local-0.0.8.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:30:23] WARNING root fetch - processPackages [titokiz]: Skipping, unable to determine old version
+[2024-05-09 01:30:23] INFO root fetch - main [MainThread]: End processing [titokiz] error
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sufi]: Downloading https://files.pythonhosted.org/packages/08/8b/ed8ec422d8c38166648e58fe77c9afdb4d35cf4e272b53ac55472f86bf21/sufi-1.0.2.1.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/76/42/1f2bbec1566b5fc72bbb3dca352efd83720407e07412d371b70c2a0878a9/sbcli_mig-1.0.92.zip
+[2024-05-09 01:30:23] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sufi]: Downloading https://files.pythonhosted.org/packages/30/0d/2a2ab0ae604a9d57cc9f0079d921f5b0e7307b50d91238b9c5e369aa58cd/sufi-1.0.2.2.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-09 01:30:23] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-local-0.0.8.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240509/p/profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:30:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-09 01:30:23] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:30:23] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sufi]: executing diffoscope
+[2024-05-09 01:30:23] INFO root fetch - processPackages [sufi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sufi-1.0.2.1.tar.gz tmp/sufi-1.0.2.2.tar.gz --markdown 20240509/s/sufi/1.0.2.1-1.0.2.2/README.md --exclude *.pyd
+[2024-05-09 01:30:24] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/db/d9/0b3c7ffdc66cda95d72e699f75c8700d5e1e8695f9dc50871248eacd492a/sbcli_mig-1.0.93.zip
+[2024-05-09 01:30:24] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-09 01:30:24] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240509/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:30:24] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-09 01:30:24] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.92.zip tmp/sbcli_mig-1.0.93.zip --markdown 20240509/s/sbcli-mig/1.0.92-1.0.93/README.md --exclude *.pyd
+[2024-05-09 01:30:24] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.8.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-09 01:30:24] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:30:24] INFO root fetch - processPackages [sufi]: Remove: archive file [/home/abi/fetcher/tmp/sufi-1.0.2.1.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - processPackages [sufi]: Remove: archive file [/home/abi/fetcher/tmp/sufi-1.0.2.2.tar.gz]
+[2024-05-09 01:30:24] INFO root fetch - main [MainThread]: End processing [sufi]: success
+[2024-05-09 01:30:25] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.92.zip]
+[2024-05-09 01:30:25] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.93.zip]
+[2024-05-09 01:30:25] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-09 01:30:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-09 01:30:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-09 01:30:35] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-09 01:30:35] INFO root fetch - main [MainThread]: Store serial: [23122301]
