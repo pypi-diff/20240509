@@ -2094,3 +2094,45 @@
 [2024-05-09 01:45:38] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-09 01:45:38] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-09 01:45:38] INFO root fetch - main [MainThread]: Store serial: [23122533]
+[2024-05-09 01:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122533]
+[2024-05-09 01:47:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-09 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-09 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cremornez
+[2024-05-09 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyyre
+[2024-05-09 01:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datupapi
+[2024-05-09 01:47:47] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:47:47] INFO root fetch - processPackages [lyyre]: New version: [2.9] Old Version: [2.8]
+[2024-05-09 01:47:47] INFO root fetch - processPackages [datupapi]: New version: [1.94.0] Old Version: [1.93.2]
+[2024-05-09 01:47:47] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/ab/21/746d8c09a4800a8002cb4adcfbfbe49d4a40d03a183b240d1191cb452cce/lyyre-2.8.tar.gz
+[2024-05-09 01:47:47] WARNING root fetch - processPackages [cremornez]: Skipping, unable to determine old version
+[2024-05-09 01:47:47] INFO root fetch - main [MainThread]: End processing [cremornez] error
+[2024-05-09 01:47:47] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/25/e4/f8bfbc1c21a940fc274b88bc5d5fd47eb8ecca19606c87f37aae92811b9a/datupapi-1.93.2.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715211174] Old Version: [0.0.21a1715130989]
+[2024-05-09 01:47:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/f1/59/3fcfeafa05d6bd87e6fa8d6e38aaf6559b257207bdcbe5fc191aed4189ba/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/86/70/32bd32893340e1868c2f3bc2fb43474222bedac64805df0c3b1be5157984/lyyre-2.9.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/41/a5/e6f534135c7b6568f3127ad537c8ac3cdcbe4a5328619c8c3c4fe84a7810/datupapi-1.94.0.tar.gz
+[2024-05-09 01:47:47] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:47:47] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:47:47] INFO root fetch - processPackages [lyyre]: executing diffoscope
+[2024-05-09 01:47:47] INFO root fetch - processPackages [lyyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyre-2.8.tar.gz tmp/lyyre-2.9.tar.gz --markdown 20240509/l/lyyre/2.8-2.9/README.md --exclude *.pyd
+[2024-05-09 01:47:47] INFO root fetch - processPackages [datupapi]: executing diffoscope
+[2024-05-09 01:47:47] INFO root fetch - processPackages [datupapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datupapi-1.93.2.tar.gz tmp/datupapi-1.94.0.tar.gz --markdown 20240509/d/datupapi/1.93.2-1.94.0/README.md --exclude *.pyd
+[2024-05-09 01:47:47] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/1c/48/504e0864b2a575e2d16521cfbdbad967e639eb9cea67e9a2263cf1ba0fbc/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz
+[2024-05-09 01:47:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-09 01:47:48] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz --markdown 20240509/p/pulumi-kubernetes-the-hard-way/0.0.21a1715130989-0.0.21a1715211174/README.md --exclude *.pyd
+[2024-05-09 01:47:48] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:47:48] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.8.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.9.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - main [MainThread]: End processing [lyyre]: success
+[2024-05-09 01:47:48] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.93.2.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.94.0.tar.gz]
+[2024-05-09 01:47:48] INFO root fetch - main [MainThread]: End processing [datupapi]: success
+[2024-05-09 01:47:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz]
+[2024-05-09 01:47:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz]
+[2024-05-09 01:47:49] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-09 01:47:49] INFO root fetch - main [MainThread]: Store serial: [23122553]
