@@ -408,3 +408,21 @@
 [2024-05-09 00:23:43] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
 [2024-05-09 00:23:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2024-05-09 00:23:43] INFO root fetch - main [MainThread]: Store serial: [23121747]
+[2024-05-09 00:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121747]
+[2024-05-09 00:25:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 00:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-custom-sidebar-test
+[2024-05-09 00:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magmaz
+[2024-05-09 00:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambient-event-bus-client
+[2024-05-09 00:25:52] WARNING root fetch - processPackages [ambient-event-bus-client]: Skipping, unable to determine old version
+[2024-05-09 00:25:52] INFO root fetch - main [MainThread]: End processing [ambient-event-bus-client] error
+[2024-05-09 00:25:52] WARNING root fetch - processPackages [magmaz]: Skipping, unable to determine old version
+[2024-05-09 00:25:52] INFO root fetch - main [MainThread]: End processing [magmaz] error
+[2024-05-09 00:25:52] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:25:52] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-09 00:25:53] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-09 00:25:53] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-09 00:25:53] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240509/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:26:04] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-09 00:26:04] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-09 00:26:04] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-09 00:26:04] INFO root fetch - main [MainThread]: Store serial: [23121758]
