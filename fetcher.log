@@ -279,3 +279,15 @@
 [2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2024.35.tar.gz]
 [2024-05-09 00:16:04] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
 [2024-05-09 00:16:04] INFO root fetch - main [MainThread]: Store serial: [23121692]
+[2024-05-09 00:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121692]
+[2024-05-09 00:18:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 00:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-newrelic
+[2024-05-09 00:18:13] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-09 00:18:13] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-09 00:18:13] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-09 00:18:13] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-09 00:18:13] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240509/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-09 00:18:15] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-09 00:18:15] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-09 00:18:15] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-09 00:18:15] INFO root fetch - main [MainThread]: Store serial: [23121695]
