@@ -942,3 +942,21 @@
 [2024-05-09 00:59:24] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.5rc0.tar.gz]
 [2024-05-09 00:59:24] INFO root fetch - main [MainThread]: End processing [T0]: success
 [2024-05-09 00:59:24] INFO root fetch - main [MainThread]: Store serial: [23122038]
+[2024-05-09 01:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122038]
+[2024-05-09 01:01:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prismdata
+[2024-05-09 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynocapai
+[2024-05-09 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lctest
+[2024-05-09 01:01:32] WARNING root fetch - processPackages [prismdata]: Skipping, unable to determine old version
+[2024-05-09 01:01:32] INFO root fetch - main [MainThread]: End processing [prismdata] error
+[2024-05-09 01:01:32] INFO root fetch - processPackages [lctest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 01:01:32] WARNING root fetch - processPackages [pynocapai]: Skipping, unable to determine old version
+[2024-05-09 01:01:32] INFO root fetch - main [MainThread]: End processing [pynocapai] error
+[2024-05-09 01:01:32] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/30/21/b11bc73922c5f9243ded151edbdc69080c966597372d6a1a846cab8fb7bc/lctest-0.1.8.tar.gz
+[2024-05-09 01:01:33] INFO root fetch - processPackages [lctest]: Downloading https://files.pythonhosted.org/packages/d5/2b/7f3f074fd56b8dc048566824039b5d358cc685bbcee6669b87bca6b17248/lctest-0.1.9.tar.gz
+[2024-05-09 01:01:33] INFO root fetch - processPackages [lctest]: executing diffoscope
+[2024-05-09 01:01:33] INFO root fetch - processPackages [lctest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lctest-0.1.8.tar.gz tmp/lctest-0.1.9.tar.gz --markdown 20240509/l/lctest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 01:01:34] INFO root fetch - processPackages [lctest]: Remove: archive file [/home/abi/fetcher/tmp/lctest-0.1.8.tar.gz]
+[2024-05-09 01:01:34] INFO root fetch - processPackages [lctest]: Remove: archive file [/home/abi/fetcher/tmp/lctest-0.1.9.tar.gz]
+[2024-05-09 01:01:34] INFO root fetch - main [MainThread]: End processing [lctest]: success
+[2024-05-09 01:01:34] INFO root fetch - main [MainThread]: Store serial: [23122050]
