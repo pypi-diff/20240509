@@ -512,3 +512,30 @@
 [2024-05-09 00:32:58] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.5.4.tar.gz]
 [2024-05-09 00:32:58] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2024-05-09 00:32:58] INFO root fetch - main [MainThread]: Store serial: [23121793]
+[2024-05-09 00:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121793]
+[2024-05-09 00:35:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 00:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysll
+[2024-05-09 00:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hal9
+[2024-05-09 00:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformation-wizzard
+[2024-05-09 00:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thierryz
+[2024-05-09 00:35:07] INFO root fetch - processPackages [pysll]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-09 00:35:07] INFO root fetch - processPackages [hal9]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-09 00:35:07] WARNING root fetch - processPackages [transformation-wizzard]: Skipping, unable to determine old version
+[2024-05-09 00:35:07] INFO root fetch - main [MainThread]: End processing [transformation-wizzard] error
+[2024-05-09 00:35:07] WARNING root fetch - processPackages [thierryz]: Skipping, unable to determine old version
+[2024-05-09 00:35:07] INFO root fetch - main [MainThread]: End processing [thierryz] error
+[2024-05-09 00:35:07] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/b3/2a/f293f428ee32bd4325dc724b70eca86bfba9626628e5356ae8229c1688a9/hal9-1.0.1.tar.gz
+[2024-05-09 00:35:07] INFO root fetch - processPackages [pysll]: Downloading https://files.pythonhosted.org/packages/74/4e/0f1345db0332c7bce997a2cd9518ebb90d27a169b5c493c715486feb43a3/pysll-0.1.2.tar.gz
+[2024-05-09 00:35:07] INFO root fetch - processPackages [pysll]: Downloading https://files.pythonhosted.org/packages/aa/20/f41b203d2a535e667b9c11ff168f6170c6e6d1a1d9a3538d61d6a9a479d4/pysll-0.2.0.tar.gz
+[2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: Downloading https://files.pythonhosted.org/packages/10/3b/04e809a6163dcdbf57ec33faa6ed32283195fdc22fd6ae4277a5dc54e39a/hal9-2.0.0.tar.gz
+[2024-05-09 00:35:08] INFO root fetch - processPackages [pysll]: executing diffoscope
+[2024-05-09 00:35:08] INFO root fetch - processPackages [pysll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysll-0.1.2.tar.gz tmp/pysll-0.2.0.tar.gz --markdown 20240509/p/pysll/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: executing diffoscope
+[2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hal9-1.0.1.tar.gz tmp/hal9-2.0.0.tar.gz --markdown 20240509/h/hal9/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-09 00:35:08] INFO root fetch - processPackages [pysll]: Remove: archive file [/home/abi/fetcher/tmp/pysll-0.1.2.tar.gz]
+[2024-05-09 00:35:08] INFO root fetch - processPackages [pysll]: Remove: archive file [/home/abi/fetcher/tmp/pysll-0.2.0.tar.gz]
+[2024-05-09 00:35:08] INFO root fetch - main [MainThread]: End processing [pysll]: success
+[2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-1.0.1.tar.gz]
+[2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.0.tar.gz]
+[2024-05-09 00:35:08] INFO root fetch - main [MainThread]: End processing [hal9]: success
+[2024-05-09 00:35:08] INFO root fetch - main [MainThread]: Store serial: [23121808]
