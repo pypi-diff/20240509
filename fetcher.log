@@ -452,3 +452,27 @@
 [2024-05-09 00:28:17] INFO root fetch - processPackages [arosics]: Remove: archive file [/home/abi/fetcher/tmp/arosics-1.9.4.tar.gz]
 [2024-05-09 00:28:17] INFO root fetch - main [MainThread]: End processing [arosics]: success
 [2024-05-09 00:28:17] INFO root fetch - main [MainThread]: Store serial: [23121766]
+[2024-05-09 00:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121766]
+[2024-05-09 00:30:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ob-metaflow
+[2024-05-09 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rakelyz
+[2024-05-09 00:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyto-dl
+[2024-05-09 00:30:26] INFO root fetch - processPackages [cyto-dl]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-09 00:30:26] WARNING root fetch - processPackages [rakelyz]: Skipping, unable to determine old version
+[2024-05-09 00:30:26] INFO root fetch - processPackages [ob-metaflow]: New version: [2.9.8.2] Old Version: [2.9.7.2]
+[2024-05-09 00:30:26] INFO root fetch - main [MainThread]: End processing [rakelyz] error
+[2024-05-09 00:30:26] INFO root fetch - processPackages [cyto-dl]: Downloading https://files.pythonhosted.org/packages/b3/8b/d63a5dc65c4df0fa35663a082ad2746b59b2a2746101c318f826d098fb99/cyto-dl-0.1.6.tar.gz
+[2024-05-09 00:30:26] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/d3/01/7b00a35e44dcec3a289d7ce4bbd4fbf5ba60a0d517faf7eefab46462c416/ob-metaflow-2.9.7.2.tar.gz
+[2024-05-09 00:30:27] INFO root fetch - processPackages [cyto-dl]: Downloading https://files.pythonhosted.org/packages/8e/60/5cd0e6c8d7b783abb78388ffaf07ed10db6525a3fcfd26af0dc3a962909b/cyto-dl-0.1.7.tar.gz
+[2024-05-09 00:30:27] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/87/6a/263a2c169f08c12eb7a83616e2011c96487f3c804fb07915ab6f6677dd0b/ob-metaflow-2.9.8.2.tar.gz
+[2024-05-09 00:30:27] INFO root fetch - processPackages [cyto-dl]: executing diffoscope
+[2024-05-09 00:30:27] INFO root fetch - processPackages [cyto-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyto-dl-0.1.6.tar.gz tmp/cyto-dl-0.1.7.tar.gz --markdown 20240509/c/cyto-dl/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-09 00:30:27] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2024-05-09 00:30:27] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.9.7.2.tar.gz tmp/ob-metaflow-2.9.8.2.tar.gz --markdown 20240509/o/ob-metaflow/2.9.7.2-2.9.8.2/README.md --exclude *.pyd
+[2024-05-09 00:30:28] INFO root fetch - processPackages [cyto-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyto-dl-0.1.6.tar.gz]
+[2024-05-09 00:30:28] INFO root fetch - processPackages [cyto-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyto-dl-0.1.7.tar.gz]
+[2024-05-09 00:30:28] INFO root fetch - main [MainThread]: End processing [cyto-dl]: success
+[2024-05-09 00:30:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.7.2.tar.gz]
+[2024-05-09 00:30:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
+[2024-05-09 00:30:32] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2024-05-09 00:30:32] INFO root fetch - main [MainThread]: Store serial: [23121776]
