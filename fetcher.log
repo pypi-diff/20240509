@@ -64,3 +64,58 @@
 [2024-05-09 00:04:59] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.6.2.tar.gz]
 [2024-05-09 00:04:59] INFO root fetch - main [MainThread]: End processing [sageworks]: success
 [2024-05-09 00:04:59] INFO root fetch - main [MainThread]: Store serial: [23121607]
+[2024-05-09 00:07:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121607]
+[2024-05-09 00:07:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-sdk-preview
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgefirst-schemas
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-shapes
+[2024-05-09 00:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amazon-braket-pennylane-plugin
+[2024-05-09 00:07:07] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.96] Old Version: [2.1.95]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [edgefirst-schemas]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-09 00:07:07] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 00:07:07] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 00:07:07] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-09 00:07:07] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e7/4a/b0e45720db419ba72af3f905a6be43edb0d54365dc62b1d1dd9331447d70/lusid_sdk-2.1.95.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [edgefirst-schemas]: Downloading https://files.pythonhosted.org/packages/57/d6/2946c61c373b8c20bbce1b14fcd60843d5a3191cc9ea4f22862b7a818796/edgefirst_schemas-1.1.1-py3-none-any.whl
+[2024-05-09 00:07:08] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/95/95/8e28d0f8b5ef7a7ecb48c398bbc026f6e765510347b46a114a993653e369/amazon-braket-pennylane-plugin-1.8.0.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:07:08] INFO root fetch - processPackages [edgefirst-schemas]: Downloading https://files.pythonhosted.org/packages/0b/a9/5209a7971ffe009a1c2a07358d72397c765388c109576ac0c5197e7cfcad/edgefirst_schemas-1.2.0-py3-none-any.whl
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/f9/28/7b0496fbba3a76ce25d9e4ba7bb672cbc52af5b14363f5e58830bbff5284/lusid_sdk-2.1.96.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/20/1b/9eacc1dc4e4a53515e50e9d14155ef17ff031ee0f90420b437271f5026f6/amazon-braket-pennylane-plugin-1.9.0.tar.gz
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240509/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-09 00:07:08] INFO root fetch - processPackages [edgefirst-schemas]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [edgefirst-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgefirst_schemas-1.1.1-py3-none-any.whl.zip tmp/edgefirst_schemas-1.2.0-py3-none-any.whl.zip --markdown 20240509/e/edgefirst-schemas/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-09 00:07:08] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20240509/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-09 00:07:08] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.95.tar.gz tmp/lusid_sdk-2.1.96.tar.gz --markdown 20240509/l/lusid-sdk/2.1.95-2.1.96/README.md --exclude *.pyd
+[2024-05-09 00:07:09] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 00:07:09] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 00:07:09] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 00:07:09] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 00:07:09] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz]
+[2024-05-09 00:07:09] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz]
+[2024-05-09 00:07:09] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2024-05-09 00:07:09] INFO root fetch - processPackages [edgefirst-schemas]: Remove: archive file [/home/abi/fetcher/tmp/edgefirst_schemas-1.1.1-py3-none-any.whl.zip]
+[2024-05-09 00:07:09] INFO root fetch - processPackages [edgefirst-schemas]: Remove: archive file [/home/abi/fetcher/tmp/edgefirst_schemas-1.2.0-py3-none-any.whl.zip]
+[2024-05-09 00:07:09] INFO root fetch - main [MainThread]: End processing [edgefirst-schemas]: success
+[2024-05-09 00:07:13] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.95.tar.gz]
+[2024-05-09 00:07:13] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.96.tar.gz]
+[2024-05-09 00:07:13] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-09 00:07:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-09 00:07:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-09 00:07:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-09 00:07:22] INFO root fetch - main [MainThread]: Store serial: [23121624]
