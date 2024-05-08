@@ -1215,3 +1215,21 @@
 [2024-05-09 01:14:42] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-09 01:14:42] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-09 01:14:42] INFO root fetch - main [MainThread]: Store serial: [23122165]
+[2024-05-09 01:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122165]
+[2024-05-09 01:16:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylibme73
+[2024-05-09 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spencer-funcs
+[2024-05-09 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freegenius
+[2024-05-09 01:16:51] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 01:16:51] WARNING root fetch - processPackages [spencer-funcs]: Skipping, unable to determine old version
+[2024-05-09 01:16:51] INFO root fetch - main [MainThread]: End processing [spencer-funcs] error
+[2024-05-09 01:16:51] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-09 01:16:51] WARNING root fetch - processPackages [pylibme73]: Skipping, unable to determine old version
+[2024-05-09 01:16:51] INFO root fetch - main [MainThread]: End processing [pylibme73] error
+[2024-05-09 01:16:52] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-09 01:16:52] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-09 01:16:52] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240509/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 01:16:54] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-09 01:16:54] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-09 01:16:54] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-09 01:16:54] INFO root fetch - main [MainThread]: Store serial: [23122175]
