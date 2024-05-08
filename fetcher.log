@@ -119,3 +119,52 @@
 [2024-05-09 00:07:22] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-09 00:07:22] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-09 00:07:22] INFO root fetch - main [MainThread]: Store serial: [23121624]
+[2024-05-09 00:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121624]
+[2024-05-09 00:09:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lifton
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rutificador
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-shapes
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-audio
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperdeliciouslyz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:09:31] INFO root fetch - processPackages [lifton]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 00:09:31] INFO root fetch - processPackages [neon-audio]: New version: [1.5.2a5] Old Version: [1.5.2a4]
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [rutificador]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 00:09:31] WARNING root fetch - processPackages [hyperdeliciouslyz]: Skipping, unable to determine old version
+[2024-05-09 00:09:31] INFO root fetch - main [MainThread]: End processing [hyperdeliciouslyz] error
+[2024-05-09 00:09:31] INFO root fetch - processPackages [lifton]: Downloading https://files.pythonhosted.org/packages/16/3d/5c53476aca8780a78384658e836ce19a8024600818016c27faec269dc15c/lifton-1.0.1.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/3f/d8/d188c9277093fd6f36c99a0cced11ea806d563aefc4a6c68920f7ef3a731/neon-audio-1.5.2a4.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/c7/88/2ef11778f94b4667297b99cc8130c12efc3c858233f2b800dcbabd92161e/rutificador-0.2.8.tar.gz
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 00:09:31] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:09:31] INFO root fetch - processPackages [lifton]: Downloading https://files.pythonhosted.org/packages/5e/ab/12254450e995726fbb6531d8a1de325056bf04f36ec55a93d98e7893e7b2/lifton-1.0.2.tar.gz
+[2024-05-09 00:09:32] INFO root fetch - processPackages [neon-audio]: Downloading https://files.pythonhosted.org/packages/e7/f0/e04824a2f8b0ca6224f4c5ca6b69e514425e69be3b655b127c29ec46940e/neon-audio-1.5.2a5.tar.gz
+[2024-05-09 00:09:32] INFO root fetch - processPackages [lifton]: executing diffoscope
+[2024-05-09 00:09:32] INFO root fetch - processPackages [lifton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifton-1.0.1.tar.gz tmp/lifton-1.0.2.tar.gz --markdown 20240509/l/lifton/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 00:09:32] INFO root fetch - processPackages [neon-audio]: executing diffoscope
+[2024-05-09 00:09:32] INFO root fetch - processPackages [neon-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-audio-1.5.2a4.tar.gz tmp/neon-audio-1.5.2a5.tar.gz --markdown 20240509/n/neon-audio/1.5.2a4-1.5.2a5/README.md --exclude *.pyd
+[2024-05-09 00:09:32] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/24/2b/416003b9a6eec30f728f1903a0d573ba330f74bad897b64bd2be8f4b1271/rutificador-0.2.9.tar.gz
+[2024-05-09 00:09:32] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-09 00:09:32] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.2.8.tar.gz tmp/rutificador-0.2.9.tar.gz --markdown 20240509/r/rutificador/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 00:09:32] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 00:09:32] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 00:09:32] INFO root fetch - processPackages [neon-audio]: Remove: archive file [/home/abi/fetcher/tmp/neon-audio-1.5.2a4.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - processPackages [neon-audio]: Remove: archive file [/home/abi/fetcher/tmp/neon-audio-1.5.2a5.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - main [MainThread]: End processing [neon-audio]: success
+[2024-05-09 00:09:32] INFO root fetch - processPackages [lifton]: Remove: archive file [/home/abi/fetcher/tmp/lifton-1.0.1.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - processPackages [lifton]: Remove: archive file [/home/abi/fetcher/tmp/lifton-1.0.2.tar.gz]
+[2024-05-09 00:09:32] INFO root fetch - main [MainThread]: End processing [lifton]: success
+[2024-05-09 00:09:33] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.8.tar.gz]
+[2024-05-09 00:09:33] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.9.tar.gz]
+[2024-05-09 00:09:33] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-09 00:09:33] INFO root fetch - main [MainThread]: Store serial: [23121644]
