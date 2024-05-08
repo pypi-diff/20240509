@@ -614,3 +614,66 @@
 [2024-05-09 00:39:40] INFO root fetch - processPackages [cohdl]: Remove: archive file [/home/abi/fetcher/tmp/cohdl-0.2.2.tar.gz]
 [2024-05-09 00:39:40] INFO root fetch - main [MainThread]: End processing [cohdl]: success
 [2024-05-09 00:39:40] INFO root fetch - main [MainThread]: Store serial: [23121852]
+[2024-05-09 00:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121852]
+[2024-05-09 00:41:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: confhub
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comfy-cli
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heliographyz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-bus-client
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvdataloading
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PKNSETools
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-transformation-wizzard
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grader-helper
+[2024-05-09 00:41:50] INFO root fetch - processPackages [confhub]: New version: [0.0.3a0] Old Version: [0.0.3.5a0]
+[2024-05-09 00:41:50] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:41:50] WARNING root fetch - processPackages [cvdataloading]: Skipping, unable to determine old version
+[2024-05-09 00:41:50] INFO root fetch - main [MainThread]: End processing [cvdataloading] error
+[2024-05-09 00:41:50] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [data-transformation-wizzard]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 00:41:50] WARNING root fetch - processPackages [heliographyz]: Skipping, unable to determine old version
+[2024-05-09 00:41:50] INFO root fetch - main [MainThread]: End processing [heliographyz] error
+[2024-05-09 00:41:50] INFO root fetch - processPackages [grader-helper]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.9a9] Old Version: [0.0.9a8]
+[2024-05-09 00:41:50] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240508.100] Old Version: [0.1.20240506.99]
+[2024-05-09 00:41:50] INFO root fetch - processPackages [confhub]: Downloading https://files.pythonhosted.org/packages/b9/7b/b6ab2f2af4804b38fddbe3769b19e59ecf36b190b08a0340b51c6e7487af/confhub-0.0.3.5a0.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/3d/12/798d8fdb11717f8dfd6e27ce7150b1983b0c31e74ffbf631cb73cc431981/PKNSETools-0.1.20240506.99.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [data-transformation-wizzard]: Downloading https://files.pythonhosted.org/packages/65/38/9020839f764523ae3fedced974eafc44bcfe175fee47c819c797c29e0363/data_transformation_wizzard-0.1.0.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/7a/fc/058038f47351d38900be347f79d08b82e50fedb9fb458da3a14d686934f1/grader_helper-0.1.5.tar.gz
+[2024-05-09 00:41:50] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/48/67/a3f7fa596d43ebf50ef4417ed98aeb2f4710f242de2f500bb079e132f7f8/ovos-bus-client-0.0.9a8.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240509/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [confhub]: Downloading https://files.pythonhosted.org/packages/0a/b1/a782d555929f08a244e58c2c4640e5cc405f5392fffd0dca55d07cd65c25/confhub-0.0.3a0.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [confhub]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [confhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confhub-0.0.3.5a0.tar.gz tmp/confhub-0.0.3a0.tar.gz --markdown 20240509/c/confhub/0.0.3.5a0-0.0.3a0/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/5c/8d/a2bcf828b6317bee9d7b731272ce8eb6f9e200c4ff438791fed29acc3cce/PKNSETools-0.1.20240508.100.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/3f/fb/916ab20f59b8bba4b2fb52d25a687ce7929acb797d7368dfec64e92485bd/grader_helper-0.1.6.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [data-transformation-wizzard]: Downloading https://files.pythonhosted.org/packages/20/da/b4dd4fd03e944971b5e700b6858125b3233a3a7469fb55b02feea0f9cdde/data_transformation_wizzard-0.1.1.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/6c/1d/335214bf8b8e351022da81df48337c36be2b9689c9c776c9e42dcf44ff7d/ovos-bus-client-0.0.9a9.tar.gz
+[2024-05-09 00:41:51] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240506.99.tar.gz tmp/PKNSETools-0.1.20240508.100.tar.gz --markdown 20240509/P/PKNSETools/0.1.20240506.99-0.1.20240508.100/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [data-transformation-wizzard]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [data-transformation-wizzard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_transformation_wizzard-0.1.0.tar.gz tmp/data_transformation_wizzard-0.1.1.tar.gz --markdown 20240509/d/data-transformation-wizzard/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [grader-helper]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [grader-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grader_helper-0.1.5.tar.gz tmp/grader_helper-0.1.6.tar.gz --markdown 20240509/g/grader-helper/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2024-05-09 00:41:51] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.9a8.tar.gz tmp/ovos-bus-client-0.0.9a9.tar.gz --markdown 20240509/o/ovos-bus-client/0.0.9a8-0.0.9a9/README.md --exclude *.pyd
+[2024-05-09 00:41:51] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-09 00:41:51] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-09 00:41:51] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-09 00:41:51] INFO root fetch - processPackages [confhub]: Remove: archive file [/home/abi/fetcher/tmp/confhub-0.0.3.5a0.tar.gz]
+[2024-05-09 00:41:51] INFO root fetch - processPackages [confhub]: Remove: archive file [/home/abi/fetcher/tmp/confhub-0.0.3a0.tar.gz]
+[2024-05-09 00:41:51] INFO root fetch - main [MainThread]: End processing [confhub]: success
+[2024-05-09 00:41:52] INFO root fetch - processPackages [data-transformation-wizzard]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_wizzard-0.1.0.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - processPackages [data-transformation-wizzard]: Remove: archive file [/home/abi/fetcher/tmp/data_transformation_wizzard-0.1.1.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - main [MainThread]: End processing [data-transformation-wizzard]: success
+[2024-05-09 00:41:52] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240506.99.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240508.100.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-05-09 00:41:52] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.5.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.6.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - main [MainThread]: End processing [grader-helper]: success
+[2024-05-09 00:41:52] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.9a8.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.9a9.tar.gz]
+[2024-05-09 00:41:52] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2024-05-09 00:41:52] INFO root fetch - main [MainThread]: Store serial: [23121880]
