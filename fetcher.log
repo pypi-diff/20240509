@@ -909,3 +909,36 @@
 [2024-05-09 00:57:14] WARNING root fetch - processPackages [kennz]: Skipping, unable to determine old version
 [2024-05-09 00:57:14] INFO root fetch - main [MainThread]: End processing [kennz] error
 [2024-05-09 00:57:14] INFO root fetch - main [MainThread]: Store serial: [23122025]
+[2024-05-09 00:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122025]
+[2024-05-09 00:59:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeFiPy
+[2024-05-09 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: T0
+[2024-05-09 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zep-cloud
+[2024-05-09 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vertice
+[2024-05-09 00:59:22] INFO root fetch - processPackages [zep-cloud]: New version: [1.0.0rc1] Old Version: [0.0.1rc1]
+[2024-05-09 00:59:22] INFO root fetch - processPackages [DeFiPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:59:22] INFO root fetch - processPackages [T0]: New version: [4.0.5rc0] Old Version: [4.0.4rc0]
+[2024-05-09 00:59:22] WARNING root fetch - processPackages [vertice]: Skipping, unable to determine old version
+[2024-05-09 00:59:22] INFO root fetch - main [MainThread]: End processing [vertice] error
+[2024-05-09 00:59:22] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/f9/25/468d8aef760402600a00d12927dc87a10a042fe893cdb31e50331a80b532/zep_cloud-0.0.1rc1.tar.gz
+[2024-05-09 00:59:22] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/c7/cc/a06e8aaa51d6f3998c427f4738063cf4da2cdc58e52b460e1f8d0b50e0ee/t0-4.0.4rc0.tar.gz
+[2024-05-09 00:59:22] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/dc/9b/4b3c802e4dae071394ba27afe644534c7343d192519c932d9f47c592db64/DeFiPy-0.0.8.tar.gz
+[2024-05-09 00:59:22] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/e4/20/ed5bbac162b1ae453ca3acbc2fadfed125f97946a4d1c70ae949ad92386f/zep_cloud-1.0.0rc1.tar.gz
+[2024-05-09 00:59:23] INFO root fetch - processPackages [zep-cloud]: executing diffoscope
+[2024-05-09 00:59:23] INFO root fetch - processPackages [zep-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_cloud-0.0.1rc1.tar.gz tmp/zep_cloud-1.0.0rc1.tar.gz --markdown 20240509/z/zep-cloud/0.0.1rc1-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-09 00:59:23] INFO root fetch - processPackages [T0]: Downloading https://files.pythonhosted.org/packages/51/3c/7ecf439c1c461a46fb3c48be74078beaa157efdf481d166735640a834c6f/t0-4.0.5rc0.tar.gz
+[2024-05-09 00:59:23] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/c6/4a/9e5e65acc4c127e8cc615783ca5a1d8a5a658e0d6a8cfe61a1d50f8ed7db/DeFiPy-0.0.9.tar.gz
+[2024-05-09 00:59:23] INFO root fetch - processPackages [T0]: executing diffoscope
+[2024-05-09 00:59:23] INFO root fetch - processPackages [T0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-4.0.4rc0.tar.gz tmp/t0-4.0.5rc0.tar.gz --markdown 20240509/T/T0/4.0.4rc0-4.0.5rc0/README.md --exclude *.pyd
+[2024-05-09 00:59:23] INFO root fetch - processPackages [DeFiPy]: executing diffoscope
+[2024-05-09 00:59:23] INFO root fetch - processPackages [DeFiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeFiPy-0.0.8.tar.gz tmp/DeFiPy-0.0.9.tar.gz --markdown 20240509/D/DeFiPy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:59:23] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-0.0.1rc1.tar.gz]
+[2024-05-09 00:59:23] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.0rc1.tar.gz]
+[2024-05-09 00:59:23] INFO root fetch - main [MainThread]: End processing [zep-cloud]: success
+[2024-05-09 00:59:23] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.8.tar.gz]
+[2024-05-09 00:59:23] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.9.tar.gz]
+[2024-05-09 00:59:23] INFO root fetch - main [MainThread]: End processing [DeFiPy]: success
+[2024-05-09 00:59:24] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.4rc0.tar.gz]
+[2024-05-09 00:59:24] INFO root fetch - processPackages [T0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.5rc0.tar.gz]
+[2024-05-09 00:59:24] INFO root fetch - main [MainThread]: End processing [T0]: success
+[2024-05-09 00:59:24] INFO root fetch - main [MainThread]: Store serial: [23122038]
