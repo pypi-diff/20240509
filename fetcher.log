@@ -1143,3 +1143,33 @@
 [2024-05-09 01:10:21] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.6.0.tar.gz]
 [2024-05-09 01:10:21] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
 [2024-05-09 01:10:21] INFO root fetch - main [MainThread]: Store serial: [23122139]
+[2024-05-09 01:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122139]
+[2024-05-09 01:12:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packaged
+[2024-05-09 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loadspinner
+[2024-05-09 01:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moesifapi
+[2024-05-09 01:12:29] INFO root fetch - processPackages [packaged]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/f9/d7/e431a8cebda9e88d71e379798773dc589ee3f7bfdb46e442b6c209434c40/packaged-0.0.0.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [moesifapi]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-09 01:12:30] INFO root fetch - processPackages [loadspinner]: New version: [0.3] Old Version: [0.2]
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/92/15/42b77c7313f58828a823dc3a3d1f0baad009f25256a46dc9103e10f9f45e/packaged-0.0.1.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [loadspinner]: Downloading https://files.pythonhosted.org/packages/f6/95/a728a5539c5e7bb56a2891b959f41c8895c91438a71a8793ecfdaec28c59/loadspinner-0.2.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/cb/d8/67c8c79197df431d20a77f24d82ab592deff9d073ce66535f7e50da4659f/moesifapi-1.4.5.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: executing diffoscope
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaged-0.0.0.tar.gz tmp/packaged-0.0.1.tar.gz --markdown 20240509/p/packaged/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-09 01:12:30] INFO root fetch - processPackages [loadspinner]: Downloading https://files.pythonhosted.org/packages/84/d0/8d3fa04c0eb4ee2117bd88a357a7c791f94fa17db390f46e03bbfd9c8be6/loadspinner-0.3.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [loadspinner]: executing diffoscope
+[2024-05-09 01:12:30] INFO root fetch - processPackages [loadspinner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loadspinner-0.2.tar.gz tmp/loadspinner-0.3.tar.gz --markdown 20240509/l/loadspinner/0.2-0.3/README.md --exclude *.pyd
+[2024-05-09 01:12:30] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/1b/16/d1e679c703c24e75e0ee21b6821456b664436fead14e9037102ed9168850/moesifapi-1.4.6.tar.gz
+[2024-05-09 01:12:30] INFO root fetch - processPackages [moesifapi]: executing diffoscope
+[2024-05-09 01:12:30] INFO root fetch - processPackages [moesifapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifapi-1.4.5.tar.gz tmp/moesifapi-1.4.6.tar.gz --markdown 20240509/m/moesifapi/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.0.0.tar.gz]
+[2024-05-09 01:12:30] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.0.1.tar.gz]
+[2024-05-09 01:12:30] INFO root fetch - main [MainThread]: End processing [packaged]: success
+[2024-05-09 01:12:31] INFO root fetch - processPackages [loadspinner]: Remove: archive file [/home/abi/fetcher/tmp/loadspinner-0.2.tar.gz]
+[2024-05-09 01:12:31] INFO root fetch - processPackages [loadspinner]: Remove: archive file [/home/abi/fetcher/tmp/loadspinner-0.3.tar.gz]
+[2024-05-09 01:12:31] INFO root fetch - main [MainThread]: End processing [loadspinner]: success
+[2024-05-09 01:12:31] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.5.tar.gz]
+[2024-05-09 01:12:31] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.6.tar.gz]
+[2024-05-09 01:12:31] INFO root fetch - main [MainThread]: End processing [moesifapi]: success
+[2024-05-09 01:12:31] INFO root fetch - main [MainThread]: Store serial: [23122149]
