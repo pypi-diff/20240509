@@ -1500,3 +1500,15 @@
 [2024-05-09 01:30:35] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-09 01:30:35] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-09 01:30:35] INFO root fetch - main [MainThread]: Store serial: [23122301]
+[2024-05-09 01:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122301]
+[2024-05-09 01:32:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 01:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compendium
+[2024-05-09 01:32:45] INFO root fetch - processPackages [compendium]: New version: [0.1.3.post5] Old Version: [0.1.3]
+[2024-05-09 01:32:45] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/58/f9/a7678687fe0a78555fd0156480202ea7c558b03fe4151aad57431742b82c/compendium-0.1.3.tar.gz
+[2024-05-09 01:32:46] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/88/2b/d6c59ef834af85e7b4f6a87d23ac1f2f555a9ea6a14bcb9e0f7f892b6a4f/compendium-0.1.3.post5.tar.gz
+[2024-05-09 01:32:46] INFO root fetch - processPackages [compendium]: executing diffoscope
+[2024-05-09 01:32:46] INFO root fetch - processPackages [compendium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compendium-0.1.3.tar.gz tmp/compendium-0.1.3.post5.tar.gz --markdown 20240509/c/compendium/0.1.3-0.1.3.post5/README.md --exclude *.pyd
+[2024-05-09 01:32:46] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.tar.gz]
+[2024-05-09 01:32:46] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post5.tar.gz]
+[2024-05-09 01:32:46] INFO root fetch - main [MainThread]: End processing [compendium]: success
+[2024-05-09 01:32:46] INFO root fetch - main [MainThread]: Store serial: [23122304]
