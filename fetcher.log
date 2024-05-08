@@ -960,3 +960,63 @@
 [2024-05-09 01:01:34] INFO root fetch - processPackages [lctest]: Remove: archive file [/home/abi/fetcher/tmp/lctest-0.1.9.tar.gz]
 [2024-05-09 01:01:34] INFO root fetch - main [MainThread]: End processing [lctest]: success
 [2024-05-09 01:01:34] INFO root fetch - main [MainThread]: Store serial: [23122050]
+[2024-05-09 01:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122050]
+[2024-05-09 01:03:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tautsz
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadrivenquadrature
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ploomber-cloud
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelstore
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: affixapi
+[2024-05-09 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PKDevTools
+[2024-05-09 01:03:43] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:03:44] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-09 01:03:44] WARNING root fetch - processPackages [tautsz]: Skipping, unable to determine old version
+[2024-05-09 01:03:44] INFO root fetch - main [MainThread]: End processing [tautsz] error
+[2024-05-09 01:03:44] INFO root fetch - processPackages [affixapi]: New version: [1.1.67] Old Version: [1.1.65]
+[2024-05-09 01:03:44] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [datadrivenquadrature]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-09 01:03:44] INFO root fetch - processPackages [modelstore]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-05-09 01:03:44] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240508.111] Old Version: [0.13.20240505.110]
+[2024-05-09 01:03:44] INFO root fetch - processPackages [datadrivenquadrature]: Downloading https://files.pythonhosted.org/packages/66/3b/71df8eab9aa10e2669c901180511b9d07da818164a7b5581d4ccb387867f/datadrivenquadrature-1.0.0.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/f8/0b/4cbac5c82dc96052b5765eb65d0c2e2abb9ad7f02f0195b8358910c7dfb1/ploomber-cloud-0.2.6.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/64/20/3411df8d17cb8e6db1f29178dc6862d3f824a3df93e89ea33d61af02663a/affixapi-1.1.65.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/cd/d3/88262cfd30f161c13cd5f72a9bc9d083276afeb2901404b969509dd6fe85/PKDevTools-0.13.20240505.110.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [modelstore]: Downloading https://files.pythonhosted.org/packages/36/5c/a188af17b7fed6a067effa7e57f164b1ee4eeaab52c3f79e74eee325aa66/modelstore-0.0.80.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:03:44] INFO root fetch - processPackages [datadrivenquadrature]: Downloading https://files.pythonhosted.org/packages/e9/87/99cbd66ebe137b01632c5c778005f0c97af842ff086f3a0f21ca7dbae8f1/datadrivenquadrature-1.0.1.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/ef/d2/79546fea27a6a33201f3d0dbebb928c7c7ecb722b1c266dd08336bf5144e/affixapi-1.1.67.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/d1/63/f17baca061e3103a7a7b1ec643e94d42dea7b9db176419467b908f2039b3/PKDevTools-0.13.20240508.111.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/0d/6d/e452666e34690f7e6e2b7f575a95ac3efd05e603cf4cc7b1edbb4d3d9429/ploomber-cloud-0.2.7.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [datadrivenquadrature]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [datadrivenquadrature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadrivenquadrature-1.0.0.tar.gz tmp/datadrivenquadrature-1.0.1.tar.gz --markdown 20240509/d/datadrivenquadrature/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-09 01:03:44] INFO root fetch - processPackages [modelstore]: Downloading https://files.pythonhosted.org/packages/e1/73/bf16f7571c114ad8104b4df5858a90023d4d35d4aac730370de08995ec04/modelstore-0.0.81.tar.gz
+[2024-05-09 01:03:44] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.65.tar.gz tmp/affixapi-1.1.67.tar.gz --markdown 20240509/a/affixapi/1.1.65-1.1.67/README.md --exclude *.pyd
+[2024-05-09 01:03:44] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.2.6.tar.gz tmp/ploomber-cloud-0.2.7.tar.gz --markdown 20240509/p/ploomber-cloud/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-09 01:03:44] INFO root fetch - processPackages [modelstore]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [modelstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelstore-0.0.80.tar.gz tmp/modelstore-0.0.81.tar.gz --markdown 20240509/m/modelstore/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-05-09 01:03:44] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-05-09 01:03:44] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240505.110.tar.gz tmp/PKDevTools-0.13.20240508.111.tar.gz --markdown 20240509/P/PKDevTools/0.13.20240505.110-0.13.20240508.111/README.md --exclude *.pyd
+[2024-05-09 01:03:45] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:03:45] INFO root fetch - processPackages [datadrivenquadrature]: Remove: archive file [/home/abi/fetcher/tmp/datadrivenquadrature-1.0.0.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [datadrivenquadrature]: Remove: archive file [/home/abi/fetcher/tmp/datadrivenquadrature-1.0.1.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [datadrivenquadrature]: success
+[2024-05-09 01:03:45] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.6.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.2.7.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-05-09 01:03:45] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240505.110.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240508.111.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-05-09 01:03:45] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.65.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.67.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-09 01:03:45] INFO root fetch - processPackages [modelstore]: Remove: archive file [/home/abi/fetcher/tmp/modelstore-0.0.80.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - processPackages [modelstore]: Remove: archive file [/home/abi/fetcher/tmp/modelstore-0.0.81.tar.gz]
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [modelstore]: success
+[2024-05-09 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23122072]
