@@ -882,3 +882,24 @@
 [2024-05-09 00:52:55] WARNING root fetch - processPackages [acetylz]: Skipping, unable to determine old version
 [2024-05-09 00:52:55] INFO root fetch - main [MainThread]: End processing [acetylz] error
 [2024-05-09 00:52:55] INFO root fetch - main [MainThread]: Store serial: [23122015]
+[2024-05-09 00:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122015]
+[2024-05-09 00:55:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animeflvV2
+[2024-05-09 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opex-manifest-generator
+[2024-05-09 00:55:04] INFO root fetch - processPackages [animeflvV2]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 00:55:04] INFO root fetch - processPackages [opex-manifest-generator]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-05-09 00:55:04] INFO root fetch - processPackages [opex-manifest-generator]: Downloading https://files.pythonhosted.org/packages/b2/03/361f0b88b31373fc235a666de69d62a651100ff61418ae57f83e584d8146/opex_manifest_generator-1.1.7.tar.gz
+[2024-05-09 00:55:04] INFO root fetch - processPackages [animeflvV2]: Downloading https://files.pythonhosted.org/packages/25/b6/d26596485f5a8b781c8d88ad50e492b9cfab9c9b871c20b34fc489bb9d66/animeflvV2-0.0.7.tar.gz
+[2024-05-09 00:55:05] INFO root fetch - processPackages [opex-manifest-generator]: Downloading https://files.pythonhosted.org/packages/55/30/5f62c8ddffefe40bf2187b05f701736263f9c137d48ed248f62f915a68f6/opex_manifest_generator-1.1.8.tar.gz
+[2024-05-09 00:55:05] INFO root fetch - processPackages [animeflvV2]: Downloading https://files.pythonhosted.org/packages/ef/a1/b82ab3dedabbeac62121d051cd192c40ffd8ef2acd71aaa2484899bc8727/animeflvv2-0.0.8.tar.gz
+[2024-05-09 00:55:05] INFO root fetch - processPackages [opex-manifest-generator]: executing diffoscope
+[2024-05-09 00:55:05] INFO root fetch - processPackages [opex-manifest-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opex_manifest_generator-1.1.7.tar.gz tmp/opex_manifest_generator-1.1.8.tar.gz --markdown 20240509/o/opex-manifest-generator/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-05-09 00:55:05] INFO root fetch - processPackages [animeflvV2]: executing diffoscope
+[2024-05-09 00:55:05] INFO root fetch - processPackages [animeflvV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animeflvV2-0.0.7.tar.gz tmp/animeflvv2-0.0.8.tar.gz --markdown 20240509/a/animeflvV2/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 00:55:05] INFO root fetch - processPackages [animeflvV2]: Remove: archive file [/home/abi/fetcher/tmp/animeflvV2-0.0.7.tar.gz]
+[2024-05-09 00:55:05] INFO root fetch - processPackages [animeflvV2]: Remove: archive file [/home/abi/fetcher/tmp/animeflvv2-0.0.8.tar.gz]
+[2024-05-09 00:55:05] INFO root fetch - main [MainThread]: End processing [animeflvV2]: success
+[2024-05-09 00:55:05] INFO root fetch - processPackages [opex-manifest-generator]: Remove: archive file [/home/abi/fetcher/tmp/opex_manifest_generator-1.1.7.tar.gz]
+[2024-05-09 00:55:05] INFO root fetch - processPackages [opex-manifest-generator]: Remove: archive file [/home/abi/fetcher/tmp/opex_manifest_generator-1.1.8.tar.gz]
+[2024-05-09 00:55:05] INFO root fetch - main [MainThread]: End processing [opex-manifest-generator]: success
+[2024-05-09 00:55:05] INFO root fetch - main [MainThread]: Store serial: [23122021]
