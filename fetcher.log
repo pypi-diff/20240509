@@ -1338,3 +1338,69 @@
 [2024-05-09 01:23:37] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-09 01:23:37] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-09 01:23:37] INFO root fetch - main [MainThread]: Store serial: [23122219]
+[2024-05-09 01:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122219]
+[2024-05-09 01:25:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evdev-binary
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volunteerz
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm-client
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openllm-core
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymatgen-io-validation
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fred-pandas
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptquality
+[2024-05-09 01:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lyyre
+[2024-05-09 01:25:48] INFO root fetch - processPackages [lyyre]: New version: [2.7] Old Version: [2.6]
+[2024-05-09 01:25:48] WARNING root fetch - processPackages [evdev-binary]: Skipping, unable to determine old version
+[2024-05-09 01:25:48] INFO root fetch - main [MainThread]: End processing [evdev-binary] error
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2024-05-09 01:25:48] INFO root fetch - processPackages [pymatgen-io-validation]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 01:25:48] WARNING root fetch - processPackages [volunteerz]: Skipping, unable to determine old version
+[2024-05-09 01:25:48] INFO root fetch - main [MainThread]: End processing [volunteerz] error
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2024-05-09 01:25:48] WARNING root fetch - processPackages [fred-pandas]: Skipping, unable to determine old version
+[2024-05-09 01:25:48] INFO root fetch - main [MainThread]: End processing [fred-pandas] error
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2024-05-09 01:25:48] INFO root fetch - processPackages [promptquality]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-09 01:25:48] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/75/87/991458f1ef8ff1d17b255c22513cfc3b0ffc6465a78866cc6ac3be36e9b1/lyyre-2.6.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/b6/15/d8c18b72c0f9cd2fed242a3f5408347eb59c2a2578785a052de58fd7d68b/openllm_core-0.5.0a3.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [pymatgen-io-validation]: Downloading https://files.pythonhosted.org/packages/a4/e5/199612be26cf53717eca65c5fae26c9011471a6a3f684ea382fae26dbab6/pymatgen_io_validation-0.0.2.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/2e/88/9c65fd521722b9dec294189d8908bf6f2ce478e0a4fac977c7b0724ce83c/openllm_client-0.5.0a3.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/29/9f/0585dad15a235a88c5fc9810df08f6eacb90687ac44c4d8e319476aece67/promptquality-0.9.1.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/73/2c/bda7ef920c1b2dfd62093a5c48d121ded56d0856b451875e3016b84fdb99/openllm-0.5.0a3.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [lyyre]: Downloading https://files.pythonhosted.org/packages/2c/b3/fb6945e5621d660c915767086ffa0fc65384b8cd8dc7973026dbe0aee276/lyyre-2.7.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [pymatgen-io-validation]: Downloading https://files.pythonhosted.org/packages/df/6c/01ea01d83c7ed8259a25bd8dd5ef81cbbfa115c46b002be671cb2a92b3e4/pymatgen_io_validation-0.0.3.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/80/89/43fccd1d0888ca64647a07c2907817ecf074e24b55407c22d4a381fad036/openllm_core-0.5.0a4.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [lyyre]: executing diffoscope
+[2024-05-09 01:25:48] INFO root fetch - processPackages [lyyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyre-2.6.tar.gz tmp/lyyre-2.7.tar.gz --markdown 20240509/l/lyyre/2.6-2.7/README.md --exclude *.pyd
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/03/4e/2be56a3442acf494ef532f5bfad832abcdb9b17e1f0baa391ed965af8a6c/openllm_client-0.5.0a4.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [pymatgen-io-validation]: executing diffoscope
+[2024-05-09 01:25:48] INFO root fetch - processPackages [pymatgen-io-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen_io_validation-0.0.2.tar.gz tmp/pymatgen_io_validation-0.0.3.tar.gz --markdown 20240509/p/pymatgen-io-validation/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/af/b1/1aef8feaf02a3ecd901f89e684fdab39ceb6a89c7fbd14e10e352f08645c/openllm-0.5.0a4.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [promptquality]: Downloading https://files.pythonhosted.org/packages/35/9f/25c01b112f7c0dbd70a92b953b3feae60cab74aa5b740d5a32dd8db35bd4/promptquality-0.9.2.tar.gz
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a3.tar.gz tmp/openllm_core-0.5.0a4.tar.gz --markdown 20240509/o/openllm-core/0.5.0a3-0.5.0a4/README.md --exclude *.pyd
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-09 01:25:48] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a3.tar.gz tmp/openllm_client-0.5.0a4.tar.gz --markdown 20240509/o/openllm-client/0.5.0a3-0.5.0a4/README.md --exclude *.pyd
+[2024-05-09 01:25:48] INFO root fetch - processPackages [promptquality]: executing diffoscope
+[2024-05-09 01:25:48] INFO root fetch - processPackages [promptquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptquality-0.9.1.tar.gz tmp/promptquality-0.9.2.tar.gz --markdown 20240509/p/promptquality/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a3.tar.gz tmp/openllm-0.5.0a4.tar.gz --markdown 20240509/o/openllm/0.5.0a3-0.5.0a4/README.md --exclude *.pyd
+[2024-05-09 01:25:49] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.6.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [lyyre]: Remove: archive file [/home/abi/fetcher/tmp/lyyre-2.7.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [lyyre]: success
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a3.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a4.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a3.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a4.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-09 01:25:49] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.9.1.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [promptquality]: Remove: archive file [/home/abi/fetcher/tmp/promptquality-0.9.2.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [promptquality]: success
+[2024-05-09 01:25:49] INFO root fetch - processPackages [pymatgen-io-validation]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen_io_validation-0.0.2.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [pymatgen-io-validation]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen_io_validation-0.0.3.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [pymatgen-io-validation]: success
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a3.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a4.tar.gz]
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-09 01:25:49] INFO root fetch - main [MainThread]: Store serial: [23122264]
