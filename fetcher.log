@@ -201,3 +201,48 @@
 [2024-05-09 00:11:44] INFO root fetch - processPackages [variational]: Remove: archive file [/home/abi/fetcher/tmp/variational-0.4.2.tar.gz]
 [2024-05-09 00:11:44] INFO root fetch - main [MainThread]: End processing [variational]: success
 [2024-05-09 00:11:44] INFO root fetch - main [MainThread]: Store serial: [23121658]
+[2024-05-09 00:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121658]
+[2024-05-09 00:13:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ema-pytorch
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffpass
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-db-views
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-cert-manager
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blazoningz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comfy-cli
+[2024-05-09 00:13:53] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:13:53] INFO root fetch - processPackages [django-db-views]: New version: [0.1.7.dev1] Old Version: [0.1.7]
+[2024-05-09 00:13:53] WARNING root fetch - processPackages [diffpass]: Skipping, unable to determine old version
+[2024-05-09 00:13:53] INFO root fetch - main [MainThread]: End processing [diffpass] error
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ema-pytorch]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-09 00:13:53] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: New version: [0.1.0a1715012458] Old Version: [0.1.0a1714731008]
+[2024-05-09 00:13:53] WARNING root fetch - processPackages [blazoningz]: Skipping, unable to determine old version
+[2024-05-09 00:13:53] INFO root fetch - main [MainThread]: End processing [blazoningz] error
+[2024-05-09 00:13:53] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [django-db-views]: Downloading https://files.pythonhosted.org/packages/7c/c4/9a15b112b72d93626f5855e81a4262bc8a75dfad827f306f524a05a2f148/django-db-views-0.1.7.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/e0/cd/317c0a27d22438747f332e7e840162f4b0b470165c74ebbefcf382cf0727/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/3b/62/5b3dc585dd383d3cd74bc304b06383e76f6e973117936946b73bef3c2240/ema_pytorch-0.4.6.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-09 00:13:53] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240509/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:13:53] INFO root fetch - processPackages [django-db-views]: Downloading https://files.pythonhosted.org/packages/30/87/c81717d415fe63599904d0efab5f1037680e9beeabbb091c0231af50b3b2/django_db_views-0.1.7.dev1.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/6d/1b/6a660e81283a6bcd82bbd5ce895c9af4817e6ff012910b466fbaa605e413/ema_pytorch-0.4.7.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/e9/46/5fad34137a59d7cf56c81619c99b850bc3708088cb830077a53fb0e062b2/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ema-pytorch]: executing diffoscope
+[2024-05-09 00:13:53] INFO root fetch - processPackages [ema-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ema_pytorch-0.4.6.tar.gz tmp/ema_pytorch-0.4.7.tar.gz --markdown 20240509/e/ema-pytorch/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-09 00:13:53] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: executing diffoscope
+[2024-05-09 00:13:53] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz --markdown 20240509/p/pulumi-kubernetes-cert-manager/0.1.0a1714731008-0.1.0a1715012458/README.md --exclude *.pyd
+[2024-05-09 00:13:53] INFO root fetch - processPackages [django-db-views]: executing diffoscope
+[2024-05-09 00:13:53] INFO root fetch - processPackages [django-db-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-db-views-0.1.7.tar.gz tmp/django_db_views-0.1.7.dev1.tar.gz --markdown 20240509/d/django-db-views/0.1.7-0.1.7.dev1/README.md --exclude *.pyd
+[2024-05-09 00:13:54] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-09 00:13:54] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema_pytorch-0.4.6.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema_pytorch-0.4.7.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - main [MainThread]: End processing [ema-pytorch]: success
+[2024-05-09 00:13:54] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
+[2024-05-09 00:13:54] INFO root fetch - processPackages [django-db-views]: Remove: archive file [/home/abi/fetcher/tmp/django-db-views-0.1.7.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - processPackages [django-db-views]: Remove: archive file [/home/abi/fetcher/tmp/django_db_views-0.1.7.dev1.tar.gz]
+[2024-05-09 00:13:54] INFO root fetch - main [MainThread]: End processing [django-db-views]: success
+[2024-05-09 00:13:54] INFO root fetch - main [MainThread]: Store serial: [23121678]
