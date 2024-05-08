@@ -291,3 +291,63 @@
 [2024-05-09 00:18:15] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
 [2024-05-09 00:18:15] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
 [2024-05-09 00:18:15] INFO root fetch - main [MainThread]: Store serial: [23121695]
+[2024-05-09 00:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121695]
+[2024-05-09 00:20:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: singularsz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gapic-generator
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-components
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: experiment-helpers
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rlbot-flatbuffers
+[2024-05-09 00:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyprtg-api
+[2024-05-09 00:20:23] INFO root fetch - processPackages [pyprtg-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:20:23] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:20:23] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-09 00:20:23] INFO root fetch - processPackages [rlbot-flatbuffers]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-09 00:20:23] WARNING root fetch - processPackages [singularsz]: Skipping, unable to determine old version
+[2024-05-09 00:20:23] INFO root fetch - main [MainThread]: End processing [singularsz] error
+[2024-05-09 00:20:23] INFO root fetch - processPackages [cloud-components]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-05-09 00:20:23] INFO root fetch - processPackages [gapic-generator]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 00:20:23] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/7a/45/0779da29ba1456cddb83959040c727378a9590313536e974783a57a801db/pyprtg-api-0.0.8.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [cloud-components]: Downloading https://files.pythonhosted.org/packages/87/0e/f81f0a80af2cc659e666a328e11bd363c6c2bac044132c58398e5e276faf/cloud_components-3.0.3.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/2c/4a/7f1524d4ae297623b4c8381c409ed9ba339f70276c85a313539f3d070592/rlbot_flatbuffers-0.3.3.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/d1/8e/fc63e6060aacb533da9c1a39aed87a2b26b06b1e2b2373f2c3474a23e84a/gapic-generator-1.9.0.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [pyprtg-api]: Downloading https://files.pythonhosted.org/packages/a5/53/c522fa11b05ca153616316821ab4c0ccefc7e15ca58127d2f0a0f743bc68/pyprtg-api-0.0.9.tar.gz
+[2024-05-09 00:20:23] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-09 00:20:24] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-09 00:20:24] INFO root fetch - processPackages [pyprtg-api]: executing diffoscope
+[2024-05-09 00:20:24] INFO root fetch - processPackages [pyprtg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprtg-api-0.0.8.tar.gz tmp/pyprtg-api-0.0.9.tar.gz --markdown 20240509/p/pyprtg-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:20:24] INFO root fetch - processPackages [cloud-components]: Downloading https://files.pythonhosted.org/packages/e2/85/c70f7f91d8a6776e1f0ea8922cd39725d3fb56a97fd21d950a42c54cea86/cloud_components-3.0.4.tar.gz
+[2024-05-09 00:20:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-09 00:20:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240509/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-09 00:20:24] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-09 00:20:24] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240509/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:20:24] INFO root fetch - processPackages [cloud-components]: executing diffoscope
+[2024-05-09 00:20:24] INFO root fetch - processPackages [cloud-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_components-3.0.3.tar.gz tmp/cloud_components-3.0.4.tar.gz --markdown 20240509/c/cloud-components/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-05-09 00:20:24] INFO root fetch - processPackages [gapic-generator]: Downloading https://files.pythonhosted.org/packages/18/b8/edff8de1cdf35688513694fcb96714591da0c31428d9193add5cb31c6cdf/gapic-generator-1.9.1.tar.gz
+[2024-05-09 00:20:24] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.8.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - processPackages [pyprtg-api]: Remove: archive file [/home/abi/fetcher/tmp/pyprtg-api-0.0.9.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - main [MainThread]: End processing [pyprtg-api]: success
+[2024-05-09 00:20:24] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-09 00:20:24] INFO root fetch - processPackages [cloud-components]: Remove: archive file [/home/abi/fetcher/tmp/cloud_components-3.0.3.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - processPackages [cloud-components]: Remove: archive file [/home/abi/fetcher/tmp/cloud_components-3.0.4.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - main [MainThread]: End processing [cloud-components]: success
+[2024-05-09 00:20:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-09 00:20:24] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-09 00:20:24] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/22/6c/1feaf8b7f256fec3efd370e10ba8e0fec9fbd8f35512eefcb69572bbfadc/rlbot_flatbuffers-0.3.4.tar.gz
+[2024-05-09 00:20:24] INFO root fetch - processPackages [gapic-generator]: executing diffoscope
+[2024-05-09 00:20:24] INFO root fetch - processPackages [gapic-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gapic-generator-1.9.0.tar.gz tmp/gapic-generator-1.9.1.tar.gz --markdown 20240509/g/gapic-generator/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 00:20:25] INFO root fetch - processPackages [rlbot-flatbuffers]: executing diffoscope
+[2024-05-09 00:20:25] INFO root fetch - processPackages [rlbot-flatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_flatbuffers-0.3.3.tar.gz tmp/rlbot_flatbuffers-0.3.4.tar.gz --markdown 20240509/r/rlbot-flatbuffers/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-09 00:20:27] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.0.tar.gz]
+[2024-05-09 00:20:27] INFO root fetch - processPackages [gapic-generator]: Remove: archive file [/home/abi/fetcher/tmp/gapic-generator-1.9.1.tar.gz]
+[2024-05-09 00:20:27] INFO root fetch - main [MainThread]: End processing [gapic-generator]: success
+[2024-05-09 00:21:19] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.3.tar.gz]
+[2024-05-09 00:21:19] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.4.tar.gz]
+[2024-05-09 00:21:19] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
+[2024-05-09 00:21:19] INFO root fetch - main [MainThread]: Store serial: [23121730]
