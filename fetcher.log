@@ -1020,3 +1020,60 @@
 [2024-05-09 01:03:45] INFO root fetch - processPackages [modelstore]: Remove: archive file [/home/abi/fetcher/tmp/modelstore-0.0.81.tar.gz]
 [2024-05-09 01:03:45] INFO root fetch - main [MainThread]: End processing [modelstore]: success
 [2024-05-09 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23122072]
+[2024-05-09 01:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122072]
+[2024-05-09 01:05:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lastmile-eval
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: niwatoko
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: challtools
+[2024-05-09 01:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2024-05-09 01:05:54] INFO root fetch - processPackages [challtools]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-09 01:05:54] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240507] Old Version: [0.7.52b20240506]
+[2024-05-09 01:05:54] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 01:05:54] INFO root fetch - processPackages [challtools]: Downloading https://files.pythonhosted.org/packages/dd/7f/b3f826d73f9f900ca92eb4ab179d88f72bea0239f6f63c56a21006fdf4b8/challtools-0.4.8.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [niwatoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 01:05:54] INFO root fetch - processPackages [langchain]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2024-05-09 01:05:54] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/9b/38/9ea4a4b36398c6e132e2ef72504a8886671e4467da511361aa124eb87d90/tmnt-0.7.52b20240506.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [challtools]: Downloading https://files.pythonhosted.org/packages/1f/ac/d005198bd93c3ff4da0aee996aeba67198e1c6dfbef3f4c0960917664f37/challtools-0.4.9.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/49/12/687b4c2070048758441061f16f3467c53e23aba3dce86cdfd7ad5b2fb5ba/niwatoko-1.0.8.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/a1/ed/eae583bcddd5ae4371aac407164b708868e09c2823142d8319fe9990e028/langchain-0.1.9.tar.gz
+[2024-05-09 01:05:54] INFO root fetch - processPackages [challtools]: executing diffoscope
+[2024-05-09 01:05:54] INFO root fetch - processPackages [challtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/challtools-0.4.8.tar.gz tmp/challtools-0.4.9.tar.gz --markdown 20240509/c/challtools/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-09 01:05:54] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240508] Old Version: [1.9.0.dev20240507]
+[2024-05-09 01:05:55] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/30/3d/0b2e5e5799c8397df74036790f65cef508280c66c859a5c581f29e091823/tmnt-0.7.52b20240507.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/8e/93/3eeafb779740e96100416ac65dd95a5142544f66dc40bbe3af5393d45d5b/niwatoko-1.0.9.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/4b/0f/224cfe36cbf4ee9320375e5882c101bb72707df92d97d8ee67a2c1b95696/langchain-0.2.0rc1.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-09 01:05:55] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240506.tar.gz tmp/tmnt-0.7.52b20240507.tar.gz --markdown 20240509/t/tmnt/0.7.52b20240506-0.7.52b20240507/README.md --exclude *.pyd
+[2024-05-09 01:05:55] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-09 01:05:55] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240509/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 01:05:55] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-09 01:05:55] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.0.8.tar.gz tmp/niwatoko-1.0.9.tar.gz --markdown 20240509/n/niwatoko/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/3b/b2/9b43ac0a34a76f268b924d4a16b11d066e457beeafe7c155272345ddec00/flwr_nightly-1.9.0.dev20240507.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2024-05-09 01:05:55] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.1.9.tar.gz tmp/langchain-0.2.0rc1.tar.gz --markdown 20240509/l/langchain/0.1.9-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-09 01:05:55] INFO root fetch - processPackages [challtools]: Remove: archive file [/home/abi/fetcher/tmp/challtools-0.4.8.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - processPackages [challtools]: Remove: archive file [/home/abi/fetcher/tmp/challtools-0.4.9.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - main [MainThread]: End processing [challtools]: success
+[2024-05-09 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/dd/87/ecd88114b851bdcab076f01d8f22c296b3f8f3fb3ee7e9258e616dd7261a/flwr_nightly-1.9.0.dev20240508.tar.gz
+[2024-05-09 01:05:55] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240506.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240507.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-09 01:05:55] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.8.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.0.9.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-09 01:05:55] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-09 01:05:55] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240507.tar.gz tmp/flwr_nightly-1.9.0.dev20240508.tar.gz --markdown 20240509/f/flwr-nightly/1.9.0.dev20240507-1.9.0.dev20240508/README.md --exclude *.pyd
+[2024-05-09 01:05:55] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-09 01:05:55] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-09 01:05:57] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240507.tar.gz]
+[2024-05-09 01:05:57] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240508.tar.gz]
+[2024-05-09 01:05:57] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-09 01:05:58] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.1.9.tar.gz]
+[2024-05-09 01:05:58] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.2.0rc1.tar.gz]
+[2024-05-09 01:05:58] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2024-05-09 01:05:58] INFO root fetch - main [MainThread]: Store serial: [23122091]
