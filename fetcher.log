@@ -1278,3 +1278,30 @@
 [2024-05-09 01:19:06] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-09 01:19:06] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-09 01:19:06] INFO root fetch - main [MainThread]: Store serial: [23122198]
+[2024-05-09 01:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122198]
+[2024-05-09 01:21:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 01:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spencer-funcs
+[2024-05-09 01:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-09 01:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-libyt
+[2024-05-09 01:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inspyre-toolbox
+[2024-05-09 01:21:15] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:21:15] WARNING root fetch - processPackages [spencer-funcs]: Skipping, unable to determine old version
+[2024-05-09 01:21:15] INFO root fetch - main [MainThread]: End processing [spencer-funcs] error
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:21:16] WARNING root fetch - processPackages [jupyter-libyt]: Skipping, unable to determine old version
+[2024-05-09 01:21:16] INFO root fetch - main [MainThread]: End processing [jupyter-libyt] error
+[2024-05-09 01:21:16] INFO root fetch - processPackages [inspyre-toolbox]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-09 01:21:16] INFO root fetch - processPackages [inspyre-toolbox]: Downloading https://files.pythonhosted.org/packages/41/61/e6135d198a7ffc2404d976424b5f9ac5d084919e2169d56a305705822995/inspyre_toolbox-1.5.0.tar.gz
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:21:16] INFO root fetch - processPackages [inspyre-toolbox]: Downloading https://files.pythonhosted.org/packages/f1/9f/fe476c408f48c78cff8a5f65adee4e4e2cb595c89defdb993986cc9f38a5/inspyre_toolbox-1.5.1.tar.gz
+[2024-05-09 01:21:16] INFO root fetch - processPackages [inspyre-toolbox]: executing diffoscope
+[2024-05-09 01:21:16] INFO root fetch - processPackages [inspyre-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspyre_toolbox-1.5.0.tar.gz tmp/inspyre_toolbox-1.5.1.tar.gz --markdown 20240509/i/inspyre-toolbox/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:21:16] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:21:16] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:21:17] INFO root fetch - processPackages [inspyre-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/inspyre_toolbox-1.5.0.tar.gz]
+[2024-05-09 01:21:17] INFO root fetch - processPackages [inspyre-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/inspyre_toolbox-1.5.1.tar.gz]
+[2024-05-09 01:21:17] INFO root fetch - main [MainThread]: End processing [inspyre-toolbox]: success
+[2024-05-09 01:21:17] INFO root fetch - main [MainThread]: Store serial: [23122211]
