@@ -867,3 +867,18 @@
 [2024-05-09 00:50:47] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
 [2024-05-09 00:50:47] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
 [2024-05-09 00:50:47] INFO root fetch - main [MainThread]: Store serial: [23121995]
+[2024-05-09 00:52:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121995]
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acetylz
+[2024-05-09 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ara-cli
+[2024-05-09 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robustintelligence
+[2024-05-09 00:52:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: braintest
+[2024-05-09 00:52:55] WARNING root fetch - processPackages [ara-cli]: Skipping, unable to determine old version
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: End processing [ara-cli] error
+[2024-05-09 00:52:55] WARNING root fetch - processPackages [robustintelligence]: Skipping, unable to determine old version
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: End processing [robustintelligence] error
+[2024-05-09 00:52:55] WARNING root fetch - processPackages [braintest]: Skipping, unable to determine old version
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: End processing [braintest] error
+[2024-05-09 00:52:55] WARNING root fetch - processPackages [acetylz]: Skipping, unable to determine old version
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: End processing [acetylz] error
+[2024-05-09 00:52:55] INFO root fetch - main [MainThread]: Store serial: [23122015]
