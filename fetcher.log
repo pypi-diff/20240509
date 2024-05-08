@@ -476,3 +476,39 @@
 [2024-05-09 00:30:32] INFO root fetch - processPackages [ob-metaflow]: Remove: archive file [/home/abi/fetcher/tmp/ob-metaflow-2.9.8.2.tar.gz]
 [2024-05-09 00:30:32] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2024-05-09 00:30:32] INFO root fetch - main [MainThread]: Store serial: [23121776]
+[2024-05-09 00:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121776]
+[2024-05-09 00:32:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sgptools
+[2024-05-09 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snap-numpy-stubs
+[2024-05-09 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: person-local
+[2024-05-09 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flagright
+[2024-05-09 00:32:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant-frontend
+[2024-05-09 00:32:40] INFO root fetch - processPackages [flagright]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-05-09 00:32:40] WARNING root fetch - processPackages [snap-numpy-stubs]: Skipping, unable to determine old version
+[2024-05-09 00:32:40] INFO root fetch - main [MainThread]: End processing [snap-numpy-stubs] error
+[2024-05-09 00:32:40] WARNING root fetch - processPackages [sgptools]: Skipping, unable to determine old version
+[2024-05-09 00:32:40] INFO root fetch - main [MainThread]: End processing [sgptools] error
+[2024-05-09 00:32:40] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 00:32:40] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-09 00:32:41] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/b3/d9/f81f9aea24b4ba344daf6e2bdc11be2efa2e6c904ecb5f90458034267771/flagright-1.5.7.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/cb/65/9544fcb1bc42fb3a62a813f811716ce013ce9c81c23f24e6199b592e2e06/music-assistant-frontend-2.5.3.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/f0/a5/f4efd779a7811e3e85b135cdac782c5d7797d12c1086c664287c4513b917/flagright-1.5.8.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [flagright]: executing diffoscope
+[2024-05-09 00:32:41] INFO root fetch - processPackages [flagright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagright-1.5.7.tar.gz tmp/flagright-1.5.8.tar.gz --markdown 20240509/f/flagright/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-05-09 00:32:41] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/82/a1/8c644754966892abc0c77266be90e91c44b8800640ccc4a44f90ef0feaff/music-assistant-frontend-2.5.4.tar.gz
+[2024-05-09 00:32:41] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-09 00:32:41] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240509/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 00:32:42] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2024-05-09 00:32:42] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.5.3.tar.gz tmp/music-assistant-frontend-2.5.4.tar.gz --markdown 20240509/m/music-assistant-frontend/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-09 00:32:42] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-09 00:32:42] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-09 00:32:42] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-09 00:32:42] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.7.tar.gz]
+[2024-05-09 00:32:42] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.8.tar.gz]
+[2024-05-09 00:32:42] INFO root fetch - main [MainThread]: End processing [flagright]: success
+[2024-05-09 00:32:58] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.5.3.tar.gz]
+[2024-05-09 00:32:58] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.5.4.tar.gz]
+[2024-05-09 00:32:58] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2024-05-09 00:32:58] INFO root fetch - main [MainThread]: Store serial: [23121793]
