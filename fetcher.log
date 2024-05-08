@@ -775,3 +775,77 @@
 [2024-05-09 00:46:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
 [2024-05-09 00:46:23] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
 [2024-05-09 00:46:23] INFO root fetch - main [MainThread]: Store serial: [23121951]
+[2024-05-09 00:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121951]
+[2024-05-09 00:48:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeforlife-portal
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-location-local
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfl-common
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comfy-cli
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-db
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grader-helper
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: music-assistant
+[2024-05-09 00:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: voxline-pdk
+[2024-05-09 00:48:32] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [grader-helper]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [pypomes-db]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [comfy-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-09 00:48:32] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b148] Old Version: [2.0.0b147]
+[2024-05-09 00:48:32] WARNING root fetch - processPackages [voxline-pdk]: Skipping, unable to determine old version
+[2024-05-09 00:48:32] INFO root fetch - main [MainThread]: End processing [voxline-pdk] error
+[2024-05-09 00:48:32] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/7a/fc/058038f47351d38900be347f79d08b82e50fedb9fb458da3a14d686934f1/grader_helper-0.1.5.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/be/4d/ed5f7c3399cb056c16b657ae3d716971e1ca59dde362b950f13d4e85bbe2/comfy_cli-0.0.8.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/b5/45/65d78ce62c053f791a9d19808570e28687b40023e6dc68bd48c15936df13/pypomes_db-0.5.7.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/db/cb/65d01397ab39e45302b7aee10d738675f3b5b4322a19761de3d99a52bdf5/music_assistant-2.0.0b147.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [grader-helper]: Downloading https://files.pythonhosted.org/packages/3f/fb/916ab20f59b8bba4b2fb52d25a687ce7929acb797d7368dfec64e92485bd/grader_helper-0.1.6.tar.gz
+[2024-05-09 00:48:32] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 13982112>=10485760
+[2024-05-09 00:48:32] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-05-09 00:48:32] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [comfy-cli]: Downloading https://files.pythonhosted.org/packages/e0/64/bda74e2826240c0c779e679f675d7adb8fe53c0f89fac01c26065422006c/comfy_cli-0.0.9.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [grader-helper]: executing diffoscope
+[2024-05-09 00:48:32] INFO root fetch - processPackages [grader-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grader_helper-0.1.5.tar.gz tmp/grader_helper-0.1.6.tar.gz --markdown 20240509/g/grader-helper/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-09 00:48:32] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-09 00:48:32] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240509/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:48:32] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/3f/34/ee31e12c9ca0e8a830f804d26af40ed17bd479064307ea0fdfdc48a449fa/pypomes_db-0.5.8.tar.gz
+[2024-05-09 00:48:32] INFO root fetch - processPackages [comfy-cli]: executing diffoscope
+[2024-05-09 00:48:32] INFO root fetch - processPackages [comfy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_cli-0.0.8.tar.gz tmp/comfy_cli-0.0.9.tar.gz --markdown 20240509/c/comfy-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:48:32] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-09 00:48:32] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240509/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-09 00:48:32] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-09 00:48:32] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.5.7.tar.gz tmp/pypomes_db-0.5.8.tar.gz --markdown 20240509/p/pypomes-db/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-09 00:48:33] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-09 00:48:33] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-09 00:48:33] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-09 00:48:33] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240509/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-09 00:48:33] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.5.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - processPackages [grader-helper]: Remove: archive file [/home/abi/fetcher/tmp/grader_helper-0.1.6.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - main [MainThread]: End processing [grader-helper]: success
+[2024-05-09 00:48:33] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-09 00:48:33] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240509/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-09 00:48:33] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-09 00:48:33] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.7.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.5.8.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-09 00:48:33] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.8.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - processPackages [comfy-cli]: Remove: archive file [/home/abi/fetcher/tmp/comfy_cli-0.0.9.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - main [MainThread]: End processing [comfy-cli]: success
+[2024-05-09 00:48:33] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-09 00:48:33] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-09 00:48:34] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-09 00:48:34] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-09 00:48:34] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-09 00:48:35] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-09 00:48:35] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-09 00:48:36] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-09 00:48:36] INFO root fetch - main [MainThread]: Store serial: [23121982]
