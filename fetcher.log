@@ -1569,3 +1569,42 @@
 [2024-05-09 01:35:01] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-09 01:35:01] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-09 01:35:01] INFO root fetch - main [MainThread]: Store serial: [23122321]
+[2024-05-09 01:37:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122321]
+[2024-05-09 01:37:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maharishiz
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moesifasgi
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PYLIBME73
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncsatranscriptor
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: infini-transformer-pytorch
+[2024-05-09 01:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-vector-stores-weaviate
+[2024-05-09 01:37:10] INFO root fetch - processPackages [infini-transformer-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 01:37:10] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: New version: [1.0.0] Old Version: [0.1.5]
+[2024-05-09 01:37:10] WARNING root fetch - processPackages [maharishiz]: Skipping, unable to determine old version
+[2024-05-09 01:37:10] INFO root fetch - main [MainThread]: End processing [maharishiz] error
+[2024-05-09 01:37:10] INFO root fetch - processPackages [moesifasgi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-09 01:37:10] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/ab/81/545743823b34642950d16aac97d9ece79df9ce87d09fff51960985d4a069/infini_transformer_pytorch-0.0.8.tar.gz
+[2024-05-09 01:37:10] WARNING root fetch - processPackages [PYLIBME73]: Skipping, unable to determine old version
+[2024-05-09 01:37:10] INFO root fetch - main [MainThread]: End processing [PYLIBME73] error
+[2024-05-09 01:37:10] WARNING root fetch - processPackages [ncsatranscriptor]: Skipping, unable to determine old version
+[2024-05-09 01:37:10] INFO root fetch - main [MainThread]: End processing [ncsatranscriptor] error
+[2024-05-09 01:37:11] INFO root fetch - processPackages [infini-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/46/db/bfde59bd2253cbeab2faa65f61c728da1fdd8021673a0d6f3e2a051bcfe1/infini_transformer_pytorch-0.0.9.tar.gz
+[2024-05-09 01:37:11] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: Downloading https://files.pythonhosted.org/packages/f3/9d/506a3efa311976ff95de5110dd724b9ac6b580ef33abf05c0d1b7b8a2b34/llama_index_vector_stores_weaviate-0.1.5.tar.gz
+[2024-05-09 01:37:11] INFO root fetch - processPackages [moesifasgi]: Downloading https://files.pythonhosted.org/packages/70/43/b0ff24c5c896f30f48997a4ca763376f1aed53a6965d74362c325f0e7188/moesifasgi-1.0.0.tar.gz
+[2024-05-09 01:37:11] INFO root fetch - processPackages [infini-transformer-pytorch]: executing diffoscope
+[2024-05-09 01:37:11] INFO root fetch - processPackages [infini-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infini_transformer_pytorch-0.0.8.tar.gz tmp/infini_transformer_pytorch-0.0.9.tar.gz --markdown 20240509/i/infini-transformer-pytorch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:37:11] INFO root fetch - processPackages [moesifasgi]: Downloading https://files.pythonhosted.org/packages/8a/00/d95dbdb052931fa050f9fd6e429768e507748b1dcab53193d4f576a3bbd6/moesifasgi-1.0.1.tar.gz
+[2024-05-09 01:37:11] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: Downloading https://files.pythonhosted.org/packages/03/5d/0c0cbf5bd6a36a2a5686b24bb6c6f9a7399ca8a7e59c92403507faf1090e/llama_index_vector_stores_weaviate-1.0.0.tar.gz
+[2024-05-09 01:37:11] INFO root fetch - processPackages [moesifasgi]: executing diffoscope
+[2024-05-09 01:37:11] INFO root fetch - processPackages [moesifasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifasgi-1.0.0.tar.gz tmp/moesifasgi-1.0.1.tar.gz --markdown 20240509/m/moesifasgi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-09 01:37:11] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: executing diffoscope
+[2024-05-09 01:37:11] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_weaviate-0.1.5.tar.gz tmp/llama_index_vector_stores_weaviate-1.0.0.tar.gz --markdown 20240509/l/llama-index-vector-stores-weaviate/0.1.5-1.0.0/README.md --exclude *.pyd
+[2024-05-09 01:37:11] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.8.tar.gz]
+[2024-05-09 01:37:11] INFO root fetch - processPackages [infini-transformer-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/infini_transformer_pytorch-0.0.9.tar.gz]
+[2024-05-09 01:37:11] INFO root fetch - main [MainThread]: End processing [infini-transformer-pytorch]: success
+[2024-05-09 01:37:12] INFO root fetch - processPackages [moesifasgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifasgi-1.0.0.tar.gz]
+[2024-05-09 01:37:12] INFO root fetch - processPackages [moesifasgi]: Remove: archive file [/home/abi/fetcher/tmp/moesifasgi-1.0.1.tar.gz]
+[2024-05-09 01:37:12] INFO root fetch - main [MainThread]: End processing [moesifasgi]: success
+[2024-05-09 01:37:12] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_weaviate-0.1.5.tar.gz]
+[2024-05-09 01:37:12] INFO root fetch - processPackages [llama-index-vector-stores-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_weaviate-1.0.0.tar.gz]
+[2024-05-09 01:37:12] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-weaviate]: success
+[2024-05-09 01:37:12] INFO root fetch - main [MainThread]: Store serial: [23122343]
