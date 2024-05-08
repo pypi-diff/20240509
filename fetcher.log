@@ -246,3 +246,36 @@
 [2024-05-09 00:13:54] INFO root fetch - processPackages [django-db-views]: Remove: archive file [/home/abi/fetcher/tmp/django_db_views-0.1.7.dev1.tar.gz]
 [2024-05-09 00:13:54] INFO root fetch - main [MainThread]: End processing [django-db-views]: success
 [2024-05-09 00:13:54] INFO root fetch - main [MainThread]: Store serial: [23121678]
+[2024-05-09 00:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121678]
+[2024-05-09 00:16:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambient-event-bus-client
+[2024-05-09 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wpiformat
+[2024-05-09 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: package-auto-assembler
+[2024-05-09 00:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suskabot
+[2024-05-09 00:16:03] INFO root fetch - processPackages [suskabot]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-09 00:16:03] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/ae/03/ddece12f09f3dde6e3aa43d2bae9ed6f173fe035864e652138d7f612d6cd/suskabot-0.2.0.tar.gz
+[2024-05-09 00:16:03] WARNING root fetch - processPackages [ambient-event-bus-client]: Skipping, unable to determine old version
+[2024-05-09 00:16:03] INFO root fetch - main [MainThread]: End processing [ambient-event-bus-client] error
+[2024-05-09 00:16:03] INFO root fetch - processPackages [package-auto-assembler]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 00:16:03] INFO root fetch - processPackages [wpiformat]: New version: [2024.35] Old Version: [2024.34]
+[2024-05-09 00:16:03] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/8b/3b/473bcc8c3b51b54a588a5916b6339c06aa5f3bddfaf59f2e807ea87d9c6a/package_auto_assembler-0.1.1.tar.gz
+[2024-05-09 00:16:03] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/49/b7/f6f1002255cc0555a1f130b975d3d7524447fbebae034247b582dc4e47a6/wpiformat-2024.34.tar.gz
+[2024-05-09 00:16:03] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/85/17/14ed83b6e24f866688bc3d36defc4fd56dd6699711affa848a7a23190dd8/suskabot-0.2.1.tar.gz
+[2024-05-09 00:16:03] INFO root fetch - processPackages [suskabot]: executing diffoscope
+[2024-05-09 00:16:03] INFO root fetch - processPackages [suskabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suskabot-0.2.0.tar.gz tmp/suskabot-0.2.1.tar.gz --markdown 20240509/s/suskabot/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-09 00:16:03] INFO root fetch - processPackages [package-auto-assembler]: Downloading https://files.pythonhosted.org/packages/f9/ba/2afc0687eba6231a60ee83e503a63ca1b6c5ee6b10aee4c3e848841fd643/package_auto_assembler-0.1.2.tar.gz
+[2024-05-09 00:16:04] INFO root fetch - processPackages [package-auto-assembler]: executing diffoscope
+[2024-05-09 00:16:04] INFO root fetch - processPackages [package-auto-assembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package_auto_assembler-0.1.1.tar.gz tmp/package_auto_assembler-0.1.2.tar.gz --markdown 20240509/p/package-auto-assembler/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: Downloading https://files.pythonhosted.org/packages/94/c0/733fac1288bcddebbc3e855e1aa9c9109396fc56b656db16f4b7f316c53d/wpiformat-2024.35.tar.gz
+[2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: executing diffoscope
+[2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpiformat-2024.34.tar.gz tmp/wpiformat-2024.35.tar.gz --markdown 20240509/w/wpiformat/2024.34-2024.35/README.md --exclude *.pyd
+[2024-05-09 00:16:04] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.0.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.1.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - main [MainThread]: End processing [suskabot]: success
+[2024-05-09 00:16:04] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.1.1.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - processPackages [package-auto-assembler]: Remove: archive file [/home/abi/fetcher/tmp/package_auto_assembler-0.1.2.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - main [MainThread]: End processing [package-auto-assembler]: success
+[2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2024.34.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - processPackages [wpiformat]: Remove: archive file [/home/abi/fetcher/tmp/wpiformat-2024.35.tar.gz]
+[2024-05-09 00:16:04] INFO root fetch - main [MainThread]: End processing [wpiformat]: success
+[2024-05-09 00:16:04] INFO root fetch - main [MainThread]: Store serial: [23121692]
