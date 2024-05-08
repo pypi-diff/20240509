@@ -1,0 +1,42 @@
+[2024-05-09 00:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121582]
+[2024-05-09 00:02:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-09 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixelize
+[2024-05-09 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourmash-plugin-directsketch
+[2024-05-09 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-braket-sdk
+[2024-05-09 00:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: centralcli
+[2024-05-09 00:02:43] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:02:43] INFO root fetch - processPackages [sourmash-plugin-directsketch]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-09 00:02:43] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/e4/d9/6e64740f04c1899c24e9cd3601f04e92647cd1686bec675310e181994c90/sourmash_plugin_directsketch-0.1.0.tar.gz
+[2024-05-09 00:02:43] WARNING root fetch - processPackages [pixelize]: Skipping, unable to determine old version
+[2024-05-09 00:02:43] INFO root fetch - main [MainThread]: End processing [pixelize] error
+[2024-05-09 00:02:43] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2024-05-09 00:02:43] INFO root fetch - processPackages [centralcli]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-09 00:02:43] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 00:02:43] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:02:43] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/f3/84/a65da8a1175bf7c1844c46de0c0f27425526f54bafaf1c3e7ccaa9ea3974/centralcli-4.0.2.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/49/80/26f74dfb6828217bbe3d87066cf341d2d45d93afb3f2c01cf773ba2c761a/sourmash_plugin_directsketch-0.2.0.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/ba/92/a5dd3f7c8930877c9fbf3531c4b524e204c8e8bf03266ab54c2ff683c238/centralcli-4.1.0.tar.gz
+[2024-05-09 00:02:43] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2024-05-09 00:02:43] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20240509/a/amazon-braket-sdk/1.9.5-1.9.5.post0/README.md --exclude *.pyd
+[2024-05-09 00:02:44] INFO root fetch - processPackages [sourmash-plugin-directsketch]: executing diffoscope
+[2024-05-09 00:02:44] INFO root fetch - processPackages [sourmash-plugin-directsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_directsketch-0.1.0.tar.gz tmp/sourmash_plugin_directsketch-0.2.0.tar.gz --markdown 20240509/s/sourmash-plugin-directsketch/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-09 00:02:44] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-05-09 00:02:44] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-4.0.2.tar.gz tmp/centralcli-4.1.0.tar.gz --markdown 20240509/c/centralcli/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-09 00:02:44] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 00:02:44] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 00:02:44] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 00:02:44] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2024-05-09 00:02:44] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2024-05-09 00:02:44] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2024-05-09 00:02:45] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.1.0.tar.gz]
+[2024-05-09 00:02:45] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.2.0.tar.gz]
+[2024-05-09 00:02:45] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-directsketch]: success
+[2024-05-09 00:02:45] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-4.0.2.tar.gz]
+[2024-05-09 00:02:45] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-4.1.0.tar.gz]
+[2024-05-09 00:02:45] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-05-09 00:02:45] INFO root fetch - main [MainThread]: Store serial: [23121597]
