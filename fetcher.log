@@ -2063,3 +2063,34 @@
 [2024-05-09 01:43:18] INFO root fetch - processPackages [my_media_crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip]
 [2024-05-09 01:43:18] INFO root fetch - main [MainThread]: End processing [my_media_crawler]: success
 [2024-05-09 01:43:18] INFO root fetch - main [MainThread]: Store serial: [23122511]
+[2024-05-09 01:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122511]
+[2024-05-09 01:45:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 01:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-custom-sidebar-test
+[2024-05-09 01:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipy-openblas32
+[2024-05-09 01:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abstract-shapes
+[2024-05-09 01:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scipy-openblas64
+[2024-05-09 01:45:26] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:45:26] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 01:45:26] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-09 01:45:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:45:26] INFO root fetch - processPackages [scipy-openblas32]: New version: [0.3.27.63.0] Old Version: [0.3.27.44.3]
+[2024-05-09 01:45:26] INFO root fetch - processPackages [scipy-openblas64]: New version: [0.3.27.63.0] Old Version: [0.3.27.44.3]
+[2024-05-09 01:45:27] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:45:27] INFO root fetch - processPackages [scipy-openblas32]: Downloading https://files.pythonhosted.org/packages/b6/07/9d13bceea4c7f189df6bbf3aaf9588c5d052469131463743b9e9d0fd81fe/scipy_openblas32-0.3.27.44.3-py3-none-win_amd64.whl
+[2024-05-09 01:45:27] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-09 01:45:27] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:45:27] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:45:27] INFO root fetch - processPackages [scipy-openblas64]: Downloading https://files.pythonhosted.org/packages/27/80/939b44e06ebe2d461ac146a21f478c9695c99455a93c170b59413d2c7a34/scipy_openblas64-0.3.27.44.3-py3-none-win_amd64.whl
+[2024-05-09 01:45:27] WARNING root fetch - processPackages [scipy-openblas64]: Skipping package: exceeds size limit 10657498>=10485760
+[2024-05-09 01:45:27] INFO root fetch - main [MainThread]: End processing [scipy-openblas64] error
+[2024-05-09 01:45:27] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-09 01:45:27] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240509/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:45:27] WARNING root fetch - processPackages [scipy-openblas32]: Skipping package: exceeds size limit 10793724>=10485760
+[2024-05-09 01:45:27] INFO root fetch - main [MainThread]: End processing [scipy-openblas32] error
+[2024-05-09 01:45:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:45:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:45:27] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:45:38] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-09 01:45:38] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-09 01:45:38] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-09 01:45:38] INFO root fetch - main [MainThread]: Store serial: [23122533]
