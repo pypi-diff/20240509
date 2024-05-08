@@ -40,3 +40,27 @@
 [2024-05-09 00:02:45] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-4.1.0.tar.gz]
 [2024-05-09 00:02:45] INFO root fetch - main [MainThread]: End processing [centralcli]: success
 [2024-05-09 00:02:45] INFO root fetch - main [MainThread]: Store serial: [23121597]
+[2024-05-09 00:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121597]
+[2024-05-09 00:04:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 00:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: russez
+[2024-05-09 00:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PytorchWildlife
+[2024-05-09 00:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sageworks
+[2024-05-09 00:04:54] INFO root fetch - processPackages [PytorchWildlife]: New version: [1.0.2.9.1] Old Version: [1.0.2.9]
+[2024-05-09 00:04:54] INFO root fetch - processPackages [sageworks]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-09 00:04:54] WARNING root fetch - processPackages [russez]: Skipping, unable to determine old version
+[2024-05-09 00:04:54] INFO root fetch - main [MainThread]: End processing [russez] error
+[2024-05-09 00:04:54] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/e7/cb/3a89fd670dc291f283a9781aae53e7311daed30b68a66bca3a8148310265/PytorchWildlife-1.0.2.9.tar.gz
+[2024-05-09 00:04:54] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/57/3b/5a4f739fab5bcd2d4ab12710b09a9b2318670b1d51ffedae6044fd5e3c82/sageworks-0.6.1.tar.gz
+[2024-05-09 00:04:55] INFO root fetch - processPackages [PytorchWildlife]: Downloading https://files.pythonhosted.org/packages/b9/82/e763c6f2a9813750f43d8971aa0efa565b868d6dcf0b19642234c73cc488/PytorchWildlife-1.0.2.9.1.tar.gz
+[2024-05-09 00:04:55] INFO root fetch - processPackages [PytorchWildlife]: executing diffoscope
+[2024-05-09 00:04:55] INFO root fetch - processPackages [PytorchWildlife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PytorchWildlife-1.0.2.9.tar.gz tmp/PytorchWildlife-1.0.2.9.1.tar.gz --markdown 20240509/P/PytorchWildlife/1.0.2.9-1.0.2.9.1/README.md --exclude *.pyd
+[2024-05-09 00:04:56] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/21/38/4fa04b22f789838b0685ba102421d6e9369aa88d5a788ebd5e2f96c77b55/sageworks-0.6.2.tar.gz
+[2024-05-09 00:04:56] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.tar.gz]
+[2024-05-09 00:04:56] INFO root fetch - processPackages [PytorchWildlife]: Remove: archive file [/home/abi/fetcher/tmp/PytorchWildlife-1.0.2.9.1.tar.gz]
+[2024-05-09 00:04:56] INFO root fetch - main [MainThread]: End processing [PytorchWildlife]: success
+[2024-05-09 00:04:57] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2024-05-09 00:04:57] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.6.1.tar.gz tmp/sageworks-0.6.2.tar.gz --markdown 20240509/s/sageworks/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-09 00:04:59] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.6.1.tar.gz]
+[2024-05-09 00:04:59] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.6.2.tar.gz]
+[2024-05-09 00:04:59] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2024-05-09 00:04:59] INFO root fetch - main [MainThread]: Store serial: [23121607]
