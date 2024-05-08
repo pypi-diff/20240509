@@ -2305,3 +2305,30 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 01:54:21] WARNING root fetch - processPackages [Prometa]: Skipping, unable to determine old version
 [2024-05-09 01:54:21] INFO root fetch - main [MainThread]: End processing [Prometa] error
 [2024-05-09 01:54:21] INFO root fetch - main [MainThread]: Store serial: [23122598]
+[2024-05-09 01:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122598]
+[2024-05-09 01:56:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 01:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minq
+[2024-05-09 01:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zacks
+[2024-05-09 01:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confhub
+[2024-05-09 01:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fleepit
+[2024-05-09 01:56:29] INFO root fetch - processPackages [confhub]: New version: [0.0.5a0] Old Version: [0.0.4a0]
+[2024-05-09 01:56:29] INFO root fetch - processPackages [zacks]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 01:56:29] WARNING root fetch - processPackages [minq]: Skipping, unable to determine old version
+[2024-05-09 01:56:29] INFO root fetch - main [MainThread]: End processing [minq] error
+[2024-05-09 01:56:29] INFO root fetch - processPackages [confhub]: Downloading https://files.pythonhosted.org/packages/ee/ee/373ff06fba35d5e9edca4b91aac135930672a8fdafc95693c0d82e507c0e/confhub-0.0.4a0.tar.gz
+[2024-05-09 01:56:29] INFO root fetch - processPackages [zacks]: Downloading https://files.pythonhosted.org/packages/08/2e/57220192e82f95f6fb13a3441b1b169d7e41c41dd884649fa5b4ce0a4a07/zacks-1.0.1.tar.gz
+[2024-05-09 01:56:29] WARNING root fetch - processPackages [fleepit]: Skipping, unable to determine old version
+[2024-05-09 01:56:29] INFO root fetch - main [MainThread]: End processing [fleepit] error
+[2024-05-09 01:56:30] INFO root fetch - processPackages [zacks]: Downloading https://files.pythonhosted.org/packages/fe/87/42f76c6ece1ac03d137c3b174490d8947d82f64ff151238ecccbe8c8f927/zacks-1.0.2.tar.gz
+[2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: Downloading https://files.pythonhosted.org/packages/08/a9/a8349302dce4bf9859a985e509017ad488511ca5c2aebf8ea2ff1c5e69f5/confhub-0.0.5a0.tar.gz
+[2024-05-09 01:56:30] INFO root fetch - processPackages [zacks]: executing diffoscope
+[2024-05-09 01:56:30] INFO root fetch - processPackages [zacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zacks-1.0.1.tar.gz tmp/zacks-1.0.2.tar.gz --markdown 20240509/z/zacks/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: executing diffoscope
+[2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confhub-0.0.4a0.tar.gz tmp/confhub-0.0.5a0.tar.gz --markdown 20240509/c/confhub/0.0.4a0-0.0.5a0/README.md --exclude *.pyd
+[2024-05-09 01:56:30] INFO root fetch - processPackages [zacks]: Remove: archive file [/home/abi/fetcher/tmp/zacks-1.0.1.tar.gz]
+[2024-05-09 01:56:30] INFO root fetch - processPackages [zacks]: Remove: archive file [/home/abi/fetcher/tmp/zacks-1.0.2.tar.gz]
+[2024-05-09 01:56:30] INFO root fetch - main [MainThread]: End processing [zacks]: success
+[2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: Remove: archive file [/home/abi/fetcher/tmp/confhub-0.0.4a0.tar.gz]
+[2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: Remove: archive file [/home/abi/fetcher/tmp/confhub-0.0.5a0.tar.gz]
+[2024-05-09 01:56:30] INFO root fetch - main [MainThread]: End processing [confhub]: success
+[2024-05-09 01:56:30] INFO root fetch - main [MainThread]: Store serial: [23122613]
