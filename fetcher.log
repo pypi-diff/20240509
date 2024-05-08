@@ -2332,3 +2332,69 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 01:56:30] INFO root fetch - processPackages [confhub]: Remove: archive file [/home/abi/fetcher/tmp/confhub-0.0.5a0.tar.gz]
 [2024-05-09 01:56:30] INFO root fetch - main [MainThread]: End processing [confhub]: success
 [2024-05-09 01:56:30] INFO root fetch - main [MainThread]: Store serial: [23122613]
+[2024-05-09 01:58:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122613]
+[2024-05-09 01:58:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: txm-sandbox
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byousz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebtorch
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affixapi
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mycotools
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: athena-starship
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Simba-UW-tf-dev
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fleepit
+[2024-05-09 01:58:39] WARNING root fetch - processPackages [fleepit]: Skipping, unable to determine old version
+[2024-05-09 01:58:39] INFO root fetch - main [MainThread]: End processing [fleepit] error
+[2024-05-09 01:58:39] INFO root fetch - processPackages [affixapi]: New version: [1.1.67] Old Version: [1.1.65]
+[2024-05-09 01:58:39] WARNING root fetch - processPackages [athena-starship]: Skipping, unable to determine old version
+[2024-05-09 01:58:39] INFO root fetch - main [MainThread]: End processing [athena-starship] error
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 01:58:39] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2024-05-09 01:58:39] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-09 01:58:39] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.0.post6] Old Version: [0.3.0.post5]
+[2024-05-09 01:58:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.91.7] Old Version: [1.91.6]
+[2024-05-09 01:58:39] WARNING root fetch - processPackages [byousz]: Skipping, unable to determine old version
+[2024-05-09 01:58:39] INFO root fetch - main [MainThread]: End processing [byousz] error
+[2024-05-09 01:58:39] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/64/20/3411df8d17cb8e6db1f29178dc6862d3f824a3df93e89ea33d61af02663a/affixapi-1.1.65.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/48/02/2359f9898fb88059c5487cb9d48bbcc100637964fbfe32bc54c066cf31a8/Simba-UW-tf-dev-1.91.6.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/48/5f/667ce157f39dba9b702f23ca9e7a1bd9bec945c10f26a2e71039b41b5d86/txm_sandbox-0.3.0.post5.tar.gz
+[2024-05-09 01:58:39] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/ef/d2/79546fea27a6a33201f3d0dbebb928c7c7ecb722b1c266dd08336bf5144e/affixapi-1.1.67.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20240509/m/mycotools/0.9b8-0.9b9/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240509/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.65.tar.gz tmp/affixapi-1.1.67.tar.gz --markdown 20240509/a/affixapi/1.1.65-1.1.67/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/1f/f8/621a58758c434fcbadec94e23ee056388ff768626b544b4be9cca58c099a/Simba-UW-tf-dev-1.91.7.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/24/a7/13e5fc2303a77dce484bba4d06229b0edddf96877bf71054b120745eed81/txm_sandbox-0.3.0.post6.tar.gz
+[2024-05-09 01:58:40] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240509/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.0.post5.tar.gz tmp/txm_sandbox-0.3.0.post6.tar.gz --markdown 20240509/t/txm-sandbox/0.3.0.post5-0.3.0.post6/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-05-09 01:58:40] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.91.6.tar.gz tmp/Simba-UW-tf-dev-1.91.7.tar.gz --markdown 20240509/S/Simba-UW-tf-dev/1.91.6-1.91.7/README.md --exclude *.pyd
+[2024-05-09 01:58:40] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-05-09 01:58:40] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-05-09 01:58:40] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-05-09 01:58:40] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2024-05-09 01:58:40] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2024-05-09 01:58:40] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2024-05-09 01:58:41] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post5.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post6.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-05-09 01:58:41] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.65.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.67.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-09 01:58:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-09 01:58:41] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-09 01:58:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.91.6.tar.gz]
+[2024-05-09 01:58:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.91.7.tar.gz]
+[2024-05-09 01:58:43] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-05-09 01:58:43] INFO root fetch - main [MainThread]: Store serial: [23122644]
