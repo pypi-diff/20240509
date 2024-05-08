@@ -1404,3 +1404,45 @@
 [2024-05-09 01:25:49] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a4.tar.gz]
 [2024-05-09 01:25:49] INFO root fetch - main [MainThread]: End processing [openllm]: success
 [2024-05-09 01:25:49] INFO root fetch - main [MainThread]: Store serial: [23122264]
+[2024-05-09 01:27:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122264]
+[2024-05-09 01:27:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruleset-checking-tool
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emotion-detection
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmbench
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-shapes
+[2024-05-09 01:27:58] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:27:58] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 01:27:58] WARNING root fetch - processPackages [emotion-detection]: Skipping, unable to determine old version
+[2024-05-09 01:27:58] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:27:58] INFO root fetch - main [MainThread]: End processing [emotion-detection] error
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ruleset-checking-tool]: New version: [0.2.5] Old Version: [0.2.0]
+[2024-05-09 01:27:58] INFO root fetch - processPackages [ragdaemon]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-09 01:27:59] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ruleset-checking-tool]: Downloading https://files.pythonhosted.org/packages/d4/60/aaed50c00c510deffa10e8bde6ec1970ee93f454741faf7f0dcaff3c6fd2/ruleset_checking_tool-0.2.0.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/07/f4/2566d4c2be34dd33a7db09e987a089619aa160cbdf47e2f412ade0424f73/ragdaemon-0.4.4.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:27:59] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:27:59] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/5d/18/7d98c1bb39869c30d45d36578eddfd1ec954ca5c5c1cbbcbd89badae5563/ragdaemon-0.4.5.tar.gz
+[2024-05-09 01:27:59] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-05-09 01:27:59] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240509/f/fmbench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 01:27:59] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:27:59] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:27:59] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.4.4.tar.gz tmp/ragdaemon-0.4.5.tar.gz --markdown 20240509/r/ragdaemon/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-09 01:27:59] INFO root fetch - processPackages [ruleset-checking-tool]: Downloading https://files.pythonhosted.org/packages/61/b5/350f5c726e24bbde7f3425b27ca4c14a09fc1bcf917fd93ef6c88018f73b/ruleset_checking_tool-0.2.5.tar.gz
+[2024-05-09 01:28:00] INFO root fetch - processPackages [ruleset-checking-tool]: executing diffoscope
+[2024-05-09 01:28:00] INFO root fetch - processPackages [ruleset-checking-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleset_checking_tool-0.2.0.tar.gz tmp/ruleset_checking_tool-0.2.5.tar.gz --markdown 20240509/r/ruleset-checking-tool/0.2.0-0.2.5/README.md --exclude *.pyd
+[2024-05-09 01:28:00] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.4.tar.gz]
+[2024-05-09 01:28:00] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.5.tar.gz]
+[2024-05-09 01:28:00] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-09 01:28:00] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-05-09 01:28:00] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-05-09 01:28:00] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-05-09 01:28:13] INFO root fetch - processPackages [ruleset-checking-tool]: Remove: archive file [/home/abi/fetcher/tmp/ruleset_checking_tool-0.2.0.tar.gz]
+[2024-05-09 01:28:13] INFO root fetch - processPackages [ruleset-checking-tool]: Remove: archive file [/home/abi/fetcher/tmp/ruleset_checking_tool-0.2.5.tar.gz]
+[2024-05-09 01:28:13] INFO root fetch - main [MainThread]: End processing [ruleset-checking-tool]: success
+[2024-05-09 01:28:13] INFO root fetch - main [MainThread]: Store serial: [23122280]
