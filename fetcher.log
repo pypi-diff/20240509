@@ -539,3 +539,48 @@
 [2024-05-09 00:35:08] INFO root fetch - processPackages [hal9]: Remove: archive file [/home/abi/fetcher/tmp/hal9-2.0.0.tar.gz]
 [2024-05-09 00:35:08] INFO root fetch - main [MainThread]: End processing [hal9]: success
 [2024-05-09 00:35:08] INFO root fetch - main [MainThread]: Store serial: [23121808]
+[2024-05-09 00:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121808]
+[2024-05-09 00:37:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uv
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-custom-sidebar-test
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcicutils
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snap-numpy-stubs
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-pandas
+[2024-05-09 00:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AzuracastPy
+[2024-05-09 00:37:17] WARNING root fetch - processPackages [snap-numpy-stubs]: Skipping, unable to determine old version
+[2024-05-09 00:37:17] INFO root fetch - main [MainThread]: End processing [snap-numpy-stubs] error
+[2024-05-09 00:37:17] WARNING root fetch - processPackages [AzuracastPy]: Skipping, unable to determine old version
+[2024-05-09 00:37:17] INFO root fetch - main [MainThread]: End processing [AzuracastPy] error
+[2024-05-09 00:37:17] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:37:17] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 00:37:17] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-09 00:37:17] INFO root fetch - processPackages [abstract-pandas]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 00:37:17] INFO root fetch - processPackages [dcicutils]: New version: [8.8.4.1b9] Old Version: [8.8.4.1b8]
+[2024-05-09 00:37:17] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/7d/62/c4985f5737204784016c1722d9c95321c2be826c044f278a77c5b4bb1c26/abstract_pandas-0.0.0.8.tar.gz
+[2024-05-09 00:37:17] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-05-09 00:37:17] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/88/e3/a68b919149fb754f37e341f70d383d88a49db02e5b5e7f34d0cf00879646/dcicutils-8.8.4.1b8.tar.gz
+[2024-05-09 00:37:17] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-09 00:37:17] INFO root fetch - processPackages [abstract-pandas]: Downloading https://files.pythonhosted.org/packages/6a/97/73420eb015bb3cd4f0190b373a58e04b6d7a072924c5ad742804869aae2d/abstract_pandas-0.0.0.9.tar.gz
+[2024-05-09 00:37:18] INFO root fetch - processPackages [abstract-pandas]: executing diffoscope
+[2024-05-09 00:37:18] INFO root fetch - processPackages [abstract-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_pandas-0.0.0.8.tar.gz tmp/abstract_pandas-0.0.0.9.tar.gz --markdown 20240509/a/abstract-pandas/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:37:18] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-09 00:37:18] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240509/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:37:18] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-05-09 00:37:18] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ab/80/64152621f2e387ed0dff6f4fbf31f5b2e11f4dfe300d598bbfb27dfd25b5/dcicutils-8.8.4.1b9.tar.gz
+[2024-05-09 00:37:18] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-09 00:37:18] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b8.tar.gz tmp/dcicutils-8.8.4.1b9.tar.gz --markdown 20240509/d/dcicutils/8.8.4.1b8-8.8.4.1b9/README.md --exclude *.pyd
+[2024-05-09 00:37:18] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-05-09 00:37:18] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240509/u/uv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 00:37:18] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.8.tar.gz]
+[2024-05-09 00:37:18] INFO root fetch - processPackages [abstract-pandas]: Remove: archive file [/home/abi/fetcher/tmp/abstract_pandas-0.0.0.9.tar.gz]
+[2024-05-09 00:37:18] INFO root fetch - main [MainThread]: End processing [abstract-pandas]: success
+[2024-05-09 00:37:19] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b8.tar.gz]
+[2024-05-09 00:37:19] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b9.tar.gz]
+[2024-05-09 00:37:19] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-09 00:37:20] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-05-09 00:37:20] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-05-09 00:37:20] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-05-09 00:37:29] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-09 00:37:29] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-09 00:37:29] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-09 00:37:29] INFO root fetch - main [MainThread]: Store serial: [23121842]
