@@ -168,3 +168,36 @@
 [2024-05-09 00:09:33] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.9.tar.gz]
 [2024-05-09 00:09:33] INFO root fetch - main [MainThread]: End processing [rutificador]: success
 [2024-05-09 00:09:33] INFO root fetch - main [MainThread]: Store serial: [23121644]
+[2024-05-09 00:11:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121644]
+[2024-05-09 00:11:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-ibm
+[2024-05-09 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-upstage
+[2024-05-09 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: variational
+[2024-05-09 00:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AzuracastPy
+[2024-05-09 00:11:43] INFO root fetch - processPackages [variational]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-09 00:11:43] WARNING root fetch - processPackages [AzuracastPy]: Skipping, unable to determine old version
+[2024-05-09 00:11:43] INFO root fetch - main [MainThread]: End processing [AzuracastPy] error
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-ibm]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-upstage]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-ibm]: Downloading https://files.pythonhosted.org/packages/af/2e/09d6c1915db82e9aa2e11548958337958b10908981f167711c4a659387db/langchain_ibm-0.1.5.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [variational]: Downloading https://files.pythonhosted.org/packages/23/8f/4b0df7545a7211f1fecc91e7a4fc181caf189992d4956e22507b88e08608/variational-0.4.1.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/28/8f/d9c50389a363a5c33daecacad1b95418c686a9166f9490ff49a6392cfc6a/langchain_upstage-0.1.3.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-ibm]: Downloading https://files.pythonhosted.org/packages/46/1e/f3e909bad5efb4262e508f9bcb3bf4a406be6023538fadc178b0d462b8ef/langchain_ibm-0.1.6.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/26/0e/b45375cdb3d293ebef862685129c7d09a6f2ae3709d1ddf1214692275af6/langchain_upstage-0.1.4.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-ibm]: executing diffoscope
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-ibm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_ibm-0.1.5.tar.gz tmp/langchain_ibm-0.1.6.tar.gz --markdown 20240509/l/langchain-ibm/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-09 00:11:43] INFO root fetch - processPackages [variational]: Downloading https://files.pythonhosted.org/packages/ed/44/6606e294419eb0a6bb28461e2854d8e4bb251e1cae5dba97a310e3c62b3f/variational-0.4.2.tar.gz
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-upstage]: executing diffoscope
+[2024-05-09 00:11:43] INFO root fetch - processPackages [langchain-upstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_upstage-0.1.3.tar.gz tmp/langchain_upstage-0.1.4.tar.gz --markdown 20240509/l/langchain-upstage/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-09 00:11:43] INFO root fetch - processPackages [variational]: executing diffoscope
+[2024-05-09 00:11:43] INFO root fetch - processPackages [variational]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variational-0.4.1.tar.gz tmp/variational-0.4.2.tar.gz --markdown 20240509/v/variational/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-09 00:11:44] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.3.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.4.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - main [MainThread]: End processing [langchain-upstage]: success
+[2024-05-09 00:11:44] INFO root fetch - processPackages [langchain-ibm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ibm-0.1.5.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - processPackages [langchain-ibm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_ibm-0.1.6.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - main [MainThread]: End processing [langchain-ibm]: success
+[2024-05-09 00:11:44] INFO root fetch - processPackages [variational]: Remove: archive file [/home/abi/fetcher/tmp/variational-0.4.1.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - processPackages [variational]: Remove: archive file [/home/abi/fetcher/tmp/variational-0.4.2.tar.gz]
+[2024-05-09 00:11:44] INFO root fetch - main [MainThread]: End processing [variational]: success
+[2024-05-09 00:11:44] INFO root fetch - main [MainThread]: Store serial: [23121658]
