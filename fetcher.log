@@ -701,3 +701,77 @@
 [2024-05-09 00:44:02] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.9.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-09 00:44:02] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
 [2024-05-09 00:44:02] INFO root fetch - main [MainThread]: Store serial: [23121906]
+[2024-05-09 00:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23121906]
+[2024-05-09 00:46:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satorisynapse
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinympc
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-community
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unimenu
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-cert-manager
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-custom-sidebar-test
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: monailabel
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multiovulatez
+[2024-05-09 00:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaflow-stubs
+[2024-05-09 00:46:11] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: New version: [0.1.0a1715012458] Old Version: [0.1.0a1714731008]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [satorisynapse]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/cc/e6/8d4f59b6132179599ee5d91de765169c2751c297e1bd4a7ad016c728d7af/streamlit-custom-sidebar-test-0.0.8.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [tinympc]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [unimenu]: New version: [3.0.0] Old Version: [0.4.4]
+[2024-05-09 00:46:11] WARNING root fetch - processPackages [multiovulatez]: Skipping, unable to determine old version
+[2024-05-09 00:46:11] INFO root fetch - main [MainThread]: End processing [multiovulatez] error
+[2024-05-09 00:46:11] INFO root fetch - processPackages [langchain-community]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [monailabel]: New version: [0.8.2rc5] Old Version: [0.8.2rc4]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.11.9] Old Version: [2.11.8]
+[2024-05-09 00:46:11] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/e0/cd/317c0a27d22438747f332e7e840162f4b0b470165c74ebbefcf382cf0727/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/bf/bb/5b907fe524a6facf8cc58a5de37e82bf77ecfc7df571c8280a2bbd4d7ac5/unimenu-0.4.4.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/19/b6/97b684697b6afbd804711df8028d6243509b63734a3d7f4a9257d0f578da/satorisynapse-0.1.0.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [tinympc]: Downloading https://files.pythonhosted.org/packages/62/d9/c5c3979090ad36393bf26ed39f7f5af2c9dfde4a787d18bdd5546b3628ec/tinympc-0.0.2.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/ca/e0/b13f3f226be2c9054ddd0ea83d1b1e740ce4b7f77fe1fbfa4dc52b11892f/langchain_community-0.0.8.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/c5/2f/c64da495aacb8e16181f83c9b50b4f240171c2dd21bad60f561847421d1f/monailabel-0.8.2rc4-202404232056-py3-none-any.whl
+[2024-05-09 00:46:11] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/de/13/ffe01e2cae343dd8025eab13d69b5d62bd71681ab061e8c36af9666a698b/metaflow-stubs-2.11.8.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Downloading https://files.pythonhosted.org/packages/c5/64/f85ec0da55ad4dc310467708f0a8318497e138284aecaacfba3d552b4099/streamlit-custom-sidebar-test-0.0.9.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/e9/46/5fad34137a59d7cf56c81619c99b850bc3708088cb830077a53fb0e062b2/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz
+[2024-05-09 00:46:11] WARNING root fetch - processPackages [monailabel]: Skipping package: exceeds size limit 11945522>=10485760
+[2024-05-09 00:46:11] INFO root fetch - main [MainThread]: End processing [monailabel] error
+[2024-05-09 00:46:11] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: executing diffoscope
+[2024-05-09 00:46:11] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz --markdown 20240509/p/pulumi-kubernetes-cert-manager/0.1.0a1714731008-0.1.0a1715012458/README.md --exclude *.pyd
+[2024-05-09 00:46:11] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/80/6d/cb2af5bd5596399d0a5568b485a5301d35966c8cf179bbd26611fa6a8c2c/satorisynapse-0.1.1.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [tinympc]: Downloading https://files.pythonhosted.org/packages/b8/79/5ac8a22ad5db2ff63839ca5a91466c41f3bc73125284926ac682cdacf72d/tinympc-0.0.3.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: executing diffoscope
+[2024-05-09 00:46:11] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz --markdown 20240509/s/streamlit-custom-sidebar-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:46:11] INFO root fetch - processPackages [unimenu]: Downloading https://files.pythonhosted.org/packages/10/19/9a813d16d9498ea9a988c5cc8a5d960554fb134eda1d6aacca4b49e76865/unimenu-3.0.0.tar.gz
+[2024-05-09 00:46:11] INFO root fetch - processPackages [satorisynapse]: executing diffoscope
+[2024-05-09 00:46:11] INFO root fetch - processPackages [satorisynapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satorisynapse-0.1.0.tar.gz tmp/satorisynapse-0.1.1.tar.gz --markdown 20240509/s/satorisynapse/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 00:46:11] INFO root fetch - processPackages [tinympc]: executing diffoscope
+[2024-05-09 00:46:11] INFO root fetch - processPackages [tinympc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinympc-0.0.2.tar.gz tmp/tinympc-0.0.3.tar.gz --markdown 20240509/t/tinympc/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 00:46:12] INFO root fetch - processPackages [unimenu]: executing diffoscope
+[2024-05-09 00:46:12] INFO root fetch - processPackages [unimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unimenu-0.4.4.tar.gz tmp/unimenu-3.0.0.tar.gz --markdown 20240509/u/unimenu/0.4.4-3.0.0/README.md --exclude *.pyd
+[2024-05-09 00:46:12] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-09 00:46:12] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/f6/57/fb61a8ab98799272b297f9992e9b7c27d544840f67805b271540f929c52e/langchain_community-0.0.9.tar.gz
+[2024-05-09 00:46:12] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-09 00:46:12] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.8.tar.gz tmp/metaflow-stubs-2.11.9.tar.gz --markdown 20240509/m/metaflow-stubs/2.11.8-2.11.9/README.md --exclude *.pyd
+[2024-05-09 00:46:12] INFO root fetch - processPackages [langchain-community]: executing diffoscope
+[2024-05-09 00:46:12] INFO root fetch - processPackages [langchain-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_community-0.0.8.tar.gz tmp/langchain_community-0.0.9.tar.gz --markdown 20240509/l/langchain-community/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 00:46:12] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1714731008.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.1.0a1715012458.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
+[2024-05-09 00:46:12] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-0.4.4.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - processPackages [unimenu]: Remove: archive file [/home/abi/fetcher/tmp/unimenu-3.0.0.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - main [MainThread]: End processing [unimenu]: success
+[2024-05-09 00:46:12] INFO root fetch - processPackages [tinympc]: Remove: archive file [/home/abi/fetcher/tmp/tinympc-0.0.2.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - processPackages [tinympc]: Remove: archive file [/home/abi/fetcher/tmp/tinympc-0.0.3.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - main [MainThread]: End processing [tinympc]: success
+[2024-05-09 00:46:12] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.1.0.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.1.1.tar.gz]
+[2024-05-09 00:46:12] INFO root fetch - main [MainThread]: End processing [satorisynapse]: success
+[2024-05-09 00:46:13] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.8.tar.gz]
+[2024-05-09 00:46:13] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-09 00:46:13] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-09 00:46:15] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.8.tar.gz]
+[2024-05-09 00:46:15] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.9.tar.gz]
+[2024-05-09 00:46:15] INFO root fetch - main [MainThread]: End processing [langchain-community]: success
+[2024-05-09 00:46:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.8.tar.gz]
+[2024-05-09 00:46:23] INFO root fetch - processPackages [streamlit-custom-sidebar-test]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-custom-sidebar-test-0.0.9.tar.gz]
+[2024-05-09 00:46:23] INFO root fetch - main [MainThread]: End processing [streamlit-custom-sidebar-test]: success
+[2024-05-09 00:46:23] INFO root fetch - main [MainThread]: Store serial: [23121951]
