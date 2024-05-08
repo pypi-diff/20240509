@@ -1233,3 +1233,48 @@
 [2024-05-09 01:16:54] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-09 01:16:54] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-09 01:16:54] INFO root fetch - main [MainThread]: Store serial: [23122175]
+[2024-05-09 01:18:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122175]
+[2024-05-09 01:19:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freegenius
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-starship
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waymore
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dosview
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: silverfinz
+[2024-05-09 01:19:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-09 01:19:03] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-09 01:19:04] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 01:19:04] INFO root fetch - processPackages [dosview]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 01:19:04] WARNING root fetch - processPackages [athena-starship]: Skipping, unable to determine old version
+[2024-05-09 01:19:04] INFO root fetch - main [MainThread]: End processing [athena-starship] error
+[2024-05-09 01:19:04] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [waymore]: New version: [4.3] Old Version: [4.2]
+[2024-05-09 01:19:04] WARNING root fetch - processPackages [silverfinz]: Skipping, unable to determine old version
+[2024-05-09 01:19:04] INFO root fetch - main [MainThread]: End processing [silverfinz] error
+[2024-05-09 01:19:04] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/ca/c5/3ffbf2242d0b4d90c549de5b69892bb82e141e1f4077219a0e2b82823a15/dosview-0.1.8.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [waymore]: Downloading https://files.pythonhosted.org/packages/4b/43/0561358e1a227e04dbc992d061334d69d319b05e2ed07587a7934dd2a662/waymore-4.2.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-09 01:19:04] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240509/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-09 01:19:04] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [waymore]: Downloading https://files.pythonhosted.org/packages/20/cd/35ad5dfdb588c150500ad37d08b4ba9a3815284c14858a5a4b4097dd86ce/waymore-4.3.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/61/aa/f7b04b71d76ad743bac96178efe33fe36d91cd9b7cedda98b971c5dcec28/dosview-0.1.9.tar.gz
+[2024-05-09 01:19:04] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-09 01:19:04] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240509/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 01:19:04] INFO root fetch - processPackages [waymore]: executing diffoscope
+[2024-05-09 01:19:04] INFO root fetch - processPackages [waymore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waymore-4.2.tar.gz tmp/waymore-4.3.tar.gz --markdown 20240509/w/waymore/4.2-4.3/README.md --exclude *.pyd
+[2024-05-09 01:19:04] INFO root fetch - processPackages [dosview]: executing diffoscope
+[2024-05-09 01:19:04] INFO root fetch - processPackages [dosview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosview-0.1.8.tar.gz tmp/dosview-0.1.9.tar.gz --markdown 20240509/d/dosview/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 01:19:05] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-09 01:19:05] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.9.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - main [MainThread]: End processing [dosview]: success
+[2024-05-09 01:19:05] INFO root fetch - processPackages [waymore]: Remove: archive file [/home/abi/fetcher/tmp/waymore-4.2.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - processPackages [waymore]: Remove: archive file [/home/abi/fetcher/tmp/waymore-4.3.tar.gz]
+[2024-05-09 01:19:05] INFO root fetch - main [MainThread]: End processing [waymore]: success
+[2024-05-09 01:19:06] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-09 01:19:06] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-09 01:19:06] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-09 01:19:06] INFO root fetch - main [MainThread]: Store serial: [23122198]
