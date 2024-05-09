@@ -2623,3 +2623,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:07:29] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240508.tar.gz]
 [2024-05-09 02:07:29] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-09 02:07:29] INFO root fetch - main [MainThread]: Store serial: [23122710]
+[2024-05-09 02:09:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122710]
+[2024-05-09 02:09:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 02:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-05-09 02:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subgroupz
+[2024-05-09 02:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Prometa
+[2024-05-09 02:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-05-09 02:09:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baddns
+[2024-05-09 02:09:38] INFO root fetch - processPackages [Prometa]: New version: [2024.2] Old Version: [2024.1]
+[2024-05-09 02:09:38] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240509] Old Version: [0.1.0.dev20240508]
+[2024-05-09 02:09:38] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-09 02:09:38] WARNING root fetch - processPackages [subgroupz]: Skipping, unable to determine old version
+[2024-05-09 02:09:38] INFO root fetch - main [MainThread]: End processing [subgroupz] error
+[2024-05-09 02:09:38] INFO root fetch - processPackages [baddns]: New version: [1.1.784] Old Version: [1.1.781]
+[2024-05-09 02:09:38] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/3c/ef/6ad2ec201a69ebc5fb1cc526e13e82474c4e518454df3d79128cbc5900f3/onnxscript-0.1.0.dev20240508.tar.gz
+[2024-05-09 02:09:38] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-09 02:09:38] INFO root fetch - processPackages [Prometa]: Downloading https://files.pythonhosted.org/packages/f0/29/3f5b0277035cb98256ef03867fe21ffe237ac027547fddc5ebd167b547fd/prometa-2024.1.tar.gz
+[2024-05-09 02:09:38] INFO root fetch - processPackages [baddns]: Downloading https://files.pythonhosted.org/packages/8d/cb/b1c10a0e5f5b0a2fc58ea9289fa0455f86be630ddbb0e709e7ee82436cae/baddns-1.1.781.tar.gz
+[2024-05-09 02:09:39] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/2c/76/64bccd46bc58b230ca064a7c2422b46f83d00b560723ab0bd9a9da1bb816/onnxscript-0.1.0.dev20240509.tar.gz
+[2024-05-09 02:09:39] INFO root fetch - processPackages [Prometa]: Downloading https://files.pythonhosted.org/packages/3f/4e/cd94f3658ca9ae89c1e12633ba7befe5bc7c3fa7fc98a9c1266654c3d68d/prometa-2024.2.tar.gz
+[2024-05-09 02:09:39] INFO root fetch - processPackages [baddns]: Downloading https://files.pythonhosted.org/packages/f3/ea/3746452635c57ce6ab3e8beb29622d3e781265d588d6961c8e5097cd35f9/baddns-1.1.784.tar.gz
+[2024-05-09 02:09:39] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-09 02:09:39] INFO root fetch - processPackages [Prometa]: executing diffoscope
+[2024-05-09 02:09:39] INFO root fetch - processPackages [Prometa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometa-2024.1.tar.gz tmp/prometa-2024.2.tar.gz --markdown 20240509/P/Prometa/2024.1-2024.2/README.md --exclude *.pyd
+[2024-05-09 02:09:39] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-09 02:09:39] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240508.tar.gz tmp/onnxscript-0.1.0.dev20240509.tar.gz --markdown 20240509/o/onnxscript/0.1.0.dev20240508-0.1.0.dev20240509/README.md --exclude *.pyd
+[2024-05-09 02:09:39] INFO root fetch - processPackages [baddns]: executing diffoscope
+[2024-05-09 02:09:39] INFO root fetch - processPackages [baddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baddns-1.1.781.tar.gz tmp/baddns-1.1.784.tar.gz --markdown 20240509/b/baddns/1.1.781-1.1.784/README.md --exclude *.pyd
+[2024-05-09 02:09:39] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-09 02:09:39] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240509/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-09 02:09:39] INFO root fetch - processPackages [baddns]: Remove: archive file [/home/abi/fetcher/tmp/baddns-1.1.781.tar.gz]
+[2024-05-09 02:09:39] INFO root fetch - processPackages [baddns]: Remove: archive file [/home/abi/fetcher/tmp/baddns-1.1.784.tar.gz]
+[2024-05-09 02:09:39] INFO root fetch - main [MainThread]: End processing [baddns]: success
+[2024-05-09 02:09:40] INFO root fetch - processPackages [Prometa]: Remove: archive file [/home/abi/fetcher/tmp/prometa-2024.1.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - processPackages [Prometa]: Remove: archive file [/home/abi/fetcher/tmp/prometa-2024.2.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - main [MainThread]: End processing [Prometa]: success
+[2024-05-09 02:09:40] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-09 02:09:40] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240508.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240509.tar.gz]
+[2024-05-09 02:09:40] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-09 02:09:40] INFO root fetch - main [MainThread]: Store serial: [23122726]
