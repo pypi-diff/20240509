@@ -21482,3 +21482,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:23:41] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
 [2024-05-09 13:23:41] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-09 13:23:41] INFO root fetch - main [MainThread]: Store serial: [23130088]
+[2024-05-09 13:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130088]
+[2024-05-09 13:25:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 13:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uncranniedz
+[2024-05-09 13:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soma-integ
+[2024-05-09 13:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esmerald
+[2024-05-09 13:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: patchwork-cli
+[2024-05-09 13:25:50] INFO root fetch - processPackages [esmerald]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-05-09 13:25:50] WARNING root fetch - processPackages [uncranniedz]: Skipping, unable to determine old version
+[2024-05-09 13:25:50] INFO root fetch - main [MainThread]: End processing [uncranniedz] error
+[2024-05-09 13:25:50] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/6f/ce/eca849f6391644d85e85421653998980ad1b7719dd27c950a82d0b6cddc0/esmerald-3.1.3.tar.gz
+[2024-05-09 13:25:50] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.87] Old Version: [0.0.8]
+[2024-05-09 13:25:50] INFO root fetch - processPackages [soma-integ]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 13:25:50] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/36/2f/b815594fc876fe1f088ee1898093bf549ef7e72e5f7c55a1f275635e53f6/soma_integ-0.0.3.tar.gz
+[2024-05-09 13:25:50] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/c9/34/1e22087fc74939d2573fbb3284f88ccb5bbe1e20f10aa2a5e15596f2314e/patchwork_cli-0.0.8.tar.gz
+[2024-05-09 13:25:50] INFO root fetch - processPackages [esmerald]: Downloading https://files.pythonhosted.org/packages/c0/f4/71ecc2d7a3bb46ee96f5bd288d8f2b926f76cc512fc7d087d6a559ac371b/esmerald-3.1.4.tar.gz
+[2024-05-09 13:25:50] INFO root fetch - processPackages [esmerald]: executing diffoscope
+[2024-05-09 13:25:50] INFO root fetch - processPackages [esmerald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmerald-3.1.3.tar.gz tmp/esmerald-3.1.4.tar.gz --markdown 20240509/e/esmerald/3.1.3-3.1.4/README.md --exclude *.pyd
+[2024-05-09 13:25:50] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/96/88/6de964915db8819a420a4b754194d3b25165c3ce02ef343f21ddd2f94ab5/soma_integ-0.0.4.tar.gz
+[2024-05-09 13:25:51] INFO root fetch - processPackages [soma-integ]: executing diffoscope
+[2024-05-09 13:25:51] INFO root fetch - processPackages [soma-integ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soma_integ-0.0.3.tar.gz tmp/soma_integ-0.0.4.tar.gz --markdown 20240509/s/soma-integ/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 13:25:51] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/4694e3e7b94101c305804486e96714ef11b44bb1cde3bd96731d3ccf2f18/patchwork_cli-0.0.87.tar.gz
+[2024-05-09 13:25:51] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-09 13:25:51] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.8.tar.gz tmp/patchwork_cli-0.0.87.tar.gz --markdown 20240509/p/patchwork-cli/0.0.8-0.0.87/README.md --exclude *.pyd
+[2024-05-09 13:25:51] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.3.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.4.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - main [MainThread]: End processing [soma-integ]: success
+[2024-05-09 13:25:51] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-3.1.3.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - processPackages [esmerald]: Remove: archive file [/home/abi/fetcher/tmp/esmerald-3.1.4.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - main [MainThread]: End processing [esmerald]: success
+[2024-05-09 13:25:51] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.8.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.87.tar.gz]
+[2024-05-09 13:25:51] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-09 13:25:51] INFO root fetch - main [MainThread]: Store serial: [23130102]
