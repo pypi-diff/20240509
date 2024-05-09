@@ -10915,3 +10915,75 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:44:13] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
 [2024-05-09 06:44:13] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
 [2024-05-09 06:44:13] INFO root fetch - main [MainThread]: Store serial: [23126156]
+[2024-05-09 06:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126156]
+[2024-05-09 06:46:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WS-Helper-DRO
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vicereinez
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxpy-base
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subshift
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-fastly
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: partenaire-qualif
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fan-manager
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: media-downloader
+[2024-05-09 06:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-mailgun
+[2024-05-09 06:46:22] WARNING root fetch - processPackages [WS-Helper-DRO]: Skipping, unable to determine old version
+[2024-05-09 06:46:22] INFO root fetch - main [MainThread]: End processing [WS-Helper-DRO] error
+[2024-05-09 06:46:22] INFO root fetch - processPackages [media-downloader]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [subshift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 06:46:22] WARNING root fetch - processPackages [vicereinez]: Skipping, unable to determine old version
+[2024-05-09 06:46:22] INFO root fetch - main [MainThread]: End processing [vicereinez] error
+[2024-05-09 06:46:22] INFO root fetch - processPackages [media-downloader]: Downloading https://files.pythonhosted.org/packages/59/a9/df88f792689228e8928c0e6d67665c7aa8ba26403ddeb656590de9b8ff83/media_downloader-0.8.0-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/6f/d5/1b8745614d92aedba3828fe05394cda27f3f6eb2eb38ed82797e7225cb77/partenaire-qualif-0.0.4.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [fan-manager]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715228755] Old Version: [3.6.0a1715060871]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/be/c0/4105d13745d0e749930d5632609fed0de7d60ea009dd75a179fcd037e978/subshift-0.8.0-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.7.0a1715228438] Old Version: [8.7.0a1714563248]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [cvxpy-base]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-09 06:46:22] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/1a/1c/52f2d03a1bc34515813e4a8069849a3241629884496df65f8b2ccb8a3e74/subshift-0.9.0-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [media-downloader]: Downloading https://files.pythonhosted.org/packages/38/c2/19d7fba2ac3e7963d7652bbb6991eda1e27849121583a5d531952d233782/media_downloader-0.9.0-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [fan-manager]: Downloading https://files.pythonhosted.org/packages/ac/d1/a0fb3b96ed9496bc8a57b98c2f7f034b05cf534abafa2584818e229995b7/fan_manager-0.6.0-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/e7/8c/bd66889bfed13460c4cd908682f77eb6c37509f5616c78b60fb60de2347f/pulumi_mailgun-3.6.0a1715060871.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/b0/23/30e0bf17739d34c57f7b8977b9af96e4a8aecb832a95164cee63fe03e5fc/pulumi_fastly-8.7.0a1714563248.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/00/5a/1bfde835d0c8ffe0eaf58199055d212d2ff49fe621b07addc1648a3f2e4e/partenaire-qualif-0.0.5.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/74/2c/a9383d44c226322ef79feb8402645c650fb20bd8d0839678855f55d21d7b/cvxpy_base-1.4.3.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [subshift]: executing diffoscope
+[2024-05-09 06:46:22] INFO root fetch - processPackages [subshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subshift-0.8.0-py2.py3-none-any.whl.zip tmp/subshift-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/subshift/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 06:46:22] INFO root fetch - processPackages [media-downloader]: executing diffoscope
+[2024-05-09 06:46:22] INFO root fetch - processPackages [media-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_downloader-0.8.0-py2.py3-none-any.whl.zip tmp/media_downloader-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/m/media-downloader/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 06:46:22] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 06:46:22] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.4.tar.gz tmp/partenaire-qualif-0.0.5.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-09 06:46:22] INFO root fetch - processPackages [fan-manager]: Downloading https://files.pythonhosted.org/packages/85/bd/73e264b68aa076680bed645cbe1d1f72b6ddfc902a26d3ae6a27cbe3a268/fan_manager-0.6.1-py2.py3-none-any.whl
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/26/c3/b0007d0b1095560d42273e532ca99129e01187fe83c5caaf12f48645dc85/pulumi_mailgun-3.6.0a1715228755.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/89/62/2871c6c077fc369420b99b1aefa9c3e6b1067fc49092b12116c80468441b/pulumi_fastly-8.7.0a1715228438.tar.gz
+[2024-05-09 06:46:22] INFO root fetch - processPackages [fan-manager]: executing diffoscope
+[2024-05-09 06:46:22] INFO root fetch - processPackages [fan-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fan_manager-0.6.0-py2.py3-none-any.whl.zip tmp/fan_manager-0.6.1-py2.py3-none-any.whl.zip --markdown 20240509/f/fan-manager/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.7.0a1714563248.tar.gz tmp/pulumi_fastly-8.7.0a1715228438.tar.gz --markdown 20240509/p/pulumi-fastly/8.7.0a1714563248-8.7.0a1715228438/README.md --exclude *.pyd
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz tmp/pulumi_mailgun-3.6.0a1715228755.tar.gz --markdown 20240509/p/pulumi-mailgun/3.6.0a1715060871-3.6.0a1715228755/README.md --exclude *.pyd
+[2024-05-09 06:46:23] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/01/68/56856efe7d5111c0db207bf4cb386349133399571ccd67c2fa7cdcfecbf2/cvxpy_base-1.5.0-cp311-cp311-win_amd64.whl
+[2024-05-09 06:46:23] INFO root fetch - processPackages [media-downloader]: Remove: archive file [/home/abi/fetcher/tmp/media_downloader-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [media-downloader]: Remove: archive file [/home/abi/fetcher/tmp/media_downloader-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [media-downloader]: success
+[2024-05-09 06:46:23] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.4.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.5.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 06:46:23] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [subshift]: success
+[2024-05-09 06:46:23] INFO root fetch - processPackages [fan-manager]: Remove: archive file [/home/abi/fetcher/tmp/fan_manager-0.6.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [fan-manager]: Remove: archive file [/home/abi/fetcher/tmp/fan_manager-0.6.1-py2.py3-none-any.whl.zip]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [fan-manager]: success
+[2024-05-09 06:46:23] INFO root fetch - processPackages [cvxpy-base]: executing diffoscope
+[2024-05-09 06:46:23] INFO root fetch - processPackages [cvxpy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy_base-1.4.3.tar.gz tmp/cvxpy_base-1.5.0-cp311-cp311-win_amd64.whl.zip --markdown 20240509/c/cvxpy-base/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715228755.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1714563248.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.7.0a1715228438.tar.gz]
+[2024-05-09 06:46:23] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-09 06:46:24] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.4.3.tar.gz]
+[2024-05-09 06:46:24] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.5.0-cp311-cp311-win_amd64.whl.zip]
+[2024-05-09 06:46:24] INFO root fetch - main [MainThread]: End processing [cvxpy-base]: success
+[2024-05-09 06:46:24] INFO root fetch - main [MainThread]: Store serial: [23126187]
