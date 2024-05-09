@@ -22737,3 +22737,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:12:22] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
 [2024-05-09 14:12:22] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
 [2024-05-09 14:12:22] INFO root fetch - main [MainThread]: Store serial: [23130706]
+[2024-05-09 14:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130706]
+[2024-05-09 14:14:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-sentry
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typegraph
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-deployer
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-amazon-seller-partner
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crewai
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inductiva
+[2024-05-09 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flameEngine
+[2024-05-09 14:14:32] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.34] Old Version: [0.0.4.33]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [typegraph]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [aipkgs-sentry]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [ansible-deployer]: New version: [0.0.46] Old Version: [0.0.44]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [inductiva]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-05-09 14:14:32] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/51/c6/c078c60cfe641e9aceea3adc98714c3cae130287146d30f08dfa0392f796/flameengine-0.0.4.33.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [aipkgs-sentry]: Downloading https://files.pythonhosted.org/packages/4d/ea/e47ba12317338b3628fa26c497e8214b6e66d8ae8bc201ba5eb22921a184/aipkgs_sentry-0.0.4-py3-none-any.whl
+[2024-05-09 14:14:32] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/50/c8/dc880b90240972129446d624f4734de7aa9e50e12227aec59c93560ef389/typegraph-0.3.6.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [ansible-deployer]: Downloading https://files.pythonhosted.org/packages/ae/cc/d8adc9567ce3d373da6131b7f3314776d3224e114302d836e227362efa22/ansible-deployer-0.0.44.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Downloading https://files.pythonhosted.org/packages/7c/3c/e48fd0f9ed61069fba870cda6511fb60e1a4f8e95feb4b188ced5686fb27/airbyte_source_amazon_seller_partner-4.2.2.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/7f/e9/5d33d5515fec85979f2f86578a687761785d3ea945eff6275e52d3e9242d/inductiva-0.5.3.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/9e/70/8643eb067c533f2f14ee63845c91aaedb2fb421d4cf8cd6ea5a59ecd66d1/flameengine-0.0.4.34.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [ansible-deployer]: Downloading https://files.pythonhosted.org/packages/33/06/16e32d780f718b8c11f2f70bb9b37d51923fc5d5c24f3b565545dbc79374/ansible_deployer-0.0.46.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Downloading https://files.pythonhosted.org/packages/11/6a/9c46af0ddc9f3d6b95cb8c6bc3fa027f17dc0ab7d1caa80997c2edc1d0e4/airbyte_source_amazon_seller_partner-4.2.3.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 14:14:32] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.33.tar.gz tmp/flameengine-0.0.4.34.tar.gz --markdown 20240509/f/flameEngine/0.0.4.33-0.0.4.34/README.md --exclude *.pyd
+[2024-05-09 14:14:32] INFO root fetch - processPackages [inductiva]: Downloading https://files.pythonhosted.org/packages/89/47/f836af1c576412c16901a1d36d7166ebaadd1915e629bc387acc58e96880/inductiva-0.6.0.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [aipkgs-sentry]: Downloading https://files.pythonhosted.org/packages/be/4b/c5c2dd1e2f3388faa97989d572d70dff6273254db45807a3d7c20c5146a6/aipkgs_sentry-0.0.5.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [ansible-deployer]: executing diffoscope
+[2024-05-09 14:14:32] INFO root fetch - processPackages [ansible-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-deployer-0.0.44.tar.gz tmp/ansible_deployer-0.0.46.tar.gz --markdown 20240509/a/ansible-deployer/0.0.44-0.0.46/README.md --exclude *.pyd
+[2024-05-09 14:14:32] INFO root fetch - processPackages [aipkgs-sentry]: executing diffoscope
+[2024-05-09 14:14:32] INFO root fetch - processPackages [aipkgs-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_sentry-0.0.4-py3-none-any.whl.zip tmp/aipkgs_sentry-0.0.5.tar.gz --markdown 20240509/a/aipkgs-sentry/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-09 14:14:32] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/8b/39/97cc13a0505b5e1d6dc93f067690fd24688cf20d736bee4728491079e0d3/typegraph-0.4.0.tar.gz
+[2024-05-09 14:14:32] INFO root fetch - processPackages [inductiva]: executing diffoscope
+[2024-05-09 14:14:32] INFO root fetch - processPackages [inductiva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inductiva-0.5.3.tar.gz tmp/inductiva-0.6.0.tar.gz --markdown 20240509/i/inductiva/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-09 14:14:32] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: executing diffoscope
+[2024-05-09 14:14:32] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_amazon_seller_partner-4.2.2.tar.gz tmp/airbyte_source_amazon_seller_partner-4.2.3.tar.gz --markdown 20240509/a/airbyte-source-amazon-seller-partner/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-05-09 14:14:33] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-05-09 14:14:33] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240509/c/crewai/0.5.3-0.5.5/README.md --exclude *.pyd
+[2024-05-09 14:14:33] INFO root fetch - processPackages [typegraph]: executing diffoscope
+[2024-05-09 14:14:33] INFO root fetch - processPackages [typegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph-0.3.6.tar.gz tmp/typegraph-0.4.0.tar.gz --markdown 20240509/t/typegraph/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-09 14:14:33] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.33.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.34.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 14:14:33] INFO root fetch - processPackages [ansible-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ansible-deployer-0.0.44.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - processPackages [ansible-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ansible_deployer-0.0.46.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - main [MainThread]: End processing [ansible-deployer]: success
+[2024-05-09 14:14:33] INFO root fetch - processPackages [aipkgs-sentry]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_sentry-0.0.4-py3-none-any.whl.zip]
+[2024-05-09 14:14:33] INFO root fetch - processPackages [aipkgs-sentry]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_sentry-0.0.5.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - main [MainThread]: End processing [aipkgs-sentry]: success
+[2024-05-09 14:14:33] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amazon_seller_partner-4.2.2.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - processPackages [airbyte-source-amazon-seller-partner]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_amazon_seller_partner-4.2.3.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - main [MainThread]: End processing [airbyte-source-amazon-seller-partner]: success
+[2024-05-09 14:14:33] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-05-09 14:14:33] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-05-09 14:14:34] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.5.3.tar.gz]
+[2024-05-09 14:14:34] INFO root fetch - processPackages [inductiva]: Remove: archive file [/home/abi/fetcher/tmp/inductiva-0.6.0.tar.gz]
+[2024-05-09 14:14:34] INFO root fetch - main [MainThread]: End processing [inductiva]: success
+[2024-05-09 14:14:55] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.3.6.tar.gz]
+[2024-05-09 14:14:55] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.0.tar.gz]
+[2024-05-09 14:14:55] INFO root fetch - main [MainThread]: End processing [typegraph]: success
+[2024-05-09 14:14:55] INFO root fetch - main [MainThread]: Store serial: [23130731]
