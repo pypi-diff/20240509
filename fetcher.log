@@ -11248,3 +11248,48 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:57:26] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.3-py3-none-any.whl.zip]
 [2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
 [2024-05-09 06:57:26] INFO root fetch - main [MainThread]: Store serial: [23126329]
+[2024-05-09 06:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126329]
+[2024-05-09 06:59:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-05-09 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbutils
+[2024-05-09 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-okta
+[2024-05-09 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entegywrapper
+[2024-05-09 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opendp
+[2024-05-09 06:59:36] INFO root fetch - processPackages [pyqqq]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-09 06:59:36] INFO root fetch - processPackages [entegywrapper]: New version: [7.2.7] Old Version: [7.2.6]
+[2024-05-09 06:59:36] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240507001]
+[2024-05-09 06:59:36] INFO root fetch - processPackages [adbutils]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715229319] Old Version: [4.9.0a1715061690]
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9a/a3/ef120914d7ce7be088c09252c1efe0b68190f9852e5a934b64032f29f8ae/pyqqq-0.9.3.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/9d/78/195f557b1fe4f45b7751218a5c021c85603920df7a4a94480e58a8f6f4c6/entegywrapper-7.2.6.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/34/38/067369836e1a0417c65126cf942dc2d163e428df95da3ed359fc06f9dbf4/adbutils-2.6.0.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/58/61/c9a3ef252ac3a7bbf21fac042375376730e3dff8f0fbb030dbc7dc88f925/opendp-0.9.2a20240507001.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/a4/2f/20528c9fa051330bf6b91e8665d5146bc2f5f69ab2b77f92e4cb0b6fabeb/entegywrapper-7.2.7.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/79/b1/5fcce32768c030690d3a498a807de0a7245ae0b9e32cc98b084bde096921/pulumi_okta-4.9.0a1715061690.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/dd/60/5f9c2a0124b42dc327528787d40ce0c35d76517061250d4e9bd01a190aaf/pyqqq-0.9.4.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/fd/ac/fb368ba01a6acb15b8620ee3c4af84ffb38f444db6659791b677a549cd19/adbutils-2.6.1.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-09 06:59:37] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.6.tar.gz tmp/entegywrapper-7.2.7.tar.gz --markdown 20240509/e/entegywrapper/7.2.6-7.2.7/README.md --exclude *.pyd
+[2024-05-09 06:59:37] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/85/6c/b343f02569a02102fd61d7a89f66fb699dbdbf7903119928f4cc3ce8516d/opendp-0.9.2b20240207001-py3-none-any.whl
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.3.tar.gz tmp/pyqqq-0.9.4.tar.gz --markdown 20240509/p/pyqqq/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-09 06:59:37] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-05-09 06:59:37] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.6.0.tar.gz tmp/adbutils-2.6.1.tar.gz --markdown 20240509/a/adbutils/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-09 06:59:37] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
+[2024-05-09 06:59:37] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/2a/bf/18c60236b5fbc4e6cd12d8f1123e1cf312ffbd6f53678d5e7ace6bac7af2/pulumi_okta-4.9.0a1715229319.tar.gz
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-09 06:59:37] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715061690.tar.gz tmp/pulumi_okta-4.9.0a1715229319.tar.gz --markdown 20240509/p/pulumi-okta/4.9.0a1715061690-4.9.0a1715229319/README.md --exclude *.pyd
+[2024-05-09 06:59:38] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.3.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.4.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-09 06:59:38] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.6.0.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.6.1.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-05-09 06:59:38] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.6.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.7.tar.gz]
+[2024-05-09 06:59:38] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-09 06:59:39] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715061690.tar.gz]
+[2024-05-09 06:59:39] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715229319.tar.gz]
+[2024-05-09 06:59:39] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-09 06:59:39] INFO root fetch - main [MainThread]: Store serial: [23126354]
