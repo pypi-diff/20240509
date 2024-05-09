@@ -10652,3 +10652,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:33:06] INFO root fetch - processPackages [pnorm]: Remove: archive file [/home/abi/fetcher/tmp/pnorm-0.0.0rc1.tar.gz]
 [2024-05-09 06:33:06] INFO root fetch - main [MainThread]: End processing [pnorm]: success
 [2024-05-09 06:33:06] INFO root fetch - main [MainThread]: Store serial: [23126052]
+[2024-05-09 06:35:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126052]
+[2024-05-09 06:35:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: revolutioneeringz
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turntable-cli
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kumparanian
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-account-report-invoice
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-akamai
+[2024-05-09 06:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ro-stock
+[2024-05-09 06:35:15] WARNING root fetch - processPackages [revolutioneeringz]: Skipping, unable to determine old version
+[2024-05-09 06:35:15] INFO root fetch - main [MainThread]: End processing [revolutioneeringz] error
+[2024-05-09 06:35:15] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc2] Old Version: [1.0.5rc1]
+[2024-05-09 06:35:15] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: New version: [17.0.0.6.0] Old Version: [17.0.0.5.0]
+[2024-05-09 06:35:15] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1715227892] Old Version: [7.2.0a1715058600]
+[2024-05-09 06:35:15] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: New version: [16.0.1.4.0.1] Old Version: [16.0.1.4.0]
+[2024-05-09 06:35:15] INFO root fetch - processPackages [turntable-cli]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-09 06:35:16] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/d0/47/3e1e41e3da9012c41ff7f4bf20a57e49f2b53ea55b2d0c59210e9c1b1c1e/kumparanian-1.0.5rc1.tar.gz
+[2024-05-09 06:35:16] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/8e/d0/2c7af892beba1267baaab67ca42e2b83ef14a9a74094c24f72007dee2b64/turntable_cli-0.3.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Downloading https://files.pythonhosted.org/packages/9e/b4/670a0bc8c691919024366c678d650809428f2aacc8c1c13e14e5f86ebb22/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/89/b6/4bf6a5f97acca4adbba130abb641451de425a217a378c4064e79d223bfbb/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f3/68/363e0adf08a10c3eb52f7a98648374ae9408a42e24eb8b668302f14b539c/pulumi_akamai-7.2.0a1715058600.tar.gz
+[2024-05-09 06:35:16] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/e6/a3/cbe9dd75650321e5abf36b712c6f474222b52b66525cf3bbceeebca096ab/kumparanian-1.0.5rc2.tar.gz
+[2024-05-09 06:35:16] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-09 06:35:16] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc1.tar.gz tmp/kumparanian-1.0.5rc2.tar.gz --markdown 20240509/k/kumparanian/1.0.5rc1-1.0.5rc2/README.md --exclude *.pyd
+[2024-05-09 06:35:16] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/4f/d2/add7283bc454b01ba6cd81fcc37b8f1befbd180cc091c86fa9e7ceb2cc94/turntable_cli-0.3.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Downloading https://files.pythonhosted.org/packages/fb/41/df9724f59114a46460ee8bd0f12533a8730a3d852f2a43bd39a127e5731b/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0.1-py3-none-any.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Downloading https://files.pythonhosted.org/packages/22/3a/7a0334ecd49c05e5a309fc2e1c73ecc8adbb3ccac2cafebab099e7145f69/odoo_addon_l10n_ro_stock-17.0.0.6.0-py3-none-any.whl
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: executing diffoscope
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-ro-account-report-invoice/16.0.1.4.0-16.0.1.4.0.1/README.md --exclude *.pyd
+[2024-05-09 06:35:16] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/5c/46/5152438411129151eefae4dd7ffecfd9ad345704e39603a73d650f2dad83/pulumi_akamai-7.2.0a1715227892.tar.gz
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: executing diffoscope
+[2024-05-09 06:35:16] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock-17.0.0.6.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-ro-stock/17.0.0.5.0-17.0.0.6.0/README.md --exclude *.pyd
+[2024-05-09 06:35:16] INFO root fetch - processPackages [turntable-cli]: executing diffoscope
+[2024-05-09 06:35:16] INFO root fetch - processPackages [turntable-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turntable_cli-0.3.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/turntable_cli-0.3.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240509/t/turntable-cli/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-09 06:35:17] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-09 06:35:17] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1715058600.tar.gz tmp/pulumi_akamai-7.2.0a1715227892.tar.gz --markdown 20240509/p/pulumi-akamai/7.2.0a1715058600-7.2.0a1715227892/README.md --exclude *.pyd
+[2024-05-09 06:35:17] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc1.tar.gz]
+[2024-05-09 06:35:17] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc2.tar.gz]
+[2024-05-09 06:35:17] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-09 06:35:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-05-09 06:35:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-05-09 06:35:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-report-invoice]: success
+[2024-05-09 06:35:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.5.0-py3-none-any.whl.zip]
+[2024-05-09 06:35:17] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock-17.0.0.6.0-py3-none-any.whl.zip]
+[2024-05-09 06:35:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock]: success
+[2024-05-09 06:35:19] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715058600.tar.gz]
+[2024-05-09 06:35:19] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715227892.tar.gz]
+[2024-05-09 06:35:19] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-09 06:35:26] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.3.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-09 06:35:26] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.3.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-09 06:35:26] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
+[2024-05-09 06:35:26] INFO root fetch - main [MainThread]: Store serial: [23126079]
