@@ -7855,3 +7855,47 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:53:55] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.8-py3-none-any.whl.zip]
 [2024-05-09 03:53:55] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
 [2024-05-09 03:53:55] INFO root fetch - main [MainThread]: Store serial: [23124652]
+[2024-05-09 03:56:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124652]
+[2024-05-09 03:56:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 03:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spyder-index
+[2024-05-09 03:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparklestock
+[2024-05-09 03:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libgal
+[2024-05-09 03:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uitestrunner-syberos
+[2024-05-09 03:56:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degirum-tools
+[2024-05-09 03:56:05] INFO root fetch - processPackages [uitestrunner-syberos]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-05-09 03:56:05] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2024-05-09 03:56:05] INFO root fetch - processPackages [spyder-index]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 03:56:05] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/89/77/159befeb2eb4cab9f235a092e1861c3d74d2363535b82e62bd24a30031a0/sparklestock-0.0.0.3.tar.gz
+[2024-05-09 03:56:05] INFO root fetch - processPackages [libgal]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 03:56:05] INFO root fetch - processPackages [degirum-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 03:56:05] INFO root fetch - processPackages [uitestrunner-syberos]: Downloading https://files.pythonhosted.org/packages/cb/65/6a323bd9b0639ba638bcf0d069d9121572398c1d7f4d17c4db661606c581/uitestrunner_syberos-2.3.3.tar.gz
+[2024-05-09 03:56:05] INFO root fetch - processPackages [spyder-index]: Downloading https://files.pythonhosted.org/packages/cd/4c/0654bdae77af132b940d7dea022b60d7bda2b0de2ed0c2cef7f5e02fbf6c/spyder_index-0.1.0.tar.gz
+[2024-05-09 03:56:05] WARNING root fetch - processPackages [uitestrunner-syberos]: Skipping package: exceeds size limit 61923760>=10485760
+[2024-05-09 03:56:05] INFO root fetch - main [MainThread]: End processing [uitestrunner-syberos] error
+[2024-05-09 03:56:05] INFO root fetch - processPackages [libgal]: Downloading https://files.pythonhosted.org/packages/3f/f0/064dcee44ecc90510c745385a2022eb5c5b79bc508369122a311e01addd2/libgal-1.0.1.tar.gz
+[2024-05-09 03:56:05] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/32/50/eb45eb8b4d35294d290ecead925ca5785ab7de748d4df88065f4fc050eb6/sparklestock-0.0.0.4.tar.gz
+[2024-05-09 03:56:05] INFO root fetch - processPackages [degirum-tools]: Downloading https://files.pythonhosted.org/packages/ba/41/4be175aa1dc53e5d99546a190e46ef7d17127f5178f2b9b277fa99c953c0/degirum_tools-0.8.0-py3-none-any.whl
+[2024-05-09 03:56:05] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-09 03:56:05] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.3.tar.gz tmp/sparklestock-0.0.0.4.tar.gz --markdown 20240509/s/sparklestock/0.0.0.3-0.0.0.4/README.md --exclude *.pyd
+[2024-05-09 03:56:06] INFO root fetch - processPackages [spyder-index]: Downloading https://files.pythonhosted.org/packages/e6/0a/6d504ddf60b80adf82855e9aa0846da77c6ed646293267ac2077ba893276/spyder_index-0.1.1.tar.gz
+[2024-05-09 03:56:06] INFO root fetch - processPackages [spyder-index]: executing diffoscope
+[2024-05-09 03:56:06] INFO root fetch - processPackages [spyder-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder_index-0.1.0.tar.gz tmp/spyder_index-0.1.1.tar.gz --markdown 20240509/s/spyder-index/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 03:56:06] INFO root fetch - processPackages [libgal]: Downloading https://files.pythonhosted.org/packages/5d/50/310bb54b55a2bf2118ecf8f41b9530cb6ee65385bd7171c0ca499ac97a23/libgal-1.0.2.tar.gz
+[2024-05-09 03:56:06] INFO root fetch - processPackages [degirum-tools]: Downloading https://files.pythonhosted.org/packages/e4/fc/a4c0d5686ba75307985d5d4cca26f6ade55f3d4c746ae82003ab2f69fa2a/degirum_tools-0.9.0-py3-none-any.whl
+[2024-05-09 03:56:06] INFO root fetch - processPackages [libgal]: executing diffoscope
+[2024-05-09 03:56:06] INFO root fetch - processPackages [libgal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libgal-1.0.1.tar.gz tmp/libgal-1.0.2.tar.gz --markdown 20240509/l/libgal/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 03:56:06] INFO root fetch - processPackages [degirum-tools]: executing diffoscope
+[2024-05-09 03:56:06] INFO root fetch - processPackages [degirum-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum_tools-0.8.0-py3-none-any.whl.zip tmp/degirum_tools-0.9.0-py3-none-any.whl.zip --markdown 20240509/d/degirum-tools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 03:56:06] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.3.tar.gz]
+[2024-05-09 03:56:06] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.4.tar.gz]
+[2024-05-09 03:56:06] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-09 03:56:06] INFO root fetch - processPackages [spyder-index]: Remove: archive file [/home/abi/fetcher/tmp/spyder_index-0.1.0.tar.gz]
+[2024-05-09 03:56:06] INFO root fetch - processPackages [spyder-index]: Remove: archive file [/home/abi/fetcher/tmp/spyder_index-0.1.1.tar.gz]
+[2024-05-09 03:56:06] INFO root fetch - main [MainThread]: End processing [spyder-index]: success
+[2024-05-09 03:56:06] INFO root fetch - processPackages [degirum-tools]: Remove: archive file [/home/abi/fetcher/tmp/degirum_tools-0.8.0-py3-none-any.whl.zip]
+[2024-05-09 03:56:06] INFO root fetch - processPackages [degirum-tools]: Remove: archive file [/home/abi/fetcher/tmp/degirum_tools-0.9.0-py3-none-any.whl.zip]
+[2024-05-09 03:56:06] INFO root fetch - main [MainThread]: End processing [degirum-tools]: success
+[2024-05-09 03:56:07] INFO root fetch - processPackages [libgal]: Remove: archive file [/home/abi/fetcher/tmp/libgal-1.0.1.tar.gz]
+[2024-05-09 03:56:07] INFO root fetch - processPackages [libgal]: Remove: archive file [/home/abi/fetcher/tmp/libgal-1.0.2.tar.gz]
+[2024-05-09 03:56:07] INFO root fetch - main [MainThread]: End processing [libgal]: success
+[2024-05-09 03:56:07] INFO root fetch - main [MainThread]: Store serial: [23124663]
