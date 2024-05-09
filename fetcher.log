@@ -20557,3 +20557,45 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:43:05] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.8.tar.gz]
 [2024-05-09 12:43:05] INFO root fetch - main [MainThread]: End processing [cardo-python-utils]: success
 [2024-05-09 12:43:05] INFO root fetch - main [MainThread]: Store serial: [23129776]
+[2024-05-09 12:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129776]
+[2024-05-09 12:45:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2024-05-09 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2024-05-09 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jfk-django-core
+[2024-05-09 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaseinvest-api
+[2024-05-09 12:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indralib
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-09 12:45:14] INFO root fetch - processPackages [chaseinvest-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 12:45:14] WARNING root fetch - processPackages [indralib]: Skipping, unable to determine old version
+[2024-05-09 12:45:14] INFO root fetch - processPackages [jfk-django-core]: New version: [0.0.3] Old Version: [0.0.0]
+[2024-05-09 12:45:14] INFO root fetch - main [MainThread]: End processing [indralib] error
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-09 12:45:14] INFO root fetch - processPackages [jfk-django-core]: Downloading https://files.pythonhosted.org/packages/42/49/ea08dc66bd153eb5ace0ad3ef719560466bbc336399d64bc68b9d6847762/jfk-django-core-0.0.0.tar.gz
+[2024-05-09 12:45:14] INFO root fetch - processPackages [chaseinvest-api]: Downloading https://files.pythonhosted.org/packages/ff/fb/ab230525ff93d6812290434fdaea6f5d262558da1b505d603324457c94d3/chaseinvest-api-0.1.1.tar.gz
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240509/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-09 12:45:14] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-09 12:45:15] INFO root fetch - processPackages [jfk-django-core]: Downloading https://files.pythonhosted.org/packages/4b/57/c11e3bfa2521b616b6ed0933e0060c6407f21e9046eb0102ff896bd27090/jfk_django_core-0.0.3.tar.gz
+[2024-05-09 12:45:15] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-09 12:45:15] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240509/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-09 12:45:15] INFO root fetch - processPackages [chaseinvest-api]: Downloading https://files.pythonhosted.org/packages/d6/cd/539a43175f736e019a725d29b8628af03605b87c3283ee6b474dd1afe3b4/chaseinvest_api-0.1.2.tar.gz
+[2024-05-09 12:45:15] INFO root fetch - processPackages [jfk-django-core]: executing diffoscope
+[2024-05-09 12:45:15] INFO root fetch - processPackages [jfk-django-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jfk-django-core-0.0.0.tar.gz tmp/jfk_django_core-0.0.3.tar.gz --markdown 20240509/j/jfk-django-core/0.0.0-0.0.3/README.md --exclude *.pyd
+[2024-05-09 12:45:15] INFO root fetch - processPackages [chaseinvest-api]: executing diffoscope
+[2024-05-09 12:45:15] INFO root fetch - processPackages [chaseinvest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaseinvest-api-0.1.1.tar.gz tmp/chaseinvest_api-0.1.2.tar.gz --markdown 20240509/c/chaseinvest-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 12:45:15] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-09 12:45:15] INFO root fetch - processPackages [jfk-django-core]: Remove: archive file [/home/abi/fetcher/tmp/jfk-django-core-0.0.0.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - processPackages [jfk-django-core]: Remove: archive file [/home/abi/fetcher/tmp/jfk_django_core-0.0.3.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - main [MainThread]: End processing [jfk-django-core]: success
+[2024-05-09 12:45:15] INFO root fetch - processPackages [chaseinvest-api]: Remove: archive file [/home/abi/fetcher/tmp/chaseinvest-api-0.1.1.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - processPackages [chaseinvest-api]: Remove: archive file [/home/abi/fetcher/tmp/chaseinvest_api-0.1.2.tar.gz]
+[2024-05-09 12:45:15] INFO root fetch - main [MainThread]: End processing [chaseinvest-api]: success
+[2024-05-09 12:45:16] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-09 12:45:16] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-09 12:45:16] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-09 12:45:16] INFO root fetch - main [MainThread]: Store serial: [23129791]
