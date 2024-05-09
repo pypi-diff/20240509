@@ -8536,3 +8536,58 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.4.tar.gz]
 [2024-05-09 04:40:41] INFO root fetch - main [MainThread]: End processing [bttc]: success
 [2024-05-09 04:40:41] INFO root fetch - main [MainThread]: Store serial: [23125214]
+[2024-05-09 04:42:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125214]
+[2024-05-09 04:42:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snk
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switch-api
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambient-backend-api-client
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ambient-backend-api-client
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiZero
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-k8s
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ambient-backend-api-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 04:42:50] INFO root fetch - processPackages [ambient-backend-api-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 04:42:50] INFO root fetch - processPackages [easy-k8s]: New version: [0.2.0.post3] Old Version: [0.2.0.post2]
+[2024-05-09 04:42:50] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 04:42:50] INFO root fetch - processPackages [aiZero]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-05-09 04:42:50] INFO root fetch - processPackages [switch-api]: New version: [0.5.4b3] Old Version: [0.5.4b2]
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/b8/ff/a284c9a08dd6759e6c0b05d471246a9c82a85e3d71170170a1680d065dbb/ambient_backend_api_client-0.1.0.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/7d/3f/74128bbf32dd4b1c483110256e732d57348c3d2e8b15a50542487155ab1e/easy_k8s-0.2.0.post2.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/b8/ff/a284c9a08dd6759e6c0b05d471246a9c82a85e3d71170170a1680d065dbb/ambient_backend_api_client-0.1.0.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/71/c9/c831b6e8af3a6a6af571ad7e7f1bc8b796c840c43cb24fabb4291df884f3/aiZero-0.0.1a3.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/d1/ee/a193c33ded1eb210cbf5b2d48c41872f1e5edff8c839d69a3dae4849fa4f/switch_api-0.5.4b2.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/b7/9d/5bbfcb7d4f77cd03baa3a39175a26f4bbfa53aeffdb43748f5cfebb27b7f/easy_k8s-0.2.0.post3.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/2a/f5/f40647ceba212b3e473f341420d15ef256e3501c49eb206ec47b63b5df8c/ambient_backend_api_client-0.1.1.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: Downloading https://files.pythonhosted.org/packages/2a/f5/f40647ceba212b3e473f341420d15ef256e3501c49eb206ec47b63b5df8c/ambient_backend_api_client-0.1.1.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/81/51/832358ba3754b201add50da4c7d53fd4e214436971c3c60917d30c55d92c/aiZero-0.0.1a4.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_backend_api_client-0.1.0.tar.gz tmp/ambient_backend_api_client-0.1.1.tar.gz --markdown 20240509/a/ambient-backend-api-client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [ambient-backend-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient_backend_api_client-0.1.0.tar.gz tmp/ambient_backend_api_client-0.1.1.tar.gz --markdown 20240509/a/ambient-backend-api-client/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 04:42:51] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [easy-k8s]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [easy-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_k8s-0.2.0.post2.tar.gz tmp/easy_k8s-0.2.0.post3.tar.gz --markdown 20240509/e/easy-k8s/0.2.0.post2-0.2.0.post3/README.md --exclude *.pyd
+[2024-05-09 04:42:51] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.1a3.tar.gz tmp/aiZero-0.0.1a4.tar.gz --markdown 20240509/a/aiZero/0.0.1a3-0.0.1a4/README.md --exclude *.pyd
+[2024-05-09 04:42:51] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/67/6d/1a014e5a49b1560c015ececfd65f11e40156446936e68e7986ecdcfcb994/switch_api-0.5.4b3.tar.gz
+[2024-05-09 04:42:51] INFO root fetch - processPackages [snk]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20240509/s/snk/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 04:42:51] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-09 04:42:51] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.4b2.tar.gz tmp/switch_api-0.5.4b3.tar.gz --markdown 20240509/s/switch-api/0.5.4b2-0.5.4b3/README.md --exclude *.pyd
+[2024-05-09 04:42:52] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post2.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post3.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [easy-k8s]: success
+[2024-05-09 04:42:52] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a3.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.1a4.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-09 04:42:52] INFO root fetch - processPackages [ambient-backend-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_backend_api_client-0.1.0.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - processPackages [ambient-backend-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_backend_api_client-0.1.1.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client]: success
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client]: success
+[2024-05-09 04:42:52] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2024-05-09 04:42:52] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b2.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b3.tar.gz]
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-09 04:42:52] INFO root fetch - main [MainThread]: Store serial: [23125246]
