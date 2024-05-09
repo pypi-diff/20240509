@@ -21731,3 +21731,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:34:46] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.tar.gz]
 [2024-05-09 13:34:46] INFO root fetch - main [MainThread]: End processing [fcio]: success
 [2024-05-09 13:34:46] INFO root fetch - main [MainThread]: Store serial: [23130205]
+[2024-05-09 13:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130205]
+[2024-05-09 13:36:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spond-classes
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blacklightz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxem
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-br-account
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atsdk
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweb
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fcio
+[2024-05-09 13:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nf-core
+[2024-05-09 13:36:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240509.9.44.878306] Old Version: [20240509.10.38.534161]
+[2024-05-09 13:36:55] WARNING root fetch - processPackages [sweb]: Skipping, unable to determine old version
+[2024-05-09 13:36:55] INFO root fetch - main [MainThread]: End processing [sweb] error
+[2024-05-09 13:36:55] INFO root fetch - processPackages [fcio]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-09 13:36:55] INFO root fetch - processPackages [atsdk]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-09 13:36:55] INFO root fetch - processPackages [spond-classes]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-09 13:36:55] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/c0/f8/cd1b63e8660712bfb918e2753c3eac14f0f36aff53ca86d8ab02dd696059/fcio-0.3.0.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [pyxem]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-09 13:36:55] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: New version: [15.0.2.3.1] Old Version: [15.0.2.3.0]
+[2024-05-09 13:36:55] WARNING root fetch - processPackages [blacklightz]: Skipping, unable to determine old version
+[2024-05-09 13:36:55] INFO root fetch - main [MainThread]: End processing [blacklightz] error
+[2024-05-09 13:36:55] INFO root fetch - processPackages [nf-core]: New version: [2.9] Old Version: [2.8]
+[2024-05-09 13:36:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9f/37/93e2e2384befd7373901bb87c0eaf94d7d5457ae03878d4267d6a3d2dc55/certora-cli-alpha-master-20240509.10.38.534161.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [nf-core]: Downloading https://files.pythonhosted.org/packages/61/69/487c44f66d86a3b813c89079e92d66da8e0798cfd3c921bd64b2a13762f6/nf-core-2.8.tar.gz
+[2024-05-09 13:36:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14505982>=10485760
+[2024-05-09 13:36:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-09 13:36:55] INFO root fetch - processPackages [spond-classes]: Downloading https://files.pythonhosted.org/packages/7f/b6/1bb7ae0cccdcfa51c9e6869f82104353480f45a9a5bf77a3c4b46c6c7349/spond_classes-0.8.1.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [pyxem]: Downloading https://files.pythonhosted.org/packages/b0/4d/c8b442756f370aa6ca68cbc78463976a82fd10d768382f9dcb8337f6efd4/pyxem-0.9.1.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/3a/94/52e4043c02706c5469ddde7c41ba9bac0b2f5ed6f6a215011e17bea94539/atsdk-0.2.7.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/d1/a9/07a0257a637eb240786942da6c626f2fc2737f01a5af4780c1293bf8d085/odoo_addon_l10n_br_account-15.0.2.3.0-py3-none-any.whl
+[2024-05-09 13:36:55] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/32/7a/43c8549c567787e9913c90b00257fd7f6c48147deed1d59dccdaed8e696f/fcio-0.4.0.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-09 13:36:55] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.3.0.tar.gz tmp/fcio-0.4.0.tar.gz --markdown 20240509/f/fcio/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-09 13:36:55] INFO root fetch - processPackages [spond-classes]: Downloading https://files.pythonhosted.org/packages/af/a7/b4c3f1e82655bf91a06d4aa5f472c902d04b7c2be17de0d6ab34045f6259/spond_classes-0.9.0.tar.gz
+[2024-05-09 13:36:55] INFO root fetch - processPackages [nf-core]: Downloading https://files.pythonhosted.org/packages/98/73/280763f5c212c1755a307a979d0cfc19e28c2812c39bff24bbeb4cd0ab1f/nf-core-2.9.tar.gz
+[2024-05-09 13:36:56] INFO root fetch - processPackages [pyxem]: Downloading https://files.pythonhosted.org/packages/fd/bb/47c9c1eabc4385914cce4751192000e70e1dd865f7d00b853351b62d7629/pyxem-0.9.2.tar.gz
+[2024-05-09 13:36:56] INFO root fetch - processPackages [spond-classes]: executing diffoscope
+[2024-05-09 13:36:56] INFO root fetch - processPackages [spond-classes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spond_classes-0.8.1.tar.gz tmp/spond_classes-0.9.0.tar.gz --markdown 20240509/s/spond-classes/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-09 13:36:56] INFO root fetch - processPackages [atsdk]: Downloading https://files.pythonhosted.org/packages/71/a3/c2134f04675a35de720047245d2cd68d236e1789325393f6163f0c772ed0/atsdk-0.2.8.tar.gz
+[2024-05-09 13:36:56] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/1c/07/677d7d4d8825e1f04656b260f730678a6948142f6dd0f6e61b94409a3387/odoo_addon_l10n_br_account-15.0.2.3.1-py3-none-any.whl
+[2024-05-09 13:36:56] INFO root fetch - processPackages [nf-core]: executing diffoscope
+[2024-05-09 13:36:56] INFO root fetch - processPackages [nf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nf-core-2.8.tar.gz tmp/nf-core-2.9.tar.gz --markdown 20240509/n/nf-core/2.8-2.9/README.md --exclude *.pyd
+[2024-05-09 13:36:56] INFO root fetch - processPackages [atsdk]: executing diffoscope
+[2024-05-09 13:36:56] INFO root fetch - processPackages [atsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atsdk-0.2.7.tar.gz tmp/atsdk-0.2.8.tar.gz --markdown 20240509/a/atsdk/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-09 13:36:56] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: executing diffoscope
+[2024-05-09 13:36:56] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_account-15.0.2.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_account-15.0.2.3.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-br-account/15.0.2.3.0-15.0.2.3.1/README.md --exclude *.pyd
+[2024-05-09 13:36:56] INFO root fetch - processPackages [pyxem]: executing diffoscope
+[2024-05-09 13:36:56] INFO root fetch - processPackages [pyxem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxem-0.9.1.tar.gz tmp/pyxem-0.9.2.tar.gz --markdown 20240509/p/pyxem/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-09 13:36:56] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.3.0.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-09 13:36:56] INFO root fetch - processPackages [spond-classes]: Remove: archive file [/home/abi/fetcher/tmp/spond_classes-0.8.1.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - processPackages [spond-classes]: Remove: archive file [/home/abi/fetcher/tmp/spond_classes-0.9.0.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - main [MainThread]: End processing [spond-classes]: success
+[2024-05-09 13:36:56] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.7.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - processPackages [atsdk]: Remove: archive file [/home/abi/fetcher/tmp/atsdk-0.2.8.tar.gz]
+[2024-05-09 13:36:56] INFO root fetch - main [MainThread]: End processing [atsdk]: success
+[2024-05-09 13:36:57] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_account-15.0.2.3.0-py3-none-any.whl.zip]
+[2024-05-09 13:36:57] INFO root fetch - processPackages [odoo-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_account-15.0.2.3.1-py3-none-any.whl.zip]
+[2024-05-09 13:36:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-account]: success
+[2024-05-09 13:36:57] INFO root fetch - processPackages [pyxem]: Remove: archive file [/home/abi/fetcher/tmp/pyxem-0.9.1.tar.gz]
+[2024-05-09 13:36:57] INFO root fetch - processPackages [pyxem]: Remove: archive file [/home/abi/fetcher/tmp/pyxem-0.9.2.tar.gz]
+[2024-05-09 13:36:57] INFO root fetch - main [MainThread]: End processing [pyxem]: success
+[2024-05-09 13:36:57] INFO root fetch - processPackages [nf-core]: Remove: archive file [/home/abi/fetcher/tmp/nf-core-2.8.tar.gz]
+[2024-05-09 13:36:57] INFO root fetch - processPackages [nf-core]: Remove: archive file [/home/abi/fetcher/tmp/nf-core-2.9.tar.gz]
+[2024-05-09 13:36:57] INFO root fetch - main [MainThread]: End processing [nf-core]: success
+[2024-05-09 13:36:57] INFO root fetch - main [MainThread]: Store serial: [23130235]
