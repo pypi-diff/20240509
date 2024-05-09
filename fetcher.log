@@ -11659,3 +11659,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:17:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
 [2024-05-09 07:17:26] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2024-05-09 07:17:26] INFO root fetch - main [MainThread]: Store serial: [23126500]
+[2024-05-09 07:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126500]
+[2024-05-09 07:19:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 07:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eidolon-ai-client
+[2024-05-09 07:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discriminationsz
+[2024-05-09 07:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eidolon-ai-sdk
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.52] Old Version: [0.1.51]
+[2024-05-09 07:19:35] WARNING root fetch - processPackages [discriminationsz]: Skipping, unable to determine old version
+[2024-05-09 07:19:35] INFO root fetch - main [MainThread]: End processing [discriminationsz] error
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/f0/61/6ca231006909006ba96753a764654d05e47de665b1bf7f42b131a6cdb841/eidolon_ai_client-0.1.8.tar.gz
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/93/aa/66bb156a56c0211116aeeeb1b7e2f4b3b0bfe0c12b451a572f19be8657ed/eidolon_ai_sdk-0.1.51.tar.gz
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-client]: Downloading https://files.pythonhosted.org/packages/14/16/63be890da3058c38960189037563296eb56f3d69154718e4a35d80261950/eidolon_ai_client-0.1.9.tar.gz
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/c3/8e/6b92d388b76a8edfb0313e41571c036b23fd3d68275505ff71581f0933f0/eidolon_ai_sdk-0.1.52.tar.gz
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-client]: executing diffoscope
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.8.tar.gz tmp/eidolon_ai_client-0.1.9.tar.gz --markdown 20240509/e/eidolon-ai-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-05-09 07:19:35] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.51.tar.gz tmp/eidolon_ai_sdk-0.1.52.tar.gz --markdown 20240509/e/eidolon-ai-sdk/0.1.51-0.1.52/README.md --exclude *.pyd
+[2024-05-09 07:19:36] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.8.tar.gz]
+[2024-05-09 07:19:36] INFO root fetch - processPackages [eidolon-ai-client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.9.tar.gz]
+[2024-05-09 07:19:36] INFO root fetch - main [MainThread]: End processing [eidolon-ai-client]: success
+[2024-05-09 07:19:36] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.51.tar.gz]
+[2024-05-09 07:19:36] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.52.tar.gz]
+[2024-05-09 07:19:36] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-05-09 07:19:36] INFO root fetch - main [MainThread]: Store serial: [23126512]
