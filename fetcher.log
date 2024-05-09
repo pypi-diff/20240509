@@ -10640,3 +10640,15 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:30:56] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715227918.tar.gz]
 [2024-05-09 06:30:56] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-09 06:30:56] INFO root fetch - main [MainThread]: Store serial: [23126049]
+[2024-05-09 06:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126049]
+[2024-05-09 06:33:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 06:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pnorm
+[2024-05-09 06:33:05] INFO root fetch - processPackages [pnorm]: New version: [0.0.0rc1] Old Version: [0.0.0rc0]
+[2024-05-09 06:33:05] INFO root fetch - processPackages [pnorm]: Downloading https://files.pythonhosted.org/packages/0f/0a/0e34fc4e9ec2c91d10eae7355b75e23fb66b8e968cf36ff510743d91efe2/pnorm-0.0.0rc0.tar.gz
+[2024-05-09 06:33:05] INFO root fetch - processPackages [pnorm]: Downloading https://files.pythonhosted.org/packages/ff/a5/224763ab4e4d6a199c21d3ea07e59750092131fb19ac04d9ac4c1daa46f4/pnorm-0.0.0rc1.tar.gz
+[2024-05-09 06:33:05] INFO root fetch - processPackages [pnorm]: executing diffoscope
+[2024-05-09 06:33:05] INFO root fetch - processPackages [pnorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnorm-0.0.0rc0.tar.gz tmp/pnorm-0.0.0rc1.tar.gz --markdown 20240509/p/pnorm/0.0.0rc0-0.0.0rc1/README.md --exclude *.pyd
+[2024-05-09 06:33:06] INFO root fetch - processPackages [pnorm]: Remove: archive file [/home/abi/fetcher/tmp/pnorm-0.0.0rc0.tar.gz]
+[2024-05-09 06:33:06] INFO root fetch - processPackages [pnorm]: Remove: archive file [/home/abi/fetcher/tmp/pnorm-0.0.0rc1.tar.gz]
+[2024-05-09 06:33:06] INFO root fetch - main [MainThread]: End processing [pnorm]: success
+[2024-05-09 06:33:06] INFO root fetch - main [MainThread]: Store serial: [23126052]
