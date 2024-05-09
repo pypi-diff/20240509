@@ -11945,3 +11945,24 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:30:41] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715227918.tar.gz]
 [2024-05-09 07:30:41] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-09 07:30:41] INFO root fetch - main [MainThread]: Store serial: [23126603]
+[2024-05-09 07:32:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126603]
+[2024-05-09 07:32:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 07:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-09 07:32:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rank-torrent-name
+[2024-05-09 07:32:50] INFO root fetch - processPackages [rank-torrent-name]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 07:32:50] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-09 07:32:50] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/55/6a/185494bfe23e8a2c4c83c4cf90c8435e7a3836c0c6ded4db899834e269a9/rank_torrent_name-0.2.8.tar.gz
+[2024-05-09 07:32:50] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-09 07:32:51] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/58/da/9bd788cb38b6ae67089397a2537549bc66b4fe0b60be0af6bea97b30ab99/rank_torrent_name-0.2.9.tar.gz
+[2024-05-09 07:32:51] INFO root fetch - processPackages [rank-torrent-name]: executing diffoscope
+[2024-05-09 07:32:51] INFO root fetch - processPackages [rank-torrent-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rank_torrent_name-0.2.8.tar.gz tmp/rank_torrent_name-0.2.9.tar.gz --markdown 20240509/r/rank-torrent-name/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240509/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-09 07:32:51] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.8.tar.gz]
+[2024-05-09 07:32:51] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.9.tar.gz]
+[2024-05-09 07:32:51] INFO root fetch - main [MainThread]: End processing [rank-torrent-name]: success
+[2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-09 07:32:51] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-09 07:32:51] INFO root fetch - main [MainThread]: Store serial: [23126615]
