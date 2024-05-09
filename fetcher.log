@@ -21620,3 +21620,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:28:05] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-05-09 13:28:05] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-09 13:28:05] INFO root fetch - main [MainThread]: Store serial: [23130146]
+[2024-05-09 13:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130146]
+[2024-05-09 13:30:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fontc
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flameEngine
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PFlowC
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweb
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenAI-Python-Client
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neptune
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neptune-client
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: user-context-remote
+[2024-05-09 13:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cancel-contexts
+[2024-05-09 13:30:16] INFO root fetch - processPackages [PFlowC]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-09 13:30:16] WARNING root fetch - processPackages [cancel-contexts]: Skipping, unable to determine old version
+[2024-05-09 13:30:16] INFO root fetch - main [MainThread]: End processing [cancel-contexts] error
+[2024-05-09 13:30:16] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.3] Old Version: [0.0.4.2]
+[2024-05-09 13:30:16] INFO root fetch - processPackages [neptune-client]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2024-05-09 13:30:16] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/ca/95/e8871d12b617b5d260c4c0bffccfdd5724c2f6dfe674efaebe927f38e349/flameengine-0.0.4.2.tar.gz
+[2024-05-09 13:30:16] WARNING root fetch - processPackages [sweb]: Skipping, unable to determine old version
+[2024-05-09 13:30:16] INFO root fetch - main [MainThread]: End processing [sweb] error
+[2024-05-09 13:30:16] INFO root fetch - processPackages [fontc]: New version: [0.0.1.post3] Old Version: [0.0.1]
+[2024-05-09 13:30:16] WARNING root fetch - processPackages [OpenAI-Python-Client]: Skipping, unable to determine old version
+[2024-05-09 13:30:16] INFO root fetch - main [MainThread]: End processing [OpenAI-Python-Client] error
+[2024-05-09 13:30:16] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.76] Old Version: [0.0.75]
+[2024-05-09 13:30:16] INFO root fetch - processPackages [neptune]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2024-05-09 13:30:16] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/0c/81/ff1b4c1c4bb6e665f7ad59f4064f31fdd0ccbe12efe580056385d71f28ca/PFlowC-1.4.3.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/e5/65/fb086906cf277363e3077945f775a555057c71804ceb5c992a53044a5ef5/neptune_client-1.9.0rc1.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/75/50/6f413db3254ddf84d63b4124380846b6097be043e96f005b789431b340a2/fontc-0.0.1.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/9b/56/be0c2f9b1f1414e323b30621dddbd2d8d5618a91d21d785b8c4642c39dc7/user_context_remote-0.0.75.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/ac/bc/9cfd0d654234bce80c130b7ed58d9a0c7e1b450bdefa25675f78f39f01a2/neptune-2.0.0a2.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/c5/8d/7ef924d1466da0a003efe1eb23feee6d70e509e1bf0c8951152e2b94ffe6/flameengine-0.0.4.3.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 13:30:16] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.2.tar.gz tmp/flameengine-0.0.4.3.tar.gz --markdown 20240509/f/flameEngine/0.0.4.2-0.0.4.3/README.md --exclude *.pyd
+[2024-05-09 13:30:16] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/b4/7c/310a3a946149b49dd497f3bf0ebfa79ef75656c3265604068eff14cf1e50/PFlowC-1.4.4.tar.gz
+[2024-05-09 13:30:16] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/b2/69/45f778a13dbbce9193689a39dd652a6daabfbb4d88754dbba7311ee54bd1/user_context_remote-0.0.76.tar.gz
+[2024-05-09 13:30:17] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-09 13:30:17] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-1.4.3.tar.gz tmp/PFlowC-1.4.4.tar.gz --markdown 20240509/P/PFlowC/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-09 13:30:17] INFO root fetch - processPackages [fontc]: Downloading https://files.pythonhosted.org/packages/a0/4b/5570d627c367e0689e69ecb43c9b858eb32e7bd64767c587f68ad51ad764/fontc-0.0.1.post3.tar.gz
+[2024-05-09 13:30:17] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-05-09 13:30:17] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_context_remote-0.0.75.tar.gz tmp/user_context_remote-0.0.76.tar.gz --markdown 20240509/u/user-context-remote/0.0.75-0.0.76/README.md --exclude *.pyd
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune-client]: Downloading https://files.pythonhosted.org/packages/b8/5b/f089b2fcb4827a456547df71ceee77f4a51428fe44aad6fcba933ec25a07/neptune_client-1.9.1.tar.gz
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/45/99/8a01dd0ccb92c8c146e53dc5c44a3b29dcd0d9d4895b37803ce2c0719cfe/neptune-2.0.0a3.tar.gz
+[2024-05-09 13:30:17] INFO root fetch - processPackages [fontc]: executing diffoscope
+[2024-05-09 13:30:17] INFO root fetch - processPackages [fontc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontc-0.0.1.tar.gz tmp/fontc-0.0.1.post3.tar.gz --markdown 20240509/f/fontc/0.0.1-0.0.1.post3/README.md --exclude *.pyd
+[2024-05-09 13:30:17] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.2.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.3.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune-client]: executing diffoscope
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_client-1.9.0rc1.tar.gz tmp/neptune_client-1.9.1.tar.gz --markdown 20240509/n/neptune-client/1.9.0rc1-1.9.1/README.md --exclude *.pyd
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2024-05-09 13:30:17] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-2.0.0a2.tar.gz tmp/neptune-2.0.0a3.tar.gz --markdown 20240509/n/neptune/2.0.0a2-2.0.0a3/README.md --exclude *.pyd
+[2024-05-09 13:30:17] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user_context_remote-0.0.75.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user_context_remote-0.0.76.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-05-09 13:30:17] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-1.4.3.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-1.4.4.tar.gz]
+[2024-05-09 13:30:17] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-09 13:30:18] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a2.tar.gz]
+[2024-05-09 13:30:18] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a3.tar.gz]
+[2024-05-09 13:30:18] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2024-05-09 13:30:18] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.9.0rc1.tar.gz]
+[2024-05-09 13:30:18] INFO root fetch - processPackages [neptune-client]: Remove: archive file [/home/abi/fetcher/tmp/neptune_client-1.9.1.tar.gz]
+[2024-05-09 13:30:18] INFO root fetch - main [MainThread]: End processing [neptune-client]: success
+[2024-05-09 13:30:25] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.1.tar.gz]
+[2024-05-09 13:30:25] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.1.post3.tar.gz]
+[2024-05-09 13:30:25] INFO root fetch - main [MainThread]: End processing [fontc]: success
+[2024-05-09 13:30:25] INFO root fetch - main [MainThread]: Store serial: [23130188]
