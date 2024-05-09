@@ -15343,3 +15343,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:10:34] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
 [2024-05-09 10:10:34] INFO root fetch - main [MainThread]: End processing [boxmot]: success
 [2024-05-09 10:10:34] INFO root fetch - main [MainThread]: Store serial: [23127894]
+[2024-05-09 10:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127894]
+[2024-05-09 10:12:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everai
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bywardz
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graal
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pov-city
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmtsar
+[2024-05-09 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-data-services
+[2024-05-09 10:12:44] INFO root fetch - processPackages [everai]: New version: [0.1.49] Old Version: [0.1.48]
+[2024-05-09 10:12:44] INFO root fetch - processPackages [graal]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 10:12:44] WARNING root fetch - processPackages [pov-city]: Skipping, unable to determine old version
+[2024-05-09 10:12:44] INFO root fetch - main [MainThread]: End processing [pov-city] error
+[2024-05-09 10:12:44] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/5b/3f/31bf8515a71aff2a7d4b604018bf8a000c40c80b22b47730bf8194e92c67/everai-0.1.48-py3-none-any.whl
+[2024-05-09 10:12:44] INFO root fetch - processPackages [pygmtsar]: New version: [2024.4.17.post3] Old Version: [2024.4.17.post2]
+[2024-05-09 10:12:44] WARNING root fetch - processPackages [bywardz]: Skipping, unable to determine old version
+[2024-05-09 10:12:44] INFO root fetch - main [MainThread]: End processing [bywardz] error
+[2024-05-09 10:12:44] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev9014376771] Old Version: [2.0.0.dev8981619855]
+[2024-05-09 10:12:44] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/da/75/a143a82e0e665f1f42b0e49912fbf659908453d00338dcda1c602c9ea3bf/graal-1.0.0rc2.tar.gz
+[2024-05-09 10:12:44] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/de/04/19b147b84dbe8933704ea272d104bb88034f63ad6fa40d2a2c048ab4e9e0/pygmtsar-2024.4.17.post2.tar.gz
+[2024-05-09 10:12:44] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/24/bb/1bd40baf6ab58f202cd6498f73c210465e94fd3968c1470896059c64a3c7/th2_data_services-2.0.0.dev8981619855.tar.gz
+[2024-05-09 10:12:44] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/4c/f7/624c0829392b413b80900ae1fd56bfa03f69215b929e1a46b6a5fb86febd/everai-0.1.49-py3-none-any.whl
+[2024-05-09 10:12:44] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-09 10:12:44] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.48-py3-none-any.whl.zip tmp/everai-0.1.49-py3-none-any.whl.zip --markdown 20240509/e/everai/0.1.48-0.1.49/README.md --exclude *.pyd
+[2024-05-09 10:12:45] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/c4/45/e8bc0361eb2d8034736c670e73c8f2e01865cf904dc6b62a112edc41d678/pygmtsar-2024.4.17.post3.tar.gz
+[2024-05-09 10:12:45] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/69/3d/d2ca0318bea71d29a7e5529768df71502d9d9257aa5d2faaba921c12a1e0/th2_data_services-2.0.0.dev9014376771.tar.gz
+[2024-05-09 10:12:45] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/b4/26/323feb8d96f270167157a9c1f5951664038440033281364faafe41625ad1/graal-1.0.1rc1.tar.gz
+[2024-05-09 10:12:45] INFO root fetch - processPackages [pygmtsar]: executing diffoscope
+[2024-05-09 10:12:45] INFO root fetch - processPackages [pygmtsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtsar-2024.4.17.post2.tar.gz tmp/pygmtsar-2024.4.17.post3.tar.gz --markdown 20240509/p/pygmtsar/2024.4.17.post2-2024.4.17.post3/README.md --exclude *.pyd
+[2024-05-09 10:12:45] INFO root fetch - processPackages [graal]: executing diffoscope
+[2024-05-09 10:12:45] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-1.0.0rc2.tar.gz tmp/graal-1.0.1rc1.tar.gz --markdown 20240509/g/graal/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:12:45] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-09 10:12:45] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8981619855.tar.gz tmp/th2_data_services-2.0.0.dev9014376771.tar.gz --markdown 20240509/t/th2-data-services/2.0.0.dev8981619855-2.0.0.dev9014376771/README.md --exclude *.pyd
+[2024-05-09 10:12:45] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post2.tar.gz]
+[2024-05-09 10:12:45] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post3.tar.gz]
+[2024-05-09 10:12:45] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
+[2024-05-09 10:12:46] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-1.0.0rc2.tar.gz]
+[2024-05-09 10:12:46] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-1.0.1rc1.tar.gz]
+[2024-05-09 10:12:46] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2024-05-09 10:12:46] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8981619855.tar.gz]
+[2024-05-09 10:12:46] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev9014376771.tar.gz]
+[2024-05-09 10:12:46] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-09 10:12:46] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.48-py3-none-any.whl.zip]
+[2024-05-09 10:12:46] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.49-py3-none-any.whl.zip]
+[2024-05-09 10:12:46] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-09 10:12:46] INFO root fetch - main [MainThread]: Store serial: [23127914]
