@@ -8591,3 +8591,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:42:52] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b3.tar.gz]
 [2024-05-09 04:42:52] INFO root fetch - main [MainThread]: End processing [switch-api]: success
 [2024-05-09 04:42:52] INFO root fetch - main [MainThread]: Store serial: [23125246]
+[2024-05-09 04:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125246]
+[2024-05-09 04:45:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anabih-python-test
+[2024-05-09 04:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cae-cli
+[2024-05-09 04:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quarteringsz
+[2024-05-09 04:45:02] INFO root fetch - processPackages [anabih-python-test]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-09 04:45:02] INFO root fetch - processPackages [cae-cli]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-09 04:45:02] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/de/c1/b81aa0054b9d6f7dd41d2a392bb3ca8aae919b23af39430623b5e9342746/cae_cli-0.2.5.tar.gz
+[2024-05-09 04:45:02] WARNING root fetch - processPackages [quarteringsz]: Skipping, unable to determine old version
+[2024-05-09 04:45:02] INFO root fetch - main [MainThread]: End processing [quarteringsz] error
+[2024-05-09 04:45:02] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/c6/ba/9ad0dc559409e7f7d124c39772918a3a1e7e4e2a71f3e1b83ddd52a3c90b/anabih_python_test-1.0.0.tar.gz
+[2024-05-09 04:45:02] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/1d/8c/54a5aca8b928893223253db79fba57fe735cfa8a12e3a6342d89e14b1b24/cae_cli-0.2.6.tar.gz
+[2024-05-09 04:45:02] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-09 04:45:02] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.5.tar.gz tmp/cae_cli-0.2.6.tar.gz --markdown 20240509/c/cae-cli/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-09 04:45:02] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/06/65/fa1bfe2e2f6cf772aa4c3517d105398dcf237e5c1c4ea5e4231b31e2771f/anabih_python_test-2.0.0.tar.gz
+[2024-05-09 04:45:02] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-09 04:45:02] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-1.0.0.tar.gz tmp/anabih_python_test-2.0.0.tar.gz --markdown 20240509/a/anabih-python-test/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-09 04:45:03] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.5.tar.gz]
+[2024-05-09 04:45:03] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.6.tar.gz]
+[2024-05-09 04:45:03] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-09 04:45:03] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-1.0.0.tar.gz]
+[2024-05-09 04:45:03] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-2.0.0.tar.gz]
+[2024-05-09 04:45:03] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-09 04:45:03] INFO root fetch - main [MainThread]: Store serial: [23125258]
