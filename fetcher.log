@@ -17646,3 +17646,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:39:59] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk-1.1.0rc1.tar.gz]
 [2024-05-09 10:39:59] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
 [2024-05-09 10:39:59] INFO root fetch - main [MainThread]: Store serial: [23128518]
+[2024-05-09 10:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128518]
+[2024-05-09 10:42:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 10:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: subprocess-shell
+[2024-05-09 10:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-ads-api-report-fetcher
+[2024-05-09 10:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kumparanian
+[2024-05-09 10:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thor
+[2024-05-09 10:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hscloud
+[2024-05-09 10:42:08] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc2] Old Version: [1.0.5rc1]
+[2024-05-09 10:42:08] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/d0/47/3e1e41e3da9012c41ff7f4bf20a57e49f2b53ea55b2d0c59210e9c1b1c1e/kumparanian-1.0.5rc1.tar.gz
+[2024-05-09 10:42:08] INFO root fetch - processPackages [subprocess-shell]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-09 10:42:08] INFO root fetch - processPackages [thor]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 10:42:08] INFO root fetch - processPackages [hscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 10:42:08] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-09 10:42:09] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/e6/a3/cbe9dd75650321e5abf36b712c6f474222b52b66525cf3bbceeebca096ab/kumparanian-1.0.5rc2.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/02/45dd03a45f7c7a02cb7254ba10449e7cee5308653144f5ba3829f47a9f95/hscloud-0.0.8.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/6b/43/3808f163005af01c7fa631ef865898b34f6aa29d074d140066ba16c6ae78/thor-0.9.8.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [subprocess-shell]: Downloading https://files.pythonhosted.org/packages/13/78/10472f4bfbd8376e730d839d356013e8bce539f72483ecaeff0441b22f03/subprocess_shell-0.1.0.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-09 10:42:09] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc1.tar.gz tmp/kumparanian-1.0.5rc2.tar.gz --markdown 20240509/k/kumparanian/1.0.5rc1-1.0.5rc2/README.md --exclude *.pyd
+[2024-05-09 10:42:09] INFO root fetch - processPackages [hscloud]: Downloading https://files.pythonhosted.org/packages/11/e6/f838691fae0fc1cf3bfe46d0899724f827e6907654effae7a11cc2a085e4/hscloud-0.0.9.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [subprocess-shell]: Downloading https://files.pythonhosted.org/packages/d3/7b/0774d95d0bc0fdbe6810003722805082b13a1c87c578b802e7de04d35718/subprocess_shell-1.0.0.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [thor]: Downloading https://files.pythonhosted.org/packages/d0/ca/4ed5b622a23dea82284cbe071a76f0c774adfdaa706917444e15f623bb98/thor-0.9.9.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-09 10:42:09] INFO root fetch - processPackages [hscloud]: executing diffoscope
+[2024-05-09 10:42:09] INFO root fetch - processPackages [hscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hscloud-0.0.8.tar.gz tmp/hscloud-0.0.9.tar.gz --markdown 20240509/h/hscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 10:42:09] INFO root fetch - processPackages [subprocess-shell]: executing diffoscope
+[2024-05-09 10:42:09] INFO root fetch - processPackages [subprocess-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subprocess_shell-0.1.0.tar.gz tmp/subprocess_shell-1.0.0.tar.gz --markdown 20240509/s/subprocess-shell/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-09 10:42:09] INFO root fetch - processPackages [thor]: executing diffoscope
+[2024-05-09 10:42:09] INFO root fetch - processPackages [thor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-0.9.8.tar.gz tmp/thor-0.9.9.tar.gz --markdown 20240509/t/thor/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 10:42:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-09 10:42:09] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240509/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-09 10:42:09] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc1.tar.gz]
+[2024-05-09 10:42:09] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc2.tar.gz]
+[2024-05-09 10:42:09] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-09 10:42:10] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.8.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - processPackages [hscloud]: Remove: archive file [/home/abi/fetcher/tmp/hscloud-0.0.9.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - main [MainThread]: End processing [hscloud]: success
+[2024-05-09 10:42:10] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.8.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - processPackages [thor]: Remove: archive file [/home/abi/fetcher/tmp/thor-0.9.9.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - main [MainThread]: End processing [thor]: success
+[2024-05-09 10:42:10] INFO root fetch - processPackages [subprocess-shell]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_shell-0.1.0.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - processPackages [subprocess-shell]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_shell-1.0.0.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - main [MainThread]: End processing [subprocess-shell]: success
+[2024-05-09 10:42:10] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-09 10:42:10] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-09 10:42:10] INFO root fetch - main [MainThread]: Store serial: [23128533]
