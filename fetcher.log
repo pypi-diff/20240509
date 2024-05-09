@@ -9930,3 +9930,66 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:44:38] INFO root fetch - processPackages [pypop7]: Remove: archive file [/home/abi/fetcher/tmp/pypop7-0.0.9.tar.gz]
 [2024-05-09 05:44:38] INFO root fetch - main [MainThread]: End processing [pypop7]: success
 [2024-05-09 05:44:38] INFO root fetch - main [MainThread]: Store serial: [23125759]
+[2024-05-09 05:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125759]
+[2024-05-09 05:46:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roughhousingz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linknlink
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-vsphere
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: debug-utility
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-ato
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multicloud-diagrams
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repository-manager
+[2024-05-09 05:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uiautodev
+[2024-05-09 05:46:47] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 05:46:47] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: New version: [9.2.0] Old Version: [9.1.0]
+[2024-05-09 05:46:47] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/23/bc/bd2d8d9768ef5002081e14784a5bf8fe6327a7960ea4f62c9a3c46862ba3/multicloud_diagrams-0.3.8.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [uiautodev]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-09 05:46:47] INFO root fetch - processPackages [linknlink]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 05:46:47] WARNING root fetch - processPackages [debug-utility]: Skipping, unable to determine old version
+[2024-05-09 05:46:47] INFO root fetch - main [MainThread]: End processing [debug-utility] error
+[2024-05-09 05:46:47] INFO root fetch - processPackages [repository-manager]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-09 05:46:47] WARNING root fetch - processPackages [roughhousingz]: Skipping, unable to determine old version
+[2024-05-09 05:46:47] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/b7/11/c8e6c9252824304b72253fa16997e215b94a5b20a28e9f224476dce4e82f/cdktf-cdktf-provider-vsphere-9.1.0.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - main [MainThread]: End processing [roughhousingz] error
+[2024-05-09 05:46:47] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/87/61/23ee052817e46267ca2cab0e819f2f6d912d2f882a2b5481bcc7b4ab1502/uiautodev-0.3.3.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [linknlink]: Downloading https://files.pythonhosted.org/packages/78/cd/11134af3599691a65491cd31c0585b24ab5f7ed46841d6c1b39391def4b9/linknlink-0.2.3.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [repository-manager]: Downloading https://files.pythonhosted.org/packages/05/02/3c7f98ae4a5297e342b1d33b822a2eafa12eadb20ac5638df73f8fc4d19c/repository_manager-0.8.2-py2.py3-none-any.whl
+[2024-05-09 05:46:47] INFO root fetch - processPackages [antchain-ato]: New version: [1.7.26] Old Version: [1.7.15]
+[2024-05-09 05:46:47] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/93/bd/2df888c482aa053bc871a7c784ffb1bb0e5e29cd0be64f95d889af5db7b4/multicloud_diagrams-0.3.9.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Downloading https://files.pythonhosted.org/packages/04/a5/9d7251d400b52363886b8125bfc6d00f9470a23439d881b86af9662a9a35/cdktf-cdktf-provider-vsphere-9.2.0.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [antchain-ato]: Downloading https://files.pythonhosted.org/packages/36/81/6c1dd3df41bf96f29a3ad429f89e0f643d90b16ad8d4f16024252ffb6672/antchain_ato-1.7.15.tar.gz
+[2024-05-09 05:46:47] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2024-05-09 05:46:47] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.8.tar.gz tmp/multicloud_diagrams-0.3.9.tar.gz --markdown 20240509/m/multicloud-diagrams/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 05:46:48] INFO root fetch - processPackages [linknlink]: Downloading https://files.pythonhosted.org/packages/88/c5/b84fa1ef20bb58df948443d854e3c8e758be6ed364d91324ecbad6920509/linknlink-0.2.4.tar.gz
+[2024-05-09 05:46:48] INFO root fetch - processPackages [repository-manager]: Downloading https://files.pythonhosted.org/packages/88/8d/143b6d1f5e6047e150e360d740a777e8b3a0a91fd87a3810611df2f0b1cd/repository_manager-0.8.3-py2.py3-none-any.whl
+[2024-05-09 05:46:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: executing diffoscope
+[2024-05-09 05:46:48] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vsphere-9.1.0.tar.gz tmp/cdktf-cdktf-provider-vsphere-9.2.0.tar.gz --markdown 20240509/c/cdktf-cdktf-provider-vsphere/9.1.0-9.2.0/README.md --exclude *.pyd
+[2024-05-09 05:46:48] INFO root fetch - processPackages [linknlink]: executing diffoscope
+[2024-05-09 05:46:48] INFO root fetch - processPackages [linknlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linknlink-0.2.3.tar.gz tmp/linknlink-0.2.4.tar.gz --markdown 20240509/l/linknlink/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 05:46:48] INFO root fetch - processPackages [antchain-ato]: Downloading https://files.pythonhosted.org/packages/7a/2f/2171ebc2a1dd221206db38075f95f72f52b67bfe0c349da561356dc4504f/antchain_ato-1.7.26.tar.gz
+[2024-05-09 05:46:48] INFO root fetch - processPackages [repository-manager]: executing diffoscope
+[2024-05-09 05:46:48] INFO root fetch - processPackages [repository-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository_manager-0.8.2-py2.py3-none-any.whl.zip tmp/repository_manager-0.8.3-py2.py3-none-any.whl.zip --markdown 20240509/r/repository-manager/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-09 05:46:48] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/bf/e0/9095d0e6565a7475534479bcc6e4c2d5501d4e58316a5da9a5f73ea135ae/uiautodev-0.3.4.tar.gz
+[2024-05-09 05:46:48] INFO root fetch - processPackages [antchain-ato]: executing diffoscope
+[2024-05-09 05:46:48] INFO root fetch - processPackages [antchain-ato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ato-1.7.15.tar.gz tmp/antchain_ato-1.7.26.tar.gz --markdown 20240509/a/antchain-ato/1.7.15-1.7.26/README.md --exclude *.pyd
+[2024-05-09 05:46:48] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.8.tar.gz]
+[2024-05-09 05:46:48] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.9.tar.gz]
+[2024-05-09 05:46:48] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2024-05-09 05:46:48] INFO root fetch - processPackages [linknlink]: Remove: archive file [/home/abi/fetcher/tmp/linknlink-0.2.3.tar.gz]
+[2024-05-09 05:46:48] INFO root fetch - processPackages [linknlink]: Remove: archive file [/home/abi/fetcher/tmp/linknlink-0.2.4.tar.gz]
+[2024-05-09 05:46:48] INFO root fetch - main [MainThread]: End processing [linknlink]: success
+[2024-05-09 05:46:48] INFO root fetch - processPackages [repository-manager]: Remove: archive file [/home/abi/fetcher/tmp/repository_manager-0.8.2-py2.py3-none-any.whl.zip]
+[2024-05-09 05:46:48] INFO root fetch - processPackages [repository-manager]: Remove: archive file [/home/abi/fetcher/tmp/repository_manager-0.8.3-py2.py3-none-any.whl.zip]
+[2024-05-09 05:46:48] INFO root fetch - main [MainThread]: End processing [repository-manager]: success
+[2024-05-09 05:46:48] INFO root fetch - processPackages [uiautodev]: executing diffoscope
+[2024-05-09 05:46:48] INFO root fetch - processPackages [uiautodev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautodev-0.3.3.tar.gz tmp/uiautodev-0.3.4.tar.gz --markdown 20240509/u/uiautodev/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-09 05:46:49] INFO root fetch - processPackages [antchain-ato]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ato-1.7.15.tar.gz]
+[2024-05-09 05:46:49] INFO root fetch - processPackages [antchain-ato]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ato-1.7.26.tar.gz]
+[2024-05-09 05:46:49] INFO root fetch - main [MainThread]: End processing [antchain-ato]: success
+[2024-05-09 05:46:49] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.3.tar.gz]
+[2024-05-09 05:46:49] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.4.tar.gz]
+[2024-05-09 05:46:49] INFO root fetch - main [MainThread]: End processing [uiautodev]: success
+[2024-05-09 05:46:50] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-9.1.0.tar.gz]
+[2024-05-09 05:46:50] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-9.2.0.tar.gz]
+[2024-05-09 05:46:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
+[2024-05-09 05:46:50] INFO root fetch - main [MainThread]: Store serial: [23125785]
