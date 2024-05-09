@@ -12751,3 +12751,24 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:10:41] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-09 08:10:41] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-09 08:10:41] INFO root fetch - main [MainThread]: Store serial: [23126945]
+[2024-05-09 08:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126945]
+[2024-05-09 08:12:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: partenaire-qualif
+[2024-05-09 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kafka
+[2024-05-09 08:12:50] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 08:12:50] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/44/c2/40d422845930bb5aa550dc7efed5bfc23869ea7a84ad0d86f7809db6b190/partenaire-qualif-0.0.7.tar.gz
+[2024-05-09 08:12:50] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715233851] Old Version: [3.8.0a1715089862]
+[2024-05-09 08:12:50] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/26/c9/080dbaeee3b7bb2c42b5c52024115213fcd8d781ef58459d8d0ef5c34cb8/pulumi_kafka-3.8.0a1715089862.tar.gz
+[2024-05-09 08:12:50] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/04/f5/9579f03e0f5c004f17f460ef3b89c606049e89b1669e0c102b13298bfd60/partenaire-qualif-0.0.8.tar.gz
+[2024-05-09 08:12:50] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 08:12:50] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.7.tar.gz tmp/partenaire-qualif-0.0.8.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 08:12:50] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/41/6c/0065fea05051049ff35d2567779c0e37ce781b46fccec10ba459039c687b/pulumi_kafka-3.8.0a1715233851.tar.gz
+[2024-05-09 08:12:50] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-09 08:12:50] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715089862.tar.gz tmp/pulumi_kafka-3.8.0a1715233851.tar.gz --markdown 20240509/p/pulumi-kafka/3.8.0a1715089862-3.8.0a1715233851/README.md --exclude *.pyd
+[2024-05-09 08:12:51] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.7.tar.gz]
+[2024-05-09 08:12:51] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.8.tar.gz]
+[2024-05-09 08:12:51] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 08:12:51] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715089862.tar.gz]
+[2024-05-09 08:12:51] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715233851.tar.gz]
+[2024-05-09 08:12:51] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-09 08:12:51] INFO root fetch - main [MainThread]: Store serial: [23126953]
