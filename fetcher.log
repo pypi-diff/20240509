@@ -2945,3 +2945,77 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:19:01] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.4.tar.gz]
 [2024-05-09 02:19:01] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-05-09 02:19:01] INFO root fetch - main [MainThread]: Store serial: [23122842]
+[2024-05-09 02:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122842]
+[2024-05-09 02:21:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minq
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-ethereum-node
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YOMAPI
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ogusa
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-cr-constructs
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Santa_IW
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytrydan
+[2024-05-09 02:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dosview
+[2024-05-09 02:21:10] INFO root fetch - processPackages [dosview]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [minq]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.449] Old Version: [2.1.448]
+[2024-05-09 02:21:10] WARNING root fetch - processPackages [Santa_IW]: Skipping, unable to determine old version
+[2024-05-09 02:21:10] INFO root fetch - main [MainThread]: End processing [Santa_IW] error
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [pytrydan]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/ca/c5/3ffbf2242d0b4d90c549de5b69892bb82e141e1f4077219a0e2b82823a15/dosview-0.1.8.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [ogusa]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [YOMAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [minq]: Downloading https://files.pythonhosted.org/packages/6c/00/1baa559fde5dd673d16120e912bc4084d5e1b3dc9d8559d1dd38e12d1df2/minq-0.0.1.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/96/c4/987dc2a7265aa77c46cccdb9d655f864676e0fe4229eeb80dace88f811a9/cdk-cr-constructs-2.1.448.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [pytrydan]: Downloading https://files.pythonhosted.org/packages/75/d9/2e5a26f61e00ad2600c9f7b03460fa5499fefe307a7c8817eb632c8e3d58/pytrydan-0.4.0.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/61/aa/f7b04b71d76ad743bac96178efe33fe36d91cd9b7cedda98b971c5dcec28/dosview-0.1.9.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/da/dd/942f5ea4e1c116a00fe824a73201701c1752370fdbf00c426b0efe7c91ad/YOMAPI-0.1.8.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [ogusa]: Downloading https://files.pythonhosted.org/packages/ed/a4/eb964098e81e45ae77aaed74b41c4852f88fcb5f1f405544c2702ad65d83/ogusa-0.1.5.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-09 02:21:10] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15192305>=10485760
+[2024-05-09 02:21:10] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-09 02:21:10] INFO root fetch - processPackages [dosview]: executing diffoscope
+[2024-05-09 02:21:10] INFO root fetch - processPackages [dosview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosview-0.1.8.tar.gz tmp/dosview-0.1.9.tar.gz --markdown 20240509/d/dosview/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240509/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-09 02:21:10] INFO root fetch - processPackages [minq]: Downloading https://files.pythonhosted.org/packages/43/3b/2da32fd41f632f6c767aeb76716ea91516d39500ec6259ddf2523dcfe854/minq-0.0.2.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-05-09 02:21:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240509/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-09 02:21:10] INFO root fetch - processPackages [minq]: executing diffoscope
+[2024-05-09 02:21:10] INFO root fetch - processPackages [minq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minq-0.0.1.tar.gz tmp/minq-0.0.2.tar.gz --markdown 20240509/m/minq/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 02:21:10] INFO root fetch - processPackages [pytrydan]: Downloading https://files.pythonhosted.org/packages/d1/33/91f0e861798662f94928a112f7a0dfdd139c809484b2a06a2307ffa7617f/pytrydan-0.5.0.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [ogusa]: Downloading https://files.pythonhosted.org/packages/e0/d9/70bea0778517f10f30902fa6c4b7af54ebbfddd766ad2d47cfd118577f40/ogusa-0.1.6.tar.gz
+[2024-05-09 02:21:10] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/af/ed/85eaa4f5d07b5102ac6dda1a57b857d8df1988df8e09fe0f24ddfd81c150/YOMAPI-0.1.9.tar.gz
+[2024-05-09 02:21:11] INFO root fetch - processPackages [ogusa]: executing diffoscope
+[2024-05-09 02:21:11] INFO root fetch - processPackages [ogusa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogusa-0.1.5.tar.gz tmp/ogusa-0.1.6.tar.gz --markdown 20240509/o/ogusa/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-09 02:21:11] INFO root fetch - processPackages [pytrydan]: executing diffoscope
+[2024-05-09 02:21:11] INFO root fetch - processPackages [pytrydan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrydan-0.4.0.tar.gz tmp/pytrydan-0.5.0.tar.gz --markdown 20240509/p/pytrydan/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-09 02:21:11] INFO root fetch - processPackages [YOMAPI]: executing diffoscope
+[2024-05-09 02:21:11] INFO root fetch - processPackages [YOMAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YOMAPI-0.1.8.tar.gz tmp/YOMAPI-0.1.9.tar.gz --markdown 20240509/Y/YOMAPI/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:21:11] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.9.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [dosview]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [minq]: Remove: archive file [/home/abi/fetcher/tmp/minq-0.0.1.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [minq]: Remove: archive file [/home/abi/fetcher/tmp/minq-0.0.2.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [minq]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [pytrydan]: Remove: archive file [/home/abi/fetcher/tmp/pytrydan-0.4.0.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [pytrydan]: Remove: archive file [/home/abi/fetcher/tmp/pytrydan-0.5.0.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [pytrydan]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [YOMAPI]: Remove: archive file [/home/abi/fetcher/tmp/YOMAPI-0.1.8.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [YOMAPI]: Remove: archive file [/home/abi/fetcher/tmp/YOMAPI-0.1.9.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [YOMAPI]: success
+[2024-05-09 02:21:11] INFO root fetch - processPackages [ogusa]: Remove: archive file [/home/abi/fetcher/tmp/ogusa-0.1.5.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - processPackages [ogusa]: Remove: archive file [/home/abi/fetcher/tmp/ogusa-0.1.6.tar.gz]
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [ogusa]: success
+[2024-05-09 02:21:11] INFO root fetch - main [MainThread]: Store serial: [23122866]
