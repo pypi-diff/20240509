@@ -14798,3 +14798,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.0.tar.gz]
 [2024-05-09 09:46:31] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
 [2024-05-09 09:46:31] INFO root fetch - main [MainThread]: Store serial: [23127691]
+[2024-05-09 09:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127691]
+[2024-05-09 09:48:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiondata
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MultiGather
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Gefyra
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: subdichotomouslyz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rknntools
+[2024-05-09 09:48:40] INFO root fetch - processPackages [Gefyra]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-09 09:48:40] INFO root fetch - processPackages [aiondata]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-09 09:48:40] INFO root fetch - processPackages [MultiGather]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 09:48:40] INFO root fetch - processPackages [rknntools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 09:48:40] INFO root fetch - processPackages [aiondata]: Downloading https://files.pythonhosted.org/packages/31/f4/b7d2ec3e43b34ecbe99238f1245ddc081aa6778a985a21874526a6f36929/aiondata-0.4.3.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/66/f1/9ea61bd76131c0d543c49a5b2ecf82d594d7dfd19d33047222d838ba1b70/multigather-0.0.2.tar.gz
+[2024-05-09 09:48:40] WARNING root fetch - processPackages [subdichotomouslyz]: Skipping, unable to determine old version
+[2024-05-09 09:48:40] INFO root fetch - main [MainThread]: End processing [subdichotomouslyz] error
+[2024-05-09 09:48:40] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-09 09:48:40] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/63/c5/69f1f9dfd469eaa24d88157078aa4e80cfdd69a5549a68094cb57f70363b/gefyra-2.1.0.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [rknntools]: Downloading https://files.pythonhosted.org/packages/da/27/cb4226e1687eb2eb4119f5c56bc0d184d339f839ae248dd52c3102f99d7f/rknntools-0.0.2.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [aiondata]: Downloading https://files.pythonhosted.org/packages/a5/cc/4b800b5b6d5fa876f89422ec8361176f81dbe846c9ee16dbf233190cd2d9/aiondata-0.4.4.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [aiondata]: executing diffoscope
+[2024-05-09 09:48:40] INFO root fetch - processPackages [aiondata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiondata-0.4.3.tar.gz tmp/aiondata-0.4.4.tar.gz --markdown 20240509/a/aiondata/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-09 09:48:40] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/7a/85/253dc0fa3f8ab1ca3e2c32586e6ee2959c78967611502eff746215753f3d/multigather-0.0.3.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [Gefyra]: Downloading https://files.pythonhosted.org/packages/80/54/fb37c6ae060e7a21fe4a4aac50091bc047fc98aa2a5e610a2a6e20d579a7/gefyra-2.1.1.tar.gz
+[2024-05-09 09:48:40] INFO root fetch - processPackages [MultiGather]: executing diffoscope
+[2024-05-09 09:48:40] INFO root fetch - processPackages [MultiGather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigather-0.0.2.tar.gz tmp/multigather-0.0.3.tar.gz --markdown 20240509/M/MultiGather/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 09:48:41] INFO root fetch - processPackages [Gefyra]: executing diffoscope
+[2024-05-09 09:48:41] INFO root fetch - processPackages [Gefyra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gefyra-2.1.0.tar.gz tmp/gefyra-2.1.1.tar.gz --markdown 20240509/G/Gefyra/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-09 09:48:41] INFO root fetch - processPackages [rknntools]: Downloading https://files.pythonhosted.org/packages/dd/47/2d9a4d02ddb60f232fcc248b9ca4e0099c094ba525c563c00754ee8da30f/rknntools-0.0.3.tar.gz
+[2024-05-09 09:48:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-09 09:48:41] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-09 09:48:41] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240509/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-09 09:48:41] INFO root fetch - processPackages [rknntools]: executing diffoscope
+[2024-05-09 09:48:41] INFO root fetch - processPackages [rknntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rknntools-0.0.2.tar.gz tmp/rknntools-0.0.3.tar.gz --markdown 20240509/r/rknntools/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 09:48:41] INFO root fetch - processPackages [aiondata]: Remove: archive file [/home/abi/fetcher/tmp/aiondata-0.4.3.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - processPackages [aiondata]: Remove: archive file [/home/abi/fetcher/tmp/aiondata-0.4.4.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - main [MainThread]: End processing [aiondata]: success
+[2024-05-09 09:48:41] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.2.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.3.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
+[2024-05-09 09:48:41] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.0.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - processPackages [Gefyra]: Remove: archive file [/home/abi/fetcher/tmp/gefyra-2.1.1.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - main [MainThread]: End processing [Gefyra]: success
+[2024-05-09 09:48:41] INFO root fetch - processPackages [rknntools]: Remove: archive file [/home/abi/fetcher/tmp/rknntools-0.0.2.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - processPackages [rknntools]: Remove: archive file [/home/abi/fetcher/tmp/rknntools-0.0.3.tar.gz]
+[2024-05-09 09:48:41] INFO root fetch - main [MainThread]: End processing [rknntools]: success
+[2024-05-09 09:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-09 09:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-09 09:48:42] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-09 09:48:42] INFO root fetch - main [MainThread]: Store serial: [23127710]
