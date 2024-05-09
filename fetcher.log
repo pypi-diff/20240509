@@ -13880,3 +13880,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 08:55:53] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-05-09 08:55:53] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-05-09 08:55:53] INFO root fetch - main [MainThread]: Store serial: [23127355]
+[2024-05-09 08:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127355]
+[2024-05-09 08:58:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-ai-api
+[2024-05-09 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlpro-int-scikit-learn
+[2024-05-09 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-slack
+[2024-05-09 08:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FastRAMQPI
+[2024-05-09 08:58:03] INFO root fetch - processPackages [emotion-ai-api]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-09 08:58:03] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.3] Old Version: [7.3.2]
+[2024-05-09 08:58:03] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1715229441] Old Version: [0.5.0a1715062776]
+[2024-05-09 08:58:04] INFO root fetch - processPackages [mlpro-int-scikit-learn]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 08:58:04] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/17/2e/0411b41a7d308f869706b4b66f666d5190c85052e76138d2b3adc00f7e5a/fastramqpi-7.3.2.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/97/0e/3b24b25687639ba2f4d203f6fc5695270ebac0497629e20e8ea1bc4cf4fc/pulumi_slack-0.5.0a1715062776.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/27/c9/097d558121b0ac8040ce0008e95ece7e697ac9dd982b971a7c5144dd746c/emotion_ai_api-0.1.0.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [mlpro-int-scikit-learn]: Downloading https://files.pythonhosted.org/packages/f4/15/3929a99784ceab1bdcf9de22599fd3546e51c5e673ab99daf8582adaf9f2/mlpro_int_scikit_learn-0.1.1.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/dc/e3/85d0070d0bf305300180efd0ad5d1de78a348d4a31e43590fe0afc72db23/pulumi_slack-0.5.0a1715229441.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/5d/be/33888165cda191c695f719e1b07399de8e5630dd26e42191fba5f7a3de6b/fastramqpi-7.3.3.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-09 08:58:04] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1715062776.tar.gz tmp/pulumi_slack-0.5.0a1715229441.tar.gz --markdown 20240509/p/pulumi-slack/0.5.0a1715062776-0.5.0a1715229441/README.md --exclude *.pyd
+[2024-05-09 08:58:04] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/09/45/b632a5628ab1747d26be288017d5dffb40ee2b9cf2020ae316b19bec3653/emotion_ai_api-0.1.2.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-09 08:58:04] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.3.2.tar.gz tmp/fastramqpi-7.3.3.tar.gz --markdown 20240509/F/FastRAMQPI/7.3.2-7.3.3/README.md --exclude *.pyd
+[2024-05-09 08:58:04] INFO root fetch - processPackages [mlpro-int-scikit-learn]: Downloading https://files.pythonhosted.org/packages/2a/ff/88d3ef07657bfcb5b7025fde0e11bb01a430ca8b0586d5be5a1473d438b2/mlpro_int_scikit_learn-0.1.2.tar.gz
+[2024-05-09 08:58:04] INFO root fetch - processPackages [emotion-ai-api]: executing diffoscope
+[2024-05-09 08:58:04] INFO root fetch - processPackages [emotion-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_ai_api-0.1.0.tar.gz tmp/emotion_ai_api-0.1.2.tar.gz --markdown 20240509/e/emotion-ai-api/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-09 08:58:04] INFO root fetch - processPackages [mlpro-int-scikit-learn]: executing diffoscope
+[2024-05-09 08:58:04] INFO root fetch - processPackages [mlpro-int-scikit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro_int_scikit_learn-0.1.1.tar.gz tmp/mlpro_int_scikit_learn-0.1.2.tar.gz --markdown 20240509/m/mlpro-int-scikit-learn/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 08:58:05] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715062776.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715229441.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-09 08:58:05] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.0.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.2.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - main [MainThread]: End processing [emotion-ai-api]: success
+[2024-05-09 08:58:05] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.2.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.3.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-09 08:58:05] INFO root fetch - processPackages [mlpro-int-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_scikit_learn-0.1.1.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - processPackages [mlpro-int-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_scikit_learn-0.1.2.tar.gz]
+[2024-05-09 08:58:05] INFO root fetch - main [MainThread]: End processing [mlpro-int-scikit-learn]: success
+[2024-05-09 08:58:05] INFO root fetch - main [MainThread]: Store serial: [23127367]
