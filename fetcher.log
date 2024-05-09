@@ -13307,3 +13307,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:33:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
 [2024-05-09 08:33:11] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2024-05-09 08:33:11] INFO root fetch - main [MainThread]: Store serial: [23127154]
+[2024-05-09 08:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127154]
+[2024-05-09 08:35:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 08:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-05-09 08:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inspursmsdk
+[2024-05-09 08:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-05-09 08:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-onelogin
+[2024-05-09 08:35:21] INFO root fetch - processPackages [inspursmsdk]: New version: [2.2.0] Old Version: [2.1.6]
+[2024-05-09 08:35:21] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1715234935] Old Version: [0.7.0a1715061651]
+[2024-05-09 08:35:21] INFO root fetch - processPackages [BioSAK]: New version: [1.88.9] Old Version: [1.88.8]
+[2024-05-09 08:35:21] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.86]
+[2024-05-09 08:35:21] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/3b/e3/59abb982d6974f6f2f6770a91e56bcf451b63d299454831db90fdfc66734/inspursmsdk-2.1.6.tar.gz
+[2024-05-09 08:35:21] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/09/d6/c352765828cdb4487c624ac81c45d0394fce349eccee23278f96174b8e0c/pulumi_onelogin-0.7.0a1715061651.tar.gz
+[2024-05-09 08:35:21] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/0b/93/e137f71bd784ccf6383b30b0ee6ce10d644875aff201845f6861dc41837a/bridgecrew-3.2.86-py3-none-any.whl
+[2024-05-09 08:35:21] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/76/0f/b42a5b517c7a861e4c633c5b8b2e8275a69eec86da698120e6a5a1ebf74f/BioSAK-1.88.8.tar.gz
+[2024-05-09 08:35:21] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/4b/a4/ddbe8f92a68da197e7e04ec3100f7e820629be4015566375e83f445b70a4/pulumi_onelogin-0.7.0a1715234935.tar.gz
+[2024-05-09 08:35:21] INFO root fetch - processPackages [inspursmsdk]: Downloading https://files.pythonhosted.org/packages/d5/0e/8f6b8b44fcadac7c979565191ec11958862ab21fd6291ed250654c47e1a2/inspursmsdk-2.2.0.tar.gz
+[2024-05-09 08:35:21] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-09 08:35:22] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-09 08:35:22] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-09 08:35:22] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1715061651.tar.gz tmp/pulumi_onelogin-0.7.0a1715234935.tar.gz --markdown 20240509/p/pulumi-onelogin/0.7.0a1715061651-0.7.0a1715234935/README.md --exclude *.pyd
+[2024-05-09 08:35:22] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-09 08:35:22] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.86-py3-none-any.whl.zip tmp/bridgecrew-3.2.9.tar.gz --markdown 20240509/b/bridgecrew/3.2.86-3.2.9/README.md --exclude *.pyd
+[2024-05-09 08:35:22] INFO root fetch - processPackages [inspursmsdk]: executing diffoscope
+[2024-05-09 08:35:22] INFO root fetch - processPackages [inspursmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspursmsdk-2.1.6.tar.gz tmp/inspursmsdk-2.2.0.tar.gz --markdown 20240509/i/inspursmsdk/2.1.6-2.2.0/README.md --exclude *.pyd
+[2024-05-09 08:35:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.86-py3-none-any.whl.zip]
+[2024-05-09 08:35:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-09 08:35:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-09 08:35:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715061651.tar.gz]
+[2024-05-09 08:35:22] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1715234935.tar.gz]
+[2024-05-09 08:35:22] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-09 08:35:22] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-09 08:35:22] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.8.tar.gz tmp/BioSAK-1.88.9.tar.gz --markdown 20240509/B/BioSAK/1.88.8-1.88.9/README.md --exclude *.pyd
+[2024-05-09 08:35:24] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
+[2024-05-09 08:35:24] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-09 08:35:24] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-09 08:35:24] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.1.6.tar.gz]
+[2024-05-09 08:35:24] INFO root fetch - processPackages [inspursmsdk]: Remove: archive file [/home/abi/fetcher/tmp/inspursmsdk-2.2.0.tar.gz]
+[2024-05-09 08:35:24] INFO root fetch - main [MainThread]: End processing [inspursmsdk]: success
+[2024-05-09 08:35:24] INFO root fetch - main [MainThread]: Store serial: [23127165]
