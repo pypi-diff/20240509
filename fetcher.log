@@ -19027,3 +19027,53 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:35:55] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
 [2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [shareddata]: success
 [2024-05-09 11:35:55] INFO root fetch - main [MainThread]: Store serial: [23129120]
+[2024-05-09 11:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129120]
+[2024-05-09 11:38:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bktest
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migration-db
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suckerfishesz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kafka
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-osubot
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amilib
+[2024-05-09 11:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoy
+[2024-05-09 11:38:04] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 11:38:04] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715233851] Old Version: [3.8.0a1715089862]
+[2024-05-09 11:38:04] INFO root fetch - processPackages [bktest]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-09 11:38:04] WARNING root fetch - processPackages [suckerfishesz]: Skipping, unable to determine old version
+[2024-05-09 11:38:04] INFO root fetch - main [MainThread]: End processing [suckerfishesz] error
+[2024-05-09 11:38:04] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [amilib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 11:38:04] WARNING root fetch - processPackages [zoy]: Skipping, unable to determine old version
+[2024-05-09 11:38:04] INFO root fetch - main [MainThread]: End processing [zoy] error
+[2024-05-09 11:38:04] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/26/c9/080dbaeee3b7bb2c42b5c52024115213fcd8d781ef58459d8d0ef5c34cb8/pulumi_kafka-3.8.0a1715089862.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.0] Old Version: [5.8.5]
+[2024-05-09 11:38:04] INFO root fetch - processPackages [bktest]: Downloading https://files.pythonhosted.org/packages/d4/a1/408864aa198bc6950ad7b60ee6c44d87ea351b40571b44fc7b6671cd1c36/bktest-2.0.0.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/41/6c/0065fea05051049ff35d2567779c0e37ce781b46fccec10ba459039c687b/pulumi_kafka-3.8.0a1715233851.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/e2/20/c60db63b68b26d67ba3acc423e2fd1ae0fa6575b473a39fe9f9fb0f343b1/amilib-0.0.8.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-09 11:38:04] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/df/70/52d4925e3f49332b03fecda1fae705d1eaee8cac7a4dd9edfd9f3170eac1/nonebot-plugin-osubot-5.8.5.tar.gz
+[2024-05-09 11:38:04] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29382947>=10485760
+[2024-05-09 11:38:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-09 11:38:04] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-09 11:38:04] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715089862.tar.gz tmp/pulumi_kafka-3.8.0a1715233851.tar.gz --markdown 20240509/p/pulumi-kafka/3.8.0a1715089862-3.8.0a1715233851/README.md --exclude *.pyd
+[2024-05-09 11:38:04] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-09 11:38:04] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240509/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 11:38:05] INFO root fetch - processPackages [bktest]: Downloading https://files.pythonhosted.org/packages/9c/43/36186b58a77e4bbb9f7f9af40ad513a159a3c71f91b6443560bc01408225/bktest-2.1.0.tar.gz
+[2024-05-09 11:38:05] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/70/44/00e2940e873e98111a9ced7abcdf953aa810fd247caf1b1b4f441eb98a88/amilib-0.0.9.tar.gz
+[2024-05-09 11:38:05] INFO root fetch - processPackages [bktest]: executing diffoscope
+[2024-05-09 11:38:05] INFO root fetch - processPackages [bktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bktest-2.0.0.tar.gz tmp/bktest-2.1.0.tar.gz --markdown 20240509/b/bktest/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-09 11:38:05] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-05-09 11:38:05] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.8.tar.gz tmp/amilib-0.0.9.tar.gz --markdown 20240509/a/amilib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 11:38:05] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715089862.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715233851.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-09 11:38:05] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-09 11:38:05] INFO root fetch - processPackages [bktest]: Remove: archive file [/home/abi/fetcher/tmp/bktest-2.0.0.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - processPackages [bktest]: Remove: archive file [/home/abi/fetcher/tmp/bktest-2.1.0.tar.gz]
+[2024-05-09 11:38:05] INFO root fetch - main [MainThread]: End processing [bktest]: success
+[2024-05-09 11:38:06] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.8.tar.gz]
+[2024-05-09 11:38:06] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.9.tar.gz]
+[2024-05-09 11:38:06] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-05-09 11:38:06] INFO root fetch - main [MainThread]: Store serial: [23129143]
