@@ -14439,3 +14439,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:22:20] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.1.tar.gz]
 [2024-05-09 09:22:20] INFO root fetch - main [MainThread]: End processing [somedecorators]: success
 [2024-05-09 09:22:20] INFO root fetch - main [MainThread]: Store serial: [23127544]
+[2024-05-09 09:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127544]
+[2024-05-09 09:24:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 09:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatshow-phy-mod-otfs
+[2024-05-09 09:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-phone-local
+[2024-05-09 09:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-retrievals
+[2024-05-09 09:24:29] INFO root fetch - processPackages [contact-phone-local]: New version: [0.0.9] Old Version: [0.0.13]
+[2024-05-09 09:24:29] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/3f/c9/f2a83d1957a37da1b4bfba92482f959c32ba8e96f877e10fd1c499f2233c/contact_phone_local-0.0.13.tar.gz
+[2024-05-09 09:24:29] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-09 09:24:29] INFO root fetch - processPackages [open-retrievals]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 09:24:29] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/d6/04/7e4117295a7af721f6d33ef0c5a40e431c60d1749938ad20ee42ee996303/whatshow_phy_mod_otfs-2.1.3.tar.gz
+[2024-05-09 09:24:29] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/88/b5/c3cd7b2322b674e5115abe0cf1665d7405051dc6307ded8f38e07f5d95e7/contact_phone_local-0.0.9.tar.gz
+[2024-05-09 09:24:29] INFO root fetch - processPackages [open-retrievals]: Downloading https://files.pythonhosted.org/packages/53/ca/fdac8064d9cab4e846c64a5e9271867fe884f8c5dde33a8f5c10501d0a16/open-retrievals-0.0.2.tar.gz
+[2024-05-09 09:24:29] INFO root fetch - processPackages [contact-phone-local]: executing diffoscope
+[2024-05-09 09:24:29] INFO root fetch - processPackages [contact-phone-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_phone_local-0.0.13.tar.gz tmp/contact_phone_local-0.0.9.tar.gz --markdown 20240509/c/contact-phone-local/0.0.13-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:24:29] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/b4/52/de342c16576b9e7d430718a0ac370b2c2bd2446ceb9b8246532e07cc3616/whatshow_phy_mod_otfs-2.1.4.tar.gz
+[2024-05-09 09:24:29] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: executing diffoscope
+[2024-05-09 09:24:29] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_phy_mod_otfs-2.1.3.tar.gz tmp/whatshow_phy_mod_otfs-2.1.4.tar.gz --markdown 20240509/w/whatshow-phy-mod-otfs/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: Downloading https://files.pythonhosted.org/packages/a4/47/322fbdcc0b60c01736124638004b052e5c1064c3970989603899011318b1/open-retrievals-0.0.3.tar.gz
+[2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: executing diffoscope
+[2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-retrievals-0.0.2.tar.gz tmp/open-retrievals-0.0.3.tar.gz --markdown 20240509/o/open-retrievals/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 09:24:30] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.13.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.9.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - main [MainThread]: End processing [contact-phone-local]: success
+[2024-05-09 09:24:30] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.3.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.4.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - main [MainThread]: End processing [whatshow-phy-mod-otfs]: success
+[2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: Remove: archive file [/home/abi/fetcher/tmp/open-retrievals-0.0.2.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: Remove: archive file [/home/abi/fetcher/tmp/open-retrievals-0.0.3.tar.gz]
+[2024-05-09 09:24:30] INFO root fetch - main [MainThread]: End processing [open-retrievals]: success
+[2024-05-09 09:24:30] INFO root fetch - main [MainThread]: Store serial: [23127554]
