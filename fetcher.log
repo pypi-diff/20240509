@@ -3019,3 +3019,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:21:11] INFO root fetch - processPackages [ogusa]: Remove: archive file [/home/abi/fetcher/tmp/ogusa-0.1.6.tar.gz]
 [2024-05-09 02:21:11] INFO root fetch - main [MainThread]: End processing [ogusa]: success
 [2024-05-09 02:21:11] INFO root fetch - main [MainThread]: Store serial: [23122866]
+[2024-05-09 02:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122866]
+[2024-05-09 02:23:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: air-sdk-python
+[2024-05-09 02:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fleepit
+[2024-05-09 02:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rq-dashboard-fast
+[2024-05-09 02:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recarryz
+[2024-05-09 02:23:20] INFO root fetch - processPackages [fleepit]: New version: [3] Old Version: [2]
+[2024-05-09 02:23:20] INFO root fetch - processPackages [fleepit]: Downloading https://files.pythonhosted.org/packages/cb/52/4909993689e7fbf652d7133fabd14f5e98215110460fd772cf1521f7fe6a/fleepit-2.tar.gz
+[2024-05-09 02:23:20] WARNING root fetch - processPackages [recarryz]: Skipping, unable to determine old version
+[2024-05-09 02:23:20] INFO root fetch - main [MainThread]: End processing [recarryz] error
+[2024-05-09 02:23:20] INFO root fetch - processPackages [air-sdk-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 02:23:20] INFO root fetch - processPackages [rq-dashboard-fast]: New version: [0.4.0] Old Version: [0.3.8]
+[2024-05-09 02:23:20] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/e6/7e/5025c35c624204d38d96724d6aab30af89667c1276120666cdb5711d6d67/air-sdk-python-0.9.0.tar.gz
+[2024-05-09 02:23:20] INFO root fetch - processPackages [rq-dashboard-fast]: Downloading https://files.pythonhosted.org/packages/1f/01/d2102a8fa2ba286298e292d5488efa29252b034a05735779975e9c1c6851/rq_dashboard_fast-0.3.8.tar.gz
+[2024-05-09 02:23:21] INFO root fetch - processPackages [fleepit]: Downloading https://files.pythonhosted.org/packages/53/23/3a2370c74ddefca9e7f4b81466e9facd157ef1d0e62e9fde75e7c7a55f78/fleepit-3.tar.gz
+[2024-05-09 02:23:21] INFO root fetch - processPackages [fleepit]: executing diffoscope
+[2024-05-09 02:23:21] INFO root fetch - processPackages [fleepit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleepit-2.tar.gz tmp/fleepit-3.tar.gz --markdown 20240509/f/fleepit/2-3/README.md --exclude *.pyd
+[2024-05-09 02:23:21] INFO root fetch - processPackages [rq-dashboard-fast]: Downloading https://files.pythonhosted.org/packages/d3/9b/9c7eeeb59eea9f32fbbabc26977a74e83f4f07b1fca61c8cfc98fbc6b820/rq_dashboard_fast-0.4.0.tar.gz
+[2024-05-09 02:23:21] INFO root fetch - processPackages [air-sdk-python]: Downloading https://files.pythonhosted.org/packages/c8/bc/3a6f4f24fc59dd5729c85aa82d63b1395ca97704eb7368fe064c5f911f24/air-sdk-python-0.9.1.tar.gz
+[2024-05-09 02:23:21] INFO root fetch - processPackages [rq-dashboard-fast]: executing diffoscope
+[2024-05-09 02:23:21] INFO root fetch - processPackages [rq-dashboard-fast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rq_dashboard_fast-0.3.8.tar.gz tmp/rq_dashboard_fast-0.4.0.tar.gz --markdown 20240509/r/rq-dashboard-fast/0.3.8-0.4.0/README.md --exclude *.pyd
+[2024-05-09 02:23:21] INFO root fetch - processPackages [air-sdk-python]: executing diffoscope
+[2024-05-09 02:23:21] INFO root fetch - processPackages [air-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/air-sdk-python-0.9.0.tar.gz tmp/air-sdk-python-0.9.1.tar.gz --markdown 20240509/a/air-sdk-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 02:23:21] INFO root fetch - processPackages [fleepit]: Remove: archive file [/home/abi/fetcher/tmp/fleepit-2.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - processPackages [fleepit]: Remove: archive file [/home/abi/fetcher/tmp/fleepit-3.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - main [MainThread]: End processing [fleepit]: success
+[2024-05-09 02:23:21] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.0.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - processPackages [air-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/air-sdk-python-0.9.1.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - main [MainThread]: End processing [air-sdk-python]: success
+[2024-05-09 02:23:21] INFO root fetch - processPackages [rq-dashboard-fast]: Remove: archive file [/home/abi/fetcher/tmp/rq_dashboard_fast-0.3.8.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - processPackages [rq-dashboard-fast]: Remove: archive file [/home/abi/fetcher/tmp/rq_dashboard_fast-0.4.0.tar.gz]
+[2024-05-09 02:23:21] INFO root fetch - main [MainThread]: End processing [rq-dashboard-fast]: success
+[2024-05-09 02:23:21] INFO root fetch - main [MainThread]: Store serial: [23122879]
