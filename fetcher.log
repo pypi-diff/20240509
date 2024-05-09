@@ -22803,3 +22803,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:14:55] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.0.tar.gz]
 [2024-05-09 14:14:55] INFO root fetch - main [MainThread]: End processing [typegraph]: success
 [2024-05-09 14:14:55] INFO root fetch - main [MainThread]: Store serial: [23130731]
+[2024-05-09 14:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130731]
+[2024-05-09 14:17:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reacclimatizedz
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: therix
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cap-tools
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-database
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyDatabases
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-mysticism
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-aedt-toolkits-common
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contact-location-local
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sphinx-tagtoctree
+[2024-05-09 14:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adatoolbox
+[2024-05-09 14:17:07] INFO root fetch - processPackages [adatoolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:17:07] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:17:07] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-09 14:17:07] WARNING root fetch - processPackages [reacclimatizedz]: Skipping, unable to determine old version
+[2024-05-09 14:17:07] INFO root fetch - main [MainThread]: End processing [reacclimatizedz] error
+[2024-05-09 14:17:07] INFO root fetch - processPackages [pyDatabases]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-09 14:17:07] INFO root fetch - processPackages [aipkgs-database]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 14:17:07] INFO root fetch - processPackages [therix]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-09 14:17:07] INFO root fetch - processPackages [sphinx-tagtoctree]: New version: [0.9.5.0a1] Old Version: [0.9.4]
+[2024-05-09 14:17:07] WARNING root fetch - processPackages [nonebot-plugin-mysticism]: Skipping, unable to determine old version
+[2024-05-09 14:17:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mysticism] error
+[2024-05-09 14:17:07] WARNING root fetch - processPackages [cap-tools]: Skipping, unable to determine old version
+[2024-05-09 14:17:07] INFO root fetch - main [MainThread]: End processing [cap-tools] error
+[2024-05-09 14:17:07] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [adatoolbox]: Downloading https://files.pythonhosted.org/packages/4f/e7/a8758340b8f6b785141fb9a57561d96200e0ea9c99de1ee679deff2ab76c/adatoolbox-0.0.8.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/1f/d0/1f1703bd54ed2eee0424b4fb9044ed16c51e7fc4fad5945baa6fe94a751e/ansys_aedt_toolkits_common-0.4.1.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f5/05/ccda8ae3dc45c36fc2f33a4a870fd9d9e04d0080cf45193c65ab0efb1152/therix-0.1.3.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/be/f4/a396b077eed46dd9e0a50a257e7a0086917b1d27a3cf4796b9c3a279bdd1/pydatabases-0.1.1.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/69/00/adeaa47054150ae2763e9f4cf4d85615114977b0571e9ec2dd1e6f922741/aipkgs_database-0.1.4.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [sphinx-tagtoctree]: Downloading https://files.pythonhosted.org/packages/cd/f0/9e9c8c437c02d4c35d0fab9f31ce724ac224ce5687e420e4570abed1d312/sphinx_tagtoctree-0.9.4.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [adatoolbox]: Downloading https://files.pythonhosted.org/packages/61/6d/27a72880b7388158467e48639e636124849d52d32111263ba0fb8d29abb7/adatoolbox-0.0.9.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [adatoolbox]: executing diffoscope
+[2024-05-09 14:17:07] INFO root fetch - processPackages [adatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adatoolbox-0.0.8.tar.gz tmp/adatoolbox-0.0.9.tar.gz --markdown 20240509/a/adatoolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:17:07] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-09 14:17:07] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240509/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:17:07] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Downloading https://files.pythonhosted.org/packages/22/e9/f4c86743902da2eae303205c539c4f057c30403cd5a85527cb2f5d209ccf/ansys_aedt_toolkits_common-0.4.2.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [sphinx-tagtoctree]: Downloading https://files.pythonhosted.org/packages/0a/ec/addcef8f7cf876ec962afb9f99164b64026d0dfdd400725ca76aaa9e8bbe/sphinx_tagtoctree-0.9.5.0a1.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/26/c4/7dd339ef657db2cd1d0d295e22092c01ea02fbc73043dbb575249c55a904/therix-0.1.4.tar.gz
+[2024-05-09 14:17:07] INFO root fetch - processPackages [aipkgs-database]: Downloading https://files.pythonhosted.org/packages/2c/07/30eb02f4d94e21e185613e451f1c921708854b42e8fa1c675bc86ece49f0/aipkgs_database-0.1.5-py3-none-any.whl
+[2024-05-09 14:17:07] INFO root fetch - processPackages [pyDatabases]: Downloading https://files.pythonhosted.org/packages/ea/95/bbe0ea39768be2af88e9504c3c75b0cd10a41aa3bb9d512449de6cea19eb/pydatabases-0.1.3.tar.gz
+[2024-05-09 14:17:08] INFO root fetch - processPackages [aipkgs-database]: executing diffoscope
+[2024-05-09 14:17:08] INFO root fetch - processPackages [aipkgs-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_database-0.1.4.tar.gz tmp/aipkgs_database-0.1.5-py3-none-any.whl.zip --markdown 20240509/a/aipkgs-database/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 14:17:08] INFO root fetch - processPackages [pyDatabases]: executing diffoscope
+[2024-05-09 14:17:08] INFO root fetch - processPackages [pyDatabases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatabases-0.1.1.tar.gz tmp/pydatabases-0.1.3.tar.gz --markdown 20240509/p/pyDatabases/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-09 14:17:08] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-09 14:17:08] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.3.tar.gz tmp/therix-0.1.4.tar.gz --markdown 20240509/t/therix/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-09 14:17:08] INFO root fetch - processPackages [sphinx-tagtoctree]: executing diffoscope
+[2024-05-09 14:17:08] INFO root fetch - processPackages [sphinx-tagtoctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_tagtoctree-0.9.4.tar.gz tmp/sphinx_tagtoctree-0.9.5.0a1.tar.gz --markdown 20240509/s/sphinx-tagtoctree/0.9.4-0.9.5.0a1/README.md --exclude *.pyd
+[2024-05-09 14:17:08] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: executing diffoscope
+[2024-05-09 14:17:08] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_aedt_toolkits_common-0.4.1.tar.gz tmp/ansys_aedt_toolkits_common-0.4.2.tar.gz --markdown 20240509/a/ansys-aedt-toolkits-common/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-09 14:17:08] INFO root fetch - processPackages [adatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adatoolbox-0.0.8.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [adatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adatoolbox-0.0.9.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [adatoolbox]: success
+[2024-05-09 14:17:08] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-09 14:17:08] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-0.1.4.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [aipkgs-database]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_database-0.1.5-py3-none-any.whl.zip]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [aipkgs-database]: success
+[2024-05-09 14:17:08] INFO root fetch - processPackages [sphinx-tagtoctree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_tagtoctree-0.9.4.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [sphinx-tagtoctree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_tagtoctree-0.9.5.0a1.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [sphinx-tagtoctree]: success
+[2024-05-09 14:17:08] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.1.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [pyDatabases]: Remove: archive file [/home/abi/fetcher/tmp/pydatabases-0.1.3.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [pyDatabases]: success
+[2024-05-09 14:17:08] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.3.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.4.tar.gz]
+[2024-05-09 14:17:08] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-09 14:17:09] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.4.1.tar.gz]
+[2024-05-09 14:17:09] INFO root fetch - processPackages [ansys-aedt-toolkits-common]: Remove: archive file [/home/abi/fetcher/tmp/ansys_aedt_toolkits_common-0.4.2.tar.gz]
+[2024-05-09 14:17:09] INFO root fetch - main [MainThread]: End processing [ansys-aedt-toolkits-common]: success
+[2024-05-09 14:17:09] INFO root fetch - main [MainThread]: Store serial: [23130766]
