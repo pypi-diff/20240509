@@ -18841,3 +18841,54 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:27:11] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-05-09 11:27:11] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-09 11:27:11] INFO root fetch - main [MainThread]: Store serial: [23129051]
+[2024-05-09 11:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129051]
+[2024-05-09 11:29:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmt
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trieste
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mocodo
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutils
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luganda-ocr
+[2024-05-09 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kumparanian
+[2024-05-09 11:29:21] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc4] Old Version: [1.0.5rc3]
+[2024-05-09 11:29:21] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/d7/24/0037ec6b89a6be97722532e0f1022736286d1b84d82512a7604f12fa0a26/kumparanian-1.0.5rc3.tar.gz
+[2024-05-09 11:29:21] WARNING root fetch - processPackages [luganda-ocr]: Skipping, unable to determine old version
+[2024-05-09 11:29:21] INFO root fetch - main [MainThread]: End processing [luganda-ocr] error
+[2024-05-09 11:29:21] INFO root fetch - processPackages [tmt]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-09 11:29:21] INFO root fetch - processPackages [nutils]: New version: [8.7] Old Version: [8.6]
+[2024-05-09 11:29:21] INFO root fetch - processPackages [trieste]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-09 11:29:21] INFO root fetch - processPackages [mocodo]: New version: [4.2.7] Old Version: [4.2.6]
+[2024-05-09 11:29:21] INFO root fetch - processPackages [mocodo]: Downloading https://files.pythonhosted.org/packages/33/fe/ca5ba50fa0005dbafa752e4b1b87f8cd7a90411062d75eef6ad8beb47f50/mocodo-4.2.6.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [tmt]: Downloading https://files.pythonhosted.org/packages/5f/7e/f7e9241769799015dcbae5d8845176dd3e9421cdd2542f620fb0dd918e09/tmt-1.8.0-py3-none-any.whl
+[2024-05-09 11:29:21] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/92/ab/0c435f6d98d6b57663e3c82455d771b5a16605ae478dfd98c4483fe76c69/nutils-8.6.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [trieste]: Downloading https://files.pythonhosted.org/packages/8e/d8/7339373415e8093f538a060b8599fc276d193d38522e4535df1ee6ab86c2/trieste-3.1.0.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/b2/e5/0ca459794bf65a913334d5ff72232607b2a0419ba5f2e5fa6fea35444a80/kumparanian-1.0.5rc4.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-09 11:29:21] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc3.tar.gz tmp/kumparanian-1.0.5rc4.tar.gz --markdown 20240509/k/kumparanian/1.0.5rc3-1.0.5rc4/README.md --exclude *.pyd
+[2024-05-09 11:29:21] INFO root fetch - processPackages [trieste]: Downloading https://files.pythonhosted.org/packages/db/65/b16aea46efef7d7c1fdd14c90a8d5cff82b87eeaa54527a0710552540405/trieste-3.2.0.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [mocodo]: Downloading https://files.pythonhosted.org/packages/a6/06/51c614db868f2d074c4ed6b9a44f3b4ae743eeafbbe6c62cfe6c5135f387/mocodo-4.2.7.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [tmt]: Downloading https://files.pythonhosted.org/packages/cb/c2/6437879ae74d655601098cb95fb0fabbb0f572238944ba0d0dd91fd25c7d/tmt-1.9.0-py3-none-any.whl
+[2024-05-09 11:29:21] INFO root fetch - processPackages [nutils]: Downloading https://files.pythonhosted.org/packages/2a/6b/13f29d09f237e56a5b8188c1cef4ef27984396f5644efd4d48c95076ab98/nutils-8.7.tar.gz
+[2024-05-09 11:29:21] INFO root fetch - processPackages [trieste]: executing diffoscope
+[2024-05-09 11:29:21] INFO root fetch - processPackages [trieste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieste-3.1.0.tar.gz tmp/trieste-3.2.0.tar.gz --markdown 20240509/t/trieste/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-09 11:29:21] INFO root fetch - processPackages [mocodo]: executing diffoscope
+[2024-05-09 11:29:21] INFO root fetch - processPackages [mocodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocodo-4.2.6.tar.gz tmp/mocodo-4.2.7.tar.gz --markdown 20240509/m/mocodo/4.2.6-4.2.7/README.md --exclude *.pyd
+[2024-05-09 11:29:22] INFO root fetch - processPackages [tmt]: executing diffoscope
+[2024-05-09 11:29:22] INFO root fetch - processPackages [tmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmt-1.8.0-py3-none-any.whl.zip tmp/tmt-1.9.0-py3-none-any.whl.zip --markdown 20240509/t/tmt/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-09 11:29:22] INFO root fetch - processPackages [nutils]: executing diffoscope
+[2024-05-09 11:29:22] INFO root fetch - processPackages [nutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutils-8.6.tar.gz tmp/nutils-8.7.tar.gz --markdown 20240509/n/nutils/8.6-8.7/README.md --exclude *.pyd
+[2024-05-09 11:29:22] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc3.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc4.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-09 11:29:22] INFO root fetch - processPackages [trieste]: Remove: archive file [/home/abi/fetcher/tmp/trieste-3.1.0.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - processPackages [trieste]: Remove: archive file [/home/abi/fetcher/tmp/trieste-3.2.0.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - main [MainThread]: End processing [trieste]: success
+[2024-05-09 11:29:22] INFO root fetch - processPackages [mocodo]: Remove: archive file [/home/abi/fetcher/tmp/mocodo-4.2.6.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - processPackages [mocodo]: Remove: archive file [/home/abi/fetcher/tmp/mocodo-4.2.7.tar.gz]
+[2024-05-09 11:29:22] INFO root fetch - main [MainThread]: End processing [mocodo]: success
+[2024-05-09 11:29:23] INFO root fetch - processPackages [tmt]: Remove: archive file [/home/abi/fetcher/tmp/tmt-1.8.0-py3-none-any.whl.zip]
+[2024-05-09 11:29:23] INFO root fetch - processPackages [tmt]: Remove: archive file [/home/abi/fetcher/tmp/tmt-1.9.0-py3-none-any.whl.zip]
+[2024-05-09 11:29:23] INFO root fetch - main [MainThread]: End processing [tmt]: success
+[2024-05-09 11:29:23] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-8.6.tar.gz]
+[2024-05-09 11:29:23] INFO root fetch - processPackages [nutils]: Remove: archive file [/home/abi/fetcher/tmp/nutils-8.7.tar.gz]
+[2024-05-09 11:29:23] INFO root fetch - main [MainThread]: End processing [nutils]: success
+[2024-05-09 11:29:23] INFO root fetch - main [MainThread]: Store serial: [23129074]
