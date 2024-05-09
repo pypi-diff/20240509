@@ -13223,3 +13223,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:28:49] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-05-09 08:28:49] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-05-09 08:28:49] INFO root fetch - main [MainThread]: Store serial: [23127116]
+[2024-05-09 08:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127116]
+[2024-05-09 08:30:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 08:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-survey-question-type-binary
+[2024-05-09 08:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-encoder
+[2024-05-09 08:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-nomad
+[2024-05-09 08:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-researcher
+[2024-05-09 08:30:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: suffetesz
+[2024-05-09 08:30:58] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/7d/20/4dfac5945bbdd205502ff5fd5fd06d879bc627e24ad040c36c803bf6568b/pms_encoder-0.0.1.tar.gz
+[2024-05-09 08:30:59] WARNING root fetch - processPackages [suffetesz]: Skipping, unable to determine old version
+[2024-05-09 08:30:59] INFO root fetch - main [MainThread]: End processing [suffetesz] error
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1715234415] Old Version: [2.3.0a1715061226]
+[2024-05-09 08:30:59] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-09 08:30:59] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/8b/ab/7ed81c721658a38acc2d3fbe3f9ede11564a8bafa048950713fb9d26f83a/pms_encoder-0.0.2.tar.gz
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/ad/52/e2174935ae55e26647596185cc67757ec7323352022f7e1eb69e41322d19/pulumi_nomad-2.3.0a1715061226.tar.gz
+[2024-05-09 08:30:59] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: Downloading https://files.pythonhosted.org/packages/45/e5/4bada538e5d6f9fe32f8c54ef651fc47b6dac62d6b4e3da5e57db1a0afbb/odoo_addon_survey_question_type_binary-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 08:30:59] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/27/32/29344ff57c43206c8d019e0a5b820e55cf21a4e787534521efa830b38b9a/gpt-researcher-0.3.0.tar.gz
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.1.tar.gz tmp/pms_encoder-0.0.2.tar.gz --markdown 20240509/p/pms-encoder/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/31/30/7d6549b64df2708144ea28e68a08a79a0432464db9d347e05162c815d060/pulumi_nomad-2.3.0a1715234415.tar.gz
+[2024-05-09 08:30:59] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: Downloading https://files.pythonhosted.org/packages/f4/4e/01f055489b713dbf37039b1d96f3f131cb6188927ae21cc71fb6da1c279d/odoo_addon_survey_question_type_binary-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 08:30:59] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/33/53/d2ead72d6d603ee132e031eb1b4549d14e998b5982c947de4fc7c5c6536b/gpt-researcher-0.3.1.tar.gz
+[2024-05-09 08:30:59] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: executing diffoscope
+[2024-05-09 08:30:59] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_survey_question_type_binary-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_survey_question_type_binary-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-survey-question-type-binary/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1715061226.tar.gz tmp/pulumi_nomad-2.3.0a1715234415.tar.gz --markdown 20240509/p/pulumi-nomad/2.3.0a1715061226-2.3.0a1715234415/README.md --exclude *.pyd
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.1.tar.gz]
+[2024-05-09 08:30:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.2.tar.gz]
+[2024-05-09 08:30:59] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-09 08:30:59] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-09 08:30:59] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.0.tar.gz tmp/gpt-researcher-0.3.1.tar.gz --markdown 20240509/g/gpt-researcher/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-09 08:31:00] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715061226.tar.gz]
+[2024-05-09 08:31:00] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1715234415.tar.gz]
+[2024-05-09 08:31:00] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-09 08:31:00] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.0.tar.gz]
+[2024-05-09 08:31:00] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.1.tar.gz]
+[2024-05-09 08:31:00] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-09 08:31:00] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_question_type_binary-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 08:31:00] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_question_type_binary-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 08:31:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-question-type-binary]: success
+[2024-05-09 08:31:00] INFO root fetch - main [MainThread]: Store serial: [23127131]
