@@ -20793,3 +20793,33 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:58:43] INFO root fetch - processPackages [Clorm]: Remove: archive file [/home/abi/fetcher/tmp/clorm-1.6.0.tar.gz]
 [2024-05-09 12:58:43] INFO root fetch - main [MainThread]: End processing [Clorm]: success
 [2024-05-09 12:58:43] INFO root fetch - main [MainThread]: Store serial: [23129859]
+[2024-05-09 13:00:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129859]
+[2024-05-09 13:00:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 13:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libgunshotmatch
+[2024-05-09 13:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adatoolbox
+[2024-05-09 13:00:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flameEngine
+[2024-05-09 13:00:52] INFO root fetch - processPackages [adatoolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 13:00:52] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.2] Old Version: [0.0.4.1]
+[2024-05-09 13:00:52] INFO root fetch - processPackages [libgunshotmatch]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 13:00:52] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/3b/f7/8f4f828bd2d0d55322a993aef557cc2744b4169bbc03c85b2a20078a9ea3/flameengine-0.0.4.1.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [adatoolbox]: Downloading https://files.pythonhosted.org/packages/4f/e7/a8758340b8f6b785141fb9a57561d96200e0ea9c99de1ee679deff2ab76c/adatoolbox-0.0.8.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [libgunshotmatch]: Downloading https://files.pythonhosted.org/packages/a1/b2/0597153d4acdaa544aaa81c69b9d915d6f5929d38afddc8c65fa47b22190/libgunshotmatch-0.9.0.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/ca/95/e8871d12b617b5d260c4c0bffccfdd5724c2f6dfe674efaebe927f38e349/flameengine-0.0.4.2.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [adatoolbox]: Downloading https://files.pythonhosted.org/packages/61/6d/27a72880b7388158467e48639e636124849d52d32111263ba0fb8d29abb7/adatoolbox-0.0.9.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 13:00:52] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.1.tar.gz tmp/flameengine-0.0.4.2.tar.gz --markdown 20240509/f/flameEngine/0.0.4.1-0.0.4.2/README.md --exclude *.pyd
+[2024-05-09 13:00:52] INFO root fetch - processPackages [libgunshotmatch]: Downloading https://files.pythonhosted.org/packages/1d/9d/c33a8aaf4ca83a1447cb350ebf6d910b2205bd108237ee3a82ecc426b96f/libgunshotmatch-0.9.1.tar.gz
+[2024-05-09 13:00:52] INFO root fetch - processPackages [adatoolbox]: executing diffoscope
+[2024-05-09 13:00:52] INFO root fetch - processPackages [adatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adatoolbox-0.0.8.tar.gz tmp/adatoolbox-0.0.9.tar.gz --markdown 20240509/a/adatoolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 13:00:52] INFO root fetch - processPackages [libgunshotmatch]: executing diffoscope
+[2024-05-09 13:00:52] INFO root fetch - processPackages [libgunshotmatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libgunshotmatch-0.9.0.tar.gz tmp/libgunshotmatch-0.9.1.tar.gz --markdown 20240509/l/libgunshotmatch/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 13:00:53] INFO root fetch - processPackages [adatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adatoolbox-0.0.8.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - processPackages [adatoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adatoolbox-0.0.9.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - main [MainThread]: End processing [adatoolbox]: success
+[2024-05-09 13:00:53] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.1.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.2.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 13:00:53] INFO root fetch - processPackages [libgunshotmatch]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch-0.9.0.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - processPackages [libgunshotmatch]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch-0.9.1.tar.gz]
+[2024-05-09 13:00:53] INFO root fetch - main [MainThread]: End processing [libgunshotmatch]: success
+[2024-05-09 13:00:53] INFO root fetch - main [MainThread]: Store serial: [23129869]
