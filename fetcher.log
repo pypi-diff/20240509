@@ -3557,3 +3557,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:54:15] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.7.tar.gz]
 [2024-05-09 02:54:15] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-05-09 02:54:15] INFO root fetch - main [MainThread]: Store serial: [23123085]
+[2024-05-09 02:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123085]
+[2024-05-09 02:56:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paleocrystallicz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: athena-starship
+[2024-05-09 02:56:25] INFO root fetch - processPackages [athena-starship]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.232] Old Version: [0.1.223]
+[2024-05-09 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-09 02:56:25] WARNING root fetch - processPackages [paleocrystallicz]: Skipping, unable to determine old version
+[2024-05-09 02:56:25] INFO root fetch - main [MainThread]: End processing [paleocrystallicz] error
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/9c/71/98cc7a3ff11a86e927ad609a2a08d5eebc28e83f2a8562439c0f894d90b0/ansar_connect-0.1.223.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/01/5b/ab394857907c2800768dda0ffcb16d203d84f3f686f2c74f8d1c5908c2b6/athena_starship-0.0.3.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/b8/84/0e59cc57b0a6c0b9554a969fa7e6a1f526220658aa8eff525bc01a000b62/athena_starship-0.0.4.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/39/70/3f2bfa58df804e6b6d43b9293c6cb9ed8ffc3704479e0c22d7d96d0b8fbb/ansar_connect-0.1.232.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-09 02:56:25] INFO root fetch - processPackages [athena-starship]: executing diffoscope
+[2024-05-09 02:56:25] INFO root fetch - processPackages [athena-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_starship-0.0.3.tar.gz tmp/athena_starship-0.0.4.tar.gz --markdown 20240509/a/athena-starship/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-09 02:56:25] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.223.tar.gz tmp/ansar_connect-0.1.232.tar.gz --markdown 20240509/a/ansar-connect/0.1.223-0.1.232/README.md --exclude *.pyd
+[2024-05-09 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-09 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240509/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-09 02:56:26] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.3.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.4.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - main [MainThread]: End processing [athena-starship]: success
+[2024-05-09 02:56:26] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.223.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.232.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-09 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-09 02:56:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-09 02:56:26] INFO root fetch - main [MainThread]: Store serial: [23123098]
