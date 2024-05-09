@@ -11966,3 +11966,62 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:32:51] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
 [2024-05-09 07:32:51] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
 [2024-05-09 07:32:51] INFO root fetch - main [MainThread]: Store serial: [23126615]
+[2024-05-09 07:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126615]
+[2024-05-09 07:35:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlpro
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-return
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-reception-notify
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-order-type-dashboard
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smtg
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: admet-ai
+[2024-05-09 07:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nondepravityz
+[2024-05-09 07:35:00] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 07:35:00] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.7]
+[2024-05-09 07:35:00] INFO root fetch - processPackages [mlpro]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-09 07:35:00] INFO root fetch - processPackages [odoo-addon-purchase-return]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-09 07:35:00] INFO root fetch - processPackages [admet-ai]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-09 07:35:00] WARNING root fetch - processPackages [nondepravityz]: Skipping, unable to determine old version
+[2024-05-09 07:35:00] INFO root fetch - main [MainThread]: End processing [nondepravityz] error
+[2024-05-09 07:35:00] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 07:35:00] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/86/56/3d808ee6ae8130cc53b0b7c520781c2954d72047a286c3ed0d6171e9ccae/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 07:35:00] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-09 07:35:00] WARNING root fetch - processPackages [smtg]: Skipping, unable to determine old version
+[2024-05-09 07:35:00] INFO root fetch - main [MainThread]: End processing [smtg] error
+[2024-05-09 07:35:00] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/03/60/ffa877e79270807d840cfe7087a6351ad01170f2ef3ed8142262386fa090/mlpro-1.4.2.tar.gz
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: Downloading https://files.pythonhosted.org/packages/75/f9/e816f6e69a3dc04763fd2d5e1b4335a6dd18fb1ab9beaf0c9eda24ee9919/odoo_addon_purchase_reception_notify-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-return]: Downloading https://files.pythonhosted.org/packages/d4/1d/364f74bc2f5e82329d1d530b8eb0100ae59c815c1e9f93c517a1413b6736/odoo_addon_purchase_return-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 07:35:01] INFO root fetch - processPackages [admet-ai]: Downloading https://files.pythonhosted.org/packages/d2/b5/a8ed63951d34f03b828efab02d0dae79cec262b5da42ff1b2fc36dd874fd/admet_ai-1.2.0.tar.gz
+[2024-05-09 07:35:01] WARNING root fetch - processPackages [admet-ai]: Skipping package: exceeds size limit 16949368>=10485760
+[2024-05-09 07:35:01] INFO root fetch - main [MainThread]: End processing [admet-ai] error
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/e7/ad/56078cedf798116d64e41a42759d7d09da8bae8c5188b2c9768710cfa039/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 07:35:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: Downloading https://files.pythonhosted.org/packages/b7/b1/bff64d69867be65bbed2b8eb4490f0c1e6bece31f35e8bacc77f29418531/odoo_addon_purchase_reception_notify-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: executing diffoscope
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-purchase-order-type-dashboard/16.0.1.0.0.7-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-return]: Downloading https://files.pythonhosted.org/packages/15/fc/a6ac698e9ee5c7333b470042cbcfcc0a7082d0846c668ac488f15c4cda28/odoo_addon_purchase_return-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 07:35:01] INFO root fetch - processPackages [mlpro]: Downloading https://files.pythonhosted.org/packages/9b/0e/00b463e21560ff2fd81081203a188b4de3b7db9367206e1daa26f6b09a63/mlpro-1.4.3.tar.gz
+[2024-05-09 07:35:01] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 07:35:01] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: executing diffoscope
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_reception_notify-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_reception_notify-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-purchase-reception-notify/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-return]: executing diffoscope
+[2024-05-09 07:35:01] INFO root fetch - processPackages [odoo-addon-purchase-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_return-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_return-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-purchase-return/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-09 07:35:01] INFO root fetch - processPackages [mlpro]: executing diffoscope
+[2024-05-09 07:35:01] INFO root fetch - processPackages [mlpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-1.4.2.tar.gz tmp/mlpro-1.4.3.tar.gz --markdown 20240509/m/mlpro/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type-dashboard]: success
+[2024-05-09 07:35:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 07:35:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_reception_notify-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-reception-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_reception_notify-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-reception-notify]: success
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_return-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - processPackages [odoo-addon-purchase-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_return-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-return]: success
+[2024-05-09 07:35:02] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.2.tar.gz]
+[2024-05-09 07:35:02] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.3.tar.gz]
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [mlpro]: success
+[2024-05-09 07:35:02] INFO root fetch - main [MainThread]: Store serial: [23126636]
