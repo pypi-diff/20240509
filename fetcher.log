@@ -14753,3 +14753,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:42:11] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.4.tar.gz]
 [2024-05-09 09:42:11] INFO root fetch - main [MainThread]: End processing [gnomonicus]: success
 [2024-05-09 09:42:11] INFO root fetch - main [MainThread]: Store serial: [23127675]
+[2024-05-09 09:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127675]
+[2024-05-09 09:44:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mischievousnessz
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ft2bt
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazysdk
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MultiGather
+[2024-05-09 09:44:20] INFO root fetch - processPackages [MultiGather]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ft2bt]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-09 09:44:20] INFO root fetch - processPackages [lazysdk]: New version: [0.1.93] Old Version: [0.1.92]
+[2024-05-09 09:44:20] WARNING root fetch - processPackages [mischievousnessz]: Skipping, unable to determine old version
+[2024-05-09 09:44:20] INFO root fetch - main [MainThread]: End processing [mischievousnessz] error
+[2024-05-09 09:44:20] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/93/63/7eb41973f871453ba7311d0331570fbafeea9f17d67e29f76a3dabd1fd64/ft2bt-0.2.4.tar.gz
+[2024-05-09 09:44:20] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/85/98/712484a4c7cdd76bad146b27e95990cd24d00fa9d4425379904f71ba4893/lazysdk-0.1.92.tar.gz
+[2024-05-09 09:44:20] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/19/49/bc16e30d36a355f9883591170b5a1d098e10fa8d373124a0b8014abc4b93/multigather-0.0.1.tar.gz
+[2024-05-09 09:44:20] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/0c/19/f9c93b74ed6dea6dcbe392fb04855c117f989bc4dfd3dcf6d0edfcbb8ec8/lazysdk-0.1.93.tar.gz
+[2024-05-09 09:44:21] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/51/9c/c4d0804a692d82411f16e58fdad1d8a77009468f98cf2edf13af44f2c8c8/ft2bt-0.2.5.tar.gz
+[2024-05-09 09:44:21] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-09 09:44:21] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.92.tar.gz tmp/lazysdk-0.1.93.tar.gz --markdown 20240509/l/lazysdk/0.1.92-0.1.93/README.md --exclude *.pyd
+[2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/66/f1/9ea61bd76131c0d543c49a5b2ecf82d594d7dfd19d33047222d838ba1b70/multigather-0.0.2.tar.gz
+[2024-05-09 09:44:21] INFO root fetch - processPackages [ft2bt]: executing diffoscope
+[2024-05-09 09:44:21] INFO root fetch - processPackages [ft2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft2bt-0.2.4.tar.gz tmp/ft2bt-0.2.5.tar.gz --markdown 20240509/f/ft2bt/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: executing diffoscope
+[2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigather-0.0.1.tar.gz tmp/multigather-0.0.2.tar.gz --markdown 20240509/M/MultiGather/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 09:44:21] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.92.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.93.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-09 09:44:21] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.4.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.5.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - main [MainThread]: End processing [ft2bt]: success
+[2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.1.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.2.tar.gz]
+[2024-05-09 09:44:21] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
+[2024-05-09 09:44:21] INFO root fetch - main [MainThread]: Store serial: [23127688]
