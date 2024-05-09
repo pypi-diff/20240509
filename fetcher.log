@@ -10128,3 +10128,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:53:22] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
 [2024-05-09 05:53:22] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
 [2024-05-09 05:53:22] INFO root fetch - main [MainThread]: Store serial: [23125829]
+[2024-05-09 05:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125829]
+[2024-05-09 05:55:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 05:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicenow-api
+[2024-05-09 05:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Sherlock-test-randomnonsensecharshere
+[2024-05-09 05:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPDFForm
+[2024-05-09 05:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taguchi
+[2024-05-09 05:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feathercutz
+[2024-05-09 05:55:32] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:55:32] INFO root fetch - processPackages [taguchi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-09 05:55:32] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:55:32] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/a2/89/a1398144ea42dfdef1f95ae0ee51d4394073ceccf9f0a7eb91928981ece9/taguchi-1.0.0.tar.gz
+[2024-05-09 05:55:32] INFO root fetch - processPackages [PyPDFForm]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-09 05:55:32] WARNING root fetch - processPackages [Sherlock-test-randomnonsensecharshere]: Skipping, unable to determine old version
+[2024-05-09 05:55:32] INFO root fetch - main [MainThread]: End processing [Sherlock-test-randomnonsensecharshere] error
+[2024-05-09 05:55:32] WARNING root fetch - processPackages [feathercutz]: Skipping, unable to determine old version
+[2024-05-09 05:55:32] INFO root fetch - main [MainThread]: End processing [feathercutz] error
+[2024-05-09 05:55:33] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:55:33] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/69/9f/2ae6600de9a7bcb149411374a44be0c0f9f2c9ce362f6374e578ec5a4e26/PyPDFForm-1.4.8.tar.gz
+[2024-05-09 05:55:33] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-09 05:55:33] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:55:33] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/bc/07/5e9e4149a8a65958ff803838738726c9359241f94c792194306041b55076/taguchi-1.0.1.tar.gz
+[2024-05-09 05:55:33] INFO root fetch - processPackages [taguchi]: executing diffoscope
+[2024-05-09 05:55:33] INFO root fetch - processPackages [taguchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taguchi-1.0.0.tar.gz tmp/taguchi-1.0.1.tar.gz --markdown 20240509/t/taguchi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-09 05:55:33] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/f0/86/8219b0802370fbdcae59e87d8b203196b52045c8375f1c043b5db3eb54ff/PyPDFForm-1.4.9.tar.gz
+[2024-05-09 05:55:33] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:55:33] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:55:33] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-09 05:55:33] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2024-05-09 05:55:33] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.4.8.tar.gz tmp/PyPDFForm-1.4.9.tar.gz --markdown 20240509/P/PyPDFForm/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-09 05:55:33] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.0.tar.gz]
+[2024-05-09 05:55:33] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.1.tar.gz]
+[2024-05-09 05:55:33] INFO root fetch - main [MainThread]: End processing [taguchi]: success
+[2024-05-09 05:55:34] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.8.tar.gz]
+[2024-05-09 05:55:34] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.9.tar.gz]
+[2024-05-09 05:55:34] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2024-05-09 05:55:34] INFO root fetch - main [MainThread]: Store serial: [23125845]
