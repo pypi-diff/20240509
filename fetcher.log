@@ -10360,3 +10360,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:08:45] WARNING root fetch - processPackages [chilesz]: Skipping, unable to determine old version
 [2024-05-09 06:08:45] INFO root fetch - main [MainThread]: End processing [chilesz] error
 [2024-05-09 06:08:45] INFO root fetch - main [MainThread]: Store serial: [23125946]
+[2024-05-09 06:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125946]
+[2024-05-09 06:10:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 06:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdeper
+[2024-05-09 06:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emotion-ai-api
+[2024-05-09 06:10:55] INFO root fetch - processPackages [sdeper]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-09 06:10:55] WARNING root fetch - processPackages [emotion-ai-api]: Skipping, unable to determine old version
+[2024-05-09 06:10:55] INFO root fetch - main [MainThread]: End processing [emotion-ai-api] error
+[2024-05-09 06:10:56] INFO root fetch - processPackages [sdeper]: Downloading https://files.pythonhosted.org/packages/6e/f8/92180aa287e9002d6e43f5a6b19ede605e66b252ac6770c1d76a882208ba/sdeper-1.2.1.tar.gz
+[2024-05-09 06:10:56] INFO root fetch - processPackages [sdeper]: Downloading https://files.pythonhosted.org/packages/5f/e0/68af4612c16d5deadf4fecff0c4f6e023c51603d2240b3c371c69bdbb6e2/sdeper-1.3.0.tar.gz
+[2024-05-09 06:10:56] INFO root fetch - processPackages [sdeper]: executing diffoscope
+[2024-05-09 06:10:56] INFO root fetch - processPackages [sdeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdeper-1.2.1.tar.gz tmp/sdeper-1.3.0.tar.gz --markdown 20240509/s/sdeper/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-09 06:10:57] INFO root fetch - processPackages [sdeper]: Remove: archive file [/home/abi/fetcher/tmp/sdeper-1.2.1.tar.gz]
+[2024-05-09 06:10:57] INFO root fetch - processPackages [sdeper]: Remove: archive file [/home/abi/fetcher/tmp/sdeper-1.3.0.tar.gz]
+[2024-05-09 06:10:57] INFO root fetch - main [MainThread]: End processing [sdeper]: success
+[2024-05-09 06:10:57] INFO root fetch - main [MainThread]: Store serial: [23125955]
