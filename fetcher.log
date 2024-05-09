@@ -8744,3 +8744,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:56:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.767.0.tar.gz]
 [2024-05-09 04:56:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-09 04:56:23] INFO root fetch - main [MainThread]: Store serial: [23125379]
+[2024-05-09 04:58:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125379]
+[2024-05-09 04:58:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anabih-python-test
+[2024-05-09 04:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soundlesslyz
+[2024-05-09 04:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-searchengine20211025
+[2024-05-09 04:58:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profile-facebook-selenium-scraper-imp-local
+[2024-05-09 04:58:33] INFO root fetch - processPackages [anabih-python-test]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-09 04:58:33] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/06/65/fa1bfe2e2f6cf772aa4c3517d105398dcf237e5c1c4ea5e4231b31e2771f/anabih_python_test-2.0.0.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-09 04:58:33] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 04:58:33] WARNING root fetch - processPackages [soundlesslyz]: Skipping, unable to determine old version
+[2024-05-09 04:58:33] INFO root fetch - main [MainThread]: End processing [soundlesslyz] error
+[2024-05-09 04:58:33] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Downloading https://files.pythonhosted.org/packages/7d/55/f43dbfe2f789108f94bff5c1614eed5329b0ce9f769f401687ecbf8b298d/alibabacloud_searchengine20211025-2.0.3.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Downloading https://files.pythonhosted.org/packages/6f/ca/d232bc9105574977de71f8df9c45aac491edc0133f27fe64e9206b51bf13/profile-facebook-selenium-scraper-imp-local-0.0.2.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [anabih-python-test]: Downloading https://files.pythonhosted.org/packages/26/a9/0482cd814cf74fa38749a4417b0a301c64f080562b62b255af7ec7b9db3e/anabih_python_test-3.0.0.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [anabih-python-test]: executing diffoscope
+[2024-05-09 04:58:33] INFO root fetch - processPackages [anabih-python-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anabih_python_test-2.0.0.tar.gz tmp/anabih_python_test-3.0.0.tar.gz --markdown 20240509/a/anabih-python-test/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-09 04:58:33] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Downloading https://files.pythonhosted.org/packages/07/0f/40911f38a4b0533cfc33da9154ec1df0c93ed74ff909f3f312eefbe66b9b/alibabacloud_searchengine20211025-2.1.0.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Downloading https://files.pythonhosted.org/packages/3c/8e/aa7d7e989954814280192e44e4628dc6bf1412cd56ee23fd66c6681fa393/profile_facebook_selenium_scraper_imp_local-0.0.3.tar.gz
+[2024-05-09 04:58:33] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: executing diffoscope
+[2024-05-09 04:58:33] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_searchengine20211025-2.0.3.tar.gz tmp/alibabacloud_searchengine20211025-2.1.0.tar.gz --markdown 20240509/a/alibabacloud-searchengine20211025/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-09 04:58:33] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: executing diffoscope
+[2024-05-09 04:58:33] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile-facebook-selenium-scraper-imp-local-0.0.2.tar.gz tmp/profile_facebook_selenium_scraper_imp_local-0.0.3.tar.gz --markdown 20240509/p/profile-facebook-selenium-scraper-imp-local/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 04:58:34] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-2.0.0.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-3.0.0.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
+[2024-05-09 04:58:34] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-facebook-selenium-scraper-imp-local-0.0.2.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - processPackages [profile-facebook-selenium-scraper-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_facebook_selenium_scraper_imp_local-0.0.3.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - main [MainThread]: End processing [profile-facebook-selenium-scraper-imp-local]: success
+[2024-05-09 04:58:34] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_searchengine20211025-2.0.3.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_searchengine20211025-2.1.0.tar.gz]
+[2024-05-09 04:58:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-searchengine20211025]: success
+[2024-05-09 04:58:34] INFO root fetch - main [MainThread]: Store serial: [23125393]
