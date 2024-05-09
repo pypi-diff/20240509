@@ -7583,3 +7583,57 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:34:22] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-05-09 03:34:22] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-05-09 03:34:22] INFO root fetch - main [MainThread]: Store serial: [23124399]
+[2024-05-09 03:36:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124399]
+[2024-05-09 03:36:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armhoopz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedmongo
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raster-tools
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encryptedcode
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyAgrum-nightly
+[2024-05-09 03:36:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipemake
+[2024-05-09 03:36:32] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-05-09 03:36:32] INFO root fetch - processPackages [typedmongo]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-09 03:36:32] INFO root fetch - processPackages [encryptedcode]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-09 03:36:32] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/c6/6b/cef3fd8a8386dccad6a699081508559ddf693713bbd069c2bcaa0c750dae/typedmongo-1.4.0.tar.gz
+[2024-05-09 03:36:32] WARNING root fetch - processPackages [pipemake]: Skipping, unable to determine old version
+[2024-05-09 03:36:32] INFO root fetch - main [MainThread]: End processing [pipemake] error
+[2024-05-09 03:36:32] WARNING root fetch - processPackages [armhoopz]: Skipping, unable to determine old version
+[2024-05-09 03:36:32] INFO root fetch - main [MainThread]: End processing [armhoopz] error
+[2024-05-09 03:36:32] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/92/6b/670a26aef8288c0534a454b523e72b4f3ce3dd196fb6067ab3c841234af9/cvprocessor-0.0.26.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [raster-tools]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-09 03:36:32] INFO root fetch - processPackages [encryptedcode]: Downloading https://files.pythonhosted.org/packages/26/0a/4808d391fca8d296f2faac34580dc7d9e3a654ab3bef54b3ff50347f4733/encryptedcode-1.1.1.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/9e/02/a15222c94d82a73eb63a35f00725f2e9ff3e8e0128e24ac5e050ce755233/raster_tools-0.8.1.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [encryptedcode]: Downloading https://files.pythonhosted.org/packages/73/63/5292e460214297f229595c8c180ac279c0a6b3b3e65d52d05d6660efc28a/encryptedcode-1.1.2.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/2f/f1/bd44f1e1fd9ee73bcabb355a1832fb12cc355e40bce56d9a51da9b7745b7/cvprocessor-0.0.27.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [encryptedcode]: executing diffoscope
+[2024-05-09 03:36:32] INFO root fetch - processPackages [encryptedcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encryptedcode-1.1.1.tar.gz tmp/encryptedcode-1.1.2.tar.gz --markdown 20240509/e/encryptedcode/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-09 03:36:32] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/13/d6/0aec74ad9566e51375bc24b7bc009c56a30dfac43dfcd14f69890b537fb4/typedmongo-1.5.0.tar.gz
+[2024-05-09 03:36:32] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-09 03:36:32] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.26.tar.gz tmp/cvprocessor-0.0.27.tar.gz --markdown 20240509/c/cvprocessor/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-05-09 03:36:32] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-05-09 03:36:32] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.4.0.tar.gz tmp/typedmongo-1.5.0.tar.gz --markdown 20240509/t/typedmongo/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-09 03:36:32] INFO root fetch - processPackages [raster-tools]: Downloading https://files.pythonhosted.org/packages/8c/a4/5cfe178e979b24df2bad4fc364d696304a88dcdf97efce25387440c947a3/raster_tools-0.8.2.tar.gz
+[2024-05-09 03:36:33] INFO root fetch - processPackages [raster-tools]: executing diffoscope
+[2024-05-09 03:36:33] INFO root fetch - processPackages [raster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_tools-0.8.1.tar.gz tmp/raster_tools-0.8.2.tar.gz --markdown 20240509/r/raster-tools/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-09 03:36:33] INFO root fetch - processPackages [encryptedcode]: Remove: archive file [/home/abi/fetcher/tmp/encryptedcode-1.1.1.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - processPackages [encryptedcode]: Remove: archive file [/home/abi/fetcher/tmp/encryptedcode-1.1.2.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - main [MainThread]: End processing [encryptedcode]: success
+[2024-05-09 03:36:33] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.26.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.27.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-09 03:36:33] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.4.0.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.5.0.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-05-09 03:36:33] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster_tools-0.8.1.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - processPackages [raster-tools]: Remove: archive file [/home/abi/fetcher/tmp/raster_tools-0.8.2.tar.gz]
+[2024-05-09 03:36:33] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
+[2024-05-09 03:36:34] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-09 03:36:34] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-09 03:36:34] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-09 03:36:35] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-09 03:36:35] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240509/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-09 03:36:35] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 03:36:35] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 03:36:35] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-09 03:36:35] INFO root fetch - main [MainThread]: Store serial: [23124502]
