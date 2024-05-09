@@ -12167,3 +12167,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-05-09 07:41:48] INFO root fetch - main [MainThread]: Store serial: [23126697]
+[2024-05-09 07:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126697]
+[2024-05-09 07:43:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logistic-regression-model-trainer
+[2024-05-09 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuredevops
+[2024-05-09 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-05-09 07:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addons-oca-role-policy
+[2024-05-09 07:43:59] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715228116] Old Version: [3.1.0a1715059317]
+[2024-05-09 07:43:59] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/02/32/497f3374a8cef9a2713e23f401dd5cd9a9c9624239c8440e98ff35597561/pulumi_azuredevops-3.1.0a1715059317.tar.gz
+[2024-05-09 07:43:59] WARNING root fetch - processPackages [logistic-regression-model-trainer]: Skipping, unable to determine old version
+[2024-05-09 07:43:59] INFO root fetch - main [MainThread]: End processing [logistic-regression-model-trainer] error
+[2024-05-09 07:43:59] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: New version: [13.0.20240508.0] Old Version: [13.0.20240327.0]
+[2024-05-09 07:43:59] INFO root fetch - processPackages [OZI]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-09 07:43:59] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: Downloading https://files.pythonhosted.org/packages/c0/e6/ca1f91b2f283c610b47234aee8c6bac1e35c5f10811b7650917c6d87ae7b/odoo13_addons_oca_role_policy-13.0.20240327.0-py3-none-any.whl
+[2024-05-09 07:43:59] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/26/92/e46e547bf3079fcc66ef2b7ce2c85e97c5a652d5d7b3a10da5ef45ea3ee2/OZI-1.4.3.tar.gz
+[2024-05-09 07:43:59] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/83/fb/41008d42791d1e72974a3930f249ee313c76402757d103e98b319d6d79e5/pulumi_azuredevops-3.1.0a1715228116.tar.gz
+[2024-05-09 07:43:59] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-09 07:43:59] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz tmp/pulumi_azuredevops-3.1.0a1715228116.tar.gz --markdown 20240509/p/pulumi-azuredevops/3.1.0a1715059317-3.1.0a1715228116/README.md --exclude *.pyd
+[2024-05-09 07:43:59] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: Downloading https://files.pythonhosted.org/packages/66/ba/473a4d52cff6c16c910ef0ce4fcbf62e6b8cc98f46b6bbc63e6d233bf451/odoo13_addons_oca_role_policy-13.0.20240508.0-py3-none-any.whl
+[2024-05-09 07:43:59] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/dd/43/861f01cf41815f76f4490851e3915e2c2971abf9305f652a63ce1b96ee8c/OZI-1.5.0.tar.gz
+[2024-05-09 07:43:59] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: executing diffoscope
+[2024-05-09 07:43:59] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_role_policy-13.0.20240327.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_role_policy-13.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo13-addons-oca-role-policy/13.0.20240327.0-13.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 07:44:00] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-09 07:44:00] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.4.3.tar.gz tmp/OZI-1.5.0.tar.gz --markdown 20240509/O/OZI/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-09 07:44:00] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_role_policy-13.0.20240327.0-py3-none-any.whl.zip]
+[2024-05-09 07:44:00] INFO root fetch - processPackages [odoo13-addons-oca-role-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_role_policy-13.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-09 07:44:00] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-role-policy]: success
+[2024-05-09 07:44:00] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz]
+[2024-05-09 07:44:00] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715228116.tar.gz]
+[2024-05-09 07:44:00] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-09 07:44:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.4.3.tar.gz]
+[2024-05-09 07:44:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.5.0.tar.gz]
+[2024-05-09 07:44:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-09 07:44:00] INFO root fetch - main [MainThread]: Store serial: [23126712]
