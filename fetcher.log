@@ -9993,3 +9993,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:46:50] INFO root fetch - processPackages [cdktf-cdktf-provider-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vsphere-9.2.0.tar.gz]
 [2024-05-09 05:46:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vsphere]: success
 [2024-05-09 05:46:50] INFO root fetch - main [MainThread]: Store serial: [23125785]
+[2024-05-09 05:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125785]
+[2024-05-09 05:48:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 05:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Stricture
+[2024-05-09 05:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: media-downloader
+[2024-05-09 05:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systems-manager
+[2024-05-09 05:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genius-chatbot
+[2024-05-09 05:48:59] INFO root fetch - processPackages [Stricture]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-09 05:48:59] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/bc/db/493d5bb00ff04bd6602adf0e35c575b40c036b4ca714a904581012ae6492/Stricture-1.0.3.tar.gz
+[2024-05-09 05:48:59] INFO root fetch - processPackages [media-downloader]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:48:59] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:48:59] INFO root fetch - processPackages [genius-chatbot]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-09 05:48:59] INFO root fetch - processPackages [media-downloader]: Downloading https://files.pythonhosted.org/packages/59/a9/df88f792689228e8928c0e6d67665c7aa8ba26403ddeb656590de9b8ff83/media_downloader-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:48:59] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/0a/9f/637250b3c42b63a59c45de07eb90853ea0958cb78d0d043b573838e73584/systems_manager-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:48:59] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/e3/a1/abbc6ca29bc0d54b998ce3bd1fb1e1d917dcf602858ef5ef9445a8ff0232/genius_chatbot-1.7.0-py2.py3-none-any.whl
+[2024-05-09 05:49:00] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/94/72/3e689d4a000738ed87716c48a8a127437c8e88bc36ada9b52192a3ee1e64/Stricture-1.0.4.tar.gz
+[2024-05-09 05:49:00] INFO root fetch - processPackages [Stricture]: executing diffoscope
+[2024-05-09 05:49:00] INFO root fetch - processPackages [Stricture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Stricture-1.0.3.tar.gz tmp/Stricture-1.0.4.tar.gz --markdown 20240509/S/Stricture/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-09 05:49:00] INFO root fetch - processPackages [genius-chatbot]: Downloading https://files.pythonhosted.org/packages/5e/ba/b47bf4f62b945113594eb00e31588bbb40e3488d846f12e3e73b15e72a22/genius_chatbot-1.8.0-py2.py3-none-any.whl
+[2024-05-09 05:49:00] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/68/28/02a27173c177a8a83a2fbf278250985f93c69856fda1ba8ab95e09bd391f/systems_manager-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:49:00] INFO root fetch - processPackages [media-downloader]: Downloading https://files.pythonhosted.org/packages/38/c2/19d7fba2ac3e7963d7652bbb6991eda1e27849121583a5d531952d233782/media_downloader-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:49:00] INFO root fetch - processPackages [genius-chatbot]: executing diffoscope
+[2024-05-09 05:49:00] INFO root fetch - processPackages [genius-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genius_chatbot-1.7.0-py2.py3-none-any.whl.zip tmp/genius_chatbot-1.8.0-py2.py3-none-any.whl.zip --markdown 20240509/g/genius-chatbot/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-09 05:49:00] INFO root fetch - processPackages [media-downloader]: executing diffoscope
+[2024-05-09 05:49:00] INFO root fetch - processPackages [media-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_downloader-0.8.0-py2.py3-none-any.whl.zip tmp/media_downloader-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/m/media-downloader/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:49:00] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2024-05-09 05:49:00] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/systems-manager/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:49:00] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.3.tar.gz]
+[2024-05-09 05:49:00] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.4.tar.gz]
+[2024-05-09 05:49:00] INFO root fetch - main [MainThread]: End processing [Stricture]: success
+[2024-05-09 05:49:01] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-1.7.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - processPackages [genius-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/genius_chatbot-1.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - main [MainThread]: End processing [genius-chatbot]: success
+[2024-05-09 05:49:01] INFO root fetch - processPackages [media-downloader]: Remove: archive file [/home/abi/fetcher/tmp/media_downloader-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - processPackages [media-downloader]: Remove: archive file [/home/abi/fetcher/tmp/media_downloader-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - main [MainThread]: End processing [media-downloader]: success
+[2024-05-09 05:49:01] INFO root fetch - processPackages [systems-manager]: Remove: archive file [/home/abi/fetcher/tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - processPackages [systems-manager]: Remove: archive file [/home/abi/fetcher/tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:49:01] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2024-05-09 05:49:01] INFO root fetch - main [MainThread]: Store serial: [23125797]
