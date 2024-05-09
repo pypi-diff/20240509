@@ -7923,3 +7923,38 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:58:23] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-05-09 03:58:23] INFO root fetch - main [MainThread]: End processing [pyroltrilinos]: success
 [2024-05-09 03:58:23] INFO root fetch - main [MainThread]: Store serial: [23124670]
+[2024-05-09 04:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124670]
+[2024-05-09 04:00:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyroltrilinos
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkrcomponents
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hexdoc-mediaworks
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ape-etherscan
+[2024-05-09 04:00:33] INFO root fetch - processPackages [pkrcomponents]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-09 04:00:33] INFO root fetch - processPackages [pyroltrilinos]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-09 04:00:33] INFO root fetch - processPackages [hexdoc-mediaworks]: New version: [1.0.7.1.0.dev0] Old Version: [1.0.6.1.0.dev0]
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ape-etherscan]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-09 04:00:33] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/39/36/4a196a94bb6e7cad3de0893cc2983b72700a5064bbd18b348bc10f82cd31/pyroltrilinos-0.5.1.tar.gz
+[2024-05-09 04:00:33] INFO root fetch - processPackages [hexdoc-mediaworks]: Downloading https://files.pythonhosted.org/packages/08/1f/32a3e1dcb1f8675b54afa5d92e1b849af1806c94b47f2323a2abf6030aec/hexdoc_mediaworks-1.0.6.1.0.dev0.tar.gz
+[2024-05-09 04:00:33] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/c9/45/7d34250030ab5f921fd0d5349987f98d0ee2d716fe2a424b3c5543a2afd7/pkrcomponents-1.0.0.tar.gz
+[2024-05-09 04:00:33] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/4f/9a/0e3e5b6249cbcd5b4b7eb0bdc14881048878619a39b99e24c4ebf024667f/ape-etherscan-0.7.2.tar.gz
+[2024-05-09 04:00:33] WARNING root fetch - processPackages [pkrcomponents]: Skipping package: exceeds size limit 29787690>=10485760
+[2024-05-09 04:00:33] INFO root fetch - main [MainThread]: End processing [pkrcomponents] error
+[2024-05-09 04:00:33] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/31/20/e8f25531469ebcd46eb573b7662bac3430e24e2183ee9500088ba8d8100b/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-09 04:00:34] INFO root fetch - processPackages [hexdoc-mediaworks]: Downloading https://files.pythonhosted.org/packages/03/05/6eae43f89cd7617a8e347067e0ed851021dbb3e5ebcfaf868bd546ec0b53/hexdoc_mediaworks-1.0.7.1.0.dev0.tar.gz
+[2024-05-09 04:00:34] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/6d/26/67e04af7cba592a51e27cfe7a1ec00f30cfe7a80b8876b71c439cbb4c599/ape-etherscan-0.7.3.tar.gz
+[2024-05-09 04:00:34] INFO root fetch - processPackages [hexdoc-mediaworks]: executing diffoscope
+[2024-05-09 04:00:34] INFO root fetch - processPackages [hexdoc-mediaworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexdoc_mediaworks-1.0.6.1.0.dev0.tar.gz tmp/hexdoc_mediaworks-1.0.7.1.0.dev0.tar.gz --markdown 20240509/h/hexdoc-mediaworks/1.0.6.1.0.dev0-1.0.7.1.0.dev0/README.md --exclude *.pyd
+[2024-05-09 04:00:34] INFO root fetch - processPackages [pyroltrilinos]: executing diffoscope
+[2024-05-09 04:00:34] INFO root fetch - processPackages [pyroltrilinos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroltrilinos-0.5.1.tar.gz tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240509/p/pyroltrilinos/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-09 04:00:34] INFO root fetch - processPackages [ape-etherscan]: executing diffoscope
+[2024-05-09 04:00:34] INFO root fetch - processPackages [ape-etherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-etherscan-0.7.2.tar.gz tmp/ape-etherscan-0.7.3.tar.gz --markdown 20240509/a/ape-etherscan/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-09 04:00:34] INFO root fetch - processPackages [hexdoc-mediaworks]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc_mediaworks-1.0.6.1.0.dev0.tar.gz]
+[2024-05-09 04:00:34] INFO root fetch - processPackages [hexdoc-mediaworks]: Remove: archive file [/home/abi/fetcher/tmp/hexdoc_mediaworks-1.0.7.1.0.dev0.tar.gz]
+[2024-05-09 04:00:34] INFO root fetch - main [MainThread]: End processing [hexdoc-mediaworks]: success
+[2024-05-09 04:00:35] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.7.2.tar.gz]
+[2024-05-09 04:00:35] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.7.3.tar.gz]
+[2024-05-09 04:00:35] INFO root fetch - main [MainThread]: End processing [ape-etherscan]: success
+[2024-05-09 04:00:35] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.1.tar.gz]
+[2024-05-09 04:00:35] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-09 04:00:35] INFO root fetch - main [MainThread]: End processing [pyroltrilinos]: success
+[2024-05-09 04:00:35] INFO root fetch - main [MainThread]: Store serial: [23124701]
