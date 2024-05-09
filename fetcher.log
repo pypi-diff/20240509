@@ -8089,3 +8089,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:11:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-09 04:11:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-09 04:11:45] INFO root fetch - main [MainThread]: Store serial: [23124832]
+[2024-05-09 04:13:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124832]
+[2024-05-09 04:13:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptvm
+[2024-05-09 04:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tirez
+[2024-05-09 04:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bezier-interpolation
+[2024-05-09 04:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lindi
+[2024-05-09 04:13:53] INFO root fetch - processPackages [gptvm]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-09 04:13:54] INFO root fetch - processPackages [bezier-interpolation]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 04:13:54] INFO root fetch - processPackages [lindi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 04:13:54] WARNING root fetch - processPackages [tirez]: Skipping, unable to determine old version
+[2024-05-09 04:13:54] INFO root fetch - main [MainThread]: End processing [tirez] error
+[2024-05-09 04:13:54] INFO root fetch - processPackages [gptvm]: Downloading https://files.pythonhosted.org/packages/04/ad/e78d84443ce973604f4cbc0020da447e267b4aa176fd2859e2f6d4d1d695/gptvm-0.1-py3-none-any.whl
+[2024-05-09 04:13:54] INFO root fetch - processPackages [bezier-interpolation]: Downloading https://files.pythonhosted.org/packages/6c/fb/b23d8bc981407a38ee51380c2d06de2e5f9b9973a6a965efa67232363621/bezier-interpolation-0.0.1.tar.gz
+[2024-05-09 04:13:54] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/c3/6a/7c8fc5dbaa8ab83e49c3612b6b425eb33694e899143566b354565a4c6222/lindi-0.3.1.tar.gz
+[2024-05-09 04:13:54] INFO root fetch - processPackages [bezier-interpolation]: Downloading https://files.pythonhosted.org/packages/29/23/ead45c909f8dd366d2a668e236a1081eaabd5421d72af5bd469deab904b5/bezier-interpolation-0.0.2.tar.gz
+[2024-05-09 04:13:54] INFO root fetch - processPackages [gptvm]: Downloading https://files.pythonhosted.org/packages/e4/a3/1ee04c1e3eef690459879aa23f13109c8b3d83573bf87bc6fb9078449480/gptvm-0.1.1-py3-none-any.whl
+[2024-05-09 04:13:54] INFO root fetch - processPackages [bezier-interpolation]: executing diffoscope
+[2024-05-09 04:13:54] INFO root fetch - processPackages [bezier-interpolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bezier-interpolation-0.0.1.tar.gz tmp/bezier-interpolation-0.0.2.tar.gz --markdown 20240509/b/bezier-interpolation/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 04:13:54] INFO root fetch - processPackages [gptvm]: executing diffoscope
+[2024-05-09 04:13:54] INFO root fetch - processPackages [gptvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptvm-0.1-py3-none-any.whl.zip tmp/gptvm-0.1.1-py3-none-any.whl.zip --markdown 20240509/g/gptvm/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-09 04:13:54] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/88/88/5ad530875fc29ec2f1427e9455b7268d8246e2a3f1b2e91802c221a1aec9/lindi-0.3.2.tar.gz
+[2024-05-09 04:13:54] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-09 04:13:54] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.1.tar.gz tmp/lindi-0.3.2.tar.gz --markdown 20240509/l/lindi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 04:13:55] INFO root fetch - processPackages [bezier-interpolation]: Remove: archive file [/home/abi/fetcher/tmp/bezier-interpolation-0.0.1.tar.gz]
+[2024-05-09 04:13:55] INFO root fetch - processPackages [bezier-interpolation]: Remove: archive file [/home/abi/fetcher/tmp/bezier-interpolation-0.0.2.tar.gz]
+[2024-05-09 04:13:55] INFO root fetch - main [MainThread]: End processing [bezier-interpolation]: success
+[2024-05-09 04:13:55] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.1.tar.gz]
+[2024-05-09 04:13:55] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.2.tar.gz]
+[2024-05-09 04:13:55] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-09 04:13:55] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1-py3-none-any.whl.zip]
+[2024-05-09 04:13:55] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1.1-py3-none-any.whl.zip]
+[2024-05-09 04:13:55] INFO root fetch - main [MainThread]: End processing [gptvm]: success
+[2024-05-09 04:13:55] INFO root fetch - main [MainThread]: Store serial: [23124902]
