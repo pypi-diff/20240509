@@ -22057,3 +22057,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:50:35] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.0.tar.gz]
 [2024-05-09 13:50:35] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
 [2024-05-09 13:50:35] INFO root fetch - main [MainThread]: Store serial: [23130349]
+[2024-05-09 13:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130349]
+[2024-05-09 13:52:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfaces
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fcio
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Abava-SDK
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cognite-sdk
+[2024-05-09 13:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amphichromez
+[2024-05-09 13:52:44] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 13:52:44] INFO root fetch - processPackages [Abava-SDK]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-09 13:52:44] INFO root fetch - processPackages [surfaces]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-09 13:52:44] WARNING root fetch - processPackages [amphichromez]: Skipping, unable to determine old version
+[2024-05-09 13:52:44] INFO root fetch - main [MainThread]: End processing [amphichromez] error
+[2024-05-09 13:52:44] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 13:52:44] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-09 13:52:44] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/cf/e1/3a5e1517241ce196cec1834b217d04431026df6e028a2128f30189068a25/Abava_SDK-1.0.6-py3-none-any.whl
+[2024-05-09 13:52:44] INFO root fetch - processPackages [fcio]: New version: [0.4.0.dev3] Old Version: [0.4.0.dev2]
+[2024-05-09 13:52:44] INFO root fetch - processPackages [surfaces]: Downloading https://files.pythonhosted.org/packages/18/cd/8470c9d9514a4bb624f2958d24009ea213ed17106b66d3861da30ff9ce4b/surfaces-0.3.0-py3-none-any.whl
+[2024-05-09 13:52:44] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/e5/4c/d0e137e825e12088da0847ff9f8c3e83bee9bf09486f216c484598057c80/fcio-0.4.0.dev2.tar.gz
+[2024-05-09 13:52:44] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 13:52:44] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-09 13:52:44] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/47/63/322d4f7c495c90dcbf28e7b705556da20d7fd2155aeb60d332de99ac647b/Abava_SDK-1.0.7-py3-none-any.whl
+[2024-05-09 13:52:44] INFO root fetch - processPackages [Abava-SDK]: executing diffoscope
+[2024-05-09 13:52:44] INFO root fetch - processPackages [Abava-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abava_SDK-1.0.6-py3-none-any.whl.zip tmp/Abava_SDK-1.0.7-py3-none-any.whl.zip --markdown 20240509/A/Abava-SDK/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-09 13:52:44] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 13:52:44] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 13:52:44] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/c1/bd/f6015892ca6db4a78a46da123fbf860a44fbf7ffc59fe2b7438b9499b865/fcio-0.4.0.dev3.tar.gz
+[2024-05-09 13:52:44] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-09 13:52:45] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-09 13:52:45] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.4.0.dev2.tar.gz tmp/fcio-0.4.0.dev3.tar.gz --markdown 20240509/f/fcio/0.4.0.dev2-0.4.0.dev3/README.md --exclude *.pyd
+[2024-05-09 13:52:45] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-09 13:52:45] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240509/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-09 13:52:45] INFO root fetch - processPackages [surfaces]: Downloading https://files.pythonhosted.org/packages/a9/2c/c0dc91edf7ee8156f6ea65ec51c93dcd9cb4f5f7ea6ca8f5e9dbe9379be3/surfaces-0.4.0-py3-none-any.whl
+[2024-05-09 13:52:45] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 13:52:45] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 13:52:45] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 13:52:45] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.6-py3-none-any.whl.zip]
+[2024-05-09 13:52:45] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.7-py3-none-any.whl.zip]
+[2024-05-09 13:52:45] INFO root fetch - main [MainThread]: End processing [Abava-SDK]: success
+[2024-05-09 13:52:45] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev2.tar.gz]
+[2024-05-09 13:52:45] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev3.tar.gz]
+[2024-05-09 13:52:45] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-09 13:52:46] INFO root fetch - processPackages [surfaces]: executing diffoscope
+[2024-05-09 13:52:46] INFO root fetch - processPackages [surfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfaces-0.3.0-py3-none-any.whl.zip tmp/surfaces-0.4.0-py3-none-any.whl.zip --markdown 20240509/s/surfaces/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-09 13:52:46] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-09 13:52:46] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-09 13:52:46] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-09 13:52:49] INFO root fetch - processPackages [surfaces]: Remove: archive file [/home/abi/fetcher/tmp/surfaces-0.3.0-py3-none-any.whl.zip]
+[2024-05-09 13:52:49] INFO root fetch - processPackages [surfaces]: Remove: archive file [/home/abi/fetcher/tmp/surfaces-0.4.0-py3-none-any.whl.zip]
+[2024-05-09 13:52:49] INFO root fetch - main [MainThread]: End processing [surfaces]: success
+[2024-05-09 13:52:49] INFO root fetch - main [MainThread]: Store serial: [23130365]
