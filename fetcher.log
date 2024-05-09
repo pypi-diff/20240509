@@ -2470,3 +2470,51 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:03:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.3.tar.gz]
 [2024-05-09 02:03:05] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-05-09 02:03:05] INFO root fetch - main [MainThread]: Store serial: [23122668]
+[2024-05-09 02:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122668]
+[2024-05-09 02:05:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskcluster-taskgraph
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ema-pytorch
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dekdjtools
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ema-pytorch]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-09 02:05:13] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240508.359] Old Version: [2.0.0.20240508.145608]
+[2024-05-09 02:05:13] INFO root fetch - processPackages [taskcluster-taskgraph]: New version: [8.1.0] Old Version: [8.0.1]
+[2024-05-09 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-09 02:05:13] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/3b/62/5b3dc585dd383d3cd74bc304b06383e76f6e973117936946b73bef3c2240/ema_pytorch-0.4.6.tar.gz
+[2024-05-09 02:05:13] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/08/f4/8e7686bb62e6fa9e0b3a98b4ecb45689d91fcf730fb4f8a7aa2b62bb56d5/mct-nightly-2.0.0.20240508.145608.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [taskcluster-taskgraph]: Downloading https://files.pythonhosted.org/packages/cb/fa/929bc3edcec2f18b76ae4c0733ac08a536be54de0abd7deacc70c695322e/taskcluster-taskgraph-8.0.1.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/6d/1b/6a660e81283a6bcd82bbd5ce895c9af4817e6ff012910b466fbaa605e413/ema_pytorch-0.4.7.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [ema-pytorch]: executing diffoscope
+[2024-05-09 02:05:14] INFO root fetch - processPackages [ema-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ema_pytorch-0.4.6.tar.gz tmp/ema_pytorch-0.4.7.tar.gz --markdown 20240509/e/ema-pytorch/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-09 02:05:14] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-09 02:05:14] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240509/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-09 02:05:14] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b7/cf/92a352affb6b2c1171e047f665ea3f43d762ef2b5e4b66c09e1fbc72ff3e/mct-nightly-2.0.0.20240508.359.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [taskcluster-taskgraph]: Downloading https://files.pythonhosted.org/packages/ed/00/b295ad207ec49d9c2473786b60d76b99f139f3e71f2ca6134388b4ed7204/taskcluster-taskgraph-8.1.0.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-09 02:05:14] INFO root fetch - processPackages [taskcluster-taskgraph]: executing diffoscope
+[2024-05-09 02:05:14] INFO root fetch - processPackages [taskcluster-taskgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcluster-taskgraph-8.0.1.tar.gz tmp/taskcluster-taskgraph-8.1.0.tar.gz --markdown 20240509/t/taskcluster-taskgraph/8.0.1-8.1.0/README.md --exclude *.pyd
+[2024-05-09 02:05:14] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-09 02:05:14] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240508.145608.tar.gz tmp/mct-nightly-2.0.0.20240508.359.tar.gz --markdown 20240509/m/mct-nightly/2.0.0.20240508.145608-2.0.0.20240508.359/README.md --exclude *.pyd
+[2024-05-09 02:05:14] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-09 02:05:14] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240509/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:05:14] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema_pytorch-0.4.6.tar.gz]
+[2024-05-09 02:05:14] INFO root fetch - processPackages [ema-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/ema_pytorch-0.4.7.tar.gz]
+[2024-05-09 02:05:14] INFO root fetch - main [MainThread]: End processing [ema-pytorch]: success
+[2024-05-09 02:05:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-09 02:05:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-09 02:05:14] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-09 02:05:15] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-09 02:05:15] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-09 02:05:15] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-09 02:05:15] INFO root fetch - processPackages [taskcluster-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-taskgraph-8.0.1.tar.gz]
+[2024-05-09 02:05:15] INFO root fetch - processPackages [taskcluster-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-taskgraph-8.1.0.tar.gz]
+[2024-05-09 02:05:15] INFO root fetch - main [MainThread]: End processing [taskcluster-taskgraph]: success
+[2024-05-09 02:05:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.145608.tar.gz]
+[2024-05-09 02:05:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.359.tar.gz]
+[2024-05-09 02:05:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-09 02:05:16] INFO root fetch - main [MainThread]: Store serial: [23122680]
