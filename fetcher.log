@@ -15122,3 +15122,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:01:49] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
 [2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
 [2024-05-09 10:01:49] INFO root fetch - main [MainThread]: Store serial: [23127816]
+[2024-05-09 10:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127816]
+[2024-05-09 10:03:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sortinghat
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gefpy
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qdx-py
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval-puppet
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perceval-mozilla
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langfun
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linktest
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml4teens
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastapi-cdn-host
+[2024-05-09 10:03:58] INFO root fetch - processPackages [lazysdk]: New version: [0.1.94] Old Version: [0.1.93]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240508] Old Version: [0.0.2.dev20240507]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [sortinghat]: New version: [1.0.1rc1] Old Version: [1.0.0rc3]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [qdx-py]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [perceval-mozilla]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [linktest]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [fastapi-cdn-host]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [ml4teens]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [gefpy]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [perceval-puppet]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 10:03:58] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/0c/19/f9c93b74ed6dea6dcbe392fb04855c117f989bc4dfd3dcf6d0edfcbb8ec8/lazysdk-0.1.93.tar.gz
+[2024-05-09 10:03:58] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/29/82/094219a6ffaa030924807c0c7d1c5c4846b9da2766fb9242b309e3b7e41a/langfun-0.0.2.dev20240507.tar.gz
+[2024-05-09 10:03:58] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/75/38/ccfa1157e151394aa9202f8e4e663c57be19a58629233b7764e90e7fc2b1/sortinghat-1.0.0rc3.tar.gz
+[2024-05-09 10:03:58] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/a9/65/bc5b8284e54113185d3f8acd5230dea47ee8861aa104a99e06341cf61fd5/qdx_py-0.9.2.tar.gz
+[2024-05-09 10:03:58] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/d7/86/ab1e19c13cdd6a0de006bd76b6b207e9effe57bcc7dd8d4c9ac6bf610518/gefpy-1.1.3-cp38-cp38-win_amd64.whl
+[2024-05-09 10:03:58] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/aa/18/0430e4b1c074e2bf5baed5c00255c1661c0801887606ad28f571eb50c492/perceval_mozilla-1.0.0rc2.tar.gz
+[2024-05-09 10:03:58] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/05/fe/ae5464f10a3464e821a5ca565c09bfb20f4aea340591e61da665c76f2aad/linktest-2.7.3.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [ml4teens]: Downloading https://files.pythonhosted.org/packages/e2/c2/b35762a80cfc94db628a819c8caba26d0487f2e32268005c4121314939a8/ml4teens-0.1.40.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/de/f8/8e69f85af2a94cb66d379bcc603a153ed1be6aaa3f9ab3465a2782e882bc/perceval_puppet-1.0.0rc2.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/7a/bc/45e8b41f058074e781e7f3344161c8e667c7f8d097585d4e8efedd7fdf0b/fastapi_cdn_host-0.4.2.tar.gz
+[2024-05-09 10:03:59] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 26365409>=10485760
+[2024-05-09 10:03:59] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2024-05-09 10:03:59] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/ab/07/1ac2c1dde1fb6a666078e8124110eccc1745e38e18d984a09f39f5862912/langfun-0.0.2.dev20240508.tar.gz
+[2024-05-09 10:03:59] WARNING root fetch - processPackages [ml4teens]: Skipping package: exceeds size limit 22456439>=10485760
+[2024-05-09 10:03:59] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-09 10:03:59] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/4a/05/74be271c41ff3e54bd7ec60ac769e9092e517611058cd66f001132eac631/lazysdk-0.1.94.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240507.tar.gz tmp/langfun-0.0.2.dev20240508.tar.gz --markdown 20240509/l/langfun/0.0.2.dev20240507-0.0.2.dev20240508/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/5a/6b/10963e4cac1c4cec8325de1a2af7f5f94c5eb29791ec36a62b3c2cf61b3c/qdx_py-0.9.3.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.93.tar.gz tmp/lazysdk-0.1.94.tar.gz --markdown 20240509/l/lazysdk/0.1.93-0.1.94/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/9a/71/85dbe328392fb3dcbed1095537826b3ae9fcece9917fdbe620645f5b1299/linktest-2.7.4.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/08/63/ca33a8527d194aeeaccef4967b44abd9c3205837f3673daeec23d3985c85/fastapi_cdn_host-0.4.3.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.9.2.tar.gz tmp/qdx_py-0.9.3.tar.gz --markdown 20240509/q/qdx-py/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/c3/77/22ee840fbb3ec18f3d8ff39f3d605a733b2e2b5ca89800fdfa629008498a/perceval_puppet-1.0.1rc1.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/c7/d1/87d0d5e3d4be51e96d63311bb83999b60a68e8aae355bef509b26c62950a/perceval_mozilla-1.0.1rc1.tar.gz
+[2024-05-09 10:03:59] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.3.tar.gz tmp/linktest-2.7.4.tar.gz --markdown 20240509/l/linktest/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [fastapi-cdn-host]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [fastapi-cdn-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cdn_host-0.4.2.tar.gz tmp/fastapi_cdn_host-0.4.3.tar.gz --markdown 20240509/f/fastapi-cdn-host/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-1.0.0rc2.tar.gz tmp/perceval_puppet-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-puppet/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2024-05-09 10:03:59] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-1.0.0rc2.tar.gz tmp/perceval_mozilla-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-mozilla/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:04:00] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.93.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.94.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.2.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.3.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/98/d1/2399b0b0ae4a090c2c7d7fe18f292a5d4e7d776c93f3350ebbb0d02842b8/sortinghat-1.0.1rc1.tar.gz
+[2024-05-09 10:04:00] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.2.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.3.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [fastapi-cdn-host]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240507.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240508.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.3.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.4.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.0rc2.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.1rc1.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2024-05-09 10:04:00] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.0rc2.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.1rc1.tar.gz]
+[2024-05-09 10:04:00] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2024-05-09 10:04:01] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2024-05-09 10:04:01] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-1.0.0rc3.tar.gz tmp/sortinghat-1.0.1rc1.tar.gz --markdown 20240509/s/sortinghat/1.0.0rc3-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:04:02] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.0rc3.tar.gz]
+[2024-05-09 10:04:02] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.1rc1.tar.gz]
+[2024-05-09 10:04:02] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2024-05-09 10:04:02] INFO root fetch - main [MainThread]: Store serial: [23127844]
