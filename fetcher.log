@@ -9649,3 +9649,63 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:35:49] INFO root fetch - processPackages [odoo-addon-website-sale-cart-expire]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_cart_expire-16.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-09 05:35:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-cart-expire]: success
 [2024-05-09 05:35:49] INFO root fetch - main [MainThread]: Store serial: [23125675]
+[2024-05-09 05:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125675]
+[2024-05-09 05:37:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-website-sale-attribute-filter-multiselect
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-website-sale-product-image-sample
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-models
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-website-sale-invoice-address
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taguchi
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: switch-api
+[2024-05-09 05:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partenaire-qualif
+[2024-05-09 05:37:58] INFO root fetch - processPackages [core-models]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-09 05:37:58] INFO root fetch - processPackages [taguchi]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-09 05:37:58] INFO root fetch - processPackages [switch-api]: New version: [0.5.4b3] Old Version: [0.5.4b2]
+[2024-05-09 05:37:58] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-05-09 05:37:58] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/61/3b/9ee60b47fae286418ad374937c0a145048d88d7fe7875781d8a4bb1f2a45/core_models-0.4.6.tar.gz
+[2024-05-09 05:37:58] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-05-09 05:37:58] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/8e/3c/0667f0776c662bb19cd0d977cdb6a48dfe392f86f8f5c2c080ddbd3b0d3a/taguchi-0.0.3.tar.gz
+[2024-05-09 05:37:58] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2024-05-09 05:37:58] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-09 05:37:58] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-09 05:37:58] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/d1/ee/a193c33ded1eb210cbf5b2d48c41872f1e5edff8c839d69a3dae4849fa4f/switch_api-0.5.4b2.tar.gz
+[2024-05-09 05:37:58] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Downloading https://files.pythonhosted.org/packages/e2/90/2a5464a6822fc49de7566ac504ed2f6958af8c268031a42a073c699b4f18/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: Downloading https://files.pythonhosted.org/packages/4c/76/7a7b0ecc542a3a582835791435c09c8fc11f338fc8392423bd8111781fc0/odoo_addon_website_sale_invoice_address-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/a2/89/a1398144ea42dfdef1f95ae0ee51d4394073ceccf9f0a7eb91928981ece9/taguchi-1.0.0.tar.gz
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: Downloading https://files.pythonhosted.org/packages/06/38/2341109e9bc6e443b407bf7a6674f84e77c69d3dd1063ef64130d1948cb9/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/c2/6c/ddf808aa5fdbb19c2635e96a5f4ffa9f657bf5604733745f8fec8a6403f4/core_models-0.4.7.tar.gz
+[2024-05-09 05:37:59] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/67/6d/1a014e5a49b1560c015ececfd65f11e40156446936e68e7986ecdcfcb994/switch_api-0.5.4b3.tar.gz
+[2024-05-09 05:37:59] INFO root fetch - processPackages [taguchi]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [taguchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taguchi-0.0.3.tar.gz tmp/taguchi-1.0.0.tar.gz --markdown 20240509/t/taguchi/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.4.6.tar.gz tmp/core_models-0.4.7.tar.gz --markdown 20240509/c/core-models/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.4b2.tar.gz tmp/switch_api-0.5.4b3.tar.gz --markdown 20240509/s/switch-api/0.5.4b2-0.5.4b3/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Downloading https://files.pythonhosted.org/packages/56/a6/575c8e2029c4be49300f106d0004f074703d667ce2fc1ff0c06effe99d44/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: Downloading https://files.pythonhosted.org/packages/30/ad/8d02cd3459141e34cd0c2bff8e595f82e437cb4e0169b8ab462ec51984f1/odoo_addon_website_sale_invoice_address-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-website-sale-attribute-filter-multiselect/16.0.1.0.0.4-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: Downloading https://files.pythonhosted.org/packages/cb/f6/a31f0193a24befdb78d4187aaaaab18e92a8dd0b98111adeae8599255c16/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_invoice_address-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_invoice_address-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-website-sale-invoice-address/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: executing diffoscope
+[2024-05-09 05:37:59] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-website-sale-product-image-sample/16.0.1.0.0.5-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-09 05:37:59] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-0.0.3.tar.gz]
+[2024-05-09 05:37:59] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.0.tar.gz]
+[2024-05-09 05:37:59] INFO root fetch - main [MainThread]: End processing [taguchi]: success
+[2024-05-09 05:38:00] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.6.tar.gz]
+[2024-05-09 05:38:00] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.7.tar.gz]
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-attribute-filter-multiselect]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_attribute_filter_multiselect-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-attribute-filter-multiselect]: success
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_invoice_address-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-invoice-address]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_invoice_address-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-invoice-address]: success
+[2024-05-09 05:38:00] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b2.tar.gz]
+[2024-05-09 05:38:00] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b3.tar.gz]
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-image-sample]: success
+[2024-05-09 05:38:00] INFO root fetch - main [MainThread]: Store serial: [23125695]
