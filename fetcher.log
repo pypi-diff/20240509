@@ -7658,3 +7658,66 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:38:47] INFO root fetch - processPackages [sphinxbio]: Remove: archive file [/home/abi/fetcher/tmp/sphinxbio-0.1.1.tar.gz]
 [2024-05-09 03:38:47] INFO root fetch - main [MainThread]: End processing [sphinxbio]: success
 [2024-05-09 03:38:47] INFO root fetch - main [MainThread]: Store serial: [23124576]
+[2024-05-09 03:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124576]
+[2024-05-09 03:40:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psyke
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipemake
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm-client
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openllm-core
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: economizerz
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: backup-helper
+[2024-05-09 03:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: resend
+[2024-05-09 03:40:55] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a7] Old Version: [0.5.0a6]
+[2024-05-09 03:40:56] WARNING root fetch - processPackages [pipemake]: Skipping, unable to determine old version
+[2024-05-09 03:40:56] INFO root fetch - main [MainThread]: End processing [pipemake] error
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm]: New version: [0.5.0a7] Old Version: [0.5.0a6]
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/d5/57/9d130cebd0bb78831bcae5bfd6c8952e45e7b0ce8aee6ca0da7bf60c9469/openllm_client-0.5.0a6.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [backup-helper]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-09 03:40:56] WARNING root fetch - processPackages [economizerz]: Skipping, unable to determine old version
+[2024-05-09 03:40:56] INFO root fetch - main [MainThread]: End processing [economizerz] error
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/86/7a/b61545ec52bad0b7f4ef7be4e270b48f83d2fce061d06839b6240d84bba2/openllm-0.5.0a6.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [psyke]: New version: [0.8.9.dev1] Old Version: [0.8.9]
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a8] Old Version: [0.5.0a7]
+[2024-05-09 03:40:56] INFO root fetch - processPackages [resend]: New version: [1.0.0] Old Version: [0.8.0]
+[2024-05-09 03:40:56] INFO root fetch - processPackages [backup-helper]: Downloading https://files.pythonhosted.org/packages/58/b4/bee04637e8006885114ab2212e928ef5716d68ca52b97155e496a02cce54/backup_helper-0.2.1-py3-none-any.whl
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/e6/67/2761937b24132d8705fe33cf334a7555f14091b4f6cc27d95dba4451eec6/openllm_core-0.5.0a7.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/02/6d/fb753f71cc5c999d0abe0cd8747ba64dd8c21bc3905ebc9e165839835ede/psyke-0.8.9.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/3c/44/42b53c594056acd28002b5898ef0f503ebd6cbb577c45837dc539e7f4858/resend-0.8.0.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/45/6b/9e6653e9fa461f8e5a37b2be500cc849d2d2940a6ea33667b7f250bbc4e1/openllm_client-0.5.0a7.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/6e/05/96a55a9b3bf75d87660c4ac1995c94d38fda27516a22d16a5ccf7c30705b/openllm-0.5.0a7.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a6.tar.gz tmp/openllm_client-0.5.0a7.tar.gz --markdown 20240509/o/openllm-client/0.5.0a6-0.5.0a7/README.md --exclude *.pyd
+[2024-05-09 03:40:56] INFO root fetch - processPackages [backup-helper]: Downloading https://files.pythonhosted.org/packages/89/4c/5ba40cb0f34a1ccde39986bea5548bb0cb86a7ad98c37fdfc4c693e78143/backup_helper-0.2.2-py3-none-any.whl
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/76/67/05ea81f766677b9200494e8b14dfee33b358cd583a24b18cfccf4b5dceb4/openllm_core-0.5.0a8.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a6.tar.gz tmp/openllm-0.5.0a7.tar.gz --markdown 20240509/o/openllm/0.5.0a6-0.5.0a7/README.md --exclude *.pyd
+[2024-05-09 03:40:56] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/ab/b5/696be7464bce7f126e5e9e8aa8b23ba2204aff8da16cd803fa4dbca38907/psyke-0.8.9.dev1.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/81/06/c2f1d41b178221bf62e826536013312e9c6ac80cd64ad6eec7b4f860fc30/resend-1.0.0.tar.gz
+[2024-05-09 03:40:56] INFO root fetch - processPackages [backup-helper]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [backup-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backup_helper-0.2.1-py3-none-any.whl.zip tmp/backup_helper-0.2.2-py3-none-any.whl.zip --markdown 20240509/b/backup-helper/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a7.tar.gz tmp/openllm_core-0.5.0a8.tar.gz --markdown 20240509/o/openllm-core/0.5.0a7-0.5.0a8/README.md --exclude *.pyd
+[2024-05-09 03:40:56] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.9.tar.gz tmp/psyke-0.8.9.dev1.tar.gz --markdown 20240509/p/psyke/0.8.9-0.8.9.dev1/README.md --exclude *.pyd
+[2024-05-09 03:40:56] INFO root fetch - processPackages [resend]: executing diffoscope
+[2024-05-09 03:40:56] INFO root fetch - processPackages [resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resend-0.8.0.tar.gz tmp/resend-1.0.0.tar.gz --markdown 20240509/r/resend/0.8.0-1.0.0/README.md --exclude *.pyd
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a6.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a7.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-09 03:40:57] INFO root fetch - processPackages [backup-helper]: Remove: archive file [/home/abi/fetcher/tmp/backup_helper-0.2.1-py3-none-any.whl.zip]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [backup-helper]: Remove: archive file [/home/abi/fetcher/tmp/backup_helper-0.2.2-py3-none-any.whl.zip]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [backup-helper]: success
+[2024-05-09 03:40:57] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev1.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a6.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a7.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-09 03:40:57] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-0.8.0.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.0.0.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [resend]: success
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a7.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a8.tar.gz]
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-09 03:40:57] INFO root fetch - main [MainThread]: Store serial: [23124599]
