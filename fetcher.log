@@ -21966,3 +21966,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:46:13] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.768.0.tar.gz]
 [2024-05-09 13:46:13] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-09 13:46:13] INFO root fetch - main [MainThread]: Store serial: [23130311]
+[2024-05-09 13:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130311]
+[2024-05-09 13:48:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flameEngine
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: platform-plugin-aspects
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyqml
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flameEngine
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: callorhynchidaez
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: faststream
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: affixapi
+[2024-05-09 13:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fyle-accounting-mappings
+[2024-05-09 13:48:22] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.32] Old Version: [0.0.4.31]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.32] Old Version: [0.0.4.31]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [platform-plugin-aspects]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [affixapi]: New version: [1.1.68] Old Version: [1.1.67]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [lazyqml]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-09 13:48:22] WARNING root fetch - processPackages [callorhynchidaez]: Skipping, unable to determine old version
+[2024-05-09 13:48:22] INFO root fetch - main [MainThread]: End processing [callorhynchidaez] error
+[2024-05-09 13:48:22] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/2a/2f/36aac0d5f4b3359a7c48e4d7d98302dd1f14df82189cb5b4b070ac6855a5/flameengine-0.0.4.31.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [faststream]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/2a/2f/36aac0d5f4b3359a7c48e4d7d98302dd1f14df82189cb5b4b070ac6855a5/flameengine-0.0.4.31.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/ef/d2/79546fea27a6a33201f3d0dbebb928c7c7ecb722b1c266dd08336bf5144e/affixapi-1.1.67.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/28/ec/38de1f7b341580091e9acab4ee3d06d2ca15c68b1fa558d18d82051fc8c1/platform_plugin_aspects-0.9.0.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [fyle-accounting-mappings]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-09 13:48:22] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/8e/1d/63f91482654b040ed4d5d680a37fb3a3bef5214dfa42020a6ac7f90e9c53/faststream-0.5.4.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/2e/37/71819cf3d16fa4034c8dfafeb6200ad0cad58d3422e179092c0ea3dda3a1/lazyqml-0.2.0.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/ab/c3/5656d1b8e51898395dd5d20a9374ba4ed1386fa555d6e1319732c12d2109/platform_plugin_aspects-0.9.1.tar.gz
+[2024-05-09 13:48:22] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/ee/e4/584f8a92de035d96a9702ffb19955efc4d93d5610034bbfaa3eb3e345586/fyle-accounting-mappings-1.8.0.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/9c/2d/10724fbae8614ea4631cae312feac019705f16e2c964a1b0acf55d9555fb/flameengine-0.0.4.32.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/9c/2d/10724fbae8614ea4631cae312feac019705f16e2c964a1b0acf55d9555fb/flameengine-0.0.4.32.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/51/42/f6cf67784c33a1bfd422b04d99b833422e416ede8518cc0fa0bcef4a9f07/affixapi-1.1.68.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [platform-plugin-aspects]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [platform-plugin-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform_plugin_aspects-0.9.0.tar.gz tmp/platform_plugin_aspects-0.9.1.tar.gz --markdown 20240509/p/platform-plugin-aspects/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.31.tar.gz tmp/flameengine-0.0.4.32.tar.gz --markdown 20240509/f/flameEngine/0.0.4.31-0.0.4.32/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [faststream]: Downloading https://files.pythonhosted.org/packages/c7/a9/b38461a5d63a968ae63cd708c08dff9e8855d4f04923c91e67f7d1e3f058/faststream-0.5.5.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/2b/1a/db0cad936374ba18635b7a28a19878e5e187719b0e946f64614ee94c390c/lazyqml-0.3.0.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.31.tar.gz tmp/flameengine-0.0.4.32.tar.gz --markdown 20240509/f/flameEngine/0.0.4.31-0.0.4.32/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.67.tar.gz tmp/affixapi-1.1.68.tar.gz --markdown 20240509/a/affixapi/1.1.67-1.1.68/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.2.0.tar.gz tmp/lazyqml-0.3.0.tar.gz --markdown 20240509/l/lazyqml/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/0e/69/e0030f5b6d0b91631cfdb65f832ec00fda7e938ac982a3a43b6587639e62/fyle-accounting-mappings-1.9.0.tar.gz
+[2024-05-09 13:48:23] INFO root fetch - processPackages [faststream]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [faststream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faststream-0.5.4.tar.gz tmp/faststream-0.5.5.tar.gz --markdown 20240509/f/faststream/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [fyle-accounting-mappings]: executing diffoscope
+[2024-05-09 13:48:23] INFO root fetch - processPackages [fyle-accounting-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-accounting-mappings-1.8.0.tar.gz tmp/fyle-accounting-mappings-1.9.0.tar.gz --markdown 20240509/f/fyle-accounting-mappings/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.31.tar.gz]
+[2024-05-09 13:48:23] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.32.tar.gz]
+[2024-05-09 13:48:23] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 13:48:23] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 13:48:24] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform_plugin_aspects-0.9.0.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform_plugin_aspects-0.9.1.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - main [MainThread]: End processing [platform-plugin-aspects]: success
+[2024-05-09 13:48:24] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.2.0.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.0.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-09 13:48:24] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.67.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.68.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-09 13:48:24] INFO root fetch - processPackages [fyle-accounting-mappings]: Remove: archive file [/home/abi/fetcher/tmp/fyle-accounting-mappings-1.8.0.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - processPackages [fyle-accounting-mappings]: Remove: archive file [/home/abi/fetcher/tmp/fyle-accounting-mappings-1.9.0.tar.gz]
+[2024-05-09 13:48:24] INFO root fetch - main [MainThread]: End processing [fyle-accounting-mappings]: success
+[2024-05-09 13:48:25] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.4.tar.gz]
+[2024-05-09 13:48:25] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.5.tar.gz]
+[2024-05-09 13:48:25] INFO root fetch - main [MainThread]: End processing [faststream]: success
+[2024-05-09 13:48:25] INFO root fetch - main [MainThread]: Store serial: [23130337]
