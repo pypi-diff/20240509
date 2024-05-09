@@ -13265,3 +13265,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:31:00] INFO root fetch - processPackages [odoo-addon-survey-question-type-binary]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_question_type_binary-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-09 08:31:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-question-type-binary]: success
 [2024-05-09 08:31:00] INFO root fetch - main [MainThread]: Store serial: [23127131]
+[2024-05-09 08:33:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127131]
+[2024-05-09 08:33:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 08:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-null
+[2024-05-09 08:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyBeastxAPI
+[2024-05-09 08:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assisted-service-client
+[2024-05-09 08:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-clean-room
+[2024-05-09 08:33:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DNA-SE
+[2024-05-09 08:33:09] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-09 08:33:09] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 08:33:09] INFO root fetch - processPackages [liveramp-clean-room]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 08:33:09] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1715234767] Old Version: [0.1.0a1715061333]
+[2024-05-09 08:33:09] WARNING root fetch - processPackages [pyBeastxAPI]: Skipping, unable to determine old version
+[2024-05-09 08:33:09] INFO root fetch - main [MainThread]: End processing [pyBeastxAPI] error
+[2024-05-09 08:33:09] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-09 08:33:09] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/18/f9/e1aa87ff705078aa7059823968a0e6f6c7dc172ca0635f70a0180474fe43/dna_se-0.0.1.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [liveramp-clean-room]: Downloading https://files.pythonhosted.org/packages/b7/1a/3313c32994a608c304b6d36246c6386b50d33b4c920fec1dc37a9560ffae/liveramp_clean_room-0.3.1.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/2d/4a/0ef3375cef502a1f0a8857671236fc4a74f59d7c26f0950cc4532d732a45/pulumi_null-0.1.0a1715061333.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-09 08:33:09] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-09 08:33:09] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240509/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-09 08:33:09] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/4c/2a/3d03f95dc18fb5357f9e67353c6d11c10a8c862604c1c407e606c041bc3b/dna_se-0.0.2.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/9b/f4/d6d97b72a38df2635a1fd6f6a97a39c7baf0b8a22ca2d66e89b6adcca223/pulumi_null-0.1.0a1715234767.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 08:33:09] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.1.tar.gz tmp/dna_se-0.0.2.tar.gz --markdown 20240509/D/DNA-SE/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 08:33:09] INFO root fetch - processPackages [liveramp-clean-room]: Downloading https://files.pythonhosted.org/packages/aa/ee/6441f71ed31cd91f317218478e2bc1cd14a272ddddfb1462a7d595182e93/liveramp_clean_room-0.3.2.tar.gz
+[2024-05-09 08:33:09] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-09 08:33:09] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1715061333.tar.gz tmp/pulumi_null-0.1.0a1715234767.tar.gz --markdown 20240509/p/pulumi-null/0.1.0a1715061333-0.1.0a1715234767/README.md --exclude *.pyd
+[2024-05-09 08:33:10] INFO root fetch - processPackages [liveramp-clean-room]: executing diffoscope
+[2024-05-09 08:33:10] INFO root fetch - processPackages [liveramp-clean-room]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_clean_room-0.3.1.tar.gz tmp/liveramp_clean_room-0.3.2.tar.gz --markdown 20240509/l/liveramp-clean-room/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 08:33:10] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.1.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.2.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 08:33:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715061333.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1715234767.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-09 08:33:10] INFO root fetch - processPackages [liveramp-clean-room]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_clean_room-0.3.1.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - processPackages [liveramp-clean-room]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_clean_room-0.3.2.tar.gz]
+[2024-05-09 08:33:10] INFO root fetch - main [MainThread]: End processing [liveramp-clean-room]: success
+[2024-05-09 08:33:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-09 08:33:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-09 08:33:11] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-09 08:33:11] INFO root fetch - main [MainThread]: Store serial: [23127154]
