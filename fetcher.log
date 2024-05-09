@@ -19345,3 +19345,69 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:46:03] INFO root fetch - processPackages [cachebox]: Remove: archive file [/home/abi/fetcher/tmp/cachebox-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-09 11:46:03] INFO root fetch - main [MainThread]: End processing [cachebox]: success
 [2024-05-09 11:46:03] INFO root fetch - main [MainThread]: Store serial: [23129235]
+[2024-05-09 11:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129235]
+[2024-05-09 11:48:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storey
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ryght-platform-sdk
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-felis
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: module-qc-database-tools
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-ctrl-bps-htcondor
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-bps
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ngstrefftz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [module-qc-database-tools]: New version: [2.2.8rc1] Old Version: [2.2.7]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ngstrefftz]: New version: [0.3.2402.dev34] Old Version: [0.3.2402.dev33]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/77/c5/f55bfe253000f930c184f2820e7a0caa9368f204476dea9cf6e5fdd5880d/module_qc_database_tools-2.2.7.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-felis]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ryght-platform-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/c0/8c/e5179c03a296ef315841dea05e33187744d2ad501301bbfcd0102e693756/ngstrefftz-0.3.2402.dev33.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [storey]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-09 11:48:12] INFO root fetch - processPackages [module-qc-database-tools]: Downloading https://files.pythonhosted.org/packages/40/69/9260a43cfbc360e8b3563b8e087e4510d6ac29e8419298ce49e23e356b60/module_qc_database_tools-2.2.8rc1.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/2b/66/1affb9a6f153378b4a6d5945e02328fb080815a58791b686c26fa196eb3d/ryght_platform_sdk-0.3.8.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/c3/95/53f32550c1a636e23158ba7146ada74ac1a17d9666d158ee803265129d44/lsst_felis-27.2024.1800.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/4f/c4/3ba2deee23f6ba64dc2614f1bcc430b250e92b4920aea9a9260915b0f19d/lsst_ctrl_bps_htcondor-27.2024.1800.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/ce/f2/fb725885928d8ccbbb0a7f28c52605a4972284c1100e5cca1a2523767ad3/storey-1.7.8.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/07/c7/05a7e213f007b9f582d47f9051ded89021b227f5879aa2a11c91de8c98b8/lsst_ctrl_bps-27.2024.1800.tar.gz
+[2024-05-09 11:48:12] INFO root fetch - processPackages [module-qc-database-tools]: executing diffoscope
+[2024-05-09 11:48:12] INFO root fetch - processPackages [module-qc-database-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_database_tools-2.2.7.tar.gz tmp/module_qc_database_tools-2.2.8rc1.tar.gz --markdown 20240509/m/module-qc-database-tools/2.2.7-2.2.8rc1/README.md --exclude *.pyd
+[2024-05-09 11:48:12] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/a8/ef/cfa1d783341ce69e300cffd2cb6e0173ea485b37cb4b986248e6b4f0412b/ngstrefftz-0.3.2402.dev34.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/11/cf/723d20317492f44f320ba963c7d8bd4dc53dcd5810b3c6bb0076497aeb50/lsst_felis-27.2024.1900.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [ngstrefftz]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [ngstrefftz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-0.3.2402.dev33.tar.gz tmp/ngstrefftz-0.3.2402.dev34.tar.gz --markdown 20240509/n/ngstrefftz/0.3.2402.dev33-0.3.2402.dev34/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/30/58/57d777ddf934993cb407ac7cd6b3eddc00a636e33ad9f452309796fa8ae6/lsst_ctrl_bps-27.2024.1900.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/34/43/6feec924f7903a6cac196b8652681a41b540008288a7647e8420b4554257/ryght_platform_sdk-0.3.9.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/ba/61/bd44fa292f4c50f877739bfd7653399cfad2b269f2efae6e331ceea2e4cc/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [storey]: Downloading https://files.pythonhosted.org/packages/7a/07/b7c06ed930f7729cbabcef2eff7245adf34a98245820a6dc5cc2585c3d31/storey-1.7.9.tar.gz
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_felis-27.2024.1800.tar.gz tmp/lsst_felis-27.2024.1900.tar.gz --markdown 20240509/l/lsst-felis/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps-27.2024.1800.tar.gz tmp/lsst_ctrl_bps-27.2024.1900.tar.gz --markdown 20240509/l/lsst-ctrl-bps/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [ryght-platform-sdk]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [ryght-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryght_platform_sdk-0.3.8.tar.gz tmp/ryght_platform_sdk-0.3.9.tar.gz --markdown 20240509/r/ryght-platform-sdk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_htcondor-27.2024.1800.tar.gz tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz --markdown 20240509/l/lsst-ctrl-bps-htcondor/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [storey]: executing diffoscope
+[2024-05-09 11:48:13] INFO root fetch - processPackages [storey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storey-1.7.8.tar.gz tmp/storey-1.7.9.tar.gz --markdown 20240509/s/storey/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-09 11:48:13] INFO root fetch - processPackages [module-qc-database-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_database_tools-2.2.7.tar.gz]
+[2024-05-09 11:48:13] INFO root fetch - processPackages [module-qc-database-tools]: Remove: archive file [/home/abi/fetcher/tmp/module_qc_database_tools-2.2.8rc1.tar.gz]
+[2024-05-09 11:48:13] INFO root fetch - main [MainThread]: End processing [module-qc-database-tools]: success
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1800.tar.gz]
+[2024-05-09 11:48:13] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.1900.tar.gz]
+[2024-05-09 11:48:13] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-09 11:48:14] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev33.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev34.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
+[2024-05-09 11:48:14] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.8.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.9.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: End processing [ryght-platform-sdk]: success
+[2024-05-09 11:48:14] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1800.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.1900.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-05-09 11:48:14] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.1800.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.1900.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-05-09 11:48:14] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.8.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - processPackages [storey]: Remove: archive file [/home/abi/fetcher/tmp/storey-1.7.9.tar.gz]
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: End processing [storey]: success
+[2024-05-09 11:48:14] INFO root fetch - main [MainThread]: Store serial: [23129315]
