@@ -7958,3 +7958,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:00:35] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-05-09 04:00:35] INFO root fetch - main [MainThread]: End processing [pyroltrilinos]: success
 [2024-05-09 04:00:35] INFO root fetch - main [MainThread]: Store serial: [23124701]
+[2024-05-09 04:02:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124701]
+[2024-05-09 04:02:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-09 04:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalk-harness
+[2024-05-09 04:02:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blitheringz
+[2024-05-09 04:02:43] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-09 04:02:43] WARNING root fetch - processPackages [blitheringz]: Skipping, unable to determine old version
+[2024-05-09 04:02:43] INFO root fetch - main [MainThread]: End processing [blitheringz] error
+[2024-05-09 04:02:43] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-05-09 04:02:43] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/a5/9e/909b41ecd08d9693df1593965ab25cce9e1847e4f3777133dea25a637cd9/cvprocessor-0.0.29.tar.gz
+[2024-05-09 04:02:43] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-05-09 04:02:44] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/62/ed/7061df6417c9f5fdcef58d7ac28424c34636c5a8fffd367a04842573320d/cvprocessor-0.0.30.tar.gz
+[2024-05-09 04:02:44] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-05-09 04:02:44] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240509/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.29.tar.gz tmp/cvprocessor-0.0.30.tar.gz --markdown 20240509/c/cvprocessor/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-05-09 04:02:44] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-05-09 04:02:44] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-05-09 04:02:44] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.29.tar.gz]
+[2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.30.tar.gz]
+[2024-05-09 04:02:44] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-09 04:02:44] INFO root fetch - main [MainThread]: Store serial: [23124711]
