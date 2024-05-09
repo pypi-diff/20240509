@@ -21843,3 +21843,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:39:08] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev2.tar.gz]
 [2024-05-09 13:39:08] INFO root fetch - main [MainThread]: End processing [fcio]: success
 [2024-05-09 13:39:08] INFO root fetch - main [MainThread]: Store serial: [23130251]
+[2024-05-09 13:41:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130251]
+[2024-05-09 13:41:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TrialPy3
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweb
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperfuel
+[2024-05-09 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elastalert2
+[2024-05-09 13:41:17] INFO root fetch - processPackages [sweb]: New version: [0.2] Old Version: [0.1]
+[2024-05-09 13:41:17] INFO root fetch - processPackages [TrialPy3]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-09 13:41:17] INFO root fetch - processPackages [elastalert2]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-09 13:41:17] WARNING root fetch - processPackages [hyperfuel]: Skipping, unable to determine old version
+[2024-05-09 13:41:17] INFO root fetch - processPackages [TrialPy3]: Downloading https://files.pythonhosted.org/packages/ab/d9/4d37a09429c8201824b9738ccab8d549b9f79aa3882c9b19c3155348a783/TrialPy3-0.0.0.2.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - main [MainThread]: End processing [hyperfuel] error
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [sweb]: Downloading https://files.pythonhosted.org/packages/73/b5/09a9898c509b9cd617a1388f7700c1769878da69aa857ad56f100fe7452a/sweb-0.1.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [elastalert2]: Downloading https://files.pythonhosted.org/packages/af/9b/17253588c1c8e9cdcfb5cd9f68a220eff37580c7d6a0f80b11cf3a22318c/elastalert2-2.8.0.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [TrialPy3]: Downloading https://files.pythonhosted.org/packages/5b/11/758dfe608eeaf78372f70cf46982b8b37c8743b8be1513c2544b06a4888f/TrialPy3-0.0.0.3.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-09 13:41:17] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240509/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-09 13:41:18] INFO root fetch - processPackages [sweb]: Downloading https://files.pythonhosted.org/packages/19/6a/c565d2b230d902dd0e2f75da4633cf8c35ea8c58a92640aae1a31a78283c/sweb-0.2.tar.gz
+[2024-05-09 13:41:18] INFO root fetch - processPackages [TrialPy3]: executing diffoscope
+[2024-05-09 13:41:18] INFO root fetch - processPackages [TrialPy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrialPy3-0.0.0.2.tar.gz tmp/TrialPy3-0.0.0.3.tar.gz --markdown 20240509/T/TrialPy3/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-09 13:41:18] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-09 13:41:18] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240509/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-09 13:41:18] INFO root fetch - processPackages [sweb]: executing diffoscope
+[2024-05-09 13:41:18] INFO root fetch - processPackages [sweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweb-0.1.tar.gz tmp/sweb-0.2.tar.gz --markdown 20240509/s/sweb/0.1-0.2/README.md --exclude *.pyd
+[2024-05-09 13:41:18] INFO root fetch - processPackages [elastalert2]: Downloading https://files.pythonhosted.org/packages/d6/d4/f63a5e721f049714067edbec7f0a76be87e5d82eab8fc50f6822f3355550/elastalert2-2.9.0.tar.gz
+[2024-05-09 13:41:18] INFO root fetch - processPackages [elastalert2]: executing diffoscope
+[2024-05-09 13:41:18] INFO root fetch - processPackages [elastalert2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastalert2-2.8.0.tar.gz tmp/elastalert2-2.9.0.tar.gz --markdown 20240509/e/elastalert2/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-09 13:41:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-09 13:41:18] INFO root fetch - processPackages [TrialPy3]: Remove: archive file [/home/abi/fetcher/tmp/TrialPy3-0.0.0.2.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - processPackages [TrialPy3]: Remove: archive file [/home/abi/fetcher/tmp/TrialPy3-0.0.0.3.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - main [MainThread]: End processing [TrialPy3]: success
+[2024-05-09 13:41:18] INFO root fetch - processPackages [sweb]: Remove: archive file [/home/abi/fetcher/tmp/sweb-0.1.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - processPackages [sweb]: Remove: archive file [/home/abi/fetcher/tmp/sweb-0.2.tar.gz]
+[2024-05-09 13:41:18] INFO root fetch - main [MainThread]: End processing [sweb]: success
+[2024-05-09 13:41:19] INFO root fetch - processPackages [elastalert2]: Remove: archive file [/home/abi/fetcher/tmp/elastalert2-2.8.0.tar.gz]
+[2024-05-09 13:41:19] INFO root fetch - processPackages [elastalert2]: Remove: archive file [/home/abi/fetcher/tmp/elastalert2-2.9.0.tar.gz]
+[2024-05-09 13:41:19] INFO root fetch - main [MainThread]: End processing [elastalert2]: success
+[2024-05-09 13:41:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-09 13:41:20] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-09 13:41:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-09 13:41:20] INFO root fetch - main [MainThread]: Store serial: [23130286]
