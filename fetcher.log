@@ -19845,3 +19845,33 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:01:42] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1900.tar.gz]
 [2024-05-09 12:01:42] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-09 12:01:42] INFO root fetch - main [MainThread]: Store serial: [23129493]
+[2024-05-09 12:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129493]
+[2024-05-09 12:03:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 12:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rubrical
+[2024-05-09 12:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-elasticsearch-cache
+[2024-05-09 12:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbimagetotext
+[2024-05-09 12:03:51] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 12:03:51] INFO root fetch - processPackages [llm-elasticsearch-cache]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 12:03:51] INFO root fetch - processPackages [rubrical]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 12:03:51] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-09 12:03:51] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/b5/8b/6d32acb46896a897fd558525b2f79f7f9f9bdc75d674862a0774c7953564/llm_elasticsearch_cache-0.2.3.tar.gz
+[2024-05-09 12:03:51] INFO root fetch - processPackages [rubrical]: Downloading https://files.pythonhosted.org/packages/c5/3c/22ff9c7842a3f419c6c0e7bf274ed08ca5d0edf4b7605dd5f4a2d030caa1/rubrical-1.0.1.tar.gz
+[2024-05-09 12:03:51] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-09 12:03:51] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/fc/80/ed27e4bc9bfce2198337896bf6af5768d031877af0a045a0a07ad5e68c07/llm_elasticsearch_cache-0.2.4.tar.gz
+[2024-05-09 12:03:51] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-09 12:03:51] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240509/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 12:03:52] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-09 12:03:52] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-09 12:03:52] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-09 12:03:52] INFO root fetch - processPackages [llm-elasticsearch-cache]: executing diffoscope
+[2024-05-09 12:03:52] INFO root fetch - processPackages [llm-elasticsearch-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_elasticsearch_cache-0.2.3.tar.gz tmp/llm_elasticsearch_cache-0.2.4.tar.gz --markdown 20240509/l/llm-elasticsearch-cache/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 12:03:53] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.3.tar.gz]
+[2024-05-09 12:03:53] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.4.tar.gz]
+[2024-05-09 12:03:53] INFO root fetch - main [MainThread]: End processing [llm-elasticsearch-cache]: success
+[2024-05-09 12:03:55] INFO root fetch - processPackages [rubrical]: Downloading https://files.pythonhosted.org/packages/ff/78/8dea13e9eccf55ea9e81d87cc938b46cf4250eeacf0fc34766506783196f/rubrical-1.0.2.tar.gz
+[2024-05-09 12:03:55] INFO root fetch - processPackages [rubrical]: executing diffoscope
+[2024-05-09 12:03:55] INFO root fetch - processPackages [rubrical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubrical-1.0.1.tar.gz tmp/rubrical-1.0.2.tar.gz --markdown 20240509/r/rubrical/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 12:03:56] INFO root fetch - processPackages [rubrical]: Remove: archive file [/home/abi/fetcher/tmp/rubrical-1.0.1.tar.gz]
+[2024-05-09 12:03:56] INFO root fetch - processPackages [rubrical]: Remove: archive file [/home/abi/fetcher/tmp/rubrical-1.0.2.tar.gz]
+[2024-05-09 12:03:56] INFO root fetch - main [MainThread]: End processing [rubrical]: success
+[2024-05-09 12:03:56] INFO root fetch - main [MainThread]: Store serial: [23129502]
