@@ -3321,3 +3321,51 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:36:23] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.83.6rc0.tar.gz]
 [2024-05-09 02:36:23] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2024-05-09 02:36:23] INFO root fetch - main [MainThread]: Store serial: [23122991]
+[2024-05-09 02:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122991]
+[2024-05-09 02:38:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ginormal
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compendium
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dosview
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-connect
+[2024-05-09 02:38:32] INFO root fetch - processPackages [compendium]: New version: [0.1.3.post5] Old Version: [0.1.3]
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.223] Old Version: [0.1.221]
+[2024-05-09 02:38:32] INFO root fetch - processPackages [dosview]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f1/74/77d15f26e5861ca29cd46e3b550af902225bec1f7864f7a4d5c87a1c2a83/ansar_connect-0.1.221.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/58/f9/a7678687fe0a78555fd0156480202ea7c558b03fe4151aad57431742b82c/compendium-0.1.3.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ginormal]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 02:38:32] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/ca/c5/3ffbf2242d0b4d90c549de5b69892bb82e141e1f4077219a0e2b82823a15/dosview-0.1.8.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240509.356] Old Version: [0.44.20240507.355]
+[2024-05-09 02:38:32] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/61/aa/f7b04b71d76ad743bac96178efe33fe36d91cd9b7cedda98b971c5dcec28/dosview-0.1.9.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/88/2b/d6c59ef834af85e7b4f6a87d23ac1f2f555a9ea6a14bcb9e0f7f892b6a4f/compendium-0.1.3.post5.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/1e/34/e7b46c26868af3a25e2eeb008e978d8f6d7c4c841db243d4388544d7ecbf/ginormal-0.0.8.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/4f/c9/01ed573ebd49d80d7953fc3d39d5ff9a7a5cf7b7d6845376b289b9cd360a/pkscreener-0.44.20240507.355.tar.gz
+[2024-05-09 02:38:32] INFO root fetch - processPackages [compendium]: executing diffoscope
+[2024-05-09 02:38:32] INFO root fetch - processPackages [compendium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compendium-0.1.3.tar.gz tmp/compendium-0.1.3.post5.tar.gz --markdown 20240509/c/compendium/0.1.3-0.1.3.post5/README.md --exclude *.pyd
+[2024-05-09 02:38:33] INFO root fetch - processPackages [dosview]: executing diffoscope
+[2024-05-09 02:38:33] INFO root fetch - processPackages [dosview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosview-0.1.8.tar.gz tmp/dosview-0.1.9.tar.gz --markdown 20240509/d/dosview/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/9c/71/98cc7a3ff11a86e927ad609a2a08d5eebc28e83f2a8562439c0f894d90b0/ansar_connect-0.1.223.tar.gz
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.221.tar.gz tmp/ansar_connect-0.1.223.tar.gz --markdown 20240509/a/ansar-connect/0.1.221-0.1.223/README.md --exclude *.pyd
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ginormal]: Downloading https://files.pythonhosted.org/packages/ac/cc/f37e39077b34d0cb2fc733ffac1373f85aaef43238b4546b266fd79efdd7/ginormal-0.0.9.tar.gz
+[2024-05-09 02:38:33] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/91/67/360455875c0940bcd4d67b40754ce8949c4754ba9fa0288d3fea3b4db8e8/pkscreener-0.44.20240509.356.tar.gz
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ginormal]: executing diffoscope
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ginormal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ginormal-0.0.8.tar.gz tmp/ginormal-0.0.9.tar.gz --markdown 20240509/g/ginormal/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 02:38:33] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-09 02:38:33] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240507.355.tar.gz tmp/pkscreener-0.44.20240509.356.tar.gz --markdown 20240509/p/pkscreener/0.44.20240507.355-0.44.20240509.356/README.md --exclude *.pyd
+[2024-05-09 02:38:33] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.9.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - main [MainThread]: End processing [dosview]: success
+[2024-05-09 02:38:33] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post5.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - main [MainThread]: End processing [compendium]: success
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.221.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.223.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.8.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - processPackages [ginormal]: Remove: archive file [/home/abi/fetcher/tmp/ginormal-0.0.9.tar.gz]
+[2024-05-09 02:38:33] INFO root fetch - main [MainThread]: End processing [ginormal]: success
+[2024-05-09 02:38:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240507.355.tar.gz]
+[2024-05-09 02:38:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240509.356.tar.gz]
+[2024-05-09 02:38:34] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-09 02:38:34] INFO root fetch - main [MainThread]: Store serial: [23123007]
