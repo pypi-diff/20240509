@@ -11140,3 +11140,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:53:05] INFO root fetch - processPackages [fast-langdetect]: Remove: archive file [/home/abi/fetcher/tmp/fast_langdetect-0.1.1.tar.gz]
 [2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [fast-langdetect]: success
 [2024-05-09 06:53:05] INFO root fetch - main [MainThread]: Store serial: [23126290]
+[2024-05-09 06:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126290]
+[2024-05-09 06:55:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ec
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-slack
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ScreenPro2
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-rabbitmq
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ScreenPro2]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1715229441] Old Version: [0.5.0a1715062776]
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-ec]: New version: [0.9.0a1715228625] Old Version: [0.9.0a1715060339]
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715229415] Old Version: [3.4.0a1715062412]
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/97/0e/3b24b25687639ba2f4d203f6fc5695270ebac0497629e20e8ea1bc4cf4fc/pulumi_slack-0.5.0a1715062776.tar.gz
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/e1/8b/26aec74f8cef7b7fff1a9df940d8113f85eaec2b8159740a256cbea549d3/pulumi_ec-0.9.0a1715060339.tar.gz
+[2024-05-09 06:55:14] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/64/10/5fd6a74f690b67d73d2f0adcb0017c7892cc5c83d022522ae67bd0d7dbcd/ScreenPro2-0.2.8-py2.py3-none-any.whl
+[2024-05-09 06:55:14] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/90/c1/b8db39578ed43d1a6a0d6b123d93ada091984ef9435de23c555fb077737e/pulumi_rabbitmq-3.4.0a1715062412.tar.gz
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/dc/e3/85d0070d0bf305300180efd0ad5d1de78a348d4a31e43590fe0afc72db23/pulumi_slack-0.5.0a1715229441.tar.gz
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/7d/3b/788ec06e138c82b96cee6d95d1574de48e5b528f07db2660c6a827cb218a/pulumi_ec-0.9.0a1715228625.tar.gz
+[2024-05-09 06:55:15] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/7d/8a/61bafdb52eb9fcce0d3c7b4deeef65bdf99aee21d23a408eb4bd3d9b2692/ScreenPro2-0.2.9-py2.py3-none-any.whl
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1715062776.tar.gz tmp/pulumi_slack-0.5.0a1715229441.tar.gz --markdown 20240509/p/pulumi-slack/0.5.0a1715062776-0.5.0a1715229441/README.md --exclude *.pyd
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/79/b5/e94e0b2cb4e1fd21c437c6c1436bc22c807f025dd3670ee3e15861a19e7d/pulumi_rabbitmq-3.4.0a1715229415.tar.gz
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.9.0a1715060339.tar.gz tmp/pulumi_ec-0.9.0a1715228625.tar.gz --markdown 20240509/p/pulumi-ec/0.9.0a1715060339-0.9.0a1715228625/README.md --exclude *.pyd
+[2024-05-09 06:55:15] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-05-09 06:55:15] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip --markdown 20240509/S/ScreenPro2/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz --markdown 20240509/p/pulumi-rabbitmq/3.4.0a1715062412-3.4.0a1715229415/README.md --exclude *.pyd
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715062776.tar.gz]
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1715229441.tar.gz]
+[2024-05-09 06:55:15] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715060339.tar.gz]
+[2024-05-09 06:55:15] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.9.0a1715228625.tar.gz]
+[2024-05-09 06:55:15] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-05-09 06:55:16] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.8-py2.py3-none-any.whl.zip]
+[2024-05-09 06:55:16] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.2.9-py2.py3-none-any.whl.zip]
+[2024-05-09 06:55:16] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-05-09 06:55:16] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz]
+[2024-05-09 06:55:16] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz]
+[2024-05-09 06:55:16] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-09 06:55:16] INFO root fetch - main [MainThread]: Store serial: [23126303]
