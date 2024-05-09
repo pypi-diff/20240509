@@ -14849,3 +14849,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-09 09:48:42] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-09 09:48:42] INFO root fetch - main [MainThread]: Store serial: [23127710]
+[2024-05-09 09:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127710]
+[2024-05-09 09:50:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 09:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MultiGather
+[2024-05-09 09:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-05-09 09:50:50] INFO root fetch - processPackages [MultiGather]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 09:50:51] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/7a/85/253dc0fa3f8ab1ca3e2c32586e6ee2959c78967611502eff746215753f3d/multigather-0.0.3.tar.gz
+[2024-05-09 09:50:51] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-09 09:50:51] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: Downloading https://files.pythonhosted.org/packages/bd/ed/32077f277a0c69c217312db1d70561273e5c210f094734ad78506f9e70e6/multigather-0.0.4.tar.gz
+[2024-05-09 09:50:51] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-09 09:50:51] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240509/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: executing diffoscope
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multigather-0.0.3.tar.gz tmp/multigather-0.0.4.tar.gz --markdown 20240509/M/MultiGather/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.3.tar.gz]
+[2024-05-09 09:50:51] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.4.tar.gz]
+[2024-05-09 09:50:51] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
+[2024-05-09 09:50:52] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-09 09:50:52] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-09 09:50:52] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-09 09:50:52] INFO root fetch - main [MainThread]: Store serial: [23127716]
