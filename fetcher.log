@@ -12040,3 +12040,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:37:13] INFO root fetch - processPackages [ctwin32]: Remove: archive file [/home/abi/fetcher/tmp/ctwin32-2.6.0.tar.gz]
 [2024-05-09 07:37:13] INFO root fetch - main [MainThread]: End processing [ctwin32]: success
 [2024-05-09 07:37:13] INFO root fetch - main [MainThread]: Store serial: [23126645]
+[2024-05-09 07:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126645]
+[2024-05-09 07:39:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome
+[2024-05-09 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuread
+[2024-05-09 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odc-geo
+[2024-05-09 07:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proksee-batch
+[2024-05-09 07:39:22] INFO root fetch - processPackages [proksee-batch]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-09 07:39:22] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-09 07:39:22] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/26/2b/11e3948a7a5da0fd061cbce48049b8cd2f7641eec2f69800037534d7b523/proksee_batch-0.6.2.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [odc-geo]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-09 07:39:22] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b2] Old Version: [2024.5.0b1]
+[2024-05-09 07:39:22] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/4e/64/3d1dfef537fd4500c64fe0941aa55076a1722be1b13f64910cfd5fc07a75/odc-geo-0.4.3.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/46/58/5aff723f900ce4565a2885235ce2fd37774eab8a86d0c39062bb1d981717/esphome-2024.5.0b1.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-09 07:39:22] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240509/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-09 07:39:22] INFO root fetch - processPackages [odc-geo]: Downloading https://files.pythonhosted.org/packages/72/54/455363b57f6b388478de41f5091015932e61503f1f64a062a0e3f11d4bce/odc_geo-0.4.4.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/8a/24/edc6b6914878455d849ef06fb6077a6353ed4e54f4c57962319bd20532cc/esphome-2024.5.0b2.tar.gz
+[2024-05-09 07:39:22] INFO root fetch - processPackages [proksee-batch]: Downloading https://files.pythonhosted.org/packages/19/d2/f1cf6b687f01cd8ecac6dd7b6532242d33465fbb278f5476ea64dd427195/proksee_batch-0.6.3.tar.gz
+[2024-05-09 07:39:23] INFO root fetch - processPackages [odc-geo]: executing diffoscope
+[2024-05-09 07:39:23] INFO root fetch - processPackages [odc-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc-geo-0.4.3.tar.gz tmp/odc_geo-0.4.4.tar.gz --markdown 20240509/o/odc-geo/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-09 07:39:23] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-09 07:39:23] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-09 07:39:23] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-09 07:39:23] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-09 07:39:23] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b1.tar.gz tmp/esphome-2024.5.0b2.tar.gz --markdown 20240509/e/esphome/2024.5.0b1-2024.5.0b2/README.md --exclude *.pyd
+[2024-05-09 07:39:23] INFO root fetch - processPackages [proksee-batch]: executing diffoscope
+[2024-05-09 07:39:23] INFO root fetch - processPackages [proksee-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proksee_batch-0.6.2.tar.gz tmp/proksee_batch-0.6.3.tar.gz --markdown 20240509/p/proksee-batch/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-09 07:39:24] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc-geo-0.4.3.tar.gz]
+[2024-05-09 07:39:24] INFO root fetch - processPackages [odc-geo]: Remove: archive file [/home/abi/fetcher/tmp/odc_geo-0.4.4.tar.gz]
+[2024-05-09 07:39:24] INFO root fetch - main [MainThread]: End processing [odc-geo]: success
+[2024-05-09 07:39:26] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.2.tar.gz]
+[2024-05-09 07:39:26] INFO root fetch - processPackages [proksee-batch]: Remove: archive file [/home/abi/fetcher/tmp/proksee_batch-0.6.3.tar.gz]
+[2024-05-09 07:39:26] INFO root fetch - main [MainThread]: End processing [proksee-batch]: success
+[2024-05-09 07:39:35] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b1.tar.gz]
+[2024-05-09 07:39:35] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b2.tar.gz]
+[2024-05-09 07:39:35] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-09 07:39:35] INFO root fetch - main [MainThread]: Store serial: [23126657]
