@@ -22509,3 +22509,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:05:46] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.8.tar.gz]
 [2024-05-09 14:05:46] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
 [2024-05-09 14:05:46] INFO root fetch - main [MainThread]: Store serial: [23130559]
+[2024-05-09 14:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130559]
+[2024-05-09 14:07:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xentropy
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweb
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 2d2stl
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: md2weasypdf
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kal-middleware
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xraylarch
+[2024-05-09 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: physfs.py
+[2024-05-09 14:07:55] WARNING root fetch - processPackages [xentropy]: Skipping, unable to determine old version
+[2024-05-09 14:07:55] INFO root fetch - main [MainThread]: End processing [xentropy] error
+[2024-05-09 14:07:55] INFO root fetch - processPackages [sweb]: New version: [0.3] Old Version: [0.2]
+[2024-05-09 14:07:55] INFO root fetch - processPackages [xraylarch]: New version: [0.9.77] Old Version: [0.9.76]
+[2024-05-09 14:07:55] INFO root fetch - processPackages [kal-middleware]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 14:07:55] WARNING root fetch - processPackages [2d2stl]: Skipping, unable to determine old version
+[2024-05-09 14:07:55] INFO root fetch - main [MainThread]: End processing [2d2stl] error
+[2024-05-09 14:07:55] INFO root fetch - processPackages [sweb]: Downloading https://files.pythonhosted.org/packages/19/6a/c565d2b230d902dd0e2f75da4633cf8c35ea8c58a92640aae1a31a78283c/sweb-0.2.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [md2weasypdf]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:07:55] INFO root fetch - processPackages [xraylarch]: Downloading https://files.pythonhosted.org/packages/9a/86/7680dc201f94107612e3043923fb5bc2cf725670a3034bd7a9022d86451b/xraylarch-0.9.76.tar.gz
+[2024-05-09 14:07:55] WARNING root fetch - processPackages [xraylarch]: Skipping package: exceeds size limit 21462736>=10485760
+[2024-05-09 14:07:55] INFO root fetch - main [MainThread]: End processing [xraylarch] error
+[2024-05-09 14:07:55] INFO root fetch - processPackages [physfs.py]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-09 14:07:55] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/6a/df/e49ff71886896c7a822c49362156eb5b75495a3d94ca92d8f34183d4492e/kal_middleware-0.0.1.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/f1/65/3db61cef53340868f62f959d46e320f31e325fe6cdc694d83d50d179a65c/md2weasypdf-0.0.8.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [physfs.py]: Downloading https://files.pythonhosted.org/packages/56/4e/d99dd7b34834d70fee523283f9f6e57e51e0b4309f5992bc55912f51052e/physfs.py-0.1.0.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [sweb]: Downloading https://files.pythonhosted.org/packages/68/d7/54cd7a8625cc7e6d981cf2b5fe8a70a67304f20f96e0917c79691b9de43c/sweb-0.3.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/d7/02/bd5101eabd6991f668ec18533a90bab4cf8694f94a9153d87298e0d57284/kal_middleware-0.0.2.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [sweb]: executing diffoscope
+[2024-05-09 14:07:55] INFO root fetch - processPackages [sweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweb-0.2.tar.gz tmp/sweb-0.3.tar.gz --markdown 20240509/s/sweb/0.2-0.3/README.md --exclude *.pyd
+[2024-05-09 14:07:55] INFO root fetch - processPackages [kal-middleware]: executing diffoscope
+[2024-05-09 14:07:55] INFO root fetch - processPackages [kal-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kal_middleware-0.0.1.tar.gz tmp/kal_middleware-0.0.2.tar.gz --markdown 20240509/k/kal-middleware/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 14:07:55] INFO root fetch - processPackages [md2weasypdf]: Downloading https://files.pythonhosted.org/packages/2d/c8/5fc78dc955826f3ab8a2775165ba7451c92a6e7754467bb63b75296af655/md2weasypdf-0.0.9.tar.gz
+[2024-05-09 14:07:55] INFO root fetch - processPackages [physfs.py]: Downloading https://files.pythonhosted.org/packages/c6/b3/bb540eb9247de258df5bc012c0dbb2c0cd63e0fe825f6127d06e6f75144a/physfs.py-0.2.0-cp312-cp312-win_amd64.whl
+[2024-05-09 14:07:55] INFO root fetch - processPackages [md2weasypdf]: executing diffoscope
+[2024-05-09 14:07:55] INFO root fetch - processPackages [md2weasypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2weasypdf-0.0.8.tar.gz tmp/md2weasypdf-0.0.9.tar.gz --markdown 20240509/m/md2weasypdf/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:07:56] INFO root fetch - processPackages [sweb]: Remove: archive file [/home/abi/fetcher/tmp/sweb-0.2.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - processPackages [sweb]: Remove: archive file [/home/abi/fetcher/tmp/sweb-0.3.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - main [MainThread]: End processing [sweb]: success
+[2024-05-09 14:07:56] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.1.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.2.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - main [MainThread]: End processing [kal-middleware]: success
+[2024-05-09 14:07:56] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.8.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - processPackages [md2weasypdf]: Remove: archive file [/home/abi/fetcher/tmp/md2weasypdf-0.0.9.tar.gz]
+[2024-05-09 14:07:56] INFO root fetch - main [MainThread]: End processing [md2weasypdf]: success
+[2024-05-09 14:07:56] INFO root fetch - processPackages [physfs.py]: executing diffoscope
+[2024-05-09 14:07:56] INFO root fetch - processPackages [physfs.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physfs.py-0.1.0.tar.gz tmp/physfs.py-0.2.0-cp312-cp312-win_amd64.whl.zip --markdown 20240509/p/physfs.py/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-09 14:07:57] INFO root fetch - processPackages [physfs.py]: Remove: archive file [/home/abi/fetcher/tmp/physfs.py-0.1.0.tar.gz]
+[2024-05-09 14:07:57] INFO root fetch - processPackages [physfs.py]: Remove: archive file [/home/abi/fetcher/tmp/physfs.py-0.2.0-cp312-cp312-win_amd64.whl.zip]
+[2024-05-09 14:07:57] INFO root fetch - main [MainThread]: End processing [physfs.py]: success
+[2024-05-09 14:07:57] INFO root fetch - main [MainThread]: Store serial: [23130604]
