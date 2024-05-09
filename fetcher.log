@@ -11179,3 +11179,72 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:55:16] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz]
 [2024-05-09 06:55:16] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
 [2024-05-09 06:55:16] INFO root fetch - main [MainThread]: Store serial: [23126303]
+[2024-05-09 06:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126303]
+[2024-05-09 06:57:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owl2else
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cylindromaz
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: partenaire-qualif
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-opsgenie
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-margin-classification
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdf-doctor
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medicafe
+[2024-05-09 06:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DataAnalysisToolkit
+[2024-05-09 06:57:25] INFO root fetch - processPackages [owl2else]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [medicafe]: New version: [0.240508.3] Old Version: [0.240508.2]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [owl2else]: Downloading https://files.pythonhosted.org/packages/ad/bf/3c76133fe2b752bd429f35d6ed60c925af82cf3e7cf1feb2e44bab756d0a/owl2else-0.9.3.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [DataAnalysisToolkit]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/68/87/ec1cc700bfec7ba57972dfdcc16c6bcf62e0f114b7d42d6dfbc04c856efd/partenaire-qualif-0.0.6.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/9d/f0/bfecc572791fb41aff9b85813ea2ea6d2de3b37b631aa2299f0200fb417f/medicafe-0.240508.2.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-09 06:57:25] WARNING root fetch - processPackages [cylindromaz]: Skipping, unable to determine old version
+[2024-05-09 06:57:25] INFO root fetch - main [MainThread]: End processing [cylindromaz] error
+[2024-05-09 06:57:25] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1715229320] Old Version: [1.4.0a1715061972]
+[2024-05-09 06:57:25] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/88/09/f0955147d78525a41e13040a53e9d6d575ae13e730b5ec145a83b49c2fe8/odoo_addon_product_margin_classification-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-09 06:57:25] INFO root fetch - processPackages [DataAnalysisToolkit]: Downloading https://files.pythonhosted.org/packages/19/71/2872050ae0e13d565d207bfa7500da8c1cd36837652de0fbee5e40d19933/dataanalysistoolkit-1.2.1.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/1e/97/80cdc028846c0021b5a98437f1a2e477ebcc522fd4a09c404948d3d2cd70/pulumi_opsgenie-1.4.0a1715061972.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/b1/b4/37b9fda9512aa852f8bf8b4af3c6eb2024797abf19739095e79d98520e90/rdf_doctor-1.1.2-py3-none-any.whl
+[2024-05-09 06:57:25] INFO root fetch - processPackages [owl2else]: Downloading https://files.pythonhosted.org/packages/63/93/7164a9ff07732191c1ee835ec57d3cc05f8f6f98831c293c95a5c8d48f43/owl2else-0.9.4.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/44/c2/40d422845930bb5aa550dc7efed5bfc23869ea7a84ad0d86f7809db6b190/partenaire-qualif-0.0.7.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b1/71/ff93bfff126d5d62f81f3e8a8718ada9abdaae358076e110b4aaa4e9b333/medicafe-0.240508.3.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [owl2else]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [owl2else]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owl2else-0.9.3.tar.gz tmp/owl2else-0.9.4.tar.gz --markdown 20240509/o/owl2else/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-09 06:57:25] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.6.tar.gz tmp/partenaire-qualif-0.0.7.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 06:57:25] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240508.2.tar.gz tmp/medicafe-0.240508.3.tar.gz --markdown 20240509/m/medicafe/0.240508.2-0.240508.3/README.md --exclude *.pyd
+[2024-05-09 06:57:25] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/e3/45/6f19498b8fc6d5608b573c7ce75019bed8cb6919afc80f6f584902d8c928/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-09 06:57:25] INFO root fetch - processPackages [DataAnalysisToolkit]: Downloading https://files.pythonhosted.org/packages/88/6b/d73bcf92b3afbfb76e29382fc3bec865e9a85750d920010a620ab08c0ca1/dataanalysistoolkit-1.2.2.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/54/a5/1ef01f22e4c729f569aa172c5eb73eeabb42ef66736942524485e29d3471/pulumi_opsgenie-1.4.0a1715229320.tar.gz
+[2024-05-09 06:57:25] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/f2/5c/cbcb517c3b9158dcb3e93fb860c0b1f26a009d0cfae96c05f3db25cb7e07/rdf_doctor-1.1.3-py3-none-any.whl
+[2024-05-09 06:57:25] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz tmp/pulumi_opsgenie-1.4.0a1715229320.tar.gz --markdown 20240509/p/pulumi-opsgenie/1.4.0a1715061972-1.4.0a1715229320/README.md --exclude *.pyd
+[2024-05-09 06:57:25] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_margin_classification-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-product-margin-classification/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-09 06:57:25] INFO root fetch - processPackages [DataAnalysisToolkit]: executing diffoscope
+[2024-05-09 06:57:25] INFO root fetch - processPackages [DataAnalysisToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataanalysistoolkit-1.2.1.tar.gz tmp/dataanalysistoolkit-1.2.2.tar.gz --markdown 20240509/D/DataAnalysisToolkit/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-09 06:57:26] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-05-09 06:57:26] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.2-py3-none-any.whl.zip tmp/rdf_doctor-1.1.3-py3-none-any.whl.zip --markdown 20240509/r/rdf-doctor/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-09 06:57:26] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.6.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.7.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [owl2else]: Remove: archive file [/home/abi/fetcher/tmp/owl2else-0.9.3.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [owl2else]: Remove: archive file [/home/abi/fetcher/tmp/owl2else-0.9.4.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [owl2else]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.2.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.3.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [DataAnalysisToolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataanalysistoolkit-1.2.1.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [DataAnalysisToolkit]: Remove: archive file [/home/abi/fetcher/tmp/dataanalysistoolkit-1.2.2.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [DataAnalysisToolkit]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715229320.tar.gz]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-margin-classification]: success
+[2024-05-09 06:57:26] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.2-py3-none-any.whl.zip]
+[2024-05-09 06:57:26] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.3-py3-none-any.whl.zip]
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-05-09 06:57:26] INFO root fetch - main [MainThread]: Store serial: [23126329]
