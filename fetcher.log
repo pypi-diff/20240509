@@ -2437,3 +2437,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:00:54] INFO root fetch - processPackages [yoyodyne]: Remove: archive file [/home/abi/fetcher/tmp/yoyodyne-0.2.9.tar.gz]
 [2024-05-09 02:00:54] INFO root fetch - main [MainThread]: End processing [yoyodyne]: success
 [2024-05-09 02:00:54] INFO root fetch - main [MainThread]: Store serial: [23122655]
+[2024-05-09 02:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122655]
+[2024-05-09 02:03:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athena-starship
+[2024-05-09 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otiorhynchidaez
+[2024-05-09 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2024-05-09 02:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarms
+[2024-05-09 02:03:03] INFO root fetch - processPackages [athena-starship]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 02:03:03] INFO root fetch - processPackages [swarms]: New version: [4.9.3] Old Version: [4.9.2]
+[2024-05-09 02:03:03] WARNING root fetch - processPackages [otiorhynchidaez]: Skipping, unable to determine old version
+[2024-05-09 02:03:03] INFO root fetch - main [MainThread]: End processing [otiorhynchidaez] error
+[2024-05-09 02:03:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-09 02:03:03] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/6a/fa/89c99fbe3fd7158d62c3701ebe25b415324cd51ac60d02e5550fcb1c66d1/swarms-4.9.2.tar.gz
+[2024-05-09 02:03:03] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/37/fb/66f59b573cc8c10d7a9378c098e33ab1616ae1e8ae2d7d487c2ba2893810/athena_starship-0.0.1.tar.gz
+[2024-05-09 02:03:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/54/45/70289314d3e96098cab891f9bfe97c370802711ae8f997aca8ca42b12165/Leonardo-Ai-SDK-5.3.8.tar.gz
+[2024-05-09 02:03:03] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1e/8d/292546e245d83fb8c0357f94934a5b9c94ee69a298619b64ca37b4983b41/swarms-4.9.3.tar.gz
+[2024-05-09 02:03:03] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-05-09 02:03:03] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.9.2.tar.gz tmp/swarms-4.9.3.tar.gz --markdown 20240509/s/swarms/4.9.2-4.9.3/README.md --exclude *.pyd
+[2024-05-09 02:03:03] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/e3/a9/79ab625f7f11e69a78f0f3ddb3116ad650a637980c221253105e45273a91/athena_starship-0.0.2.tar.gz
+[2024-05-09 02:03:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/20/49/e04f264f7b4e5c94cd9cca08b2789aeaf4d272788a790eb98a2980a82bab/Leonardo-Ai-SDK-5.3.9.tar.gz
+[2024-05-09 02:03:04] INFO root fetch - processPackages [athena-starship]: executing diffoscope
+[2024-05-09 02:03:04] INFO root fetch - processPackages [athena-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_starship-0.0.1.tar.gz tmp/athena_starship-0.0.2.tar.gz --markdown 20240509/a/athena-starship/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 02:03:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-09 02:03:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.8.tar.gz tmp/Leonardo-Ai-SDK-5.3.9.tar.gz --markdown 20240509/L/Leonardo-Ai-SDK/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-09 02:03:04] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.1.tar.gz]
+[2024-05-09 02:03:04] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.2.tar.gz]
+[2024-05-09 02:03:04] INFO root fetch - main [MainThread]: End processing [athena-starship]: success
+[2024-05-09 02:03:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.8.tar.gz]
+[2024-05-09 02:03:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.9.tar.gz]
+[2024-05-09 02:03:04] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-09 02:03:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.2.tar.gz]
+[2024-05-09 02:03:05] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.3.tar.gz]
+[2024-05-09 02:03:05] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-05-09 02:03:05] INFO root fetch - main [MainThread]: Store serial: [23122668]
