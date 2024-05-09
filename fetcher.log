@@ -14469,3 +14469,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:24:30] INFO root fetch - processPackages [open-retrievals]: Remove: archive file [/home/abi/fetcher/tmp/open-retrievals-0.0.3.tar.gz]
 [2024-05-09 09:24:30] INFO root fetch - main [MainThread]: End processing [open-retrievals]: success
 [2024-05-09 09:24:30] INFO root fetch - main [MainThread]: Store serial: [23127554]
+[2024-05-09 09:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127554]
+[2024-05-09 09:26:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ft2bt
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibm-aigov-facts-client
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: derepressionz
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redmost
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-oci
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trio-bybit
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phones-local
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.71] Old Version: [1.0.70]
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ft2bt]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 09:26:39] INFO root fetch - processPackages [trio-bybit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/40/71/095177346e175c4fe8b9fb40ee3cd60056c7c9b1a055d26a1900f00b1ac6/ft2bt-0.2.3.tar.gz
+[2024-05-09 09:26:39] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/66/ea/7f24a140ebdfe30d5e67177c59004e01d636dbb4f0adeb6def82868e3e0a/trio_bybit-0.2.0.tar.gz
+[2024-05-09 09:26:39] INFO root fetch - processPackages [phones-local]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-09 09:26:39] INFO root fetch - processPackages [redmost]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-09 09:26:39] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/50/de/adad82538a0d56a3cedaa830e24db039121bd99bd757738fc9e4ca1f4766/ibm_aigov_facts_client-1.0.70-py3-none-any.whl
+[2024-05-09 09:26:39] WARNING root fetch - processPackages [derepressionz]: Skipping, unable to determine old version
+[2024-05-09 09:26:39] INFO root fetch - main [MainThread]: End processing [derepressionz] error
+[2024-05-09 09:26:39] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-09 09:26:40] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/83/43/c720eff681402d430c917b46411f0a2bcf0a2233dcb936b2e4d7496efc00/phones-local-0.0.18.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [redmost]: Downloading https://files.pythonhosted.org/packages/19/ea/599f7839223a80c9aedc2c34e8773ef7fad8ae72e476fae80ff917018ee4/redmost-0.4.6.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/00/27/6443453e045eb91b7dbfb82d507d7aafc373daf805b63e061735492f429b/ibm_aigov_facts_client-1.0.71-py3-none-any.whl
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/93/63/7eb41973f871453ba7311d0331570fbafeea9f17d67e29f76a3dabd1fd64/ft2bt-0.2.4.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.70-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.71-py3-none-any.whl.zip --markdown 20240509/i/ibm-aigov-facts-client/1.0.70-1.0.71/README.md --exclude *.pyd
+[2024-05-09 09:26:40] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/d6/de/ff35849bb0ca947e87c2a375ea1457faaf50d482d53557ee1b95685ceff0/trio_bybit-0.2.1.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ft2bt]: executing diffoscope
+[2024-05-09 09:26:40] INFO root fetch - processPackages [ft2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft2bt-0.2.3.tar.gz tmp/ft2bt-0.2.4.tar.gz --markdown 20240509/f/ft2bt/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 09:26:40] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-05-09 09:26:40] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.2.0.tar.gz tmp/trio_bybit-0.2.1.tar.gz --markdown 20240509/t/trio-bybit/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-09 09:26:40] INFO root fetch - processPackages [phones-local]: Downloading https://files.pythonhosted.org/packages/fc/74/c996582f6028c700de7c7b11ebcc914e1214b4d4ee2d2bbc58af5ac878f0/phones_local-0.0.19.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [redmost]: Downloading https://files.pythonhosted.org/packages/76/33/9fda4ade24ca676a016e9572e8e174189221d56ed538fadffc4f2ba6bc30/redmost-0.4.7.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [phones-local]: executing diffoscope
+[2024-05-09 09:26:40] INFO root fetch - processPackages [phones-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phones-local-0.0.18.tar.gz tmp/phones_local-0.0.19.tar.gz --markdown 20240509/p/phones-local/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-09 09:26:40] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-09 09:26:40] INFO root fetch - processPackages [redmost]: executing diffoscope
+[2024-05-09 09:26:40] INFO root fetch - processPackages [redmost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmost-0.4.6.tar.gz tmp/redmost-0.4.7.tar.gz --markdown 20240509/r/redmost/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-09 09:26:41] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-09 09:26:41] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240509/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-09 09:26:41] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.0.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.1.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-05-09 09:26:41] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.70-py3-none-any.whl.zip]
+[2024-05-09 09:26:41] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.71-py3-none-any.whl.zip]
+[2024-05-09 09:26:41] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2024-05-09 09:26:41] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.3.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.4.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - main [MainThread]: End processing [ft2bt]: success
+[2024-05-09 09:26:41] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones-local-0.0.18.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - processPackages [phones-local]: Remove: archive file [/home/abi/fetcher/tmp/phones_local-0.0.19.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - main [MainThread]: End processing [phones-local]: success
+[2024-05-09 09:26:41] INFO root fetch - processPackages [redmost]: Remove: archive file [/home/abi/fetcher/tmp/redmost-0.4.6.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - processPackages [redmost]: Remove: archive file [/home/abi/fetcher/tmp/redmost-0.4.7.tar.gz]
+[2024-05-09 09:26:41] INFO root fetch - main [MainThread]: End processing [redmost]: success
+[2024-05-09 09:26:55] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-09 09:26:55] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-09 09:26:55] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-09 09:26:55] INFO root fetch - main [MainThread]: Store serial: [23127575]
