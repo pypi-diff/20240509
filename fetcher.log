@@ -8239,3 +8239,30 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:22:38] INFO root fetch - processPackages [pytextclassifier]: Remove: archive file [/home/abi/fetcher/tmp/pytextclassifier-1.3.8.tar.gz]
 [2024-05-09 04:22:38] INFO root fetch - main [MainThread]: End processing [pytextclassifier]: success
 [2024-05-09 04:22:38] INFO root fetch - main [MainThread]: Store serial: [23124945]
+[2024-05-09 04:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124945]
+[2024-05-09 04:24:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medicafe
+[2024-05-09 04:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-simonkeys
+[2024-05-09 04:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bramantipz
+[2024-05-09 04:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparklestock
+[2024-05-09 04:24:48] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.6] Old Version: [0.0.0.5]
+[2024-05-09 04:24:48] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/d7/05/aac709f400a79ea0fb289228f4bca4f1256cb83408be07f717e9196fa7e7/sparklestock-0.0.0.5.tar.gz
+[2024-05-09 04:24:48] INFO root fetch - processPackages [medicafe]: New version: [0.240508.1] Old Version: [0.240507.1]
+[2024-05-09 04:24:48] WARNING root fetch - processPackages [bramantipz]: Skipping, unable to determine old version
+[2024-05-09 04:24:48] INFO root fetch - main [MainThread]: End processing [bramantipz] error
+[2024-05-09 04:24:48] WARNING root fetch - processPackages [nbdev-simonkeys]: Skipping, unable to determine old version
+[2024-05-09 04:24:48] INFO root fetch - main [MainThread]: End processing [nbdev-simonkeys] error
+[2024-05-09 04:24:48] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/39/f3/975eb8b4c56f67f6aadb68a5375a5ae052c54bf76c1fd27d8cf458dfac4e/medicafe-0.240507.1.tar.gz
+[2024-05-09 04:24:48] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/d2/61/6e37755521ff581e54b8b994fed0700c069d6d212ab0f72011a9f5585faf/sparklestock-0.0.0.6.tar.gz
+[2024-05-09 04:24:49] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-09 04:24:49] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.5.tar.gz tmp/sparklestock-0.0.0.6.tar.gz --markdown 20240509/s/sparklestock/0.0.0.5-0.0.0.6/README.md --exclude *.pyd
+[2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b7/e2/ebc71661a5b4eff456a85b384850a08fee5a5cb1eb1ef7021b3619e546de/medicafe-0.240508.1.tar.gz
+[2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240507.1.tar.gz tmp/medicafe-0.240508.1.tar.gz --markdown 20240509/m/medicafe/0.240507.1-0.240508.1/README.md --exclude *.pyd
+[2024-05-09 04:24:49] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.5.tar.gz]
+[2024-05-09 04:24:49] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.6.tar.gz]
+[2024-05-09 04:24:49] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240507.1.tar.gz]
+[2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.1.tar.gz]
+[2024-05-09 04:24:49] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-09 04:24:49] INFO root fetch - main [MainThread]: Store serial: [23124960]
