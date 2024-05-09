@@ -8512,3 +8512,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:38:30] INFO root fetch - processPackages [pyopencl]: Remove: archive file [/home/abi/fetcher/tmp/pyopencl-2024.2.2-cp38-cp38-macosx_11_0_arm64.whl.zip]
 [2024-05-09 04:38:30] INFO root fetch - main [MainThread]: End processing [pyopencl]: success
 [2024-05-09 04:38:30] INFO root fetch - main [MainThread]: Store serial: [23125191]
+[2024-05-09 04:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125191]
+[2024-05-09 04:40:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-tax-balance
+[2024-05-09 04:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bttc
+[2024-05-09 04:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autohemolyticz
+[2024-05-09 04:40:40] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.5]
+[2024-05-09 04:40:40] WARNING root fetch - processPackages [autohemolyticz]: Skipping, unable to determine old version
+[2024-05-09 04:40:40] INFO root fetch - main [MainThread]: End processing [autohemolyticz] error
+[2024-05-09 04:40:40] INFO root fetch - processPackages [bttc]: New version: [0.0.77.4] Old Version: [0.0.77.3]
+[2024-05-09 04:40:40] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Downloading https://files.pythonhosted.org/packages/81/b2/8533896fbd72f18a752f9921b2cd6eb2993b825c7542054574aa2564f434/odoo_addon_account_tax_balance-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 04:40:40] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/09/8c/376fe48d7e3bd789e263e01038cd1e1cb4cbf36ed24c15d333eff54ea006/bttc-0.0.77.3.tar.gz
+[2024-05-09 04:40:41] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Downloading https://files.pythonhosted.org/packages/97/1b/96d6f1f5020e4153fc39a072f69c156c812c11499afcf302036361dc261f/odoo_addon_account_tax_balance-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/2f/4a/c8b46be121ace1e64eb7da189dd7edea330a5552b0ae2a7ec0c838459d9c/bttc-0.0.77.4.tar.gz
+[2024-05-09 04:40:41] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: executing diffoscope
+[2024-05-09 04:40:41] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_balance-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_tax_balance-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-account-tax-balance/17.0.1.0.0.5-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.77.3.tar.gz tmp/bttc-0.0.77.4.tar.gz --markdown 20240509/b/bttc/0.0.77.3-0.0.77.4/README.md --exclude *.pyd
+[2024-05-09 04:40:41] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_balance-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 04:40:41] INFO root fetch - processPackages [odoo-addon-account-tax-balance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_balance-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 04:40:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-balance]: success
+[2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.3.tar.gz]
+[2024-05-09 04:40:41] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.77.4.tar.gz]
+[2024-05-09 04:40:41] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-05-09 04:40:41] INFO root fetch - main [MainThread]: Store serial: [23125214]
