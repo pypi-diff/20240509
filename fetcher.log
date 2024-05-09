@@ -17901,3 +17901,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:53:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
 [2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2024-05-09 10:53:10] INFO root fetch - main [MainThread]: Store serial: [23128639]
+[2024-05-09 10:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128639]
+[2024-05-09 10:55:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deropy
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-model4dgs
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: planetmapper
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latheryz
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sigmoid-check
+[2024-05-09 10:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sirmordred
+[2024-05-09 10:55:18] INFO root fetch - processPackages [deropy]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-09 10:55:19] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/bd/39/ef960c16fe3f8aa27f828e5083b9f3363873f157caf0bb7e298639c13f76/deropy-0.1.4.tar.gz
+[2024-05-09 10:55:19] WARNING root fetch - processPackages [latheryz]: Skipping, unable to determine old version
+[2024-05-09 10:55:19] INFO root fetch - main [MainThread]: End processing [latheryz] error
+[2024-05-09 10:55:19] INFO root fetch - processPackages [planetmapper]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sigmoid-check]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 10:55:19] INFO root fetch - processPackages [gradio-model4dgs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sirmordred]: New version: [1.0.1rc1] Old Version: [1.0.0rc3]
+[2024-05-09 10:55:19] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/2a/07/8c2ee81b723d1c796f7c0b392d33111c0eb7b729c25b6dd217a5d6da26b0/planetmapper-1.9.0.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [deropy]: Downloading https://files.pythonhosted.org/packages/93/d4/18ae2f6f0771ba9469f747137d212447580e2f4a4daeca122b14e268f403/deropy-0.2.0.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sigmoid-check]: Downloading https://files.pythonhosted.org/packages/1f/6e/ce756000cfea974eb9cc9a5d98c217e16f388d9177cb897863eeeb43fd29/sigmoid_check-0.0.7.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [gradio-model4dgs]: Downloading https://files.pythonhosted.org/packages/b5/19/0d77f0a018d96f2a31612aff7a05f17addf830bfa6db7559bc7fd43e5fda/gradio_model4dgs-0.0.2.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/37/f4/d7ce4bf237de54a0e9ed8069c5630e21b267aa392717d7cf72321a94e03d/sirmordred-1.0.0rc3.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [deropy]: executing diffoscope
+[2024-05-09 10:55:19] INFO root fetch - processPackages [deropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deropy-0.1.4.tar.gz tmp/deropy-0.2.0.tar.gz --markdown 20240509/d/deropy/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sigmoid-check]: Downloading https://files.pythonhosted.org/packages/96/55/dab3d7908a75b4b780f62b1132ff969db19e71f0df7b3d7ebb8ded95a211/sigmoid_check-0.0.8.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/3f/0f/d2a5473bf1fcda097678711179a0680acb8fe1802979eb648218cfa2a4b9/planetmapper-1.9.1.tar.gz
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sigmoid-check]: executing diffoscope
+[2024-05-09 10:55:19] INFO root fetch - processPackages [sigmoid-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmoid_check-0.0.7.tar.gz tmp/sigmoid_check-0.0.8.tar.gz --markdown 20240509/s/sigmoid-check/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 10:55:19] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2024-05-09 10:55:19] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.9.0.tar.gz tmp/planetmapper-1.9.1.tar.gz --markdown 20240509/p/planetmapper/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 10:55:20] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.1.4.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - processPackages [deropy]: Remove: archive file [/home/abi/fetcher/tmp/deropy-0.2.0.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - main [MainThread]: End processing [deropy]: success
+[2024-05-09 10:55:20] INFO root fetch - processPackages [sigmoid-check]: Remove: archive file [/home/abi/fetcher/tmp/sigmoid_check-0.0.7.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - processPackages [sigmoid-check]: Remove: archive file [/home/abi/fetcher/tmp/sigmoid_check-0.0.8.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - main [MainThread]: End processing [sigmoid-check]: success
+[2024-05-09 10:55:20] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.9.0.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.9.1.tar.gz]
+[2024-05-09 10:55:20] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2024-05-09 10:55:20] INFO root fetch - processPackages [gradio-model4dgs]: Downloading https://files.pythonhosted.org/packages/76/57/c87b1c6e43384e75a6f379e0bc0b3c05180a5769d9fc3cd59639fc1d44d6/gradio_model4dgs-0.0.3.tar.gz
+[2024-05-09 10:55:21] INFO root fetch - processPackages [gradio-model4dgs]: executing diffoscope
+[2024-05-09 10:55:21] INFO root fetch - processPackages [gradio-model4dgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_model4dgs-0.0.2.tar.gz tmp/gradio_model4dgs-0.0.3.tar.gz --markdown 20240509/g/gradio-model4dgs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 10:55:21] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/1b/25/9b1ba94b264043084adf28a9d8cac2505eb2b161424f5683e58404a960fe/sirmordred-1.0.1rc1.tar.gz
+[2024-05-09 10:55:22] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2024-05-09 10:55:22] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-1.0.0rc3.tar.gz tmp/sirmordred-1.0.1rc1.tar.gz --markdown 20240509/s/sirmordred/1.0.0rc3-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:55:26] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.0rc3.tar.gz]
+[2024-05-09 10:55:26] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.1rc1.tar.gz]
+[2024-05-09 10:55:26] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2024-05-09 10:55:26] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.2.tar.gz]
+[2024-05-09 10:55:26] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.3.tar.gz]
+[2024-05-09 10:55:26] INFO root fetch - main [MainThread]: End processing [gradio-model4dgs]: success
+[2024-05-09 10:55:26] INFO root fetch - main [MainThread]: Store serial: [23128658]
