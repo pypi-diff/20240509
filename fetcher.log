@@ -12966,3 +12966,66 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:17:36] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240508.tar.gz]
 [2024-05-09 08:17:36] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-09 08:17:36] INFO root fetch - main [MainThread]: Store serial: [23127015]
+[2024-05-09 08:19:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127015]
+[2024-05-09 08:19:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kong
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: internet-domain-local
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nagatoai_core
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-utils-dev
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydboat
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-dingtalk
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: verrierez
+[2024-05-09 08:19:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kci-confluence-cli
+[2024-05-09 08:19:53] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715228714] Old Version: [4.6.0a1715060800]
+[2024-05-09 08:19:53] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/28/22/76749c81b1dc8b268a66fb3d4b9a73e7d7d0cd54657f707e393852e2ba23/pulumi_kong-4.6.0a1715060800.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [nagatoai_core]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 08:19:53] INFO root fetch - processPackages [internet-domain-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 08:19:53] WARNING root fetch - processPackages [pydboat]: Skipping, unable to determine old version
+[2024-05-09 08:19:53] INFO root fetch - main [MainThread]: End processing [pydboat] error
+[2024-05-09 08:19:53] INFO root fetch - processPackages [kci-confluence-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-09 08:19:53] WARNING root fetch - processPackages [verrierez]: Skipping, unable to determine old version
+[2024-05-09 08:19:53] INFO root fetch - main [MainThread]: End processing [verrierez] error
+[2024-05-09 08:19:53] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-09 08:19:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.10] Old Version: [2.0.99]
+[2024-05-09 08:19:53] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/5e/c7/fa3564fe19c50cd2af468c7b50bf0c4f551bc90c1399bc038d9ca9482dda/pulumi_kong-4.6.0a1715228714.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/64/f2/eca6ce9dfcf2846072e1dd078d3f779979be11631f9fbfed4a8de904ec68/nagatoai_core-0.8.0.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/21/08/584c01255d71beb274e14bf23aa4f1cad58ef556a6dc819f0cf869a6d409/internet_domain_local-0.0.8.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/44/c7/13880cf885b3b0b54c5e9d36b2174d6a5a6235900795675d48266bce80b5/alibabacloud_dingtalk-2.0.99.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [kci-confluence-cli]: Downloading https://files.pythonhosted.org/packages/e4/5c/5bb35fb3f0e09e33f0baf42750c1508fa337e411f7b3569d0ed9d56bd7ba/kci_confluence_cli-0.1.0.tar.gz
+[2024-05-09 08:19:53] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-09 08:19:53] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715060800.tar.gz tmp/pulumi_kong-4.6.0a1715228714.tar.gz --markdown 20240509/p/pulumi-kong/4.6.0a1715060800-4.6.0a1715228714/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/79/56/eaaca906dc31aa5afee4de05ed86891e107f7ff92fa83a812b3eb3ae4c5f/nagatoai_core-0.9.0.tar.gz
+[2024-05-09 08:19:54] INFO root fetch - processPackages [internet-domain-local]: Downloading https://files.pythonhosted.org/packages/a3/b6/e0491177e886f4191633b085ed3e7b2e77c00c277e59b83acedf4a538025/internet_domain_local-0.0.9.tar.gz
+[2024-05-09 08:19:54] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-09 08:19:54] INFO root fetch - processPackages [kci-confluence-cli]: Downloading https://files.pythonhosted.org/packages/d1/8f/fb07e6176f9518397fca4ace08d92ccd36a7c3190c6e5b1e1315d1b72240/kci_confluence_cli-0.2.0.tar.gz
+[2024-05-09 08:19:54] INFO root fetch - processPackages [nagatoai_core]: executing diffoscope
+[2024-05-09 08:19:54] INFO root fetch - processPackages [nagatoai_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nagatoai_core-0.8.0.tar.gz tmp/nagatoai_core-0.9.0.tar.gz --markdown 20240509/n/nagatoai_core/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [internet-domain-local]: executing diffoscope
+[2024-05-09 08:19:54] INFO root fetch - processPackages [internet-domain-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internet_domain_local-0.0.8.tar.gz tmp/internet_domain_local-0.0.9.tar.gz --markdown 20240509/i/internet-domain-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/ac/f3/4f6b00741f3f96c7499de8b05d8772e89d484b2be1cc85d14c55cc9c9666/alibabacloud_dingtalk-2.1.10.tar.gz
+[2024-05-09 08:19:54] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-09 08:19:54] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240509/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [kci-confluence-cli]: executing diffoscope
+[2024-05-09 08:19:54] INFO root fetch - processPackages [kci-confluence-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kci_confluence_cli-0.1.0.tar.gz tmp/kci_confluence_cli-0.2.0.tar.gz --markdown 20240509/k/kci-confluence-cli/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-09 08:19:54] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.99.tar.gz tmp/alibabacloud_dingtalk-2.1.10.tar.gz --markdown 20240509/a/alibabacloud-dingtalk/2.0.99-2.1.10/README.md --exclude *.pyd
+[2024-05-09 08:19:54] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715060800.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715228714.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-09 08:19:54] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.8.0.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.9.0.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - main [MainThread]: End processing [nagatoai_core]: success
+[2024-05-09 08:19:54] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.8.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - processPackages [internet-domain-local]: Remove: archive file [/home/abi/fetcher/tmp/internet_domain_local-0.0.9.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - main [MainThread]: End processing [internet-domain-local]: success
+[2024-05-09 08:19:54] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-05-09 08:19:54] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-09 08:19:55] INFO root fetch - processPackages [kci-confluence-cli]: Remove: archive file [/home/abi/fetcher/tmp/kci_confluence_cli-0.1.0.tar.gz]
+[2024-05-09 08:19:55] INFO root fetch - processPackages [kci-confluence-cli]: Remove: archive file [/home/abi/fetcher/tmp/kci_confluence_cli-0.2.0.tar.gz]
+[2024-05-09 08:19:55] INFO root fetch - main [MainThread]: End processing [kci-confluence-cli]: success
+[2024-05-09 08:19:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.99.tar.gz]
+[2024-05-09 08:19:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.10.tar.gz]
+[2024-05-09 08:19:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-09 08:19:57] INFO root fetch - main [MainThread]: Store serial: [23127043]
