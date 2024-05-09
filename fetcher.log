@@ -19077,3 +19077,50 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:38:06] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.9.tar.gz]
 [2024-05-09 11:38:06] INFO root fetch - main [MainThread]: End processing [amilib]: success
 [2024-05-09 11:38:06] INFO root fetch - main [MainThread]: Store serial: [23129143]
+[2024-05-09 11:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129143]
+[2024-05-09 11:40:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dingosdk
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt-custom-adapter
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn2pmml
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: silcar-it-tools
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiny-dag
+[2024-05-09 11:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaimopt
+[2024-05-09 11:40:15] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc2] Old Version: [0.1rc1]
+[2024-05-09 11:40:15] INFO root fetch - processPackages [pyaimopt]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-09 11:40:15] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-09 11:40:15] INFO root fetch - processPackages [silcar-it-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-09 11:40:15] INFO root fetch - processPackages [tiny-dag]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 11:40:15] WARNING root fetch - processPackages [ccxt-custom-adapter]: Skipping, unable to determine old version
+[2024-05-09 11:40:15] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter] error
+[2024-05-09 11:40:15] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/c1/d2/f129c13e6f15f14fd080fddc52aa78097bdbde54d33d2ac085ee18806f46/dingosdk-0.1rc1.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [silcar-it-tools]: Downloading https://files.pythonhosted.org/packages/8f/e9/a81360dacc2a58087fc2bd51e7fc590fe01be3a9a112a8215fbb98d5376e/silcar_it_tools-0.2.1.tar.gz
+[2024-05-09 11:40:15] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 67159290>=10485760
+[2024-05-09 11:40:15] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-09 11:40:15] INFO root fetch - processPackages [pyaimopt]: Downloading https://files.pythonhosted.org/packages/fe/8a/481095bc89a047623efcf669c097451a8eef987e9f07a66d97b683037f2f/pyaimopt-0.7.4.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/0b/8f/7ed4579b2871c6e935763bae678d4e60f2a47897c8193b85a132772b15d9/tiny_dag-0.0.8.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/21/2a/847c0af6f9d6ec00f3fa954c4c691c4311da9a8098e84de07e8d2d85107e/sklearn2pmml-0.99.2.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [silcar-it-tools]: Downloading https://files.pythonhosted.org/packages/52/46/d1dfe6d09bd519d43412f52814da661b6d4404f19809cf1a4016e452f2e7/silcar_it_tools-0.2.2.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [pyaimopt]: Downloading https://files.pythonhosted.org/packages/a7/b8/821ad501ce4d2824407fb15635f18a5a46daf8fbb9f213fb7c052f7da03b/pyaimopt-0.7.5.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [tiny-dag]: Downloading https://files.pythonhosted.org/packages/b6/d8/d44ad3be9eece0a03a7fa09328f5544307f770a41c704197e9e2cfbe8c20/tiny_dag-0.0.9.tar.gz
+[2024-05-09 11:40:15] INFO root fetch - processPackages [silcar-it-tools]: executing diffoscope
+[2024-05-09 11:40:15] INFO root fetch - processPackages [silcar-it-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silcar_it_tools-0.2.1.tar.gz tmp/silcar_it_tools-0.2.2.tar.gz --markdown 20240509/s/silcar-it-tools/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-09 11:40:16] INFO root fetch - processPackages [tiny-dag]: executing diffoscope
+[2024-05-09 11:40:16] INFO root fetch - processPackages [tiny-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_dag-0.0.8.tar.gz tmp/tiny_dag-0.0.9.tar.gz --markdown 20240509/t/tiny-dag/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 11:40:16] INFO root fetch - processPackages [pyaimopt]: executing diffoscope
+[2024-05-09 11:40:16] INFO root fetch - processPackages [pyaimopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaimopt-0.7.4.tar.gz tmp/pyaimopt-0.7.5.tar.gz --markdown 20240509/p/pyaimopt/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-09 11:40:16] INFO root fetch - processPackages [silcar-it-tools]: Remove: archive file [/home/abi/fetcher/tmp/silcar_it_tools-0.2.1.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - processPackages [silcar-it-tools]: Remove: archive file [/home/abi/fetcher/tmp/silcar_it_tools-0.2.2.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - main [MainThread]: End processing [silcar-it-tools]: success
+[2024-05-09 11:40:16] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.8.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - processPackages [tiny-dag]: Remove: archive file [/home/abi/fetcher/tmp/tiny_dag-0.0.9.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - main [MainThread]: End processing [tiny-dag]: success
+[2024-05-09 11:40:16] INFO root fetch - processPackages [pyaimopt]: Remove: archive file [/home/abi/fetcher/tmp/pyaimopt-0.7.4.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - processPackages [pyaimopt]: Remove: archive file [/home/abi/fetcher/tmp/pyaimopt-0.7.5.tar.gz]
+[2024-05-09 11:40:16] INFO root fetch - main [MainThread]: End processing [pyaimopt]: success
+[2024-05-09 11:40:16] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/85/79/363259bb11041d70c9ae8a5f3258d58b4b7ccb8ceee0294b75162f882252/sklearn2pmml-0.99.3.tar.gz
+[2024-05-09 11:40:17] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2024-05-09 11:40:17] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.99.2.tar.gz tmp/sklearn2pmml-0.99.3.tar.gz --markdown 20240509/s/sklearn2pmml/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-09 11:41:38] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.2.tar.gz]
+[2024-05-09 11:41:38] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
+[2024-05-09 11:41:38] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2024-05-09 11:41:38] INFO root fetch - main [MainThread]: Store serial: [23129160]
