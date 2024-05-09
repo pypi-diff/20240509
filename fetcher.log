@@ -8065,3 +8065,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:09:18] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.7.tar.gz]
 [2024-05-09 04:09:18] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
 [2024-05-09 04:09:18] INFO root fetch - main [MainThread]: Store serial: [23124808]
+[2024-05-09 04:11:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124808]
+[2024-05-09 04:11:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-05-09 04:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blasttools
+[2024-05-09 04:11:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylzss
+[2024-05-09 04:11:28] WARNING root fetch - processPackages [blasttools]: Skipping, unable to determine old version
+[2024-05-09 04:11:28] INFO root fetch - main [MainThread]: End processing [blasttools] error
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pylzss]: New version: [0.3.7.post1] Old Version: [0.3.7]
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/1a/89/1ed833c3ff3491c2313f3c4675cd10bfe7ecf7fad53f8d44f325ce664cf9/pylzss-0.3.7.tar.gz
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-09 04:11:28] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/25/9f/4ee2f48856489a3d8f336caccbde6e076a6c1377a9a2cab2f92b8c3486cc/pylzss-0.3.7.post1-cp311-cp311-win32.whl
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240509/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pylzss]: executing diffoscope
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pylzss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylzss-0.3.7.tar.gz tmp/pylzss-0.3.7.post1-cp311-cp311-win32.whl.zip --markdown 20240509/p/pylzss/0.3.7-0.3.7.post1/README.md --exclude *.pyd
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.7.tar.gz]
+[2024-05-09 04:11:29] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.7.post1-cp311-cp311-win32.whl.zip]
+[2024-05-09 04:11:29] INFO root fetch - main [MainThread]: End processing [pylzss]: success
+[2024-05-09 04:11:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-09 04:11:45] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-09 04:11:45] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-09 04:11:45] INFO root fetch - main [MainThread]: Store serial: [23124832]
