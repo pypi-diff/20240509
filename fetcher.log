@@ -9121,3 +9121,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:22:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050803.tar.gz]
 [2024-05-09 05:22:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-09 05:22:35] INFO root fetch - main [MainThread]: Store serial: [23125524]
+[2024-05-09 05:24:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125524]
+[2024-05-09 05:24:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Stricture
+[2024-05-09 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-05-09 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tamarindusz
+[2024-05-09 05:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdmath
+[2024-05-09 05:24:44] INFO root fetch - processPackages [Stricture]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 05:24:44] WARNING root fetch - processPackages [tamarindusz]: Skipping, unable to determine old version
+[2024-05-09 05:24:44] INFO root fetch - main [MainThread]: End processing [tamarindusz] error
+[2024-05-09 05:24:44] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-09 05:24:44] INFO root fetch - processPackages [gdmath]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-09 05:24:44] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/14/54/b74a701a2a2af11508794d7d1fa378f251df380c40ca8e43045a3299e0a1/Stricture-1.0.1.tar.gz
+[2024-05-09 05:24:44] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-05-09 05:24:44] INFO root fetch - processPackages [gdmath]: Downloading https://files.pythonhosted.org/packages/63/70/3102337b82f2e08f3f3e2463664a8c582a543f6c4f86855c73e97eb327e4/gdmath-1.5.3.tar.gz
+[2024-05-09 05:24:44] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/cc/d7/b1e71cbc780e64ed7945378899e860a8d36dc57f0c2eecc3c9585f9335a4/Stricture-1.0.2.tar.gz
+[2024-05-09 05:24:44] INFO root fetch - processPackages [Stricture]: executing diffoscope
+[2024-05-09 05:24:44] INFO root fetch - processPackages [Stricture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Stricture-1.0.1.tar.gz tmp/Stricture-1.0.2.tar.gz --markdown 20240509/S/Stricture/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 05:24:44] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-09 05:24:44] INFO root fetch - processPackages [gdmath]: Downloading https://files.pythonhosted.org/packages/fb/91/2c73608922f808becd94afcd9fcc225d7361ba35ef633688d70ea177813a/gdmath-1.5.4.tar.gz
+[2024-05-09 05:24:45] INFO root fetch - processPackages [gdmath]: executing diffoscope
+[2024-05-09 05:24:45] INFO root fetch - processPackages [gdmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdmath-1.5.3.tar.gz tmp/gdmath-1.5.4.tar.gz --markdown 20240509/g/gdmath/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-09 05:24:45] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-09 05:24:45] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240509/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-09 05:24:45] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.1.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.2.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - main [MainThread]: End processing [Stricture]: success
+[2024-05-09 05:24:45] INFO root fetch - processPackages [gdmath]: Remove: archive file [/home/abi/fetcher/tmp/gdmath-1.5.3.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - processPackages [gdmath]: Remove: archive file [/home/abi/fetcher/tmp/gdmath-1.5.4.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - main [MainThread]: End processing [gdmath]: success
+[2024-05-09 05:24:45] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-09 05:24:45] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-09 05:24:45] INFO root fetch - main [MainThread]: Store serial: [23125538]
