@@ -12832,3 +12832,137 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:15:17] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
 [2024-05-09 08:15:17] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
 [2024-05-09 08:15:17] INFO root fetch - main [MainThread]: Store serial: [23126975]
+[2024-05-09 08:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126975]
+[2024-05-09 08:17:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tse-motion
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-stock-logistics-reporting
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odroid-wiringpi
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aixblock-ml
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maya-umbrella
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycollimator
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: instill-sdk
+[2024-05-09 08:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fake-bpy-module-latest
+[2024-05-09 08:17:26] INFO root fetch - processPackages [aixblock-ml]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [maya-umbrella]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [tse-motion]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [instill-sdk]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240508] Old Version: [20240507]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: New version: [16.0.20240508.0] Old Version: [16.0.20240415.0]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pycollimator]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odroid-wiringpi]: New version: [3.8] Old Version: [3.7]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240509] Old Version: [2.6.0.dev20240508]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pretext]: New version: [2.4.1.dev20240509] Old Version: [2.4.1.dev20240507]
+[2024-05-09 08:17:27] INFO root fetch - processPackages [tse-motion]: Downloading https://files.pythonhosted.org/packages/f1/a4/7256343a3c3aea647981694089b822d6888a07273a6a112d95461344ad85/tse_motion-0.1.4.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/14/ce/f3a91877dd0eebe1951b3fbd22fdb94854c07e6a7efa0846e179bbd6ddaf/aixblock_ml-0.1.4.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/e3/8f/58695c8f33d55b442c111646f0808d6df6376cb86bd9c41d3276b4c95f56/maya_umbrella-0.6.1.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/ef/44/e82999958d2e8f11d401e144dcdb581def936306f8fa41cd0bb7bff4b3ca/instill_sdk-0.9.0.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/66/f2/b7431c6b887483c3830a72439d1d91e7945b1ca44f997e65279fbfe3103c/fake_bpy_module_latest-20240507.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/31/30/fbc2446a9a8136c64468a6f91ee6afa87ef4032eb0ac2ad88eaff5c53e71/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/4b/60/6e13fa275810dc1f2f74acc802c3f1eb435b34fe38154e35474579f313a5/odroid_wiringpi-3.7.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/0b/fa/58a2148502af3eb2d1747389b6bcd7a289c66dd3b0234fe378d81e91a515/pretext-2.4.1.dev20240507.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/be/7c/85fbb25838514c7e19428f41badc871a6f2ddac8b9af4ab3985bdf0d2b59/pycollimator-2.0.3-py3-none-any.whl
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/90/dd/7e603d8c260808390078f0a22e5074bf11fda8c60fba0b9c95be33b36833/pyg_nightly-2.6.0.dev20240508.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/a8/ed/82fa8d53bb3e3b47f79bb3fb366d5f7d5775e9a34bef5e0144ded4ce0740/aixblock_ml-0.1.5.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [tse-motion]: Downloading https://files.pythonhosted.org/packages/61/f0/eb123f426fe0e026aae5eb56a3313992d0e694cb7bd7781e09e765c27e7a/tse_motion-0.1.5.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/d8/51/0f60a09a01f27b6156d9786169d3147a10a2b18c65fb08b09b2a121d6efd/maya_umbrella-0.6.2.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.1.4.tar.gz tmp/aixblock_ml-0.1.5.tar.gz --markdown 20240509/a/aixblock-ml/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/9d/ba/55f436eb8ceb30331f9f7e4df95a211e70671823a66e26c8867e4efa7fdc/instill_sdk-0.9.0rc0.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [tse-motion]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [tse-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tse_motion-0.1.4.tar.gz tmp/tse_motion-0.1.5.tar.gz --markdown 20240509/t/tse-motion/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/71/d0/e9f78bde07d7a70ad62f3182350354283d731106392d155e4ae9bd7cc196/fake_bpy_module_latest-20240508.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [maya-umbrella]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [maya-umbrella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya_umbrella-0.6.1.tar.gz tmp/maya_umbrella-0.6.2.tar.gz --markdown 20240509/m/maya-umbrella/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/87/0a/78d6a75736a05c3485448df2f42b41d34badfcbb1977b0d029515ca28452/odoo_addons_oca_stock_logistics_reporting-16.0.20240508.0-py3-none-any.whl
+[2024-05-09 08:17:27] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.9.0.tar.gz tmp/instill_sdk-0.9.0rc0.tar.gz --markdown 20240509/i/instill-sdk/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odroid-wiringpi]: Downloading https://files.pythonhosted.org/packages/54/28/3fd4b96f475f4f81d454bdda83cefd8709e295c23c38cfda7771ba61a54a/odroid_wiringpi-3.8.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/65/b2/9f4ac83500fc98fb402bc743d7e5ff616d21827f055eff2883f142adca6a/pycollimator-2.0.4-py3-none-any.whl
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addons-oca-stock-logistics-reporting/16.0.20240415.0-16.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/2a/95/d227b89660bb7a23d845386534ae4b36fc1ffac2238a12e1028efc6491c2/pretext-2.4.1.dev20240509.tar.gz
+[2024-05-09 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-09 08:17:27] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240507.tar.gz tmp/fake_bpy_module_latest-20240508.tar.gz --markdown 20240509/f/fake-bpy-module-latest/20240507-20240508/README.md --exclude *.pyd
+[2024-05-09 08:17:27] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d3/97/78a5cf8cd6c38e6041197b0cb34147805c6ee6a2ce4abc708fe3e5224faa/pyg_nightly-2.6.0.dev20240509.tar.gz
+[2024-05-09 08:17:28] INFO root fetch - processPackages [odroid-wiringpi]: executing diffoscope
+[2024-05-09 08:17:28] INFO root fetch - processPackages [odroid-wiringpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odroid_wiringpi-3.7.tar.gz tmp/odroid_wiringpi-3.8.tar.gz --markdown 20240509/o/odroid-wiringpi/3.7-3.8/README.md --exclude *.pyd
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pycollimator]: executing diffoscope
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pycollimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycollimator-2.0.3-py3-none-any.whl.zip tmp/pycollimator-2.0.4-py3-none-any.whl.zip --markdown 20240509/p/pycollimator/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240508.tar.gz tmp/pyg_nightly-2.6.0.dev20240509.tar.gz --markdown 20240509/p/pyg-nightly/2.6.0.dev20240508-2.6.0.dev20240509/README.md --exclude *.pyd
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.4.1.dev20240507.tar.gz tmp/pretext-2.4.1.dev20240509.tar.gz --markdown 20240509/p/pretext/2.4.1.dev20240507-2.4.1.dev20240509/README.md --exclude *.pyd
+[2024-05-09 08:17:28] INFO root fetch - processPackages [tse-motion]: Remove: archive file [/home/abi/fetcher/tmp/tse_motion-0.1.4.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [tse-motion]: Remove: archive file [/home/abi/fetcher/tmp/tse_motion-0.1.5.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [tse-motion]: Start processing: procastro
+[2024-05-09 08:17:28] INFO root fetch - main [MainThread]: End processing [tse-motion]: success
+[2024-05-09 08:17:28] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.4.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.5.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [aixblock-ml]: Start processing: faasmsctl
+[2024-05-09 08:17:28] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-05-09 08:17:28] INFO root fetch - processPackages [faasmsctl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [procastro]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [faasmsctl]: Downloading https://files.pythonhosted.org/packages/e6/b2/c48aa4e936a684d5e54b012d0222a91de22d54ae8716192ec984bd5c5a0d/faasmsctl-0.0.2.tar.gz
+[2024-05-09 08:17:28] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.6.1.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.6.2.tar.gz]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [maya-umbrella]: Start processing: fake-bpy-module
+[2024-05-09 08:17:28] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
+[2024-05-09 08:17:28] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Start processing: pulumi-libvirt
+[2024-05-09 08:17:28] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-reporting]: success
+[2024-05-09 08:17:28] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240508] Old Version: [20240507]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/b4/58/e39c67e344eb826a3eb5c9e9936cdb764038f2b71aa5a076f367b179670e/fake_bpy_module-20240507.tar.gz
+[2024-05-09 08:17:28] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1715233706] Old Version: [0.5.0a1715060803]
+[2024-05-09 08:17:28] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/7b/2f/a292eeddf5959da229d7b76f2edb24a014bc65303cf7c1a13825254f08a3/procastro-0.1.4.tar.gz
+[2024-05-09 08:17:28] INFO root fetch - processPackages [faasmsctl]: Downloading https://files.pythonhosted.org/packages/61/99/939ab07d4696290d25a46a378b4f8301a8f5c9324a39a8cf61a58d5d5344/faasmsctl-0.0.3.tar.gz
+[2024-05-09 08:17:28] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 18694129>=10485760
+[2024-05-09 08:17:28] INFO root fetch - processPackages [procastro]: Start processing: model-mart
+[2024-05-09 08:17:28] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2024-05-09 08:17:29] INFO root fetch - processPackages [faasmsctl]: executing diffoscope
+[2024-05-09 08:17:29] INFO root fetch - processPackages [faasmsctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmsctl-0.0.2.tar.gz tmp/faasmsctl-0.0.3.tar.gz --markdown 20240509/f/faasmsctl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 08:17:29] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/14/8e/50b23ced2aaabd4b5b62f02189af63571c9017109621841f8a8f5715d824/pulumi_libvirt-0.5.0a1715060803.tar.gz
+[2024-05-09 08:17:29] INFO root fetch - processPackages [model-mart]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/09/8d/ef1de21703227c0e2bfaca43598adfcda228e06dc96c7de9af50f48b8a2f/fake_bpy_module-20240508.tar.gz
+[2024-05-09 08:17:29] INFO root fetch - processPackages [model-mart]: Downloading https://files.pythonhosted.org/packages/9f/44/1068d4db0ea6f808228ed3506fe1a93ce6aca81b686e550c523f606b05be/model-mart-0.1.0.tar.gz
+[2024-05-09 08:17:29] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/cd/19/2e9189d47a498bd361ffce985b70f29f3fff7c1821f7b46d0767fec753e8/pulumi_libvirt-0.5.0a1715233706.tar.gz
+[2024-05-09 08:17:29] INFO root fetch - processPackages [odroid-wiringpi]: Remove: archive file [/home/abi/fetcher/tmp/odroid_wiringpi-3.7.tar.gz]
+[2024-05-09 08:17:29] INFO root fetch - processPackages [odroid-wiringpi]: Remove: archive file [/home/abi/fetcher/tmp/odroid_wiringpi-3.8.tar.gz]
+[2024-05-09 08:17:29] INFO root fetch - main [MainThread]: End processing [odroid-wiringpi]: success
+[2024-05-09 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-09 08:17:29] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240507.tar.gz tmp/fake_bpy_module-20240508.tar.gz --markdown 20240509/f/fake-bpy-module/20240507-20240508/README.md --exclude *.pyd
+[2024-05-09 08:17:29] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-09 08:17:29] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz tmp/pulumi_libvirt-0.5.0a1715233706.tar.gz --markdown 20240509/p/pulumi-libvirt/0.5.0a1715060803-0.5.0a1715233706/README.md --exclude *.pyd
+[2024-05-09 08:17:29] INFO root fetch - processPackages [model-mart]: Downloading https://files.pythonhosted.org/packages/22/83/d46ea596c824680c93e65989c821466b652868740d98e9433f7294ba431b/model-mart-0.1.1.tar.gz
+[2024-05-09 08:17:29] INFO root fetch - processPackages [model-mart]: executing diffoscope
+[2024-05-09 08:17:29] INFO root fetch - processPackages [model-mart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-mart-0.1.0.tar.gz tmp/model-mart-0.1.1.tar.gz --markdown 20240509/m/model-mart/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 08:17:29] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0.tar.gz]
+[2024-05-09 08:17:29] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
+[2024-05-09 08:17:29] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-05-09 08:17:30] INFO root fetch - processPackages [faasmsctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmsctl-0.0.2.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - processPackages [faasmsctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmsctl-0.0.3.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - main [MainThread]: End processing [faasmsctl]: success
+[2024-05-09 08:17:30] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-2.0.3-py3-none-any.whl.zip]
+[2024-05-09 08:17:30] INFO root fetch - processPackages [pycollimator]: Remove: archive file [/home/abi/fetcher/tmp/pycollimator-2.0.4-py3-none-any.whl.zip]
+[2024-05-09 08:17:30] INFO root fetch - main [MainThread]: End processing [pycollimator]: success
+[2024-05-09 08:17:30] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715060803.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1715233706.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-09 08:17:30] INFO root fetch - processPackages [model-mart]: Remove: archive file [/home/abi/fetcher/tmp/model-mart-0.1.0.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - processPackages [model-mart]: Remove: archive file [/home/abi/fetcher/tmp/model-mart-0.1.1.tar.gz]
+[2024-05-09 08:17:30] INFO root fetch - main [MainThread]: End processing [model-mart]: success
+[2024-05-09 08:17:31] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240508.tar.gz]
+[2024-05-09 08:17:31] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240509.tar.gz]
+[2024-05-09 08:17:31] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-09 08:17:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.1.dev20240507.tar.gz]
+[2024-05-09 08:17:32] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.4.1.dev20240509.tar.gz]
+[2024-05-09 08:17:32] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-05-09 08:17:35] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240507.tar.gz]
+[2024-05-09 08:17:35] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240508.tar.gz]
+[2024-05-09 08:17:35] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-09 08:17:36] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240507.tar.gz]
+[2024-05-09 08:17:36] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240508.tar.gz]
+[2024-05-09 08:17:36] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-09 08:17:36] INFO root fetch - main [MainThread]: Store serial: [23127015]
