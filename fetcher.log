@@ -9223,3 +9223,111 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:26:58] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz]
 [2024-05-09 05:26:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
 [2024-05-09 05:26:58] INFO root fetch - main [MainThread]: Store serial: [23125560]
+[2024-05-09 05:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125560]
+[2024-05-09 05:29:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirro_api_client
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finisterra
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InternEvo
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rotary-emb
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-server-environment-delivery
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xentropy
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-delivery-price-method
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pumpetz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-picking-report-delivery-cost
+[2024-05-09 05:29:08] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.2]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [InternEvo]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [cirro_api_client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 05:29:08] WARNING root fetch - processPackages [xentropy]: Skipping, unable to determine old version
+[2024-05-09 05:29:08] INFO root fetch - processPackages [xentropy]: Start processing: keras-nlp-nightly
+[2024-05-09 05:29:08] INFO root fetch - main [MainThread]: End processing [xentropy] error
+[2024-05-09 05:29:08] WARNING root fetch - processPackages [pumpetz]: Skipping, unable to determine old version
+[2024-05-09 05:29:08] INFO root fetch - processPackages [pumpetz]: Start processing: odoo-addon-delivery-driver
+[2024-05-09 05:29:08] INFO root fetch - main [MainThread]: End processing [pumpetz] error
+[2024-05-09 05:29:08] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [rotary-emb]: New version: [0.5] Old Version: [0.4.5]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: Downloading https://files.pythonhosted.org/packages/a8/bc/9bfbed3e915fee01dc4d5c4216aa3f76e6c94ed220da4cb1f5c15c850966/odoo_addon_delivery_price_method-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: Downloading https://files.pythonhosted.org/packages/11/fb/3926c7539178af648addbd8e75e2b1001562e48611f0d6318638e8a1069c/odoo_addon_server_environment_delivery-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/5e/c3/c9e970bc5a8805a726e1d4399aab3767214d612303c830db920c5be8e3d0/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: Downloading https://files.pythonhosted.org/packages/6b/b2/4fa5001097ee029492e80a325cc3448489f0bceeda425880e1480a746657/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-delivery-driver]: New version: [16.0.1.3.0.2] Old Version: [16.0.1.3.0.1]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-09 05:29:08] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/a3/68/7d36f2607aec5023e183552bbb6d592829451f0529ae50bc0ae0c1f13865/InternEvo-0.4.5.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [cirro_api_client]: Downloading https://files.pythonhosted.org/packages/9e/25/0172b793d4590d101d1fd9d1b1caa62a8c64a3953fe51a3b9fcfdb59727a/cirro_api_client-0.0.8.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-delivery-driver]: Downloading https://files.pythonhosted.org/packages/b2/fc/01630ace81518ececcd9ff9dd6d3e49d6de24614643649bf1c17aa5f286f/odoo_addon_delivery_driver-16.0.1.3.0.1-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: Downloading https://files.pythonhosted.org/packages/33/27/f7a5f120a15b2a4ab2ae48c0cf92c1108e78ae35e88a67a852db527c3ff7/odoo_addon_delivery_price_method-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/98/d1/d203bb9a68d0d5122f21f808b803ed6073d9a295658898a958996214ab4e/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: Downloading https://files.pythonhosted.org/packages/c3/24/9f2ac9cf999999cefc81ee3359aad408058f9473ba33bd9c12dc0dc16b4b/odoo_addon_server_environment_delivery-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:29:08] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: Downloading https://files.pythonhosted.org/packages/65/0b/a89054205f38762d57e33a97b9095e0bbc5340b7b5e2a6f8274cc3f8b5f9/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:29:09] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240509/f/finisterra/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-delivery-driver]: Downloading https://files.pythonhosted.org/packages/26/ee/ae7f8a4eb5291811dec469c3d690cfa7004af10f18ffda55a94970abb1b2/odoo_addon_delivery_driver-16.0.1.3.0.2-py3-none-any.whl
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_server_environment_delivery-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_server_environment_delivery-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-server-environment-delivery/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.1.0.2-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-stock-picking-report-delivery-cost/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_price_method-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_delivery_price_method-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-delivery-price-method/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-09 05:29:09] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/78/49/a626a12e9569256054f423de2f9d979955bf383eb0a87161a2e41f32d7ce/InternEvo-0.4.6.tar.gz
+[2024-05-09 05:29:09] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/3c/3e/abb8cd35308f7d92406a6ec73fb5c038ddde854dbde5d323ea886574ff04/rotary_emb-0.5.tar.gz
+[2024-05-09 05:29:09] INFO root fetch - processPackages [cirro_api_client]: Downloading https://files.pythonhosted.org/packages/cf/b3/69aeb8d62fb70e3f273d9774dd76a8936f5debccca823ea34b0dea96c28f/cirro_api_client-0.0.9.tar.gz
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-delivery-driver]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [odoo-addon-delivery-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_driver-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_driver-16.0.1.3.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-delivery-driver/16.0.1.3.0.1-16.0.1.3.0.2/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240509/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.5.tar.gz tmp/InternEvo-0.4.6.tar.gz --markdown 20240509/I/InternEvo/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.5.tar.gz tmp/rotary_emb-0.5.tar.gz --markdown 20240509/r/rotary-emb/0.4.5-0.5/README.md --exclude *.pyd
+[2024-05-09 05:29:09] INFO root fetch - processPackages [cirro_api_client]: executing diffoscope
+[2024-05-09 05:29:09] INFO root fetch - processPackages [cirro_api_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirro_api_client-0.0.8.tar.gz tmp/cirro_api_client-0.0.9.tar.gz --markdown 20240509/c/cirro_api_client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_price_method-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_price_method-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-price-method]: Start processing: odoo-addon-delivery-postlogistics-server-env
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-price-method]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-stock-picking-report-delivery-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_delivery_cost-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_environment_delivery-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-delivery-cost]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-server-environment-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_server_environment_delivery-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-environment-delivery]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-driver]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_driver-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-driver]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_driver-16.0.1.3.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-driver]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.5.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Downloading https://files.pythonhosted.org/packages/22/fb/04d52cbe06e7f1a3d0b4dcb39979de83fa77497420c3452be4630fe5d399/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Downloading https://files.pythonhosted.org/packages/70/c7/990258b946238f42c9ec9857602989edb7ae9946e48568a6e01c7e20d7bd/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:29:10] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.5.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [cirro_api_client]: Remove: archive file [/home/abi/fetcher/tmp/cirro_api_client-0.0.8.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - processPackages [cirro_api_client]: Remove: archive file [/home/abi/fetcher/tmp/cirro_api_client-0.0.9.tar.gz]
+[2024-05-09 05:29:10] INFO root fetch - main [MainThread]: End processing [cirro_api_client]: success
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: executing diffoscope
+[2024-05-09 05:29:10] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-delivery-postlogistics-server-env/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:29:11] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-09 05:29:11] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-09 05:29:11] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-09 05:29:11] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:29:11] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:29:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics-server-env]: success
+[2024-05-09 05:29:11] INFO root fetch - main [MainThread]: Store serial: [23125594]
