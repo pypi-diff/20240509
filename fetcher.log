@@ -10465,3 +10465,26 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:15:19] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.7.tar.gz]
 [2024-05-09 06:15:19] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
 [2024-05-09 06:15:19] INFO root fetch - main [MainThread]: Store serial: [23125979]
+[2024-05-09 06:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125979]
+[2024-05-09 06:17:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: partenaire-qualif
+[2024-05-09 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: more-math
+[2024-05-09 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vegan
+[2024-05-09 06:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subacademicz
+[2024-05-09 06:17:29] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 06:17:29] INFO root fetch - processPackages [vegan]: New version: [2.2.0] Old Version: [2.1.5]
+[2024-05-09 06:17:29] WARNING root fetch - processPackages [more-math]: Skipping, unable to determine old version
+[2024-05-09 06:17:29] INFO root fetch - main [MainThread]: End processing [more-math] error
+[2024-05-09 06:17:29] WARNING root fetch - processPackages [subacademicz]: Skipping, unable to determine old version
+[2024-05-09 06:17:29] INFO root fetch - main [MainThread]: End processing [subacademicz] error
+[2024-05-09 06:17:29] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/fb/62/c6a3ddcba799964e697dddcff6b94d40440d5b0476d7a45a06badab1a6c6/partenaire-qualif-0.0.2.tar.gz
+[2024-05-09 06:17:29] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/02/08/5d4243a86209cd554c777b1c52461c484438a2864ce7b78a2dcdfb1ab007/vegan-2.2.0.tar.gz
+[2024-05-09 06:17:29] WARNING root fetch - processPackages [vegan]: Skipping package: exceeds size limit 57948665>=10485760
+[2024-05-09 06:17:29] INFO root fetch - main [MainThread]: End processing [vegan] error
+[2024-05-09 06:17:29] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/a7/2f/d6ccbdc86304a71b7388ca7455f976d9de9f2ccb2b79e2847033bc1a1a93/partenaire-qualif-0.0.3.tar.gz
+[2024-05-09 06:17:29] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 06:17:29] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.2.tar.gz tmp/partenaire-qualif-0.0.3.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 06:17:30] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.2.tar.gz]
+[2024-05-09 06:17:30] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.3.tar.gz]
+[2024-05-09 06:17:30] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 06:17:30] INFO root fetch - main [MainThread]: Store serial: [23125992]
