@@ -14556,3 +14556,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:29:05] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.9.tar.gz]
 [2024-05-09 09:29:05] INFO root fetch - main [MainThread]: End processing [RNApolis]: success
 [2024-05-09 09:29:05] INFO root fetch - main [MainThread]: Store serial: [23127590]
+[2024-05-09 09:31:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127590]
+[2024-05-09 09:31:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 09:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazysdk
+[2024-05-09 09:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-05-09 09:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtmp-streaming
+[2024-05-09 09:31:13] INFO root fetch - processPackages [rtmp-streaming]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 09:31:13] INFO root fetch - processPackages [everai]: New version: [0.1.47] Old Version: [0.1.46]
+[2024-05-09 09:31:14] INFO root fetch - processPackages [lazysdk]: New version: [0.1.93] Old Version: [0.1.92]
+[2024-05-09 09:31:14] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/d3/ba/d59c31b63ba14d0b3c0ec814924ce1130cb2a2493bc95712a7674ef7e52f/everai-0.1.46-py3-none-any.whl
+[2024-05-09 09:31:14] INFO root fetch - processPackages [rtmp-streaming]: Downloading https://files.pythonhosted.org/packages/d5/d4/dbf68477c5e63f23caaa85c32eb764c126f89788456437a70e3d1e39909a/rtmp_streaming-0.0.3.tar.gz
+[2024-05-09 09:31:14] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/85/98/712484a4c7cdd76bad146b27e95990cd24d00fa9d4425379904f71ba4893/lazysdk-0.1.92.tar.gz
+[2024-05-09 09:31:14] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/79/bb/f9efaa6c97a71f35210ebd1301ca85934706dcf50e545b9416cf7b3848f5/everai-0.1.47-py3-none-any.whl
+[2024-05-09 09:31:14] INFO root fetch - processPackages [rtmp-streaming]: Downloading https://files.pythonhosted.org/packages/0f/18/1e9dc9a8be09bf110e85b719d06a25b93dc0c208715b0f51da9272bd4f0d/rtmp_streaming-0.0.4.tar.gz
+[2024-05-09 09:31:14] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-09 09:31:14] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.46-py3-none-any.whl.zip tmp/everai-0.1.47-py3-none-any.whl.zip --markdown 20240509/e/everai/0.1.46-0.1.47/README.md --exclude *.pyd
+[2024-05-09 09:31:14] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/0c/19/f9c93b74ed6dea6dcbe392fb04855c117f989bc4dfd3dcf6d0edfcbb8ec8/lazysdk-0.1.93.tar.gz
+[2024-05-09 09:31:14] INFO root fetch - processPackages [rtmp-streaming]: executing diffoscope
+[2024-05-09 09:31:14] INFO root fetch - processPackages [rtmp-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtmp_streaming-0.0.3.tar.gz tmp/rtmp_streaming-0.0.4.tar.gz --markdown 20240509/r/rtmp-streaming/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 09:31:14] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2024-05-09 09:31:14] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.92.tar.gz tmp/lazysdk-0.1.93.tar.gz --markdown 20240509/l/lazysdk/0.1.92-0.1.93/README.md --exclude *.pyd
+[2024-05-09 09:31:15] INFO root fetch - processPackages [rtmp-streaming]: Remove: archive file [/home/abi/fetcher/tmp/rtmp_streaming-0.0.3.tar.gz]
+[2024-05-09 09:31:15] INFO root fetch - processPackages [rtmp-streaming]: Remove: archive file [/home/abi/fetcher/tmp/rtmp_streaming-0.0.4.tar.gz]
+[2024-05-09 09:31:15] INFO root fetch - main [MainThread]: End processing [rtmp-streaming]: success
+[2024-05-09 09:31:15] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.92.tar.gz]
+[2024-05-09 09:31:15] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.93.tar.gz]
+[2024-05-09 09:31:15] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2024-05-09 09:31:16] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.46-py3-none-any.whl.zip]
+[2024-05-09 09:31:16] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.47-py3-none-any.whl.zip]
+[2024-05-09 09:31:16] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-09 09:31:16] INFO root fetch - main [MainThread]: Store serial: [23127598]
