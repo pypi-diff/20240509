@@ -21918,3 +21918,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:43:30] INFO root fetch - processPackages [romsearch]: Remove: archive file [/home/abi/fetcher/tmp/romsearch-0.0.3.tar.gz]
 [2024-05-09 13:43:30] INFO root fetch - main [MainThread]: End processing [romsearch]: success
 [2024-05-09 13:43:30] INFO root fetch - main [MainThread]: Store serial: [23130297]
+[2024-05-09 13:45:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130297]
+[2024-05-09 13:45:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 13:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: group-local
+[2024-05-09 13:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PFlowC
+[2024-05-09 13:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aipkgs-firebase
+[2024-05-09 13:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2024-05-09 13:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-markdownify
+[2024-05-09 13:45:39] INFO root fetch - processPackages [aipkgs-firebase]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 13:45:39] INFO root fetch - processPackages [group-local]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-09 13:45:39] INFO root fetch - processPackages [PFlowC]: New version: [2.0.0] Old Version: [1.4.4]
+[2024-05-09 13:45:39] INFO root fetch - processPackages [policyengine-us]: New version: [0.768.0] Old Version: [0.767.0]
+[2024-05-09 13:45:39] INFO root fetch - processPackages [django-markdownify]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-09 13:45:39] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/a3/fd/c8cb8e9ce6b84b38d7e92d994f7dc48609ad42a6b3d7db83cfa69d06719c/aipkgs_firebase-0.0.7.tar.gz
+[2024-05-09 13:45:39] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/aa/a4/3c655460d0a025e7dc3bcb17278aaaccf3566b2b129aa7d7134e3dca324d/group_local-0.0.18.tar.gz
+[2024-05-09 13:45:39] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/b4/7c/310a3a946149b49dd497f3bf0ebfa79ef75656c3265604068eff14cf1e50/PFlowC-1.4.4.tar.gz
+[2024-05-09 13:45:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/93/2c/aba920b8cf8fc0d86204716bf5ce84645498dc5e73b36a94a0d5c386cac2/policyengine-us-0.767.0.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [django-markdownify]: Downloading https://files.pythonhosted.org/packages/42/31/7adf0bcc96ea270966761ef402846fc68ab15fba055dd75f8d12e27bca38/django_markdownify-0.9.4.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/60/e0/69dc666392bdade23f817a0bf986a0c5515505750a48b475b318e9e8083c/aipkgs_firebase-0.0.8.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/1d/c9/4fec16f542900fad5ea79fd5e786ec4e3e0dcd9e537b77d8ed7cbb30cd5d/PFlowC-2.0.0.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/bd/da/2a3b85cebc15ebf787fc8dbb8ab6e6d2a3d232b21d9e2e7766c717a4d583/group_local-0.0.19.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-09 13:45:40] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-0.0.7.tar.gz tmp/aipkgs_firebase-0.0.8.tar.gz --markdown 20240509/a/aipkgs-firebase/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 13:45:40] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-09 13:45:40] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.18.tar.gz tmp/group_local-0.0.19.tar.gz --markdown 20240509/g/group-local/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-09 13:45:40] INFO root fetch - processPackages [django-markdownify]: Downloading https://files.pythonhosted.org/packages/6c/33/3abb966e2b238af4c9a5d3ee38a7aa7e51b644b4b20bf8533b6fd1c1bf96/django_markdownify-0.9.5.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/04/d4/c723c74354179e2396359a911355647449026850bf48a22ff7cee9832d68/policyengine-us-0.768.0.tar.gz
+[2024-05-09 13:45:40] INFO root fetch - processPackages [django-markdownify]: executing diffoscope
+[2024-05-09 13:45:40] INFO root fetch - processPackages [django-markdownify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_markdownify-0.9.4.tar.gz tmp/django_markdownify-0.9.5.tar.gz --markdown 20240509/d/django-markdownify/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-09 13:45:40] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-09 13:45:40] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-1.4.4.tar.gz tmp/PFlowC-2.0.0.tar.gz --markdown 20240509/P/PFlowC/1.4.4-2.0.0/README.md --exclude *.pyd
+[2024-05-09 13:45:40] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-09 13:45:40] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.767.0.tar.gz tmp/policyengine-us-0.768.0.tar.gz --markdown 20240509/p/policyengine-us/0.767.0-0.768.0/README.md --exclude *.pyd
+[2024-05-09 13:45:40] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.7.tar.gz]
+[2024-05-09 13:45:40] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.8.tar.gz]
+[2024-05-09 13:45:40] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-09 13:45:40] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.18.tar.gz]
+[2024-05-09 13:45:40] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.19.tar.gz]
+[2024-05-09 13:45:40] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-09 13:45:41] INFO root fetch - processPackages [django-markdownify]: Remove: archive file [/home/abi/fetcher/tmp/django_markdownify-0.9.4.tar.gz]
+[2024-05-09 13:45:41] INFO root fetch - processPackages [django-markdownify]: Remove: archive file [/home/abi/fetcher/tmp/django_markdownify-0.9.5.tar.gz]
+[2024-05-09 13:45:41] INFO root fetch - main [MainThread]: End processing [django-markdownify]: success
+[2024-05-09 13:45:41] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-1.4.4.tar.gz]
+[2024-05-09 13:45:41] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.0.0.tar.gz]
+[2024-05-09 13:45:41] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-09 13:46:13] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.767.0.tar.gz]
+[2024-05-09 13:46:13] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.768.0.tar.gz]
+[2024-05-09 13:46:13] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-09 13:46:13] INFO root fetch - main [MainThread]: Store serial: [23130311]
