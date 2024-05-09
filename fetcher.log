@@ -11683,3 +11683,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:19:36] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.52.tar.gz]
 [2024-05-09 07:19:36] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
 [2024-05-09 07:19:36] INFO root fetch - main [MainThread]: Store serial: [23126512]
+[2024-05-09 07:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126512]
+[2024-05-09 07:21:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lime-stable
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-alicloud
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-code-mixin
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py2docfx
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-lot-sequence
+[2024-05-09 07:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podonos
+[2024-05-09 07:21:46] INFO root fetch - processPackages [py2docfx]: New version: [0.1.7rc1720171] Old Version: [0.1.7.dev1720938]
+[2024-05-09 07:21:46] INFO root fetch - processPackages [lime-stable]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 07:21:46] INFO root fetch - processPackages [podonos]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-09 07:21:46] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-09 07:21:46] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-09 07:21:46] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/e3/c7/2057a0571f2d79a93c808aac3f2e73d4f75494c2b919ce09595c1d320121/lime-stable-1.0.1.tar.gz
+[2024-05-09 07:21:46] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-09 07:21:47] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/1f/2a/6358743c82afc716603c9374fb91f35012f3e0e1bda7ad94f9f6297dd597/py2docfx-0.1.7.dev1720938-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/bd/db/6341d5de0ec9a64448861fa657914db94580bcdd65b929777694fccea7dd/odoo_addon_product_lot_sequence-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/bb/02/d3026ee8259563cefe0a285f7c3f80c3ea8c2a63d151dfce5312e10a070e/podonos-0.1.1.tar.gz
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: Downloading https://files.pythonhosted.org/packages/4a/7a/6dea2beeaf5ffe9d35c89604417cfd3f1e3c11d8a52a6439f1319ffd4975/odoo_addon_product_code_mixin-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9c/17/159d589ae7b5d91ffcbdc9983a3d4fd782f08f915ab907eb9f6721762de5/lime-stable-1.0.2.tar.gz
+[2024-05-09 07:21:47] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-09 07:21:47] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/83/fe/c81504dde98516c8be1273c104724a48e96b6051f16be482f49520d4c3de/py2docfx-0.1.7rc1720171-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2024-05-09 07:21:47] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-1.0.1.tar.gz tmp/lime-stable-1.0.2.tar.gz --markdown 20240509/l/lime-stable/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Downloading https://files.pythonhosted.org/packages/7a/e9/c2a190c5ea02ca00d7332198b25a534db568b02814377f81d1192d6d68a9/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [podonos]: Downloading https://files.pythonhosted.org/packages/c1/87/bd08fe73586d3fb6f6e79970dbadce2c718009de8ac42e6255cacc6a2edf/podonos-0.1.3.tar.gz
+[2024-05-09 07:21:47] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-09 07:21:47] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7.dev1720938-py3-none-any.whl.zip tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip --markdown 20240509/p/py2docfx/0.1.7.dev1720938-0.1.7rc1720171/README.md --exclude *.pyd
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: Downloading https://files.pythonhosted.org/packages/39/5a/c3cd49dd2841231f318796450af7e4cf8f5828ecdddc5802448bcfbbe002/odoo_addon_product_code_mixin-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 07:21:47] INFO root fetch - processPackages [podonos]: executing diffoscope
+[2024-05-09 07:21:47] INFO root fetch - processPackages [podonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podonos-0.1.1.tar.gz tmp/podonos-0.1.3.tar.gz --markdown 20240509/p/podonos/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: executing diffoscope
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-product-lot-sequence/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: executing diffoscope
+[2024-05-09 07:21:47] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_code_mixin-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_code_mixin-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-product-code-mixin/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-09 07:21:47] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-09 07:21:48] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-09 07:21:48] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240509/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-09 07:21:48] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-1.0.1.tar.gz]
+[2024-05-09 07:21:48] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-1.0.2.tar.gz]
+[2024-05-09 07:21:48] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2024-05-09 07:21:48] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.1.1.tar.gz]
+[2024-05-09 07:21:48] INFO root fetch - processPackages [podonos]: Remove: archive file [/home/abi/fetcher/tmp/podonos-0.1.3.tar.gz]
+[2024-05-09 07:21:48] INFO root fetch - main [MainThread]: End processing [podonos]: success
+[2024-05-09 07:21:48] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - processPackages [odoo-addon-product-lot-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_lot_sequence-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-lot-sequence]: success
+[2024-05-09 07:21:48] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_code_mixin-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - processPackages [odoo-addon-product-code-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_code_mixin-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-code-mixin]: success
+[2024-05-09 07:21:48] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7.dev1720938-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1720171-py3-none-any.whl.zip]
+[2024-05-09 07:21:48] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-09 07:21:55] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-09 07:21:55] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-09 07:21:55] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-09 07:21:55] INFO root fetch - main [MainThread]: Store serial: [23126533]
