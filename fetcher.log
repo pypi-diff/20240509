@@ -11833,3 +11833,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:24:07] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
 [2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
 [2024-05-09 07:24:07] INFO root fetch - main [MainThread]: Store serial: [23126569]
+[2024-05-09 07:26:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126569]
+[2024-05-09 07:26:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirascope
+[2024-05-09 07:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-opinionated-constructs
+[2024-05-09 07:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scwrypts
+[2024-05-09 07:26:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-project-forecast-line-deadline
+[2024-05-09 07:26:16] WARNING root fetch - processPackages [odoo-addon-project-forecast-line-deadline]: Skipping, unable to determine old version
+[2024-05-09 07:26:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-forecast-line-deadline] error
+[2024-05-09 07:26:16] INFO root fetch - processPackages [scwrypts]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-05-09 07:26:16] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 07:26:16] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [3.7.3] Old Version: [3.7.2]
+[2024-05-09 07:26:16] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-05-09 07:26:16] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/f9/ec/a5c416eb9c96ec2cf28e4e392488e6de9e8c367944f7ba3200abe63a8057/cdk_opinionated_constructs-3.7.2.tar.gz
+[2024-05-09 07:26:16] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/58/33/a920d23f820ac34c55356e31ce7ea0b55fab5b672757b5e2adbafb38924c/scwrypts-4.3.1.tar.gz
+[2024-05-09 07:26:16] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/51/d5/dca13f6f585385bb2c517cd5b4e6b6c149fc3b134d0a5344d4763757e6f0/cdk_opinionated_constructs-3.7.3.tar.gz
+[2024-05-09 07:26:16] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-05-09 07:26:17] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/e2/76/36b5829681466f4cda76b460518e9a369fc302f8daaf117b4e088dacebe4/scwrypts-4.4.0.tar.gz
+[2024-05-09 07:26:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2024-05-09 07:26:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_opinionated_constructs-3.7.2.tar.gz tmp/cdk_opinionated_constructs-3.7.3.tar.gz --markdown 20240509/c/cdk-opinionated-constructs/3.7.2-3.7.3/README.md --exclude *.pyd
+[2024-05-09 07:26:17] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-05-09 07:26:17] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240509/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 07:26:17] INFO root fetch - processPackages [scwrypts]: executing diffoscope
+[2024-05-09 07:26:17] INFO root fetch - processPackages [scwrypts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scwrypts-4.3.1.tar.gz tmp/scwrypts-4.4.0.tar.gz --markdown 20240509/s/scwrypts/4.3.1-4.4.0/README.md --exclude *.pyd
+[2024-05-09 07:26:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk_opinionated_constructs-3.7.2.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - processPackages [cdk-opinionated-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdk_opinionated_constructs-3.7.3.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2024-05-09 07:26:17] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.3.1.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.4.0.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - main [MainThread]: End processing [scwrypts]: success
+[2024-05-09 07:26:17] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-05-09 07:26:17] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-05-09 07:26:17] INFO root fetch - main [MainThread]: Store serial: [23126580]
