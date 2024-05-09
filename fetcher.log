@@ -8383,3 +8383,72 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:31:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-09 04:31:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-09 04:31:58] INFO root fetch - main [MainThread]: Store serial: [23124999]
+[2024-05-09 04:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124999]
+[2024-05-09 04:34:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylzss
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snk-cli
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Prometa
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gargetsz
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avn
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-analytic-tag
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskgen-ai
+[2024-05-09 04:34:06] INFO root fetch - processPackages [Prometa]: New version: [2024.4] Old Version: [2024.3]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [taskgen-ai]: New version: [2.0.0] Old Version: [1.4.0]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [pylzss]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-09 04:34:06] WARNING root fetch - processPackages [gargetsz]: Skipping, unable to determine old version
+[2024-05-09 04:34:06] INFO root fetch - main [MainThread]: End processing [gargetsz] error
+[2024-05-09 04:34:06] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.235] Old Version: [0.1.234]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [Prometa]: Downloading https://files.pythonhosted.org/packages/fc/99/5aee9667df2d3f153cb82de39cad127940de4108aeef0fd8c49c89fb839b/prometa-2024.3.tar.gz
+[2024-05-09 04:34:06] INFO root fetch - processPackages [snk-cli]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [avn]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-09 04:34:06] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: Downloading https://files.pythonhosted.org/packages/dc/65/511048e893bbb8578c34d8d94c702c5a689ccb6d04894a505d95617fc2b5/odoo_addon_account_analytic_tag-16.0.1.0.1-py3-none-any.whl
+[2024-05-09 04:34:06] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/c5/d5/20e01d6b4e46b35fb20e240a06307cbb6551b0411f1e1229782757f04256/taskgen_ai-1.4.0.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/1a/89/1ed833c3ff3491c2313f3c4675cd10bfe7ecf7fad53f8d44f325ce664cf9/pylzss-0.3.7.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/03/eb/806be6c50d3b3360aaee606d3f6324deb75ee62e7c6f77a5440437ff23c5/avn-0.5.0.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [snk-cli]: Downloading https://files.pythonhosted.org/packages/75/e8/b43d79a0927312bc66154e19d2d6ff6caa8afe89576d6f4ea1b8aa03664e/snk_cli-0.2.1.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: Downloading https://files.pythonhosted.org/packages/88/8b/216006fb987bb7878fbb86ce6a78eb38175fb82cf768caaf604a3755ada7/odoo_addon_account_analytic_tag-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 04:34:07] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f1/da/720cbe102b217335d35f1e75293958e20a1493421c7d465af7147cfd7243/ansar_connect-0.1.234.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/94/77/a3a7058e2b410079d1248248c7cd6ac22254a7d6ab3fcff052e4ef4f369f/taskgen_ai-2.0.0.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/b3/c5/c5120f15c0e8c9fa7c2e58e10914b0821faaeb31e7c9d16e538f60cb5726/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-09 04:34:07] INFO root fetch - processPackages [Prometa]: Downloading https://files.pythonhosted.org/packages/35/47/b860f2aecb3cf18a0169091b4bb9c6f8a3be2b1f055b468d96634a082514/prometa-2024.4.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_analytic_tag-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_analytic_tag-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-account-analytic-tag/16.0.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-09 04:34:07] INFO root fetch - processPackages [taskgen-ai]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [taskgen-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskgen_ai-1.4.0.tar.gz tmp/taskgen_ai-2.0.0.tar.gz --markdown 20240509/t/taskgen-ai/1.4.0-2.0.0/README.md --exclude *.pyd
+[2024-05-09 04:34:07] INFO root fetch - processPackages [pylzss]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [pylzss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylzss-0.3.7.tar.gz tmp/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240509/p/pylzss/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-09 04:34:07] INFO root fetch - processPackages [Prometa]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [Prometa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometa-2024.3.tar.gz tmp/prometa-2024.4.tar.gz --markdown 20240509/P/Prometa/2024.3-2024.4/README.md --exclude *.pyd
+[2024-05-09 04:34:07] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/2c/85/edfeee6b76403048b8a77aa02b7179e8a6af9b264606e0a0c8e225d9d97d/avn-0.5.1.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/00/a6/84b261dffff3d199419bb0ff5d6278197aea71d2d17ae83c34b83dac6871/ansar_connect-0.1.235.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [snk-cli]: Downloading https://files.pythonhosted.org/packages/69/e3/02617c2ec3a851e1ec911d1e9fb90112915d84931adec41420062163ae94/snk_cli-0.3.0.tar.gz
+[2024-05-09 04:34:07] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.234.tar.gz tmp/ansar_connect-0.1.235.tar.gz --markdown 20240509/a/ansar-connect/0.1.234-0.1.235/README.md --exclude *.pyd
+[2024-05-09 04:34:07] INFO root fetch - processPackages [snk-cli]: executing diffoscope
+[2024-05-09 04:34:07] INFO root fetch - processPackages [snk-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk_cli-0.2.1.tar.gz tmp/snk_cli-0.3.0.tar.gz --markdown 20240509/s/snk-cli/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-09 04:34:08] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.7.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [pylzss]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen_ai-1.4.0.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen_ai-2.0.0.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [taskgen-ai]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_analytic_tag-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [odoo-addon-account-analytic-tag]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_analytic_tag-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-analytic-tag]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [Prometa]: Remove: archive file [/home/abi/fetcher/tmp/prometa-2024.3.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [Prometa]: Remove: archive file [/home/abi/fetcher/tmp/prometa-2024.4.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [Prometa]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [avn]: executing diffoscope
+[2024-05-09 04:34:08] INFO root fetch - processPackages [avn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avn-0.5.0.tar.gz tmp/avn-0.5.1.tar.gz --markdown 20240509/a/avn/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 04:34:08] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.234.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.235.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [snk-cli]: Remove: archive file [/home/abi/fetcher/tmp/snk_cli-0.2.1.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [snk-cli]: Remove: archive file [/home/abi/fetcher/tmp/snk_cli-0.3.0.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [snk-cli]: success
+[2024-05-09 04:34:08] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.5.0.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.5.1.tar.gz]
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [avn]: success
+[2024-05-09 04:34:08] INFO root fetch - main [MainThread]: Store serial: [23125091]
