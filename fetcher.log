@@ -21346,3 +21346,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:14:58] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-09 13:14:58] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-09 13:14:58] INFO root fetch - main [MainThread]: Store serial: [23130032]
+[2024-05-09 13:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130032]
+[2024-05-09 13:17:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 13:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptomathtrade
+[2024-05-09 13:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3-pinterest
+[2024-05-09 13:17:07] WARNING root fetch - processPackages [cryptomathtrade]: Skipping, unable to determine old version
+[2024-05-09 13:17:07] INFO root fetch - processPackages [py3-pinterest]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-09 13:17:07] INFO root fetch - main [MainThread]: End processing [cryptomathtrade] error
+[2024-05-09 13:17:07] INFO root fetch - processPackages [py3-pinterest]: Downloading https://files.pythonhosted.org/packages/e7/c3/792471b9f5ef88249162e73108e01cd73a0f3137d94ca9a73e4764bb949c/py3-pinterest-1.3.0.tar.gz
+[2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: Downloading https://files.pythonhosted.org/packages/7a/c5/396e58a4f9a9301b718514c3fbae231c840ccdc6949f1a99bd51becafc93/py3_pinterest-1.4.0.tar.gz
+[2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: executing diffoscope
+[2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3-pinterest-1.3.0.tar.gz tmp/py3_pinterest-1.4.0.tar.gz --markdown 20240509/p/py3-pinterest/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/py3-pinterest-1.3.0.tar.gz]
+[2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/py3_pinterest-1.4.0.tar.gz]
+[2024-05-09 13:17:08] INFO root fetch - main [MainThread]: End processing [py3-pinterest]: success
+[2024-05-09 13:17:08] INFO root fetch - main [MainThread]: Store serial: [23130039]
