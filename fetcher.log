@@ -18023,3 +18023,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:59:48] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
 [2024-05-09 10:59:48] INFO root fetch - main [MainThread]: End processing [ork.build]: success
 [2024-05-09 10:59:48] INFO root fetch - main [MainThread]: Store serial: [23128687]
+[2024-05-09 11:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128687]
+[2024-05-09 11:01:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alipay-sdk-python
+[2024-05-09 11:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PITpip
+[2024-05-09 11:01:57] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 11:01:57] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 11:01:57] WARNING root fetch - processPackages [PITpip]: Skipping, unable to determine old version
+[2024-05-09 11:01:57] INFO root fetch - main [MainThread]: End processing [PITpip] error
+[2024-05-09 11:01:57] INFO root fetch - processPackages [alipay-sdk-python]: New version: [3.7.78] Old Version: [3.7.61]
+[2024-05-09 11:01:57] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/6e/a2/bc0f187947bb9af636afd96385fd8e1bf3ed0d1adbe79c7c2eecc4c25b65/alipay-sdk-python-3.7.61.tar.gz
+[2024-05-09 11:01:57] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 11:01:58] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 11:01:58] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 11:01:58] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 11:01:58] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 11:01:58] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 11:01:59] INFO root fetch - processPackages [alipay-sdk-python]: Downloading https://files.pythonhosted.org/packages/53/1b/b05e80dbfed1c5b50b609a2c28ca3d63c2e7d07c436e278b78617cfcbed8/alipay-sdk-python-3.7.78.tar.gz
+[2024-05-09 11:02:00] INFO root fetch - processPackages [alipay-sdk-python]: executing diffoscope
+[2024-05-09 11:02:00] INFO root fetch - processPackages [alipay-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alipay-sdk-python-3.7.61.tar.gz tmp/alipay-sdk-python-3.7.78.tar.gz --markdown 20240509/a/alipay-sdk-python/3.7.61-3.7.78/README.md --exclude *.pyd
+[2024-05-09 11:05:00] ERROR root fetch - processPackages [alipay-sdk-python]: Timeout during execution of pkgdiff
+[2024-05-09 11:05:00] INFO root fetch - main [MainThread]: End processing [alipay-sdk-python] error
+[2024-05-09 11:05:00] INFO root fetch - main [MainThread]: Store serial: [23128696]
