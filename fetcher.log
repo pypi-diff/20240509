@@ -21710,3 +21710,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:32:35] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.1.0.tar.gz]
 [2024-05-09 13:32:35] INFO root fetch - main [MainThread]: End processing [lcax]: success
 [2024-05-09 13:32:35] INFO root fetch - main [MainThread]: Store serial: [23130199]
+[2024-05-09 13:34:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130199]
+[2024-05-09 13:34:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 13:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osc-llm
+[2024-05-09 13:34:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcio
+[2024-05-09 13:34:44] INFO root fetch - processPackages [fcio]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-09 13:34:44] INFO root fetch - processPackages [osc-llm]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-09 13:34:44] INFO root fetch - processPackages [osc-llm]: Downloading https://files.pythonhosted.org/packages/b3/4c/31295ffc98bab243ebb6a2fb9f32ed831103dcae6777354878c8881eb54f/osc_llm-0.1.2.tar.gz
+[2024-05-09 13:34:44] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/c0/f8/cd1b63e8660712bfb918e2753c3eac14f0f36aff53ca86d8ab02dd696059/fcio-0.3.0.tar.gz
+[2024-05-09 13:34:45] INFO root fetch - processPackages [osc-llm]: Downloading https://files.pythonhosted.org/packages/4b/cf/987ead9426074965afd2538da5d9f02737539c6931a8c8e880992e55ad9e/osc_llm-0.1.3.tar.gz
+[2024-05-09 13:34:45] INFO root fetch - processPackages [osc-llm]: executing diffoscope
+[2024-05-09 13:34:45] INFO root fetch - processPackages [osc-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc_llm-0.1.2.tar.gz tmp/osc_llm-0.1.3.tar.gz --markdown 20240509/o/osc-llm/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-09 13:34:45] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/32/7a/43c8549c567787e9913c90b00257fd7f6c48147deed1d59dccdaed8e696f/fcio-0.4.0.tar.gz
+[2024-05-09 13:34:45] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-09 13:34:45] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.3.0.tar.gz tmp/fcio-0.4.0.tar.gz --markdown 20240509/f/fcio/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-09 13:34:45] INFO root fetch - processPackages [osc-llm]: Remove: archive file [/home/abi/fetcher/tmp/osc_llm-0.1.2.tar.gz]
+[2024-05-09 13:34:45] INFO root fetch - processPackages [osc-llm]: Remove: archive file [/home/abi/fetcher/tmp/osc_llm-0.1.3.tar.gz]
+[2024-05-09 13:34:45] INFO root fetch - main [MainThread]: End processing [osc-llm]: success
+[2024-05-09 13:34:46] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.3.0.tar.gz]
+[2024-05-09 13:34:46] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.tar.gz]
+[2024-05-09 13:34:46] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-09 13:34:46] INFO root fetch - main [MainThread]: Store serial: [23130205]
