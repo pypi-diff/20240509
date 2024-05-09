@@ -2518,3 +2518,108 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:05:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240508.359.tar.gz]
 [2024-05-09 02:05:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-09 02:05:16] INFO root fetch - main [MainThread]: Store serial: [23122680]
+[2024-05-09 02:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122680]
+[2024-05-09 02:07:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekdjtools
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cae-cli
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ephys-link
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elia-chat
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reflex
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smurtls
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minq
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: truss
+[2024-05-09 02:07:26] WARNING root fetch - processPackages [minq]: Skipping, unable to determine old version
+[2024-05-09 02:07:26] INFO root fetch - processPackages [minq]: Start processing: ebtorch
+[2024-05-09 02:07:26] INFO root fetch - main [MainThread]: End processing [minq] error
+[2024-05-09 02:07:26] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [smurtls]: New version: [0.1a8] Old Version: [0.1a7]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [cae-cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [reflex]: New version: [0.4.9a2] Old Version: [0.4.9a1]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240508] Old Version: [0.0.8.dev20240507]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/82/24/83f66a72a89919b480d192edffe70bdc1f1971692182dce3c9894250dbb7/cae_cli-0.2.0.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ephys-link]: New version: [1.3.0b2] Old Version: [1.3.0b1]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [elia-chat]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [smurtls]: Downloading https://files.pythonhosted.org/packages/13/e5/ee94fc9e153f024d534909d4aaaa051005ba03d8cc33307017a54692416d/smurtls-0.1a7-py3-none-any.whl
+[2024-05-09 02:07:26] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [truss]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-05-09 02:07:26] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/b3/2e/55b2d5305edd34d78a2168489f250c2b6b20a5d66267fabb294ce81f3c92/jaxutils-nightly-0.0.8.dev20240507.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/a5/1d/5fcb9861558f8c166ecc8b8f6400974f9f94651299f6cf30a8f6d239025d/reflex-0.4.9a1.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/09/88/e47ab4498db9e6c8956f9df0ce42bd88a32d0e2365f3e245727d117291f8/elia_chat-1.0.3.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [ephys-link]: Downloading https://files.pythonhosted.org/packages/71/d5/69e48803b829e8c4397679d24d3231fd224823cc08de91931fb729163fae/ephys_link-1.3.0b1.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/b0/fe/165730089543a7078c47d298684f4672008a47e0f974249692ddb97b2ea5/truss-0.9.9rc3.tar.gz
+[2024-05-09 02:07:26] INFO root fetch - processPackages [smurtls]: Downloading https://files.pythonhosted.org/packages/92/6a/5d656d796717333a20ec76b09b4f1f95b554b40ef94b336273387b4311d9/smurtls-0.1a8-py3-none-any.whl
+[2024-05-09 02:07:26] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/e9/97/a2a878e7d7817d5aaf32d74367d66fc1f9dbe2e9136754e9c02bb004f3c0/cae_cli-0.2.1.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.0.tar.gz tmp/cae_cli-0.2.1.tar.gz --markdown 20240509/c/cae-cli/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [smurtls]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [smurtls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smurtls-0.1a7-py3-none-any.whl.zip tmp/smurtls-0.1a8-py3-none-any.whl.zip --markdown 20240509/s/smurtls/0.1a7-0.1a8/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240509/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/19/7e/f38457ecc662ac2dd7992bad9dd2f1a2953e8f1874377e9c0a025f3d9207/jaxutils-nightly-0.0.8.dev20240508.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240509/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/3c/51/b40eb36026400e92a89b3ece574ca7e52cdc50f5c718dbf87ed3105a2d36/elia_chat-1.1.0.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240507.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240508.tar.gz --markdown 20240509/j/jaxutils-nightly/0.0.8.dev20240507-0.0.8.dev20240508/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/1e/99/c4fa0942ed79303dd73cfe0a30b04f92fa804bca0c4ed84166b3a6b7552f/reflex-0.4.9a2.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/8f/d7/9ca2a06c33ed80c149e8e25246ce0bb8e5a19858328ac2b9feeb6b3b9734/truss-0.9.9rc4.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.0.3.tar.gz tmp/elia_chat-1.1.0.tar.gz --markdown 20240509/e/elia-chat/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240509/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc3.tar.gz tmp/truss-0.9.9rc4.tar.gz --markdown 20240509/t/truss/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ephys-link]: Downloading https://files.pythonhosted.org/packages/89/05/10e21247f6a93c32ee1794e75d755e844f9958a607a18e3808aff8ee286a/ephys_link-1.3.0b2.tar.gz
+[2024-05-09 02:07:27] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.9a1.tar.gz tmp/reflex-0.4.9a2.tar.gz --markdown 20240509/r/reflex/0.4.9a1-0.4.9a2/README.md --exclude *.pyd
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ephys-link]: executing diffoscope
+[2024-05-09 02:07:27] INFO root fetch - processPackages [ephys-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephys_link-1.3.0b1.tar.gz tmp/ephys_link-1.3.0b2.tar.gz --markdown 20240509/e/ephys-link/1.3.0b1-1.3.0b2/README.md --exclude *.pyd
+[2024-05-09 02:07:28] INFO root fetch - processPackages [smurtls]: Remove: archive file [/home/abi/fetcher/tmp/smurtls-0.1a7-py3-none-any.whl.zip]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [smurtls]: Remove: archive file [/home/abi/fetcher/tmp/smurtls-0.1a8-py3-none-any.whl.zip]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [smurtls]: Start processing: onnxscript
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [smurtls]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240508] Old Version: [0.1.0.dev20240507]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.0.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.1.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/7b/23/abd97d0cc63970bb5978defcaff67afcfbc4f80fcc0641fe5be4e9116aa1/onnxscript-0.1.0.dev20240507.tar.gz
+[2024-05-09 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240507.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240508.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.0.3.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.1.0.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/3c/ef/6ad2ec201a69ebc5fb1cc526e13e82474c4e518454df3d79128cbc5900f3/onnxscript-0.1.0.dev20240508.tar.gz
+[2024-05-09 02:07:28] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-09 02:07:28] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240507.tar.gz tmp/onnxscript-0.1.0.dev20240508.tar.gz --markdown 20240509/o/onnxscript/0.1.0.dev20240507-0.1.0.dev20240508/README.md --exclude *.pyd
+[2024-05-09 02:07:28] INFO root fetch - processPackages [ephys-link]: Remove: archive file [/home/abi/fetcher/tmp/ephys_link-1.3.0b1.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [ephys-link]: Remove: archive file [/home/abi/fetcher/tmp/ephys_link-1.3.0b2.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [ephys-link]: success
+[2024-05-09 02:07:28] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc3.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
+[2024-05-09 02:07:28] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-05-09 02:07:29] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.9a1.tar.gz]
+[2024-05-09 02:07:29] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.9a2.tar.gz]
+[2024-05-09 02:07:29] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-05-09 02:07:29] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240507.tar.gz]
+[2024-05-09 02:07:29] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240508.tar.gz]
+[2024-05-09 02:07:29] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-09 02:07:29] INFO root fetch - main [MainThread]: Store serial: [23122710]
