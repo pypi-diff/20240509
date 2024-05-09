@@ -13573,3 +13573,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:46:57] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
 [2024-05-09 08:46:57] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2024-05-09 08:46:57] INFO root fetch - main [MainThread]: Store serial: [23127256]
+[2024-05-09 08:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127256]
+[2024-05-09 08:49:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 08:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-researcher
+[2024-05-09 08:49:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rtmp-streaming
+[2024-05-09 08:49:05] WARNING root fetch - processPackages [rtmp-streaming]: Skipping, unable to determine old version
+[2024-05-09 08:49:05] INFO root fetch - main [MainThread]: End processing [rtmp-streaming] error
+[2024-05-09 08:49:05] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 08:49:05] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/33/53/d2ead72d6d603ee132e031eb1b4549d14e998b5982c947de4fc7c5c6536b/gpt-researcher-0.3.1.tar.gz
+[2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/e7/9f/5430e34543c19e4bc78ea02d7cdd2d8c289f23c2c61266e1c103dc8da038/gpt-researcher-0.3.2.tar.gz
+[2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.1.tar.gz tmp/gpt-researcher-0.3.2.tar.gz --markdown 20240509/g/gpt-researcher/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.1.tar.gz]
+[2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.2.tar.gz]
+[2024-05-09 08:49:06] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-09 08:49:06] INFO root fetch - main [MainThread]: Store serial: [23127262]
