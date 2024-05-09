@@ -13640,3 +13640,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:51:17] INFO root fetch - processPackages [textmate-grammar-python]: Remove: archive file [/home/abi/fetcher/tmp/textmate_grammar_python-0.5.0.tar.gz]
 [2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [textmate-grammar-python]: success
 [2024-05-09 08:51:17] INFO root fetch - main [MainThread]: Store serial: [23127286]
+[2024-05-09 08:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127286]
+[2024-05-09 08:53:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zkagi-api
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastRAMQPI
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libvhdi-python
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abampz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-random
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-postgresql
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-validation
+[2024-05-09 08:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emotion-ai-api
+[2024-05-09 08:53:26] WARNING root fetch - processPackages [emotion-ai-api]: Skipping, unable to determine old version
+[2024-05-09 08:53:26] INFO root fetch - main [MainThread]: End processing [emotion-ai-api] error
+[2024-05-09 08:53:26] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.1] Old Version: [7.3.0]
+[2024-05-09 08:53:26] WARNING root fetch - processPackages [abampz]: Skipping, unable to determine old version
+[2024-05-09 08:53:26] INFO root fetch - main [MainThread]: End processing [abampz] error
+[2024-05-09 08:53:26] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/58/31/a7d8683200e3ed06529abe745663cb53ad22d27ea986e0c867b300c34304/fastramqpi-7.3.0.tar.gz
+[2024-05-09 08:53:26] WARNING root fetch - processPackages [zkagi-api]: Skipping, unable to determine old version
+[2024-05-09 08:53:26] INFO root fetch - main [MainThread]: End processing [zkagi-api] error
+[2024-05-09 08:53:26] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-09 08:53:26] INFO root fetch - processPackages [libvhdi-python]: New version: [20240509] Old Version: [20240303]
+[2024-05-09 08:53:26] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-09 08:53:26] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 08:53:26] INFO root fetch - processPackages [libvhdi-python]: Downloading https://files.pythonhosted.org/packages/9d/17/1818fd842be3e7cc0630538664a2377ed0cfde06238536f31206b8c3b685/libvhdi-python-20240303.tar.gz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/31/81/21aaf47b2ba2addf4463cf117fae47ddae44ec2a5b5acb039fbe92b9e39c/fastramqpi-7.3.1.tar.gz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2024-05-09 08:53:26] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-09 08:53:26] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.3.0.tar.gz tmp/fastramqpi-7.3.1.tar.gz --markdown 20240509/F/FastRAMQPI/7.3.0-7.3.1/README.md --exclude *.pyd
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-09 08:53:27] INFO root fetch - processPackages [libvhdi-python]: Downloading https://files.pythonhosted.org/packages/a5/ab/231ee6e55a119f99df9a0217e98b0301bda3bbc19c46a9e8ce34fba69a33/libvhdi-python-20240509.tar.gz
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240509/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-09 08:53:27] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240509/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-09 08:53:27] INFO root fetch - processPackages [libvhdi-python]: executing diffoscope
+[2024-05-09 08:53:27] INFO root fetch - processPackages [libvhdi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvhdi-python-20240303.tar.gz tmp/libvhdi-python-20240509.tar.gz --markdown 20240509/l/libvhdi-python/20240303-20240509/README.md --exclude *.pyd
+[2024-05-09 08:53:27] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2024-05-09 08:53:27] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20240509/h/hestia-earth-validation/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 08:53:27] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.0.tar.gz]
+[2024-05-09 08:53:27] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.1.tar.gz]
+[2024-05-09 08:53:27] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-09 08:53:27] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-09 08:53:27] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-09 08:53:28] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-09 08:53:28] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-09 08:53:28] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-09 08:53:28] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2024-05-09 08:53:28] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2024-05-09 08:53:28] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2024-05-09 08:53:32] INFO root fetch - processPackages [libvhdi-python]: Remove: archive file [/home/abi/fetcher/tmp/libvhdi-python-20240303.tar.gz]
+[2024-05-09 08:53:32] INFO root fetch - processPackages [libvhdi-python]: Remove: archive file [/home/abi/fetcher/tmp/libvhdi-python-20240509.tar.gz]
+[2024-05-09 08:53:32] INFO root fetch - main [MainThread]: End processing [libvhdi-python]: success
+[2024-05-09 08:53:32] INFO root fetch - main [MainThread]: Store serial: [23127313]
