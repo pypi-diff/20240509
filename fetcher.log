@@ -20994,3 +20994,47 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 13:05:48] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-25.2.3.tar.gz]
 [2024-05-09 13:05:48] INFO root fetch - main [MainThread]: End processing [ej2-streamlit-grids]: success
 [2024-05-09 13:05:48] INFO root fetch - main [MainThread]: Store serial: [23129933]
+[2024-05-09 13:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129933]
+[2024-05-09 13:08:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 13:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-Captchaify
+[2024-05-09 13:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytiqs
+[2024-05-09 13:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Abava-SDK
+[2024-05-09 13:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skilleter-thingy
+[2024-05-09 13:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Fr1997v011
+[2024-05-09 13:08:06] INFO root fetch - processPackages [pytiqs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 13:08:06] INFO root fetch - processPackages [Fr1997v011]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-09 13:08:06] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.41] Old Version: [0.0.40]
+[2024-05-09 13:08:06] INFO root fetch - processPackages [flask-Captchaify]: New version: [1.6.8.1] Old Version: [1.6.8]
+[2024-05-09 13:08:06] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/95/8e/30a66078f825e4ef7045cffc809f51ec2b0ff062088fd5a1af1b443447a6/pytiqs-1.0.8.tar.gz
+[2024-05-09 13:08:06] INFO root fetch - processPackages [Abava-SDK]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-09 13:08:06] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/d4/26/2124027592402cbebb3cdf94663fd85a67680c742f5b10a719dc8ce2dfb6/skilleter_thingy-0.0.40.tar.gz
+[2024-05-09 13:08:06] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/0b/f0/3c7bbf5b837733ae16df9e14af52223e6c7e34a3f5bae806201767df9ec7/Fr1997v011-1.4.4.tar.gz
+[2024-05-09 13:08:06] INFO root fetch - processPackages [flask-Captchaify]: Downloading https://files.pythonhosted.org/packages/72/dd/1944477915dab59ddaab73f524ca3606aa123c91b66d0a6c794055954ac0/flask_captchaify-1.6.8.tar.gz
+[2024-05-09 13:08:06] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/cf/e1/3a5e1517241ce196cec1834b217d04431026df6e028a2128f30189068a25/Abava_SDK-1.0.6-py3-none-any.whl
+[2024-05-09 13:08:06] WARNING root fetch - processPackages [flask-Captchaify]: Skipping package: exceeds size limit 33506212>=10485760
+[2024-05-09 13:08:06] INFO root fetch - main [MainThread]: End processing [flask-Captchaify] error
+[2024-05-09 13:08:06] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/58/d2/c0049b0f30ead12686d88eed4acd08a2cd919d150d089ac12e4616494aed/pytiqs-1.0.9.tar.gz
+[2024-05-09 13:08:07] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-05-09 13:08:07] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.8.tar.gz tmp/pytiqs-1.0.9.tar.gz --markdown 20240509/p/pytiqs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 13:08:07] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/c2/03/c26704d0f4cc2263322a497bfa95c7d4a4f088d9d3fd50d4b42abdeaadaa/skilleter_thingy-0.0.41.tar.gz
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/56/42/76723f493f9ecb34403cc47b9e07956b56114128dfb7ca5dc759e3dc5485/Fr1997v011-1.4.5.tar.gz
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Abava-SDK]: Downloading https://files.pythonhosted.org/packages/47/63/322d4f7c495c90dcbf28e7b705556da20d7fd2155aeb60d332de99ac647b/Abava_SDK-1.0.7-py3-none-any.whl
+[2024-05-09 13:08:07] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-09 13:08:07] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.40.tar.gz tmp/skilleter_thingy-0.0.41.tar.gz --markdown 20240509/s/skilleter-thingy/0.0.40-0.0.41/README.md --exclude *.pyd
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.4.4.tar.gz tmp/Fr1997v011-1.4.5.tar.gz --markdown 20240509/F/Fr1997v011/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Abava-SDK]: executing diffoscope
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Abava-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abava_SDK-1.0.6-py3-none-any.whl.zip tmp/Abava_SDK-1.0.7-py3-none-any.whl.zip --markdown 20240509/A/Abava-SDK/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-09 13:08:07] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.8.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.9.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.4.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.5.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-09 13:08:07] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.40.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.41.tar.gz]
+[2024-05-09 13:08:07] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-09 13:08:08] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.6-py3-none-any.whl.zip]
+[2024-05-09 13:08:08] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.7-py3-none-any.whl.zip]
+[2024-05-09 13:08:08] INFO root fetch - main [MainThread]: End processing [Abava-SDK]: success
+[2024-05-09 13:08:08] INFO root fetch - main [MainThread]: Store serial: [23129946]
