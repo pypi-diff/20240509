@@ -15421,3 +15421,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:14:56] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
 [2024-05-09 10:14:56] INFO root fetch - main [MainThread]: End processing [crawlee]: success
 [2024-05-09 10:14:56] INFO root fetch - main [MainThread]: Store serial: [23127927]
+[2024-05-09 10:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127927]
+[2024-05-09 10:17:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-core-python
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goodpy
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvat-cli
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvat-sdk
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Procpath
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roundedlyz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-messaging-python
+[2024-05-09 10:17:06] INFO root fetch - processPackages [Procpath]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1715242479] Old Version: [1.7.0.dev1715156174]
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1715156319] Old Version: [1.7.0.dev1715156305]
+[2024-05-09 10:17:06] INFO root fetch - processPackages [goodpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/2c/56/823d92f6765fac67700e56384bb596978cca655d4fd57a73aa37543cb27b/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/a9/ad/af2a2a1cc5972596ff832920388c996065f87d0bccfa1a7d68f1c0040c87/aissemble_foundation_messaging_python-1.7.0.dev1715156305.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [cvat-sdk]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-09 10:17:06] WARNING root fetch - processPackages [roundedlyz]: Skipping, unable to determine old version
+[2024-05-09 10:17:06] INFO root fetch - main [MainThread]: End processing [roundedlyz] error
+[2024-05-09 10:17:06] INFO root fetch - processPackages [cvat-cli]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-09 10:17:06] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170589>=10485760
+[2024-05-09 10:17:06] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-09 10:17:06] INFO root fetch - processPackages [Procpath]: Downloading https://files.pythonhosted.org/packages/5a/58/9f99f915ff894422ee4f88eb9978bb63051deef89dec7e373a8b11d30c30/Procpath-1.9.0.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/ce/fd/9403488a867a8d47c4effa7206716ca5e765675f498455192c1e88a52e9d/goodpy-0.0.1.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/aa/c1/2515c1dbd659ba865a8f028a381ee6cf53e63e3fe6141da712fb234bcfb5/cvat_sdk-2.9.1.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/f5/50/2a978355e9c68c192572f2b2c9775488be5562842d2130c085ddd2664716/cvat-cli-2.9.1.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/fe/4c/690be47f9809f938fda8dc85c9011eea47083e1e90f99a697520b76b29b2/aissemble_foundation_core_python-1.7.0.dev1715242479.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [Procpath]: Downloading https://files.pythonhosted.org/packages/59/21/f7d5d69f366a784cef119d217f0a58a133fee7581403b59da035c31f1c5e/Procpath-1.9.1.tar.gz
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-09 10:17:06] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1715242479.tar.gz --markdown 20240509/a/aissemble-foundation-core-python/1.7.0.dev1715156174-1.7.0.dev1715242479/README.md --exclude *.pyd
+[2024-05-09 10:17:07] INFO root fetch - processPackages [goodpy]: Downloading https://files.pythonhosted.org/packages/9e/f8/053a4abaa15621a03bc4613594f0b26211e90bdb705d48bdc276308c4d5d/goodpy-0.0.2-py2.py3-none-any.whl
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/cc/e6/4ba5cf76f834d9c9c86561cdead8ee5fa895025e2e7ef0cc373ab5af75db/cvat-cli-2.9.2.tar.gz
+[2024-05-09 10:17:07] INFO root fetch - processPackages [Procpath]: executing diffoscope
+[2024-05-09 10:17:07] INFO root fetch - processPackages [Procpath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Procpath-1.9.0.tar.gz tmp/Procpath-1.9.1.tar.gz --markdown 20240509/P/Procpath/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/d0/2c/0ab11b8c59ed0e74b7cd21737298ead9d7abb46f4eb3c21ba7bdb9a792a3/cvat_sdk-2.9.2.tar.gz
+[2024-05-09 10:17:07] INFO root fetch - processPackages [goodpy]: executing diffoscope
+[2024-05-09 10:17:07] INFO root fetch - processPackages [goodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodpy-0.0.1.tar.gz tmp/goodpy-0.0.2-py2.py3-none-any.whl.zip --markdown 20240509/g/goodpy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.9.1.tar.gz tmp/cvat-cli-2.9.2.tar.gz --markdown 20240509/c/cvat-cli/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.9.1.tar.gz tmp/cvat_sdk-2.9.2.tar.gz --markdown 20240509/c/cvat-sdk/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-09 10:17:07] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz]
+[2024-05-09 10:17:07] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715242479.tar.gz]
+[2024-05-09 10:17:07] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-09 10:17:07] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.1.tar.gz]
+[2024-05-09 10:17:07] INFO root fetch - processPackages [goodpy]: Remove: archive file [/home/abi/fetcher/tmp/goodpy-0.0.2-py2.py3-none-any.whl.zip]
+[2024-05-09 10:17:07] INFO root fetch - main [MainThread]: End processing [goodpy]: success
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.1.tar.gz]
+[2024-05-09 10:17:07] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.2.tar.gz]
+[2024-05-09 10:17:07] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2024-05-09 10:17:08] INFO root fetch - processPackages [Procpath]: Remove: archive file [/home/abi/fetcher/tmp/Procpath-1.9.0.tar.gz]
+[2024-05-09 10:17:08] INFO root fetch - processPackages [Procpath]: Remove: archive file [/home/abi/fetcher/tmp/Procpath-1.9.1.tar.gz]
+[2024-05-09 10:17:08] INFO root fetch - main [MainThread]: End processing [Procpath]: success
+[2024-05-09 10:17:10] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.1.tar.gz]
+[2024-05-09 10:17:10] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
+[2024-05-09 10:17:10] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2024-05-09 10:17:10] INFO root fetch - main [MainThread]: Store serial: [23127948]
