@@ -20823,3 +20823,105 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 13:00:53] INFO root fetch - processPackages [libgunshotmatch]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch-0.9.1.tar.gz]
 [2024-05-09 13:00:53] INFO root fetch - main [MainThread]: End processing [libgunshotmatch]: success
 [2024-05-09 13:00:53] INFO root fetch - main [MainThread]: Store serial: [23129869]
+[2024-05-09 13:02:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129869]
+[2024-05-09 13:03:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comfy-script
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptcrossd
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakefs-client
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lakefs-sdk
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odm-api
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cugdt
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai4free
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TPE-Bot
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvprocessor
+[2024-05-09 13:03:02] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [TPE-Bot]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-09 13:03:02] WARNING root fetch - processPackages [cugdt]: Skipping, unable to determine old version
+[2024-05-09 13:03:02] INFO root fetch - processPackages [cugdt]: Start processing: chaseinvest-api
+[2024-05-09 13:03:02] INFO root fetch - main [MainThread]: End processing [cugdt] error
+[2024-05-09 13:03:02] INFO root fetch - processPackages [comfy-script]: New version: [0.5.0a4] Old Version: [0.5.0a3]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [chaseinvest-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ptcrossd]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [odm-api]: New version: [1.57.0] Old Version: [0.0.1]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [cvprocessor]: New version: [0.1.0] Old Version: [0.0.31]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [chaseinvest-api]: Downloading https://files.pythonhosted.org/packages/ff/fb/ab230525ff93d6812290434fdaea6f5d262558da1b505d603324457c94d3/chaseinvest-api-0.1.1.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [comfy-script]: Downloading https://files.pythonhosted.org/packages/ff/03/1f2710dda6a0f863aaa17d0decb3efd4a35ffb8baf29dce79b104e1cb55f/comfy_script-0.5.0a3.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/40/56/242a4edbfab2ea303d27569bdd7e1b29865efa351c6c4ce66178e96ceda5/cvprocessor-0.0.31.tar.gz
+[2024-05-09 13:03:02] WARNING root fetch - processPackages [ai4free]: Skipping, unable to determine old version
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ai4free]: Start processing: setech
+[2024-05-09 13:03:02] INFO root fetch - main [MainThread]: End processing [ai4free] error
+[2024-05-09 13:03:02] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/19/a7cdacae0c224cc02ea5e0684804edf5c37ae3a7da40033bda6432e0e2e3/TPE-Bot-6.9.1.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [setech]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-09 13:03:02] INFO root fetch - processPackages [ptcrossd]: Downloading https://files.pythonhosted.org/packages/bd/fb/fc557f947a9b239e718e6cd9f20409e7d3d2e8c85dfb6d55c9853ec1d0c6/ptcrossd-1.0.2.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [odm-api]: Downloading https://files.pythonhosted.org/packages/ac/90/a912b6aa0b2c5dd1d8c317ae23ea2315f47fb204880fa10723dad54b42ee/odm-api-0.0.1.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/d5/28/166876dc549f1c300a0bdc4aa94d2c2ae8ad3c7d2789f90d4db7b2d51f7d/setech-1.3.0.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [chaseinvest-api]: Downloading https://files.pythonhosted.org/packages/d6/cd/539a43175f736e019a725d29b8628af03605b87c3283ee6b474dd1afe3b4/chaseinvest_api-0.1.2.tar.gz
+[2024-05-09 13:03:02] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 13:03:02] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/97/d5/9a7536296d6d422cab5e8b091ae7d9369f55522b6166113d9915633b19fe/cvprocessor-0.1.0.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [chaseinvest-api]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [chaseinvest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaseinvest-api-0.1.1.tar.gz tmp/chaseinvest_api-0.1.2.tar.gz --markdown 20240509/c/chaseinvest-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/96/a2/0137487f7613c9774c27835f7cee230b7e06802a6b86240ba9a05589cde5/setech-1.3.1.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [ptcrossd]: Downloading https://files.pythonhosted.org/packages/c5/5c/b70f674c1d265a4e7b849d0bbdf61eefa6bde576949df2d0c2b412606543/ptcrossd-1.0.3.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.3.0.tar.gz tmp/setech-1.3.1.tar.gz --markdown 20240509/s/setech/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/70/7f/575b827c491ae2bce901b106dad351e35f042fb74bc67a5e86613a1358d8/TPE-Bot-6.9.2.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.31.tar.gz tmp/cvprocessor-0.1.0.tar.gz --markdown 20240509/c/cvprocessor/0.0.31-0.1.0/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [ptcrossd]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [ptcrossd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptcrossd-1.0.2.tar.gz tmp/ptcrossd-1.0.3.tar.gz --markdown 20240509/p/ptcrossd/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [odm-api]: Downloading https://files.pythonhosted.org/packages/98/91/bac3b4b10cee2531985c7b2895602ae73b4ba0aba030a5d1e9bf245a2cb1/odm_api-1.57.0.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240509/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240509/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [comfy-script]: Downloading https://files.pythonhosted.org/packages/ba/19/7d85b3944c9051635cb1a555665f057f0beedcb5efd782bef002a8567048/comfy_script-0.5.0a4.tar.gz
+[2024-05-09 13:03:03] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.9.1.tar.gz tmp/TPE-Bot-6.9.2.tar.gz --markdown 20240509/T/TPE-Bot/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [odm-api]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [odm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odm-api-0.0.1.tar.gz tmp/odm_api-1.57.0.tar.gz --markdown 20240509/o/odm-api/0.0.1-1.57.0/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [comfy-script]: executing diffoscope
+[2024-05-09 13:03:03] INFO root fetch - processPackages [comfy-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfy_script-0.5.0a3.tar.gz tmp/comfy_script-0.5.0a4.tar.gz --markdown 20240509/c/comfy-script/0.5.0a3-0.5.0a4/README.md --exclude *.pyd
+[2024-05-09 13:03:03] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 13:03:03] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 13:03:03] INFO root fetch - processPackages [zfx]: Start processing: pygftp
+[2024-05-09 13:03:03] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 13:03:03] WARNING root fetch - processPackages [pygftp]: Skipping, unable to determine old version
+[2024-05-09 13:03:03] INFO root fetch - main [MainThread]: End processing [pygftp] error
+[2024-05-09 13:03:04] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.0.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.1.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [ptcrossd]: Remove: archive file [/home/abi/fetcher/tmp/ptcrossd-1.0.2.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [ptcrossd]: Remove: archive file [/home/abi/fetcher/tmp/ptcrossd-1.0.3.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [ptcrossd]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.31.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.1.0.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [chaseinvest-api]: Remove: archive file [/home/abi/fetcher/tmp/chaseinvest-api-0.1.1.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [chaseinvest-api]: Remove: archive file [/home/abi/fetcher/tmp/chaseinvest_api-0.1.2.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [chaseinvest-api]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.1.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.2.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.5.0a3.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [comfy-script]: Remove: archive file [/home/abi/fetcher/tmp/comfy_script-0.5.0a4.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [comfy-script]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-05-09 13:03:04] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-05-09 13:03:04] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-05-09 13:03:05] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-05-09 13:03:07] INFO root fetch - processPackages [odm-api]: Remove: archive file [/home/abi/fetcher/tmp/odm-api-0.0.1.tar.gz]
+[2024-05-09 13:03:07] INFO root fetch - processPackages [odm-api]: Remove: archive file [/home/abi/fetcher/tmp/odm_api-1.57.0.tar.gz]
+[2024-05-09 13:03:07] INFO root fetch - main [MainThread]: End processing [odm-api]: success
+[2024-05-09 13:03:07] INFO root fetch - main [MainThread]: Store serial: [23129909]
