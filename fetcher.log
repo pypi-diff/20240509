@@ -8632,3 +8632,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:49:20] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.78.0.tar.gz]
 [2024-05-09 04:49:20] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-05-09 04:49:20] INFO root fetch - main [MainThread]: Store serial: [23125266]
+[2024-05-09 04:51:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125266]
+[2024-05-09 04:51:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avn
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ganblr
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adtoolbox
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: duwi-smart-sdk
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spiremz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: launchable
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tamp
+[2024-05-09 04:51:29] INFO root fetch - processPackages [avn]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-09 04:51:29] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-09 04:51:29] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/03/eb/806be6c50d3b3360aaee606d3f6324deb75ee62e7c6f77a5440437ff23c5/avn-0.5.0.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/0c/79/753df95d32ceabedd6ad10ab0d2dd78aa1741afe85b37ee82fc5101fe19f/adtoolbox-0.5.2.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ganblr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 04:51:29] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-09 04:51:29] WARNING root fetch - processPackages [spiremz]: Skipping, unable to determine old version
+[2024-05-09 04:51:29] INFO root fetch - main [MainThread]: End processing [spiremz] error
+[2024-05-09 04:51:29] INFO root fetch - processPackages [launchable]: New version: [1.9.0] Old Version: [1.87.2]
+[2024-05-09 04:51:29] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/a9/62/21e89b472f943c3e04aa2c6d6f996417b8794a094578b4ae00b6a67ac441/duwi_smart_sdk-0.1.6.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/5d/06/79497b103925e24ea2df054bafb676685a55d45fbc13c1d2ff4ef24001f0/launchable-1.87.2.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ganblr]: Downloading https://files.pythonhosted.org/packages/c2/a6/e4097efcdcff218e5a2134ad06e633b93352e56087a22e5840267aca920b/ganblr-0.1.1.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/2c/85/edfeee6b76403048b8a77aa02b7179e8a6af9b264606e0a0c8e225d9d97d/avn-0.5.1.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [tamp]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-09 04:51:29] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6b/94/a83105742e30342f73ccec7103366913c76309df720a709067891c917c23/adtoolbox-0.5.3.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-09 04:51:29] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.2.tar.gz tmp/adtoolbox-0.5.3.tar.gz --markdown 20240509/a/adtoolbox/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-09 04:51:29] INFO root fetch - processPackages [avn]: executing diffoscope
+[2024-05-09 04:51:29] INFO root fetch - processPackages [avn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avn-0.5.0.tar.gz tmp/avn-0.5.1.tar.gz --markdown 20240509/a/avn/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 04:51:29] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/47/f8/0e1899346592aa6ccd5c01b344e38869871fa7c705e169e8ea413355149c/duwi_smart_sdk-0.1.7.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [ganblr]: Downloading https://files.pythonhosted.org/packages/b0/ee/69c13a4fb7835bc2c8834bda5685e1a9a91065a10aa6d0720697a2e3f176/ganblr-0.1.2.tar.gz
+[2024-05-09 04:51:29] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/97/fc/ea57672b903403a00b0e27fd2585a082f9558139b44b839caf9a8a83b7f8/tamp-1.4.1.tar.gz
+[2024-05-09 04:51:30] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-09 04:51:30] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.6.tar.gz tmp/duwi_smart_sdk-0.1.7.tar.gz --markdown 20240509/d/duwi-smart-sdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-09 04:51:30] INFO root fetch - processPackages [ganblr]: executing diffoscope
+[2024-05-09 04:51:30] INFO root fetch - processPackages [ganblr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganblr-0.1.1.tar.gz tmp/ganblr-0.1.2.tar.gz --markdown 20240509/g/ganblr/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 04:51:30] INFO root fetch - processPackages [launchable]: Downloading https://files.pythonhosted.org/packages/f2/b8/fb6131a7482937963e3324307046a838cb026353d3a543979576d48a47dd/launchable-1.9.0.tar.gz
+[2024-05-09 04:51:30] INFO root fetch - processPackages [tamp]: Downloading https://files.pythonhosted.org/packages/71/18/543e014e1bdeb31ae6678f56d91c95c800191c8105db8b92f229f0848676/tamp-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 04:51:30] WARNING root fetch - processPackages [launchable]: Skipping package: exceeds size limit 18314320>=10485760
+[2024-05-09 04:51:30] INFO root fetch - main [MainThread]: End processing [launchable] error
+[2024-05-09 04:51:30] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.2.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.3.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-09 04:51:30] INFO root fetch - processPackages [ganblr]: Remove: archive file [/home/abi/fetcher/tmp/ganblr-0.1.1.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - processPackages [ganblr]: Remove: archive file [/home/abi/fetcher/tmp/ganblr-0.1.2.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - main [MainThread]: End processing [ganblr]: success
+[2024-05-09 04:51:30] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.5.0.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.5.1.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - main [MainThread]: End processing [avn]: success
+[2024-05-09 04:51:30] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.6.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.7.tar.gz]
+[2024-05-09 04:51:30] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-09 04:51:31] INFO root fetch - processPackages [tamp]: executing diffoscope
+[2024-05-09 04:51:31] INFO root fetch - processPackages [tamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamp-1.4.1.tar.gz tmp/tamp-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240509/t/tamp/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-09 04:51:31] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.4.1.tar.gz]
+[2024-05-09 04:51:31] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-09 04:51:31] INFO root fetch - main [MainThread]: End processing [tamp]: success
+[2024-05-09 04:51:31] INFO root fetch - main [MainThread]: Store serial: [23125289]
