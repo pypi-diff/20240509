@@ -3369,3 +3369,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:38:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240509.356.tar.gz]
 [2024-05-09 02:38:34] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-09 02:38:34] INFO root fetch - main [MainThread]: Store serial: [23123007]
+[2024-05-09 02:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123007]
+[2024-05-09 02:40:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 02:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nokey
+[2024-05-09 02:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyff-client
+[2024-05-09 02:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: knackiestz
+[2024-05-09 02:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradema
+[2024-05-09 02:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argufy
+[2024-05-09 02:40:44] WARNING root fetch - processPackages [knackiestz]: Skipping, unable to determine old version
+[2024-05-09 02:40:44] INFO root fetch - main [MainThread]: End processing [knackiestz] error
+[2024-05-09 02:40:44] INFO root fetch - processPackages [nokey]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-09 02:40:44] INFO root fetch - processPackages [gradema]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-09 02:40:44] INFO root fetch - processPackages [dyff-client]: New version: [0.4.2] Old Version: [0.3.2]
+[2024-05-09 02:40:44] INFO root fetch - processPackages [argufy]: New version: [0.1.2b4] Old Version: [0.1.2b3]
+[2024-05-09 02:40:44] INFO root fetch - processPackages [gradema]: Downloading https://files.pythonhosted.org/packages/ee/b1/66ad79ee53397825d68845ed9790a581685cfe2cebb8f57e430d7c7a5a9c/gradema-0.0.6.tar.gz
+[2024-05-09 02:40:44] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/ef/be/60d1bf94e204d59781c61a135ca61255a92aa78041f3f3aff6ec7c1e5076/dyff_client-0.3.2.tar.gz
+[2024-05-09 02:40:44] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/30/e7/4c51a47c894d023e66f61ea3a0ff2d392fb6b6746f3c64c32ad9358cd4d3/nokey-0.3.3.tar.gz
+[2024-05-09 02:40:44] INFO root fetch - processPackages [argufy]: Downloading https://files.pythonhosted.org/packages/ca/90/d47e0dabedb38b464b24dbfcc1d804888f69c0585dcc6b51e3fa6579450a/argufy-0.1.2b3.tar.gz
+[2024-05-09 02:40:45] INFO root fetch - processPackages [gradema]: Downloading https://files.pythonhosted.org/packages/3c/5c/a7c978f3e37ebb7a341384d7bb912d5670560f4aca3680a71676b244eb0e/gradema-0.1.0.tar.gz
+[2024-05-09 02:40:45] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/19/19/6fc3cb8ac6f80f9d9dbbf52627fbfca846ec83914391e6514a5771f2f252/nokey-0.4.0.tar.gz
+[2024-05-09 02:40:45] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/48/32/2eaeb98aad67e0ca88914d42f70879b72f48b0d25f307a0378e302f46d10/dyff_client-0.4.2.tar.gz
+[2024-05-09 02:40:45] INFO root fetch - processPackages [gradema]: executing diffoscope
+[2024-05-09 02:40:45] INFO root fetch - processPackages [gradema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradema-0.0.6.tar.gz tmp/gradema-0.1.0.tar.gz --markdown 20240509/g/gradema/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-09 02:40:45] INFO root fetch - processPackages [argufy]: Downloading https://files.pythonhosted.org/packages/2b/8e/c844bdc60de40a71286f128cdce923fbabcd0b4350e1f79b94a7f813f096/argufy-0.1.2b4.tar.gz
+[2024-05-09 02:40:45] INFO root fetch - processPackages [nokey]: executing diffoscope
+[2024-05-09 02:40:45] INFO root fetch - processPackages [nokey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nokey-0.3.3.tar.gz tmp/nokey-0.4.0.tar.gz --markdown 20240509/n/nokey/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-09 02:40:45] INFO root fetch - processPackages [dyff-client]: executing diffoscope
+[2024-05-09 02:40:45] INFO root fetch - processPackages [dyff-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_client-0.3.2.tar.gz tmp/dyff_client-0.4.2.tar.gz --markdown 20240509/d/dyff-client/0.3.2-0.4.2/README.md --exclude *.pyd
+[2024-05-09 02:40:45] INFO root fetch - processPackages [argufy]: executing diffoscope
+[2024-05-09 02:40:45] INFO root fetch - processPackages [argufy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argufy-0.1.2b3.tar.gz tmp/argufy-0.1.2b4.tar.gz --markdown 20240509/a/argufy/0.1.2b3-0.1.2b4/README.md --exclude *.pyd
+[2024-05-09 02:40:46] INFO root fetch - processPackages [gradema]: Remove: archive file [/home/abi/fetcher/tmp/gradema-0.0.6.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - processPackages [gradema]: Remove: archive file [/home/abi/fetcher/tmp/gradema-0.1.0.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - main [MainThread]: End processing [gradema]: success
+[2024-05-09 02:40:46] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.3.3.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.4.0.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - main [MainThread]: End processing [nokey]: success
+[2024-05-09 02:40:46] INFO root fetch - processPackages [argufy]: Remove: archive file [/home/abi/fetcher/tmp/argufy-0.1.2b3.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - processPackages [argufy]: Remove: archive file [/home/abi/fetcher/tmp/argufy-0.1.2b4.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - main [MainThread]: End processing [argufy]: success
+[2024-05-09 02:40:46] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.3.2.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.4.2.tar.gz]
+[2024-05-09 02:40:46] INFO root fetch - main [MainThread]: End processing [dyff-client]: success
+[2024-05-09 02:40:46] INFO root fetch - main [MainThread]: Store serial: [23123025]
