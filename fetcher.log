@@ -20072,3 +20072,39 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:17:24] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-1.0.9.tar.gz]
 [2024-05-09 12:17:24] INFO root fetch - main [MainThread]: End processing [code-loader]: success
 [2024-05-09 12:17:24] INFO root fetch - main [MainThread]: Store serial: [23129583]
+[2024-05-09 12:19:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129583]
+[2024-05-09 12:19:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cugdt
+[2024-05-09 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liionpack
+[2024-05-09 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh
+[2024-05-09 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpas
+[2024-05-09 12:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlumedToHTML
+[2024-05-09 12:19:32] WARNING root fetch - processPackages [docmesh]: Skipping, unable to determine old version
+[2024-05-09 12:19:32] INFO root fetch - main [MainThread]: End processing [docmesh] error
+[2024-05-09 12:19:33] INFO root fetch - processPackages [gpas]: New version: [1.0.2a1] Old Version: [1.0.1a4]
+[2024-05-09 12:19:33] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 12:19:33] INFO root fetch - processPackages [liionpack]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 12:19:33] ERROR root fetch - processPackages [cugdt]: Unable to get metadata: No such project 'cugdt'
+[2024-05-09 12:19:33] INFO root fetch - main [MainThread]: End processing [cugdt] error
+[2024-05-09 12:19:33] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-09 12:19:33] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/14/98/5819a9fcbcad6287a6987dd7909010cb75f70f4b51a4eb77802ef90e7fed/liionpack-0.3.8.tar.gz
+[2024-05-09 12:19:33] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/19/39/f2e8dfa99c1031f5bebefffa9f5f17f5e17c37041c201f7a83f53d43cb8d/gpas-1.0.1a4.tar.gz
+[2024-05-09 12:19:33] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-09 12:19:33] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-09 12:19:33] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240509/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 12:19:33] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/1f/4a/162dc0963010b869ac48be006b76eaef3531913d7f00a06e70a541b81ef3/gpas-1.0.2a1.tar.gz
+[2024-05-09 12:19:33] INFO root fetch - processPackages [gpas]: executing diffoscope
+[2024-05-09 12:19:33] INFO root fetch - processPackages [gpas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpas-1.0.1a4.tar.gz tmp/gpas-1.0.2a1.tar.gz --markdown 20240509/g/gpas/1.0.1a4-1.0.2a1/README.md --exclude *.pyd
+[2024-05-09 12:19:34] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-09 12:19:34] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-09 12:19:34] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-09 12:19:34] INFO root fetch - processPackages [liionpack]: Downloading https://files.pythonhosted.org/packages/d2/88/149c75de27a611fc7dffb3a84f0bb9bf6c61de61d646dc1c3cc731384fa5/liionpack-0.3.9.tar.gz
+[2024-05-09 12:19:34] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a4.tar.gz]
+[2024-05-09 12:19:34] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.2a1.tar.gz]
+[2024-05-09 12:19:34] INFO root fetch - main [MainThread]: End processing [gpas]: success
+[2024-05-09 12:19:34] INFO root fetch - processPackages [liionpack]: executing diffoscope
+[2024-05-09 12:19:34] INFO root fetch - processPackages [liionpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liionpack-0.3.8.tar.gz tmp/liionpack-0.3.9.tar.gz --markdown 20240509/l/liionpack/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 12:19:35] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.8.tar.gz]
+[2024-05-09 12:19:35] INFO root fetch - processPackages [liionpack]: Remove: archive file [/home/abi/fetcher/tmp/liionpack-0.3.9.tar.gz]
+[2024-05-09 12:19:35] INFO root fetch - main [MainThread]: End processing [liionpack]: success
+[2024-05-09 12:19:35] INFO root fetch - main [MainThread]: Store serial: [23129600]
