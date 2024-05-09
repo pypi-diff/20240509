@@ -7899,3 +7899,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:56:07] INFO root fetch - processPackages [libgal]: Remove: archive file [/home/abi/fetcher/tmp/libgal-1.0.2.tar.gz]
 [2024-05-09 03:56:07] INFO root fetch - main [MainThread]: End processing [libgal]: success
 [2024-05-09 03:56:07] INFO root fetch - main [MainThread]: Store serial: [23124663]
+[2024-05-09 03:58:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124663]
+[2024-05-09 03:58:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 03:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: degirum-tools
+[2024-05-09 03:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolkkaz
+[2024-05-09 03:58:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyroltrilinos
+[2024-05-09 03:58:17] INFO root fetch - processPackages [degirum-tools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 03:58:17] INFO root fetch - processPackages [degirum-tools]: Downloading https://files.pythonhosted.org/packages/ba/41/4be175aa1dc53e5d99546a190e46ef7d17127f5178f2b9b277fa99c953c0/degirum_tools-0.8.0-py3-none-any.whl
+[2024-05-09 03:58:17] WARNING root fetch - processPackages [kolkkaz]: Skipping, unable to determine old version
+[2024-05-09 03:58:17] INFO root fetch - main [MainThread]: End processing [kolkkaz] error
+[2024-05-09 03:58:17] INFO root fetch - processPackages [pyroltrilinos]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-09 03:58:17] INFO root fetch - processPackages [degirum-tools]: Downloading https://files.pythonhosted.org/packages/e4/fc/a4c0d5686ba75307985d5d4cca26f6ade55f3d4c746ae82003ab2f69fa2a/degirum_tools-0.9.0-py3-none-any.whl
+[2024-05-09 03:58:17] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/39/36/4a196a94bb6e7cad3de0893cc2983b72700a5064bbd18b348bc10f82cd31/pyroltrilinos-0.5.1.tar.gz
+[2024-05-09 03:58:17] INFO root fetch - processPackages [degirum-tools]: executing diffoscope
+[2024-05-09 03:58:17] INFO root fetch - processPackages [degirum-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum_tools-0.8.0-py3-none-any.whl.zip tmp/degirum_tools-0.9.0-py3-none-any.whl.zip --markdown 20240509/d/degirum-tools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 03:58:17] INFO root fetch - processPackages [pyroltrilinos]: Downloading https://files.pythonhosted.org/packages/31/20/e8f25531469ebcd46eb573b7662bac3430e24e2183ee9500088ba8d8100b/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-09 03:58:18] INFO root fetch - processPackages [degirum-tools]: Remove: archive file [/home/abi/fetcher/tmp/degirum_tools-0.8.0-py3-none-any.whl.zip]
+[2024-05-09 03:58:18] INFO root fetch - processPackages [degirum-tools]: Remove: archive file [/home/abi/fetcher/tmp/degirum_tools-0.9.0-py3-none-any.whl.zip]
+[2024-05-09 03:58:18] INFO root fetch - main [MainThread]: End processing [degirum-tools]: success
+[2024-05-09 03:58:22] INFO root fetch - processPackages [pyroltrilinos]: executing diffoscope
+[2024-05-09 03:58:22] INFO root fetch - processPackages [pyroltrilinos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroltrilinos-0.5.1.tar.gz tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240509/p/pyroltrilinos/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-09 03:58:23] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.1.tar.gz]
+[2024-05-09 03:58:23] INFO root fetch - processPackages [pyroltrilinos]: Remove: archive file [/home/abi/fetcher/tmp/pyroltrilinos-0.5.2-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-09 03:58:23] INFO root fetch - main [MainThread]: End processing [pyroltrilinos]: success
+[2024-05-09 03:58:23] INFO root fetch - main [MainThread]: Store serial: [23124670]
