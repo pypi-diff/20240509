@@ -12445,3 +12445,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:55:15] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
 [2024-05-09 07:55:15] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
 [2024-05-09 07:55:15] INFO root fetch - main [MainThread]: Store serial: [23126808]
+[2024-05-09 07:57:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126808]
+[2024-05-09 07:57:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-aea-test-autonomy
+[2024-05-09 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: report-creator
+[2024-05-09 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-05-09 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-server-auth
+[2024-05-09 07:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: integripalliatez
+[2024-05-09 07:57:24] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 07:57:24] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: New version: [14.0.20240508.0] Old Version: [14.0.20240318.0]
+[2024-05-09 07:57:24] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-05-09 07:57:24] WARNING root fetch - processPackages [integripalliatez]: Skipping, unable to determine old version
+[2024-05-09 07:57:24] INFO root fetch - main [MainThread]: End processing [integripalliatez] error
+[2024-05-09 07:57:24] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 07:57:24] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-09 07:57:24] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/b0/4f/bc95a5c8d1d64618507ee8d1063f75999e5750936293d3de73657f08e4f2/odoo14_addons_oca_server_auth-14.0.20240318.0-py3-none-any.whl
+[2024-05-09 07:57:24] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2024-05-09 07:57:24] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-09 07:57:24] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-05-09 07:57:24] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-05-09 07:57:24] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240509/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 07:57:24] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: Downloading https://files.pythonhosted.org/packages/15/56/41274d9496faa52b3227cda0eb6dd7922f829d2d8e922839975f8a52de1a/odoo14_addons_oca_server_auth-14.0.20240508.0-py3-none-any.whl
+[2024-05-09 07:57:25] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-09 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: executing diffoscope
+[2024-05-09 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_auth-14.0.20240318.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_auth-14.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo14-addons-oca-server-auth/14.0.20240318.0-14.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 07:57:25] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2024-05-09 07:57:25] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-09 07:57:25] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240509/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-09 07:57:25] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2024-05-09 07:57:25] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20240509/o/open-aea-test-autonomy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 07:57:25] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-05-09 07:57:25] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-05-09 07:57:25] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-05-09 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_auth-14.0.20240318.0-py3-none-any.whl.zip]
+[2024-05-09 07:57:25] INFO root fetch - processPackages [odoo14-addons-oca-server-auth]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_auth-14.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-09 07:57:25] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-auth]: success
+[2024-05-09 07:57:25] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.0.tar.gz]
+[2024-05-09 07:57:25] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.1.tar.gz]
+[2024-05-09 07:57:25] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2024-05-09 07:57:26] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-09 07:57:26] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-09 07:57:26] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-09 07:57:26] INFO root fetch - main [MainThread]: Store serial: [23126826]
