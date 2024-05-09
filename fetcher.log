@@ -8945,3 +8945,15 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:09:27] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.3.tar.gz]
 [2024-05-09 05:09:27] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
 [2024-05-09 05:09:27] INFO root fetch - main [MainThread]: Store serial: [23125458]
+[2024-05-09 05:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125458]
+[2024-05-09 05:11:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 05:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypothesis-torch
+[2024-05-09 05:11:37] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-09 05:11:37] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/5e/d7/191035f537ad369b6dfbafdd283b74f427afc97dd69cf5e458165e3a1240/hypothesis_torch-0.4.3.tar.gz
+[2024-05-09 05:11:37] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/8e/7d/6fdaf5870636cbd377a6b8f774014b2061abc3e9e204c7b2140a01756315/hypothesis_torch-0.5.0.tar.gz
+[2024-05-09 05:11:37] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-05-09 05:11:37] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.4.3.tar.gz tmp/hypothesis_torch-0.5.0.tar.gz --markdown 20240509/h/hypothesis-torch/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-09 05:11:38] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.4.3.tar.gz]
+[2024-05-09 05:11:38] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.5.0.tar.gz]
+[2024-05-09 05:11:38] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-05-09 05:11:38] INFO root fetch - main [MainThread]: Store serial: [23125461]
