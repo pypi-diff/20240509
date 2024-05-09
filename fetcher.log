@@ -18175,3 +18175,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:07:13] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
 [2024-05-09 11:07:13] INFO root fetch - main [MainThread]: End processing [winter]: success
 [2024-05-09 11:07:13] INFO root fetch - main [MainThread]: Store serial: [23128750]
+[2024-05-09 11:09:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128750]
+[2024-05-09 11:09:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-extensions-model-training-api-sagemaker
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyav
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-org
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kumparanian
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ullm
+[2024-05-09 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RNApolis
+[2024-05-09 11:09:21] WARNING root fetch - processPackages [test-org]: Skipping, unable to determine old version
+[2024-05-09 11:09:21] INFO root fetch - main [MainThread]: End processing [test-org] error
+[2024-05-09 11:09:21] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc3] Old Version: [1.0.5rc2]
+[2024-05-09 11:09:21] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: New version: [1.7.0.dev1715245626] Old Version: [1.7.0.dev1715245510]
+[2024-05-09 11:09:22] INFO root fetch - processPackages [RNApolis]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 11:09:22] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/e6/a3/cbe9dd75650321e5abf36b712c6f474222b52b66525cf3bbceeebca096ab/kumparanian-1.0.5rc2.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/a9/79/d867e09a1318b01d97b848193b368b44ff6611a92782d61be67241f71996/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245510.tar.gz
+[2024-05-09 11:09:22] WARNING root fetch - processPackages [ullm]: Skipping, unable to determine old version
+[2024-05-09 11:09:22] INFO root fetch - main [MainThread]: End processing [ullm] error
+[2024-05-09 11:09:22] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/8b/07/59024f378677ab90f67742d2afbff1823fa99db6eb91f456409d7feed884/RNApolis-0.3.8.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [pyav]: New version: [12.1.0rc2] Old Version: [12.1.0rc1]
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Downloading https://files.pythonhosted.org/packages/a6/7c/d2b6b1d9b8d6c5c5b03434adedac64ffd1dc4ee03b69c5ea275e22dd00cb/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245626.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [pyav]: Downloading https://files.pythonhosted.org/packages/ec/1a/e7b5234c28b32d318f428cc18dd92b65f61cc0325cd88a8065bb708d2fc5/pyav-12.1.0rc1.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/37/1d/86d06a54825b41e9d273c6832b525d6a5847b3288f6703656a2a1cd622f2/RNApolis-0.3.9.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: executing diffoscope
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245510.tar.gz tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245626.tar.gz --markdown 20240509/a/aissemble-extensions-model-training-api-sagemaker/1.7.0.dev1715245510-1.7.0.dev1715245626/README.md --exclude *.pyd
+[2024-05-09 11:09:22] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/d7/24/0037ec6b89a6be97722532e0f1022736286d1b84d82512a7604f12fa0a26/kumparanian-1.0.5rc3.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [RNApolis]: executing diffoscope
+[2024-05-09 11:09:22] INFO root fetch - processPackages [RNApolis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RNApolis-0.3.8.tar.gz tmp/RNApolis-0.3.9.tar.gz --markdown 20240509/R/RNApolis/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 11:09:22] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-09 11:09:22] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc2.tar.gz tmp/kumparanian-1.0.5rc3.tar.gz --markdown 20240509/k/kumparanian/1.0.5rc2-1.0.5rc3/README.md --exclude *.pyd
+[2024-05-09 11:09:22] INFO root fetch - processPackages [pyav]: Downloading https://files.pythonhosted.org/packages/e2/2a/8d897bb009a37a0b866318b79a87ae50a5438653f9d3dc075fed4346f500/pyav-12.1.0rc2.tar.gz
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245510.tar.gz]
+[2024-05-09 11:09:22] INFO root fetch - processPackages [aissemble-extensions-model-training-api-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_extensions_model_training_api_sagemaker-1.7.0.dev1715245626.tar.gz]
+[2024-05-09 11:09:22] INFO root fetch - main [MainThread]: End processing [aissemble-extensions-model-training-api-sagemaker]: success
+[2024-05-09 11:09:23] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc2.tar.gz]
+[2024-05-09 11:09:23] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc3.tar.gz]
+[2024-05-09 11:09:23] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-09 11:09:23] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.8.tar.gz]
+[2024-05-09 11:09:23] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.9.tar.gz]
+[2024-05-09 11:09:23] INFO root fetch - main [MainThread]: End processing [RNApolis]: success
+[2024-05-09 11:09:23] INFO root fetch - processPackages [pyav]: executing diffoscope
+[2024-05-09 11:09:23] INFO root fetch - processPackages [pyav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyav-12.1.0rc1.tar.gz tmp/pyav-12.1.0rc2.tar.gz --markdown 20240509/p/pyav/12.1.0rc1-12.1.0rc2/README.md --exclude *.pyd
+[2024-05-09 11:09:26] INFO root fetch - processPackages [pyav]: Remove: archive file [/home/abi/fetcher/tmp/pyav-12.1.0rc1.tar.gz]
+[2024-05-09 11:09:26] INFO root fetch - processPackages [pyav]: Remove: archive file [/home/abi/fetcher/tmp/pyav-12.1.0rc2.tar.gz]
+[2024-05-09 11:09:26] INFO root fetch - main [MainThread]: End processing [pyav]: success
+[2024-05-09 11:09:26] INFO root fetch - main [MainThread]: Store serial: [23128795]
