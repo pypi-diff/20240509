@@ -8476,3 +8476,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:36:20] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-0.4.0.tar.gz]
 [2024-05-09 04:36:20] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
 [2024-05-09 04:36:20] INFO root fetch - main [MainThread]: Store serial: [23125100]
+[2024-05-09 04:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125100]
+[2024-05-09 04:38:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Society-Evolution-Network
+[2024-05-09 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytool-directory
+[2024-05-09 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anabih-python-test
+[2024-05-09 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyopencl
+[2024-05-09 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanQ
+[2024-05-09 04:38:28] WARNING root fetch - processPackages [anabih-python-test]: Skipping, unable to determine old version
+[2024-05-09 04:38:28] INFO root fetch - main [MainThread]: End processing [anabih-python-test] error
+[2024-05-09 04:38:29] WARNING root fetch - processPackages [Society-Evolution-Network]: Skipping, unable to determine old version
+[2024-05-09 04:38:29] INFO root fetch - main [MainThread]: End processing [Society-Evolution-Network] error
+[2024-05-09 04:38:29] INFO root fetch - processPackages [lanQ]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pytool-directory]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pyopencl]: New version: [2024.2.2] Old Version: [2024.2.1]
+[2024-05-09 04:38:29] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/d2/5b/af5678e1cbb1990d9d97684e898d38dc3c58d2f93cabc48dea897c18f531/lanQ-1.4.2.tar.gz
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pytool-directory]: Downloading https://files.pythonhosted.org/packages/60/d5/636e00b7c274a9d2053669281c373fea6dcd2b00de0c56208ae9e6d54677/pytool-directory-0.0.1.tar.gz
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pyopencl]: Downloading https://files.pythonhosted.org/packages/8b/3a/44fd871e844bb50cae0de222000bb503baa542573a9b9df1b9c189afe841/pyopencl-2024.2.1.tar.gz
+[2024-05-09 04:38:29] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/44/8e/fc12bcd4d12d39cd924dd3ab95ef4c5cb3d18964df97eb50bfc2a9465280/lanQ-1.4.3.tar.gz
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pytool-directory]: Downloading https://files.pythonhosted.org/packages/c2/c1/f0328daed98cb7bed2388afa9917a0c9a98fa641cc64e9357c6ad4575e80/pytool_directory-0.0.2.tar.gz
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pytool-directory]: executing diffoscope
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pytool-directory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytool-directory-0.0.1.tar.gz tmp/pytool_directory-0.0.2.tar.gz --markdown 20240509/p/pytool-directory/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 04:38:29] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-05-09 04:38:29] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.4.2.tar.gz tmp/lanQ-1.4.3.tar.gz --markdown 20240509/l/lanQ/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-09 04:38:29] INFO root fetch - processPackages [pyopencl]: Downloading https://files.pythonhosted.org/packages/31/f5/6cda6cb6b6f484ddeb4b2c757d0d08a03945debd6f6280306010d2064a35/pyopencl-2024.2.2-cp38-cp38-macosx_11_0_arm64.whl
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pyopencl]: executing diffoscope
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pyopencl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencl-2024.2.1.tar.gz tmp/pyopencl-2024.2.2-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20240509/p/pyopencl/2024.2.1-2024.2.2/README.md --exclude *.pyd
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pytool-directory]: Remove: archive file [/home/abi/fetcher/tmp/pytool-directory-0.0.1.tar.gz]
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pytool-directory]: Remove: archive file [/home/abi/fetcher/tmp/pytool_directory-0.0.2.tar.gz]
+[2024-05-09 04:38:30] INFO root fetch - main [MainThread]: End processing [pytool-directory]: success
+[2024-05-09 04:38:30] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.2.tar.gz]
+[2024-05-09 04:38:30] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.3.tar.gz]
+[2024-05-09 04:38:30] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pyopencl]: Remove: archive file [/home/abi/fetcher/tmp/pyopencl-2024.2.1.tar.gz]
+[2024-05-09 04:38:30] INFO root fetch - processPackages [pyopencl]: Remove: archive file [/home/abi/fetcher/tmp/pyopencl-2024.2.2-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2024-05-09 04:38:30] INFO root fetch - main [MainThread]: End processing [pyopencl]: success
+[2024-05-09 04:38:30] INFO root fetch - main [MainThread]: Store serial: [23125191]
