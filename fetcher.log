@@ -3201,3 +3201,21 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:27:44] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.0.tar.gz]
 [2024-05-09 02:27:44] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
 [2024-05-09 02:27:44] INFO root fetch - main [MainThread]: Store serial: [23122933]
+[2024-05-09 02:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122933]
+[2024-05-09 02:29:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 02:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-transformation
+[2024-05-09 02:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: combatedz
+[2024-05-09 02:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-09 02:29:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-09 02:29:53] WARNING root fetch - processPackages [aind-data-transformation]: Skipping, unable to determine old version
+[2024-05-09 02:29:53] INFO root fetch - main [MainThread]: End processing [aind-data-transformation] error
+[2024-05-09 02:29:53] WARNING root fetch - processPackages [combatedz]: Skipping, unable to determine old version
+[2024-05-09 02:29:53] INFO root fetch - main [MainThread]: End processing [combatedz] error
+[2024-05-09 02:29:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-09 02:29:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-09 02:29:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-09 02:29:53] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240509/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-09 02:29:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-09 02:29:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-09 02:29:54] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-09 02:29:54] INFO root fetch - main [MainThread]: Store serial: [23122948]
