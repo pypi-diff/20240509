@@ -9074,3 +9074,50 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:20:22] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip]
 [2024-05-09 05:20:22] INFO root fetch - main [MainThread]: End processing [webarchiver]: success
 [2024-05-09 05:20:22] INFO root fetch - main [MainThread]: Store serial: [23125507]
+[2024-05-09 05:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125507]
+[2024-05-09 05:22:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaowei-pylib
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kingsoftcloud-sdk-python
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smart-sdk
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keras-nightly
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xraylarch
+[2024-05-09 05:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-09 05:22:32] WARNING root fetch - processPackages [yaowei-pylib]: Skipping, unable to determine old version
+[2024-05-09 05:22:32] INFO root fetch - main [MainThread]: End processing [yaowei-pylib] error
+[2024-05-09 05:22:32] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 05:22:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1715211174] Old Version: [0.0.21a1715130989]
+[2024-05-09 05:22:32] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024050803] Old Version: [3.3.3.dev2024050703]
+[2024-05-09 05:22:32] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/47/f8/0e1899346592aa6ccd5c01b344e38869871fa7c705e169e8ea413355149c/duwi_smart_sdk-0.1.7.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [xraylarch]: New version: [0.9.77] Old Version: [0.9.76]
+[2024-05-09 05:22:32] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-09 05:22:32] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/0b/c5/02c317923f5d32c122f50b662d530fd383f30376a48e6cdd539dae5f6ef4/keras_nightly-3.3.3.dev2024050703.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/f1/59/3fcfeafa05d6bd87e6fa8d6e38aaf6559b257207bdcbe5fc191aed4189ba/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/82/53/f2ee167b687f2adeb1d325c640844d82b0f1fa6bf2f7bafd784fbb711296/duwi_smart_sdk-0.1.8.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [xraylarch]: Downloading https://files.pythonhosted.org/packages/9a/86/7680dc201f94107612e3043923fb5bc2cf725670a3034bd7a9022d86451b/xraylarch-0.9.76.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/78/62/5dda92051cc84c7567ffd48478228fcc375546d539c1a43d7ba86f1e3470/kingsoftcloud_sdk_python-1.4.0.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/1c/48/504e0864b2a575e2d16521cfbdbad967e639eb9cea67e9a2263cf1ba0fbc/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz
+[2024-05-09 05:22:32] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/d5/d6/47268d6d44517d2a6db71c789bcb8e30ce47b9e711ec8a516d11ca04e516/keras_nightly-3.3.3.dev2024050803.tar.gz
+[2024-05-09 05:22:32] WARNING root fetch - processPackages [xraylarch]: Skipping package: exceeds size limit 21462736>=10485760
+[2024-05-09 05:22:32] INFO root fetch - main [MainThread]: End processing [xraylarch] error
+[2024-05-09 05:22:32] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-09 05:22:32] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.7.tar.gz tmp/duwi_smart_sdk-0.1.8.tar.gz --markdown 20240509/d/duwi-smart-sdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 05:22:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-09 05:22:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz --markdown 20240509/p/pulumi-kubernetes-the-hard-way/0.0.21a1715130989-0.0.21a1715211174/README.md --exclude *.pyd
+[2024-05-09 05:22:32] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-09 05:22:32] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024050703.tar.gz tmp/keras_nightly-3.3.3.dev2024050803.tar.gz --markdown 20240509/k/keras-nightly/3.3.3.dev2024050703-3.3.3.dev2024050803/README.md --exclude *.pyd
+[2024-05-09 05:22:33] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/26/7036b21c26fd1458c85ee49731da00bf08e96ec6b076f6b5e7933369f760/kingsoftcloud_sdk_python-1.4.1.tar.gz
+[2024-05-09 05:22:33] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2024-05-09 05:22:33] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud_sdk_python-1.4.0.tar.gz tmp/kingsoftcloud_sdk_python-1.4.1.tar.gz --markdown 20240509/k/kingsoftcloud-sdk-python/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-09 05:22:33] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.7.tar.gz]
+[2024-05-09 05:22:33] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.8.tar.gz]
+[2024-05-09 05:22:33] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-09 05:22:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715130989.tar.gz]
+[2024-05-09 05:22:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1715211174.tar.gz]
+[2024-05-09 05:22:33] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-09 05:22:34] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.0.tar.gz]
+[2024-05-09 05:22:34] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.1.tar.gz]
+[2024-05-09 05:22:34] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2024-05-09 05:22:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050703.tar.gz]
+[2024-05-09 05:22:35] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024050803.tar.gz]
+[2024-05-09 05:22:35] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-09 05:22:35] INFO root fetch - main [MainThread]: Store serial: [23125524]
