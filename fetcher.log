@@ -21361,3 +21361,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:17:08] INFO root fetch - processPackages [py3-pinterest]: Remove: archive file [/home/abi/fetcher/tmp/py3_pinterest-1.4.0.tar.gz]
 [2024-05-09 13:17:08] INFO root fetch - main [MainThread]: End processing [py3-pinterest]: success
 [2024-05-09 13:17:08] INFO root fetch - main [MainThread]: Store serial: [23130039]
+[2024-05-09 13:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130039]
+[2024-05-09 13:19:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ode-style
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ymlstash
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdn-research-environment
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PKNSETools
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydynamics
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: funky-modifiers
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ymlstash]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-09 13:19:17] INFO root fetch - processPackages [ode-style]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 13:19:17] INFO root fetch - processPackages [PKNSETools]: New version: [0.1.20240508.100] Old Version: [0.1.20240506.99]
+[2024-05-09 13:19:17] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.7a4]
+[2024-05-09 13:19:18] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.87]
+[2024-05-09 13:19:18] INFO root fetch - processPackages [pydynamics]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 13:19:18] INFO root fetch - processPackages [funky-modifiers]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/4b/5d/7beb2843c86b06c4111cc7da64712f7cbf9151219d813f84d53d31ab59b6/ymlstash-1.0.2.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/3d/12/798d8fdb11717f8dfd6e27ce7150b1983b0c31e74ffbf631cb73cc431981/PKNSETools-0.1.20240506.99.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/08/47/4bec726abf55662968d4d289b76d0e318d9b15dcfb7c40c2c64e95b215b0/ode_style-0.0.3.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/ac/de/8f7e50fc8b1ec6f916c20b711a89d9125d7860fe41c4414c56da6e704839/bridgecrew-3.2.87.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b6/85/90d9e006e25d851ac3cf3286d4ec2a6e555d29cf3373252c832c2c28db7e/hdn-research-environment-3.0.7a4.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [pydynamics]: Downloading https://files.pythonhosted.org/packages/4c/0e/40dfead9687982a1f6d35b221175f8c33793880affdb42382e3cd3aeb345/pydynamics-0.0.8.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/58/16/93c37b6aea83c98297bc769a61cec5108711c014420baa83094c1b6b0b70/funky_modifiers-0.1.7.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/ae/08/69afe5c6f3212a04946bbca074a007279b77d7804d8aa00096ca16cd34ac/ymlstash-1.1.0.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [PKNSETools]: Downloading https://files.pythonhosted.org/packages/5c/8d/a2bcf828b6317bee9d7b731272ce8eb6f9e200c4ff438791fed29acc3cce/PKNSETools-0.1.20240508.100.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/c9/34/a8e5f82d7352c933df6e5a3b1458700e6a052ac2d8951560b3e352503e65/ode_style-0.0.4.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.87.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240509/b/bridgecrew/3.2.87-3.2.9/README.md --exclude *.pyd
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ymlstash]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ymlstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ymlstash-1.0.2.tar.gz tmp/ymlstash-1.1.0.tar.gz --markdown 20240509/y/ymlstash/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-09 13:19:18] INFO root fetch - processPackages [PKNSETools]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [PKNSETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKNSETools-0.1.20240506.99.tar.gz tmp/PKNSETools-0.1.20240508.100.tar.gz --markdown 20240509/P/PKNSETools/0.1.20240506.99-0.1.20240508.100/README.md --exclude *.pyd
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ode-style]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [ode-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ode_style-0.0.3.tar.gz tmp/ode_style-0.0.4.tar.gz --markdown 20240509/o/ode-style/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 13:19:18] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.7a4.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240509/h/hdn-research-environment/3.0.7a4-3.0.7rc0/README.md --exclude *.pyd
+[2024-05-09 13:19:18] INFO root fetch - processPackages [funky-modifiers]: Downloading https://files.pythonhosted.org/packages/58/9c/65dd10d684880ac9b1f6c4559e40edf802d55238a49bd7a3d5482e8dcd70/funky_modifiers-0.1.8.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [pydynamics]: Downloading https://files.pythonhosted.org/packages/38/20/9700403eefa9ae6784d3b5c60fc90c433ada4d869aea28c69eb2831d3766/pydynamics-0.0.9.tar.gz
+[2024-05-09 13:19:18] INFO root fetch - processPackages [funky-modifiers]: executing diffoscope
+[2024-05-09 13:19:18] INFO root fetch - processPackages [funky-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funky_modifiers-0.1.7.tar.gz tmp/funky_modifiers-0.1.8.tar.gz --markdown 20240509/f/funky-modifiers/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 13:19:19] INFO root fetch - processPackages [pydynamics]: executing diffoscope
+[2024-05-09 13:19:19] INFO root fetch - processPackages [pydynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydynamics-0.0.8.tar.gz tmp/pydynamics-0.0.9.tar.gz --markdown 20240509/p/pydynamics/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 13:19:19] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode_style-0.0.3.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode_style-0.0.4.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [ode-style]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.87.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.0.2.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.1.0.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [ymlstash]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240506.99.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [PKNSETools]: Remove: archive file [/home/abi/fetcher/tmp/PKNSETools-0.1.20240508.100.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [PKNSETools]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [pydynamics]: Remove: archive file [/home/abi/fetcher/tmp/pydynamics-0.0.8.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [pydynamics]: Remove: archive file [/home/abi/fetcher/tmp/pydynamics-0.0.9.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [pydynamics]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.1.7.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [funky-modifiers]: Remove: archive file [/home/abi/fetcher/tmp/funky_modifiers-0.1.8.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [funky-modifiers]: success
+[2024-05-09 13:19:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7a4.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-05-09 13:19:19] INFO root fetch - main [MainThread]: Store serial: [23130060]
