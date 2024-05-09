@@ -7810,3 +7810,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:49:35] INFO root fetch - processPackages [fondat-hubspot]: Remove: archive file [/home/abi/fetcher/tmp/fondat_hubspot-4.1b2.tar.gz]
 [2024-05-09 03:49:35] INFO root fetch - main [MainThread]: End processing [fondat-hubspot]: success
 [2024-05-09 03:49:35] INFO root fetch - main [MainThread]: Store serial: [23124637]
+[2024-05-09 03:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124637]
+[2024-05-09 03:51:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 03:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prototools
+[2024-05-09 03:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anathematizesz
+[2024-05-09 03:51:44] WARNING root fetch - processPackages [anathematizesz]: Skipping, unable to determine old version
+[2024-05-09 03:51:44] INFO root fetch - main [MainThread]: End processing [anathematizesz] error
+[2024-05-09 03:51:44] INFO root fetch - processPackages [prototools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 03:51:44] INFO root fetch - processPackages [prototools]: Downloading https://files.pythonhosted.org/packages/1a/b4/767277f70c6a8918717db29d881305112ead8c5c927c819c1c80362a1543/prototools-0.1.8.tar.gz
+[2024-05-09 03:51:44] INFO root fetch - processPackages [prototools]: Downloading https://files.pythonhosted.org/packages/41/28/280ab721957a7e77a2c811966b1793d7449ddd1c649f172155906a40b6c1/prototools-0.1.9.tar.gz
+[2024-05-09 03:51:44] INFO root fetch - processPackages [prototools]: executing diffoscope
+[2024-05-09 03:51:44] INFO root fetch - processPackages [prototools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prototools-0.1.8.tar.gz tmp/prototools-0.1.9.tar.gz --markdown 20240509/p/prototools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 03:51:45] INFO root fetch - processPackages [prototools]: Remove: archive file [/home/abi/fetcher/tmp/prototools-0.1.8.tar.gz]
+[2024-05-09 03:51:45] INFO root fetch - processPackages [prototools]: Remove: archive file [/home/abi/fetcher/tmp/prototools-0.1.9.tar.gz]
+[2024-05-09 03:51:45] INFO root fetch - main [MainThread]: End processing [prototools]: success
+[2024-05-09 03:51:45] INFO root fetch - main [MainThread]: Store serial: [23124644]
