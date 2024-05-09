@@ -15207,3 +15207,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:04:02] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.1rc1.tar.gz]
 [2024-05-09 10:04:02] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2024-05-09 10:04:02] INFO root fetch - main [MainThread]: Store serial: [23127844]
+[2024-05-09 10:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127844]
+[2024-05-09 10:06:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perceval-opnfv
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceval-weblate
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PlumedToHTML
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bravurasz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartboiler
+[2024-05-09 10:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartboiler
+[2024-05-09 10:06:11] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-09 10:06:11] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.7.4] Old Version: [0.0.3.0.0.7.3]
+[2024-05-09 10:06:11] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 10:06:11] WARNING root fetch - processPackages [bravurasz]: Skipping, unable to determine old version
+[2024-05-09 10:06:11] INFO root fetch - main [MainThread]: End processing [bravurasz] error
+[2024-05-09 10:06:11] INFO root fetch - processPackages [perceval-weblate]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 10:06:11] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [perceval-opnfv]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 10:06:11] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/d8/fd/7f6cccbae87634144766b0c12eff09cddf94ab2e8a80f2c3a2b51bac01e1/smartboiler-0.0.3.0.0.7.3.tar.gz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/71/6c/67467db1d57342ef92f265d2b47e75f3b1928bf448d7222cece3db0d6374/perceval_weblate-1.0.0rc2.tar.gz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/b0/3d/a1834436db592451e8d24360e822b57a5e86a0d3f50def015d2ed4cfe116/perceval_opnfv-1.0.0rc2.tar.gz
+[2024-05-09 10:06:11] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1d/49/8151f609795c3229575ae120f6665c1088719cebbc906e434c7f52dcedbf/smartboiler-0.0.3.0.0.7.4.tar.gz
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240509/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.7.3.tar.gz tmp/smartboiler-0.0.3.0.0.7.4.tar.gz --markdown 20240509/s/smartboiler/0.0.3.0.0.7.3-0.0.3.0.0.7.4/README.md --exclude *.pyd
+[2024-05-09 10:06:12] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-09 10:06:12] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-09 10:06:12] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240509/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/e0/b7/e69be113bd52651788e540a915ae6578663b0c01b9610aa38aed5424f346/perceval_weblate-1.0.1rc1.tar.gz
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/44/8c/9866634f881ea00c96eae3babc8e9a8d084ba6c381b6312533f3b0fb7c47/perceval_opnfv-1.0.1rc1.tar.gz
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-1.0.0rc2.tar.gz tmp/perceval_weblate-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-weblate/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2024-05-09 10:06:12] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-1.0.0rc2.tar.gz tmp/perceval_opnfv-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-opnfv/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.3.tar.gz]
+[2024-05-09 10:06:12] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.7.4.tar.gz]
+[2024-05-09 10:06:12] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-09 10:06:12] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-09 10:06:12] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-09 10:06:12] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-09 10:06:12] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-09 10:06:13] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.0rc2.tar.gz]
+[2024-05-09 10:06:13] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.1rc1.tar.gz]
+[2024-05-09 10:06:13] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2024-05-09 10:06:13] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.0rc2.tar.gz]
+[2024-05-09 10:06:13] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.1rc1.tar.gz]
+[2024-05-09 10:06:13] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2024-05-09 10:06:13] INFO root fetch - main [MainThread]: Store serial: [23127865]
