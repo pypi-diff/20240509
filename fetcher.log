@@ -20925,3 +20925,72 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 13:03:07] INFO root fetch - processPackages [odm-api]: Remove: archive file [/home/abi/fetcher/tmp/odm_api-1.57.0.tar.gz]
 [2024-05-09 13:03:07] INFO root fetch - main [MainThread]: End processing [odm-api]: success
 [2024-05-09 13:03:07] INFO root fetch - main [MainThread]: Store serial: [23129909]
+[2024-05-09 13:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129909]
+[2024-05-09 13:05:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 13:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loessicz
+[2024-05-09 13:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-dev
+[2024-05-09 13:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kayer-pretty-logger
+[2024-05-09 13:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chellow
+[2024-05-09 13:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-05-09 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odm-sdk
+[2024-05-09 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ej2-streamlit-grids
+[2024-05-09 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: setech
+[2024-05-09 13:05:16] INFO root fetch - processPackages [setech]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [sbcli-dev]: New version: [2.5.6] Old Version: [2.5.5]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/96/a2/0137487f7613c9774c27835f7cee230b7e06802a6b86240ba9a05589cde5/setech-1.3.1.tar.gz
+[2024-05-09 13:05:16] WARNING root fetch - processPackages [loessicz]: Skipping, unable to determine old version
+[2024-05-09 13:05:16] INFO root fetch - main [MainThread]: End processing [loessicz] error
+[2024-05-09 13:05:16] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [odm-sdk]: New version: [1.57.0] Old Version: [0.0.1]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [ej2-streamlit-grids]: New version: [25.2.3] Old Version: [25.1.35]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [kayer-pretty-logger]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/6d/5f/1f5ae50c3298e5608ae6b66bc67a6c419b4f0797f0afb59c8c9eaca8019c/sbcli_dev-2.5.5.zip
+[2024-05-09 13:05:16] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-09 13:05:16] INFO root fetch - processPackages [kayer-pretty-logger]: Downloading https://files.pythonhosted.org/packages/cd/06/60913a04f50c92f40fe5ef824140f81e97b7664489c80c57d6bf495699e7/kayer-pretty-logger-1.1.1.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [odm-sdk]: Downloading https://files.pythonhosted.org/packages/5e/ba/1a0c258c205dcb1f9f93262a96f4292cac5f9a84800334f68c75ab66578a/odm-sdk-0.0.1.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/cc/1d/8e89373e1b21f6d2f3f79787b276058506f0f25148d5b277190e9ce11233/sbcli_dev-2.5.6.zip
+[2024-05-09 13:05:16] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/19/bd/4085bf10a0ddcd82ffe9ab23ddf9d0a0ff2d9b0938a91e12bc65b66e08ef/ej2_streamlit_grids-25.1.35.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/7f/cd/b7f73a993ac9f8a8f6ece0a63810094ab3f148a1f9b570b54cbdbdc69f7d/setech-1.3.2.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 13:05:16] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 13:05:16] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-09 13:05:16] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.5.5.zip tmp/sbcli_dev-2.5.6.zip --markdown 20240509/s/sbcli-dev/2.5.5-2.5.6/README.md --exclude *.pyd
+[2024-05-09 13:05:16] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-05-09 13:05:16] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.3.1.tar.gz tmp/setech-1.3.2.tar.gz --markdown 20240509/s/setech/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-09 13:05:16] INFO root fetch - processPackages [kayer-pretty-logger]: Downloading https://files.pythonhosted.org/packages/ab/1f/5c8e0a6d5517b7516dc77206140bafd655d56af9234f5cbb248ccd7674a0/kayer_pretty_logger-1.2.0.tar.gz
+[2024-05-09 13:05:16] INFO root fetch - processPackages [odm-sdk]: Downloading https://files.pythonhosted.org/packages/a0/fd/eff1683f862998be9aa8bbfdff9da36ecd3467185a09c52cf3c89af670fc/odm_sdk-1.57.0.tar.gz
+[2024-05-09 13:05:17] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-09 13:05:17] INFO root fetch - processPackages [odm-sdk]: executing diffoscope
+[2024-05-09 13:05:17] INFO root fetch - processPackages [odm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odm-sdk-0.0.1.tar.gz tmp/odm_sdk-1.57.0.tar.gz --markdown 20240509/o/odm-sdk/0.0.1-1.57.0/README.md --exclude *.pyd
+[2024-05-09 13:05:17] INFO root fetch - processPackages [kayer-pretty-logger]: executing diffoscope
+[2024-05-09 13:05:17] INFO root fetch - processPackages [kayer-pretty-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayer-pretty-logger-1.1.1.tar.gz tmp/kayer_pretty_logger-1.2.0.tar.gz --markdown 20240509/k/kayer-pretty-logger/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-09 13:05:17] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/ce/36/21458f37a804209211731e234dfbfb52d89a835f6ee6a2804834986ec9d5/ej2_streamlit_grids-25.2.3.tar.gz
+[2024-05-09 13:05:17] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-09 13:05:17] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240509/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-09 13:05:17] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 13:05:17] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.1.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.2.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-05-09 13:05:17] INFO root fetch - processPackages [kayer-pretty-logger]: Remove: archive file [/home/abi/fetcher/tmp/kayer-pretty-logger-1.1.1.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - processPackages [kayer-pretty-logger]: Remove: archive file [/home/abi/fetcher/tmp/kayer_pretty_logger-1.2.0.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - main [MainThread]: End processing [kayer-pretty-logger]: success
+[2024-05-09 13:05:17] INFO root fetch - processPackages [ej2-streamlit-grids]: executing diffoscope
+[2024-05-09 13:05:17] INFO root fetch - processPackages [ej2-streamlit-grids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ej2_streamlit_grids-25.1.35.tar.gz tmp/ej2_streamlit_grids-25.2.3.tar.gz --markdown 20240509/e/ej2-streamlit-grids/25.1.35-25.2.3/README.md --exclude *.pyd
+[2024-05-09 13:05:17] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.5.zip]
+[2024-05-09 13:05:17] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.5.6.zip]
+[2024-05-09 13:05:17] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-09 13:05:17] INFO root fetch - processPackages [odm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odm-sdk-0.0.1.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - processPackages [odm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odm_sdk-1.57.0.tar.gz]
+[2024-05-09 13:05:17] INFO root fetch - main [MainThread]: End processing [odm-sdk]: success
+[2024-05-09 13:05:19] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-09 13:05:19] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-09 13:05:19] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-09 13:05:48] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-25.1.35.tar.gz]
+[2024-05-09 13:05:48] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-25.2.3.tar.gz]
+[2024-05-09 13:05:48] INFO root fetch - main [MainThread]: End processing [ej2-streamlit-grids]: success
+[2024-05-09 13:05:48] INFO root fetch - main [MainThread]: Store serial: [23129933]
