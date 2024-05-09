@@ -21427,3 +21427,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:19:19] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
 [2024-05-09 13:19:19] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
 [2024-05-09 13:19:19] INFO root fetch - main [MainThread]: Store serial: [23130060]
+[2024-05-09 13:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130060]
+[2024-05-09 13:21:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2024-05-09 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postlueticz
+[2024-05-09 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cugdt
+[2024-05-09 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-05-09 13:21:28] INFO root fetch - processPackages [cugdt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 13:21:28] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-09 13:21:28] WARNING root fetch - processPackages [postlueticz]: Skipping, unable to determine old version
+[2024-05-09 13:21:28] INFO root fetch - main [MainThread]: End processing [postlueticz] error
+[2024-05-09 13:21:28] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240509] Old Version: [2.5.0b20240508]
+[2024-05-09 13:21:28] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-09 13:21:28] INFO root fetch - processPackages [cugdt]: Downloading https://files.pythonhosted.org/packages/37/39/04365e48a6d35c8f0704593a38910b152319da97dd017106d0ac96f9a4d4/cugdt-1.0.2.tar.gz
+[2024-05-09 13:21:28] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/03/f6/52c2e8acb03aa25fc6f695a1aad4b714a1dadabb95677b4eb44e979b3e0f/bigdl_core_xe-2.5.0b20240508-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-09 13:21:28] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-09 13:21:29] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105671465>=10485760
+[2024-05-09 13:21:29] INFO root fetch - processPackages [cugdt]: Downloading https://files.pythonhosted.org/packages/92/6a/36302d7c28054860faa9838312460e77063d00e46db35747d92b77eab498/cugdt-1.0.3.tar.gz
+[2024-05-09 13:21:29] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-05-09 13:21:29] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-09 13:21:29] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240509/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-09 13:21:29] INFO root fetch - processPackages [cugdt]: executing diffoscope
+[2024-05-09 13:21:29] INFO root fetch - processPackages [cugdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cugdt-1.0.2.tar.gz tmp/cugdt-1.0.3.tar.gz --markdown 20240509/c/cugdt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 13:21:29] INFO root fetch - processPackages [cugdt]: Remove: archive file [/home/abi/fetcher/tmp/cugdt-1.0.2.tar.gz]
+[2024-05-09 13:21:29] INFO root fetch - processPackages [cugdt]: Remove: archive file [/home/abi/fetcher/tmp/cugdt-1.0.3.tar.gz]
+[2024-05-09 13:21:29] INFO root fetch - main [MainThread]: End processing [cugdt]: success
+[2024-05-09 13:21:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-09 13:21:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-09 13:21:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-09 13:21:31] INFO root fetch - main [MainThread]: Store serial: [23130074]
