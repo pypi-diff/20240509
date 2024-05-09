@@ -8777,3 +8777,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:58:34] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_searchengine20211025-2.1.0.tar.gz]
 [2024-05-09 04:58:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-searchengine20211025]: success
 [2024-05-09 04:58:34] INFO root fetch - main [MainThread]: Store serial: [23125393]
+[2024-05-09 05:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125393]
+[2024-05-09 05:00:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 05:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-banking-mandate
+[2024-05-09 05:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypothesis-torch
+[2024-05-09 05:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adtoolbox
+[2024-05-09 05:00:44] INFO root fetch - processPackages [adtoolbox]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-09 05:00:44] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/6b/94/a83105742e30342f73ccec7103366913c76309df720a709067891c917c23/adtoolbox-0.5.3.tar.gz
+[2024-05-09 05:00:44] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-09 05:00:44] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-05-09 05:00:44] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/cb/c5/cc82bcccde56d44c92e8dca11744e0b975072bfb0301e019fe2050baead6/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-09 05:00:44] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/5e/d7/191035f537ad369b6dfbafdd283b74f427afc97dd69cf5e458165e3a1240/hypothesis_torch-0.4.3.tar.gz
+[2024-05-09 05:00:44] INFO root fetch - processPackages [adtoolbox]: Downloading https://files.pythonhosted.org/packages/07/a3/95756fe1603d95371b8abe587261856d1864aad3b32e4ce8670955f9a2b1/adtoolbox-0.5.4.tar.gz
+[2024-05-09 05:00:44] INFO root fetch - processPackages [adtoolbox]: executing diffoscope
+[2024-05-09 05:00:44] INFO root fetch - processPackages [adtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adtoolbox-0.5.3.tar.gz tmp/adtoolbox-0.5.4.tar.gz --markdown 20240509/a/adtoolbox/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/72/1d/3e28ace559574b81ba6056688b9264223da52b5314acee2ed7602d32f47c/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-09 05:00:45] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/8e/7d/6fdaf5870636cbd377a6b8f774014b2061abc3e9e204c7b2140a01756315/hypothesis_torch-0.5.0.tar.gz
+[2024-05-09 05:00:45] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-05-09 05:00:45] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.4.3.tar.gz tmp/hypothesis_torch-0.5.0.tar.gz --markdown 20240509/h/hypothesis-torch/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-account-banking-mandate/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-09 05:00:45] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.3.tar.gz]
+[2024-05-09 05:00:45] INFO root fetch - processPackages [adtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/adtoolbox-0.5.4.tar.gz]
+[2024-05-09 05:00:45] INFO root fetch - main [MainThread]: End processing [adtoolbox]: success
+[2024-05-09 05:00:45] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.4.3.tar.gz]
+[2024-05-09 05:00:45] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.5.0.tar.gz]
+[2024-05-09 05:00:45] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-09 05:00:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2024-05-09 05:00:45] INFO root fetch - main [MainThread]: Store serial: [23125401]
