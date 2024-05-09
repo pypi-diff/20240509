@@ -13697,3 +13697,186 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:53:32] INFO root fetch - processPackages [libvhdi-python]: Remove: archive file [/home/abi/fetcher/tmp/libvhdi-python-20240509.tar.gz]
 [2024-05-09 08:53:32] INFO root fetch - main [MainThread]: End processing [libvhdi-python]: success
 [2024-05-09 08:53:32] INFO root fetch - main [MainThread]: Store serial: [23127313]
+[2024-05-09 08:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127313]
+[2024-05-09 08:55:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zkagi-sdk
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-partner-company-group
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medicafe
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tooniez-timetree-sdk
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signaturenet
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-azure
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FastRAMQPI
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-signalfx
+[2024-05-09 08:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bagbag
+[2024-05-09 08:55:42] INFO root fetch - processPackages [tooniez-timetree-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [medicafe]: New version: [0.240508.4] Old Version: [0.240508.3]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [FastRAMQPI]: New version: [7.3.2] Old Version: [7.3.1]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [bagbag]: New version: [0.66.9] Old Version: [0.66.8]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.86]
+[2024-05-09 08:55:42] WARNING root fetch - processPackages [zkagi-sdk]: Skipping, unable to determine old version
+[2024-05-09 08:55:42] INFO root fetch - processPackages [zkagi-sdk]: Start processing: siat
+[2024-05-09 08:55:42] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b1/71/ff93bfff126d5d62f81f3e8a8718ada9abdaae358076e110b4aaa4e9b333/medicafe-0.240508.3.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - main [MainThread]: End processing [zkagi-sdk] error
+[2024-05-09 08:55:42] WARNING root fetch - processPackages [signaturenet]: Skipping, unable to determine old version
+[2024-05-09 08:55:42] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.9]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [signaturenet]: Start processing: zcbot-web-core
+[2024-05-09 08:55:42] INFO root fetch - main [MainThread]: End processing [signaturenet] error
+[2024-05-09 08:55:42] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1715236218] Old Version: [7.2.0a1715062812]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/31/81/21aaf47b2ba2addf4463cf117fae47ddae44ec2a5b5acb039fbe92b9e39c/fastramqpi-7.3.1.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/0e/fa/409ace3b7fa82c9f017a244fbc09e43e62f71a9e83c54a7946320de1be12/bagbag-0.66.8.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/63/e5/956e86a51144e8840534ee456d287a72f3589edb423b984c5ef314175bdb/tooniez-timetree-sdk-0.0.3.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/bb/0e/231f513aa1f420b6f5bfb9ff0decf39d3ce9f3a3ac3a9a910dcab17266bb/checkov-3.2.86.tar.gz
+[2024-05-09 08:55:42] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [siat]: New version: [3.0.42] Old Version: [3.0.41]
+[2024-05-09 08:55:42] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Downloading https://files.pythonhosted.org/packages/2f/dd/3fc3574c80eec1df19163f91d1b4d574a9c0ec86252f8b6335a911cbfe13/odoo_addon_base_partner_company_group-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-09 08:55:42] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/d5/a3/ce08d9bc4ba76eac3a033aac62318f6537f8029544dd26633d0b82061150/pulumi_signalfx-7.2.0a1715062812.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/fe/0a/f996d1ff7b54ce89e6600134c0a9fe0319c460146bf8ac6892dd23a3c783/tooniez-timetree-sdk-0.0.4.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/30/88/4174562d809cf055fbb96d6fff38c6df8b57994d197c2860eb3ef08fc813/bagbag-0.66.9.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/31/64/48b11cba94c3101987cb049653301f63492511a35b1e3aa695965c9424ad/medicafe-0.240508.4.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [FastRAMQPI]: Downloading https://files.pythonhosted.org/packages/17/2e/0411b41a7d308f869706b4b66f666d5190c85052e76138d2b3adc00f7e5a/fastramqpi-7.3.2.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooniez-timetree-sdk-0.0.3.tar.gz tmp/tooniez-timetree-sdk-0.0.4.tar.gz --markdown 20240509/t/tooniez-timetree-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Downloading https://files.pythonhosted.org/packages/62/b9/fb03eb08780aff6a3508739578bbf215222ac270564507bdfcd341dbcefc/odoo_addon_base_partner_company_group-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 08:55:43] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240508.3.tar.gz tmp/medicafe-0.240508.4.tar.gz --markdown 20240509/m/medicafe/0.240508.3-0.240508.4/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/c8/55/04c61a2f3c8fe46059088bee84a8d7b86ad938dcbab33dbe0883ce558834/pulumi_signalfx-7.2.0a1715236218.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [FastRAMQPI]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [FastRAMQPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastramqpi-7.3.1.tar.gz tmp/fastramqpi-7.3.2.tar.gz --markdown 20240509/F/FastRAMQPI/7.3.1-7.3.2/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/0c/2b/a82141743c1e498c9244635ae8a5c832498f45874e78255887a4bd471a0e/siat-3.0.42-py3-none-any.whl
+[2024-05-09 08:55:43] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.66.8.tar.gz tmp/bagbag-0.66.9.tar.gz --markdown 20240509/b/bagbag/0.66.8-0.66.9/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_partner_company_group-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_base_partner_company_group-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-base-partner-company-group/16.0.1.0.0.9-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.86.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240509/c/checkov/3.2.86-3.2.9/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz tmp/pulumi_signalfx-7.2.0a1715236218.tar.gz --markdown 20240509/p/pulumi-signalfx/7.2.0a1715062812-7.2.0a1715236218/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240509/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240509/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-09 08:55:43] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-09 08:55:43] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.41-py3-none-any.whl.zip tmp/siat-3.0.42-py3-none-any.whl.zip --markdown 20240509/s/siat/3.0.41-3.0.42/README.md --exclude *.pyd
+[2024-05-09 08:55:44] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez-timetree-sdk-0.0.3.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez-timetree-sdk-0.0.4.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [tooniez-timetree-sdk]: success
+[2024-05-09 08:55:44] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.3.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.4.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-09 08:55:44] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.1.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [FastRAMQPI]: Remove: archive file [/home/abi/fetcher/tmp/fastramqpi-7.3.2.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [FastRAMQPI]: success
+[2024-05-09 08:55:44] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_company_group-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_company_group-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-partner-company-group]: success
+[2024-05-09 08:55:44] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-09T08:55:43+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-09 08:55:44] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.8.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.9.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-09 08:55:44] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715062812.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715236218.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-09 08:55:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.8.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.66.9.tar.gz]
+[2024-05-09 08:55:44] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-09 08:55:51] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.86.tar.gz]
+[2024-05-09 08:55:51] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-09 08:55:51] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-09 08:55:53] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-09 08:55:53] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-09 08:55:53] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-09 08:55:53] INFO root fetch - main [MainThread]: Store serial: [23127355]
