@@ -15071,3 +15071,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:59:38] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.1rc1.tar.gz]
 [2024-05-09 09:59:38] INFO root fetch - main [MainThread]: End processing [perceval]: success
 [2024-05-09 09:59:38] INFO root fetch - main [MainThread]: Store serial: [23127788]
+[2024-05-09 10:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127788]
+[2024-05-09 10:01:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wildlife-datasets
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pirangaz
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arktika-icebreaker
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wifind
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-qt
+[2024-05-09 10:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ioos-metrics
+[2024-05-09 10:01:47] INFO root fetch - processPackages [wifind]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-09 10:01:47] INFO root fetch - processPackages [wildlife-datasets]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 10:01:48] INFO root fetch - processPackages [ioos-metrics]: New version: [0.1.0a1] Old Version: [0.1.0.dev0]
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wifind]: Downloading https://files.pythonhosted.org/packages/ff/49/a0a7e195ee3068a2f114dd9d8a23658fcf3797b728b47fd717730eb16b4f/wifind-0.0.9.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wildlife-datasets]: Downloading https://files.pythonhosted.org/packages/2f/63/3b6889f25edc774f8219b90713f4dd63eae50a92f3c2d607406f4cca0d43/wildlife-datasets-1.0.2.tar.gz
+[2024-05-09 10:01:48] WARNING root fetch - processPackages [pirangaz]: Skipping, unable to determine old version
+[2024-05-09 10:01:48] INFO root fetch - main [MainThread]: End processing [pirangaz] error
+[2024-05-09 10:01:48] INFO root fetch - processPackages [arktika-icebreaker]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-09 10:01:48] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 10:01:48] INFO root fetch - processPackages [ioos-metrics]: Downloading https://files.pythonhosted.org/packages/5d/7b/936b8b155ef6ce28aa7db20d5bef74e9b2e459d63aa3e21526963e82daae/ioos_metrics-0.1.0.dev0.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [arktika-icebreaker]: Downloading https://files.pythonhosted.org/packages/1f/cb/07195c6133cd2645738618b21c8312d6afe7b3f378186f81ef2b16044e35/arktika-icebreaker-0.5.0.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wifind]: Downloading https://files.pythonhosted.org/packages/da/32/57e74cfb12200a9cdb5a562c78b2d56ff1defa670659a76e871ee236bcd9/wifind-0.1.0.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wildlife-datasets]: Downloading https://files.pythonhosted.org/packages/df/a4/fcd520e8e9fb64f365260530fc532d96dfcc664883788b2279ef33c8c8d8/wildlife_datasets-1.0.3.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wildlife-datasets]: executing diffoscope
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wildlife-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildlife-datasets-1.0.2.tar.gz tmp/wildlife_datasets-1.0.3.tar.gz --markdown 20240509/w/wildlife-datasets/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wifind]: executing diffoscope
+[2024-05-09 10:01:48] INFO root fetch - processPackages [wifind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wifind-0.0.9.tar.gz tmp/wifind-0.1.0.tar.gz --markdown 20240509/w/wifind/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-09 10:01:48] INFO root fetch - processPackages [ioos-metrics]: Downloading https://files.pythonhosted.org/packages/e9/1d/eacd493b02daac66b94643d1a01688efa04387cf301fe948c7c95325ee3c/ioos_metrics-0.1.0a1.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [arktika-icebreaker]: Downloading https://files.pythonhosted.org/packages/ef/d5/d7edcab434a3da8052634cc371d6e08f16900fd7763c04e35fe15c64543a/arktika_icebreaker-0.6.0.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [ioos-metrics]: executing diffoscope
+[2024-05-09 10:01:48] INFO root fetch - processPackages [ioos-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioos_metrics-0.1.0.dev0.tar.gz tmp/ioos_metrics-0.1.0a1.tar.gz --markdown 20240509/i/ioos-metrics/0.1.0.dev0-0.1.0a1/README.md --exclude *.pyd
+[2024-05-09 10:01:48] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-05-09 10:01:48] INFO root fetch - processPackages [arktika-icebreaker]: executing diffoscope
+[2024-05-09 10:01:48] INFO root fetch - processPackages [arktika-icebreaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arktika-icebreaker-0.5.0.tar.gz tmp/arktika_icebreaker-0.6.0.tar.gz --markdown 20240509/a/arktika-icebreaker/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-09 10:01:48] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-05-09 10:01:48] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240509/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 10:01:49] INFO root fetch - processPackages [wifind]: Remove: archive file [/home/abi/fetcher/tmp/wifind-0.0.9.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - processPackages [wifind]: Remove: archive file [/home/abi/fetcher/tmp/wifind-0.1.0.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [wifind]: success
+[2024-05-09 10:01:49] INFO root fetch - processPackages [wildlife-datasets]: Remove: archive file [/home/abi/fetcher/tmp/wildlife-datasets-1.0.2.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - processPackages [wildlife-datasets]: Remove: archive file [/home/abi/fetcher/tmp/wildlife_datasets-1.0.3.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [wildlife-datasets]: success
+[2024-05-09 10:01:49] INFO root fetch - processPackages [arktika-icebreaker]: Remove: archive file [/home/abi/fetcher/tmp/arktika-icebreaker-0.5.0.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - processPackages [arktika-icebreaker]: Remove: archive file [/home/abi/fetcher/tmp/arktika_icebreaker-0.6.0.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [arktika-icebreaker]: success
+[2024-05-09 10:01:49] INFO root fetch - processPackages [ioos-metrics]: Remove: archive file [/home/abi/fetcher/tmp/ioos_metrics-0.1.0.dev0.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - processPackages [ioos-metrics]: Remove: archive file [/home/abi/fetcher/tmp/ioos_metrics-0.1.0a1.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [ioos-metrics]: success
+[2024-05-09 10:01:49] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-05-09 10:01:49] INFO root fetch - main [MainThread]: Store serial: [23127816]
