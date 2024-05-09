@@ -10586,3 +10586,57 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:28:43] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
 [2024-05-09 06:28:43] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
 [2024-05-09 06:28:43] INFO root fetch - main [MainThread]: Store serial: [23126026]
+[2024-05-09 06:30:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126026]
+[2024-05-09 06:30:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-artifactory
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instructor
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-cloudinit
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Sherlock-test-randomnonsensecharshere
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dox-cli
+[2024-05-09 06:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aim-flask
+[2024-05-09 06:30:52] WARNING root fetch - processPackages [Sherlock-test-randomnonsensecharshere]: Skipping, unable to determine old version
+[2024-05-09 06:30:52] INFO root fetch - main [MainThread]: End processing [Sherlock-test-randomnonsensecharshere] error
+[2024-05-09 06:30:52] INFO root fetch - processPackages [instructor]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-09 06:30:52] WARNING root fetch - processPackages [aim-flask]: Skipping, unable to determine old version
+[2024-05-09 06:30:52] INFO root fetch - processPackages [dox-cli]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-09 06:30:52] INFO root fetch - main [MainThread]: End processing [aim-flask] error
+[2024-05-09 06:30:52] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.8.0a1715227918] Old Version: [6.8.0a1715058743]
+[2024-05-09 06:30:52] INFO root fetch - processPackages [pyqqq]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-09 06:30:52] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715228122] Old Version: [1.5.0a1715059386]
+[2024-05-09 06:30:53] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/a3/3a/9d0d251e40ff552d8c7cbd16b0a7f71a6e648f93073906e274b5de0b66cc/instructor-1.2.5.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [dox-cli]: Downloading https://files.pythonhosted.org/packages/cc/31/b311a606dac3da08306535cc737acd6b67d146e68ec9d1238869ee78d8f5/dox-cli-0.0.9.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/c6/58/84fb0b70e4a36e38f275310c2b31711030adfac600f4393c365ba56e05f4/pulumi_artifactory-6.8.0a1715058743.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/9a/a3/ef120914d7ce7be088c09252c1efe0b68190f9852e5a934b64032f29f8ae/pyqqq-0.9.3.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/cf/04/078b9cc631dfad202478d3980a110804668f26fb270ecb331eef2671f841/pulumi_cloudinit-1.5.0a1715059386.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/c2/0f/678a070931bc1dcc65acd6e01252a9f934afb021d778a182bee2a95a06ad/instructor-1.2.6.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/b2/27/789883f295fdbdcfa3c2ec1c949e3147ea8dabbaa217391b98a5375ec103/pulumi_cloudinit-1.5.0a1715228122.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/dd/60/5f9c2a0124b42dc327528787d40ce0c35d76517061250d4e9bd01a190aaf/pyqqq-0.9.4.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/75/d8/2a2920c6b29f70d66653f98fa87ead7d6d8620f7ad44f7efe5f6b31c7685/pulumi_artifactory-6.8.0a1715227918.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [dox-cli]: Downloading https://files.pythonhosted.org/packages/25/51/6c583d5a32a2594e4892ad3f040458a11801e4b79002548031d6a001cfa2/dox_cli-0.1.0.tar.gz
+[2024-05-09 06:30:53] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-05-09 06:30:53] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-1.2.5.tar.gz tmp/instructor-1.2.6.tar.gz --markdown 20240509/i/instructor/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715059386.tar.gz tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz --markdown 20240509/p/pulumi-cloudinit/1.5.0a1715059386-1.5.0a1715228122/README.md --exclude *.pyd
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.3.tar.gz tmp/pyqqq-0.9.4.tar.gz --markdown 20240509/p/pyqqq/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-09 06:30:53] INFO root fetch - processPackages [dox-cli]: executing diffoscope
+[2024-05-09 06:30:53] INFO root fetch - processPackages [dox-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dox-cli-0.0.9.tar.gz tmp/dox_cli-0.1.0.tar.gz --markdown 20240509/d/dox-cli/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-05-09 06:30:53] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.8.0a1715058743.tar.gz tmp/pulumi_artifactory-6.8.0a1715227918.tar.gz --markdown 20240509/p/pulumi-artifactory/6.8.0a1715058743-6.8.0a1715227918/README.md --exclude *.pyd
+[2024-05-09 06:30:54] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.5.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.2.6.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-05-09 06:30:54] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715059386.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-09 06:30:54] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.3.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.4.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-09 06:30:54] INFO root fetch - processPackages [dox-cli]: Remove: archive file [/home/abi/fetcher/tmp/dox-cli-0.0.9.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - processPackages [dox-cli]: Remove: archive file [/home/abi/fetcher/tmp/dox_cli-0.1.0.tar.gz]
+[2024-05-09 06:30:54] INFO root fetch - main [MainThread]: End processing [dox-cli]: success
+[2024-05-09 06:30:56] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715058743.tar.gz]
+[2024-05-09 06:30:56] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715227918.tar.gz]
+[2024-05-09 06:30:56] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-05-09 06:30:56] INFO root fetch - main [MainThread]: Store serial: [23126049]
