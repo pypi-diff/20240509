@@ -10164,3 +10164,66 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:55:34] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.9.tar.gz]
 [2024-05-09 05:55:34] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
 [2024-05-09 05:55:34] INFO root fetch - main [MainThread]: Store serial: [23125845]
+[2024-05-09 05:57:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125845]
+[2024-05-09 05:57:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathercutz
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Stricture
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-kdbai
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indiafactorlibrary
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uglyorange
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sumake
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partenaire-qualif
+[2024-05-09 05:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: btrview
+[2024-05-09 05:57:44] WARNING root fetch - processPackages [feathercutz]: Skipping, unable to determine old version
+[2024-05-09 05:57:44] INFO root fetch - main [MainThread]: End processing [feathercutz] error
+[2024-05-09 05:57:44] INFO root fetch - processPackages [Stricture]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-09 05:57:44] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-09 05:57:44] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-09 05:57:44] INFO root fetch - processPackages [indiafactorlibrary]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-09 05:57:44] INFO root fetch - processPackages [btrview]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-09 05:57:44] INFO root fetch - processPackages [sumake]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-09 05:57:44] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/94/72/3e689d4a000738ed87716c48a8a127437c8e88bc36ada9b52192a3ee1e64/Stricture-1.0.4.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-09 05:57:44] INFO root fetch - processPackages [uglyorange]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-09 05:57:44] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/f9/e4/9d97faa666e2a4fec706b1b1a1cba512f6f4b6ffc54bafa94d9648513934/btrview-0.6.3.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [indiafactorlibrary]: Downloading https://files.pythonhosted.org/packages/b7/6d/c66fe80cc7ab54b760bf9e6302c860f455835a8d9eb8e3e6069a9ad1caf7/indiafactorlibrary-0.0.4.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [sumake]: Downloading https://files.pythonhosted.org/packages/de/45/69088f2e24ac29ed1cc770ceb64b67e64e4d7a7cd72de02844efab22abe4/sumake-0.0.8.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/db/94/cf133fd05cb663fa1146bd40c1d51c7fe19726001a57aae9b6b7802db459/llama_index_vector_stores_kdbai-0.1.5.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [uglyorange]: Downloading https://files.pythonhosted.org/packages/6b/5a/4f75b2cad5f446cb3a584b74137d876b7dc5e35beed00e0233df0ad77441/uglyorange-0.0.4.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/c6/88/97a5984e8a8a119f991fca62c2ff69c67396b1bd0c38a65f64aefdc36cff/btrview-0.7.0.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/c3/06/da2b909a1ec4484df60c192d137010a583c569063ed1992f09e219962962/Stricture-1.0.5.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [indiafactorlibrary]: Downloading https://files.pythonhosted.org/packages/37/00/cf484447d9d1b4d5bcb2a47fec31f1e9d326c930a1106a975bf87de137ba/indiafactorlibrary-0.0.6.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-05-09 05:57:44] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.6.3.tar.gz tmp/btrview-0.7.0.tar.gz --markdown 20240509/b/btrview/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-09 05:57:44] INFO root fetch - processPackages [Stricture]: executing diffoscope
+[2024-05-09 05:57:44] INFO root fetch - processPackages [Stricture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Stricture-1.0.4.tar.gz tmp/Stricture-1.0.5.tar.gz --markdown 20240509/S/Stricture/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-09 05:57:44] INFO root fetch - processPackages [indiafactorlibrary]: executing diffoscope
+[2024-05-09 05:57:44] INFO root fetch - processPackages [indiafactorlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiafactorlibrary-0.0.4.tar.gz tmp/indiafactorlibrary-0.0.6.tar.gz --markdown 20240509/i/indiafactorlibrary/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:57:44] INFO root fetch - processPackages [uglyorange]: Downloading https://files.pythonhosted.org/packages/20/26/4a28fdd8de631c64b8fd500f6886061c978c8fb9c8985bb06b3e1eea78df/uglyorange-0.0.6.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [sumake]: Downloading https://files.pythonhosted.org/packages/88/03/eeb37a590115e0a9ab6cc279194601878b9f31cdb3857bc170887ede0e3a/sumake-0.1.0.tar.gz
+[2024-05-09 05:57:44] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/ba/8d/43b28a31b730fa87c423e0071547ef42dd63b9812ffdd5f0b0af24dad529/llama_index_vector_stores_kdbai-0.1.6.tar.gz
+[2024-05-09 05:57:45] INFO root fetch - processPackages [uglyorange]: executing diffoscope
+[2024-05-09 05:57:45] INFO root fetch - processPackages [uglyorange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uglyorange-0.0.4.tar.gz tmp/uglyorange-0.0.6.tar.gz --markdown 20240509/u/uglyorange/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:57:45] INFO root fetch - processPackages [sumake]: executing diffoscope
+[2024-05-09 05:57:45] INFO root fetch - processPackages [sumake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumake-0.0.8.tar.gz tmp/sumake-0.1.0.tar.gz --markdown 20240509/s/sumake/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-09 05:57:45] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: executing diffoscope
+[2024-05-09 05:57:45] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_kdbai-0.1.5.tar.gz tmp/llama_index_vector_stores_kdbai-0.1.6.tar.gz --markdown 20240509/l/llama-index-vector-stores-kdbai/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-09 05:57:45] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.6.3.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.0.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-05-09 05:57:45] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.4.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.5.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [Stricture]: success
+[2024-05-09 05:57:45] INFO root fetch - processPackages [indiafactorlibrary]: Remove: archive file [/home/abi/fetcher/tmp/indiafactorlibrary-0.0.4.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [indiafactorlibrary]: Remove: archive file [/home/abi/fetcher/tmp/indiafactorlibrary-0.0.6.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [indiafactorlibrary]: success
+[2024-05-09 05:57:45] INFO root fetch - processPackages [sumake]: Remove: archive file [/home/abi/fetcher/tmp/sumake-0.0.8.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [sumake]: Remove: archive file [/home/abi/fetcher/tmp/sumake-0.1.0.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [sumake]: success
+[2024-05-09 05:57:45] INFO root fetch - processPackages [uglyorange]: Remove: archive file [/home/abi/fetcher/tmp/uglyorange-0.0.4.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [uglyorange]: Remove: archive file [/home/abi/fetcher/tmp/uglyorange-0.0.6.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [uglyorange]: success
+[2024-05-09 05:57:45] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.5.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.6.tar.gz]
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-kdbai]: success
+[2024-05-09 05:57:45] INFO root fetch - main [MainThread]: Store serial: [23125880]
