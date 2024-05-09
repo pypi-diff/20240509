@@ -8957,3 +8957,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:11:38] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.5.0.tar.gz]
 [2024-05-09 05:11:38] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
 [2024-05-09 05:11:38] INFO root fetch - main [MainThread]: Store serial: [23125461]
+[2024-05-09 05:13:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125461]
+[2024-05-09 05:13:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 05:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metallurgistz
+[2024-05-09 05:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finisterra
+[2024-05-09 05:13:46] INFO root fetch - processPackages [finisterra]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 05:13:46] WARNING root fetch - processPackages [metallurgistz]: Skipping, unable to determine old version
+[2024-05-09 05:13:46] INFO root fetch - main [MainThread]: End processing [metallurgistz] error
+[2024-05-09 05:13:47] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/b6/bf/195a1850e81169f476d3d3ca9ef8c21c89088d98c5739b2e6b3e241d7ac4/finisterra-1.0.8.tar.gz
+[2024-05-09 05:13:47] INFO root fetch - processPackages [finisterra]: Downloading https://files.pythonhosted.org/packages/68/8a/02f80cdb16a2f8155583c78bc947832a816e1d8d728091c4ac97d9225473/finisterra-1.0.9.tar.gz
+[2024-05-09 05:13:47] INFO root fetch - processPackages [finisterra]: executing diffoscope
+[2024-05-09 05:13:47] INFO root fetch - processPackages [finisterra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finisterra-1.0.8.tar.gz tmp/finisterra-1.0.9.tar.gz --markdown 20240509/f/finisterra/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 05:13:48] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.8.tar.gz]
+[2024-05-09 05:13:48] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
+[2024-05-09 05:13:48] INFO root fetch - main [MainThread]: End processing [finisterra]: success
+[2024-05-09 05:13:48] INFO root fetch - main [MainThread]: Store serial: [23125469]
