@@ -10032,3 +10032,57 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:49:01] INFO root fetch - processPackages [systems-manager]: Remove: archive file [/home/abi/fetcher/tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip]
 [2024-05-09 05:49:01] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
 [2024-05-09 05:49:01] INFO root fetch - main [MainThread]: Store serial: [23125797]
+[2024-05-09 05:51:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125797]
+[2024-05-09 05:51:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoversioner
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: barchart-api
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-alibabacloud-opensearch
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dignityz
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: listmonk-api
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: btrview
+[2024-05-09 05:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rom-manager
+[2024-05-09 05:51:09] INFO root fetch - processPackages [btrview]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-09 05:51:09] INFO root fetch - processPackages [rom-manager]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-09 05:51:09] WARNING root fetch - processPackages [llama-index-vector-stores-alibabacloud-opensearch]: Skipping, unable to determine old version
+[2024-05-09 05:51:09] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-alibabacloud-opensearch] error
+[2024-05-09 05:51:09] INFO root fetch - processPackages [listmonk-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-09 05:51:09] INFO root fetch - processPackages [autoversioner]: New version: [24.5.0] Old Version: [24.1.6]
+[2024-05-09 05:51:09] WARNING root fetch - processPackages [dignityz]: Skipping, unable to determine old version
+[2024-05-09 05:51:09] INFO root fetch - main [MainThread]: End processing [dignityz] error
+[2024-05-09 05:51:09] INFO root fetch - processPackages [barchart-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:51:10] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/f9/e4/9d97faa666e2a4fec706b1b1a1cba512f6f4b6ffc54bafa94d9648513934/btrview-0.6.3.tar.gz
+[2024-05-09 05:51:10] INFO root fetch - processPackages [rom-manager]: Downloading https://files.pythonhosted.org/packages/62/85/37f8ed160853cd0e3029ef51a5e9ed42813254dc18a9e1a96b072512afca/rom_manager-0.0.6-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [autoversioner]: Downloading https://files.pythonhosted.org/packages/b7/94/1b89890d8d8f3fefced6d34800881d09184e734f9dc74415f796e318be4d/autoversioner-24.1.6-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [listmonk-api]: Downloading https://files.pythonhosted.org/packages/c0/22/82d865fbe79541714ddaddd0c81b023fd71202f23da9551a4153c72d3a25/listmonk_api-0.3.0-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [barchart-api]: Downloading https://files.pythonhosted.org/packages/bc/34/f4f81bd88219b28466be8bae2bf4fd0df5cd28c7d0cb04747337d66069f0/barchart_api-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/c6/88/97a5984e8a8a119f991fca62c2ff69c67396b1bd0c38a65f64aefdc36cff/btrview-0.7.0.tar.gz
+[2024-05-09 05:51:10] INFO root fetch - processPackages [autoversioner]: Downloading https://files.pythonhosted.org/packages/14/a1/46036ca7006dcc68a89ef3de918c934d29661d2d4004fd8fa0f00b474b96/autoversioner-24.5.0-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [barchart-api]: Downloading https://files.pythonhosted.org/packages/0f/fb/6c49ec346316ac1904c69735917de3f2e4f462f9b900b72984bef2627687/barchart_api-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [listmonk-api]: Downloading https://files.pythonhosted.org/packages/f7/2f/77ff9aa755bce22687c3cc4e9bfb633f8340a268076d489351eda873a348/listmonk_api-0.3.1-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [autoversioner]: executing diffoscope
+[2024-05-09 05:51:10] INFO root fetch - processPackages [autoversioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoversioner-24.1.6-py2.py3-none-any.whl.zip tmp/autoversioner-24.5.0-py2.py3-none-any.whl.zip --markdown 20240509/a/autoversioner/24.1.6-24.5.0/README.md --exclude *.pyd
+[2024-05-09 05:51:10] INFO root fetch - processPackages [rom-manager]: Downloading https://files.pythonhosted.org/packages/46/97/540758f67ac83d1bf4f4153402bc747bb3a60dedd19f724d29473a4d7e72/rom_manager-0.0.9-py2.py3-none-any.whl
+[2024-05-09 05:51:10] INFO root fetch - processPackages [barchart-api]: executing diffoscope
+[2024-05-09 05:51:10] INFO root fetch - processPackages [barchart-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barchart_api-0.8.0-py2.py3-none-any.whl.zip tmp/barchart_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/b/barchart-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:51:10] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-05-09 05:51:10] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.6.3.tar.gz tmp/btrview-0.7.0.tar.gz --markdown 20240509/b/btrview/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-09 05:51:10] INFO root fetch - processPackages [rom-manager]: executing diffoscope
+[2024-05-09 05:51:10] INFO root fetch - processPackages [rom-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rom_manager-0.0.6-py2.py3-none-any.whl.zip tmp/rom_manager-0.0.9-py2.py3-none-any.whl.zip --markdown 20240509/r/rom-manager/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-09 05:51:10] INFO root fetch - processPackages [listmonk-api]: executing diffoscope
+[2024-05-09 05:51:10] INFO root fetch - processPackages [listmonk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/listmonk_api-0.3.0-py2.py3-none-any.whl.zip tmp/listmonk_api-0.3.1-py2.py3-none-any.whl.zip --markdown 20240509/l/listmonk-api/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-09 05:51:11] INFO root fetch - processPackages [barchart-api]: Remove: archive file [/home/abi/fetcher/tmp/barchart_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - processPackages [barchart-api]: Remove: archive file [/home/abi/fetcher/tmp/barchart_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [barchart-api]: success
+[2024-05-09 05:51:11] INFO root fetch - processPackages [autoversioner]: Remove: archive file [/home/abi/fetcher/tmp/autoversioner-24.1.6-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - processPackages [autoversioner]: Remove: archive file [/home/abi/fetcher/tmp/autoversioner-24.5.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [autoversioner]: success
+[2024-05-09 05:51:11] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.6.3.tar.gz]
+[2024-05-09 05:51:11] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.0.tar.gz]
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-05-09 05:51:11] INFO root fetch - processPackages [rom-manager]: Remove: archive file [/home/abi/fetcher/tmp/rom_manager-0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - processPackages [rom-manager]: Remove: archive file [/home/abi/fetcher/tmp/rom_manager-0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [rom-manager]: success
+[2024-05-09 05:51:11] INFO root fetch - processPackages [listmonk-api]: Remove: archive file [/home/abi/fetcher/tmp/listmonk_api-0.3.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - processPackages [listmonk-api]: Remove: archive file [/home/abi/fetcher/tmp/listmonk_api-0.3.1-py2.py3-none-any.whl.zip]
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [listmonk-api]: success
+[2024-05-09 05:51:11] INFO root fetch - main [MainThread]: Store serial: [23125819]
