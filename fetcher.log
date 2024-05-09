@@ -3626,3 +3626,24 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:58:39] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.94-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
 [2024-05-09 02:58:39] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2024-05-09 02:58:39] INFO root fetch - main [MainThread]: Store serial: [23123131]
+[2024-05-09 03:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123131]
+[2024-05-09 03:00:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 03:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngstrefftz
+[2024-05-09 03:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: athena-starship
+[2024-05-09 03:00:48] INFO root fetch - processPackages [ngstrefftz]: New version: [0.3.2402.dev33] Old Version: [0.3.2401.post29]
+[2024-05-09 03:00:48] INFO root fetch - processPackages [athena-starship]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-09 03:00:48] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/b8/84/0e59cc57b0a6c0b9554a969fa7e6a1f526220658aa8eff525bc01a000b62/athena_starship-0.0.4.tar.gz
+[2024-05-09 03:00:48] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/18/77/292ac52f0556464426cdfe3aeadb9879b45046f033ff0531a9208d20c498/ngstrefftz-0.3.2401.post29.tar.gz
+[2024-05-09 03:00:48] INFO root fetch - processPackages [ngstrefftz]: Downloading https://files.pythonhosted.org/packages/c0/8c/e5179c03a296ef315841dea05e33187744d2ad501301bbfcd0102e693756/ngstrefftz-0.3.2402.dev33.tar.gz
+[2024-05-09 03:00:48] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/bf/c0/201872d15e0094be9dfb3d2c7ea334376a631748d4aba1922aa2dd2340a1/athena_starship-0.0.5.tar.gz
+[2024-05-09 03:00:48] INFO root fetch - processPackages [ngstrefftz]: executing diffoscope
+[2024-05-09 03:00:48] INFO root fetch - processPackages [ngstrefftz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstrefftz-0.3.2401.post29.tar.gz tmp/ngstrefftz-0.3.2402.dev33.tar.gz --markdown 20240509/n/ngstrefftz/0.3.2401.post29-0.3.2402.dev33/README.md --exclude *.pyd
+[2024-05-09 03:00:48] INFO root fetch - processPackages [athena-starship]: executing diffoscope
+[2024-05-09 03:00:48] INFO root fetch - processPackages [athena-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_starship-0.0.4.tar.gz tmp/athena_starship-0.0.5.tar.gz --markdown 20240509/a/athena-starship/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-09 03:00:49] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.4.tar.gz]
+[2024-05-09 03:00:49] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.5.tar.gz]
+[2024-05-09 03:00:49] INFO root fetch - main [MainThread]: End processing [athena-starship]: success
+[2024-05-09 03:00:49] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2401.post29.tar.gz]
+[2024-05-09 03:00:49] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev33.tar.gz]
+[2024-05-09 03:00:49] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
+[2024-05-09 03:00:49] INFO root fetch - main [MainThread]: Store serial: [23123167]
