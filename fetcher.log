@@ -17718,3 +17718,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:44:27] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev2.tar.gz]
 [2024-05-09 10:44:27] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-09 10:44:27] INFO root fetch - main [MainThread]: Store serial: [23128572]
+[2024-05-09 10:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128572]
+[2024-05-09 10:46:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2024-05-09 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2024-05-09 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-project-creator
+[2024-05-09 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sshnpd
+[2024-05-09 10:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaea-operator
+[2024-05-09 10:46:36] INFO root fetch - processPackages [sshnpd]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-09 10:46:36] INFO root fetch - processPackages [flask-project-creator]: New version: [0.2] Old Version: [0.1]
+[2024-05-09 10:46:36] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-09 10:46:36] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/11/b5/cb85334079d37aea42df2d85ee598ee8797f8d2822d9bb70d51dae888390/sshnpd-0.4.6.tar.gz
+[2024-05-09 10:46:36] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 10:46:36] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-09 10:46:36] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev4] Old Version: [4.1.2.dev1]
+[2024-05-09 10:46:37] INFO root fetch - processPackages [flask-project-creator]: Downloading https://files.pythonhosted.org/packages/64/76/d3b9a536b9261c0a8088105553962528226e6463945a5bf2bcae80a82655/flask_project_creator-0.1.tar.gz
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-09 10:46:37] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/48/98/62375da4ac97b25cc1c06e165d4cd2ab6429e8680393b6b4324be8454f1d/gaea_operator-4.1.2.dev1-py3-none-any.whl
+[2024-05-09 10:46:37] INFO root fetch - processPackages [sshnpd]: Downloading https://files.pythonhosted.org/packages/ea/91/7ce2af8672725afb0404b0f182c7a384ea0241cd38836c7a2291d724767b/sshnpd-0.4.7.tar.gz
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240509/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-09 10:46:37] INFO root fetch - processPackages [sshnpd]: executing diffoscope
+[2024-05-09 10:46:37] INFO root fetch - processPackages [sshnpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshnpd-0.4.6.tar.gz tmp/sshnpd-0.4.7.tar.gz --markdown 20240509/s/sshnpd/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-09 10:46:37] INFO root fetch - processPackages [flask-project-creator]: Downloading https://files.pythonhosted.org/packages/f7/da/867dd2519603a02226bd721945597035ef249075db84a2557be2543073a8/flask_project_creator-0.2.tar.gz
+[2024-05-09 10:46:37] INFO root fetch - processPackages [flask-project-creator]: executing diffoscope
+[2024-05-09 10:46:37] INFO root fetch - processPackages [flask-project-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_project_creator-0.1.tar.gz tmp/flask_project_creator-0.2.tar.gz --markdown 20240509/f/flask-project-creator/0.1-0.2/README.md --exclude *.pyd
+[2024-05-09 10:46:37] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/87/a0/d18372b75c03af82257483f61334f45d6bd315769d4efccf33d90fa119cd/gaea_operator-4.1.2.dev4-py3-none-any.whl
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-09 10:46:37] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240509/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 10:46:37] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-09 10:46:37] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev1-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip --markdown 20240509/g/gaea-operator/4.1.2.dev1-4.1.2.dev4/README.md --exclude *.pyd
+[2024-05-09 10:46:37] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.6.tar.gz]
+[2024-05-09 10:46:37] INFO root fetch - processPackages [sshnpd]: Remove: archive file [/home/abi/fetcher/tmp/sshnpd-0.4.7.tar.gz]
+[2024-05-09 10:46:37] INFO root fetch - main [MainThread]: End processing [sshnpd]: success
+[2024-05-09 10:46:38] INFO root fetch - processPackages [flask-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/flask_project_creator-0.1.tar.gz]
+[2024-05-09 10:46:38] INFO root fetch - processPackages [flask-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/flask_project_creator-0.2.tar.gz]
+[2024-05-09 10:46:38] INFO root fetch - main [MainThread]: End processing [flask-project-creator]: success
+[2024-05-09 10:46:38] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-09 10:46:38] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-09 10:46:38] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-09 10:46:38] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-09 10:46:38] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-09 10:46:38] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-09 10:46:39] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev1-py3-none-any.whl.zip]
+[2024-05-09 10:46:39] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip]
+[2024-05-09 10:46:39] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-09 10:46:39] INFO root fetch - main [MainThread]: Store serial: [23128585]
