@@ -22415,3 +22415,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:01:24] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.1.1.tar.gz]
 [2024-05-09 14:01:24] INFO root fetch - main [MainThread]: End processing [lcax]: success
 [2024-05-09 14:01:24] INFO root fetch - main [MainThread]: Store serial: [23130513]
+[2024-05-09 14:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130513]
+[2024-05-09 14:03:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-firebase
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-tailchat
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluto-client
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipkgs-firebase
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-stale-dependencies
+[2024-05-09 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sommify
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:03:33] INFO root fetch - processPackages [nonebot-adapter-tailchat]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2024-05-09 14:03:33] INFO root fetch - processPackages [sommify]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/60/e0/69dc666392bdade23f817a0bf986a0c5515505750a48b475b318e9e8083c/aipkgs_firebase-0.0.8.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/60/e0/69dc666392bdade23f817a0bf986a0c5515505750a48b475b318e9e8083c/aipkgs_firebase-0.0.8.tar.gz
+[2024-05-09 14:03:33] WARNING root fetch - processPackages [poetry-stale-dependencies]: Skipping, unable to determine old version
+[2024-05-09 14:03:33] INFO root fetch - main [MainThread]: End processing [poetry-stale-dependencies] error
+[2024-05-09 14:03:33] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Downloading https://files.pythonhosted.org/packages/04/77/963c7f54f3222f9769e20a4958b9a5e246d260e0f21e7db647bc186683c2/nonebot_adapter_tailchat-0.1.0b4.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [pluto-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:03:33] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/73/6a/732d7043b7df22bc8422fef480bb2422e3a58fe5815569e747b5e9d71cea/sommify-0.8.8.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/9a/b4/fc3db6c9de530a5bd7b27a8409d47f89cce89495dc6684d7439b79411b44/pluto_client-0.0.8.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/99/79/af6dbbe811fe0a12d668e3665e1b2d00dfe2c6ce4cad2d9bf55436b29a70/aipkgs_firebase-0.0.9.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/99/79/af6dbbe811fe0a12d668e3665e1b2d00dfe2c6ce4cad2d9bf55436b29a70/aipkgs_firebase-0.0.9.tar.gz
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-0.0.8.tar.gz tmp/aipkgs_firebase-0.0.9.tar.gz --markdown 20240509/a/aipkgs-firebase/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-09 14:03:33] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-0.0.8.tar.gz tmp/aipkgs_firebase-0.0.9.tar.gz --markdown 20240509/a/aipkgs-firebase/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:03:33] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Downloading https://files.pythonhosted.org/packages/59/cc/4928efaa5439440256fd890ca68d31843583b1fe89c8d6bd58956e806e30/nonebot_adapter_tailchat-0.1.0b5.tar.gz
+[2024-05-09 14:03:34] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/76/b7/b1cbd8a6b2ebaca4825529f66a195ef0c2ce685e842b46bbf480f3428617/sommify-0.8.9.tar.gz
+[2024-05-09 14:03:34] INFO root fetch - processPackages [pluto-client]: Downloading https://files.pythonhosted.org/packages/56/38/7b25b598a400edb65031f93b6b67d415a4a09d7af536c684551beb2e61f1/pluto_client-0.0.9.tar.gz
+[2024-05-09 14:03:34] INFO root fetch - processPackages [pluto-client]: executing diffoscope
+[2024-05-09 14:03:34] INFO root fetch - processPackages [pluto-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_client-0.0.8.tar.gz tmp/pluto_client-0.0.9.tar.gz --markdown 20240509/p/pluto-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:03:34] INFO root fetch - processPackages [nonebot-adapter-tailchat]: executing diffoscope
+[2024-05-09 14:03:34] INFO root fetch - processPackages [nonebot-adapter-tailchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_tailchat-0.1.0b4.tar.gz tmp/nonebot_adapter_tailchat-0.1.0b5.tar.gz --markdown 20240509/n/nonebot-adapter-tailchat/0.1.0b4-0.1.0b5/README.md --exclude *.pyd
+[2024-05-09 14:03:34] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-05-09 14:03:34] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.8.tar.gz tmp/sommify-0.8.9.tar.gz --markdown 20240509/s/sommify/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-09 14:03:34] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.8.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.9.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-09 14:03:34] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-09 14:03:34] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.8.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - processPackages [pluto-client]: Remove: archive file [/home/abi/fetcher/tmp/pluto_client-0.0.9.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - main [MainThread]: End processing [pluto-client]: success
+[2024-05-09 14:03:34] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_tailchat-0.1.0b4.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_tailchat-0.1.0b5.tar.gz]
+[2024-05-09 14:03:34] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-tailchat]: success
+[2024-05-09 14:03:35] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.8.tar.gz]
+[2024-05-09 14:03:35] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.9.tar.gz]
+[2024-05-09 14:03:35] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-05-09 14:03:35] INFO root fetch - main [MainThread]: Store serial: [23130536]
