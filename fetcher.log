@@ -7490,3 +7490,57 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:26:55] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
 [2024-05-09 03:26:55] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
 [2024-05-09 03:26:55] INFO root fetch - main [MainThread]: Store serial: [23124201]
+[2024-05-09 03:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124201]
+[2024-05-09 03:29:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-core
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediffx
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viewai
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dosview
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ocdsmerge
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sulkierz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [dosview]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ocdsmerge]: New version: [0.7.0] Old Version: [0.6.6]
+[2024-05-09 03:29:04] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/ca/c5/3ffbf2242d0b4d90c549de5b69892bb82e141e1f4077219a0e2b82823a15/dosview-0.1.8.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405090127] Old Version: [1.0.0.dev202405080117]
+[2024-05-09 03:29:04] WARNING root fetch - processPackages [viewai]: Skipping, unable to determine old version
+[2024-05-09 03:29:04] INFO root fetch - main [MainThread]: End processing [viewai] error
+[2024-05-09 03:29:04] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405090127] Old Version: [1.0.0.dev202405080117]
+[2024-05-09 03:29:04] INFO root fetch - processPackages [pypomes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-09 03:29:04] WARNING root fetch - processPackages [sulkierz]: Skipping, unable to determine old version
+[2024-05-09 03:29:04] INFO root fetch - main [MainThread]: End processing [sulkierz] error
+[2024-05-09 03:29:04] INFO root fetch - processPackages [ocdsmerge]: Downloading https://files.pythonhosted.org/packages/a5/64/2de938d4c9a3502d889b17a970bfc7023724ede5669b802909c1cf81fde4/ocdsmerge-0.6.6.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [dosview]: Downloading https://files.pythonhosted.org/packages/61/aa/f7b04b71d76ad743bac96178efe33fe36d91cd9b7cedda98b971c5dcec28/dosview-0.1.9.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/9c/3a/4bcffe33e6ec3c3f880674292c0d5be5fa02bdf0f19f27a120794dcd3132/onediff-1.0.0.dev202405080117.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/48/8f/f59e692a465bc2d9c1ff4bcc9e889e6c15e137162983c8ae5458fce2bd85/onediffx-1.0.0.dev202405080117.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/3c/af/cf63c6393e28500aac8ca8523de957855921f6642525a634e9b5e9a91210/pypomes_core-0.9.7.tar.gz
+[2024-05-09 03:29:04] INFO root fetch - processPackages [dosview]: executing diffoscope
+[2024-05-09 03:29:04] INFO root fetch - processPackages [dosview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dosview-0.1.8.tar.gz tmp/dosview-0.1.9.tar.gz --markdown 20240509/d/dosview/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 03:29:05] INFO root fetch - processPackages [ocdsmerge]: Downloading https://files.pythonhosted.org/packages/ff/0c/0dcf84950f156240bed608fb0b4edb47ce9723d228ccd0c0e58bc21289a1/ocdsmerge-0.7.0.tar.gz
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/24/da/8de6ab07869ed3a8a4f024ba0b497766563b1fb72e5d6360102387d6a020/onediff-1.0.0.dev202405090127.tar.gz
+[2024-05-09 03:29:05] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/41/f2/e26a5a760d49b36361e9a7daffe62b5bc912106e520ca3e615842d01aae1/pypomes_core-0.9.8.tar.gz
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/93/b2/7d33903dd13096f184f1e18ee5e0242811913573946ce3f2ab9e34697765/onediffx-1.0.0.dev202405090127.tar.gz
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405080117.tar.gz tmp/onediff-1.0.0.dev202405090127.tar.gz --markdown 20240509/o/onediff/1.0.0.dev202405080117-1.0.0.dev202405090127/README.md --exclude *.pyd
+[2024-05-09 03:29:05] INFO root fetch - processPackages [ocdsmerge]: executing diffoscope
+[2024-05-09 03:29:05] INFO root fetch - processPackages [ocdsmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdsmerge-0.6.6.tar.gz tmp/ocdsmerge-0.7.0.tar.gz --markdown 20240509/o/ocdsmerge/0.6.6-0.7.0/README.md --exclude *.pyd
+[2024-05-09 03:29:05] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-09 03:29:05] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.9.7.tar.gz tmp/pypomes_core-0.9.8.tar.gz --markdown 20240509/p/pypomes-core/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-09 03:29:05] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405080117.tar.gz tmp/onediffx-1.0.0.dev202405090127.tar.gz --markdown 20240509/o/onediffx/1.0.0.dev202405080117-1.0.0.dev202405090127/README.md --exclude *.pyd
+[2024-05-09 03:29:05] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.8.tar.gz]
+[2024-05-09 03:29:05] INFO root fetch - processPackages [dosview]: Remove: archive file [/home/abi/fetcher/tmp/dosview-0.1.9.tar.gz]
+[2024-05-09 03:29:05] INFO root fetch - main [MainThread]: End processing [dosview]: success
+[2024-05-09 03:29:06] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.9.7.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.9.8.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-09 03:29:06] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405080117.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405090127.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-09 03:29:06] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405080117.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405090127.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-09 03:29:06] INFO root fetch - processPackages [ocdsmerge]: Remove: archive file [/home/abi/fetcher/tmp/ocdsmerge-0.6.6.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - processPackages [ocdsmerge]: Remove: archive file [/home/abi/fetcher/tmp/ocdsmerge-0.7.0.tar.gz]
+[2024-05-09 03:29:06] INFO root fetch - main [MainThread]: End processing [ocdsmerge]: success
+[2024-05-09 03:29:06] INFO root fetch - main [MainThread]: Store serial: [23124274]
