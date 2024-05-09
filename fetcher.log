@@ -18235,3 +18235,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:11:42] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.3.tar.gz]
 [2024-05-09 11:11:42] INFO root fetch - main [MainThread]: End processing [gradio-model4dgs]: success
 [2024-05-09 11:11:42] INFO root fetch - main [MainThread]: Store serial: [23128809]
+[2024-05-09 11:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128809]
+[2024-05-09 11:13:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RL-OM
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grimoirelab-toolkit
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kidash
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagworm
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talp-pages
+[2024-05-09 11:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt-custom-adapter
+[2024-05-09 11:13:51] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:13:51] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-09 11:13:51] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/1b/2d/42d4ffaef1bc36ffe97738c2f17126c44e004bdf7d22693a80946c2bf512/grimoirelab_toolkit-1.0.0rc2.tar.gz
+[2024-05-09 11:13:51] WARNING root fetch - processPackages [talp-pages]: Skipping, unable to determine old version
+[2024-05-09 11:13:51] INFO root fetch - main [MainThread]: End processing [talp-pages] error
+[2024-05-09 11:13:51] WARNING root fetch - processPackages [ccxt-custom-adapter]: Skipping, unable to determine old version
+[2024-05-09 11:13:51] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter] error
+[2024-05-09 11:13:51] INFO root fetch - processPackages [kidash]: New version: [1.0.1rc1] Old Version: [1.0.1]
+[2024-05-09 11:13:51] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-09 11:13:51] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/06/91/3370954da99fc65b0048056c3e0ec29b378d059e4f4717602d0c604aa6cc/grimoirelab_toolkit-1.0.1rc1.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/73/dd/0f8ce378db3eb7f725a0321fd7cedd3f33f64a27c2eb99f26bb846ff7184/kidash-1.0.1.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2024-05-09 11:13:51] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-1.0.0rc2.tar.gz tmp/grimoirelab_toolkit-1.0.1rc1.tar.gz --markdown 20240509/g/grimoirelab-toolkit/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:13:51] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-09 11:13:51] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240509/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-09 11:13:51] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/37/c7/5bb0acbb02256bfdb34685433d95a04301521084991181e26e063b0a4190/kidash-1.0.1rc1.tar.gz
+[2024-05-09 11:13:51] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2024-05-09 11:13:51] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-1.0.1.tar.gz tmp/kidash-1.0.1rc1.tar.gz --markdown 20240509/k/kidash/1.0.1-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:13:51] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-09 11:13:52] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-09 11:13:52] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240509/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-09 11:13:52] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-1.0.0rc2.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-1.0.1rc1.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2024-05-09 11:13:52] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-09 11:13:52] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.1.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.1rc1.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2024-05-09 11:13:52] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-09 11:13:52] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-09 11:13:52] INFO root fetch - main [MainThread]: Store serial: [23128829]
