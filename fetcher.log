@@ -2867,3 +2867,81 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:16:50] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
 [2024-05-09 02:16:50] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
 [2024-05-09 02:16:50] INFO root fetch - main [MainThread]: Store serial: [23122811]
+[2024-05-09 02:18:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122811]
+[2024-05-09 02:18:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mylocale
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-kafka-schemas
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subtopicsz
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.appsync-utils
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firecrawl-py
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-budibase
+[2024-05-09 02:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2024-05-09 02:18:59] INFO root fetch - processPackages [sentry-kafka-schemas]: New version: [0.1.9] Old Version: [0.1.80]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [swarms]: New version: [4.9.4] Old Version: [4.9.3]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-09 02:18:59] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 02:18:59] WARNING root fetch - processPackages [subtopicsz]: Skipping, unable to determine old version
+[2024-05-09 02:18:59] INFO root fetch - main [MainThread]: End processing [subtopicsz] error
+[2024-05-09 02:18:59] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/42/42/3291e3e2349a198cb52892a7c398d79c1e94309fd7828de21c78794a7690/sentry-kafka-schemas-0.1.80.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/1e/8d/292546e245d83fb8c0357f94934a5b9c94ee69a298619b64ca37b4983b41/swarms-4.9.3.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/04/0e/5dc2216d894ae0aee20f92a179d202abc061a667cb393baac4c4096116b3/firecrawl-py-0.0.6.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [sentry-kafka-schemas]: Downloading https://files.pythonhosted.org/packages/8c/08/409be3a73bf2aa8f7b06bf6ede1250b42df881c326dd39800fb5c7d79d1a/sentry-kafka-schemas-0.1.9.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240509/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [sentry-kafka-schemas]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [sentry-kafka-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-kafka-schemas-0.1.80.tar.gz tmp/sentry-kafka-schemas-0.1.9.tar.gz --markdown 20240509/s/sentry-kafka-schemas/0.1.80-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240509/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/85/e4/73d4b2c304323af6491825148b7cc504d2e9beb2fd6d9f37be096ea2476d/swarms-4.9.4.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/26/53/21a05cc370ca469ad257c4ed93e6e0d17a8cecdb028598c27710f8b1462a/firecrawl-py-0.0.7.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-09 02:18:59] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.9.3.tar.gz tmp/swarms-4.9.4.tar.gz --markdown 20240509/s/swarms/4.9.3-4.9.4/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240509/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240509/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-09 02:18:59] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-05-09 02:18:59] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.6.tar.gz tmp/firecrawl-py-0.0.7.tar.gz --markdown 20240509/f/firecrawl-py/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240509/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-09 02:19:00] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.80.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.6.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.7.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-09 02:19:00] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-09 02:19:01] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.3.tar.gz]
+[2024-05-09 02:19:01] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.4.tar.gz]
+[2024-05-09 02:19:01] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-05-09 02:19:01] INFO root fetch - main [MainThread]: Store serial: [23122842]
