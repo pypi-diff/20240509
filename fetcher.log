@@ -14096,3 +14096,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:04:51] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2024-05-09 09:04:51] INFO root fetch - main [MainThread]: Store serial: [23127430]
+[2024-05-09 09:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127430]
+[2024-05-09 09:07:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tailscale
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-venafi
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-cpp-python
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterhub
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-wavefront
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rancher2
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtealeaves
+[2024-05-09 09:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-vsphere
+[2024-05-09 09:07:01] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715229630] Old Version: [6.2.0a1715062402]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1715229970] Old Version: [3.2.0a1715064249]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f6/cb/1d129b7d3cee04d7ccf7e897721da13f3a11c3e3507427de8a6a69a01207/pulumi_rancher2-6.2.0a1715062402.tar.gz
+[2024-05-09 09:07:01] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/33/76/f6fc357a6fa2dd32ce2c064ed1c15e7ec6be3e0580ac1a62b5b10a029e2c/qtealeaves-1.1.2.tar.gz
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/a4/68/4524248e9a486e5305171c67aecf1762954c2e60a0819b4587cc3a45f35f/pulumi_wavefront-3.2.0a1715064249.tar.gz
+[2024-05-09 09:07:01] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [jupyterhub]: New version: [5.0.0b2] Old Version: [5.0.0b1]
+[2024-05-09 09:07:01] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/cd/c9/db7f834756a9239506661a5102824cd2cf59b2de9c95a3f5b78bef00cd88/qtealeaves-1.1.3.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/0f/45/95e610edc97330602e33dab9f85c00d919856f54f9389601fc076591206b/pulumi_wavefront-3.2.0a1715229970.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/6d/60/edbd982673a71c6c27fa6818914ad61c6171d165de4e777d489539f1d959/llama_cpp_python-0.2.8.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/dc/66/03b7d69b3b69efda5e4fb02d727eb158beee810d2d1f4c170ab874df3838/pulumi_rancher2-6.2.0a1715229630.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [jupyterhub]: Downloading https://files.pythonhosted.org/packages/53/74/d6a4476f9ccc95cd2200dd968674995ed220614a046aa8fe1dc0dc72aabc/jupyterhub-5.0.0b1.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1715064249.tar.gz tmp/pulumi_wavefront-3.2.0a1715229970.tar.gz --markdown 20240509/p/pulumi-wavefront/3.2.0a1715064249-3.2.0a1715229970/README.md --exclude *.pyd
+[2024-05-09 09:07:02] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-1.1.2.tar.gz tmp/qtealeaves-1.1.3.tar.gz --markdown 20240509/q/qtealeaves/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-09 09:07:02] WARNING root fetch - processPackages [jupyterhub]: Skipping package: exceeds size limit 16839619>=10485760
+[2024-05-09 09:07:02] INFO root fetch - main [MainThread]: End processing [jupyterhub] error
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz --markdown 20240509/p/pulumi-rancher2/6.2.0a1715062402-6.2.0a1715229630/README.md --exclude *.pyd
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240509/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240509/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [llama-cpp-python]: Downloading https://files.pythonhosted.org/packages/98/2e/357d936ff7418591c56a27b9472e2b3581bd9eeb90c4221580fae5e00588/llama_cpp_python-0.2.9.tar.gz
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-09 09:07:02] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240509/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-09 09:07:03] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2024-05-09 09:07:03] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.2.8.tar.gz tmp/llama_cpp_python-0.2.9.tar.gz --markdown 20240509/l/llama-cpp-python/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715064249.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1715229970.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-09 09:07:03] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.2.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.3.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-09 09:07:03] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-09 09:07:04] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.8.tar.gz]
+[2024-05-09 09:07:04] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
+[2024-05-09 09:07:04] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2024-05-09 09:07:04] INFO root fetch - main [MainThread]: Store serial: [23127451]
