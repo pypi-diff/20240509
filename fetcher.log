@@ -14786,3 +14786,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:44:21] INFO root fetch - processPackages [MultiGather]: Remove: archive file [/home/abi/fetcher/tmp/multigather-0.0.2.tar.gz]
 [2024-05-09 09:44:21] INFO root fetch - main [MainThread]: End processing [MultiGather]: success
 [2024-05-09 09:44:21] INFO root fetch - main [MainThread]: Store serial: [23127688]
+[2024-05-09 09:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127688]
+[2024-05-09 09:46:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 09:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kan-gpt
+[2024-05-09 09:46:30] INFO root fetch - processPackages [kan-gpt]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-05-09 09:46:30] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/dc/26/bd37cda5d5c6d09e4ee81bba3b23789139d61d431fbdfa3e34b641ec5d5e/kan_gpt-0.4.0.tar.gz
+[2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/d2/1a/27797624ae98885116d2c44b98ff4dfb8e17b02cc352309491c58a37dbb1/kan_gpt-1.0.0.tar.gz
+[2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: executing diffoscope
+[2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kan_gpt-0.4.0.tar.gz tmp/kan_gpt-1.0.0.tar.gz --markdown 20240509/k/kan-gpt/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-0.4.0.tar.gz]
+[2024-05-09 09:46:31] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-1.0.0.tar.gz]
+[2024-05-09 09:46:31] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
+[2024-05-09 09:46:31] INFO root fetch - main [MainThread]: Store serial: [23127691]
