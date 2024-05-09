@@ -9709,3 +9709,80 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:38:00] INFO root fetch - processPackages [odoo-addon-website-sale-product-image-sample]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_image_sample-16.0.1.0.0.7-py3-none-any.whl.zip]
 [2024-05-09 05:38:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-image-sample]: success
 [2024-05-09 05:38:00] INFO root fetch - main [MainThread]: Store serial: [23125695]
+[2024-05-09 05:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125695]
+[2024-05-09 05:40:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biopipen
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-kubernetes
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kenotronsz
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-facturx
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HelloPyOnly
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-ubl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-wamas-ubl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dingosdk
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-despatch-advice-import-ubl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-order-import
+[2024-05-09 05:40:09] INFO root fetch - processPackages [HelloPyOnly]: New version: [0.1.24] Old Version: [0.1.23]
+[2024-05-09 05:40:09] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/5c/04/2518d363e3413a6c2391bb26e49702673436c694dd93211ccefa286f4300/HelloPyOnly-0.1.23.tar.gz
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-09 05:40:09] WARNING root fetch - processPackages [kenotronsz]: Skipping, unable to determine old version
+[2024-05-09 05:40:09] INFO root fetch - main [MainThread]: End processing [kenotronsz] error
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-ubl]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.0.2]
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-facturx]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-09 05:40:09] INFO root fetch - processPackages [biopipen]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:40:09] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-05-09 05:40:09] WARNING root fetch - processPackages [dingosdk]: Skipping, unable to determine old version
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-sale-order-import]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2024-05-09 05:40:09] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: Downloading https://files.pythonhosted.org/packages/1e/71/2a60fac2f648d9fa591cc780c9f4e20f9c6ce0f7054ac733756b13a1d3b7/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/91/f6/6d3e5a93e3eef7f8225d4b8731454995ce889c235eded2ff13adc725f9cb/HelloPyOnly-0.1.24.tar.gz
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-facturx]: Downloading https://files.pythonhosted.org/packages/52/3e/18536118379ea3cac25794cd5226e68134170c28575b9adc2696a098628e/odoo_addon_base_facturx-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/ce/c7/ecbe4fafda4a1a84cb3a87377835976c977746fbd44e2d31952557d4838c/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/12/90/e8f9a27ce17e66e3cad724adfc1eca75074e0fea675f0bb133a8f6480ee1/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [odoo-addon-sale-order-import]: Downloading https://files.pythonhosted.org/packages/fc/1e/90f8358a469bd8d271690ea3ccfcfff4df66973e182dcf0f934ddc056a42/odoo_addon_sale_order_import-16.0.1.2.0.3-py3-none-any.whl
+[2024-05-09 05:40:09] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/a5/8e/ea43c3f8b17ca2e871d77d1dbbf2e019b6aab9877410ee0c3fcd32c9204a/biopipen-0.8.0.tar.gz
+[2024-05-09 05:40:09] INFO root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Downloading https://files.pythonhosted.org/packages/ab/97/2a5448fe142a023aab9440837d10f2a5cf6e4bfc25006b1710dbd60182de/cdktf-cdktf-provider-kubernetes-8.0.1.tar.gz
+[2024-05-09 05:40:09] INFO root fetch - processPackages [HelloPyOnly]: executing diffoscope
+[2024-05-09 05:40:09] INFO root fetch - processPackages [HelloPyOnly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HelloPyOnly-0.1.23.tar.gz tmp/HelloPyOnly-0.1.24.tar.gz --markdown 20240509/H/HelloPyOnly/0.1.23-0.1.24/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: Downloading https://files.pythonhosted.org/packages/ca/52/96b37dc3072942928afb2ebe14c8358a01e5df62f04b8386e433bd169e72/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-facturx]: Downloading https://files.pythonhosted.org/packages/90/d6/59e41d18a011e2af1540235b0d719d670cfa8146ea3bb5558e432dac7a6d/odoo_addon_base_facturx-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-sale-order-import]: Downloading https://files.pythonhosted.org/packages/22/70/b4c50b5dfd70497c4f04a6378c7a6503301532d6992d4b9ab65348b4fd7a/odoo_addon_sale_order_import-16.0.1.2.0.4-py3-none-any.whl
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/a2/bf/a9e568e374dc99ea82f5acdfa3e0a70c1b94a8b50eec85d1946cff535526/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-facturx]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-facturx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_facturx-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_facturx-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-base-facturx/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-ubl]: Downloading https://files.pythonhosted.org/packages/ca/0c/cd88e3e4b3d67380a9ccfe37056b3d3928ac910d884273c3a3f5db00481a/odoo_addon_base_ubl-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-despatch-advice-import-ubl/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [biopipen]: Downloading https://files.pythonhosted.org/packages/34/4d/fb153c9b41fa48d6d7a50c214bb186d02cafed5396271f1b0f549fd56b16/biopipen-0.9.0.tar.gz
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-base-wamas-ubl/16.0.1.8.0.2-16.0.1.9.0/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.23.tar.gz]
+[2024-05-09 05:40:10] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.24.tar.gz]
+[2024-05-09 05:40:10] INFO root fetch - main [MainThread]: End processing [HelloPyOnly]: success
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-sale-order-import]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-sale-order-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_import-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_import-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-sale-order-import/16.0.1.2.0.3-16.0.1.2.0.4/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [biopipen]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [biopipen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biopipen-0.8.0.tar.gz tmp/biopipen-0.9.0.tar.gz --markdown 20240509/b/biopipen/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-ubl]: executing diffoscope
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_ubl-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-base-ubl/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-09 05:40:10] WARNING root fetch - processPackages [cdktf-cdktf-provider-kubernetes]: Skipping package: exceeds size limit 15265596>=10485760
+[2024-05-09 05:40:10] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-kubernetes] error
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_facturx-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:40:10] INFO root fetch - processPackages [odoo-addon-base-facturx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_facturx-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 05:40:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-facturx]: success
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-despatch-advice-import-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_despatch_advice_import_ubl-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-despatch-advice-import-ubl]: success
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-sale-order-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_import-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-sale-order-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_import-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-import]: success
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-09 05:40:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-wamas-ubl]: success
+[2024-05-09 05:40:11] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.8.0.tar.gz]
+[2024-05-09 05:40:11] INFO root fetch - processPackages [biopipen]: Remove: archive file [/home/abi/fetcher/tmp/biopipen-0.9.0.tar.gz]
+[2024-05-09 05:40:11] INFO root fetch - main [MainThread]: End processing [biopipen]: success
+[2024-05-09 05:40:15] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-09 05:40:15] INFO root fetch - processPackages [odoo-addon-base-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_ubl-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:40:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ubl]: success
+[2024-05-09 05:40:15] INFO root fetch - main [MainThread]: Store serial: [23125721]
