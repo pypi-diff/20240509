@@ -19968,3 +19968,23 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:10:51] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.9.tar.gz]
 [2024-05-09 12:10:51] INFO root fetch - main [MainThread]: End processing [phdu]: success
 [2024-05-09 12:10:51] INFO root fetch - main [MainThread]: Store serial: [23129542]
+[2024-05-09 12:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129542]
+[2024-05-09 12:13:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-09 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hscloud
+[2024-05-09 12:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-hologres
+[2024-05-09 12:13:00] WARNING root fetch - processPackages [hscloud]: Skipping, unable to determine old version
+[2024-05-09 12:13:00] INFO root fetch - main [MainThread]: End processing [hscloud] error
+[2024-05-09 12:13:00] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240509.9.44.878306] Old Version: [20240508.6.26.738405]
+[2024-05-09 12:13:00] INFO root fetch - processPackages [dbt-hologres]: New version: [1.7.8a0] Old Version: [1.7.8]
+[2024-05-09 12:13:00] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7b/9d/953ee3da3c5f5c47b647f4c05f78222dd39bc271117c188f8b6e36b85ef2/certora-cli-alpha-master-20240508.6.26.738405.tar.gz
+[2024-05-09 12:13:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14522147>=10485760
+[2024-05-09 12:13:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-09 12:13:01] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/71/b1/5ca16361d3b2b0cae57d08c13c74006ce23c59c0e54263edf65be9e7723c/dbt_hologres-1.7.8.tar.gz
+[2024-05-09 12:13:01] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/96/d6/7afe8c52159016d3aa99bacccfc51660bdde06e85e250098505e50d5d76e/dbt_hologres-1.7.8a0.tar.gz
+[2024-05-09 12:13:01] INFO root fetch - processPackages [dbt-hologres]: executing diffoscope
+[2024-05-09 12:13:01] INFO root fetch - processPackages [dbt-hologres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_hologres-1.7.8.tar.gz tmp/dbt_hologres-1.7.8a0.tar.gz --markdown 20240509/d/dbt-hologres/1.7.8-1.7.8a0/README.md --exclude *.pyd
+[2024-05-09 12:13:02] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8.tar.gz]
+[2024-05-09 12:13:02] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8a0.tar.gz]
+[2024-05-09 12:13:02] INFO root fetch - main [MainThread]: End processing [dbt-hologres]: success
+[2024-05-09 12:13:02] INFO root fetch - main [MainThread]: Store serial: [23129552]
