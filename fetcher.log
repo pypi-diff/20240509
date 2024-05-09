@@ -9331,3 +9331,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:29:11] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-05-09 05:29:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics-server-env]: success
 [2024-05-09 05:29:11] INFO root fetch - main [MainThread]: Store serial: [23125594]
+[2024-05-09 05:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125594]
+[2024-05-09 05:31:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 05:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-delivery-postlogistics-server-env
+[2024-05-09 05:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-carrier-account-environment
+[2024-05-09 05:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Stricture
+[2024-05-09 05:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openc3
+[2024-05-09 05:31:21] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-09 05:31:21] INFO root fetch - processPackages [Stricture]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 05:31:21] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-09 05:31:21] INFO root fetch - processPackages [openc3]: New version: [5.9.2b0] Old Version: [5.16.1]
+[2024-05-09 05:31:21] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: Downloading https://files.pythonhosted.org/packages/5e/b8/06279333bd7039413dbfabd5557cf3d50085d88ed80e412d44c661600f5c/odoo_addon_carrier_account_environment-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:31:21] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/14/54/b74a701a2a2af11508794d7d1fa378f251df380c40ca8e43045a3299e0a1/Stricture-1.0.1.tar.gz
+[2024-05-09 05:31:21] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Downloading https://files.pythonhosted.org/packages/70/c7/990258b946238f42c9ec9857602989edb7ae9946e48568a6e01c7e20d7bd/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:31:21] INFO root fetch - processPackages [openc3]: Downloading https://files.pythonhosted.org/packages/0f/ba/c218977c9f296ddbef9348051ef3ce9f7d6afd3c82c5233e4fa6b79de41f/openc3-5.16.1.tar.gz
+[2024-05-09 05:31:22] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/cc/d7/b1e71cbc780e64ed7945378899e860a8d36dc57f0c2eecc3c9585f9335a4/Stricture-1.0.2.tar.gz
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: Downloading https://files.pythonhosted.org/packages/51/3a/2fe1a6ce30b51fd44c989da6e932c72aa4a095e7914949f4a0f0d68fc628/odoo_addon_carrier_account_environment-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Downloading https://files.pythonhosted.org/packages/49/6e/78e63a89559eddd4a88c4cfb97612f2fceb6818c7f428532cbb25e46fd3f/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:31:22] INFO root fetch - processPackages [Stricture]: executing diffoscope
+[2024-05-09 05:31:22] INFO root fetch - processPackages [Stricture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Stricture-1.0.1.tar.gz tmp/Stricture-1.0.2.tar.gz --markdown 20240509/S/Stricture/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: executing diffoscope
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_carrier_account_environment-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_carrier_account_environment-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-carrier-account-environment/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: executing diffoscope
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-delivery-postlogistics-server-env/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-09 05:31:22] INFO root fetch - processPackages [openc3]: Downloading https://files.pythonhosted.org/packages/26/a7/1e2b188ad9d1677d8d52f680bf95a1823d70072c6ddd19eb06f9c3f68eb4/openc3-5.9.2b0.tar.gz
+[2024-05-09 05:31:22] INFO root fetch - processPackages [openc3]: executing diffoscope
+[2024-05-09 05:31:22] INFO root fetch - processPackages [openc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openc3-5.16.1.tar.gz tmp/openc3-5.9.2b0.tar.gz --markdown 20240509/o/openc3/5.16.1-5.9.2b0/README.md --exclude *.pyd
+[2024-05-09 05:31:22] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.1.tar.gz]
+[2024-05-09 05:31:22] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.2.tar.gz]
+[2024-05-09 05:31:22] INFO root fetch - main [MainThread]: End processing [Stricture]: success
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_carrier_account_environment-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-carrier-account-environment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_carrier_account_environment-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:31:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-carrier-account-environment]: success
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:31:22] INFO root fetch - processPackages [odoo-addon-delivery-postlogistics-server-env]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_postlogistics_server_env-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:31:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-postlogistics-server-env]: success
+[2024-05-09 05:31:23] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.16.1.tar.gz]
+[2024-05-09 05:31:23] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.9.2b0.tar.gz]
+[2024-05-09 05:31:23] INFO root fetch - main [MainThread]: End processing [openc3]: success
+[2024-05-09 05:31:23] INFO root fetch - main [MainThread]: Store serial: [23125605]
