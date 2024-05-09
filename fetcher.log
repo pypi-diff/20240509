@@ -23125,3 +23125,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:27:36] INFO root fetch - processPackages [superwise-api]: Remove: archive file [/home/abi/fetcher/tmp/superwise_api-2.0.0.tar.gz]
 [2024-05-09 14:27:36] INFO root fetch - main [MainThread]: End processing [superwise-api]: success
 [2024-05-09 14:27:36] INFO root fetch - main [MainThread]: Store serial: [23130913]
+[2024-05-09 14:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130913]
+[2024-05-09 14:29:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fcio
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmsPython
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InvokeAI
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gamspy-baron
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gamspy-copt
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gamspy-scip
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dreamhack
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gamspy-ipopt
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gamspy-ipopth
+[2024-05-09 14:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fcio
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: New version: [0.4.0.dev3] Old Version: [0.4.0.dev2]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: New version: [0.4.0.dev3] Old Version: [0.4.0.dev2]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/e5/4c/d0e137e825e12088da0847ff9f8c3e83bee9bf09486f216c484598057c80/fcio-0.4.0.dev2.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-ipopt]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/e5/4c/d0e137e825e12088da0847ff9f8c3e83bee9bf09486f216c484598057c80/fcio-0.4.0.dev2.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gmsPython]: New version: [0.1.1] Old Version: [0.0.4]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-scip]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-ipopth]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] WARNING root fetch - processPackages [dreamhack]: Skipping, unable to determine old version
+[2024-05-09 14:29:45] INFO root fetch - processPackages [dreamhack]: Start processing: gamspy-minos
+[2024-05-09 14:29:45] INFO root fetch - main [MainThread]: End processing [dreamhack] error
+[2024-05-09 14:29:45] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.0b2] Old Version: [4.2.0b1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-baron]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-copt]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-ipopth]: Downloading https://files.pythonhosted.org/packages/51/0c/42ab163118eb5a0f527c4921e4666cc9e7dd48f20d8f2714edc984bcc734/gamspy_ipopth-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-minos]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-baron]: Downloading https://files.pythonhosted.org/packages/3a/1c/c4f93a21be4138ee033df0d7b0a5871f6ea45eaacf8e7c2775bdc9ad16a9/gamspy_baron-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-ipopt]: Downloading https://files.pythonhosted.org/packages/04/9d/74f26c13bdd0f8325f250abde7b06a58415b1c3fae43d22cf383be71648d/gamspy_ipopt-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/c1/bd/f6015892ca6db4a78a46da123fbf860a44fbf7ffc59fe2b7438b9499b865/fcio-0.4.0.dev3.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-copt]: Downloading https://files.pythonhosted.org/packages/3c/e0/ad4cfaf7e0b90319909ffc18b7258033221f43c5455ed8ae436ba0837cee/gamspy_copt-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-scip]: Downloading https://files.pythonhosted.org/packages/75/40/34fff886f8a4a38225ce8b1a3377cab1fe868654b14221ddc37b30ef5110/gamspy_scip-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/f8/76/bdf83e0097d834e92945d1b8e540208f383ea910a599546a911d039200a9/InvokeAI-4.2.0b1.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/9d/75/a24ab341d3d4d53058d8db913915aa8333ceedf2b61f8a4f48235b1fdbaf/gmsPython-0.0.4.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: Downloading https://files.pythonhosted.org/packages/c1/bd/f6015892ca6db4a78a46da123fbf860a44fbf7ffc59fe2b7438b9499b865/fcio-0.4.0.dev3.tar.gz
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-minos]: Downloading https://files.pythonhosted.org/packages/71/e1/462c0b61578d2e568230495cdf77c4b67d6d64718eafe2827c3c74b5d087/gamspy_minos-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.4.0.dev2.tar.gz tmp/fcio-0.4.0.dev3.tar.gz --markdown 20240509/f/fcio/0.4.0.dev2-0.4.0.dev3/README.md --exclude *.pyd
+[2024-05-09 14:29:45] WARNING root fetch - processPackages [gamspy-ipopth]: Skipping package: exceeds size limit 38550588>=10485760
+[2024-05-09 14:29:45] INFO root fetch - processPackages [gamspy-ipopth]: Start processing: gamspy-xpress
+[2024-05-09 14:29:45] WARNING root fetch - processPackages [gamspy-ipopt]: Skipping package: exceeds size limit 38550570>=10485760
+[2024-05-09 14:29:45] INFO root fetch - main [MainThread]: End processing [gamspy-ipopth] error
+[2024-05-09 14:29:45] INFO root fetch - main [MainThread]: End processing [gamspy-ipopt] error
+[2024-05-09 14:29:45] WARNING root fetch - processPackages [gamspy-scip]: Skipping package: exceeds size limit 82912056>=10485760
+[2024-05-09 14:29:45] INFO root fetch - main [MainThread]: End processing [gamspy-scip] error
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: executing diffoscope
+[2024-05-09 14:29:45] INFO root fetch - processPackages [fcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fcio-0.4.0.dev2.tar.gz tmp/fcio-0.4.0.dev3.tar.gz --markdown 20240509/f/fcio/0.4.0.dev2-0.4.0.dev3/README.md --exclude *.pyd
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gamspy-xpress]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/af/1e/5da4ffd8f603b2a0ccba86c0a0a12e71fe723f11531e1beba1fd9de5399b/gmspython-0.1.1.tar.gz
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gmsPython]: executing diffoscope
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gmsPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsPython-0.0.4.tar.gz tmp/gmspython-0.1.1.tar.gz --markdown 20240509/g/gmsPython/0.0.4-0.1.1/README.md --exclude *.pyd
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gamspy-minos]: Downloading https://files.pythonhosted.org/packages/ac/d8/d42082b046ba1ee7de083e38a55816a0c2a5adf337473509efd7113b9e60/gamspy_minos-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gamspy-xpress]: Downloading https://files.pythonhosted.org/packages/e8/20/079edc32f2111fb28da0426dce8afc080dc1f2e722c222124e8c8e900cbf/gamspy_xpress-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:29:46] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/46/9c/aacea531db5f3a7840f6e6c98f3edf6e268d6f0b49ebffe088b9651f7cab/InvokeAI-4.2.0b2.tar.gz
+[2024-05-09 14:29:46] WARNING root fetch - processPackages [gamspy-xpress]: Skipping package: exceeds size limit 17355976>=10485760
+[2024-05-09 14:29:46] INFO root fetch - main [MainThread]: End processing [gamspy-xpress] error
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gamspy-minos]: executing diffoscope
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gamspy-minos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_minos-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_minos-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-minos/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:29:46] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-09 14:29:46] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.0b1.tar.gz tmp/InvokeAI-4.2.0b2.tar.gz --markdown 20240509/I/InvokeAI/4.2.0b1-4.2.0b2/README.md --exclude *.pyd
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmsPython-0.0.4.tar.gz]
+[2024-05-09 14:29:46] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmspython-0.1.1.tar.gz]
+[2024-05-09 14:29:46] INFO root fetch - main [MainThread]: End processing [gmsPython]: success
+[2024-05-09 14:29:46] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev2.tar.gz]
+[2024-05-09 14:29:46] INFO root fetch - processPackages [fcio]: Remove: archive file [/home/abi/fetcher/tmp/fcio-0.4.0.dev3.tar.gz]
+[2024-05-09 14:29:46] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-09 14:29:47] INFO root fetch - main [MainThread]: End processing [fcio]: success
+[2024-05-09 14:29:47] INFO root fetch - processPackages [gamspy-baron]: Downloading https://files.pythonhosted.org/packages/24/10/bcada6c13caee6e10820dd4ce8140586e39708f133146661b38ca1a5849c/gamspy_baron-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:29:47] INFO root fetch - processPackages [gamspy-copt]: Downloading https://files.pythonhosted.org/packages/64/f2/2df7452bfec9188c0249109eb3997c6a7a192145426fa6977500ced538da/gamspy_copt-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:29:48] INFO root fetch - processPackages [gamspy-baron]: executing diffoscope
+[2024-05-09 14:29:48] INFO root fetch - processPackages [gamspy-baron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_baron-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_baron-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-baron/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:29:49] INFO root fetch - processPackages [gamspy-copt]: executing diffoscope
+[2024-05-09 14:29:49] INFO root fetch - processPackages [gamspy-copt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_copt-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_copt-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-copt/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:29:49] INFO root fetch - processPackages [gamspy-minos]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_minos-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:29:49] INFO root fetch - processPackages [gamspy-minos]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_minos-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:29:49] INFO root fetch - main [MainThread]: End processing [gamspy-minos]: success
+[2024-05-09 14:29:54] INFO root fetch - processPackages [gamspy-baron]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_baron-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:29:54] INFO root fetch - processPackages [gamspy-baron]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_baron-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:29:54] INFO root fetch - main [MainThread]: End processing [gamspy-baron]: success
+[2024-05-09 14:30:11] INFO root fetch - processPackages [gamspy-copt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_copt-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:30:11] INFO root fetch - processPackages [gamspy-copt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_copt-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:30:11] INFO root fetch - main [MainThread]: End processing [gamspy-copt]: success
+[2024-05-09 14:30:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b1.tar.gz]
+[2024-05-09 14:30:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b2.tar.gz]
+[2024-05-09 14:30:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-09 14:30:13] INFO root fetch - main [MainThread]: Store serial: [23130963]
