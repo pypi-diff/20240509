@@ -13447,3 +13447,72 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:42:32] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_plotly_chart-17.0.1.0.0.1-py3-none-any.whl.zip]
 [2024-05-09 08:42:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-plotly-chart]: success
 [2024-05-09 08:42:32] INFO root fetch - main [MainThread]: Store serial: [23127206]
+[2024-05-09 08:44:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127206]
+[2024-05-09 08:44:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-researcher
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-okta
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qmlib
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-opsgenie
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-openstack
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: i2cylib
+[2024-05-09 08:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tooniez-timetree-sdk
+[2024-05-09 08:44:42] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1715229320] Old Version: [1.4.0a1715061972]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1715229319] Old Version: [4.9.0a1715061690]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [qwak-core]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-09 08:44:42] WARNING root fetch - processPackages [qmlib]: Skipping, unable to determine old version
+[2024-05-09 08:44:42] INFO root fetch - main [MainThread]: End processing [qmlib] error
+[2024-05-09 08:44:42] INFO root fetch - processPackages [tooniez-timetree-sdk]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/27/32/29344ff57c43206c8d019e0a5b820e55cf21a4e787534521efa830b38b9a/gpt-researcher-0.3.0.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [i2cylib]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/1e/97/80cdc028846c0021b5a98437f1a2e477ebcc522fd4a09c404948d3d2cd70/pulumi_opsgenie-1.4.0a1715061972.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/79/b1/5fcce32768c030690d3a498a807de0a7245ae0b9e32cc98b084bde096921/pulumi_okta-4.9.0a1715061690.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/bb/93/e4acd0fd6ccecb8338145c7929b4f11bbbcda13bd5c5523254ce8f946bd2/pulumi_openstack-3.9.0a1654086724.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/81/20/4ed7b7fe6916cd7c5bd944cd50c15873ba25994b6bba0def2a61c6bc6d76/qwak_core-0.4.7.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/25/c3/0c5510478255d35d4a84f2d913ca39fbce4de418c92c61b58b8e9045cf45/tooniez_timetree_sdk-0.0.1.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/33/53/d2ead72d6d603ee132e031eb1b4549d14e998b5982c947de4fc7c5c6536b/gpt-researcher-0.3.1.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/2c/bb/6cc12ceeb9a54372b2ba5e8bb183dfef520d25a0971d6a6526f02c487766/i2cylib-1.9.4.tar.gz
+[2024-05-09 08:44:42] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/54/a5/1ef01f22e4c729f569aa172c5eb73eeabb42ef66736942524485e29d3471/pulumi_opsgenie-1.4.0a1715229320.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/2a/bf/18c60236b5fbc4e6cd12d8f1123e1cf312ffbd6f53678d5e7ace6bac7af2/pulumi_okta-4.9.0a1715229319.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.0.tar.gz tmp/gpt-researcher-0.3.1.tar.gz --markdown 20240509/g/gpt-researcher/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz tmp/pulumi_opsgenie-1.4.0a1715229320.tar.gz --markdown 20240509/p/pulumi-opsgenie/1.4.0a1715061972-1.4.0a1715229320/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20240509/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1715061690.tar.gz tmp/pulumi_okta-4.9.0a1715229319.tar.gz --markdown 20240509/p/pulumi-okta/4.9.0a1715061690-4.9.0a1715229319/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/63/e5/956e86a51144e8840534ee456d287a72f3589edb423b984c5ef314175bdb/tooniez-timetree-sdk-0.0.3.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [i2cylib]: Downloading https://files.pythonhosted.org/packages/07/db/4b9467cd012615b924c7bb3413be74a3993af003e56ff8eb772df32fbb35/i2cylib-1.9.5.tar.gz
+[2024-05-09 08:44:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [tooniez-timetree-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooniez_timetree_sdk-0.0.1.tar.gz tmp/tooniez-timetree-sdk-0.0.3.tar.gz --markdown 20240509/t/tooniez-timetree-sdk/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.7.tar.gz tmp/qwak_core-0.4.8.tar.gz --markdown 20240509/q/qwak-core/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [i2cylib]: executing diffoscope
+[2024-05-09 08:44:43] INFO root fetch - processPackages [i2cylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i2cylib-1.9.4.tar.gz tmp/i2cylib-1.9.5.tar.gz --markdown 20240509/i/i2cylib/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-09 08:44:43] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.0.tar.gz]
+[2024-05-09 08:44:43] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.1.tar.gz]
+[2024-05-09 08:44:43] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-09 08:44:44] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez_timetree_sdk-0.0.1.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez-timetree-sdk-0.0.3.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715061972.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - main [MainThread]: End processing [tooniez-timetree-sdk]: success
+[2024-05-09 08:44:44] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1715229320.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-09 08:44:44] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.4.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - processPackages [i2cylib]: Remove: archive file [/home/abi/fetcher/tmp/i2cylib-1.9.5.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - main [MainThread]: End processing [i2cylib]: success
+[2024-05-09 08:44:44] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715061690.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715229319.tar.gz]
+[2024-05-09 08:44:44] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-09 08:44:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.7.tar.gz]
+[2024-05-09 08:44:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-09 08:44:46] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-09 08:44:46] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1654086724.tar.gz]
+[2024-05-09 08:44:46] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-09 08:44:46] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-09 08:44:46] INFO root fetch - main [MainThread]: Store serial: [23127232]
