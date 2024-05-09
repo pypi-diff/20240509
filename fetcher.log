@@ -10351,3 +10351,12 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:06:36] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-05-09 06:06:36] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-05-09 06:06:36] INFO root fetch - main [MainThread]: Store serial: [23125936]
+[2024-05-09 06:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125936]
+[2024-05-09 06:08:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chilesz
+[2024-05-09 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: partenaire-qualif
+[2024-05-09 06:08:45] WARNING root fetch - processPackages [partenaire-qualif]: Skipping, unable to determine old version
+[2024-05-09 06:08:45] INFO root fetch - main [MainThread]: End processing [partenaire-qualif] error
+[2024-05-09 06:08:45] WARNING root fetch - processPackages [chilesz]: Skipping, unable to determine old version
+[2024-05-09 06:08:45] INFO root fetch - main [MainThread]: End processing [chilesz] error
+[2024-05-09 06:08:45] INFO root fetch - main [MainThread]: Store serial: [23125946]
