@@ -18967,3 +18967,63 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:33:44] INFO root fetch - processPackages [m9s-nereid-base]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid_base-7.0.2.tar.gz]
 [2024-05-09 11:33:44] INFO root fetch - main [MainThread]: End processing [m9s-nereid-base]: success
 [2024-05-09 11:33:44] INFO root fetch - main [MainThread]: Store serial: [23129101]
+[2024-05-09 11:35:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129101]
+[2024-05-09 11:35:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talp-pages
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icemedia
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-energy-communities-mass-mailing
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gnomonicus
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu121
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shareddata
+[2024-05-09 11:35:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2024-05-09 11:35:53] INFO root fetch - processPackages [gnomonicus]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/17/3a/862a0e07f18144c2a5f881591c264dbb7a21eb31a4e560940ca708194533/gnomonicus-2.5.3.tar.gz
+[2024-05-09 11:35:53] WARNING root fetch - processPackages [talp-pages]: Skipping, unable to determine old version
+[2024-05-09 11:35:53] INFO root fetch - main [MainThread]: End processing [talp-pages] error
+[2024-05-09 11:35:53] INFO root fetch - processPackages [icemedia]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: New version: [14.0.0.1.4] Old Version: [14.0.0.1.3]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.3.dev20240509] Old Version: [0.2.3.dev20240508]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.3.dev20240509] Old Version: [0.2.3.dev20240508]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-05-09 11:35:53] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: Downloading https://files.pythonhosted.org/packages/f6/c0/d09741530e0f44d9725353899bb80580a5c6a9f5cf6b888120286d66167f/odoo14_addon_energy_communities_mass_mailing-14.0.0.1.3-py3-none-any.whl
+[2024-05-09 11:35:53] INFO root fetch - processPackages [icemedia]: Downloading https://files.pythonhosted.org/packages/de/b0/c58a6e6c1263c37ac4183bf6c36b4a7fbeb2597b59dfe890400e10b46be1/icemedia-0.1.3.tar.gz
+[2024-05-09 11:35:53] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a2/9f/0ccc14eaab0929b6a8176807c522d79e26e0a29a1fa8a22347d3c6af2d23/nvfuser_cu121-0.2.3.dev20240508.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/ae/40/82d24e902a4812eb16c5a531c736a643c459157b8f6ae3b80130b3a86051/gnomonicus-2.5.4.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b0/22/e3ff8d3a3caa11edccbb7f8d6ba69e4e7387f4ad67867aa6fa197659680f/nvfuser_cu118-0.2.3.dev20240508.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [gnomonicus]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [gnomonicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnomonicus-2.5.3.tar.gz tmp/gnomonicus-2.5.4.tar.gz --markdown 20240509/g/gnomonicus/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: Downloading https://files.pythonhosted.org/packages/0e/38/407dd3f7ca2a0d1755aec810aa58790188085433cd1a0c679d116c3f62dd/odoo14-addon-energy_communities_mass_mailing-14.0.0.1.4.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [icemedia]: Downloading https://files.pythonhosted.org/packages/56/3c/94650bdb39df05e62e35413d36b7d3428c2ec8ceeb3f38de69dfedb214f1/icemedia-0.1.4.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/e7/9a/5037c9f3a71101b6d3791f065f0f9fa8a9792d521314c287dc455b506f32/nvfuser_cu121-0.2.3.dev20240509.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/12/01/2e9cc8408690bcc0a36eeb24a92b2930c74ceec422ca88bb114dab7fa440/nvfuser_cu118-0.2.3.dev20240509.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities_mass_mailing-14.0.0.1.3-py3-none-any.whl.zip tmp/odoo14-addon-energy_communities_mass_mailing-14.0.0.1.4.tar.gz --markdown 20240509/o/odoo14-addon-energy-communities-mass-mailing/14.0.0.1.3-14.0.0.1.4/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [icemedia]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [icemedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icemedia-0.1.3.tar.gz tmp/icemedia-0.1.4.tar.gz --markdown 20240509/i/icemedia/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz tmp/nvfuser_cu121-0.2.3.dev20240509.tar.gz --markdown 20240509/n/nvfuser-cu121/0.2.3.dev20240508-0.2.3.dev20240509/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240508.tar.gz tmp/nvfuser_cu118-0.2.3.dev20240509.tar.gz --markdown 20240509/n/nvfuser-cu118/0.2.3.dev20240508-0.2.3.dev20240509/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-05-09 11:35:54] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240509/s/shareddata/4.8.0-4.8.1/README.md --exclude *.pyd
+[2024-05-09 11:35:54] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.3.tar.gz]
+[2024-05-09 11:35:54] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.4.tar.gz]
+[2024-05-09 11:35:54] INFO root fetch - main [MainThread]: End processing [gnomonicus]: success
+[2024-05-09 11:35:55] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities_mass_mailing-14.0.0.1.3-py3-none-any.whl.zip]
+[2024-05-09 11:35:55] INFO root fetch - processPackages [odoo14-addon-energy-communities-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities_mass_mailing-14.0.0.1.4.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities-mass-mailing]: success
+[2024-05-09 11:35:55] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240508.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240509.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-09 11:35:55] INFO root fetch - processPackages [icemedia]: Remove: archive file [/home/abi/fetcher/tmp/icemedia-0.1.3.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - processPackages [icemedia]: Remove: archive file [/home/abi/fetcher/tmp/icemedia-0.1.4.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [icemedia]: success
+[2024-05-09 11:35:55] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240508.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240509.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-09 11:35:55] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-05-09 11:35:55] INFO root fetch - main [MainThread]: Store serial: [23129120]
