@@ -8122,3 +8122,24 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:13:55] INFO root fetch - processPackages [gptvm]: Remove: archive file [/home/abi/fetcher/tmp/gptvm-0.1.1-py3-none-any.whl.zip]
 [2024-05-09 04:13:55] INFO root fetch - main [MainThread]: End processing [gptvm]: success
 [2024-05-09 04:13:55] INFO root fetch - main [MainThread]: Store serial: [23124902]
+[2024-05-09 04:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124902]
+[2024-05-09 04:16:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 04:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instill-sdk
+[2024-05-09 04:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proc-plot
+[2024-05-09 04:16:04] INFO root fetch - processPackages [instill-sdk]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-05-09 04:16:04] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/ef/44/e82999958d2e8f11d401e144dcdb581def936306f8fa41cd0bb7bff4b3ca/instill_sdk-0.9.0.tar.gz
+[2024-05-09 04:16:04] INFO root fetch - processPackages [proc-plot]: New version: [1.8] Old Version: [1.7]
+[2024-05-09 04:16:04] INFO root fetch - processPackages [proc-plot]: Downloading https://files.pythonhosted.org/packages/d2/d0/002928eeb0d552872a41ee6d33409df4959c22d2c02df7c20e2f835e57d1/proc_plot-1.7.tar.gz
+[2024-05-09 04:16:04] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/9d/ba/55f436eb8ceb30331f9f7e4df95a211e70671823a66e26c8867e4efa7fdc/instill_sdk-0.9.0rc0.tar.gz
+[2024-05-09 04:16:05] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-05-09 04:16:05] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.9.0.tar.gz tmp/instill_sdk-0.9.0rc0.tar.gz --markdown 20240509/i/instill-sdk/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-05-09 04:16:05] INFO root fetch - processPackages [proc-plot]: Downloading https://files.pythonhosted.org/packages/c6/f2/a524d5612a68ec0f59b85036a84e68cfcc0fce39831ccad457d0e4c5d657/proc_plot-1.8.tar.gz
+[2024-05-09 04:16:05] INFO root fetch - processPackages [proc-plot]: executing diffoscope
+[2024-05-09 04:16:05] INFO root fetch - processPackages [proc-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proc_plot-1.7.tar.gz tmp/proc_plot-1.8.tar.gz --markdown 20240509/p/proc-plot/1.7-1.8/README.md --exclude *.pyd
+[2024-05-09 04:16:05] INFO root fetch - processPackages [proc-plot]: Remove: archive file [/home/abi/fetcher/tmp/proc_plot-1.7.tar.gz]
+[2024-05-09 04:16:05] INFO root fetch - processPackages [proc-plot]: Remove: archive file [/home/abi/fetcher/tmp/proc_plot-1.8.tar.gz]
+[2024-05-09 04:16:05] INFO root fetch - main [MainThread]: End processing [proc-plot]: success
+[2024-05-09 04:16:06] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0.tar.gz]
+[2024-05-09 04:16:06] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
+[2024-05-09 04:16:06] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-05-09 04:16:06] INFO root fetch - main [MainThread]: Store serial: [23124911]
