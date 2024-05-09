@@ -2665,3 +2665,69 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:09:40] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240509.tar.gz]
 [2024-05-09 02:09:40] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-09 02:09:40] INFO root fetch - main [MainThread]: Store serial: [23122726]
+[2024-05-09 02:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122726]
+[2024-05-09 02:11:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbb-nightly
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm-client
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm-core
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: athena-starship
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-quantizers-nightly
+[2024-05-09 02:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: burr
+[2024-05-09 02:11:49] INFO root fetch - processPackages [athena-starship]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a5] Old Version: [0.5.0a4]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405080008] Old Version: [4.1.7.dev202405070009]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a5] Old Version: [0.5.0a4]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/e3/a9/79ab625f7f11e69a78f0f3ddb3116ad650a637980c221253105e45273a91/athena_starship-0.0.2.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm]: New version: [0.5.0a6] Old Version: [0.5.0a5]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/03/4e/2be56a3442acf494ef532f5bfad832abcdb9b17e1f0baa391ed965af8a6c/openllm_client-0.5.0a4.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240509.post1052] Old Version: [1.5.0.20240508.post919]
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/80/89/43fccd1d0888ca64647a07c2907817ecf074e24b55407c22d4a381fad036/openllm_core-0.5.0a4.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/d4/e9/53e393b37a81d64f977ed51986c32c9322846da0b60b075bb72ce6476aef/openbb_nightly-4.1.7.dev202405070009.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/10/e6/68cd0fe4a5ea555e0a1a658162e6e03e8a3b2270d37accb3bd0900925c73/openllm-0.5.0a5.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/fb/44/fac5046b1e2a6d6139404a5509e747a95413e721ee9dcaa5d9537843fdee/mct-quantizers-nightly-1.5.0.20240508.post919.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [athena-starship]: Downloading https://files.pythonhosted.org/packages/01/5b/ab394857907c2800768dda0ffcb16d203d84f3f686f2c74f8d1c5908c2b6/athena_starship-0.0.3.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/21/c2/98cf676081e2edef3acef3b60af10bf5768276d469ea34a2a0636981b2ff/openllm_core-0.5.0a5.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/7f/e0/875fcb7ac87f40049d7d623981e5a9886984dc5063aeb10be361568321db/openllm_client-0.5.0a5.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [athena-starship]: executing diffoscope
+[2024-05-09 02:11:49] INFO root fetch - processPackages [athena-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_starship-0.0.2.tar.gz tmp/athena_starship-0.0.3.tar.gz --markdown 20240509/a/athena-starship/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a4.tar.gz tmp/openllm_core-0.5.0a5.tar.gz --markdown 20240509/o/openllm-core/0.5.0a4-0.5.0a5/README.md --exclude *.pyd
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a4.tar.gz tmp/openllm_client-0.5.0a5.tar.gz --markdown 20240509/o/openllm-client/0.5.0a4-0.5.0a5/README.md --exclude *.pyd
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/86/7a/b61545ec52bad0b7f4ef7be4e270b48f83d2fce061d06839b6240d84bba2/openllm-0.5.0a6.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/1c/fb/a8817e17d1b7321cd5fa3c341eab89d4f5f69f19f19d80f3288ab7b2152f/openbb_nightly-4.1.7.dev202405080008.tar.gz
+[2024-05-09 02:11:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/a0/b6/6000fd353cd11908943aa67652c5f0ae1389aceb327f42f97cb193b4aca8/mct-quantizers-nightly-1.5.0.20240509.post1052.tar.gz
+[2024-05-09 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-09 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240508.post919.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240509.post1052.tar.gz --markdown 20240509/m/mct-quantizers-nightly/1.5.0.20240508.post919-1.5.0.20240509.post1052/README.md --exclude *.pyd
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a5.tar.gz tmp/openllm-0.5.0a6.tar.gz --markdown 20240509/o/openllm/0.5.0a5-0.5.0a6/README.md --exclude *.pyd
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405070009.tar.gz tmp/openbb_nightly-4.1.7.dev202405080008.tar.gz --markdown 20240509/o/openbb-nightly/4.1.7.dev202405070009-4.1.7.dev202405080008/README.md --exclude *.pyd
+[2024-05-09 02:11:50] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-09 02:11:50] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240509/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-09 02:11:50] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.2.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - processPackages [athena-starship]: Remove: archive file [/home/abi/fetcher/tmp/athena_starship-0.0.3.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - main [MainThread]: End processing [athena-starship]: success
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a4.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a5.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a4.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a5.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a5.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a6.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-09 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240508.post919.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240509.post1052.tar.gz]
+[2024-05-09 02:11:50] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-09 02:11:54] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405070009.tar.gz]
+[2024-05-09 02:11:54] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405080008.tar.gz]
+[2024-05-09 02:11:54] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-09 02:12:26] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-09 02:12:26] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-09 02:12:26] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-09 02:12:26] INFO root fetch - main [MainThread]: Store serial: [23122748]
