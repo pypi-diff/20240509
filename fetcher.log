@@ -12025,3 +12025,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:35:02] INFO root fetch - processPackages [mlpro]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-1.4.3.tar.gz]
 [2024-05-09 07:35:02] INFO root fetch - main [MainThread]: End processing [mlpro]: success
 [2024-05-09 07:35:02] INFO root fetch - main [MainThread]: Store serial: [23126636]
+[2024-05-09 07:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126636]
+[2024-05-09 07:37:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 07:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: privacera-shield-common
+[2024-05-09 07:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctwin32
+[2024-05-09 07:37:11] WARNING root fetch - processPackages [privacera-shield-common]: Skipping, unable to determine old version
+[2024-05-09 07:37:11] INFO root fetch - main [MainThread]: End processing [privacera-shield-common] error
+[2024-05-09 07:37:11] INFO root fetch - processPackages [ctwin32]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-09 07:37:11] INFO root fetch - processPackages [ctwin32]: Downloading https://files.pythonhosted.org/packages/33/c5/72bdb6efa2fc737c2fe01b134239b701487926fa854f36d034d229661140/ctwin32-2.5.0.tar.gz
+[2024-05-09 07:37:12] INFO root fetch - processPackages [ctwin32]: Downloading https://files.pythonhosted.org/packages/1d/27/d6a2bfb1fc18df9e9f81777929302ffd066d735141748b6ae122bf33aa54/ctwin32-2.6.0.tar.gz
+[2024-05-09 07:37:12] INFO root fetch - processPackages [ctwin32]: executing diffoscope
+[2024-05-09 07:37:12] INFO root fetch - processPackages [ctwin32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctwin32-2.5.0.tar.gz tmp/ctwin32-2.6.0.tar.gz --markdown 20240509/c/ctwin32/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-09 07:37:13] INFO root fetch - processPackages [ctwin32]: Remove: archive file [/home/abi/fetcher/tmp/ctwin32-2.5.0.tar.gz]
+[2024-05-09 07:37:13] INFO root fetch - processPackages [ctwin32]: Remove: archive file [/home/abi/fetcher/tmp/ctwin32-2.6.0.tar.gz]
+[2024-05-09 07:37:13] INFO root fetch - main [MainThread]: End processing [ctwin32]: success
+[2024-05-09 07:37:13] INFO root fetch - main [MainThread]: Store serial: [23126645]
