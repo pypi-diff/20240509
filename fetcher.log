@@ -7721,3 +7721,38 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:40:57] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a8.tar.gz]
 [2024-05-09 03:40:57] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
 [2024-05-09 03:40:57] INFO root fetch - main [MainThread]: Store serial: [23124599]
+[2024-05-09 03:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124599]
+[2024-05-09 03:43:06] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-09 03:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124600]
+[2024-05-09 03:45:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 03:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: go-task-bin
+[2024-05-09 03:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdbook-pdf-summary
+[2024-05-09 03:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparklestock
+[2024-05-09 03:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCatFile
+[2024-05-09 03:45:12] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2024-05-09 03:45:12] WARNING root fetch - processPackages [mdbook-pdf-summary]: Skipping, unable to determine old version
+[2024-05-09 03:45:12] INFO root fetch - main [MainThread]: End processing [mdbook-pdf-summary] error
+[2024-05-09 03:45:12] INFO root fetch - processPackages [go-task-bin]: New version: [3.37.0] Old Version: [3.36.0]
+[2024-05-09 03:45:12] INFO root fetch - processPackages [PyCatFile]: New version: [0.9.8] Old Version: [0.9.6]
+[2024-05-09 03:45:12] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/22/a7/7e44fb5ba14b0fa5b23b672878b1ad0001d1d47cb4b701c64e4f5c58dd8a/sparklestock-0.0.0.1.tar.gz
+[2024-05-09 03:45:12] INFO root fetch - processPackages [go-task-bin]: Downloading https://files.pythonhosted.org/packages/a3/0b/1e7c4dae38dfb26497496c7e6a51648d361d580ad223642f944126f65955/go_task_bin-3.36.0.tar.gz
+[2024-05-09 03:45:12] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/08/96/4c154ca314dbb76c0bba84e70c73f3a53cd4528ee43f7ac17b54954c0b85/pycatfile-0.9.6.tar.gz
+[2024-05-09 03:45:12] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/d0/77/7ea367295e0e0a761a0c06e499ca0830b898c6cd0aafcc4e182514160da6/sparklestock-0.0.0.2.tar.gz
+[2024-05-09 03:45:12] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-09 03:45:12] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.1.tar.gz tmp/sparklestock-0.0.0.2.tar.gz --markdown 20240509/s/sparklestock/0.0.0.1-0.0.0.2/README.md --exclude *.pyd
+[2024-05-09 03:45:12] INFO root fetch - processPackages [go-task-bin]: Downloading https://files.pythonhosted.org/packages/69/8c/04bf6533e9ad21d3f1146d197c3bcfff7b25b98dff6f74f407270443cf7f/go_task_bin-3.37.0.tar.gz
+[2024-05-09 03:45:12] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/d8/c3/779688dd1beca850480edb18c8e26ce64dcf364b8ab9b110d2a55552ca93/pycatfile-0.9.8.tar.gz
+[2024-05-09 03:45:13] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-05-09 03:45:13] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatfile-0.9.6.tar.gz tmp/pycatfile-0.9.8.tar.gz --markdown 20240509/P/PyCatFile/0.9.6-0.9.8/README.md --exclude *.pyd
+[2024-05-09 03:45:13] INFO root fetch - processPackages [go-task-bin]: executing diffoscope
+[2024-05-09 03:45:13] INFO root fetch - processPackages [go-task-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_task_bin-3.36.0.tar.gz tmp/go_task_bin-3.37.0.tar.gz --markdown 20240509/g/go-task-bin/3.36.0-3.37.0/README.md --exclude *.pyd
+[2024-05-09 03:45:13] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.1.tar.gz]
+[2024-05-09 03:45:13] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.2.tar.gz]
+[2024-05-09 03:45:13] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-09 03:45:13] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.6.tar.gz]
+[2024-05-09 03:45:13] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.8.tar.gz]
+[2024-05-09 03:45:13] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-05-09 03:45:14] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.36.0.tar.gz]
+[2024-05-09 03:45:14] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.37.0.tar.gz]
+[2024-05-09 03:45:14] INFO root fetch - main [MainThread]: End processing [go-task-bin]: success
+[2024-05-09 03:45:14] INFO root fetch - main [MainThread]: Store serial: [23124618]
