@@ -3441,3 +3441,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:45:16] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405080043.tar.gz]
 [2024-05-09 02:45:16] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-09 02:45:16] INFO root fetch - main [MainThread]: Store serial: [23123039]
+[2024-05-09 02:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123039]
+[2024-05-09 02:47:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serpulidz
+[2024-05-09 02:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compendium
+[2024-05-09 02:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langgraph-sdk
+[2024-05-09 02:47:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2024-05-09 02:47:24] WARNING root fetch - processPackages [serpulidz]: Skipping, unable to determine old version
+[2024-05-09 02:47:24] INFO root fetch - main [MainThread]: End processing [serpulidz] error
+[2024-05-09 02:47:24] INFO root fetch - processPackages [langgraph-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 02:47:24] INFO root fetch - processPackages [compendium]: New version: [0.1.3.post6] Old Version: [0.1.3.post5]
+[2024-05-09 02:47:24] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/a5/be/ffe350fcc09b3fa0c865ba03ca7bc070105fe289824690ff085bb2737a88/langgraph_sdk-0.1.4.tar.gz
+[2024-05-09 02:47:24] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/88/2b/d6c59ef834af85e7b4f6a87d23ac1f2f555a9ea6a14bcb9e0f7f892b6a4f/compendium-0.1.3.post5.tar.gz
+[2024-05-09 02:47:24] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-09 02:47:25] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-09 02:47:25] INFO root fetch - processPackages [langgraph-sdk]: Downloading https://files.pythonhosted.org/packages/24/9b/5194afd16b9ca312366dabf0de3638f4fb77863e76b2aeba705baeabbccd/langgraph_sdk-0.1.5.tar.gz
+[2024-05-09 02:47:25] INFO root fetch - processPackages [compendium]: Downloading https://files.pythonhosted.org/packages/10/bd/88223a311d3c7bf902ef04c0b8b7079daac26b8e5b67efea50a32baeb6a1/compendium-0.1.3.post6.tar.gz
+[2024-05-09 02:47:25] INFO root fetch - processPackages [langgraph-sdk]: executing diffoscope
+[2024-05-09 02:47:25] INFO root fetch - processPackages [langgraph-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph_sdk-0.1.4.tar.gz tmp/langgraph_sdk-0.1.5.tar.gz --markdown 20240509/l/langgraph-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 02:47:25] INFO root fetch - processPackages [compendium]: executing diffoscope
+[2024-05-09 02:47:25] INFO root fetch - processPackages [compendium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compendium-0.1.3.post5.tar.gz tmp/compendium-0.1.3.post6.tar.gz --markdown 20240509/c/compendium/0.1.3.post5-0.1.3.post6/README.md --exclude *.pyd
+[2024-05-09 02:47:25] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-09 02:47:25] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-09 02:47:25] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240509/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-09 02:47:25] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.4.tar.gz]
+[2024-05-09 02:47:25] INFO root fetch - processPackages [langgraph-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langgraph_sdk-0.1.5.tar.gz]
+[2024-05-09 02:47:25] INFO root fetch - main [MainThread]: End processing [langgraph-sdk]: success
+[2024-05-09 02:47:26] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post5.tar.gz]
+[2024-05-09 02:47:26] INFO root fetch - processPackages [compendium]: Remove: archive file [/home/abi/fetcher/tmp/compendium-0.1.3.post6.tar.gz]
+[2024-05-09 02:47:26] INFO root fetch - main [MainThread]: End processing [compendium]: success
+[2024-05-09 02:47:26] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-09 02:47:26] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-09 02:47:26] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-09 02:47:26] INFO root fetch - main [MainThread]: Store serial: [23123052]
