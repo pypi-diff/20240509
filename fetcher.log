@@ -20138,3 +20138,42 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:22:42] INFO root fetch - processPackages [pyhip]: Remove: archive file [/home/abi/fetcher/tmp/pyhip-1.1.0-py2.py3-none-any.whl.zip]
 [2024-05-09 12:22:42] INFO root fetch - main [MainThread]: End processing [pyhip]: success
 [2024-05-09 12:22:42] INFO root fetch - main [MainThread]: Store serial: [23129617]
+[2024-05-09 12:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129617]
+[2024-05-09 12:25:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 12:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: group-local
+[2024-05-09 12:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-05-09 12:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-password-security
+[2024-05-09 12:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheatshh
+[2024-05-09 12:25:12] INFO root fetch - processPackages [phdu]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-09 12:25:12] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/4b/71/e4150d84a1c911c6dd1c6616e0f98c10d993350c213ed6a75ec369daf808/phdu-2.3.8.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [group-local]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-05-09 12:25:12] INFO root fetch - processPackages [cheatshh]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-09 12:25:12] INFO root fetch - processPackages [odoo-addon-password-security]: New version: [16.0.1.0.0.17] Old Version: [16.0.1.0.0.16]
+[2024-05-09 12:25:12] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/40/91/3c41b5c4a96591f14381fe9b3b69d7df6908815352e570a0fc9af3512af5/group_local-0.0.17.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/87/bc/3cb0ae7289aae57fff2824cc8c7db2f7f714ed437c0fbe56b8c9527a26cd/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl
+[2024-05-09 12:25:12] INFO root fetch - processPackages [cheatshh]: Downloading https://files.pythonhosted.org/packages/aa/04/91e0edc405de00320994f0f4025257c8a87e5599323b01b57cba835e6fa0/cheatshh-1.0.2.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5d/b0/67abc3b8a4e36f40087a2abf09ecaec9446ecd620c21b91df360e9093b34/phdu-2.3.9.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-09 12:25:12] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.8.tar.gz tmp/phdu-2.3.9.tar.gz --markdown 20240509/p/phdu/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-09 12:25:12] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/aa/a4/3c655460d0a025e7dc3bcb17278aaaccf3566b2b129aa7d7134e3dca324d/group_local-0.0.18.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [cheatshh]: Downloading https://files.pythonhosted.org/packages/5a/d8/9d54c13095df50dfd17ed13237ed71e0a8eef0a5b360d40fb0728fe41db0/cheatshh-1.1.0.tar.gz
+[2024-05-09 12:25:12] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-09 12:25:12] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.17.tar.gz tmp/group_local-0.0.18.tar.gz --markdown 20240509/g/group-local/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-05-09 12:25:12] INFO root fetch - processPackages [cheatshh]: executing diffoscope
+[2024-05-09 12:25:12] INFO root fetch - processPackages [cheatshh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheatshh-1.0.2.tar.gz tmp/cheatshh-1.1.0.tar.gz --markdown 20240509/c/cheatshh/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-09 12:25:13] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/e9/de/344fcab525885cbd443e80b028986706baa37ef7da48f9c9d0175db055c4/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl
+[2024-05-09 12:25:13] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.8.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.9.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-09 12:25:13] INFO root fetch - processPackages [odoo-addon-password-security]: executing diffoscope
+[2024-05-09 12:25:13] INFO root fetch - processPackages [odoo-addon-password-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl.zip tmp/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-password-security/16.0.1.0.0.16-16.0.1.0.0.17/README.md --exclude *.pyd
+[2024-05-09 12:25:13] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.17.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.18.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-09 12:25:13] INFO root fetch - processPackages [cheatshh]: Remove: archive file [/home/abi/fetcher/tmp/cheatshh-1.0.2.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - processPackages [cheatshh]: Remove: archive file [/home/abi/fetcher/tmp/cheatshh-1.1.0.tar.gz]
+[2024-05-09 12:25:13] INFO root fetch - main [MainThread]: End processing [cheatshh]: success
+[2024-05-09 12:25:14] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl.zip]
+[2024-05-09 12:25:14] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl.zip]
+[2024-05-09 12:25:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-password-security]: success
+[2024-05-09 12:25:14] INFO root fetch - main [MainThread]: Store serial: [23129628]
