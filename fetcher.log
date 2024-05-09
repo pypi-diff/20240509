@@ -14529,3 +14529,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:26:55] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-05-09 09:26:55] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-05-09 09:26:55] INFO root fetch - main [MainThread]: Store serial: [23127575]
+[2024-05-09 09:28:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127575]
+[2024-05-09 09:29:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 09:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicegui-tabulator
+[2024-05-09 09:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kal-middleware
+[2024-05-09 09:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RNApolis
+[2024-05-09 09:29:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cast-bootstrap5
+[2024-05-09 09:29:04] INFO root fetch - processPackages [cast-bootstrap5]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 09:29:04] INFO root fetch - processPackages [RNApolis]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 09:29:04] WARNING root fetch - processPackages [kal-middleware]: Skipping, unable to determine old version
+[2024-05-09 09:29:04] INFO root fetch - main [MainThread]: End processing [kal-middleware] error
+[2024-05-09 09:29:04] WARNING root fetch - processPackages [nicegui-tabulator]: Skipping, unable to determine old version
+[2024-05-09 09:29:04] INFO root fetch - main [MainThread]: End processing [nicegui-tabulator] error
+[2024-05-09 09:29:04] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/a9/9b/db053c0c1d19540d1bda453cb759360dffb45faa565215b2913bf8c69866/cast_bootstrap5-0.0.8.tar.gz
+[2024-05-09 09:29:04] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/8b/07/59024f378677ab90f67742d2afbff1823fa99db6eb91f456409d7feed884/RNApolis-0.3.8.tar.gz
+[2024-05-09 09:29:04] INFO root fetch - processPackages [RNApolis]: Downloading https://files.pythonhosted.org/packages/37/1d/86d06a54825b41e9d273c6832b525d6a5847b3288f6703656a2a1cd622f2/RNApolis-0.3.9.tar.gz
+[2024-05-09 09:29:04] INFO root fetch - processPackages [cast-bootstrap5]: Downloading https://files.pythonhosted.org/packages/79/19/f879af1e3882921129d87c91ae930e17e1bc45d698b0931de934c28b1d8b/cast_bootstrap5-0.0.9.tar.gz
+[2024-05-09 09:29:04] INFO root fetch - processPackages [RNApolis]: executing diffoscope
+[2024-05-09 09:29:04] INFO root fetch - processPackages [RNApolis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RNApolis-0.3.8.tar.gz tmp/RNApolis-0.3.9.tar.gz --markdown 20240509/R/RNApolis/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 09:29:05] INFO root fetch - processPackages [cast-bootstrap5]: executing diffoscope
+[2024-05-09 09:29:05] INFO root fetch - processPackages [cast-bootstrap5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cast_bootstrap5-0.0.8.tar.gz tmp/cast_bootstrap5-0.0.9.tar.gz --markdown 20240509/c/cast-bootstrap5/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:29:05] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.8.tar.gz]
+[2024-05-09 09:29:05] INFO root fetch - processPackages [cast-bootstrap5]: Remove: archive file [/home/abi/fetcher/tmp/cast_bootstrap5-0.0.9.tar.gz]
+[2024-05-09 09:29:05] INFO root fetch - main [MainThread]: End processing [cast-bootstrap5]: success
+[2024-05-09 09:29:05] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.8.tar.gz]
+[2024-05-09 09:29:05] INFO root fetch - processPackages [RNApolis]: Remove: archive file [/home/abi/fetcher/tmp/RNApolis-0.3.9.tar.gz]
+[2024-05-09 09:29:05] INFO root fetch - main [MainThread]: End processing [RNApolis]: success
+[2024-05-09 09:29:05] INFO root fetch - main [MainThread]: Store serial: [23127590]
