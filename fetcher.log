@@ -12298,3 +12298,21 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:48:23] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.2.dev7.tar.gz]
 [2024-05-09 07:48:23] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
 [2024-05-09 07:48:23] INFO root fetch - main [MainThread]: Store serial: [23126749]
+[2024-05-09 07:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126749]
+[2024-05-09 07:50:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whataspp-message-inforu-local
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ynab-api-import
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djulcac-django-accounts
+[2024-05-09 07:50:32] WARNING root fetch - processPackages [djulcac-django-accounts]: Skipping, unable to determine old version
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ynab-api-import]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-09 07:50:32] WARNING root fetch - processPackages [whataspp-message-inforu-local]: Skipping, unable to determine old version
+[2024-05-09 07:50:32] INFO root fetch - main [MainThread]: End processing [djulcac-django-accounts] error
+[2024-05-09 07:50:32] INFO root fetch - main [MainThread]: End processing [whataspp-message-inforu-local] error
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ynab-api-import]: Downloading https://files.pythonhosted.org/packages/28/46/d81ee8ec3d6702fa7b7deda28b7ab439964ce194acb71d9450252cf6602e/ynab_api_import-1.2.1.tar.gz
+[2024-05-09 07:50:32] INFO root fetch - processPackages [ynab-api-import]: Downloading https://files.pythonhosted.org/packages/ad/23/fc25a3219b5b300d62d6c6b3ede3e078664e8972a8a8707598959b113f81/ynab_api_import-1.2.2.tar.gz
+[2024-05-09 07:50:33] INFO root fetch - processPackages [ynab-api-import]: executing diffoscope
+[2024-05-09 07:50:33] INFO root fetch - processPackages [ynab-api-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ynab_api_import-1.2.1.tar.gz tmp/ynab_api_import-1.2.2.tar.gz --markdown 20240509/y/ynab-api-import/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-09 07:50:33] INFO root fetch - processPackages [ynab-api-import]: Remove: archive file [/home/abi/fetcher/tmp/ynab_api_import-1.2.1.tar.gz]
+[2024-05-09 07:50:33] INFO root fetch - processPackages [ynab-api-import]: Remove: archive file [/home/abi/fetcher/tmp/ynab_api_import-1.2.2.tar.gz]
+[2024-05-09 07:50:33] INFO root fetch - main [MainThread]: End processing [ynab-api-import]: success
+[2024-05-09 07:50:33] INFO root fetch - main [MainThread]: Store serial: [23126762]
