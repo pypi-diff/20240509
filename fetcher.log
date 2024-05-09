@@ -17996,3 +17996,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:57:37] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.9.tar.gz]
 [2024-05-09 10:57:37] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
 [2024-05-09 10:57:37] INFO root fetch - main [MainThread]: Store serial: [23128673]
+[2024-05-09 10:59:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128673]
+[2024-05-09 10:59:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ork.build
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: icare-nlp
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zynapse
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overaccentuationz
+[2024-05-09 10:59:46] WARNING root fetch - processPackages [zynapse]: Skipping, unable to determine old version
+[2024-05-09 10:59:46] INFO root fetch - main [MainThread]: End processing [zynapse] error
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ork.build]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-09 10:59:46] WARNING root fetch - processPackages [overaccentuationz]: Skipping, unable to determine old version
+[2024-05-09 10:59:46] INFO root fetch - main [MainThread]: End processing [overaccentuationz] error
+[2024-05-09 10:59:46] INFO root fetch - processPackages [icare-nlp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/3d/f4/8ad5f3e93d32785fbcc2c448d2821991024fbf7a8add8d1ce6def33a2c89/ork.build-0.0.98.tar.gz
+[2024-05-09 10:59:46] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/ff/da/bdbf5697a23937dcfab88d4febf6d2fc87cbeea12b639ba24171c234546d/icare_nlp-0.0.4.tar.gz
+[2024-05-09 10:59:46] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/57/6c/cdc688ee4714601fa2294fce5ed69c29405197d09e82485271d2ba7a76c2/ork.build-0.0.99.tar.gz
+[2024-05-09 10:59:47] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2024-05-09 10:59:47] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.98.tar.gz tmp/ork.build-0.0.99.tar.gz --markdown 20240509/o/ork.build/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-09 10:59:47] INFO root fetch - processPackages [icare-nlp]: Downloading https://files.pythonhosted.org/packages/5a/fc/0dfd46d06720dd1df8e4296fb19a506f36aec5bf75d023af026b8807d732/icare_nlp-0.0.5.tar.gz
+[2024-05-09 10:59:47] INFO root fetch - processPackages [icare-nlp]: executing diffoscope
+[2024-05-09 10:59:47] INFO root fetch - processPackages [icare-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icare_nlp-0.0.4.tar.gz tmp/icare_nlp-0.0.5.tar.gz --markdown 20240509/i/icare-nlp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-09 10:59:47] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.4.tar.gz]
+[2024-05-09 10:59:47] INFO root fetch - processPackages [icare-nlp]: Remove: archive file [/home/abi/fetcher/tmp/icare_nlp-0.0.5.tar.gz]
+[2024-05-09 10:59:47] INFO root fetch - main [MainThread]: End processing [icare-nlp]: success
+[2024-05-09 10:59:48] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.98.tar.gz]
+[2024-05-09 10:59:48] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.99.tar.gz]
+[2024-05-09 10:59:48] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2024-05-09 10:59:48] INFO root fetch - main [MainThread]: Store serial: [23128687]
