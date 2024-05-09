@@ -18799,3 +18799,45 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:24:55] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.9.tar.gz]
 [2024-05-09 11:24:55] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
 [2024-05-09 11:24:55] INFO root fetch - main [MainThread]: Store serial: [23129036]
+[2024-05-09 11:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129036]
+[2024-05-09 11:27:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 11:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Red-Web-Dashboard
+[2024-05-09 11:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstrusitiesz
+[2024-05-09 11:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-05-09 11:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myrt-desk-api
+[2024-05-09 11:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: byzerllm
+[2024-05-09 11:27:04] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-09 11:27:04] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-05-09 11:27:04] INFO root fetch - processPackages [myrt-desk-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-09 11:27:04] WARNING root fetch - processPackages [abstrusitiesz]: Skipping, unable to determine old version
+[2024-05-09 11:27:04] INFO root fetch - main [MainThread]: End processing [abstrusitiesz] error
+[2024-05-09 11:27:04] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-05-09 11:27:04] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/a4/a1/184eb9d9752444cb46f2c62cb67023a8b504b582334c29294a493f9d6ce9/red_web_dashboard-1.5.1.tar.gz
+[2024-05-09 11:27:04] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.81]
+[2024-05-09 11:27:04] INFO root fetch - processPackages [myrt-desk-api]: Downloading https://files.pythonhosted.org/packages/15/91/7aad34d9d521b14b2b180e74c90219a84ca682888745627771a72c41b828/myrt_desk_api-1.0.6.tar.gz
+[2024-05-09 11:27:05] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/f7/65/6b607d1115ea2bb4ef1b832c57994788e205664314e6807b5d62b9e8efb6/byzerllm-0.1.81.tar.gz
+[2024-05-09 11:27:05] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-05-09 11:27:05] INFO root fetch - processPackages [myrt-desk-api]: Downloading https://files.pythonhosted.org/packages/e9/8b/a7ec198f7032e643156b5fec772bcda55a039310fcfd2ab1d6eade56eea2/myrt_desk_api-1.0.7.tar.gz
+[2024-05-09 11:27:05] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/e3/56/661457d3ff845b723301ff659f930c3f6f79ef0fe003f8d12e33de13bb7b/red_web_dashboard-1.5.2.tar.gz
+[2024-05-09 11:27:05] INFO root fetch - processPackages [myrt-desk-api]: executing diffoscope
+[2024-05-09 11:27:05] INFO root fetch - processPackages [myrt-desk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myrt_desk_api-1.0.6.tar.gz tmp/myrt_desk_api-1.0.7.tar.gz --markdown 20240509/m/myrt-desk-api/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-09 11:27:05] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-05-09 11:27:05] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.5.1.tar.gz tmp/red_web_dashboard-1.5.2.tar.gz --markdown 20240509/R/Red-Web-Dashboard/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-09 11:27:05] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-05-09 11:27:05] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240509/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-05-09 11:27:06] INFO root fetch - processPackages [myrt-desk-api]: Remove: archive file [/home/abi/fetcher/tmp/myrt_desk_api-1.0.6.tar.gz]
+[2024-05-09 11:27:06] INFO root fetch - processPackages [myrt-desk-api]: Remove: archive file [/home/abi/fetcher/tmp/myrt_desk_api-1.0.7.tar.gz]
+[2024-05-09 11:27:06] INFO root fetch - main [MainThread]: End processing [myrt-desk-api]: success
+[2024-05-09 11:27:07] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.1.tar.gz]
+[2024-05-09 11:27:07] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.5.2.tar.gz]
+[2024-05-09 11:27:07] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-05-09 11:27:07] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-05-09 11:27:07] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-05-09 11:27:07] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-05-09 11:27:07] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-09 11:27:09] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-09 11:27:09] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.81.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240509/b/byzerllm/0.1.81-0.1.9/README.md --exclude *.pyd
+[2024-05-09 11:27:11] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.81.tar.gz]
+[2024-05-09 11:27:11] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-09 11:27:11] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-09 11:27:11] INFO root fetch - main [MainThread]: Store serial: [23129051]
