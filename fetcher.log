@@ -8200,3 +8200,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:20:28] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.4.tar.gz]
 [2024-05-09 04:20:28] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
 [2024-05-09 04:20:28] INFO root fetch - main [MainThread]: Store serial: [23124934]
+[2024-05-09 04:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124934]
+[2024-05-09 04:22:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-app-ui
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-notification
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrazilFiscalReport
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytextclassifier
+[2024-05-09 04:22:36] INFO root fetch - processPackages [BrazilFiscalReport]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 04:22:36] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/db/28/b20f28d47f5a7a02796bab20e21879c027ac3467bc06bae2958479f044a7/brazilfiscalreport-0.3.1.tar.gz
+[2024-05-09 04:22:36] INFO root fetch - processPackages [spaceone-notification]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-05-09 04:22:36] INFO root fetch - processPackages [pytextclassifier]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-05-09 04:22:36] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/02/aa/7f837f11683cf1ab334405c269701026205d7b3bdab38a7d04e144681228/spaceone-notification-2.0.dev8.tar.gz
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-05-09 04:22:36] INFO root fetch - processPackages [pytextclassifier]: Downloading https://files.pythonhosted.org/packages/9b/22/db9fe87211904a1963da7f16d1db7f0ba728971c710b563ad572ab8a1dac/pytextclassifier-1.3.7.tar.gz
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-09 04:22:36] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240509/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 04:22:36] INFO root fetch - processPackages [BrazilFiscalReport]: Downloading https://files.pythonhosted.org/packages/0e/27/594ee7be56f8c601ae69380b01cba85f8529abdea33d63698d678fdb97db/brazilfiscalreport-0.3.2.tar.gz
+[2024-05-09 04:22:37] INFO root fetch - processPackages [BrazilFiscalReport]: executing diffoscope
+[2024-05-09 04:22:37] INFO root fetch - processPackages [BrazilFiscalReport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brazilfiscalreport-0.3.1.tar.gz tmp/brazilfiscalreport-0.3.2.tar.gz --markdown 20240509/B/BrazilFiscalReport/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 04:22:37] INFO root fetch - processPackages [spaceone-notification]: Downloading https://files.pythonhosted.org/packages/f6/cd/e92402c1b7b87bbbe1c7f52e689798a5e5d31eeae7139aaac80757797923/spaceone-notification-2.0.dev9.tar.gz
+[2024-05-09 04:22:37] INFO root fetch - processPackages [pytextclassifier]: Downloading https://files.pythonhosted.org/packages/97/a6/04a2947b02904f661fa5fd55e2ffa9164632b5ecec488a6ba567923e5273/pytextclassifier-1.3.8.tar.gz
+[2024-05-09 04:22:37] INFO root fetch - processPackages [spaceone-notification]: executing diffoscope
+[2024-05-09 04:22:37] INFO root fetch - processPackages [spaceone-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-notification-2.0.dev8.tar.gz tmp/spaceone-notification-2.0.dev9.tar.gz --markdown 20240509/s/spaceone-notification/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-05-09 04:22:37] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-05-09 04:22:37] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-05-09 04:22:37] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-09 04:22:37] INFO root fetch - processPackages [pytextclassifier]: executing diffoscope
+[2024-05-09 04:22:37] INFO root fetch - processPackages [pytextclassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextclassifier-1.3.7.tar.gz tmp/pytextclassifier-1.3.8.tar.gz --markdown 20240509/p/pytextclassifier/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-09 04:22:37] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/brazilfiscalreport-0.3.1.tar.gz]
+[2024-05-09 04:22:37] INFO root fetch - processPackages [BrazilFiscalReport]: Remove: archive file [/home/abi/fetcher/tmp/brazilfiscalreport-0.3.2.tar.gz]
+[2024-05-09 04:22:37] INFO root fetch - main [MainThread]: End processing [BrazilFiscalReport]: success
+[2024-05-09 04:22:38] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-2.0.dev8.tar.gz]
+[2024-05-09 04:22:38] INFO root fetch - processPackages [spaceone-notification]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-notification-2.0.dev9.tar.gz]
+[2024-05-09 04:22:38] INFO root fetch - main [MainThread]: End processing [spaceone-notification]: success
+[2024-05-09 04:22:38] INFO root fetch - processPackages [pytextclassifier]: Remove: archive file [/home/abi/fetcher/tmp/pytextclassifier-1.3.7.tar.gz]
+[2024-05-09 04:22:38] INFO root fetch - processPackages [pytextclassifier]: Remove: archive file [/home/abi/fetcher/tmp/pytextclassifier-1.3.8.tar.gz]
+[2024-05-09 04:22:38] INFO root fetch - main [MainThread]: End processing [pytextclassifier]: success
+[2024-05-09 04:22:38] INFO root fetch - main [MainThread]: Store serial: [23124945]
