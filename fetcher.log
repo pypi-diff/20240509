@@ -10839,3 +10839,79 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-09 06:42:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-09 06:42:02] INFO root fetch - main [MainThread]: Store serial: [23126135]
+[2024-05-09 06:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126135]
+[2024-05-09 06:44:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spit
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specsy
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repository-manager
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: systems-manager
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spit
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-hcloud
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: barchart-api
+[2024-05-09 06:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WS-Helper-DRO
+[2024-05-09 06:44:11] INFO root fetch - processPackages [barchart-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [repository-manager]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [medicafe]: New version: [0.240508.2] Old Version: [0.240508.1]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-05-09 06:44:11] WARNING root fetch - processPackages [WS-Helper-DRO]: Skipping, unable to determine old version
+[2024-05-09 06:44:11] INFO root fetch - main [MainThread]: End processing [WS-Helper-DRO] error
+[2024-05-09 06:44:11] INFO root fetch - processPackages [specsy]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-09 06:44:11] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/0a/9f/637250b3c42b63a59c45de07eb90853ea0958cb78d0d043b573838e73584/systems_manager-0.8.0-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [repository-manager]: Downloading https://files.pythonhosted.org/packages/05/02/3c7f98ae4a5297e342b1d33b822a2eafa12eadb20ac5638df73f8fc4d19c/repository_manager-0.8.2-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b7/e2/ebc71661a5b4eff456a85b384850a08fee5a5cb1eb1ef7021b3619e546de/medicafe-0.240508.1.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [barchart-api]: Downloading https://files.pythonhosted.org/packages/bc/34/f4f81bd88219b28466be8bae2bf4fd0df5cd28c7d0cb04747337d66069f0/barchart_api-0.8.0-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/e0/87/8b5f8e765b6de956f406f0adbc008d6ff6a63d327616b3acc2908f747f1f/specsy-0.2.7.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/14/2f/8229554fcc2b61b308d80ddb2ac41663b830e46dcb22272ae7873fce90f2/spit-0.2.0.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [systems-manager]: Downloading https://files.pythonhosted.org/packages/68/28/02a27173c177a8a83a2fbf278250985f93c69856fda1ba8ab95e09bd391f/systems_manager-0.9.0-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [repository-manager]: Downloading https://files.pythonhosted.org/packages/88/8d/143b6d1f5e6047e150e360d740a777e8b3a0a91fd87a3810611df2f0b1cd/repository_manager-0.8.3-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/14/2f/8229554fcc2b61b308d80ddb2ac41663b830e46dcb22272ae7873fce90f2/spit-0.2.0.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [barchart-api]: Downloading https://files.pythonhosted.org/packages/0f/fb/6c49ec346316ac1904c69735917de3f2e4f462f9b900b72984bef2627687/barchart_api-0.9.0-py2.py3-none-any.whl
+[2024-05-09 06:44:11] INFO root fetch - processPackages [repository-manager]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [repository-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository_manager-0.8.2-py2.py3-none-any.whl.zip tmp/repository_manager-0.8.3-py2.py3-none-any.whl.zip --markdown 20240509/r/repository-manager/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/9d/f0/bfecc572791fb41aff9b85813ea2ea6d2de3b37b631aa2299f0200fb417f/medicafe-0.240508.2.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/systems-manager/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.9.tar.gz tmp/spit-0.2.0.tar.gz --markdown 20240509/s/spit/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [barchart-api]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [barchart-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barchart_api-0.8.0-py2.py3-none-any.whl.zip tmp/barchart_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/b/barchart-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.9.tar.gz tmp/spit-0.2.0.tar.gz --markdown 20240509/s/spit/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-09 06:44:11] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240508.1.tar.gz tmp/medicafe-0.240508.2.tar.gz --markdown 20240509/m/medicafe/0.240508.1-0.240508.2/README.md --exclude *.pyd
+[2024-05-09 06:44:11] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/3c/dc/e9f07e104c1451f04470eb36e6b86da0afa91a0a9edb34aea25d308dfc91/specsy-0.2.8.tar.gz
+[2024-05-09 06:44:11] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-09 06:44:12] INFO root fetch - processPackages [specsy]: executing diffoscope
+[2024-05-09 06:44:12] INFO root fetch - processPackages [specsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specsy-0.2.7.tar.gz tmp/specsy-0.2.8.tar.gz --markdown 20240509/s/specsy/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-09 06:44:12] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-09 06:44:12] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240509/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-09 06:44:12] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.0.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-05-09 06:44:12] INFO root fetch - processPackages [repository-manager]: Remove: archive file [/home/abi/fetcher/tmp/repository_manager-0.8.2-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [repository-manager]: Remove: archive file [/home/abi/fetcher/tmp/repository_manager-0.8.3-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [repository-manager]: success
+[2024-05-09 06:44:12] INFO root fetch - processPackages [barchart-api]: Remove: archive file [/home/abi/fetcher/tmp/barchart_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [barchart-api]: Remove: archive file [/home/abi/fetcher/tmp/barchart_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [barchart-api]: success
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-05-09 06:44:12] INFO root fetch - processPackages [systems-manager]: Remove: archive file [/home/abi/fetcher/tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [systems-manager]: Remove: archive file [/home/abi/fetcher/tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2024-05-09 06:44:12] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.1.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.2.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-09 06:44:12] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.7.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.8.tar.gz]
+[2024-05-09 06:44:12] INFO root fetch - main [MainThread]: End processing [specsy]: success
+[2024-05-09 06:44:13] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-09 06:44:13] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-09 06:44:13] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-09 06:44:13] INFO root fetch - main [MainThread]: Store serial: [23126156]
