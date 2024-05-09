@@ -7451,3 +7451,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-1.34.99.tar.gz]
 [2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis]: success
 [2024-05-09 03:24:44] INFO root fetch - main [MainThread]: Store serial: [23124137]
+[2024-05-09 03:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124137]
+[2024-05-09 03:26:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 03:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-easy-faq
+[2024-05-09 03:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathologyfoundation
+[2024-05-09 03:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2024-05-09 03:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: payload-api
+[2024-05-09 03:26:53] INFO root fetch - processPackages [pathologyfoundation]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 03:26:53] INFO root fetch - processPackages [payload-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-09 03:26:53] INFO root fetch - processPackages [django-easy-faq]: New version: [1.8] Old Version: [1.7]
+[2024-05-09 03:26:53] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-09 03:26:53] INFO root fetch - processPackages [pathologyfoundation]: Downloading https://files.pythonhosted.org/packages/40/d2/9786da4d7a51b32963f0df903983e68261e969c63be82ec1d4b96379ceee/pathologyfoundation-0.2.3.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [payload-api]: Downloading https://files.pythonhosted.org/packages/84/fd/568d9b3e25dd8227697eb6308d46a3af5b7080cf74ffb3712a6483a82d6b/payload-api-0.4.8.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [django-easy-faq]: Downloading https://files.pythonhosted.org/packages/9d/49/d3c4f292a54a4078b573ff6fb45726a7c390734c0ac2afc5af945ea5fdbf/django-easy-faq-1.7.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [django-easy-faq]: Downloading https://files.pythonhosted.org/packages/d2/0e/3ada0c8de5ac08dcfaa8f66e5a717a29d79316e4603f53284dd24e7562f0/django_easy_faq-1.8.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [pathologyfoundation]: Downloading https://files.pythonhosted.org/packages/80/1d/1141737553d4c9e428acb168076d2e7b739071f383876bcf3af82adbd312/pathologyfoundation-0.2.4.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [payload-api]: Downloading https://files.pythonhosted.org/packages/16/92/0e8fa9ae7bbe69272151d6688e647869b8ba455078afd350e7be4171f76d/payload-api-0.4.9.tar.gz
+[2024-05-09 03:26:54] INFO root fetch - processPackages [django-easy-faq]: executing diffoscope
+[2024-05-09 03:26:54] INFO root fetch - processPackages [django-easy-faq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-easy-faq-1.7.tar.gz tmp/django_easy_faq-1.8.tar.gz --markdown 20240509/d/django-easy-faq/1.7-1.8/README.md --exclude *.pyd
+[2024-05-09 03:26:54] INFO root fetch - processPackages [pathologyfoundation]: executing diffoscope
+[2024-05-09 03:26:54] INFO root fetch - processPackages [pathologyfoundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathologyfoundation-0.2.3.tar.gz tmp/pathologyfoundation-0.2.4.tar.gz --markdown 20240509/p/pathologyfoundation/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 03:26:54] INFO root fetch - processPackages [payload-api]: executing diffoscope
+[2024-05-09 03:26:54] INFO root fetch - processPackages [payload-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payload-api-0.4.8.tar.gz tmp/payload-api-0.4.9.tar.gz --markdown 20240509/p/payload-api/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-09 03:26:54] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-09 03:26:54] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240509/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-09 03:26:55] INFO root fetch - processPackages [pathologyfoundation]: Remove: archive file [/home/abi/fetcher/tmp/pathologyfoundation-0.2.3.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - processPackages [pathologyfoundation]: Remove: archive file [/home/abi/fetcher/tmp/pathologyfoundation-0.2.4.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - main [MainThread]: End processing [pathologyfoundation]: success
+[2024-05-09 03:26:55] INFO root fetch - processPackages [django-easy-faq]: Remove: archive file [/home/abi/fetcher/tmp/django-easy-faq-1.7.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - processPackages [django-easy-faq]: Remove: archive file [/home/abi/fetcher/tmp/django_easy_faq-1.8.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - main [MainThread]: End processing [django-easy-faq]: success
+[2024-05-09 03:26:55] INFO root fetch - processPackages [payload-api]: Remove: archive file [/home/abi/fetcher/tmp/payload-api-0.4.8.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - processPackages [payload-api]: Remove: archive file [/home/abi/fetcher/tmp/payload-api-0.4.9.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - main [MainThread]: End processing [payload-api]: success
+[2024-05-09 03:26:55] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-09 03:26:55] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-09 03:26:55] INFO root fetch - main [MainThread]: Store serial: [23124201]
