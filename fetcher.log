@@ -10987,3 +10987,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:46:24] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.5.0-cp311-cp311-win_amd64.whl.zip]
 [2024-05-09 06:46:24] INFO root fetch - main [MainThread]: End processing [cvxpy-base]: success
 [2024-05-09 06:46:24] INFO root fetch - main [MainThread]: Store serial: [23126187]
+[2024-05-09 06:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126187]
+[2024-05-09 06:48:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owl2else
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-keycloak
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tseRating
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kong
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlab-api
+[2024-05-09 06:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xyscreens
+[2024-05-09 06:48:33] INFO root fetch - processPackages [gitlab-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-09 06:48:33] INFO root fetch - processPackages [xyscreens]: New version: [0.1.2.dev1] Old Version: [0.1.1]
+[2024-05-09 06:48:33] INFO root fetch - processPackages [owl2else]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-09 06:48:33] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/4c/31/7f09ed7e57cfb89067df4301b4868acda650facb9216b3fec285bef932fb/gitlab_api-0.6.0-py2.py3-none-any.whl
+[2024-05-09 06:48:33] INFO root fetch - processPackages [xyscreens]: Downloading https://files.pythonhosted.org/packages/09/05/0caea1533e2a375d84f94c3e93213c2081b11769c48c67a650d62b2a8bfe/xyscreens-0.1.1.tar.gz
+[2024-05-09 06:48:33] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1715228714] Old Version: [4.6.0a1715060800]
+[2024-05-09 06:48:33] INFO root fetch - processPackages [owl2else]: Downloading https://files.pythonhosted.org/packages/ff/68/84f257aee5fa662cc8632fd930ae0d8f1641e5d1225d54880e7f76f841e9/owl2else-0.9.1.tar.gz
+[2024-05-09 06:48:33] WARNING root fetch - processPackages [tseRating]: Skipping, unable to determine old version
+[2024-05-09 06:48:33] INFO root fetch - main [MainThread]: End processing [tseRating] error
+[2024-05-09 06:48:33] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1715228738] Old Version: [5.4.0a1715060567]
+[2024-05-09 06:48:33] INFO root fetch - processPackages [xyscreens]: Downloading https://files.pythonhosted.org/packages/ba/cd/2bf0e2b7ec7ab360c16f26ab1381e98049d3f3a7d4857232c8bc500bf52a/xyscreens-0.1.2.dev1.tar.gz
+[2024-05-09 06:48:33] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/f6/a4/2802fc72596bcd0c534d36dab854af2883eccba523242378fa70fef707b8/gitlab_api-0.7.0-py2.py3-none-any.whl
+[2024-05-09 06:48:33] INFO root fetch - processPackages [owl2else]: Downloading https://files.pythonhosted.org/packages/52/d3/6163df74f6d19830efcd7a60a0d6864042fefff645f88fcf675498b552f3/owl2else-0.9.2.tar.gz
+[2024-05-09 06:48:33] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/28/22/76749c81b1dc8b268a66fb3d4b9a73e7d7d0cd54657f707e393852e2ba23/pulumi_kong-4.6.0a1715060800.tar.gz
+[2024-05-09 06:48:33] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/5e/3c/9997dd1e47b550b7ac2f4004a160078d9461a8df9e7865943e105ada1db0/pulumi_keycloak-5.4.0a1715060567.tar.gz
+[2024-05-09 06:48:33] INFO root fetch - processPackages [xyscreens]: executing diffoscope
+[2024-05-09 06:48:33] INFO root fetch - processPackages [xyscreens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyscreens-0.1.1.tar.gz tmp/xyscreens-0.1.2.dev1.tar.gz --markdown 20240509/x/xyscreens/0.1.1-0.1.2.dev1/README.md --exclude *.pyd
+[2024-05-09 06:48:33] INFO root fetch - processPackages [gitlab-api]: executing diffoscope
+[2024-05-09 06:48:33] INFO root fetch - processPackages [gitlab-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip --markdown 20240509/g/gitlab-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-09 06:48:33] INFO root fetch - processPackages [owl2else]: executing diffoscope
+[2024-05-09 06:48:33] INFO root fetch - processPackages [owl2else]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owl2else-0.9.1.tar.gz tmp/owl2else-0.9.2.tar.gz --markdown 20240509/o/owl2else/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/5e/c7/fa3564fe19c50cd2af468c7b50bf0c4f551bc90c1399bc038d9ca9482dda/pulumi_kong-4.6.0a1715228714.tar.gz
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/ea/e5/14dbdfab4a964a83de306af235899c5c51edabdf2662192921fa057c8302/pulumi_keycloak-5.4.0a1715228738.tar.gz
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1715060800.tar.gz tmp/pulumi_kong-4.6.0a1715228714.tar.gz --markdown 20240509/p/pulumi-kong/4.6.0a1715060800-4.6.0a1715228714/README.md --exclude *.pyd
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1715060567.tar.gz tmp/pulumi_keycloak-5.4.0a1715228738.tar.gz --markdown 20240509/p/pulumi-keycloak/5.4.0a1715060567-5.4.0a1715228738/README.md --exclude *.pyd
+[2024-05-09 06:48:34] INFO root fetch - processPackages [xyscreens]: Remove: archive file [/home/abi/fetcher/tmp/xyscreens-0.1.1.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - processPackages [xyscreens]: Remove: archive file [/home/abi/fetcher/tmp/xyscreens-0.1.2.dev1.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - main [MainThread]: End processing [xyscreens]: success
+[2024-05-09 06:48:34] INFO root fetch - processPackages [owl2else]: Remove: archive file [/home/abi/fetcher/tmp/owl2else-0.9.1.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - processPackages [owl2else]: Remove: archive file [/home/abi/fetcher/tmp/owl2else-0.9.2.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - main [MainThread]: End processing [owl2else]: success
+[2024-05-09 06:48:34] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:48:34] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
+[2024-05-09 06:48:34] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715060800.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1715228714.tar.gz]
+[2024-05-09 06:48:34] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-09 06:48:35] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715060567.tar.gz]
+[2024-05-09 06:48:35] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1715228738.tar.gz]
+[2024-05-09 06:48:35] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-09 06:48:35] INFO root fetch - main [MainThread]: Store serial: [23126232]
