@@ -10435,3 +10435,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:13:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
 [2024-05-09 06:13:07] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-05-09 06:13:07] INFO root fetch - main [MainThread]: Store serial: [23125972]
+[2024-05-09 06:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125972]
+[2024-05-09 06:15:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 06:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-br-nfe-spec
+[2024-05-09 06:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-l10n-brazil
+[2024-05-09 06:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patchwork-cli
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.3]
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: New version: [16.0.20240502.0] Old Version: [16.0.20240325.1]
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/63/3b/621fcac3e4da26362da9b95fa3995b77cd8958f5455efdd68ff68dfa67a1/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl
+[2024-05-09 06:15:18] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/2d/37/a11a0f2e9f6e0a546a315a383be3f1e5777e9556a7e4de3605c4eb40df05/odoo_addon_l10n_br_nfe_spec-15.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/a0/01/4acfb535d6cf236bc32ddcc9ebc7de76de2948eda1cac3f3083dbca58353/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl
+[2024-05-09 06:15:18] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/c5/1b/38298497d6460d6d00993e21eb724a7de3af6eed64c7f367309ee35c33fb/patchwork_cli-0.0.6.tar.gz
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: executing diffoscope
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addons-oca-l10n-brazil/16.0.20240325.1-16.0.20240502.0/README.md --exclude *.pyd
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: Downloading https://files.pythonhosted.org/packages/a9/ad/0a950fb35256d77022103978be0c8f7fda43905dafe345b1e637ad1b50a1/odoo_addon_l10n_br_nfe_spec-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: executing diffoscope
+[2024-05-09 06:15:18] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_nfe_spec-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_nfe_spec-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-br-nfe-spec/15.0.1.0.0.3-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-09 06:15:18] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/d9/33/39f9949fa26a0b62233cd5bbd67092270f536066f48eefff4b6beec03330/patchwork_cli-0.0.7.tar.gz
+[2024-05-09 06:15:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240325.1-py3-none-any.whl.zip]
+[2024-05-09 06:15:19] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_brazil-16.0.20240502.0-py3-none-any.whl.zip]
+[2024-05-09 06:15:19] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-brazil]: success
+[2024-05-09 06:15:19] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-09 06:15:19] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.6.tar.gz tmp/patchwork_cli-0.0.7.tar.gz --markdown 20240509/p/patchwork-cli/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 06:15:19] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_nfe_spec-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 06:15:19] INFO root fetch - processPackages [odoo-addon-l10n-br-nfe-spec]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_nfe_spec-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 06:15:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-nfe-spec]: success
+[2024-05-09 06:15:19] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.6.tar.gz]
+[2024-05-09 06:15:19] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.7.tar.gz]
+[2024-05-09 06:15:19] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-09 06:15:19] INFO root fetch - main [MainThread]: Store serial: [23125979]
