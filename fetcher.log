@@ -11620,3 +11620,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:15:16] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0rc0.tar.gz]
 [2024-05-09 07:15:16] INFO root fetch - main [MainThread]: End processing [zcorepy]: success
 [2024-05-09 07:15:16] INFO root fetch - main [MainThread]: Store serial: [23126489]
+[2024-05-09 07:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126489]
+[2024-05-09 07:17:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: group-profile-remote
+[2024-05-09 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smart-sdk
+[2024-05-09 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2024-05-09 07:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Leonardo-Ai-SDK
+[2024-05-09 07:17:24] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 07:17:24] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-09 07:17:24] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-09 07:17:25] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/82/53/f2ee167b687f2adeb1d325c640844d82b0f1fa6bf2f7bafd784fbb711296/duwi_smart_sdk-0.1.8.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/54/45/70289314d3e96098cab891f9bfe97c370802711ae8f997aca8ca42b12165/Leonardo-Ai-SDK-5.3.8.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/20/49/e04f264f7b4e5c94cd9cca08b2789aeaf4d272788a790eb98a2980a82bab/Leonardo-Ai-SDK-5.3.9.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/54/3d/d7bf5108fc6e369d0a0ff33d56831c841cc40840992e64a2d788707fb3cc/duwi_smart_sdk-0.1.9.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-09 07:17:25] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.8.tar.gz tmp/Leonardo-Ai-SDK-5.3.9.tar.gz --markdown 20240509/L/Leonardo-Ai-SDK/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-09 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-09 07:17:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240509/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-09 07:17:25] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-09 07:17:25] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.8.tar.gz tmp/duwi_smart_sdk-0.1.9.tar.gz --markdown 20240509/d/duwi-smart-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 07:17:25] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-09 07:17:25] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-09 07:17:25] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240509/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 07:17:26] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.8.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.9.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.8.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-09 07:17:26] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.9.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-09 07:17:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-09 07:17:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-09 07:17:26] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-09 07:17:26] INFO root fetch - main [MainThread]: Store serial: [23126500]
