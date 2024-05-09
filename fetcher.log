@@ -14628,3 +14628,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:33:27] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.6.tar.gz]
 [2024-05-09 09:33:27] INFO root fetch - main [MainThread]: End processing [narwhals]: success
 [2024-05-09 09:33:27] INFO root fetch - main [MainThread]: Store serial: [23127614]
+[2024-05-09 09:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127614]
+[2024-05-09 09:35:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 09:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckcuts
+[2024-05-09 09:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everai
+[2024-05-09 09:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airgradient
+[2024-05-09 09:35:37] INFO root fetch - processPackages [everai]: New version: [0.1.48] Old Version: [0.1.47]
+[2024-05-09 09:35:37] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/79/bb/f9efaa6c97a71f35210ebd1301ca85934706dcf50e545b9416cf7b3848f5/everai-0.1.47-py3-none-any.whl
+[2024-05-09 09:35:37] INFO root fetch - processPackages [duckcuts]: New version: [1.0.11] Old Version: [1.0.10]
+[2024-05-09 09:35:37] INFO root fetch - processPackages [airgradient]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-09 09:35:37] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/63/f6/e750849ea5829a8a87bf93b0b818e640e9938ef98f441d021247257972ff/duckcuts-1.0.10.tar.gz
+[2024-05-09 09:35:37] INFO root fetch - processPackages [airgradient]: Downloading https://files.pythonhosted.org/packages/72/df/8f7714d0ae4c65fd389b18e983d167ac448f5e45057e805d51cd36fe5c1f/airgradient-0.3.0.tar.gz
+[2024-05-09 09:35:37] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/5b/3f/31bf8515a71aff2a7d4b604018bf8a000c40c80b22b47730bf8194e92c67/everai-0.1.48-py3-none-any.whl
+[2024-05-09 09:35:37] INFO root fetch - processPackages [duckcuts]: Downloading https://files.pythonhosted.org/packages/c9/6c/cf61e4bf96acccb52b6e35f6f496d990c6b3c866d9fc126d9485da753a2f/duckcuts-1.0.11.tar.gz
+[2024-05-09 09:35:38] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-09 09:35:38] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.47-py3-none-any.whl.zip tmp/everai-0.1.48-py3-none-any.whl.zip --markdown 20240509/e/everai/0.1.47-0.1.48/README.md --exclude *.pyd
+[2024-05-09 09:35:38] INFO root fetch - processPackages [airgradient]: Downloading https://files.pythonhosted.org/packages/d4/28/69d1b2167a48d9c24da2016369bcf67b7a24f83b389e71e7b44ddeb689a5/airgradient-0.4.0.tar.gz
+[2024-05-09 09:35:38] INFO root fetch - processPackages [duckcuts]: executing diffoscope
+[2024-05-09 09:35:38] INFO root fetch - processPackages [duckcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckcuts-1.0.10.tar.gz tmp/duckcuts-1.0.11.tar.gz --markdown 20240509/d/duckcuts/1.0.10-1.0.11/README.md --exclude *.pyd
+[2024-05-09 09:35:38] INFO root fetch - processPackages [airgradient]: executing diffoscope
+[2024-05-09 09:35:38] INFO root fetch - processPackages [airgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airgradient-0.3.0.tar.gz tmp/airgradient-0.4.0.tar.gz --markdown 20240509/a/airgradient/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-09 09:35:38] INFO root fetch - processPackages [duckcuts]: Remove: archive file [/home/abi/fetcher/tmp/duckcuts-1.0.10.tar.gz]
+[2024-05-09 09:35:38] INFO root fetch - processPackages [duckcuts]: Remove: archive file [/home/abi/fetcher/tmp/duckcuts-1.0.11.tar.gz]
+[2024-05-09 09:35:38] INFO root fetch - main [MainThread]: End processing [duckcuts]: success
+[2024-05-09 09:35:38] INFO root fetch - processPackages [airgradient]: Remove: archive file [/home/abi/fetcher/tmp/airgradient-0.3.0.tar.gz]
+[2024-05-09 09:35:38] INFO root fetch - processPackages [airgradient]: Remove: archive file [/home/abi/fetcher/tmp/airgradient-0.4.0.tar.gz]
+[2024-05-09 09:35:38] INFO root fetch - main [MainThread]: End processing [airgradient]: success
+[2024-05-09 09:35:39] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.47-py3-none-any.whl.zip]
+[2024-05-09 09:35:39] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.48-py3-none-any.whl.zip]
+[2024-05-09 09:35:39] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-09 09:35:39] INFO root fetch - main [MainThread]: Store serial: [23127624]
