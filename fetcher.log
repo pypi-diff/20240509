@@ -20716,3 +20716,29 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:54:22] INFO root fetch - processPackages [pyqcstrc]: Remove: archive file [/home/abi/fetcher/tmp/pyqcstrc-0.0.2a1-py3-none-any.whl.zip]
 [2024-05-09 12:54:22] INFO root fetch - main [MainThread]: End processing [pyqcstrc]: success
 [2024-05-09 12:54:22] INFO root fetch - main [MainThread]: Store serial: [23129832]
+[2024-05-09 12:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129832]
+[2024-05-09 12:56:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 12:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: find-delay
+[2024-05-09 12:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setech
+[2024-05-09 12:56:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ode-style
+[2024-05-09 12:56:30] INFO root fetch - processPackages [find-delay]: New version: [2.6] Old Version: [2.5]
+[2024-05-09 12:56:30] INFO root fetch - processPackages [ode-style]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 12:56:31] INFO root fetch - processPackages [setech]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-09 12:56:31] INFO root fetch - processPackages [find-delay]: Downloading https://files.pythonhosted.org/packages/b8/ce/80c4bcc9b126c281cf98f84d81a50d03580179f6550c678f9c89b2f36b3c/find_delay-2.5.tar.gz
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/13/95/6200fad5efa9a51ee7962a74bfdbb4cc54976da260e85093e738198fc705/ode-style-0.0.2.tar.gz
+[2024-05-09 12:56:31] WARNING root fetch - processPackages [find-delay]: Skipping package: exceeds size limit 78569201>=10485760
+[2024-05-09 12:56:31] INFO root fetch - main [MainThread]: End processing [find-delay] error
+[2024-05-09 12:56:31] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/d5/28/166876dc549f1c300a0bdc4aa94d2c2ae8ad3c7d2789f90d4db7b2d51f7d/setech-1.3.0.tar.gz
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: Downloading https://files.pythonhosted.org/packages/08/47/4bec726abf55662968d4d289b76d0e318d9b15dcfb7c40c2c64e95b215b0/ode_style-0.0.3.tar.gz
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: executing diffoscope
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ode-style-0.0.2.tar.gz tmp/ode_style-0.0.3.tar.gz --markdown 20240509/o/ode-style/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 12:56:31] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/96/a2/0137487f7613c9774c27835f7cee230b7e06802a6b86240ba9a05589cde5/setech-1.3.1.tar.gz
+[2024-05-09 12:56:31] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-05-09 12:56:31] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.3.0.tar.gz tmp/setech-1.3.1.tar.gz --markdown 20240509/s/setech/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode-style-0.0.2.tar.gz]
+[2024-05-09 12:56:31] INFO root fetch - processPackages [ode-style]: Remove: archive file [/home/abi/fetcher/tmp/ode_style-0.0.3.tar.gz]
+[2024-05-09 12:56:31] INFO root fetch - main [MainThread]: End processing [ode-style]: success
+[2024-05-09 12:56:32] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.0.tar.gz]
+[2024-05-09 12:56:32] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.1.tar.gz]
+[2024-05-09 12:56:32] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-05-09 12:56:32] INFO root fetch - main [MainThread]: Store serial: [23129841]
