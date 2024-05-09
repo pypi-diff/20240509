@@ -18365,3 +18365,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:16:04] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev9.tar.gz]
 [2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
 [2024-05-09 11:16:04] INFO root fetch - main [MainThread]: Store serial: [23128860]
+[2024-05-09 11:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128860]
+[2024-05-09 11:18:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cereslib
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Quantitative-BackTest-Framework
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-machine-learning-training
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ngstents
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perceval
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdoclust
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-machine-learning-inference
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aissemble-test-data-delivery-pyspark-model
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m9s-nereid
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finter
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-training]: New version: [1.7.0.dev1715160290] Old Version: [1.7.0.dev1715160270]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [cereslib]: New version: [1.0.1rc1] Old Version: [1.0.0rc1]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-inference]: New version: [1.7.0.dev1715160330] Old Version: [1.7.0.dev1715160307]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: New version: [1.7.0.dev1715246117] Old Version: [1.7.0.dev1715160214]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [perceval]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:18:13] WARNING root fetch - processPackages [Quantitative-BackTest-Framework]: Skipping, unable to determine old version
+[2024-05-09 11:18:13] INFO root fetch - processPackages [Quantitative-BackTest-Framework]: Start processing: aissemble-machine-learning-sagemaker-training
+[2024-05-09 11:18:13] INFO root fetch - main [MainThread]: End processing [Quantitative-BackTest-Framework] error
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ngstents]: New version: [0.0.2.dev40] Old Version: [0.0.2.dev39]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-training]: Downloading https://files.pythonhosted.org/packages/cd/a5/30dfa6e5507f1529fac56115cdaaf5139cb3b0b1682cabacefe4ee6ca491/aissemble_machine_learning_training-1.7.0.dev1715160270.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [m9s-nereid]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/55/94/0ab74ca9eb9c54f93fa401b97c94456824d913c51da83f140ed41a5c4e30/cereslib-1.0.0rc1.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Downloading https://files.pythonhosted.org/packages/38/2a/3088a51aebf2c57d6368631c56c429089546982824b00eb387fb2dab3dcd/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: New version: [1.7.0.dev1715160366] Old Version: [1.7.0.dev1715160344]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/45/4d/6efbb3caddf22fb0d3b956ad7462360f6518fd1debfcfdeafa0fbfd737f1/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-09 11:18:13] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/5c/72/97cd27786ef0f1eaa11432c84abe8569599542ed2ec2b619798db9b6cc47/perceval-1.0.0rc2.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [sdoclust]: New version: [0.2] Old Version: [0.1]
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/04/61/610b30eaecbdf4a58237da244f5b2f81c8f47d023924581ba97cc6cab53e/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [ngstents]: Downloading https://files.pythonhosted.org/packages/64/13/9ad494ced15011f330bac639a959c96104801ed313b13ec86426eab9281e/ngstents-0.0.2.dev39-cp39-cp39-win_amd64.whl
+[2024-05-09 11:18:13] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/d6/ee/ed87ceb354699715d4d86b3db2c29d1115a5b79c05306d05224515e57710/m9s_nereid-7.0.8.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/21/7c/01efa98ef16249f57ae27a8f8bdaf57dc3c6b2bc4c215cacfaa54422de31/cereslib-1.0.1rc1.tar.gz
+[2024-05-09 11:18:13] INFO root fetch - processPackages [aissemble-machine-learning-training]: Downloading https://files.pythonhosted.org/packages/bf/d7/ae7a1a0c139c22b8ad67e64c07a7f02fb5f357da7515d790f82c6d4d0c3c/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-09 11:18:14] INFO root fetch - processPackages [sdoclust]: Downloading https://files.pythonhosted.org/packages/49/90/fc41ce90cbe7d405c35bb9d55dbc540e0bcd2e45aaf8bd064888fcf472a6/sdoclust-0.1.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/64/0b/9042d176781e792dbbd8648f21e1c90ac8b81902658013c8e09334072a94/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/81/dc/566a9fa04e3551b86e0027b082a5b2076f6224316a2fc041a968f9a4acc1/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-training]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_training-1.7.0.dev1715160270.tar.gz tmp/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz --markdown 20240509/a/aissemble-machine-learning-training/1.7.0.dev1715160270-1.7.0.dev1715160290/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Downloading https://files.pythonhosted.org/packages/3f/11/b69ac5c600c1e4de713004fedccd95540d8ec7b2e8de880b736e28e6ab55/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715246117.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [cereslib]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [cereslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereslib-1.0.0rc1.tar.gz tmp/cereslib-1.0.1rc1.tar.gz --markdown 20240509/c/cereslib/1.0.0rc1-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/87/36/266310b936335a1e1930dfa694cedff4308f46f637c9f58c9581ea4cc425/perceval-1.0.1rc1.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240509/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-inference]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz tmp/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz --markdown 20240509/a/aissemble-machine-learning-inference/1.7.0.dev1715160307-1.7.0.dev1715160330/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz --markdown 20240509/a/aissemble-machine-learning-sagemaker-training/1.7.0.dev1715160344-1.7.0.dev1715160366/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715246117.tar.gz --markdown 20240509/a/aissemble-test-data-delivery-pyspark-model/1.7.0.dev1715160214-1.7.0.dev1715246117/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-1.0.0rc2.tar.gz tmp/perceval-1.0.1rc1.tar.gz --markdown 20240509/p/perceval/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [ngstents]: Downloading https://files.pythonhosted.org/packages/d1/50/cae45395c42117e894e78a80ac20f6e358c916ea2e505c2290ee97dab054/ngstents-0.0.2.dev40-cp39-cp39-win_amd64.whl
+[2024-05-09 11:18:14] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/bc/d0/7460b07d1b06e2893c60e2f5695169f6f2478b7ce7b55d2eb86a75123eae/m9s_nereid-7.0.9.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [sdoclust]: Downloading https://files.pythonhosted.org/packages/1f/0e/249b27aad1174e8180144bc0e4923943d4148c3ce74b202647546b99b2ae/sdoclust-0.2.tar.gz
+[2024-05-09 11:18:14] INFO root fetch - processPackages [sdoclust]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [sdoclust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdoclust-0.1.tar.gz tmp/sdoclust-0.2.tar.gz --markdown 20240509/s/sdoclust/0.1-0.2/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [m9s-nereid]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [m9s-nereid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_nereid-7.0.8.tar.gz tmp/m9s_nereid-7.0.9.tar.gz --markdown 20240509/m/m9s-nereid/7.0.8-7.0.9/README.md --exclude *.pyd
+[2024-05-09 11:18:14] INFO root fetch - processPackages [ngstents]: executing diffoscope
+[2024-05-09 11:18:14] INFO root fetch - processPackages [ngstents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstents-0.0.2.dev39-cp39-cp39-win_amd64.whl.zip tmp/ngstents-0.0.2.dev40-cp39-cp39-win_amd64.whl.zip --markdown 20240509/n/ngstents/0.0.2.dev39-0.0.2.dev40/README.md --exclude *.pyd
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1715160307.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Start processing: sortinghat
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-inference]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [sortinghat]: New version: [1.0.1rc1] Old Version: [1.0.0rc3]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-1.0.0rc1.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-1.0.1rc1.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [cereslib]: Start processing: aissemble-test-data-delivery-pyspark-model-basic
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [cereslib]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160344.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-sagemaker-training]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/75/38/ccfa1157e151394aa9202f8e4e663c57be19a58629233b7764e90e7fc2b1/sortinghat-1.0.0rc3.tar.gz
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training-1.7.0.dev1715160270.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-machine-learning-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-training]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: New version: [1.7.0.dev1715246152] Old Version: [1.7.0.dev1715160248]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Downloading https://files.pythonhosted.org/packages/4f/42/1f9981c918313c6af9e782be636d12f1834a228894aa1ecdba5044e6bf39/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz
+[2024-05-09 11:18:15] INFO root fetch - processPackages [sdoclust]: Remove: archive file [/home/abi/fetcher/tmp/sdoclust-0.1.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [sdoclust]: Remove: archive file [/home/abi/fetcher/tmp/sdoclust-0.2.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [sdoclust]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715246117.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [aissemble-test-data-delivery-pyspark-model]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.2.dev39-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [ngstents]: Remove: archive file [/home/abi/fetcher/tmp/ngstents-0.0.2.dev40-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [ngstents]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [sortinghat]: Downloading https://files.pythonhosted.org/packages/98/d1/2399b0b0ae4a090c2c7d7fe18f292a5d4e7d776c93f3350ebbb0d02842b8/sortinghat-1.0.1rc1.tar.gz
+[2024-05-09 11:18:15] INFO root fetch - processPackages [m9s-nereid]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid-7.0.8.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - processPackages [m9s-nereid]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid-7.0.9.tar.gz]
+[2024-05-09 11:18:15] INFO root fetch - main [MainThread]: End processing [m9s-nereid]: success
+[2024-05-09 11:18:15] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Downloading https://files.pythonhosted.org/packages/b2/03/fa095914aa3a80c77fd25c6130544cdbfca59f7a981c541f90c062f3cc1f/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715246152.tar.gz
+[2024-05-09 11:18:16] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: executing diffoscope
+[2024-05-09 11:18:16] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715246152.tar.gz --markdown 20240509/a/aissemble-test-data-delivery-pyspark-model-basic/1.7.0.dev1715160248-1.7.0.dev1715246152/README.md --exclude *.pyd
+[2024-05-09 11:18:16] INFO root fetch - processPackages [sortinghat]: executing diffoscope
+[2024-05-09 11:18:16] INFO root fetch - processPackages [sortinghat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat-1.0.0rc3.tar.gz tmp/sortinghat-1.0.1rc1.tar.gz --markdown 20240509/s/sortinghat/1.0.0rc3-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:18:16] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.0rc2.tar.gz]
+[2024-05-09 11:18:16] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-1.0.1rc1.tar.gz]
+[2024-05-09 11:18:16] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2024-05-09 11:18:16] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz]
+[2024-05-09 11:18:16] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715246152.tar.gz]
+[2024-05-09 11:18:16] INFO root fetch - main [MainThread]: End processing [aissemble-test-data-delivery-pyspark-model-basic]: success
+[2024-05-09 11:18:17] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.0rc3.tar.gz]
+[2024-05-09 11:18:17] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.1rc1.tar.gz]
+[2024-05-09 11:18:17] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
+[2024-05-09 11:18:17] INFO root fetch - main [MainThread]: Store serial: [23128914]
