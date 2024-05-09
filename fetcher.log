@@ -11293,3 +11293,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:59:39] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1715229319.tar.gz]
 [2024-05-09 06:59:39] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
 [2024-05-09 06:59:39] INFO root fetch - main [MainThread]: Store serial: [23126354]
+[2024-05-09 07:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126354]
+[2024-05-09 07:01:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-tls
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hedge-lab-ct
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-sumologic
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onpy
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-linode
+[2024-05-09 07:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decaspermousz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [hedge-lab-ct]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-09 07:01:48] INFO root fetch - processPackages [hedge-lab-ct]: Downloading https://files.pythonhosted.org/packages/30/59/cf1a750515f256521349ae4dac35a9ba4372154944a693d2637c1f9f9e71/hedge_lab_ct-0.1.3.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-09 07:01:48] WARNING root fetch - processPackages [decaspermousz]: Skipping, unable to determine old version
+[2024-05-09 07:01:48] INFO root fetch - main [MainThread]: End processing [decaspermousz] error
+[2024-05-09 07:01:48] INFO root fetch - processPackages [onpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1715229855] Old Version: [5.1.0a1715063522]
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/5f/3c/16f02327072945c73a202e7ff79d120016af67a9796478bf728a8e0d59eb/pulumi_tls-5.1.0a1715063522.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [onpy]: Downloading https://files.pythonhosted.org/packages/e3/01/f279da73b4c3805108af01dcf12cbbdd0e94a2cd5d6d2a8e8e1b9581f507/onpy-0.0.3.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [hedge-lab-ct]: Downloading https://files.pythonhosted.org/packages/80/bf/959145ed7efbbda63c2ed6f26f43cd08caa98de30f3023a0a5a8eeb987b6/hedge_lab_ct-0.1.4.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [hedge-lab-ct]: executing diffoscope
+[2024-05-09 07:01:48] INFO root fetch - processPackages [hedge-lab-ct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedge_lab_ct-0.1.3.tar.gz tmp/hedge_lab_ct-0.1.4.tar.gz --markdown 20240509/h/hedge-lab-ct/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/0a/48/103fafc0231638302430d694a69101b2f6e78c513988b431a542f1dde663/pulumi_tls-5.1.0a1715229855.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1715063522.tar.gz tmp/pulumi_tls-5.1.0a1715229855.tar.gz --markdown 20240509/p/pulumi-tls/5.1.0a1715063522-5.1.0a1715229855/README.md --exclude *.pyd
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240509/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-09 07:01:48] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240509/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-09 07:01:48] INFO root fetch - processPackages [onpy]: Downloading https://files.pythonhosted.org/packages/4f/8b/b73d2c64fc6c95192e52558219c263c05fc8a582fa93395bff00f4f60e1b/onpy-0.0.4.tar.gz
+[2024-05-09 07:01:49] INFO root fetch - processPackages [onpy]: executing diffoscope
+[2024-05-09 07:01:49] INFO root fetch - processPackages [onpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onpy-0.0.3.tar.gz tmp/onpy-0.0.4.tar.gz --markdown 20240509/o/onpy/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 07:01:49] INFO root fetch - processPackages [hedge-lab-ct]: Remove: archive file [/home/abi/fetcher/tmp/hedge_lab_ct-0.1.3.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - processPackages [hedge-lab-ct]: Remove: archive file [/home/abi/fetcher/tmp/hedge_lab_ct-0.1.4.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - main [MainThread]: End processing [hedge-lab-ct]: success
+[2024-05-09 07:01:49] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715063522.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1715229855.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-09 07:01:49] INFO root fetch - processPackages [onpy]: Remove: archive file [/home/abi/fetcher/tmp/onpy-0.0.3.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - processPackages [onpy]: Remove: archive file [/home/abi/fetcher/tmp/onpy-0.0.4.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - main [MainThread]: End processing [onpy]: success
+[2024-05-09 07:01:49] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-09 07:01:49] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-09 07:01:50] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-09 07:01:50] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-09 07:01:50] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-09 07:01:50] INFO root fetch - main [MainThread]: Store serial: [23126381]
