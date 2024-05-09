@@ -12200,3 +12200,71 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:44:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.5.0.tar.gz]
 [2024-05-09 07:44:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-09 07:44:00] INFO root fetch - main [MainThread]: Store serial: [23126712]
+[2024-05-09 07:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126712]
+[2024-05-09 07:46:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-cost-analysis
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nexus-scraper
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smtg1
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingosdk
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-confluentcloud
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rio-ui
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polygamistsz
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sybil
+[2024-05-09 07:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QEasyWidgets
+[2024-05-09 07:46:09] INFO root fetch - processPackages [QEasyWidgets]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-09 07:46:09] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc1] Old Version: [0.1rc0]
+[2024-05-09 07:46:09] WARNING root fetch - processPackages [smtg1]: Skipping, unable to determine old version
+[2024-05-09 07:46:09] INFO root fetch - processPackages [sybil]: New version: [6.1.1] Old Version: [6.1.0]
+[2024-05-09 07:46:09] INFO root fetch - main [MainThread]: End processing [smtg1] error
+[2024-05-09 07:46:09] WARNING root fetch - processPackages [polygamistsz]: Skipping, unable to determine old version
+[2024-05-09 07:46:09] INFO root fetch - processPackages [nexus-scraper]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-09 07:46:09] INFO root fetch - main [MainThread]: End processing [polygamistsz] error
+[2024-05-09 07:46:09] INFO root fetch - processPackages [rio-ui]: New version: [0.6] Old Version: [0.5.9]
+[2024-05-09 07:46:09] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-09 07:46:09] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-09 07:46:09] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/a1/ad/dbaecad66523171e59485e31c7b4eabacb5d698d91206615475c503c756c/QEasyWidgets-0.1.3.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/a8/90/6a758eb3f7135acdc5df4aa197dc69fa88ca831d4aadf9415933433b2b42/dingosdk-0.1rc0.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/3b/6f/ba752a16b70658c0efa72fe441f9a026fe65efecc5143d9929af0a30d984/nexus_scraper-0.2.0.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-09 07:46:10] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 67157744>=10485760
+[2024-05-09 07:46:10] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-09 07:46:10] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/07/8d/61d38025235f225c9c8aff181aad263572c69a7c048abc1708177e98812e/sybil-6.1.0.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/5e/f5/620ac0e3c33509b0ed523cef270c62991290037eb1cfab9cbe7e51448452/rio_ui-0.5.9.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/6e/d0/5f773b9bd0ed02cd29bc69ced685da7bfdb9306452d8d3f0d0e1bf095e7f/QEasyWidgets-0.1.5.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [nexus-scraper]: Downloading https://files.pythonhosted.org/packages/b3/2b/7db96d407908719912ecceaef0404b665cc4f9e8bc0788989c9df567c2a5/nexus_scraper-0.2.2.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [QEasyWidgets]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [QEasyWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QEasyWidgets-0.1.3.tar.gz tmp/QEasyWidgets-0.1.5.tar.gz --markdown 20240509/Q/QEasyWidgets/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-09 07:46:10] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/71/6b/6426794e2e60b8f26017597fd6e9fc433578d0ce1b70f244faf5baf725d2/rio_ui-0.6.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [nexus-scraper]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [nexus-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus_scraper-0.2.0.tar.gz tmp/nexus_scraper-0.2.2.tar.gz --markdown 20240509/n/nexus-scraper/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-09 07:46:10] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [sybil]: Downloading https://files.pythonhosted.org/packages/88/8a/3b28a11d200aa43dbd307d1ebd7740cf1a8c14d9baa421433f9e29e3881c/sybil-6.1.1.tar.gz
+[2024-05-09 07:46:10] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240509/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-09 07:46:10] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240509/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-09 07:46:10] INFO root fetch - processPackages [sybil]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [sybil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil-6.1.0.tar.gz tmp/sybil-6.1.1.tar.gz --markdown 20240509/s/sybil/6.1.0-6.1.1/README.md --exclude *.pyd
+[2024-05-09 07:46:10] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-09 07:46:10] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.5.9.tar.gz tmp/rio_ui-0.6.tar.gz --markdown 20240509/r/rio-ui/0.5.9-0.6/README.md --exclude *.pyd
+[2024-05-09 07:46:11] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.2.0.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - processPackages [nexus-scraper]: Remove: archive file [/home/abi/fetcher/tmp/nexus_scraper-0.2.2.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - main [MainThread]: End processing [nexus-scraper]: success
+[2024-05-09 07:46:11] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.3.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.5.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - main [MainThread]: End processing [QEasyWidgets]: success
+[2024-05-09 07:46:11] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-09 07:46:11] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-09 07:46:11] INFO root fetch - processPackages [sybil]: Remove: archive file [/home/abi/fetcher/tmp/sybil-6.1.0.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - processPackages [sybil]: Remove: archive file [/home/abi/fetcher/tmp/sybil-6.1.1.tar.gz]
+[2024-05-09 07:46:11] INFO root fetch - main [MainThread]: End processing [sybil]: success
+[2024-05-09 07:46:13] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.5.9.tar.gz]
+[2024-05-09 07:46:13] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.6.tar.gz]
+[2024-05-09 07:46:13] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-09 07:46:13] INFO root fetch - main [MainThread]: Store serial: [23126741]
