@@ -14310,3 +14310,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:15:47] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240509.1715238879.tar.gz]
 [2024-05-09 09:15:47] INFO root fetch - main [MainThread]: End processing [gink]: success
 [2024-05-09 09:15:47] INFO root fetch - main [MainThread]: Store serial: [23127502]
+[2024-05-09 09:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127502]
+[2024-05-09 09:17:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 09:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stqe
+[2024-05-09 09:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djelm
+[2024-05-09 09:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkmatrix
+[2024-05-09 09:17:57] INFO root fetch - processPackages [stqe]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 09:17:57] INFO root fetch - processPackages [djelm]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 09:17:57] INFO root fetch - processPackages [tkmatrix]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-09 09:17:57] INFO root fetch - processPackages [stqe]: Downloading https://files.pythonhosted.org/packages/0a/f6/ee7b74d346832e45c5802614360c0be2fa28bc722e66a9cebfc412114e0d/stqe-0.2.3.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/45/62/f2826e16f9aece0c611e1f6126e5dcd5ba2aa36784f7d24c4853a5c2a614/djelm-0.8.0.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/7e/84/e023181b766215433f4249fe42d5ab6088394c5aed70452038fbb2f79b31/tkmatrix-0.8.7.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [djelm]: Downloading https://files.pythonhosted.org/packages/17/1b/40ac3ade79d1fb679a8d00e5664bff89a4ea220eb704d3ef2f8c0e70782d/djelm-0.9.0.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [tkmatrix]: Downloading https://files.pythonhosted.org/packages/ff/87/af67c2e4e41b23fbc56b08d6776374008ba7b761c8c7c8848f34b449197b/tkmatrix-0.9.0.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [stqe]: Downloading https://files.pythonhosted.org/packages/f4/08/df5e946f12215e0acf8934475dbb2a34418a9dd81a6ea98d3ff29261c175/stqe-0.2.4.tar.gz
+[2024-05-09 09:17:57] INFO root fetch - processPackages [djelm]: executing diffoscope
+[2024-05-09 09:17:57] INFO root fetch - processPackages [djelm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djelm-0.8.0.tar.gz tmp/djelm-0.9.0.tar.gz --markdown 20240509/d/djelm/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 09:17:57] INFO root fetch - processPackages [tkmatrix]: executing diffoscope
+[2024-05-09 09:17:57] INFO root fetch - processPackages [tkmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmatrix-0.8.7.tar.gz tmp/tkmatrix-0.9.0.tar.gz --markdown 20240509/t/tkmatrix/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-09 09:17:57] INFO root fetch - processPackages [stqe]: executing diffoscope
+[2024-05-09 09:17:57] INFO root fetch - processPackages [stqe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stqe-0.2.3.tar.gz tmp/stqe-0.2.4.tar.gz --markdown 20240509/s/stqe/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 09:17:58] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.8.7.tar.gz]
+[2024-05-09 09:17:58] INFO root fetch - processPackages [tkmatrix]: Remove: archive file [/home/abi/fetcher/tmp/tkmatrix-0.9.0.tar.gz]
+[2024-05-09 09:17:58] INFO root fetch - main [MainThread]: End processing [tkmatrix]: success
+[2024-05-09 09:17:58] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.8.0.tar.gz]
+[2024-05-09 09:17:58] INFO root fetch - processPackages [djelm]: Remove: archive file [/home/abi/fetcher/tmp/djelm-0.9.0.tar.gz]
+[2024-05-09 09:17:58] INFO root fetch - main [MainThread]: End processing [djelm]: success
+[2024-05-09 09:17:59] INFO root fetch - processPackages [stqe]: Remove: archive file [/home/abi/fetcher/tmp/stqe-0.2.3.tar.gz]
+[2024-05-09 09:17:59] INFO root fetch - processPackages [stqe]: Remove: archive file [/home/abi/fetcher/tmp/stqe-0.2.4.tar.gz]
+[2024-05-09 09:17:59] INFO root fetch - main [MainThread]: End processing [stqe]: success
+[2024-05-09 09:17:59] INFO root fetch - main [MainThread]: Store serial: [23127511]
