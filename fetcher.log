@@ -21686,3 +21686,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:30:25] INFO root fetch - processPackages [fontc]: Remove: archive file [/home/abi/fetcher/tmp/fontc-0.0.1.post3.tar.gz]
 [2024-05-09 13:30:25] INFO root fetch - main [MainThread]: End processing [fontc]: success
 [2024-05-09 13:30:25] INFO root fetch - main [MainThread]: Store serial: [23130188]
+[2024-05-09 13:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130188]
+[2024-05-09 13:32:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 13:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taxpayersz
+[2024-05-09 13:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flameEngine
+[2024-05-09 13:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcax
+[2024-05-09 13:32:34] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.31] Old Version: [0.0.4.3]
+[2024-05-09 13:32:34] INFO root fetch - processPackages [lcax]: New version: [2.1.0] Old Version: [2.0.6]
+[2024-05-09 13:32:34] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/fa/12/134035ef0892dd6afb1f616c2c18c69efdd7d21395c0195403f35bbca53b/lcax-2.0.6.tar.gz
+[2024-05-09 13:32:34] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/c5/8d/7ef924d1466da0a003efe1eb23feee6d70e509e1bf0c8951152e2b94ffe6/flameengine-0.0.4.3.tar.gz
+[2024-05-09 13:32:34] WARNING root fetch - processPackages [taxpayersz]: Skipping, unable to determine old version
+[2024-05-09 13:32:34] INFO root fetch - main [MainThread]: End processing [taxpayersz] error
+[2024-05-09 13:32:34] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/2a/2f/36aac0d5f4b3359a7c48e4d7d98302dd1f14df82189cb5b4b070ac6855a5/flameengine-0.0.4.31.tar.gz
+[2024-05-09 13:32:34] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/70/6d/d531630ff195af3d6a123e06a3bf9ef53c30bdbdc9f98eb8249c5fcf6093/lcax-2.1.0.tar.gz
+[2024-05-09 13:32:34] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 13:32:34] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.3.tar.gz tmp/flameengine-0.0.4.31.tar.gz --markdown 20240509/f/flameEngine/0.0.4.3-0.0.4.31/README.md --exclude *.pyd
+[2024-05-09 13:32:34] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-05-09 13:32:34] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-2.0.6.tar.gz tmp/lcax-2.1.0.tar.gz --markdown 20240509/l/lcax/2.0.6-2.1.0/README.md --exclude *.pyd
+[2024-05-09 13:32:35] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.3.tar.gz]
+[2024-05-09 13:32:35] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.31.tar.gz]
+[2024-05-09 13:32:35] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 13:32:35] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.0.6.tar.gz]
+[2024-05-09 13:32:35] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.1.0.tar.gz]
+[2024-05-09 13:32:35] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-05-09 13:32:35] INFO root fetch - main [MainThread]: Store serial: [23130199]
