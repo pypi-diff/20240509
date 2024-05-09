@@ -19516,3 +19516,72 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:50:26] INFO root fetch - processPackages [synthesized]: Remove: archive file [/home/abi/fetcher/tmp/synthesized-2.9rc8-cp39-cp39-win_amd64.whl.zip]
 [2024-05-09 11:50:26] INFO root fetch - main [MainThread]: End processing [synthesized]: success
 [2024-05-09 11:50:26] INFO root fetch - main [MainThread]: Store serial: [23129372]
+[2024-05-09 11:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129372]
+[2024-05-09 11:52:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt-custom-adapter
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kumparanian
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telstra.messaging
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ymlstash
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: levo
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metaphor-models
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxllib
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flameEngine
+[2024-05-09 11:52:36] INFO root fetch - processPackages [kumparanian]: New version: [1.0.5rc5] Old Version: [1.0.5rc4]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [flameEngine]: New version: [0.0.4.1] Old Version: [0.0.4]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [pyxllib]: New version: [0.3.96] Old Version: [0.3.95]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [levo]: New version: [1.0.0] Old Version: [0.4.9]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [telstra.messaging]: New version: [3.3.4] Old Version: [3.1.0]
+[2024-05-09 11:52:36] WARNING root fetch - processPackages [ccxt-custom-adapter]: Skipping, unable to determine old version
+[2024-05-09 11:52:36] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter] error
+[2024-05-09 11:52:36] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/b2/e5/0ca459794bf65a913334d5ff72232607b2a0419ba5f2e5fa6fea35444a80/kumparanian-1.0.5rc4.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ymlstash]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/a6/b5/82dbb21fa8969a669f352ca94ca274fd92cff4de24770d0fd73ba15244aa/flameengine-0.0.4.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 11:52:36] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/e7/3c/17e7db64b3f76320bbf38868555e1b764c703a512c991724477530a4d563/pyxllib-0.3.95.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [levo]: Downloading https://files.pythonhosted.org/packages/08/49/cf53e3ee7f658f225f6b9c318662bbc7191f705d8dce8d72f9078b62a5b0/levo-0.4.9.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [telstra.messaging]: Downloading https://files.pythonhosted.org/packages/88/e2/41fbb94354be20d6067457418f574df8852e46c2ce4351f96d0b0fd90c25/telstra_messaging-3.1.0.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/4b/5d/7beb2843c86b06c4111cc7da64712f7cbf9151219d813f84d53d31ab59b6/ymlstash-1.0.2.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/28/6c/845f9d401f8fc52b82d4e4d79b9fc6d67497c441d4a1b3ac886e243aea4e/pyxllib-0.3.96.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/7a/cc/66234f9625500dae307b92a3154f95ec31aaa63c8781635046c3f0526c93/kumparanian-1.0.5rc5.tar.gz
+[2024-05-09 11:52:36] INFO root fetch - processPackages [flameEngine]: Downloading https://files.pythonhosted.org/packages/3b/f7/8f4f828bd2d0d55322a993aef557cc2744b4169bbc03c85b2a20078a9ea3/flameengine-0.0.4.1.tar.gz
+[2024-05-09 11:52:37] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.0.5rc4.tar.gz tmp/kumparanian-1.0.5rc5.tar.gz --markdown 20240509/k/kumparanian/1.0.5rc4-1.0.5rc5/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [flameEngine]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [flameEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameengine-0.0.4.tar.gz tmp/flameengine-0.0.4.1.tar.gz --markdown 20240509/f/flameEngine/0.0.4-0.0.4.1/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.95.tar.gz tmp/pyxllib-0.3.96.tar.gz --markdown 20240509/p/pyxllib/0.3.95-0.3.96/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [telstra.messaging]: Downloading https://files.pythonhosted.org/packages/31/9f/23c1c24f4138b0f3c29d82457b7e0c76ae11bf2cf11dee1b7edd271a0fc1/telstra_messaging-3.3.4.tar.gz
+[2024-05-09 11:52:37] INFO root fetch - processPackages [levo]: Downloading https://files.pythonhosted.org/packages/65/51/bf29bef5444bdebdd7ae7fb2727cdebcf5c8d51f17e1a8804df43134fe2d/levo-1.0.0.tar.gz
+[2024-05-09 11:52:37] INFO root fetch - processPackages [ymlstash]: Downloading https://files.pythonhosted.org/packages/ae/08/69afe5c6f3212a04946bbca074a007279b77d7804d8aa00096ca16cd34ac/ymlstash-1.1.0.tar.gz
+[2024-05-09 11:52:37] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2024-05-09 11:52:37] INFO root fetch - processPackages [telstra.messaging]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [telstra.messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telstra_messaging-3.1.0.tar.gz tmp/telstra_messaging-3.3.4.tar.gz --markdown 20240509/t/telstra.messaging/3.1.0-3.3.4/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [levo]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [levo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/levo-0.4.9.tar.gz tmp/levo-1.0.0.tar.gz --markdown 20240509/l/levo/0.4.9-1.0.0/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [ymlstash]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [ymlstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ymlstash-1.0.2.tar.gz tmp/ymlstash-1.1.0.tar.gz --markdown 20240509/y/ymlstash/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2024-05-09 11:52:37] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20240509/m/metaphor-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 11:52:37] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - processPackages [flameEngine]: Remove: archive file [/home/abi/fetcher/tmp/flameengine-0.0.4.1.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - main [MainThread]: End processing [flameEngine]: success
+[2024-05-09 11:52:37] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc4.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.0.5rc5.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-09 11:52:37] INFO root fetch - processPackages [levo]: Remove: archive file [/home/abi/fetcher/tmp/levo-0.4.9.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - processPackages [levo]: Remove: archive file [/home/abi/fetcher/tmp/levo-1.0.0.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - main [MainThread]: End processing [levo]: success
+[2024-05-09 11:52:37] INFO root fetch - processPackages [telstra.messaging]: Remove: archive file [/home/abi/fetcher/tmp/telstra_messaging-3.1.0.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - processPackages [telstra.messaging]: Remove: archive file [/home/abi/fetcher/tmp/telstra_messaging-3.3.4.tar.gz]
+[2024-05-09 11:52:37] INFO root fetch - main [MainThread]: End processing [telstra.messaging]: success
+[2024-05-09 11:52:38] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.0.2.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - processPackages [ymlstash]: Remove: archive file [/home/abi/fetcher/tmp/ymlstash-1.1.0.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - main [MainThread]: End processing [ymlstash]: success
+[2024-05-09 11:52:38] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2024-05-09 11:52:38] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.95.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
+[2024-05-09 11:52:38] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2024-05-09 11:52:38] INFO root fetch - main [MainThread]: Store serial: [23129395]
