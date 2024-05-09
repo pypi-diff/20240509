@@ -20665,3 +20665,54 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:52:05] INFO root fetch - processPackages [twmap]: Remove: archive file [/home/abi/fetcher/tmp/twmap-0.5.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-09 12:52:05] INFO root fetch - main [MainThread]: End processing [twmap]: success
 [2024-05-09 12:52:05] INFO root fetch - main [MainThread]: Store serial: [23129813]
+[2024-05-09 12:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129813]
+[2024-05-09 12:54:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phdu
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowddl
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveflask
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qrcode-plus
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boullez
+[2024-05-09 12:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqcstrc
+[2024-05-09 12:54:19] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc3] Old Version: [1.0.9rc2]
+[2024-05-09 12:54:19] INFO root fetch - processPackages [phdu]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-09 12:54:19] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 12:54:19] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/f2/d0/b6606b371d6e4babb231333483d79cd9d6fa105958190f618075581aa630/liveflask-1.0.9rc2.tar.gz
+[2024-05-09 12:54:19] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/73/c7/fa8ac18619fa08a6e4fcec1b783e42ee51335818ed7b1d3ba3bca074a99a/phdu-2.4.0.tar.gz
+[2024-05-09 12:54:19] WARNING root fetch - processPackages [boullez]: Skipping, unable to determine old version
+[2024-05-09 12:54:19] INFO root fetch - main [MainThread]: End processing [boullez] error
+[2024-05-09 12:54:19] INFO root fetch - processPackages [qrcode-plus]: New version: [3.1.5] Old Version: [3.1.0]
+[2024-05-09 12:54:19] INFO root fetch - processPackages [pyqcstrc]: New version: [0.0.2a1] Old Version: [0.0.1a9]
+[2024-05-09 12:54:19] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2024-05-09 12:54:19] INFO root fetch - processPackages [qrcode-plus]: Downloading https://files.pythonhosted.org/packages/a5/8a/359b86e733e3b3a3813490435220d7380c0090adf64f828b261906abe90d/qrcode_plus-3.1.0.tar.gz
+[2024-05-09 12:54:19] INFO root fetch - processPackages [pyqcstrc]: Downloading https://files.pythonhosted.org/packages/0f/be/7ec3af5c361b73543f6bfdc8143ed0aa531744f4abbe5e55a761407a6ca7/pyqcstrc-0.0.1a9-cp39-cp39-win_amd64.whl
+[2024-05-09 12:54:20] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/17/36/85f1d71298f4b3a91c0264f23cc181c567bfe145bed14dee932a6f1bdfe8/liveflask-1.0.9rc3.tar.gz
+[2024-05-09 12:54:20] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/51/92/997385aa88a817675f91bae55570328037b6e891225f11d92cbe7077608d/phdu-2.4.1.tar.gz
+[2024-05-09 12:54:20] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2024-05-09 12:54:20] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-09 12:54:20] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc2.tar.gz tmp/liveflask-1.0.9rc3.tar.gz --markdown 20240509/l/liveflask/1.0.9rc2-1.0.9rc3/README.md --exclude *.pyd
+[2024-05-09 12:54:20] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-09 12:54:20] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.0.tar.gz tmp/phdu-2.4.1.tar.gz --markdown 20240509/p/phdu/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-09 12:54:20] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2024-05-09 12:54:20] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20240509/s/snowddl/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 12:54:20] INFO root fetch - processPackages [qrcode-plus]: Downloading https://files.pythonhosted.org/packages/9d/42/ddf3158551efe9d00dceca8943c51e55aeffe035f04617c441d0d9ee34e2/qrcode_plus-3.1.5.tar.gz
+[2024-05-09 12:54:20] INFO root fetch - processPackages [qrcode-plus]: executing diffoscope
+[2024-05-09 12:54:20] INFO root fetch - processPackages [qrcode-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrcode_plus-3.1.0.tar.gz tmp/qrcode_plus-3.1.5.tar.gz --markdown 20240509/q/qrcode-plus/3.1.0-3.1.5/README.md --exclude *.pyd
+[2024-05-09 12:54:20] INFO root fetch - processPackages [qrcode-plus]: Remove: archive file [/home/abi/fetcher/tmp/qrcode_plus-3.1.0.tar.gz]
+[2024-05-09 12:54:20] INFO root fetch - processPackages [qrcode-plus]: Remove: archive file [/home/abi/fetcher/tmp/qrcode_plus-3.1.5.tar.gz]
+[2024-05-09 12:54:20] INFO root fetch - main [MainThread]: End processing [qrcode-plus]: success
+[2024-05-09 12:54:20] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.0.tar.gz]
+[2024-05-09 12:54:20] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.1.tar.gz]
+[2024-05-09 12:54:21] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-09 12:54:21] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc2.tar.gz]
+[2024-05-09 12:54:21] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc3.tar.gz]
+[2024-05-09 12:54:21] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-09 12:54:21] INFO root fetch - processPackages [pyqcstrc]: Downloading https://files.pythonhosted.org/packages/9e/77/09064acc86d18326982f1f16074df3ac590e43a9b72a815e6894b6b4a3cf/pyqcstrc-0.0.2a1-py3-none-any.whl
+[2024-05-09 12:54:21] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2024-05-09 12:54:21] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2024-05-09 12:54:21] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2024-05-09 12:54:21] INFO root fetch - processPackages [pyqcstrc]: executing diffoscope
+[2024-05-09 12:54:21] INFO root fetch - processPackages [pyqcstrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqcstrc-0.0.1a9-cp39-cp39-win_amd64.whl.zip tmp/pyqcstrc-0.0.2a1-py3-none-any.whl.zip --markdown 20240509/p/pyqcstrc/0.0.1a9-0.0.2a1/README.md --exclude *.pyd
+[2024-05-09 12:54:22] INFO root fetch - processPackages [pyqcstrc]: Remove: archive file [/home/abi/fetcher/tmp/pyqcstrc-0.0.1a9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 12:54:22] INFO root fetch - processPackages [pyqcstrc]: Remove: archive file [/home/abi/fetcher/tmp/pyqcstrc-0.0.2a1-py3-none-any.whl.zip]
+[2024-05-09 12:54:22] INFO root fetch - main [MainThread]: End processing [pyqcstrc]: success
+[2024-05-09 12:54:22] INFO root fetch - main [MainThread]: Store serial: [23129832]
