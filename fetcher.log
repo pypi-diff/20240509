@@ -19698,3 +19698,72 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:57:15] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-05-09 11:57:15] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-05-09 11:57:15] INFO root fetch - main [MainThread]: Store serial: [23129435]
+[2024-05-09 11:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129435]
+[2024-05-09 11:59:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-simple-email
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirmordred
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalguide
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: time-tracker
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hierarchy-transformers
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoMLApp
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colourablenessz
+[2024-05-09 11:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miner-ai-beta
+[2024-05-09 11:59:24] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.72] Old Version: [0.1.71]
+[2024-05-09 11:59:24] INFO root fetch - processPackages [sirmordred]: New version: [1.0.1rc1] Old Version: [1.0.0rc3]
+[2024-05-09 11:59:24] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 11:59:24] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/d2/8c/7fac79b9626479533e6e30a313c15dc69586875f989fe4b9acf3c4568f6b/automlapp-0.1.71.tar.gz
+[2024-05-09 11:59:24] INFO root fetch - processPackages [hierarchy-transformers]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-09 11:59:24] INFO root fetch - processPackages [time-tracker]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-09 11:59:24] INFO root fetch - processPackages [azure-simple-email]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 11:59:24] WARNING root fetch - processPackages [colourablenessz]: Skipping, unable to determine old version
+[2024-05-09 11:59:24] INFO root fetch - main [MainThread]: End processing [colourablenessz] error
+[2024-05-09 11:59:24] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/37/f4/d7ce4bf237de54a0e9ed8069c5630e21b267aa392717d7cf72321a94e03d/sirmordred-1.0.0rc3.tar.gz
+[2024-05-09 11:59:24] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-09 11:59:24] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-09 11:59:25] INFO root fetch - processPackages [hierarchy-transformers]: Downloading https://files.pythonhosted.org/packages/c3/6d/fdf0930c54e4b04bf7a5339d237a14e2955ee8e675123e6f052bbf7d10ed/hierarchy_transformers-0.0.1.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/90/8a/aa533573de680f77db290a3b36915781281415c2c404b59e13a4bf35735e/automlapp-0.1.72.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [azure-simple-email]: Downloading https://files.pythonhosted.org/packages/42/1c/77e0d1a399da062bda680fb798073d6e478dd03e4b118cda6f4a26d438bd/azure_simple_email-0.1.0.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [digitalguide]: Downloading https://files.pythonhosted.org/packages/c9/f2/e2219ba27a431b06d3483e9c6a52091ce08044fbf9edd7e760566c135cdf/digitalguide-0.0.98.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/a4/56/3d79b68f599b1a9554f9ef8a15310fe7532451f3f210b7d1e0da6e7a5090/time_tracker-0.5.0.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.71.tar.gz tmp/automlapp-0.1.72.tar.gz --markdown 20240509/A/AutoMLApp/0.1.71-0.1.72/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240509/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/1b/25/9b1ba94b264043084adf28a9d8cac2505eb2b161424f5683e58404a960fe/sirmordred-1.0.1rc1.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [azure-simple-email]: Downloading https://files.pythonhosted.org/packages/0f/5a/6c28924fcae3ae5b412f0dcded1da6430eb07f89949f454a009145c0de83/azure_simple_email-0.1.1.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [hierarchy-transformers]: Downloading https://files.pythonhosted.org/packages/4a/48/dd92ef23a5c0b6d37745af2fd421e04eb8c61968c5281eb8bcae0704d75c/hierarchy_transformers-0.0.3.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/a5/f4/8010b93f1bb2f0b5c71065f48cde5bcbb538780a80cc5058a81cc891700e/time_tracker-0.5.1.tar.gz
+[2024-05-09 11:59:25] INFO root fetch - processPackages [azure-simple-email]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [azure-simple-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_simple_email-0.1.0.tar.gz tmp/azure_simple_email-0.1.1.tar.gz --markdown 20240509/a/azure-simple-email/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [hierarchy-transformers]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [hierarchy-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierarchy_transformers-0.0.1.tar.gz tmp/hierarchy_transformers-0.0.3.tar.gz --markdown 20240509/h/hierarchy-transformers/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [time-tracker]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_tracker-0.5.0.tar.gz tmp/time_tracker-0.5.1.tar.gz --markdown 20240509/t/time-tracker/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2024-05-09 11:59:25] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-1.0.0rc3.tar.gz tmp/sirmordred-1.0.1rc1.tar.gz --markdown 20240509/s/sirmordred/1.0.0rc3-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:59:25] INFO root fetch - processPackages [digitalguide]: Downloading https://files.pythonhosted.org/packages/6a/bc/3440642248c58834e34d2dcdefc5eedb1d56dd55501a9f1f1efc349b6348/digitalguide-0.0.99.tar.gz
+[2024-05-09 11:59:26] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-09 11:59:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.71.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.72.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-09 11:59:26] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2024-05-09 11:59:26] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20240509/d/digitalguide/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-09 11:59:26] INFO root fetch - processPackages [azure-simple-email]: Remove: archive file [/home/abi/fetcher/tmp/azure_simple_email-0.1.0.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [azure-simple-email]: Remove: archive file [/home/abi/fetcher/tmp/azure_simple_email-0.1.1.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [azure-simple-email]: success
+[2024-05-09 11:59:26] INFO root fetch - processPackages [hierarchy-transformers]: Remove: archive file [/home/abi/fetcher/tmp/hierarchy_transformers-0.0.1.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [hierarchy-transformers]: Remove: archive file [/home/abi/fetcher/tmp/hierarchy_transformers-0.0.3.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [hierarchy-transformers]: success
+[2024-05-09 11:59:26] INFO root fetch - processPackages [time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/time_tracker-0.5.0.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/time_tracker-0.5.1.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [time-tracker]: success
+[2024-05-09 11:59:26] INFO root fetch - processPackages [digitalguide]: Remove: archive file [/home/abi/fetcher/tmp/digitalguide-0.0.98.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - processPackages [digitalguide]: Remove: archive file [/home/abi/fetcher/tmp/digitalguide-0.0.99.tar.gz]
+[2024-05-09 11:59:26] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2024-05-09 11:59:29] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.0rc3.tar.gz]
+[2024-05-09 11:59:29] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.1rc1.tar.gz]
+[2024-05-09 11:59:29] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2024-05-09 11:59:29] INFO root fetch - main [MainThread]: Store serial: [23129460]
