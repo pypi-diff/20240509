@@ -3276,3 +3276,48 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:34:10] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.5.1.tar.gz]
 [2024-05-09 02:34:10] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-05-09 02:34:10] INFO root fetch - main [MainThread]: Store serial: [23122968]
+[2024-05-09 02:36:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122968]
+[2024-05-09 02:36:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-api
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-data-transformation
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suql
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alucoz
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-image-pipeline
+[2024-05-09 02:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dekdjtools
+[2024-05-09 02:36:21] INFO root fetch - processPackages [suql]: New version: [1.1.7a5] Old Version: [1.1.7a4]
+[2024-05-09 02:36:21] WARNING root fetch - processPackages [aind-data-transformation]: Skipping, unable to determine old version
+[2024-05-09 02:36:21] INFO root fetch - main [MainThread]: End processing [aind-data-transformation] error
+[2024-05-09 02:36:21] WARNING root fetch - processPackages [alucoz]: Skipping, unable to determine old version
+[2024-05-09 02:36:21] INFO root fetch - main [MainThread]: End processing [alucoz] error
+[2024-05-09 02:36:21] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/15/d8/13f839b919cfa691ee534ddbdb50e83ebcdbf89035539d6c690dc3d64297/suql-1.1.7a4.tar.gz
+[2024-05-09 02:36:21] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-09 02:36:21] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:36:21] INFO root fetch - processPackages [emmet-api]: New version: [0.83.6rc0] Old Version: [0.83.6]
+[2024-05-09 02:36:21] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/25/14/d35aefafd4aac11b41fe63e886dfb459486cfe3d122a203d89de32f2bf8b/emmet-api-0.83.6.tar.gz
+[2024-05-09 02:36:21] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-05-09 02:36:21] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-09 02:36:22] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/ed/1a/c0b754322b4cb8acfeb9cb17df2a88c7c77e4a01a9f130057dae22cda4a5/suql-1.1.7a5.tar.gz
+[2024-05-09 02:36:22] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-05-09 02:36:22] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.7a4.tar.gz tmp/suql-1.1.7a5.tar.gz --markdown 20240509/s/suql/1.1.7a4-1.1.7a5/README.md --exclude *.pyd
+[2024-05-09 02:36:22] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/09/98/dfd022f31808665c5b494cf60b210b26f17517272d5a695a0e4031bfd53e/emmet-api-0.83.6rc0.tar.gz
+[2024-05-09 02:36:22] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-09 02:36:22] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2024-05-09 02:36:22] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.83.6.tar.gz tmp/emmet-api-0.83.6rc0.tar.gz --markdown 20240509/e/emmet-api/0.83.6-0.83.6rc0/README.md --exclude *.pyd
+[2024-05-09 02:36:22] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-09 02:36:22] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240509/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:36:22] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-05-09 02:36:22] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-05-09 02:36:22] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240509/c/cdk-image-pipeline/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-09 02:36:22] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a4.tar.gz]
+[2024-05-09 02:36:22] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.7a5.tar.gz]
+[2024-05-09 02:36:22] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-05-09 02:36:23] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-09 02:36:23] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-05-09 02:36:23] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.83.6.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.83.6rc0.tar.gz]
+[2024-05-09 02:36:23] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2024-05-09 02:36:23] INFO root fetch - main [MainThread]: Store serial: [23122991]
