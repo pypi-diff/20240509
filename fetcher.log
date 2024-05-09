@@ -2398,3 +2398,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 01:58:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.91.7.tar.gz]
 [2024-05-09 01:58:43] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-05-09 01:58:43] INFO root fetch - main [MainThread]: Store serial: [23122644]
+[2024-05-09 02:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122644]
+[2024-05-09 02:00:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebtorch
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoyodyne
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleepit
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: experiment-helpers
+[2024-05-09 02:00:52] INFO root fetch - processPackages [fleepit]: New version: [2] Old Version: [1]
+[2024-05-09 02:00:52] INFO root fetch - processPackages [experiment-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 02:00:52] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/d8/b8/4d2059d553d489beb944d46490e92a1c756a53a2151fe5a13ac31f8c7e2d/experiment_helpers-0.0.8.tar.gz
+[2024-05-09 02:00:52] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-05-09 02:00:52] INFO root fetch - processPackages [yoyodyne]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 02:00:52] INFO root fetch - processPackages [fleepit]: Downloading https://files.pythonhosted.org/packages/1b/47/98e67334f83e788763ca13c82d6635ae3f75fa893ead2e8e02e6cf720794/fleepit-1.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [experiment-helpers]: Downloading https://files.pythonhosted.org/packages/91/85/d55140197c7fbdcf545e299dfef55310447c595a8fc02678c5384bed232b/experiment_helpers-0.0.9.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [yoyodyne]: Downloading https://files.pythonhosted.org/packages/e3/a7/e7d065c61f87e03fa7e302baec26eec2bbd1470f657762594dfde0b554ba/yoyodyne-0.2.8.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [experiment-helpers]: executing diffoscope
+[2024-05-09 02:00:53] INFO root fetch - processPackages [experiment-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment_helpers-0.0.8.tar.gz tmp/experiment_helpers-0.0.9.tar.gz --markdown 20240509/e/experiment-helpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 02:00:53] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-05-09 02:00:53] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240509/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 02:00:53] INFO root fetch - processPackages [fleepit]: Downloading https://files.pythonhosted.org/packages/cb/52/4909993689e7fbf652d7133fabd14f5e98215110460fd772cf1521f7fe6a/fleepit-2.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [fleepit]: executing diffoscope
+[2024-05-09 02:00:53] INFO root fetch - processPackages [fleepit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleepit-1.tar.gz tmp/fleepit-2.tar.gz --markdown 20240509/f/fleepit/1-2/README.md --exclude *.pyd
+[2024-05-09 02:00:53] INFO root fetch - processPackages [yoyodyne]: Downloading https://files.pythonhosted.org/packages/65/0b/846e0e8ceaf43e5fc212f50bf9e5a97fbcd3c2b71525d0ba7cf4610b333c/yoyodyne-0.2.9.tar.gz
+[2024-05-09 02:00:53] INFO root fetch - processPackages [yoyodyne]: executing diffoscope
+[2024-05-09 02:00:53] INFO root fetch - processPackages [yoyodyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoyodyne-0.2.8.tar.gz tmp/yoyodyne-0.2.9.tar.gz --markdown 20240509/y/yoyodyne/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 02:00:53] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.8.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - processPackages [experiment-helpers]: Remove: archive file [/home/abi/fetcher/tmp/experiment_helpers-0.0.9.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - main [MainThread]: End processing [experiment-helpers]: success
+[2024-05-09 02:00:53] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-05-09 02:00:53] INFO root fetch - processPackages [fleepit]: Remove: archive file [/home/abi/fetcher/tmp/fleepit-1.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - processPackages [fleepit]: Remove: archive file [/home/abi/fetcher/tmp/fleepit-2.tar.gz]
+[2024-05-09 02:00:53] INFO root fetch - main [MainThread]: End processing [fleepit]: success
+[2024-05-09 02:00:54] INFO root fetch - processPackages [yoyodyne]: Remove: archive file [/home/abi/fetcher/tmp/yoyodyne-0.2.8.tar.gz]
+[2024-05-09 02:00:54] INFO root fetch - processPackages [yoyodyne]: Remove: archive file [/home/abi/fetcher/tmp/yoyodyne-0.2.9.tar.gz]
+[2024-05-09 02:00:54] INFO root fetch - main [MainThread]: End processing [yoyodyne]: success
+[2024-05-09 02:00:54] INFO root fetch - main [MainThread]: Store serial: [23122655]
