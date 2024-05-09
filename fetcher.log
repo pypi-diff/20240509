@@ -22559,3 +22559,133 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:07:57] INFO root fetch - processPackages [physfs.py]: Remove: archive file [/home/abi/fetcher/tmp/physfs.py-0.2.0-cp312-cp312-win_amd64.whl.zip]
 [2024-05-09 14:07:57] INFO root fetch - main [MainThread]: End processing [physfs.py]: success
 [2024-05-09 14:07:57] INFO root fetch - main [MainThread]: Store serial: [23130604]
+[2024-05-09 14:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130604]
+[2024-05-09 14:10:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aipkgs-firebase
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feezfuzz
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: serwersms-api
+[2024-05-09 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: serwersms-api
+[2024-05-09 14:10:06] INFO root fetch - processPackages [aipkgs-firebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/60/e0/69dc666392bdade23f817a0bf986a0c5515505750a48b475b318e9e8083c/aipkgs_firebase-0.0.8.tar.gz
+[2024-05-09 14:10:06] INFO root fetch - processPackages [feezfuzz]: New version: [0.1.4.5] Old Version: [0.1.4.4]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:06] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/95/3a/fd6794044332ec5b7c9cb113330e577eca14f325ce7440e0faba6333018d/feezfuzz-0.1.4.4.tar.gz
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/9e/83/2e6ea8144235791ced23f0f82c3fba549ad84bddc9e939b2af7621a9b72a/serwersms_api-0.0.6-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/99/79/af6dbbe811fe0a12d668e3665e1b2d00dfe2c6ce4cad2d9bf55436b29a70/aipkgs_firebase-0.0.9.tar.gz
+[2024-05-09 14:10:06] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-09 14:10:06] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-0.0.8.tar.gz tmp/aipkgs_firebase-0.0.9.tar.gz --markdown 20240509/a/aipkgs-firebase/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/d4/39/4c9b761b2e4eb0acc8de5e564803d4d9b7b0e5341d6d6da2e82fe9b658b0/feezfuzz-0.1.4.5.tar.gz
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:06] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: Downloading https://files.pythonhosted.org/packages/2e/ed/4ec5eacd7fcd9bb76de7323e06d41f6b84b55604de0215e22c09c23bfe4a/serwersms_api-0.0.7-py3-none-any.whl
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [feezfuzz]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [feezfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feezfuzz-0.1.4.4.tar.gz tmp/feezfuzz-0.1.4.5.tar.gz --markdown 20240509/f/feezfuzz/0.1.4.4-0.1.4.5/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:07] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.8.tar.gz]
+[2024-05-09 14:10:07] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.9.tar.gz]
+[2024-05-09 14:10:07] INFO root fetch - processPackages [aipkgs-firebase]: Start processing: serwersms-api
+[2024-05-09 14:10:07] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: executing diffoscope
+[2024-05-09 14:10:07] INFO root fetch - processPackages [serwersms-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serwersms_api-0.0.6-py3-none-any.whl.zip tmp/serwersms_api-0.0.7-py3-none-any.whl.zip --markdown 20240509/s/serwersms-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Remove: archive file [/home/abi/fetcher/tmp/serwersms_api-0.0.6-py3-none-any.whl.zip]
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Remove: archive file [/home/abi/fetcher/tmp/serwersms_api-0.0.7-py3-none-any.whl.zip]
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Start processing: poetry-stale-dependencies
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.4.tar.gz]
+[2024-05-09 14:10:08] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.5.tar.gz]
+[2024-05-09 14:10:08] INFO root fetch - processPackages [feezfuzz]: Start processing: torcheval-nightly
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [feezfuzz]: success
+[2024-05-09 14:10:08] WARNING root fetch - processPackages [poetry-stale-dependencies]: Skipping, unable to determine old version
+[2024-05-09 14:10:08] INFO root fetch - processPackages [poetry-stale-dependencies]: Start processing: collectionpy
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [poetry-stale-dependencies] error
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Start processing: oordz
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.8] Old Version: [2024.5.7]
+[2024-05-09 14:10:08] ERROR root fetch - processPackages [serwersms-api]: Diffoscope failed: time="2024-05-09T14:10:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/serwersms_api-0.0.6-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/serwersms_api-0.0.7-py3-none-any.whl.zip: No such file or directory
+
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Start processing: group-local
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api] error
+[2024-05-09 14:10:08] INFO root fetch - processPackages [serwersms-api]: Start processing: contact-group-local
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [collectionpy]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-09 14:10:08] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/b6/df/a6e089363145961856811998c6edea1ab97748af555063ac7e266b1f2679/torcheval_nightly-2024.5.7.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [group-local]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:10:08] WARNING root fetch - processPackages [oordz]: Skipping, unable to determine old version
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [oordz] error
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/2e/25/5a47cb13129ae9a3b5de8d419a59f88627fa7c307385062a691217407612/group_local-0.0.20.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - main [MainThread]: End processing [serwersms-api]: success
+[2024-05-09 14:10:08] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [collectionpy]: Downloading https://files.pythonhosted.org/packages/c3/6f/68d407cec95509bb3abe2d20e5ffe2744b686c1a23dbb89e99cab451fda4/collectionpy-1.1.1.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/98/c1/96a1c122528ea0121ecc29466d1a6b26c68b8a6036aae6bdb121ddcfdbff/torcheval_nightly-2024.5.8.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/02/ca/a18028ddda53739a4f29a6be71c84eede9508aebcd7a524827f0d18d9f9a/group_local-0.0.21.tar.gz
+[2024-05-09 14:10:08] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-09 14:10:08] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240509/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:10:08] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-09 14:10:08] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval_nightly-2024.5.7.tar.gz tmp/torcheval_nightly-2024.5.8.tar.gz --markdown 20240509/t/torcheval-nightly/2024.5.7-2024.5.8/README.md --exclude *.pyd
+[2024-05-09 14:10:08] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-09 14:10:08] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.20.tar.gz tmp/group_local-0.0.21.tar.gz --markdown 20240509/g/group-local/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-05-09 14:10:08] INFO root fetch - processPackages [collectionpy]: Downloading https://files.pythonhosted.org/packages/37/c1/6216e35c3f2772d6c47c891f655fb98da31513be5310a0f3ddc742252df1/collectionpy-1.2.0.tar.gz
+[2024-05-09 14:10:09] INFO root fetch - processPackages [collectionpy]: executing diffoscope
+[2024-05-09 14:10:09] INFO root fetch - processPackages [collectionpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectionpy-1.1.1.tar.gz tmp/collectionpy-1.2.0.tar.gz --markdown 20240509/c/collectionpy/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-09 14:10:09] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-09 14:10:09] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.20.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.21.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-09 14:10:09] INFO root fetch - processPackages [collectionpy]: Remove: archive file [/home/abi/fetcher/tmp/collectionpy-1.1.1.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - processPackages [collectionpy]: Remove: archive file [/home/abi/fetcher/tmp/collectionpy-1.2.0.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - main [MainThread]: End processing [collectionpy]: success
+[2024-05-09 14:10:09] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.7.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
+[2024-05-09 14:10:09] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-09 14:10:09] INFO root fetch - main [MainThread]: Store serial: [23130687]
