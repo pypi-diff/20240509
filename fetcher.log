@@ -8972,3 +8972,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:13:48] INFO root fetch - processPackages [finisterra]: Remove: archive file [/home/abi/fetcher/tmp/finisterra-1.0.9.tar.gz]
 [2024-05-09 05:13:48] INFO root fetch - main [MainThread]: End processing [finisterra]: success
 [2024-05-09 05:13:48] INFO root fetch - main [MainThread]: Store serial: [23125469]
+[2024-05-09 05:15:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125469]
+[2024-05-09 05:15:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama_tools
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SocietyEvolutionNetwork
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rel
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-cv-nightly
+[2024-05-09 05:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webarchiver
+[2024-05-09 05:15:57] INFO root fetch - processPackages [rel]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2024-05-09 05:15:57] INFO root fetch - processPackages [medicafe]: New version: [0.240508.1] Old Version: [0.240507.1]
+[2024-05-09 05:15:57] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-09 05:15:57] WARNING root fetch - processPackages [SocietyEvolutionNetwork]: Skipping, unable to determine old version
+[2024-05-09 05:15:57] INFO root fetch - main [MainThread]: End processing [SocietyEvolutionNetwork] error
+[2024-05-09 05:15:57] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/e4/e3/10318da1c90cf22ae6b178342946d3e614a0f467dce98225a6ca78f84c39/rel-0.4.9.8-py3-none-any.whl
+[2024-05-09 05:15:57] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/39/f3/975eb8b4c56f67f6aadb68a5375a5ae052c54bf76c1fd27d8cf458dfac4e/medicafe-0.240507.1.tar.gz
+[2024-05-09 05:15:57] INFO root fetch - processPackages [llama_tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 05:15:57] INFO root fetch - processPackages [webarchiver]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:15:57] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-09 05:15:57] INFO root fetch - processPackages [rel]: Downloading https://files.pythonhosted.org/packages/9e/20/2e43dfac115c1784bfbb18a0f141215d27e937046a4115b2d3988d889c19/rel-0.4.9.9-py3-none-any.whl
+[2024-05-09 05:15:57] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/06/5d/9247f42232fa6a3876595f91813055060c8c9c99998deb41ce3543949a77/llama_tools-0.1.1.tar.gz
+[2024-05-09 05:15:57] INFO root fetch - processPackages [webarchiver]: Downloading https://files.pythonhosted.org/packages/8b/9a/c8f521351841e4f8f2e9edc8e89dc32dd5d69a459228392ab38660d0914b/webarchiver-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:15:57] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/b7/e2/ebc71661a5b4eff456a85b384850a08fee5a5cb1eb1ef7021b3619e546de/medicafe-0.240508.1.tar.gz
+[2024-05-09 05:15:57] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-09 05:15:57] INFO root fetch - processPackages [rel]: executing diffoscope
+[2024-05-09 05:15:57] INFO root fetch - processPackages [rel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rel-0.4.9.8-py3-none-any.whl.zip tmp/rel-0.4.9.9-py3-none-any.whl.zip --markdown 20240509/r/rel/0.4.9.8-0.4.9.9/README.md --exclude *.pyd
+[2024-05-09 05:15:57] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-05-09 05:15:57] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240507.1.tar.gz tmp/medicafe-0.240508.1.tar.gz --markdown 20240509/m/medicafe/0.240507.1-0.240508.1/README.md --exclude *.pyd
+[2024-05-09 05:15:57] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-09 05:15:57] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240509/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-09 05:15:57] INFO root fetch - processPackages [llama_tools]: Downloading https://files.pythonhosted.org/packages/bb/2f/6a421f07367cdd992dca1b5e0df304d5b820c748f88483e41e7cd363f1e0/llama_tools-0.1.2.tar.gz
+[2024-05-09 05:15:58] INFO root fetch - processPackages [llama_tools]: executing diffoscope
+[2024-05-09 05:15:58] INFO root fetch - processPackages [llama_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_tools-0.1.1.tar.gz tmp/llama_tools-0.1.2.tar.gz --markdown 20240509/l/llama_tools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 05:15:58] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.8-py3-none-any.whl.zip]
+[2024-05-09 05:15:58] INFO root fetch - processPackages [rel]: Remove: archive file [/home/abi/fetcher/tmp/rel-0.4.9.9-py3-none-any.whl.zip]
+[2024-05-09 05:15:58] INFO root fetch - main [MainThread]: End processing [rel]: success
+[2024-05-09 05:15:58] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240507.1.tar.gz]
+[2024-05-09 05:15:58] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.1.tar.gz]
+[2024-05-09 05:15:58] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-05-09 05:15:58] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.1.tar.gz]
+[2024-05-09 05:15:58] INFO root fetch - processPackages [llama_tools]: Remove: archive file [/home/abi/fetcher/tmp/llama_tools-0.1.2.tar.gz]
+[2024-05-09 05:15:58] INFO root fetch - main [MainThread]: End processing [llama_tools]: success
+[2024-05-09 05:15:59] INFO root fetch - processPackages [webarchiver]: Downloading https://files.pythonhosted.org/packages/4d/18/d61823bb35498ed6ef62a78d2e0f5c75cbe3c3c36c63d417def12d394870/webarchiver-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:15:59] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-09 05:15:59] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-09 05:15:59] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-09 05:16:00] INFO root fetch - processPackages [webarchiver]: executing diffoscope
+[2024-05-09 05:16:00] INFO root fetch - processPackages [webarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webarchiver-0.8.0-py2.py3-none-any.whl.zip tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/w/webarchiver/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:16:01] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:16:01] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:16:01] INFO root fetch - main [MainThread]: End processing [webarchiver]: success
+[2024-05-09 05:16:01] INFO root fetch - main [MainThread]: Store serial: [23125488]
