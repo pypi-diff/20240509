@@ -8882,3 +8882,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:05:07] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.2-py3-none-any.whl.zip]
 [2024-05-09 05:05:07] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
 [2024-05-09 05:05:07] INFO root fetch - main [MainThread]: Store serial: [23125436]
+[2024-05-09 05:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125436]
+[2024-05-09 05:07:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-commission
+[2024-05-09 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-commission-formula
+[2024-05-09 05:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyad
+[2024-05-09 05:07:15] INFO root fetch - processPackages [odoo-addon-commission]: New version: [17.0.1.0.0.7] Old Version: [17.0.1.0.0.5]
+[2024-05-09 05:07:15] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/75/1f/bf1cb0eb36159b0ad122b37fb99fe773c4d66b32f18fc0dc99b9d8382223/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 05:07:15] INFO root fetch - processPackages [odoo-addon-commission-formula]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-09 05:07:16] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/94/e5/74a90fca2e3ccf992d693e898c05ce4e8683c11a95897527b847da5b6ef3/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission]: Downloading https://files.pythonhosted.org/packages/a0/5a/eafdadbf3d1c75f597305e1e69e3d98043551676df0394508cfbaa90e77b/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:07:16] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission]: executing diffoscope
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-commission/17.0.1.0.0.5-17.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/9f/af/f8fe49931768efca3d75d93e6f7d67e6e044d8f138c8379a4914e9d50494/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 05:07:16] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission-formula]: executing diffoscope
+[2024-05-09 05:07:16] INFO root fetch - processPackages [odoo-addon-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-commission-formula/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-09 05:07:16] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-05-09 05:07:16] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240509/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 05:07:17] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 05:07:17] INFO root fetch - processPackages [odoo-addon-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:07:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission]: success
+[2024-05-09 05:07:17] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:07:17] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 05:07:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission-formula]: success
+[2024-05-09 05:07:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-05-09 05:07:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-05-09 05:07:17] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-05-09 05:07:17] INFO root fetch - main [MainThread]: Store serial: [23125443]
