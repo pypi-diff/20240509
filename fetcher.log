@@ -18280,3 +18280,88 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:13:52] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
 [2024-05-09 11:13:52] INFO root fetch - main [MainThread]: End processing [hagworm]: success
 [2024-05-09 11:13:52] INFO root fetch - main [MainThread]: Store serial: [23128829]
+[2024-05-09 11:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128829]
+[2024-05-09 11:16:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgos-cli-python-sdk-v1
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoMLApp
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-test-data-delivery-pyspark-model
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petulantlyz
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iscasmodel
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lycoris-lora
+[2024-05-09 11:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aissemble-test-data-delivery-pyspark-model-basic
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: New version: [1.7.0.dev1715160248] Old Version: [1.7.0.dev1715160230]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: New version: [1.7.0.dev1715160214] Old Version: [1.7.0.dev1715160196]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Downloading https://files.pythonhosted.org/packages/ea/11/9ee90550b6d380587d2109fe21badf48cf6b3d5f9cca6b3404ea52c9e6bc/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160196.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [iscasmodel]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Downloading https://files.pythonhosted.org/packages/1e/73/567084bc8a047e0e3add7131391173a265f023e1e5e958e771a073d66d56/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160230.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: New version: [0.2.9.111] Old Version: [0.2.9.110]
+[2024-05-09 11:16:02] WARNING root fetch - processPackages [petulantlyz]: Skipping, unable to determine old version
+[2024-05-09 11:16:02] INFO root fetch - main [MainThread]: End processing [petulantlyz] error
+[2024-05-09 11:16:02] INFO root fetch - processPackages [lycoris-lora]: New version: [2.3.0.dev9] Old Version: [2.3.0.dev8]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [AutoMLApp]: New version: [0.1.72] Old Version: [0.1.71]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/fa/84/f7d06fd6455c7164317ff189357b6cffd7f93fdac21e8b32d08edd8786bd/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-09 11:16:02] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/d2/8c/7fac79b9626479533e6e30a313c15dc69586875f989fe4b9acf3c4568f6b/automlapp-0.1.71.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/19/fd/3bfdc33ea889d21a70b23adc7871343826a97f90ea9627c694769bf91799/iscasmodel-0.8.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/fd/72/d0edd03383ce2316c5371dd33d304a06c68bdf13c9c717c8ec7bc02b7be5/lycoris_lora-2.3.0.dev8.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/29/56/619425392fbdafcd94d5a1a9e199e12a5a08bda31a1af002cc3c457405d9/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Downloading https://files.pythonhosted.org/packages/4f/42/1f9981c918313c6af9e782be636d12f1834a228894aa1ecdba5044e6bf39/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Downloading https://files.pythonhosted.org/packages/38/2a/3088a51aebf2c57d6368631c56c429089546982824b00eb387fb2dab3dcd/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: executing diffoscope
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160230.tar.gz tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz --markdown 20240509/a/aissemble-test-data-delivery-pyspark-model-basic/1.7.0.dev1715160230-1.7.0.dev1715160248/README.md --exclude *.pyd
+[2024-05-09 11:16:02] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/46/8c/920fe6befd03650a4aec2ee799afb5143ca2ec68118621440a2679be5dc3/ccs-digitalmarketplace-frontend-jinja-2.3.0.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: executing diffoscope
+[2024-05-09 11:16:02] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160196.tar.gz tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz --markdown 20240509/a/aissemble-test-data-delivery-pyspark-model/1.7.0.dev1715160196-1.7.0.dev1715160214/README.md --exclude *.pyd
+[2024-05-09 11:16:02] INFO root fetch - processPackages [AutoMLApp]: Downloading https://files.pythonhosted.org/packages/90/8a/aa533573de680f77db290a3b36915781281415c2c404b59e13a4bf35735e/automlapp-0.1.72.tar.gz
+[2024-05-09 11:16:02] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-05-09 11:16:02] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.3.0.tar.gz --markdown 20240509/c/ccs-digitalmarketplace-frontend-jinja/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-09 11:16:02] INFO root fetch - processPackages [iscasmodel]: Downloading https://files.pythonhosted.org/packages/13/12/355a54f73402f501d8505f078621de0c6e6222dab6f24765d2acfd74f701/iscasmodel-0.9.tar.gz
+[2024-05-09 11:16:03] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/4b/1a/4d086d47b3031b22d8b2466201136c16b9c300cc35817a222ace9b6031f4/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz
+[2024-05-09 11:16:03] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/d2/76/b9b8612cf8e9e812055d7f98dec84386109b39d02af8977ab7cea3d3d785/lycoris_lora-2.3.0.dev9.tar.gz
+[2024-05-09 11:16:03] INFO root fetch - processPackages [AutoMLApp]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [AutoMLApp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automlapp-0.1.71.tar.gz tmp/automlapp-0.1.72.tar.gz --markdown 20240509/A/AutoMLApp/0.1.71-0.1.72/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-09 11:16:03] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz --markdown 20240509/p/pgos-cli-python-sdk-v1/0.2.9.110-0.2.9.111/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-2.3.0.dev8.tar.gz tmp/lycoris_lora-2.3.0.dev9.tar.gz --markdown 20240509/l/lycoris-lora/2.3.0.dev8-2.3.0.dev9/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [iscasmodel]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [iscasmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iscasmodel-0.8.tar.gz tmp/iscasmodel-0.9.tar.gz --markdown 20240509/i/iscasmodel/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240509/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-09 11:16:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240509/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-09 11:16:03] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160230.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model-basic]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model_basic-1.7.0.dev1715160248.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - main [MainThread]: End processing [aissemble-test-data-delivery-pyspark-model-basic]: success
+[2024-05-09 11:16:03] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.2.0.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.3.0.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-05-09 11:16:03] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.71.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - processPackages [AutoMLApp]: Remove: archive file [/home/abi/fetcher/tmp/automlapp-0.1.72.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - main [MainThread]: End processing [AutoMLApp]: success
+[2024-05-09 11:16:03] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz]
+[2024-05-09 11:16:03] INFO root fetch - main [MainThread]: End processing [pgos-cli-python-sdk-v1]: success
+[2024-05-09 11:16:04] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.8.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - processPackages [iscasmodel]: Remove: archive file [/home/abi/fetcher/tmp/iscasmodel-0.9.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [iscasmodel]: success
+[2024-05-09 11:16:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-09 11:16:04] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160196.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - processPackages [aissemble-test-data-delivery-pyspark-model]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_test_data_delivery_pyspark_model-1.7.0.dev1715160214.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [aissemble-test-data-delivery-pyspark-model]: success
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-09 11:16:04] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev8.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-2.3.0.dev9.tar.gz]
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2024-05-09 11:16:04] INFO root fetch - main [MainThread]: Store serial: [23128860]
