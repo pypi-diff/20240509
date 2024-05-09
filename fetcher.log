@@ -7982,3 +7982,15 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:02:44] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.30.tar.gz]
 [2024-05-09 04:02:44] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
 [2024-05-09 04:02:44] INFO root fetch - main [MainThread]: Store serial: [23124711]
+[2024-05-09 04:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124711]
+[2024-05-09 04:04:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-09 04:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparksql-jupyter
+[2024-05-09 04:04:53] INFO root fetch - processPackages [sparksql-jupyter]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-09 04:04:53] INFO root fetch - processPackages [sparksql-jupyter]: Downloading https://files.pythonhosted.org/packages/fe/6d/211624572c89d129b2c1b737a09e6430cdb501e3e1341fef6c0e6762505d/sparksql-jupyter-0.0.4.tar.gz
+[2024-05-09 04:04:53] INFO root fetch - processPackages [sparksql-jupyter]: Downloading https://files.pythonhosted.org/packages/02/66/2ee17cbdc2534c01ec0c11897b91ac29a9ac03a98b5bb8e75805d486c6bf/sparksql-jupyter-0.0.5.tar.gz
+[2024-05-09 04:04:54] INFO root fetch - processPackages [sparksql-jupyter]: executing diffoscope
+[2024-05-09 04:04:54] INFO root fetch - processPackages [sparksql-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparksql-jupyter-0.0.4.tar.gz tmp/sparksql-jupyter-0.0.5.tar.gz --markdown 20240509/s/sparksql-jupyter/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-09 04:04:54] INFO root fetch - processPackages [sparksql-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/sparksql-jupyter-0.0.4.tar.gz]
+[2024-05-09 04:04:54] INFO root fetch - processPackages [sparksql-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/sparksql-jupyter-0.0.5.tar.gz]
+[2024-05-09 04:04:54] INFO root fetch - main [MainThread]: End processing [sparksql-jupyter]: success
+[2024-05-09 04:04:54] INFO root fetch - main [MainThread]: Store serial: [23124714]
