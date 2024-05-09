@@ -19659,3 +19659,42 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:55:04] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-09 11:55:04] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-09 11:55:04] INFO root fetch - main [MainThread]: Store serial: [23129425]
+[2024-05-09 11:57:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129425]
+[2024-05-09 11:57:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buildbot-pipeline
+[2024-05-09 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmc-regular-mesh-plotter
+[2024-05-09 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomicshop
+[2024-05-09 11:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-elasticsearch-cache
+[2024-05-09 11:57:13] INFO root fetch - processPackages [buildbot-pipeline]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-09 11:57:13] INFO root fetch - processPackages [llm-elasticsearch-cache]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-09 11:57:13] INFO root fetch - processPackages [buildbot-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/be/4bd1f63898e697d419fcd366adf68f2a4f6fe69b09ab8090f91217647724/buildbot_pipeline-0.9.tar.gz
+[2024-05-09 11:57:13] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-09 11:57:13] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/88/51/b62c027e667ebdfee1216a30d75c450491153a4ed95d11cceb82516e8992/llm_elasticsearch_cache-0.2.2.tar.gz
+[2024-05-09 11:57:13] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-09 11:57:14] INFO root fetch - processPackages [llm-elasticsearch-cache]: Downloading https://files.pythonhosted.org/packages/b5/8b/6d32acb46896a897fd558525b2f79f7f9f9bdc75d674862a0774c7953564/llm_elasticsearch_cache-0.2.3.tar.gz
+[2024-05-09 11:57:14] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: Downloading https://files.pythonhosted.org/packages/79/a2/39865d5ef8e368c31c3da2d0c8129e2af02b702396861bab28aacd385346/openmc_regular_mesh_plotter-1.2.1.tar.gz
+[2024-05-09 11:57:14] INFO root fetch - processPackages [buildbot-pipeline]: Downloading https://files.pythonhosted.org/packages/a5/26/3e9c33785b74a41abc3f51c6a7c6c5dbcb01002ba35e1398a8dec4f8a521/buildbot_pipeline-0.9.1.tar.gz
+[2024-05-09 11:57:14] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-05-09 11:57:14] INFO root fetch - processPackages [llm-elasticsearch-cache]: executing diffoscope
+[2024-05-09 11:57:14] INFO root fetch - processPackages [llm-elasticsearch-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_elasticsearch_cache-0.2.2.tar.gz tmp/llm_elasticsearch_cache-0.2.3.tar.gz --markdown 20240509/l/llm-elasticsearch-cache/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-09 11:57:14] INFO root fetch - processPackages [buildbot-pipeline]: executing diffoscope
+[2024-05-09 11:57:14] INFO root fetch - processPackages [buildbot-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot_pipeline-0.9.tar.gz tmp/buildbot_pipeline-0.9.1.tar.gz --markdown 20240509/b/buildbot-pipeline/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-09 11:57:14] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: Downloading https://files.pythonhosted.org/packages/f6/a7/46a8a93bb60ef41a59bf059b1f6e1377e1ace3fc6ffa53ac67a1b6f25c72/openmc_regular_mesh_plotter-1.2.2.tar.gz
+[2024-05-09 11:57:14] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: executing diffoscope
+[2024-05-09 11:57:14] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_regular_mesh_plotter-1.2.1.tar.gz tmp/openmc_regular_mesh_plotter-1.2.2.tar.gz --markdown 20240509/o/openmc-regular-mesh-plotter/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-09 11:57:14] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-05-09 11:57:14] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.2.tar.gz]
+[2024-05-09 11:57:14] INFO root fetch - processPackages [llm-elasticsearch-cache]: Remove: archive file [/home/abi/fetcher/tmp/llm_elasticsearch_cache-0.2.3.tar.gz]
+[2024-05-09 11:57:14] INFO root fetch - main [MainThread]: End processing [llm-elasticsearch-cache]: success
+[2024-05-09 11:57:14] INFO root fetch - processPackages [buildbot-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_pipeline-0.9.tar.gz]
+[2024-05-09 11:57:14] INFO root fetch - processPackages [buildbot-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_pipeline-0.9.1.tar.gz]
+[2024-05-09 11:57:14] INFO root fetch - main [MainThread]: End processing [buildbot-pipeline]: success
+[2024-05-09 11:57:14] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-05-09 11:57:14] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240509/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-09 11:57:15] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: Remove: archive file [/home/abi/fetcher/tmp/openmc_regular_mesh_plotter-1.2.1.tar.gz]
+[2024-05-09 11:57:15] INFO root fetch - processPackages [openmc-regular-mesh-plotter]: Remove: archive file [/home/abi/fetcher/tmp/openmc_regular_mesh_plotter-1.2.2.tar.gz]
+[2024-05-09 11:57:15] INFO root fetch - main [MainThread]: End processing [openmc-regular-mesh-plotter]: success
+[2024-05-09 11:57:15] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-05-09 11:57:15] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-05-09 11:57:15] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-05-09 11:57:15] INFO root fetch - main [MainThread]: Store serial: [23129435]
