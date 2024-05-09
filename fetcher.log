@@ -17847,3 +17847,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b5.tar.gz]
 [2024-05-09 10:50:59] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
 [2024-05-09 10:50:59] INFO root fetch - main [MainThread]: Store serial: [23128613]
+[2024-05-09 10:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128613]
+[2024-05-09 10:53:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-scheema
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Network_Builder
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acapy_wallet_groups_plugin
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wemeet-openapi-sdk-python
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-identity-sdk
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyodoo-connect
+[2024-05-09 10:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-scheema
+[2024-05-09 10:53:08] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-09 10:53:08] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-09 10:53:08] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-09 10:53:08] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-09 10:53:08] WARNING root fetch - processPackages [wemeet-openapi-sdk-python]: Skipping, unable to determine old version
+[2024-05-09 10:53:08] INFO root fetch - main [MainThread]: End processing [wemeet-openapi-sdk-python] error
+[2024-05-09 10:53:08] INFO root fetch - processPackages [pyodoo-connect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 10:53:08] WARNING root fetch - processPackages [Network_Builder]: Skipping, unable to determine old version
+[2024-05-09 10:53:08] INFO root fetch - main [MainThread]: End processing [Network_Builder] error
+[2024-05-09 10:53:08] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-09 10:53:08] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-09 10:53:08] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Downloading https://files.pythonhosted.org/packages/8f/19/39930df771ae96a7f48b32ac05e2588eb0d9abb9c05dd450ab9a9c7ba256/acapy_wallet_groups_plugin-0.6.2.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [pyodoo-connect]: Downloading https://files.pythonhosted.org/packages/0a/07/88b0ce970f814d7d322004cc97228870d37288b07d296c1df523482cd2c6/pyodoo_connect-0.1.0.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240509/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-09 10:53:09] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240509/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-09 10:53:09] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-09 10:53:09] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240509/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-09 10:53:09] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Downloading https://files.pythonhosted.org/packages/f9/e1/016cafbfd4584085fb722abd5451bc2549b8699ecab3e0beff3945937599/acapy_wallet_groups_plugin-0.7.0.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [pyodoo-connect]: Downloading https://files.pythonhosted.org/packages/12/08/e66b5433a9ea0adf9d1ec140f5eebc750b7e2954e6c3de801daa2529c5d6/pyodoo_connect-0.1.1.tar.gz
+[2024-05-09 10:53:09] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: executing diffoscope
+[2024-05-09 10:53:09] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acapy_wallet_groups_plugin-0.6.2.tar.gz tmp/acapy_wallet_groups_plugin-0.7.0.tar.gz --markdown 20240509/a/acapy_wallet_groups_plugin/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-09 10:53:09] INFO root fetch - processPackages [pyodoo-connect]: executing diffoscope
+[2024-05-09 10:53:09] INFO root fetch - processPackages [pyodoo-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodoo_connect-0.1.0.tar.gz tmp/pyodoo_connect-0.1.1.tar.gz --markdown 20240509/p/pyodoo-connect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 10:53:10] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-09 10:53:10] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-09 10:53:10] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-09 10:53:10] WARNING root fetch - processPackages [flask-scheema]: Unable to remove archive file: [[Errno 2] No such file or directory: '/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip']
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-09 10:53:10] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.6.2.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - processPackages [acapy_wallet_groups_plugin]: Remove: archive file [/home/abi/fetcher/tmp/acapy_wallet_groups_plugin-0.7.0.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [acapy_wallet_groups_plugin]: success
+[2024-05-09 10:53:10] INFO root fetch - processPackages [pyodoo-connect]: Remove: archive file [/home/abi/fetcher/tmp/pyodoo_connect-0.1.0.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - processPackages [pyodoo-connect]: Remove: archive file [/home/abi/fetcher/tmp/pyodoo_connect-0.1.1.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [pyodoo-connect]: success
+[2024-05-09 10:53:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-09 10:53:10] INFO root fetch - main [MainThread]: Store serial: [23128639]
