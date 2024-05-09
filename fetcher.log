@@ -19953,3 +19953,18 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:08:41] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.21.tar.gz]
 [2024-05-09 12:08:41] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
 [2024-05-09 12:08:41] INFO root fetch - main [MainThread]: Store serial: [23129535]
+[2024-05-09 12:10:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129535]
+[2024-05-09 12:10:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inappellablez
+[2024-05-09 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phdu
+[2024-05-09 12:10:50] WARNING root fetch - processPackages [inappellablez]: Skipping, unable to determine old version
+[2024-05-09 12:10:50] INFO root fetch - main [MainThread]: End processing [inappellablez] error
+[2024-05-09 12:10:50] INFO root fetch - processPackages [phdu]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-09 12:10:50] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/4b/71/e4150d84a1c911c6dd1c6616e0f98c10d993350c213ed6a75ec369daf808/phdu-2.3.8.tar.gz
+[2024-05-09 12:10:50] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5d/b0/67abc3b8a4e36f40087a2abf09ecaec9446ecd620c21b91df360e9093b34/phdu-2.3.9.tar.gz
+[2024-05-09 12:10:51] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-09 12:10:51] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.8.tar.gz tmp/phdu-2.3.9.tar.gz --markdown 20240509/p/phdu/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-09 12:10:51] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.8.tar.gz]
+[2024-05-09 12:10:51] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.9.tar.gz]
+[2024-05-09 12:10:51] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-09 12:10:51] INFO root fetch - main [MainThread]: Store serial: [23129542]
