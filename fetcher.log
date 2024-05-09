@@ -20374,3 +20374,40 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:34:21] INFO root fetch - main [MainThread]: End processing [evo]: success
 [2024-05-09 12:34:21] INFO root fetch - main [MainThread]: End processing [evo]: success
 [2024-05-09 12:34:21] INFO root fetch - main [MainThread]: Store serial: [23129703]
+[2024-05-09 12:36:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129703]
+[2024-05-09 12:36:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 12:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnomonicus
+[2024-05-09 12:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scores
+[2024-05-09 12:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scores
+[2024-05-09 12:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-tinywiki
+[2024-05-09 12:36:29] INFO root fetch - processPackages [gnomonicus]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-05-09 12:36:29] INFO root fetch - processPackages [scores]: New version: [0.72] Old Version: [0.71]
+[2024-05-09 12:36:29] INFO root fetch - processPackages [scores]: New version: [0.72] Old Version: [0.71]
+[2024-05-09 12:36:29] INFO root fetch - processPackages [django-tinywiki]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 12:36:29] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/ae/40/82d24e902a4812eb16c5a531c736a643c459157b8f6ae3b80130b3a86051/gnomonicus-2.5.4.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/4c/bc/49606cb3e2f03665cf6eb2f83eb6e9b4d2259dd36a2245e7a58289bf1ca8/scores-0.71.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/4c/bc/49606cb3e2f03665cf6eb2f83eb6e9b4d2259dd36a2245e7a58289bf1ca8/scores-0.71.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [django-tinywiki]: Downloading https://files.pythonhosted.org/packages/85/36/358d39538e74730a59096be23f682f03c3a7e8110c8c85c1bc5d9ad0ee78/django-tinywiki-0.0.1.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/08/35/c3302becc7dbc2dab0dc676ebd4d55eb1df02b277d2ca8af1d0fbd4fb21f/gnomonicus-2.5.5.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [gnomonicus]: executing diffoscope
+[2024-05-09 12:36:30] INFO root fetch - processPackages [gnomonicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnomonicus-2.5.4.tar.gz tmp/gnomonicus-2.5.5.tar.gz --markdown 20240509/g/gnomonicus/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/48/05/740bbae86ca6c50c2e0eafb6876e038ba52b3311f2c3ab384393fecd23e5/scores-0.72.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/48/05/740bbae86ca6c50c2e0eafb6876e038ba52b3311f2c3ab384393fecd23e5/scores-0.72.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: executing diffoscope
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scores-0.71.tar.gz tmp/scores-0.72.tar.gz --markdown 20240509/s/scores/0.71-0.72/README.md --exclude *.pyd
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: executing diffoscope
+[2024-05-09 12:36:30] INFO root fetch - processPackages [scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scores-0.71.tar.gz tmp/scores-0.72.tar.gz --markdown 20240509/s/scores/0.71-0.72/README.md --exclude *.pyd
+[2024-05-09 12:36:30] INFO root fetch - processPackages [django-tinywiki]: Downloading https://files.pythonhosted.org/packages/90/22/26abf72720a6261af8c1f6047addfc2ce930a48a5caf32063620f47b061a/django_tinywiki-0.0.2.tar.gz
+[2024-05-09 12:36:30] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.4.tar.gz]
+[2024-05-09 12:36:30] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.5.tar.gz]
+[2024-05-09 12:36:30] INFO root fetch - main [MainThread]: End processing [gnomonicus]: success
+[2024-05-09 12:36:31] INFO root fetch - processPackages [django-tinywiki]: executing diffoscope
+[2024-05-09 12:36:31] INFO root fetch - processPackages [django-tinywiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tinywiki-0.0.1.tar.gz tmp/django_tinywiki-0.0.2.tar.gz --markdown 20240509/d/django-tinywiki/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 12:36:31] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.71.tar.gz]
+[2024-05-09 12:36:31] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.72.tar.gz]
+[2024-05-09 12:36:31] INFO root fetch - main [MainThread]: End processing [scores]: success
+[2024-05-09 12:36:31] INFO root fetch - main [MainThread]: End processing [scores]: success
+[2024-05-09 12:36:31] INFO root fetch - processPackages [django-tinywiki]: Remove: archive file [/home/abi/fetcher/tmp/django-tinywiki-0.0.1.tar.gz]
+[2024-05-09 12:36:31] INFO root fetch - processPackages [django-tinywiki]: Remove: archive file [/home/abi/fetcher/tmp/django_tinywiki-0.0.2.tar.gz]
+[2024-05-09 12:36:31] INFO root fetch - main [MainThread]: End processing [django-tinywiki]: success
+[2024-05-09 12:36:31] INFO root fetch - main [MainThread]: Store serial: [23129716]
