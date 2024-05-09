@@ -8296,3 +8296,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:27:04] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240509.tar.gz]
 [2024-05-09 04:27:04] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-09 04:27:04] INFO root fetch - main [MainThread]: Store serial: [23124967]
+[2024-05-09 04:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124967]
+[2024-05-09 04:29:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resend
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epicdb
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outline-python-api
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: booklet
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ambient-backend-api-client
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photogrammetristz
+[2024-05-09 04:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-iris
+[2024-05-09 04:29:14] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-09 04:29:14] INFO root fetch - processPackages [resend]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-09 04:29:14] WARNING root fetch - processPackages [ambient-backend-api-client]: Skipping, unable to determine old version
+[2024-05-09 04:29:14] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client] error
+[2024-05-09 04:29:14] WARNING root fetch - processPackages [photogrammetristz]: Skipping, unable to determine old version
+[2024-05-09 04:29:14] INFO root fetch - main [MainThread]: End processing [photogrammetristz] error
+[2024-05-09 04:29:14] WARNING root fetch - processPackages [outline-python-api]: Skipping, unable to determine old version
+[2024-05-09 04:29:14] INFO root fetch - main [MainThread]: End processing [outline-python-api] error
+[2024-05-09 04:29:14] INFO root fetch - processPackages [epicdb]: New version: [1.3] Old Version: [1.2]
+[2024-05-09 04:29:14] INFO root fetch - processPackages [llama-iris]: New version: [0.3.1b4] Old Version: [0.3.1b3]
+[2024-05-09 04:29:14] INFO root fetch - processPackages [booklet]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 04:29:14] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-09 04:29:14] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/81/06/c2f1d41b178221bf62e826536013312e9c6ac80cd64ad6eec7b4f860fc30/resend-1.0.0.tar.gz
+[2024-05-09 04:29:14] INFO root fetch - processPackages [epicdb]: Downloading https://files.pythonhosted.org/packages/d5/d4/6ea8854330b882cbf42f1720a04f2c865b7588d7f9ee3a2c589afff53bcb/epicdb-1.2-py3-none-any.whl
+[2024-05-09 04:29:14] INFO root fetch - processPackages [llama-iris]: Downloading https://files.pythonhosted.org/packages/87/04/7ee3670a4c8132369ee3ca7f1d5b6c740a6ee4f3395f047b2b97709648ab/llama_iris-0.3.1b3.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [booklet]: Downloading https://files.pythonhosted.org/packages/9d/09/1850d1db87fc6992bbcecfd80654fe28d36b6cb0d1d5f28e9261cb97c69d/booklet-0.1.8.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/a5/d4/aa260befd492b5a18f2e0144e26ffaff9975439166b1ce6b89404c69a984/resend-1.0.1.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [epicdb]: Downloading https://files.pythonhosted.org/packages/fa/54/665c00976ecbdef3f4349013d30482db26716340b759bd76af1baa0f74cc/epicdb-1.3.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [booklet]: Downloading https://files.pythonhosted.org/packages/1d/ef/1f5bed538f06615d4fa5885afdc53320da23d090771832c5dd5abdf29010/booklet-0.1.9.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [resend]: executing diffoscope
+[2024-05-09 04:29:15] INFO root fetch - processPackages [resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resend-1.0.0.tar.gz tmp/resend-1.0.1.tar.gz --markdown 20240509/r/resend/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-09 04:29:15] INFO root fetch - processPackages [llama-iris]: Downloading https://files.pythonhosted.org/packages/01/4e/6b9ee1acaec6533418c6ae44ef436e61dce9a231ff42ff04649dca397ef1/llama_iris-0.3.1b4.tar.gz
+[2024-05-09 04:29:15] INFO root fetch - processPackages [epicdb]: executing diffoscope
+[2024-05-09 04:29:15] INFO root fetch - processPackages [epicdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epicdb-1.2-py3-none-any.whl.zip tmp/epicdb-1.3.tar.gz --markdown 20240509/e/epicdb/1.2-1.3/README.md --exclude *.pyd
+[2024-05-09 04:29:15] INFO root fetch - processPackages [booklet]: executing diffoscope
+[2024-05-09 04:29:15] INFO root fetch - processPackages [booklet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booklet-0.1.8.tar.gz tmp/booklet-0.1.9.tar.gz --markdown 20240509/b/booklet/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 04:29:15] INFO root fetch - processPackages [llama-iris]: executing diffoscope
+[2024-05-09 04:29:15] INFO root fetch - processPackages [llama-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_iris-0.3.1b3.tar.gz tmp/llama_iris-0.3.1b4.tar.gz --markdown 20240509/l/llama-iris/0.3.1b3-0.3.1b4/README.md --exclude *.pyd
+[2024-05-09 04:29:15] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-09 04:29:15] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240509/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-09 04:29:16] INFO root fetch - processPackages [epicdb]: Remove: archive file [/home/abi/fetcher/tmp/epicdb-1.2-py3-none-any.whl.zip]
+[2024-05-09 04:29:16] INFO root fetch - processPackages [epicdb]: Remove: archive file [/home/abi/fetcher/tmp/epicdb-1.3.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - main [MainThread]: End processing [epicdb]: success
+[2024-05-09 04:29:16] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.0.0.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.0.1.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - main [MainThread]: End processing [resend]: success
+[2024-05-09 04:29:16] INFO root fetch - processPackages [llama-iris]: Remove: archive file [/home/abi/fetcher/tmp/llama_iris-0.3.1b3.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - processPackages [llama-iris]: Remove: archive file [/home/abi/fetcher/tmp/llama_iris-0.3.1b4.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - main [MainThread]: End processing [llama-iris]: success
+[2024-05-09 04:29:16] INFO root fetch - processPackages [booklet]: Remove: archive file [/home/abi/fetcher/tmp/booklet-0.1.8.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - processPackages [booklet]: Remove: archive file [/home/abi/fetcher/tmp/booklet-0.1.9.tar.gz]
+[2024-05-09 04:29:16] INFO root fetch - main [MainThread]: End processing [booklet]: success
+[2024-05-09 04:29:31] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-09 04:29:31] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-09 04:29:31] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-09 04:29:31] INFO root fetch - main [MainThread]: Store serial: [23124993]
