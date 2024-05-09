@@ -21278,3 +21278,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:12:46] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.5.tar.gz]
 [2024-05-09 13:12:46] INFO root fetch - main [MainThread]: End processing [stimulsoft-dashboards]: success
 [2024-05-09 13:12:46] INFO root fetch - main [MainThread]: Store serial: [23130007]
+[2024-05-09 13:14:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130007]
+[2024-05-09 13:14:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cugdt
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoviml
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ptsecurixt
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TPE-Bot
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unimprisonedz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: person-local
+[2024-05-09 13:14:55] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-09 13:14:55] WARNING root fetch - processPackages [cugdt]: Skipping, unable to determine old version
+[2024-05-09 13:14:55] INFO root fetch - main [MainThread]: End processing [cugdt] error
+[2024-05-09 13:14:55] INFO root fetch - processPackages [TPE-Bot]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-09 13:14:55] INFO root fetch - processPackages [person-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 13:14:55] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240508] Old Version: [2.5.0b20240507]
+[2024-05-09 13:14:55] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-09 13:14:55] WARNING root fetch - processPackages [unimprisonedz]: Skipping, unable to determine old version
+[2024-05-09 13:14:55] INFO root fetch - main [MainThread]: End processing [unimprisonedz] error
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ptsecurixt]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-09 13:14:55] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-09 13:14:55] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/19/a7cdacae0c224cc02ea5e0684804edf5c37ae3a7da40033bda6432e0e2e3/TPE-Bot-6.9.1.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [autoviml]: New version: [0.1.722] Old Version: [0.1.721]
+[2024-05-09 13:14:55] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/9e/69/8b277831060e10fed4b6693abde0dff25dc884b3ba05e7fae176f17d5acd/person-local-0.0.7.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/48/27/eb9f20f473f5b31c1da175e65faba12e5e67697fd94ef704a8e1258819a3/bigdl_core_cpp-2.5.0b20240507-py3-none-win_amd64.whl
+[2024-05-09 13:14:55] INFO root fetch - processPackages [ptsecurixt]: Downloading https://files.pythonhosted.org/packages/53/80/800d1caffd89db7e2b2e904c70a7e744159437f69e061543a81ea99f992f/ptsecurixt-1.0.3.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/22/0a/f3f1f1f54fee8e48b7abbc8f3aec379dd8053b091c136efe340648a802ff/autoviml-0.1.721.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/70/7f/575b827c491ae2bce901b106dad351e35f042fb74bc67a5e86613a1358d8/TPE-Bot-6.9.2.tar.gz
+[2024-05-09 13:14:55] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 28200790>=10485760
+[2024-05-09 13:14:55] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-09 13:14:55] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-09 13:14:55] INFO root fetch - processPackages [person-local]: Downloading https://files.pythonhosted.org/packages/bc/d9/1a0389e8b9f6119e2ee9b182d5ec022a352d382c0f5264b2f31b6d7b9097/person-local-0.0.8.tar.gz
+[2024-05-09 13:14:56] INFO root fetch - processPackages [person-local]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [person-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/person-local-0.0.7.tar.gz tmp/person-local-0.0.8.tar.gz --markdown 20240509/p/person-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 13:14:56] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240509/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-09 13:14:56] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.9.1.tar.gz tmp/TPE-Bot-6.9.2.tar.gz --markdown 20240509/T/TPE-Bot/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-09 13:14:56] INFO root fetch - processPackages [ptsecurixt]: Downloading https://files.pythonhosted.org/packages/45/b0/8627b34ddb611ff256880e87b66a21b3730ed998de5d15e669ab10327adb/ptsecurixt-1.0.4.tar.gz
+[2024-05-09 13:14:56] INFO root fetch - processPackages [autoviml]: Downloading https://files.pythonhosted.org/packages/8a/90/7f87a0d0fd70d996aaca503f487d9d43a18a4b69545d6fc1e37f7f947cc9/autoviml-0.1.722.tar.gz
+[2024-05-09 13:14:56] INFO root fetch - processPackages [ptsecurixt]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [ptsecurixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptsecurixt-1.0.3.tar.gz tmp/ptsecurixt-1.0.4.tar.gz --markdown 20240509/p/ptsecurixt/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-09 13:14:56] INFO root fetch - processPackages [autoviml]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [autoviml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviml-0.1.721.tar.gz tmp/autoviml-0.1.722.tar.gz --markdown 20240509/a/autoviml/0.1.721-0.1.722/README.md --exclude *.pyd
+[2024-05-09 13:14:56] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-09 13:14:56] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.7.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - processPackages [person-local]: Remove: archive file [/home/abi/fetcher/tmp/person-local-0.0.8.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - main [MainThread]: End processing [person-local]: success
+[2024-05-09 13:14:56] INFO root fetch - processPackages [ptsecurixt]: Remove: archive file [/home/abi/fetcher/tmp/ptsecurixt-1.0.3.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - processPackages [ptsecurixt]: Remove: archive file [/home/abi/fetcher/tmp/ptsecurixt-1.0.4.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - main [MainThread]: End processing [ptsecurixt]: success
+[2024-05-09 13:14:56] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.1.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.2.tar.gz]
+[2024-05-09 13:14:56] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-05-09 13:14:56] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-09 13:14:56] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240509/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-09 13:14:57] INFO root fetch - processPackages [autoviml]: Remove: archive file [/home/abi/fetcher/tmp/autoviml-0.1.721.tar.gz]
+[2024-05-09 13:14:57] INFO root fetch - processPackages [autoviml]: Remove: archive file [/home/abi/fetcher/tmp/autoviml-0.1.722.tar.gz]
+[2024-05-09 13:14:57] INFO root fetch - main [MainThread]: End processing [autoviml]: success
+[2024-05-09 13:14:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-09 13:14:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-09 13:14:57] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-09 13:14:58] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-09 13:14:58] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-09 13:14:58] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-09 13:14:58] INFO root fetch - main [MainThread]: Store serial: [23130032]
