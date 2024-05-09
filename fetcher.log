@@ -7825,3 +7825,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:51:45] INFO root fetch - processPackages [prototools]: Remove: archive file [/home/abi/fetcher/tmp/prototools-0.1.9.tar.gz]
 [2024-05-09 03:51:45] INFO root fetch - main [MainThread]: End processing [prototools]: success
 [2024-05-09 03:51:45] INFO root fetch - main [MainThread]: Store serial: [23124644]
+[2024-05-09 03:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124644]
+[2024-05-09 03:53:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 03:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gridappsd-2030-5
+[2024-05-09 03:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparklestock
+[2024-05-09 03:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erp-apis
+[2024-05-09 03:53:54] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-09 03:53:54] INFO root fetch - processPackages [gridappsd-2030-5]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-05-09 03:53:54] INFO root fetch - processPackages [erp-apis]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-09 03:53:54] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/d0/77/7ea367295e0e0a761a0c06e499ca0830b898c6cd0aafcc4e182514160da6/sparklestock-0.0.0.2.tar.gz
+[2024-05-09 03:53:54] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/99/80/e6f2457d945e3a6d8bfdaa716e6cb696dd39a1777cdff84caecd5949e611/gridappsd-2030_5-0.0.2a8.tar.gz
+[2024-05-09 03:53:54] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/89/b5/946d10ea53ef715b70e2a8fa20d84c5cf584641b6fc6072f57c0c336315d/erp_apis-1.0.7-py3-none-any.whl
+[2024-05-09 03:53:54] INFO root fetch - processPackages [gridappsd-2030-5]: Downloading https://files.pythonhosted.org/packages/d9/81/ce602cdfa0bfb51a9c32e25dff960d2814202874b82d56bcd137e2871fd1/gridappsd-2030_5-0.0.2a9.tar.gz
+[2024-05-09 03:53:54] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/89/77/159befeb2eb4cab9f235a092e1861c3d74d2363535b82e62bd24a30031a0/sparklestock-0.0.0.3.tar.gz
+[2024-05-09 03:53:54] INFO root fetch - processPackages [gridappsd-2030-5]: executing diffoscope
+[2024-05-09 03:53:54] INFO root fetch - processPackages [gridappsd-2030-5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd-2030_5-0.0.2a8.tar.gz tmp/gridappsd-2030_5-0.0.2a9.tar.gz --markdown 20240509/g/gridappsd-2030-5/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-05-09 03:53:54] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-09 03:53:54] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.2.tar.gz tmp/sparklestock-0.0.0.3.tar.gz --markdown 20240509/s/sparklestock/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-09 03:53:54] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/42/1e/cba77bac20eec7a4f26720c52035b2943dfe2955d226c91157d443090182/erp_apis-1.0.8-py3-none-any.whl
+[2024-05-09 03:53:54] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-09 03:53:54] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.7-py3-none-any.whl.zip tmp/erp_apis-1.0.8-py3-none-any.whl.zip --markdown 20240509/e/erp-apis/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-09 03:53:55] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.2.tar.gz]
+[2024-05-09 03:53:55] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.3.tar.gz]
+[2024-05-09 03:53:55] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-09 03:53:55] INFO root fetch - processPackages [gridappsd-2030-5]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd-2030_5-0.0.2a8.tar.gz]
+[2024-05-09 03:53:55] INFO root fetch - processPackages [gridappsd-2030-5]: Remove: archive file [/home/abi/fetcher/tmp/gridappsd-2030_5-0.0.2a9.tar.gz]
+[2024-05-09 03:53:55] INFO root fetch - main [MainThread]: End processing [gridappsd-2030-5]: success
+[2024-05-09 03:53:55] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.7-py3-none-any.whl.zip]
+[2024-05-09 03:53:55] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.8-py3-none-any.whl.zip]
+[2024-05-09 03:53:55] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-09 03:53:55] INFO root fetch - main [MainThread]: Store serial: [23124652]
