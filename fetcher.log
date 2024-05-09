@@ -9023,3 +9023,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:16:01] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip]
 [2024-05-09 05:16:01] INFO root fetch - main [MainThread]: End processing [webarchiver]: success
 [2024-05-09 05:16:01] INFO root fetch - main [MainThread]: Store serial: [23125488]
+[2024-05-09 05:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125488]
+[2024-05-09 05:18:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 05:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BioSAK
+[2024-05-09 05:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatticz
+[2024-05-09 05:18:10] INFO root fetch - processPackages [BioSAK]: New version: [1.88.8] Old Version: [1.88.7]
+[2024-05-09 05:18:10] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/de/45/a7acb0217742ae13529e190f08f59773f99e684e0eed6d6b10d009cd5d35/BioSAK-1.88.7.tar.gz
+[2024-05-09 05:18:10] WARNING root fetch - processPackages [hatticz]: Skipping, unable to determine old version
+[2024-05-09 05:18:10] INFO root fetch - main [MainThread]: End processing [hatticz] error
+[2024-05-09 05:18:10] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/76/0f/b42a5b517c7a861e4c633c5b8b2e8275a69eec86da698120e6a5a1ebf74f/BioSAK-1.88.8.tar.gz
+[2024-05-09 05:18:10] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-09 05:18:10] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.7.tar.gz tmp/BioSAK-1.88.8.tar.gz --markdown 20240509/B/BioSAK/1.88.7-1.88.8/README.md --exclude *.pyd
+[2024-05-09 05:18:12] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.7.tar.gz]
+[2024-05-09 05:18:12] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
+[2024-05-09 05:18:12] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-09 05:18:12] INFO root fetch - main [MainThread]: Store serial: [23125492]
