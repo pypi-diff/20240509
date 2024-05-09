@@ -11866,3 +11866,49 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:26:17] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
 [2024-05-09 07:26:17] INFO root fetch - main [MainThread]: End processing [mirascope]: success
 [2024-05-09 07:26:17] INFO root fetch - main [MainThread]: Store serial: [23126580]
+[2024-05-09 07:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126580]
+[2024-05-09 07:28:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 07:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-project
+[2024-05-09 07:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-project
+[2024-05-09 07:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-project
+[2024-05-09 07:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parsett
+[2024-05-09 07:28:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-akamai
+[2024-05-09 07:28:26] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1715227892] Old Version: [7.2.0a1715058600]
+[2024-05-09 07:28:26] INFO root fetch - processPackages [parsett]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20240508.0] Old Version: [16.0.20240417.0]
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20240508.0] Old Version: [16.0.20240417.0]
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo14-addons-oca-project]: New version: [14.0.20240508.0] Old Version: [14.0.20240416.0]
+[2024-05-09 07:28:26] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f3/68/363e0adf08a10c3eb52f7a98648374ae9408a42e24eb8b668302f14b539c/pulumi_akamai-7.2.0a1715058600.tar.gz
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/53/b4/6511987eaa78ab26ca90e5d4834e370c58336bfbb957a936cfc1a48a049f/odoo_addons_oca_project-16.0.20240417.0-py3-none-any.whl
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo14-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/9d/a7/6da93bedef3e455e68c25f252bf6d440a7f9dc7e5fe4de9546387c44c358/odoo14_addons_oca_project-14.0.20240416.0-py3-none-any.whl
+[2024-05-09 07:28:26] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/53/b4/6511987eaa78ab26ca90e5d4834e370c58336bfbb957a936cfc1a48a049f/odoo_addons_oca_project-16.0.20240417.0-py3-none-any.whl
+[2024-05-09 07:28:26] INFO root fetch - processPackages [parsett]: Downloading https://files.pythonhosted.org/packages/f2/a6/ee502f357489c5337b3644928432a6a38f517956d223b1f54988973dfe2d/parsett-0.2.2.tar.gz
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo14-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/c0/c5/9119431d17ec872c64cc650c397efb1d96e39c253f2505b111b41d7294b4/odoo14_addons_oca_project-14.0.20240508.0-py3-none-any.whl
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/8f/e4/92e97990e9c99905481c1cbf632fe69c50c95e863b35986cf2eaa3bf514c/odoo_addons_oca_project-16.0.20240508.0-py3-none-any.whl
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/8f/e4/92e97990e9c99905481c1cbf632fe69c50c95e863b35986cf2eaa3bf514c/odoo_addons_oca_project-16.0.20240508.0-py3-none-any.whl
+[2024-05-09 07:28:27] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/5c/46/5152438411129151eefae4dd7ffecfd9ad345704e39603a73d650f2dad83/pulumi_akamai-7.2.0a1715227892.tar.gz
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo14-addons-oca-project]: executing diffoscope
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo14-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_project-14.0.20240416.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_project-14.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo14-addons-oca-project/14.0.20240416.0-14.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 07:28:27] INFO root fetch - processPackages [parsett]: Downloading https://files.pythonhosted.org/packages/c8/0a/39a6eb997a85fd0bf9eed90941cc7fa5f7b6dded1e70f580c3f9a33c2bf1/parsett-0.2.3.tar.gz
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20240417.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addons-oca-project/16.0.20240417.0-16.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 07:28:27] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20240417.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20240508.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addons-oca-project/16.0.20240417.0-16.0.20240508.0/README.md --exclude *.pyd
+[2024-05-09 07:28:27] INFO root fetch - processPackages [parsett]: executing diffoscope
+[2024-05-09 07:28:27] INFO root fetch - processPackages [parsett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsett-0.2.2.tar.gz tmp/parsett-0.2.3.tar.gz --markdown 20240509/p/parsett/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-09 07:28:27] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-09 07:28:27] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1715058600.tar.gz tmp/pulumi_akamai-7.2.0a1715227892.tar.gz --markdown 20240509/p/pulumi-akamai/7.2.0a1715058600-7.2.0a1715227892/README.md --exclude *.pyd
+[2024-05-09 07:28:28] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20240417.0-py3-none-any.whl.zip]
+[2024-05-09 07:28:28] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-09 07:28:28] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2024-05-09 07:28:28] INFO root fetch - processPackages [odoo14-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_project-14.0.20240416.0-py3-none-any.whl.zip]
+[2024-05-09 07:28:28] INFO root fetch - processPackages [odoo14-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_project-14.0.20240508.0-py3-none-any.whl.zip]
+[2024-05-09 07:28:28] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-project]: success
+[2024-05-09 07:28:28] INFO root fetch - processPackages [parsett]: Remove: archive file [/home/abi/fetcher/tmp/parsett-0.2.2.tar.gz]
+[2024-05-09 07:28:28] INFO root fetch - processPackages [parsett]: Remove: archive file [/home/abi/fetcher/tmp/parsett-0.2.3.tar.gz]
+[2024-05-09 07:28:28] INFO root fetch - main [MainThread]: End processing [parsett]: success
+[2024-05-09 07:28:28] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2024-05-09 07:28:30] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715058600.tar.gz]
+[2024-05-09 07:28:30] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1715227892.tar.gz]
+[2024-05-09 07:28:30] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-09 07:28:30] INFO root fetch - main [MainThread]: Store serial: [23126594]
