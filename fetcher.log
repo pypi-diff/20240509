@@ -17823,3 +17823,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
 [2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
 [2024-05-09 10:48:49] INFO root fetch - main [MainThread]: Store serial: [23128603]
+[2024-05-09 10:50:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128603]
+[2024-05-09 10:50:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 10:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hoodlumz
+[2024-05-09 10:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-scheema
+[2024-05-09 10:50:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qase-python-commons
+[2024-05-09 10:50:58] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-09 10:50:58] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-09 10:50:58] WARNING root fetch - processPackages [hoodlumz]: Skipping, unable to determine old version
+[2024-05-09 10:50:58] INFO root fetch - main [MainThread]: End processing [hoodlumz] error
+[2024-05-09 10:50:58] INFO root fetch - processPackages [qase-python-commons]: New version: [3.0.2b5] Old Version: [3.0.2b4]
+[2024-05-09 10:50:58] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-09 10:50:58] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/23/73/7459ec2affabd078cca0e9dbe7ae5a188a62e71366afe26db5de5a7a855b/qase_python_commons-3.0.2b4.tar.gz
+[2024-05-09 10:50:59] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-09 10:50:59] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240509/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/37/6f/6525a03d4837f03ff00a8ec9beab50f924bdd4a5e92fafa7049fa6194a1a/qase_python_commons-3.0.2b5.tar.gz
+[2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_python_commons-3.0.2b4.tar.gz tmp/qase_python_commons-3.0.2b5.tar.gz --markdown 20240509/q/qase-python-commons/3.0.2b4-3.0.2b5/README.md --exclude *.pyd
+[2024-05-09 10:50:59] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-09 10:50:59] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-09 10:50:59] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b4.tar.gz]
+[2024-05-09 10:50:59] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b5.tar.gz]
+[2024-05-09 10:50:59] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-05-09 10:50:59] INFO root fetch - main [MainThread]: Store serial: [23128613]
