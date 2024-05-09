@@ -22689,3 +22689,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:10:09] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
 [2024-05-09 14:10:09] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
 [2024-05-09 14:10:09] INFO root fetch - main [MainThread]: Store serial: [23130687]
+[2024-05-09 14:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130687]
+[2024-05-09 14:12:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 14:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TrialPy3
+[2024-05-09 14:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crewai-tools
+[2024-05-09 14:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dismal
+[2024-05-09 14:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuxsuite
+[2024-05-09 14:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuickStart-Rhy
+[2024-05-09 14:12:19] INFO root fetch - processPackages [TrialPy3]: New version: [0.0.4] Old Version: [0.0.0.3]
+[2024-05-09 14:12:19] INFO root fetch - processPackages [QuickStart-Rhy]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-09 14:12:19] INFO root fetch - processPackages [TrialPy3]: Downloading https://files.pythonhosted.org/packages/5b/11/758dfe608eeaf78372f70cf46982b8b37c8743b8be1513c2544b06a4888f/TrialPy3-0.0.0.3.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-09 14:12:19] INFO root fetch - processPackages [dismal]: New version: [0.1.18b0] Old Version: [0.1.16b0]
+[2024-05-09 14:12:19] INFO root fetch - processPackages [crewai-tools]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-09 14:12:19] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/b5/ea/4c30130802ce2b43c9b4c496198c2c93af546e22d0312051e63e1dd0a49b/crewai_tools-0.2.4.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [QuickStart-Rhy]: Downloading https://files.pythonhosted.org/packages/00/46/101456ed92418b02a3448f81bb9d3ddcbc23c5f27de3115c47e5c966894c/quickstart_rhy-0.7.8.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [dismal]: Downloading https://files.pythonhosted.org/packages/39/c7/9ce26e07846533158f26eafdf65e55e0f374e5cf0604cad8111a1e737bec/dismal-0.1.16b0.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [TrialPy3]: Downloading https://files.pythonhosted.org/packages/e1/89/46fc1fd89f252cabab08e487249d45b9d85bb72f22cca28f10c4b123f460/TrialPy3-0.0.4.tar.gz
+[2024-05-09 14:12:19] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/92/e3/1ca4d81a4cbbbfe50e0e1154bd973a7db95e8f0ab9af26c7d0196f3bb784/crewai_tools-0.2.5.tar.gz
+[2024-05-09 14:12:20] INFO root fetch - processPackages [TrialPy3]: executing diffoscope
+[2024-05-09 14:12:20] INFO root fetch - processPackages [TrialPy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrialPy3-0.0.0.3.tar.gz tmp/TrialPy3-0.0.4.tar.gz --markdown 20240509/T/TrialPy3/0.0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 14:12:20] INFO root fetch - processPackages [QuickStart-Rhy]: Downloading https://files.pythonhosted.org/packages/43/c7/6584633c1cdbc2319103ff6d01806304284c6174ade9fde40e742085fa39/quickstart_rhy-0.7.9.tar.gz
+[2024-05-09 14:12:20] INFO root fetch - processPackages [crewai-tools]: executing diffoscope
+[2024-05-09 14:12:20] INFO root fetch - processPackages [crewai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_tools-0.2.4.tar.gz tmp/crewai_tools-0.2.5.tar.gz --markdown 20240509/c/crewai-tools/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-09 14:12:20] INFO root fetch - processPackages [dismal]: Downloading https://files.pythonhosted.org/packages/00/51/9a10734c049d6566945daf20eae95d67e11420fabc9e2a43ae12fbed3632/dismal-0.1.18b0.tar.gz
+[2024-05-09 14:12:20] INFO root fetch - processPackages [QuickStart-Rhy]: executing diffoscope
+[2024-05-09 14:12:20] INFO root fetch - processPackages [QuickStart-Rhy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart_rhy-0.7.8.tar.gz tmp/quickstart_rhy-0.7.9.tar.gz --markdown 20240509/Q/QuickStart-Rhy/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-09 14:12:20] INFO root fetch - processPackages [dismal]: executing diffoscope
+[2024-05-09 14:12:20] INFO root fetch - processPackages [dismal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismal-0.1.16b0.tar.gz tmp/dismal-0.1.18b0.tar.gz --markdown 20240509/d/dismal/0.1.16b0-0.1.18b0/README.md --exclude *.pyd
+[2024-05-09 14:12:20] INFO root fetch - processPackages [TrialPy3]: Remove: archive file [/home/abi/fetcher/tmp/TrialPy3-0.0.0.3.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - processPackages [TrialPy3]: Remove: archive file [/home/abi/fetcher/tmp/TrialPy3-0.0.4.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - main [MainThread]: End processing [TrialPy3]: success
+[2024-05-09 14:12:20] INFO root fetch - processPackages [dismal]: Remove: archive file [/home/abi/fetcher/tmp/dismal-0.1.16b0.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - processPackages [dismal]: Remove: archive file [/home/abi/fetcher/tmp/dismal-0.1.18b0.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - main [MainThread]: End processing [dismal]: success
+[2024-05-09 14:12:20] INFO root fetch - processPackages [QuickStart-Rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.8.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - processPackages [QuickStart-Rhy]: Remove: archive file [/home/abi/fetcher/tmp/quickstart_rhy-0.7.9.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - main [MainThread]: End processing [QuickStart-Rhy]: success
+[2024-05-09 14:12:20] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.4.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.5.tar.gz]
+[2024-05-09 14:12:20] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
+[2024-05-09 14:12:21] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2024-05-09 14:12:21] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2024-05-09 14:12:21] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20240509/t/tuxsuite/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-09 14:12:22] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2024-05-09 14:12:22] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2024-05-09 14:12:22] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2024-05-09 14:12:22] INFO root fetch - main [MainThread]: Store serial: [23130706]
