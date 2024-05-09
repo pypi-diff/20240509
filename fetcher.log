@@ -3506,3 +3506,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:52:05] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-09 02:52:05] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-09 02:52:05] INFO root fetch - main [MainThread]: Store serial: [23123066]
+[2024-05-09 02:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123066]
+[2024-05-09 02:54:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metrics_layer
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dekdjtools
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysnippet
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plastics
+[2024-05-09 02:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradema
+[2024-05-09 02:54:13] INFO root fetch - processPackages [gradema]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-09 02:54:13] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-09 02:54:13] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:54:13] INFO root fetch - processPackages [swarms]: New version: [4.9.7] Old Version: [4.9.6]
+[2024-05-09 02:54:13] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-05-09 02:54:13] INFO root fetch - processPackages [mysnippet]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-09 02:54:13] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-09 02:54:13] WARNING root fetch - processPackages [plastics]: Skipping, unable to determine old version
+[2024-05-09 02:54:13] INFO root fetch - main [MainThread]: End processing [plastics] error
+[2024-05-09 02:54:13] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d5/a0/ae669b00594e8658ef6febbe93cf3a04b84b040591755b8f7efb652b2a46/swarms-4.9.6.tar.gz
+[2024-05-09 02:54:13] INFO root fetch - processPackages [gradema]: Downloading https://files.pythonhosted.org/packages/ee/b1/66ad79ee53397825d68845ed9790a581685cfe2cebb8f57e430d7c7a5a9c/gradema-0.0.6.tar.gz
+[2024-05-09 02:54:13] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-09 02:54:13] INFO root fetch - processPackages [mysnippet]: Downloading https://files.pythonhosted.org/packages/b3/3b/290594f71ee7c2ed2d4a2e9976629e77714014d9f0af47bdccf7b2403d46/mysnippet-0.6.8-cp310-cp310-win_amd64.whl
+[2024-05-09 02:54:14] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-05-09 02:54:14] INFO root fetch - processPackages [gradema]: Downloading https://files.pythonhosted.org/packages/3c/5c/a7c978f3e37ebb7a341384d7bb912d5670560f4aca3680a71676b244eb0e/gradema-0.1.0.tar.gz
+[2024-05-09 02:54:14] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-09 02:54:14] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240509/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:54:14] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-05-09 02:54:14] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240509/m/metrics_layer/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-09 02:54:14] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/56/55/3fec585790779e8f2f4f38e78fb2eb14e69db74d36bc65d7bc55bbae5523/swarms-4.9.7.tar.gz
+[2024-05-09 02:54:14] INFO root fetch - processPackages [gradema]: executing diffoscope
+[2024-05-09 02:54:14] INFO root fetch - processPackages [gradema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradema-0.0.6.tar.gz tmp/gradema-0.1.0.tar.gz --markdown 20240509/g/gradema/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-09 02:54:14] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-05-09 02:54:14] INFO root fetch - processPackages [mysnippet]: Downloading https://files.pythonhosted.org/packages/57/83/3a32a0392b234a394ef2a2cf75e4ee74463b59c0f1667aa5d549047656bb/mysnippet-0.6.9-cp310-cp310-win_amd64.whl
+[2024-05-09 02:54:14] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.9.6.tar.gz tmp/swarms-4.9.7.tar.gz --markdown 20240509/s/swarms/4.9.6-4.9.7/README.md --exclude *.pyd
+[2024-05-09 02:54:14] INFO root fetch - processPackages [mysnippet]: executing diffoscope
+[2024-05-09 02:54:14] INFO root fetch - processPackages [mysnippet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysnippet-0.6.8-cp310-cp310-win_amd64.whl.zip tmp/mysnippet-0.6.9-cp310-cp310-win_amd64.whl.zip --markdown 20240509/m/mysnippet/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-09 02:54:14] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-09 02:54:14] INFO root fetch - processPackages [gradema]: Remove: archive file [/home/abi/fetcher/tmp/gradema-0.0.6.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - processPackages [gradema]: Remove: archive file [/home/abi/fetcher/tmp/gradema-0.1.0.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - main [MainThread]: End processing [gradema]: success
+[2024-05-09 02:54:14] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-05-09 02:54:14] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-05-09 02:54:15] INFO root fetch - processPackages [mysnippet]: Remove: archive file [/home/abi/fetcher/tmp/mysnippet-0.6.8-cp310-cp310-win_amd64.whl.zip]
+[2024-05-09 02:54:15] INFO root fetch - processPackages [mysnippet]: Remove: archive file [/home/abi/fetcher/tmp/mysnippet-0.6.9-cp310-cp310-win_amd64.whl.zip]
+[2024-05-09 02:54:15] INFO root fetch - main [MainThread]: End processing [mysnippet]: success
+[2024-05-09 02:54:15] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.6.tar.gz]
+[2024-05-09 02:54:15] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.7.tar.gz]
+[2024-05-09 02:54:15] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-05-09 02:54:15] INFO root fetch - main [MainThread]: Store serial: [23123085]
