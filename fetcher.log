@@ -7391,3 +7391,63 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:22:33] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-redshift-1.34.99.tar.gz]
 [2024-05-09 03:22:33] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-redshift]: success
 [2024-05-09 03:22:33] INFO root fetch - main [MainThread]: Store serial: [23124070]
+[2024-05-09 03:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124070]
+[2024-05-09 03:24:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-redshift
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-kinesis
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-support-app
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-lambda
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-comprehend
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: underboyz
+[2024-05-09 03:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: encryptedcode
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-09 03:24:43] WARNING root fetch - processPackages [underboyz]: Skipping, unable to determine old version
+[2024-05-09 03:24:43] INFO root fetch - main [MainThread]: End processing [underboyz] error
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-09 03:24:43] INFO root fetch - processPackages [encryptedcode]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: Downloading https://files.pythonhosted.org/packages/64/ab/b3c5e6a714e22a1768518f47e6ef35323ed674211563a43a728372a96432/botocore-a-la-carte-redshift-1.34.98.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/69/e3/4d30e0a4ea3f21ba893290b9dbc1684cf55c5abe612a0b7d5db784eb2aba/botocore-a-la-carte-comprehend-1.34.98.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [encryptedcode]: Downloading https://files.pythonhosted.org/packages/26/0a/4808d391fca8d296f2faac34580dc7d9e3a654ab3bef54b3ff50347f4733/encryptedcode-1.1.1.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: Downloading https://files.pythonhosted.org/packages/c5/4d/de8ddfc114b3944165b2cf4d4d02fc44586cd3b0adc89c17902e1c25cc62/botocore-a-la-carte-redshift-1.34.99.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Downloading https://files.pythonhosted.org/packages/7d/1c/b6649f187ccb4cfd0ba6edd4178f5d21869aa22248feb3b906c6789119a6/botocore-a-la-carte-kinesis-1.34.98.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: Downloading https://files.pythonhosted.org/packages/ed/24/752a4df55b7df23dc38d54c78418590bcbc478d629b645dc5cda2882de95/botocore-a-la-carte-lambda-1.34.98.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/a6/01/792d21f7ca94ba76c86eb36fb9782d64ab1e1b7a2b9f0cb343634f30f6a7/botocore-a-la-carte-support-app-1.34.98.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: executing diffoscope
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-redshift-1.34.98.tar.gz tmp/botocore-a-la-carte-redshift-1.34.99.tar.gz --markdown 20240509/b/botocore-a-la-carte-redshift/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/44/8c/186b93652c8d0c8d96a931231804e7ab502ce97220a94349bae27649d207/botocore-a-la-carte-comprehend-1.34.99.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [encryptedcode]: Downloading https://files.pythonhosted.org/packages/73/63/5292e460214297f229595c8c180ac279c0a6b3b3e65d52d05d6660efc28a/encryptedcode-1.1.2.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/b5/f5/585a46cc78b6b748a33865f1807fc32f4dde042add58bdb1620b252badf2/botocore-a-la-carte-support-app-1.34.99.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: Downloading https://files.pythonhosted.org/packages/20/43/f25068869121c754763a98deb67c026af2b3fefdf39ccec571b502ff61b3/botocore-a-la-carte-lambda-1.34.99.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Downloading https://files.pythonhosted.org/packages/03/dc/6c7e1021907fe98677159a1681d5b7e27ebfe54ab83561d4ddde9e012681/botocore-a-la-carte-kinesis-1.34.99.tar.gz
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: executing diffoscope
+[2024-05-09 03:24:43] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-comprehend-1.34.98.tar.gz tmp/botocore-a-la-carte-comprehend-1.34.99.tar.gz --markdown 20240509/b/botocore-a-la-carte-comprehend/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: executing diffoscope
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-support-app-1.34.98.tar.gz tmp/botocore-a-la-carte-support-app-1.34.99.tar.gz --markdown 20240509/b/botocore-a-la-carte-support-app/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: executing diffoscope
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lambda-1.34.98.tar.gz tmp/botocore-a-la-carte-lambda-1.34.99.tar.gz --markdown 20240509/b/botocore-a-la-carte-lambda/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: executing diffoscope
+[2024-05-09 03:24:44] INFO root fetch - processPackages [encryptedcode]: executing diffoscope
+[2024-05-09 03:24:44] INFO root fetch - processPackages [encryptedcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encryptedcode-1.1.1.tar.gz tmp/encryptedcode-1.1.2.tar.gz --markdown 20240509/e/encryptedcode/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kinesis-1.34.98.tar.gz tmp/botocore-a-la-carte-kinesis-1.34.99.tar.gz --markdown 20240509/b/botocore-a-la-carte-kinesis/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-redshift-1.34.98.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-redshift]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-redshift-1.34.99.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-redshift]: success
+[2024-05-09 03:24:44] INFO root fetch - processPackages [encryptedcode]: Remove: archive file [/home/abi/fetcher/tmp/encryptedcode-1.1.1.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [encryptedcode]: Remove: archive file [/home/abi/fetcher/tmp/encryptedcode-1.1.2.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [encryptedcode]: success
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.34.98.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.34.99.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-support-app]: success
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lambda-1.34.98.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-lambda]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lambda-1.34.99.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lambda]: success
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.98.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.99.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-comprehend]: success
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-1.34.98.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-1.34.99.tar.gz]
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis]: success
+[2024-05-09 03:24:44] INFO root fetch - main [MainThread]: Store serial: [23124137]
