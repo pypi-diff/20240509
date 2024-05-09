@@ -9370,3 +9370,78 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:31:23] INFO root fetch - processPackages [openc3]: Remove: archive file [/home/abi/fetcher/tmp/openc3-5.9.2b0.tar.gz]
 [2024-05-09 05:31:23] INFO root fetch - main [MainThread]: End processing [openc3]: success
 [2024-05-09 05:31:23] INFO root fetch - main [MainThread]: Store serial: [23125605]
+[2024-05-09 05:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125605]
+[2024-05-09 05:33:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-donation-base
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-donation-direct-debit
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-donation-recurring
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-donation-bank-statement-oca
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jzchatbot
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-website-sale-product-attachment
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RL-OM
+[2024-05-09 05:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Stricture
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [Stricture]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-base]: New version: [16.0.2.0.0.9] Old Version: [16.0.2.0.0.8]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-recurring]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [jzchatbot]: New version: [59.83.89] Old Version: [59.83.87]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: New version: [12.0.1.1.1.99.dev8] Old Version: [12.0.1.1.1.99.dev7]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/cc/d7/b1e71cbc780e64ed7945378899e860a8d36dc57f0c2eecc3c9585f9335a4/Stricture-1.0.2.tar.gz
+[2024-05-09 05:33:32] INFO root fetch - processPackages [RL-OM]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/c2/f4/b04e9745dd8b473c0bf59b06f20d79047f086575a87955d27852e2fdb605/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-base]: Downloading https://files.pythonhosted.org/packages/d3/23/31c297b0fc4f2d5d2ece5ee11f969f7884ea5e5cff335f9ff4e3b0ac876b/odoo_addon_donation_base-16.0.2.0.0.8-py3-none-any.whl
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Downloading https://files.pythonhosted.org/packages/be/68/f5328533112db14f6f8db7183fb26f8f97e5323608a7a7649057063a40ab/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: Downloading https://files.pythonhosted.org/packages/d1/5e/ded128352262e022f255452651a57eb0c0c8814d02cb5c93de74c71f70df/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev7-py3-none-any.whl
+[2024-05-09 05:33:32] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Downloading https://files.pythonhosted.org/packages/93/2f/19f6fe601b150131e836e023f7f9c47dcbf8c97cd3d428c893799447e67e/odoo_addon_donation_recurring-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-09 05:33:32] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/75/69/b44b59e8204353f45ccf82c3fe6479ed1f77a52c81761bff0bd5a17ec316/jzchatbot-59.83.87.tar.gz
+[2024-05-09 05:33:32] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/54/0e/1e251f32e562634fc591242baccb565e0826397773457a2e7efb89e2b31e/RL_OM-0.7.98.tar.gz
+[2024-05-09 05:33:33] INFO root fetch - processPackages [Stricture]: Downloading https://files.pythonhosted.org/packages/bc/db/493d5bb00ff04bd6602adf0e35c575b40c036b4ca714a904581012ae6492/Stricture-1.0.3.tar.gz
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/cf/db/1c896722ce7588b609d588d62b991a950f1cfbc8c129f673c1736c8dd851/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-09 05:33:33] INFO root fetch - processPackages [Stricture]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [Stricture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Stricture-1.0.2.tar.gz tmp/Stricture-1.0.3.tar.gz --markdown 20240509/S/Stricture/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-base]: Downloading https://files.pythonhosted.org/packages/e2/2b/94d6db90790d1f3ffc4b6683f84826940595559c89cc8baea0e7076dba0d/odoo_addon_donation_base-16.0.2.0.0.9-py3-none-any.whl
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Downloading https://files.pythonhosted.org/packages/a2/20/5d8b41df66243477782da285d5a7dcdf251c9b867c9499e124a7209626ed/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-09 05:33:33] INFO root fetch - processPackages [jzchatbot]: Downloading https://files.pythonhosted.org/packages/bd/43/fa09e4b10cd89648d9ef180aa0427e323c03b7936e9d7015422ce4ae62f5/jzchatbot-59.83.89.tar.gz
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-donation-direct-debit/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/05/80/e201b178be17998f0db6391696dcf15f0c737015844fe222295cca5fc390/RL_OM-0.7.99.tar.gz
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Downloading https://files.pythonhosted.org/packages/98/ed/ccd1587d75027de6c7052536d4643e3bea92fee51802d1c4af2befbd96c0/odoo_addon_donation_recurring-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-09 05:33:33] INFO root fetch - processPackages [jzchatbot]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [jzchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzchatbot-59.83.87.tar.gz tmp/jzchatbot-59.83.89.tar.gz --markdown 20240509/j/jzchatbot/59.83.87-59.83.89/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-donation-bank-statement-oca/16.0.1.0.0.6-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.98.tar.gz tmp/RL_OM-0.7.99.tar.gz --markdown 20240509/R/RL-OM/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-base]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_base-16.0.2.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_donation_base-16.0.2.0.0.9-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-donation-base/16.0.2.0.0.8-16.0.2.0.0.9/README.md --exclude *.pyd
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-recurring]: executing diffoscope
+[2024-05-09 05:33:33] INFO root fetch - processPackages [odoo-addon-donation-recurring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_recurring-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_donation_recurring-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-donation-recurring/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-direct-debit]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.2.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [Stricture]: Remove: archive file [/home/abi/fetcher/tmp/Stricture-1.0.3.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [Stricture]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.87.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [jzchatbot]: Remove: archive file [/home/abi/fetcher/tmp/jzchatbot-59.83.89.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [jzchatbot]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-bank-statement-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_bank_statement_oca-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-bank-statement-oca]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_recurring-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-recurring]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_recurring-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-recurring]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.98.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.99.tar.gz]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_base-16.0.2.0.0.8-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo-addon-donation-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_base-16.0.2.0.0.9-py3-none-any.whl.zip]
+[2024-05-09 05:33:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-base]: success
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: Downloading https://files.pythonhosted.org/packages/0c/8a/b50cb6b2de41fe02960be70bd4425b1c3dd305db9679ef3d8a99fd540317/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev8-py3-none-any.whl
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: executing diffoscope
+[2024-05-09 05:33:34] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev8-py3-none-any.whl.zip --markdown 20240509/o/odoo12-addon-website-sale-product-attachment/12.0.1.1.1.99.dev7-12.0.1.1.1.99.dev8/README.md --exclude *.pyd
+[2024-05-09 05:33:35] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev7-py3-none-any.whl.zip]
+[2024-05-09 05:33:35] INFO root fetch - processPackages [odoo12-addon-website-sale-product-attachment]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_sale_product_attachment-12.0.1.1.1.99.dev8-py3-none-any.whl.zip]
+[2024-05-09 05:33:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-sale-product-attachment]: success
+[2024-05-09 05:33:35] INFO root fetch - main [MainThread]: Store serial: [23125624]
