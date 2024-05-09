@@ -13417,3 +13417,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:39:48] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
 [2024-05-09 08:39:48] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
 [2024-05-09 08:39:48] INFO root fetch - main [MainThread]: Store serial: [23127190]
+[2024-05-09 08:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127190]
+[2024-05-09 08:41:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 08:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whataspp-message-inforu-local
+[2024-05-09 08:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aimrun
+[2024-05-09 08:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verminatingz
+[2024-05-09 08:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contact-persons-local
+[2024-05-09 08:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-widget-plotly-chart
+[2024-05-09 08:41:57] WARNING root fetch - processPackages [whataspp-message-inforu-local]: Skipping, unable to determine old version
+[2024-05-09 08:41:57] INFO root fetch - main [MainThread]: End processing [whataspp-message-inforu-local] error
+[2024-05-09 08:41:57] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: New version: [17.0.1.0.0.1] Old Version: [16.0.1.0.0.4]
+[2024-05-09 08:41:57] WARNING root fetch - processPackages [verminatingz]: Skipping, unable to determine old version
+[2024-05-09 08:41:57] INFO root fetch - main [MainThread]: End processing [verminatingz] error
+[2024-05-09 08:41:57] INFO root fetch - processPackages [contact-persons-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 08:41:57] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: Downloading https://files.pythonhosted.org/packages/67/bb/60bcf88f48ee495c69d44ecdd5eb7531c5f4501af2d0f6ccdac069f61220/odoo_addon_web_widget_plotly_chart-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 08:41:57] WARNING root fetch - processPackages [aimrun]: Skipping, unable to determine old version
+[2024-05-09 08:41:57] INFO root fetch - main [MainThread]: End processing [aimrun] error
+[2024-05-09 08:41:57] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/0b/6b/76ed2113b4e86e4aaa68d65f4c760c036c393ee03064566f505f44867a22/contact-persons-local-0.0.8.tar.gz
+[2024-05-09 08:41:57] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: Downloading https://files.pythonhosted.org/packages/5f/21/0ca2f881006f4a98f7fc0462d13fba84afd88580908f32da677c250ac228/odoo_addon_web_widget_plotly_chart-17.0.1.0.0.1-py3-none-any.whl
+[2024-05-09 08:41:57] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: executing diffoscope
+[2024-05-09 08:41:57] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_widget_plotly_chart-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_web_widget_plotly_chart-17.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-web-widget-plotly-chart/16.0.1.0.0.4-17.0.1.0.0.1/README.md --exclude *.pyd
+[2024-05-09 08:41:57] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/93/08/4bf1aef3fe8c2eb2bd907061dc10a7100c367ed8adfc58d6113cda458512/contact_persons_local-0.0.9.tar.gz
+[2024-05-09 08:41:57] INFO root fetch - processPackages [contact-persons-local]: executing diffoscope
+[2024-05-09 08:41:57] INFO root fetch - processPackages [contact-persons-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-persons-local-0.0.8.tar.gz tmp/contact_persons_local-0.0.9.tar.gz --markdown 20240509/c/contact-persons-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 08:41:58] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-persons-local-0.0.8.tar.gz]
+[2024-05-09 08:41:58] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_persons_local-0.0.9.tar.gz]
+[2024-05-09 08:41:58] INFO root fetch - main [MainThread]: End processing [contact-persons-local]: success
+[2024-05-09 08:42:32] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_plotly_chart-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 08:42:32] INFO root fetch - processPackages [odoo-addon-web-widget-plotly-chart]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_plotly_chart-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-09 08:42:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-plotly-chart]: success
+[2024-05-09 08:42:32] INFO root fetch - main [MainThread]: Store serial: [23127206]
