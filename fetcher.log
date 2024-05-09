@@ -14391,3 +14391,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:20:10] INFO root fetch - processPackages [smarter-client]: Remove: archive file [/home/abi/fetcher/tmp/smarter_client-0.2.0.tar.gz]
 [2024-05-09 09:20:10] INFO root fetch - main [MainThread]: End processing [smarter-client]: success
 [2024-05-09 09:20:10] INFO root fetch - main [MainThread]: Store serial: [23127528]
+[2024-05-09 09:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127528]
+[2024-05-09 09:22:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentic_security
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glpic
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrable
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ft2bt
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: somedecorators
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ft2bt]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-09 09:22:18] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/43/f1/dbc9f410b9fd4be47d680f4695da8908e7bf9e97bc12bc7b346be13c49b6/ft2bt-0.2.2.tar.gz
+[2024-05-09 09:22:18] INFO root fetch - processPackages [agentic_security]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 09:22:18] INFO root fetch - processPackages [glpic]: New version: [99.0.202405090721] Old Version: [99.0.202404291357]
+[2024-05-09 09:22:18] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 09:22:18] INFO root fetch - processPackages [somedecorators]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-09 09:22:18] INFO root fetch - processPackages [agentic_security]: Downloading https://files.pythonhosted.org/packages/1f/0b/3fbd690bc7b077cc0359b4265cd0919ada31c2b7b5c2a4070603d34c7007/agentic_security-0.1.4.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/65/09/fc72cbb7e2318674207a5019f332e104d7b5c496b0aec2bf35bb84e75658/glpic-99.0.202404291357.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/3d/ea/1422cbd7dd80bdf74fd230f9560c56115d6c0aca353135739415e57ff70c/somedecorators-1.2.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/40/71/095177346e175c4fe8b9fb40ee3cd60056c7c9b1a055d26a1900f00b1ac6/ft2bt-0.2.3.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [ft2bt]: executing diffoscope
+[2024-05-09 09:22:19] INFO root fetch - processPackages [ft2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft2bt-0.2.2.tar.gz tmp/ft2bt-0.2.3.tar.gz --markdown 20240509/f/ft2bt/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-09 09:22:19] INFO root fetch - processPackages [agentic_security]: Downloading https://files.pythonhosted.org/packages/33/02/37bddaf694b211aae1e70673d69352b881039dcd95007939f096c94ee166/agentic_security-0.1.5.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/42/3b/dfdc1b15acc46ad8ae01a919c562b6e3c8128d5863314b1cf24dd5c37bc0/glpic-99.0.202405090721.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [agentic_security]: executing diffoscope
+[2024-05-09 09:22:19] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-09 09:22:19] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404291357.tar.gz tmp/glpic-99.0.202405090721.tar.gz --markdown 20240509/g/glpic/99.0.202404291357-99.0.202405090721/README.md --exclude *.pyd
+[2024-05-09 09:22:19] INFO root fetch - processPackages [agentic_security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentic_security-0.1.4.tar.gz tmp/agentic_security-0.1.5.tar.gz --markdown 20240509/a/agentic_security/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 09:22:19] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [somedecorators]: Downloading https://files.pythonhosted.org/packages/fc/c7/000cfe699127e320f122ced12c5274d08cdaf0ef5eaad00679db1b1bd1fc/somedecorators-1.2.1.tar.gz
+[2024-05-09 09:22:19] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-09 09:22:19] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240509/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 09:22:19] INFO root fetch - processPackages [somedecorators]: executing diffoscope
+[2024-05-09 09:22:19] INFO root fetch - processPackages [somedecorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somedecorators-1.2.tar.gz tmp/somedecorators-1.2.1.tar.gz --markdown 20240509/s/somedecorators/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-09 09:22:19] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.2.tar.gz]
+[2024-05-09 09:22:19] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.2.3.tar.gz]
+[2024-05-09 09:22:19] INFO root fetch - main [MainThread]: End processing [ft2bt]: success
+[2024-05-09 09:22:20] INFO root fetch - processPackages [agentic_security]: Remove: archive file [/home/abi/fetcher/tmp/agentic_security-0.1.4.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - processPackages [agentic_security]: Remove: archive file [/home/abi/fetcher/tmp/agentic_security-0.1.5.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - main [MainThread]: End processing [agentic_security]: success
+[2024-05-09 09:22:20] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404291357.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405090721.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-09 09:22:20] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-09 09:22:20] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - processPackages [somedecorators]: Remove: archive file [/home/abi/fetcher/tmp/somedecorators-1.2.1.tar.gz]
+[2024-05-09 09:22:20] INFO root fetch - main [MainThread]: End processing [somedecorators]: success
+[2024-05-09 09:22:20] INFO root fetch - main [MainThread]: Store serial: [23127544]
