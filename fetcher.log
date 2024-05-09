@@ -14259,3 +14259,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:13:37] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
 [2024-05-09 09:13:37] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2024-05-09 09:13:37] INFO root fetch - main [MainThread]: Store serial: [23127483]
+[2024-05-09 09:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127483]
+[2024-05-09 09:15:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: econdata
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-pro
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satsure-core-test
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conspirersz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy_baseline
+[2024-05-09 09:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gink
+[2024-05-09 09:15:45] INFO root fetch - processPackages [satsure-core-test]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-09 09:15:45] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 09:15:45] WARNING root fetch - processPackages [conspirersz]: Skipping, unable to determine old version
+[2024-05-09 09:15:45] INFO root fetch - main [MainThread]: End processing [conspirersz] error
+[2024-05-09 09:15:45] INFO root fetch - processPackages [gink]: New version: [0.20240509.1715238879] Old Version: [0.20240407.1712460796]
+[2024-05-09 09:15:45] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/1f/0f/ecbc9bddd2fed0fbf413f416e7d8fad62b7955cb10168b528b236ef780da/satsure_core_test-0.0.1.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [econdata]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-09 09:15:45] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [mypy_baseline]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-09 09:15:45] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/ca/9a/c40e24d14ba4faff5b8fea01b9f2d5aeb74e6cb531ef332efc7310215104/mypy_baseline-0.7.0.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/1f/f2/14502257f1d345c3e863d6799e7ab416bd5e69e65d919acb58fedf29a6ca/gink-0.20240407.1712460796.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/4c/e4/aaebfd0bf16dd5b15201e40b4b49bf5031e7849fa7234c5a2fc46b46cbbe/econdata-1.0.7.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/3c/c1/04035b984034772b78bed5213f9d91b2896dea1d853df06e32984bb1f39d/satsure_core_test-0.0.3.tar.gz
+[2024-05-09 09:15:45] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-09 09:15:45] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.0.1.tar.gz tmp/satsure_core_test-0.0.3.tar.gz --markdown 20240509/s/satsure-core-test/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-09 09:15:45] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-09 09:15:45] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240509/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:15:46] INFO root fetch - processPackages [econdata]: Downloading https://files.pythonhosted.org/packages/45/3c/6a8f893c13b07d364939412873e538b2615262b09b0977605372298e3086/econdata-1.0.9.tar.gz
+[2024-05-09 09:15:46] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/41/64/7aae0147728cbcceb3670e6f65970ad844a4f5d18717222c06a31d94f82b/mypy_baseline-0.7.1.tar.gz
+[2024-05-09 09:15:46] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/bc/ba/d1c9ca6e591a0063bcfa1785fdaed8a65e1bac168016461ded39105a7430/gink-0.20240509.1715238879.tar.gz
+[2024-05-09 09:15:46] INFO root fetch - processPackages [econdata]: executing diffoscope
+[2024-05-09 09:15:46] INFO root fetch - processPackages [econdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econdata-1.0.7.tar.gz tmp/econdata-1.0.9.tar.gz --markdown 20240509/e/econdata/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-09 09:15:46] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-05-09 09:15:46] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240407.1712460796.tar.gz tmp/gink-0.20240509.1715238879.tar.gz --markdown 20240509/g/gink/0.20240407.1712460796-0.20240509.1715238879/README.md --exclude *.pyd
+[2024-05-09 09:15:46] INFO root fetch - processPackages [mypy_baseline]: executing diffoscope
+[2024-05-09 09:15:46] INFO root fetch - processPackages [mypy_baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_baseline-0.7.0.tar.gz tmp/mypy_baseline-0.7.1.tar.gz --markdown 20240509/m/mypy_baseline/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-09 09:15:46] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-09 09:15:46] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.1.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.0.3.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-09 09:15:46] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.7.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - processPackages [econdata]: Remove: archive file [/home/abi/fetcher/tmp/econdata-1.0.9.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - main [MainThread]: End processing [econdata]: success
+[2024-05-09 09:15:46] INFO root fetch - processPackages [mypy_baseline]: Remove: archive file [/home/abi/fetcher/tmp/mypy_baseline-0.7.0.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - processPackages [mypy_baseline]: Remove: archive file [/home/abi/fetcher/tmp/mypy_baseline-0.7.1.tar.gz]
+[2024-05-09 09:15:46] INFO root fetch - main [MainThread]: End processing [mypy_baseline]: success
+[2024-05-09 09:15:47] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240407.1712460796.tar.gz]
+[2024-05-09 09:15:47] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240509.1715238879.tar.gz]
+[2024-05-09 09:15:47] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-05-09 09:15:47] INFO root fetch - main [MainThread]: Store serial: [23127502]
