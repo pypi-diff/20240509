@@ -11449,3 +11449,30 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:06:14] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz]
 [2024-05-09 07:06:14] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-05-09 07:06:14] INFO root fetch - main [MainThread]: Store serial: [23126420]
+[2024-05-09 07:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126420]
+[2024-05-09 07:08:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tse-motion
+[2024-05-09 07:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudflare
+[2024-05-09 07:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gastrogastrotomyz
+[2024-05-09 07:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-vault
+[2024-05-09 07:08:24] INFO root fetch - processPackages [cloudflare]: New version: [3.0.0b8] Old Version: [3.0.0b7]
+[2024-05-09 07:08:24] WARNING root fetch - processPackages [gastrogastrotomyz]: Skipping, unable to determine old version
+[2024-05-09 07:08:24] INFO root fetch - main [MainThread]: End processing [gastrogastrotomyz] error
+[2024-05-09 07:08:24] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715230012] Old Version: [6.2.0a1715063875]
+[2024-05-09 07:08:24] WARNING root fetch - processPackages [tse-motion]: Skipping, unable to determine old version
+[2024-05-09 07:08:24] INFO root fetch - main [MainThread]: End processing [tse-motion] error
+[2024-05-09 07:08:24] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/e3/fb/e18463bced89426df17e49d76539b23df0f3310fa0f23e373b41374b9f92/cloudflare-3.0.0b7.tar.gz
+[2024-05-09 07:08:24] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/40/ab/030db184f8a2b03e258c0d9560f31b7d316485ab0ff895961a38c545bf21/pulumi_vault-6.2.0a1715063875.tar.gz
+[2024-05-09 07:08:24] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/cd/ae/8d95992ac816fcb18dc54a8164db30c37792e7ebb3a3d4ebc91339e71e78/pulumi_vault-6.2.0a1715230012.tar.gz
+[2024-05-09 07:08:24] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/1a/04/755fc8275ff14b215138b2cf234d507cb737e5c74a13661c8d9b0647ff39/cloudflare-3.0.0b8.tar.gz
+[2024-05-09 07:08:24] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-09 07:08:24] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715063875.tar.gz tmp/pulumi_vault-6.2.0a1715230012.tar.gz --markdown 20240509/p/pulumi-vault/6.2.0a1715063875-6.2.0a1715230012/README.md --exclude *.pyd
+[2024-05-09 07:08:25] INFO root fetch - processPackages [cloudflare]: executing diffoscope
+[2024-05-09 07:08:25] INFO root fetch - processPackages [cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-3.0.0b7.tar.gz tmp/cloudflare-3.0.0b8.tar.gz --markdown 20240509/c/cloudflare/3.0.0b7-3.0.0b8/README.md --exclude *.pyd
+[2024-05-09 07:08:26] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715063875.tar.gz]
+[2024-05-09 07:08:26] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715230012.tar.gz]
+[2024-05-09 07:08:26] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-09 07:08:41] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b7.tar.gz]
+[2024-05-09 07:08:41] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b8.tar.gz]
+[2024-05-09 07:08:41] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
+[2024-05-09 07:08:41] INFO root fetch - main [MainThread]: Store serial: [23126435]
