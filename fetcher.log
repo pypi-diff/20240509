@@ -8712,3 +8712,35 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:53:41] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.9.tar.gz]
 [2024-05-09 04:53:41] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
 [2024-05-09 04:53:41] INFO root fetch - main [MainThread]: Store serial: [23125362]
+[2024-05-09 04:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125362]
+[2024-05-09 04:55:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhousf-lib
+[2024-05-09 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2024-05-09 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yaowei-pylib
+[2024-05-09 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minivectordb
+[2024-05-09 04:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Society-Evolution-Network
+[2024-05-09 04:55:50] WARNING root fetch - processPackages [Society-Evolution-Network]: Skipping, unable to determine old version
+[2024-05-09 04:55:50] INFO root fetch - main [MainThread]: End processing [Society-Evolution-Network] error
+[2024-05-09 04:55:50] INFO root fetch - processPackages [policyengine-us]: New version: [0.767.0] Old Version: [0.766.0]
+[2024-05-09 04:55:50] WARNING root fetch - processPackages [yaowei-pylib]: Skipping, unable to determine old version
+[2024-05-09 04:55:50] INFO root fetch - main [MainThread]: End processing [yaowei-pylib] error
+[2024-05-09 04:55:50] INFO root fetch - processPackages [minivectordb]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-09 04:55:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/16/56/c3fb1d7dad322d458a400e266041ba17c1d68e93b74d162fd6ca9759e279/policyengine-us-0.766.0.tar.gz
+[2024-05-09 04:55:50] INFO root fetch - processPackages [zhousf-lib]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-05-09 04:55:50] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/3d/e3/ee33f93d9137ff09f88b05e6f8ac08c6ce39a3eeaf77414f70a7c9ca43b1/zhousf-lib-1.5.5.tar.gz
+[2024-05-09 04:55:50] INFO root fetch - processPackages [minivectordb]: Downloading https://files.pythonhosted.org/packages/16/c0/f4655d3713698ce12282a9338dc2e1692bab775642ea156ca355b3872880/minivectordb-1.4.5.tar.gz
+[2024-05-09 04:55:50] WARNING root fetch - processPackages [minivectordb]: Skipping package: exceeds size limit 45077515>=10485760
+[2024-05-09 04:55:50] INFO root fetch - main [MainThread]: End processing [minivectordb] error
+[2024-05-09 04:55:50] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/93/2c/aba920b8cf8fc0d86204716bf5ce84645498dc5e73b36a94a0d5c386cac2/policyengine-us-0.767.0.tar.gz
+[2024-05-09 04:55:51] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-09 04:55:51] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.766.0.tar.gz tmp/policyengine-us-0.767.0.tar.gz --markdown 20240509/p/policyengine-us/0.766.0-0.767.0/README.md --exclude *.pyd
+[2024-05-09 04:55:52] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/39/6b/cfa99724a5f18e7bb6f855ef78f49a20045babc30a7e3ac5e4f72518bfb6/zhousf-lib-1.5.6.tar.gz
+[2024-05-09 04:55:53] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-05-09 04:55:53] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.5.tar.gz tmp/zhousf-lib-1.5.6.tar.gz --markdown 20240509/z/zhousf-lib/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-05-09 04:55:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.5.tar.gz]
+[2024-05-09 04:55:54] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.6.tar.gz]
+[2024-05-09 04:55:54] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-05-09 04:56:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.766.0.tar.gz]
+[2024-05-09 04:56:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.767.0.tar.gz]
+[2024-05-09 04:56:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-09 04:56:23] INFO root fetch - main [MainThread]: Store serial: [23125379]
