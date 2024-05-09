@@ -14045,3 +14045,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:02:39] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-09 09:02:39] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-09 09:02:39] INFO root fetch - main [MainThread]: Store serial: [23127411]
+[2024-05-09 09:04:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127411]
+[2024-05-09 09:04:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-snowflake
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DNA-SE
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lappz
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-splunk
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgecrew
+[2024-05-09 09:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1715229698] Old Version: [1.3.0a1715063294]
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-09 09:04:50] WARNING root fetch - processPackages [lappz]: Skipping, unable to determine old version
+[2024-05-09 09:04:50] INFO root fetch - main [MainThread]: End processing [lappz] error
+[2024-05-09 09:04:50] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 09:04:50] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/4f/06/a8791a0f44ad28fa104a7a534260a30b0c7aa1f9fce92cf05d71f43a257e/pulumi_splunk-1.3.0a1715063294.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.87]
+[2024-05-09 09:04:50] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/e6/2d/80a3131d3c2f5d7b64c8d22c14f37038d1ab580397c578934b37363a5fd6/dna_se-0.0.6.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/ac/de/8f7e50fc8b1ec6f916c20b711a89d9125d7860fe41c4414c56da6e704839/bridgecrew-3.2.87.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/2e/ee/c9510c89aafa1560fe5370119a30d78225e8e3d58d484cbfbf2ad3733a09/pulumi_splunk-1.3.0a1715229698.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 09:04:50] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1715063294.tar.gz tmp/pulumi_splunk-1.3.0a1715229698.tar.gz --markdown 20240509/p/pulumi-splunk/1.3.0a1715063294-1.3.0a1715229698/README.md --exclude *.pyd
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-09 09:04:50] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240509/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-09 09:04:50] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/89/c5/48479d7a72cbef1f6e3cdde2ca6d17d20418fe834dae62855b81dd07bfb0/dna_se-0.0.7.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 09:04:50] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.6.tar.gz tmp/dna_se-0.0.7.tar.gz --markdown 20240509/D/DNA-SE/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 09:04:50] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-05-09 09:04:50] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-09 09:04:50] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.87.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240509/b/bridgecrew/3.2.87-3.2.9/README.md --exclude *.pyd
+[2024-05-09 09:04:51] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.6.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.7.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 09:04:51] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715063294.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1715229698.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-09 09:04:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 09:04:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.87.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-09 09:04:51] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-09 09:04:51] INFO root fetch - main [MainThread]: Store serial: [23127430]
