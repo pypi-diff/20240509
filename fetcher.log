@@ -12079,3 +12079,91 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:39:35] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b2.tar.gz]
 [2024-05-09 07:39:35] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-09 07:39:35] INFO root fetch - main [MainThread]: Store serial: [23126657]
+[2024-05-09 07:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126657]
+[2024-05-09 07:41:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aiven
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otp-generate
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otp-generate
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: littlinz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: otp-generate
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robynpy
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-civo
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MaaFw
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agency-swarm
+[2024-05-09 07:41:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-cloudinit
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1715228122] Old Version: [1.5.0a1715059386]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [MaaFw]: New version: [1.7.1] Old Version: [1.7.0b2]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/cf/04/078b9cc631dfad202478d3980a110804668f26fb270ecb331eef2671f841/pulumi_cloudinit-1.5.0a1715059386.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 07:41:46] WARNING root fetch - processPackages [littlinz]: Skipping, unable to determine old version
+[2024-05-09 07:41:46] INFO root fetch - processPackages [MaaFw]: Downloading https://files.pythonhosted.org/packages/83/e4/1705f4169396eb72d4fca9c20e0943846cc6d94c2a81de24a0e49d7e69a0/MaaFw-1.7.0b2-py3-none-win_arm64.whl
+[2024-05-09 07:41:46] INFO root fetch - processPackages [littlinz]: Start processing: pulumi-cloudamqp
+[2024-05-09 07:41:46] INFO root fetch - main [MainThread]: End processing [littlinz] error
+[2024-05-09 07:41:46] INFO root fetch - processPackages [robynpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [agency-swarm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1715232078] Old Version: [2.4.0a1715059220]
+[2024-05-09 07:41:46] WARNING root fetch - processPackages [MaaFw]: Skipping package: exceeds size limit 11965844>=10485760
+[2024-05-09 07:41:46] INFO root fetch - main [MainThread]: End processing [MaaFw] error
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/cd/45/49655f76524f075cc9e95e79b8ca03ccf460d7cfa39c47d92d290fcbf670/otp_generate-0.0.2.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/cd/45/49655f76524f075cc9e95e79b8ca03ccf460d7cfa39c47d92d290fcbf670/otp_generate-0.0.2.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/cd/45/49655f76524f075cc9e95e79b8ca03ccf460d7cfa39c47d92d290fcbf670/otp_generate-0.0.2.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/b2/27/789883f295fdbdcfa3c2ec1c949e3147ea8dabbaa217391b98a5375ec103/pulumi_cloudinit-1.5.0a1715228122.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [robynpy]: Downloading https://files.pythonhosted.org/packages/ca/90/8379a85ba91798cd18de5643c774d2887f6243e5fb72af2c79113bdc7bc0/robynpy-0.0.1.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/f1/34/ebae563bdacb5dab70e87a610b73509ebec35333df0d0b15b92b377eb038/agency_swarm-0.2.1.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/b4/7c/6552e84e15427d6dffecabf6d69c33a1614e90c44a3086349c04a65a39f5/pulumi_civo-2.4.0a1715059220.tar.gz
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1715059386.tar.gz tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz --markdown 20240509/p/pulumi-cloudinit/1.5.0a1715059386-1.5.0a1715228122/README.md --exclude *.pyd
+[2024-05-09 07:41:46] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/9f/d9/3a304418e74fa0f244e48603366dee92195124a13d511eebc976fae288ba/otp_generate-0.0.3.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/9f/d9/3a304418e74fa0f244e48603366dee92195124a13d511eebc976fae288ba/otp_generate-0.0.3.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: Downloading https://files.pythonhosted.org/packages/9f/d9/3a304418e74fa0f244e48603366dee92195124a13d511eebc976fae288ba/otp_generate-0.0.3.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/82/b9/bc06ec60a95038c7504a7ccff1d18f2217f395b9282163cce3ca2819792c/pulumi_civo-2.4.0a1715232078.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/42/2a/ed7111b4b72011b1d5c635ac7fef00be18690ef77964ff9635320038bceb/agency_swarm-0.2.2.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otp_generate-0.0.2.tar.gz tmp/otp_generate-0.0.3.tar.gz --markdown 20240509/o/otp-generate/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [robynpy]: Downloading https://files.pythonhosted.org/packages/06/7f/75d4b957016c39bd27709156655e5244f73d0fdc7ffe480677a041221e5a/robynpy-0.0.2.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otp_generate-0.0.2.tar.gz tmp/otp_generate-0.0.3.tar.gz --markdown 20240509/o/otp-generate/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otp_generate-0.0.2.tar.gz tmp/otp_generate-0.0.3.tar.gz --markdown 20240509/o/otp-generate/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1715059220.tar.gz tmp/pulumi_civo-2.4.0a1715232078.tar.gz --markdown 20240509/p/pulumi-civo/2.4.0a1715059220-2.4.0a1715232078/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240509/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [robynpy]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [robynpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robynpy-0.0.1.tar.gz tmp/robynpy-0.0.2.tar.gz --markdown 20240509/r/robynpy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240509/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [agency-swarm]: executing diffoscope
+[2024-05-09 07:41:47] INFO root fetch - processPackages [agency-swarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency_swarm-0.2.1.tar.gz tmp/agency_swarm-0.2.2.tar.gz --markdown 20240509/a/agency-swarm/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715059386.tar.gz]
+[2024-05-09 07:41:47] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1715228122.tar.gz]
+[2024-05-09 07:41:47] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.2.tar.gz]
+[2024-05-09 07:41:47] INFO root fetch - processPackages [otp-generate]: Remove: archive file [/home/abi/fetcher/tmp/otp_generate-0.0.3.tar.gz]
+[2024-05-09 07:41:47] INFO root fetch - main [MainThread]: End processing [otp-generate]: success
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [otp-generate]: success
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [otp-generate]: success
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715059220.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1715232078.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-09 07:41:48] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.1.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.2.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [agency-swarm]: success
+[2024-05-09 07:41:48] INFO root fetch - processPackages [robynpy]: Remove: archive file [/home/abi/fetcher/tmp/robynpy-0.0.1.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - processPackages [robynpy]: Remove: archive file [/home/abi/fetcher/tmp/robynpy-0.0.2.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [robynpy]: success
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-09 07:41:48] INFO root fetch - main [MainThread]: Store serial: [23126697]
