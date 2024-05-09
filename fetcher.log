@@ -8452,3 +8452,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:34:08] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.5.1.tar.gz]
 [2024-05-09 04:34:08] INFO root fetch - main [MainThread]: End processing [avn]: success
 [2024-05-09 04:34:08] INFO root fetch - main [MainThread]: Store serial: [23125091]
+[2024-05-09 04:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125091]
+[2024-05-09 04:36:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambient-backend-api-client
+[2024-05-09 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cae-cli
+[2024-05-09 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kan-gpt
+[2024-05-09 04:36:19] WARNING root fetch - processPackages [ambient-backend-api-client]: Skipping, unable to determine old version
+[2024-05-09 04:36:19] INFO root fetch - main [MainThread]: End processing [ambient-backend-api-client] error
+[2024-05-09 04:36:19] INFO root fetch - processPackages [cae-cli]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-09 04:36:19] INFO root fetch - processPackages [kan-gpt]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-09 04:36:19] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/0a/10/b1099071cc1b61daf8ed91bb310b6d94e237a1995d9e8bf7e50030ddab42/kan_gpt-0.3.0.tar.gz
+[2024-05-09 04:36:19] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/d2/0b/17cf75d26bd93ab504b0e99d09c4a116dcf605eee75337ffa76f39107a12/cae_cli-0.2.4.tar.gz
+[2024-05-09 04:36:19] INFO root fetch - processPackages [kan-gpt]: Downloading https://files.pythonhosted.org/packages/dc/26/bd37cda5d5c6d09e4ee81bba3b23789139d61d431fbdfa3e34b641ec5d5e/kan_gpt-0.4.0.tar.gz
+[2024-05-09 04:36:19] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/de/c1/b81aa0054b9d6f7dd41d2a392bb3ca8aae919b23af39430623b5e9342746/cae_cli-0.2.5.tar.gz
+[2024-05-09 04:36:19] INFO root fetch - processPackages [kan-gpt]: executing diffoscope
+[2024-05-09 04:36:19] INFO root fetch - processPackages [kan-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kan_gpt-0.3.0.tar.gz tmp/kan_gpt-0.4.0.tar.gz --markdown 20240509/k/kan-gpt/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-09 04:36:19] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-09 04:36:19] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.4.tar.gz tmp/cae_cli-0.2.5.tar.gz --markdown 20240509/c/cae-cli/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-09 04:36:20] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.4.tar.gz]
+[2024-05-09 04:36:20] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.5.tar.gz]
+[2024-05-09 04:36:20] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-09 04:36:20] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-0.3.0.tar.gz]
+[2024-05-09 04:36:20] INFO root fetch - processPackages [kan-gpt]: Remove: archive file [/home/abi/fetcher/tmp/kan_gpt-0.4.0.tar.gz]
+[2024-05-09 04:36:20] INFO root fetch - main [MainThread]: End processing [kan-gpt]: success
+[2024-05-09 04:36:20] INFO root fetch - main [MainThread]: Store serial: [23125100]
