@@ -18479,3 +18479,113 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:18:17] INFO root fetch - processPackages [sortinghat]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat-1.0.1rc1.tar.gz]
 [2024-05-09 11:18:17] INFO root fetch - main [MainThread]: End processing [sortinghat]: success
 [2024-05-09 11:18:17] INFO root fetch - main [MainThread]: Store serial: [23128914]
+[2024-05-09 11:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128914]
+[2024-05-09 11:20:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yente
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aissemble-machine-learning-training-base
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patchwork-cli
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareyourcloning-linkml
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aissemble-machine-learning-training
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accessi
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hscloud
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scikit-build-core-conan
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codeforlife-portal
+[2024-05-09 11:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aissemble-machine-learning-inference
+[2024-05-09 11:20:27] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training]: New version: [1.7.0.dev1715246193] Old Version: [1.7.0.dev1715160290]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [accessi]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [shareyourcloning-linkml]: New version: [0.1.5a0] Old Version: [0.1.5.1a0]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-inference]: New version: [1.7.0.dev1715246237] Old Version: [1.7.0.dev1715160330]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: New version: [1.7.0.dev1715160401] Old Version: [1.7.0.dev1715160381]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [scikit-build-core-conan]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [yente]: New version: [3.8.9] Old Version: [3.8.8]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/c5/1b/38298497d6460d6d00993e21eb724a7de3af6eed64c7f367309ee35c33fb/patchwork_cli-0.0.6.tar.gz
+[2024-05-09 11:20:27] WARNING root fetch - processPackages [hscloud]: Skipping, unable to determine old version
+[2024-05-09 11:20:27] INFO root fetch - processPackages [hscloud]: Start processing: cfl-common
+[2024-05-09 11:20:27] INFO root fetch - main [MainThread]: End processing [hscloud] error
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training]: Downloading https://files.pythonhosted.org/packages/bf/d7/ae7a1a0c139c22b8ad67e64c07a7f02fb5f357da7515d790f82c6d4d0c3c/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/64/0b/9042d176781e792dbbd8648f21e1c90ac8b81902658013c8e09334072a94/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [scikit-build-core-conan]: Downloading https://files.pythonhosted.org/packages/6c/62/54f49e9aac30c2156da47ed0e7b44d259d198e316d9487886880ad7dc84c/scikit_build_core_conan-0.2.0.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/eb/65/aed70e8f173f8e4732eb23b4d7af30a26df90d948b731e909b309d9297d7/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/42/ea/53f63c4fe8586641e05900fc14be0093732c15e291ddb87e321b2f56cdbe/shareyourcloning_linkml-0.1.5.1a0.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [accessi]: Downloading https://files.pythonhosted.org/packages/36/e3/2008817f8c758245d09612ab3aff73ecc8497fce38de743471f111acc2c6/accessi-0.0.6.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/15/17/7bdfce40f711e5d4044309e4e2588f8faa07b41b3b4897dd67965d828dbe/yente-3.8.8.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/d9/33/39f9949fa26a0b62233cd5bbd67092270f536066f48eefff4b6beec03330/patchwork_cli-0.0.7.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training]: Downloading https://files.pythonhosted.org/packages/c8/57/26e0b75501722e5eaceb53de3e990ef6f4da8d96b47c4331c6092464cb6a/aissemble_machine_learning_training-1.7.0.dev1715246193.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [accessi]: Downloading https://files.pythonhosted.org/packages/97/5a/9ab8ffd10f8fd7a8be6f621d38bc23fcaa5f99930a52dc8a1137c31561b1/accessi-0.0.7.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Downloading https://files.pythonhosted.org/packages/71/39/f57825e41922052612868f3588337c5c29d713e6ce03f905216596be4e55/aissemble_machine_learning_inference-1.7.0.dev1715246237.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-09 11:20:27] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.6.tar.gz tmp/patchwork_cli-0.0.7.tar.gz --markdown 20240509/p/patchwork-cli/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 11:20:27] ERROR root fetch - processPackages [scikit-build-core-conan]: Unable to fetch info: No such project/version 'scikit-build-core-conan' 0.2.1
+[2024-05-09 11:20:27] INFO root fetch - processPackages [scikit-build-core-conan]: Start processing: sigmund
+[2024-05-09 11:20:27] INFO root fetch - main [MainThread]: End processing [scikit-build-core-conan] error
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Downloading https://files.pythonhosted.org/packages/5f/fb/ba2cfacd0621db4d38574374fc0e5313c07a59e52603da50b8869ecd17fe/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [shareyourcloning-linkml]: Downloading https://files.pythonhosted.org/packages/0f/d6/37cbc474f14e8bd22b92a3f169692472f5fb5ccababf6d31277e1eb194ea/shareyourcloning_linkml-0.1.5a0.tar.gz
+[2024-05-09 11:20:27] INFO root fetch - processPackages [accessi]: executing diffoscope
+[2024-05-09 11:20:27] INFO root fetch - processPackages [accessi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accessi-0.0.6.tar.gz tmp/accessi-0.0.7.tar.gz --markdown 20240509/a/accessi/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training]: executing diffoscope
+[2024-05-09 11:20:27] INFO root fetch - processPackages [aissemble-machine-learning-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz tmp/aissemble_machine_learning_training-1.7.0.dev1715246193.tar.gz --markdown 20240509/a/aissemble-machine-learning-training/1.7.0.dev1715160290-1.7.0.dev1715246193/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-09 11:20:28] INFO root fetch - processPackages [yente]: Downloading https://files.pythonhosted.org/packages/70/b3/67b457950cd04edf29988d4425581d2420d49a135879bf906222aa5360b5/yente-3.8.9.tar.gz
+[2024-05-09 11:20:28] INFO root fetch - processPackages [sigmund]: New version: [0.17.0] Old Version: [0.16.7]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz --markdown 20240509/a/aissemble-machine-learning-training-base/1.7.0.dev1715160381-1.7.0.dev1715160401/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-inference]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz tmp/aissemble_machine_learning_inference-1.7.0.dev1715246237.tar.gz --markdown 20240509/a/aissemble-machine-learning-inference/1.7.0.dev1715160330-1.7.0.dev1715246237/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [shareyourcloning-linkml]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [shareyourcloning-linkml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareyourcloning_linkml-0.1.5.1a0.tar.gz tmp/shareyourcloning_linkml-0.1.5a0.tar.gz --markdown 20240509/s/shareyourcloning-linkml/0.1.5.1a0-0.1.5a0/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-05-09 11:20:28] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240509/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [yente]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [yente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yente-3.8.8.tar.gz tmp/yente-3.8.9.tar.gz --markdown 20240509/y/yente/3.8.8-3.8.9/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/7a/cb/d72cb3b1f83cde206b26c1641834dc7347d88d1861a6c9e2f61064036ecc/sigmund-0.16.7.tar.gz
+[2024-05-09 11:20:28] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-05-09 11:20:28] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240509/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training-1.7.0.dev1715160290.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training-1.7.0.dev1715246193.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training]: Start processing: aissemble-machine-learning-sagemaker-training
+[2024-05-09 11:20:28] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-training]: success
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160381.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-training-base]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_training_base-1.7.0.dev1715160401.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-training-base]: success
+[2024-05-09 11:20:28] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: New version: [1.7.0.dev1715246273] Old Version: [1.7.0.dev1715160366]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [accessi]: Remove: archive file [/home/abi/fetcher/tmp/accessi-0.0.6.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - processPackages [accessi]: Remove: archive file [/home/abi/fetcher/tmp/accessi-0.0.7.tar.gz]
+[2024-05-09 11:20:28] INFO root fetch - main [MainThread]: End processing [accessi]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1715160330.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-inference]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_inference-1.7.0.dev1715246237.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-inference]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/81/dc/566a9fa04e3551b86e0027b082a5b2076f6224316a2fc041a968f9a4acc1/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz
+[2024-05-09 11:20:29] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.8.8.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - processPackages [yente]: Remove: archive file [/home/abi/fetcher/tmp/yente-3.8.9.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - main [MainThread]: End processing [yente]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.6.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.7.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.5.1a0.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - processPackages [shareyourcloning-linkml]: Remove: archive file [/home/abi/fetcher/tmp/shareyourcloning_linkml-0.1.5a0.tar.gz]
+[2024-05-09 11:20:29] INFO root fetch - main [MainThread]: End processing [shareyourcloning-linkml]: success
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Downloading https://files.pythonhosted.org/packages/64/cc/b86f54f686f75b3e0a294d0713af28a125b3594facdcd1987bdd3a753840/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715246273.tar.gz
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: executing diffoscope
+[2024-05-09 11:20:29] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715246273.tar.gz --markdown 20240509/a/aissemble-machine-learning-sagemaker-training/1.7.0.dev1715160366-1.7.0.dev1715246273/README.md --exclude *.pyd
+[2024-05-09 11:20:29] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/10/9c/c589bf5cc8dd5615de6a96b6cd485dd13e3112bc5a095de1c6f262f63115/sigmund-0.17.0.tar.gz
+[2024-05-09 11:20:30] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715160366.tar.gz]
+[2024-05-09 11:20:30] INFO root fetch - processPackages [aissemble-machine-learning-sagemaker-training]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_machine_learning_sagemaker_training-1.7.0.dev1715246273.tar.gz]
+[2024-05-09 11:20:30] INFO root fetch - main [MainThread]: End processing [aissemble-machine-learning-sagemaker-training]: success
+[2024-05-09 11:20:30] INFO root fetch - processPackages [sigmund]: executing diffoscope
+[2024-05-09 11:20:30] INFO root fetch - processPackages [sigmund]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmund-0.16.7.tar.gz tmp/sigmund-0.17.0.tar.gz --markdown 20240509/s/sigmund/0.16.7-0.17.0/README.md --exclude *.pyd
+[2024-05-09 11:20:31] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.16.7.tar.gz]
+[2024-05-09 11:20:31] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.17.0.tar.gz]
+[2024-05-09 11:20:31] INFO root fetch - main [MainThread]: End processing [sigmund]: success
+[2024-05-09 11:20:31] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-05-09 11:20:31] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-05-09 11:20:31] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-05-09 11:20:31] INFO root fetch - main [MainThread]: Store serial: [23128954]
