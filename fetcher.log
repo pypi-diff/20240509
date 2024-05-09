@@ -3590,3 +3590,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:56:26] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-09 02:56:26] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-09 02:56:26] INFO root fetch - main [MainThread]: Store serial: [23123098]
+[2024-05-09 02:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123098]
+[2024-05-09 02:58:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aviatrix-discovery
+[2024-05-09 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycde
+[2024-05-09 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aviatrix-migration
+[2024-05-09 02:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyff
+[2024-05-09 02:58:35] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev966] Old Version: [0.3.1.dev958]
+[2024-05-09 02:58:35] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.94] Old Version: [0.2.92]
+[2024-05-09 02:58:35] INFO root fetch - processPackages [dyff]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-09 02:58:35] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.94] Old Version: [0.2.92]
+[2024-05-09 02:58:35] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/51/26/494444471a1376cf8466083b640d3748c1982687207a4f9b7f1ae6b00c40/pycde-0.3.1.dev958-cp39-cp39-win_amd64.whl
+[2024-05-09 02:58:35] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/d1/ef/65a7a5b4f5d634110b94581a4f2ce5d4442afd98bbe32cb6bed0a00de505/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl
+[2024-05-09 02:58:35] INFO root fetch - processPackages [dyff]: Downloading https://files.pythonhosted.org/packages/58/83/6408d5f4c5f62f99c22e31aba9a2016045edc7f599f45fc0b873bf1c4781/dyff-0.9.3.tar.gz
+[2024-05-09 02:58:36] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/e0/c9/af6c4252f05296639f28b20c40882febc45277e9eabd2a654666372aa6b4/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl
+[2024-05-09 02:58:36] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/9d/67/4aaefc162dd0c73585b37ea7289f4922ef5b0d3b5c0f7850d9dba0d0fbc2/aviatrix_discovery-0.2.94-cp39-cp39-win_amd64.whl
+[2024-05-09 02:58:36] INFO root fetch - processPackages [dyff]: Downloading https://files.pythonhosted.org/packages/6f/89/6e983c55a3bbee3b30994be39d4c02e0b632a6f7b8e602a3f8845518e6bf/dyff-0.9.4.tar.gz
+[2024-05-09 02:58:36] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2024-05-09 02:58:36] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.94-cp39-cp39-win_amd64.whl.zip --markdown 20240509/a/aviatrix-discovery/0.2.92-0.2.94/README.md --exclude *.pyd
+[2024-05-09 02:58:36] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/e5/71/7af205e4230376e0f01fc7f4d4f7efb230f15fa91e4aa00e219d8bbdfd43/aviatrix_migration-0.2.94-cp37-cp37m-macosx_10_9_x86_64.whl
+[2024-05-09 02:58:36] INFO root fetch - processPackages [dyff]: executing diffoscope
+[2024-05-09 02:58:36] INFO root fetch - processPackages [dyff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-0.9.3.tar.gz tmp/dyff-0.9.4.tar.gz --markdown 20240509/d/dyff/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-09 02:58:37] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.92-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 02:58:37] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.94-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 02:58:37] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2024-05-09 02:58:37] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2024-05-09 02:58:37] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.94-cp37-cp37m-macosx_10_9_x86_64.whl.zip --markdown 20240509/a/aviatrix-migration/0.2.92-0.2.94/README.md --exclude *.pyd
+[2024-05-09 02:58:38] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/86/3d/5bcc01cafaba4c2003f07949e8302c727e297ca9b2d295c1a7517eee1a0b/pycde-0.3.1.dev966-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 02:58:38] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21496864>=10485760
+[2024-05-09 02:58:38] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-05-09 02:58:38] INFO root fetch - processPackages [dyff]: Remove: archive file [/home/abi/fetcher/tmp/dyff-0.9.3.tar.gz]
+[2024-05-09 02:58:38] INFO root fetch - processPackages [dyff]: Remove: archive file [/home/abi/fetcher/tmp/dyff-0.9.4.tar.gz]
+[2024-05-09 02:58:38] INFO root fetch - main [MainThread]: End processing [dyff]: success
+[2024-05-09 02:58:39] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.92-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 02:58:39] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.94-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
+[2024-05-09 02:58:39] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2024-05-09 02:58:39] INFO root fetch - main [MainThread]: Store serial: [23123131]
