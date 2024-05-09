@@ -20265,3 +20265,55 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:27:26] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post484-py3-none-any.whl.zip]
 [2024-05-09 12:27:26] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-09 12:27:26] INFO root fetch - main [MainThread]: Store serial: [23129656]
+[2024-05-09 12:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129656]
+[2024-05-09 12:29:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cugdt
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meteor
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kafka
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openmc-plot
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hcube
+[2024-05-09 12:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lovis4u
+[2024-05-09 12:29:35] INFO root fetch - processPackages [openmc-plot]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 12:29:35] INFO root fetch - processPackages [meteor]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-09 12:29:35] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1715245833] Old Version: [3.8.0a1715233851]
+[2024-05-09 12:29:35] WARNING root fetch - processPackages [cugdt]: Skipping, unable to determine old version
+[2024-05-09 12:29:35] INFO root fetch - main [MainThread]: End processing [cugdt] error
+[2024-05-09 12:29:35] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-09 12:29:35] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 12:29:35] INFO root fetch - processPackages [meteor]: Downloading https://files.pythonhosted.org/packages/3c/00/dcdc6aeff6041dad73bc26ae0d441b05b1efdb21ffcbd99b1196377024e4/meteor-2.0.8.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [openmc-plot]: Downloading https://files.pythonhosted.org/packages/46/fb/d158a0e6b93d2b5e47f7e0b6f65b7ae0c329e53202c34542614d676e64eb/openmc_plot-0.3.1.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/41/6c/0065fea05051049ff35d2567779c0e37ce781b46fccec10ba459039c687b/pulumi_kafka-3.8.0a1715233851.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [lovis4u]: New version: [0.0.3.6] Old Version: [0.0.3.5]
+[2024-05-09 12:29:35] WARNING root fetch - processPackages [meteor]: Skipping package: exceeds size limit 64959858>=10485760
+[2024-05-09 12:29:35] INFO root fetch - main [MainThread]: End processing [meteor] error
+[2024-05-09 12:29:35] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-09 12:29:35] INFO root fetch - processPackages [lovis4u]: Downloading https://files.pythonhosted.org/packages/f9/ba/a531ab84fc6016e27d9af21a9888e64dd76015a49b43a5106fb746ed3cfb/lovis4u-0.0.3.5.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [openmc-plot]: Downloading https://files.pythonhosted.org/packages/8f/87/6422b75a1a833da3ed95ca650a1b5e6b3b163d15770bafaa93b0ed6ca426/openmc_plot-0.3.2.tar.gz
+[2024-05-09 12:29:35] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/09/92/518ec268ab85f432931e2f9958d5d7649b877ef99a0cd72c19ac9df9fe1d/pulumi_kafka-3.8.0a1715245833.tar.gz
+[2024-05-09 12:29:35] WARNING root fetch - processPackages [lovis4u]: Skipping package: exceeds size limit 71364059>=10485760
+[2024-05-09 12:29:35] INFO root fetch - main [MainThread]: End processing [lovis4u] error
+[2024-05-09 12:29:35] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-09 12:29:35] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1715233851.tar.gz tmp/pulumi_kafka-3.8.0a1715245833.tar.gz --markdown 20240509/p/pulumi-kafka/3.8.0a1715233851-3.8.0a1715245833/README.md --exclude *.pyd
+[2024-05-09 12:29:36] INFO root fetch - processPackages [openmc-plot]: executing diffoscope
+[2024-05-09 12:29:36] INFO root fetch - processPackages [openmc-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmc_plot-0.3.1.tar.gz tmp/openmc_plot-0.3.2.tar.gz --markdown 20240509/o/openmc-plot/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 12:29:36] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-09 12:29:36] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-09 12:29:36] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240509/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 12:29:36] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715233851.tar.gz]
+[2024-05-09 12:29:36] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1715245833.tar.gz]
+[2024-05-09 12:29:36] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-09 12:29:36] INFO root fetch - processPackages [openmc-plot]: Remove: archive file [/home/abi/fetcher/tmp/openmc_plot-0.3.1.tar.gz]
+[2024-05-09 12:29:36] INFO root fetch - processPackages [openmc-plot]: Remove: archive file [/home/abi/fetcher/tmp/openmc_plot-0.3.2.tar.gz]
+[2024-05-09 12:29:36] INFO root fetch - main [MainThread]: End processing [openmc-plot]: success
+[2024-05-09 12:29:37] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-09 12:29:37] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-09 12:29:37] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-09 12:29:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-09 12:29:39] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-09 12:29:39] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240509/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-09 12:29:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-09 12:29:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-09 12:29:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-09 12:29:40] INFO root fetch - main [MainThread]: Store serial: [23129682]
