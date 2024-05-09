@@ -10293,3 +10293,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:02:13] INFO root fetch - processPackages [cdktf-cdktf-provider-helm]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-helm-9.0.2.tar.gz]
 [2024-05-09 06:02:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-helm]: success
 [2024-05-09 06:02:13] INFO root fetch - main [MainThread]: Store serial: [23125907]
+[2024-05-09 06:04:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125907]
+[2024-05-09 06:04:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokentamer
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decomp2dbg
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: messagev
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viewai
+[2024-05-09 06:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cpu-utilization-monitoring
+[2024-05-09 06:04:22] INFO root fetch - processPackages [messagev]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 06:04:22] WARNING root fetch - processPackages [viewai]: Skipping, unable to determine old version
+[2024-05-09 06:04:22] INFO root fetch - main [MainThread]: End processing [viewai] error
+[2024-05-09 06:04:22] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/54/61/27e488f66351097e7075e1e2c540760402993a07ed5b47aa8aa65cf44316/messagev-0.0.7.tar.gz
+[2024-05-09 06:04:22] WARNING root fetch - processPackages [cpu-utilization-monitoring]: Skipping, unable to determine old version
+[2024-05-09 06:04:22] INFO root fetch - main [MainThread]: End processing [cpu-utilization-monitoring] error
+[2024-05-09 06:04:22] WARNING root fetch - processPackages [tokentamer]: Skipping, unable to determine old version
+[2024-05-09 06:04:22] INFO root fetch - main [MainThread]: End processing [tokentamer] error
+[2024-05-09 06:04:22] INFO root fetch - processPackages [decomp2dbg]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-09 06:04:22] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-09 06:04:22] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/20/f3/692ca6221f16dd623c2ac30e42afae9ea3563ecec5657ad9399a1c39ff2f/messagev-0.0.8.tar.gz
+[2024-05-09 06:04:22] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/5c/61/c796627ec977113559f810400f15f1cc1272dea1d4cb7724473e531dd9b9/decomp2dbg-3.9.0.tar.gz
+[2024-05-09 06:04:22] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-05-09 06:04:22] INFO root fetch - processPackages [messagev]: executing diffoscope
+[2024-05-09 06:04:22] INFO root fetch - processPackages [messagev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messagev-0.0.7.tar.gz tmp/messagev-0.0.8.tar.gz --markdown 20240509/m/messagev/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 06:04:22] INFO root fetch - processPackages [decomp2dbg]: Downloading https://files.pythonhosted.org/packages/73/c9/5f0fdc71b12510a9903bbcf1f49f9e9df70c21e5575258145df5f8c2609c/decomp2dbg-3.9.1.tar.gz
+[2024-05-09 06:04:23] INFO root fetch - processPackages [decomp2dbg]: executing diffoscope
+[2024-05-09 06:04:23] INFO root fetch - processPackages [decomp2dbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decomp2dbg-3.9.0.tar.gz tmp/decomp2dbg-3.9.1.tar.gz --markdown 20240509/d/decomp2dbg/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-09 06:04:23] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.7.tar.gz]
+[2024-05-09 06:04:23] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.8.tar.gz]
+[2024-05-09 06:04:23] INFO root fetch - main [MainThread]: End processing [messagev]: success
+[2024-05-09 06:04:23] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-05-09 06:04:23] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-05-09 06:04:23] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240509/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-09 06:04:23] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.9.0.tar.gz]
+[2024-05-09 06:04:23] INFO root fetch - processPackages [decomp2dbg]: Remove: archive file [/home/abi/fetcher/tmp/decomp2dbg-3.9.1.tar.gz]
+[2024-05-09 06:04:23] INFO root fetch - main [MainThread]: End processing [decomp2dbg]: success
+[2024-05-09 06:04:26] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-05-09 06:04:26] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-05-09 06:04:26] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-05-09 06:04:26] INFO root fetch - main [MainThread]: Store serial: [23125930]
