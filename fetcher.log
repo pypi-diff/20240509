@@ -7994,3 +7994,38 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:04:54] INFO root fetch - processPackages [sparksql-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/sparksql-jupyter-0.0.5.tar.gz]
 [2024-05-09 04:04:54] INFO root fetch - main [MainThread]: End processing [sparksql-jupyter]: success
 [2024-05-09 04:04:54] INFO root fetch - main [MainThread]: Store serial: [23124714]
+[2024-05-09 04:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124714]
+[2024-05-09 04:07:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2024-05-09 04:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcl-lib
+[2024-05-09 04:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-bot
+[2024-05-09 04:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pnorm
+[2024-05-09 04:07:04] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-05-09 04:07:04] INFO root fetch - processPackages [pnorm]: New version: [0.0.0rc1] Old Version: [0.0.0rc0]
+[2024-05-09 04:07:04] INFO root fetch - processPackages [antchain-bot]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-09 04:07:04] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-05-09 04:07:04] INFO root fetch - processPackages [kcl-lib]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-09 04:07:04] INFO root fetch - processPackages [pnorm]: Downloading https://files.pythonhosted.org/packages/0f/0a/0e34fc4e9ec2c91d10eae7355b75e23fb66b8e968cf36ff510743d91efe2/pnorm-0.0.0rc0.tar.gz
+[2024-05-09 04:07:04] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/0d/86/cbf1b955dbc338cc6302fd0ed42f2ae42c1245a00c6439e1fba6cae53d92/antchain_bot-1.9.7.tar.gz
+[2024-05-09 04:07:04] INFO root fetch - processPackages [kcl-lib]: Downloading https://files.pythonhosted.org/packages/67/b2/baaf49e9d010a3145d7dacd47571c86b614194d05d63f031d61402069b55/kcl_lib-0.8.6.tar.gz
+[2024-05-09 04:07:04] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-05-09 04:07:04] WARNING root fetch - processPackages [kcl-lib]: Skipping package: exceeds size limit 90098241>=10485760
+[2024-05-09 04:07:04] INFO root fetch - main [MainThread]: End processing [kcl-lib] error
+[2024-05-09 04:07:05] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-05-09 04:07:05] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240509/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-05-09 04:07:05] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/fa/96/2ef07a099db771e78580bcb8a6f9269b6404019fd3aefd68b80738181db3/antchain_bot-1.9.8.tar.gz
+[2024-05-09 04:07:05] INFO root fetch - processPackages [pnorm]: Downloading https://files.pythonhosted.org/packages/ff/a5/224763ab4e4d6a199c21d3ea07e59750092131fb19ac04d9ac4c1daa46f4/pnorm-0.0.0rc1.tar.gz
+[2024-05-09 04:07:05] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2024-05-09 04:07:05] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.9.7.tar.gz tmp/antchain_bot-1.9.8.tar.gz --markdown 20240509/a/antchain-bot/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-09 04:07:05] INFO root fetch - processPackages [pnorm]: executing diffoscope
+[2024-05-09 04:07:05] INFO root fetch - processPackages [pnorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnorm-0.0.0rc0.tar.gz tmp/pnorm-0.0.0rc1.tar.gz --markdown 20240509/p/pnorm/0.0.0rc0-0.0.0rc1/README.md --exclude *.pyd
+[2024-05-09 04:07:06] INFO root fetch - processPackages [pnorm]: Remove: archive file [/home/abi/fetcher/tmp/pnorm-0.0.0rc0.tar.gz]
+[2024-05-09 04:07:06] INFO root fetch - processPackages [pnorm]: Remove: archive file [/home/abi/fetcher/tmp/pnorm-0.0.0rc1.tar.gz]
+[2024-05-09 04:07:06] INFO root fetch - main [MainThread]: End processing [pnorm]: success
+[2024-05-09 04:07:06] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.7.tar.gz]
+[2024-05-09 04:07:06] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
+[2024-05-09 04:07:06] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2024-05-09 04:07:07] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-05-09 04:07:07] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-05-09 04:07:07] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-05-09 04:07:07] INFO root fetch - main [MainThread]: Store serial: [23124739]
