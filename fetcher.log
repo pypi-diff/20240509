@@ -3647,3 +3647,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:00:49] INFO root fetch - processPackages [ngstrefftz]: Remove: archive file [/home/abi/fetcher/tmp/ngstrefftz-0.3.2402.dev33.tar.gz]
 [2024-05-09 03:00:49] INFO root fetch - main [MainThread]: End processing [ngstrefftz]: success
 [2024-05-09 03:00:49] INFO root fetch - main [MainThread]: Store serial: [23123167]
+[2024-05-09 03:02:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123167]
+[2024-05-09 03:02:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 03:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samexporter
+[2024-05-09 03:02:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thaumantiasz
+[2024-05-09 03:02:58] INFO root fetch - processPackages [samexporter]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-09 03:02:58] WARNING root fetch - processPackages [thaumantiasz]: Skipping, unable to determine old version
+[2024-05-09 03:02:58] INFO root fetch - main [MainThread]: End processing [thaumantiasz] error
+[2024-05-09 03:02:58] INFO root fetch - processPackages [samexporter]: Downloading https://files.pythonhosted.org/packages/b1/7a/bdfa5aecad6523714951b0f1726d060b44df8b07bafc440d1ad003d99098/samexporter-0.2.0.tar.gz
+[2024-05-09 03:02:59] INFO root fetch - processPackages [samexporter]: Downloading https://files.pythonhosted.org/packages/c8/32/8662691599b7a6c67e5fa83d1e1b320ce71fa1275f1ab436b05f5adc0e06/samexporter-0.3.0-py3-none-any.whl
+[2024-05-09 03:02:59] INFO root fetch - processPackages [samexporter]: executing diffoscope
+[2024-05-09 03:02:59] INFO root fetch - processPackages [samexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samexporter-0.2.0.tar.gz tmp/samexporter-0.3.0-py3-none-any.whl.zip --markdown 20240509/s/samexporter/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-09 03:02:59] INFO root fetch - processPackages [samexporter]: Remove: archive file [/home/abi/fetcher/tmp/samexporter-0.2.0.tar.gz]
+[2024-05-09 03:02:59] INFO root fetch - processPackages [samexporter]: Remove: archive file [/home/abi/fetcher/tmp/samexporter-0.3.0-py3-none-any.whl.zip]
+[2024-05-09 03:02:59] INFO root fetch - main [MainThread]: End processing [samexporter]: success
+[2024-05-09 03:02:59] INFO root fetch - main [MainThread]: Store serial: [23123176]
