@@ -20611,3 +20611,36 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:47:26] INFO root fetch - processPackages [PythonCodeVault]: Remove: archive file [/home/abi/fetcher/tmp/PythonCodeVault-0.0.9.tar.gz]
 [2024-05-09 12:47:26] INFO root fetch - main [MainThread]: End processing [PythonCodeVault]: success
 [2024-05-09 12:47:26] INFO root fetch - main [MainThread]: Store serial: [23129795]
+[2024-05-09 12:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129795]
+[2024-05-09 12:49:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huntleyz
+[2024-05-09 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: debby
+[2024-05-09 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danling
+[2024-05-09 12:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-splunk-addon-ui-smartx
+[2024-05-09 12:49:35] INFO root fetch - processPackages [debby]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-09 12:49:35] INFO root fetch - processPackages [debby]: Downloading https://files.pythonhosted.org/packages/6e/4a/1b92a0f1d748b7494bd13be96c37907d0bc2dab3ec7930edb7ef065bd269/debby-1.0.4.tar.gz
+[2024-05-09 12:49:35] WARNING root fetch - processPackages [huntleyz]: Skipping, unable to determine old version
+[2024-05-09 12:49:35] INFO root fetch - main [MainThread]: End processing [huntleyz] error
+[2024-05-09 12:49:35] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: New version: [3.1.0] Old Version: [3.0.2]
+[2024-05-09 12:49:35] INFO root fetch - processPackages [danling]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-09 12:49:35] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Downloading https://files.pythonhosted.org/packages/a7/8b/bca1c23c98dde1fc8ef187b61ad9a5d7fa723ecf180d69050a78fe8f3875/pytest_splunk_addon_ui_smartx-3.0.2.tar.gz
+[2024-05-09 12:49:35] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/64/8e/5500cfcb1dd62a95d72522bd0a3d4ef2ece9a8cb3d078e3c473760acdce4/danling-0.3.4.tar.gz
+[2024-05-09 12:49:35] INFO root fetch - processPackages [debby]: Downloading https://files.pythonhosted.org/packages/72/4d/54d60e2e988af5352817448785319b6badba1de83797fd2d97eff21257ba/debby-1.1.0.tar.gz
+[2024-05-09 12:49:35] INFO root fetch - processPackages [debby]: executing diffoscope
+[2024-05-09 12:49:35] INFO root fetch - processPackages [debby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debby-1.0.4.tar.gz tmp/debby-1.1.0.tar.gz --markdown 20240509/d/debby/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-09 12:49:36] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Downloading https://files.pythonhosted.org/packages/16/7d/958dc5a8e13ba6c7d96d696571630c841c584f3aa3199510072c0a020697/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz
+[2024-05-09 12:49:36] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: executing diffoscope
+[2024-05-09 12:49:36] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_splunk_addon_ui_smartx-3.0.2.tar.gz tmp/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz --markdown 20240509/p/pytest-splunk-addon-ui-smartx/3.0.2-3.1.0/README.md --exclude *.pyd
+[2024-05-09 12:49:36] INFO root fetch - processPackages [debby]: Remove: archive file [/home/abi/fetcher/tmp/debby-1.0.4.tar.gz]
+[2024-05-09 12:49:36] INFO root fetch - processPackages [debby]: Remove: archive file [/home/abi/fetcher/tmp/debby-1.1.0.tar.gz]
+[2024-05-09 12:49:36] INFO root fetch - main [MainThread]: End processing [debby]: success
+[2024-05-09 12:49:36] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/e9/6a/d72ef1776f3f498c9e760e7623763853f28aebbce6aa7a2ac0f205c0e575/danling-0.3.5.tar.gz
+[2024-05-09 12:49:36] INFO root fetch - processPackages [danling]: executing diffoscope
+[2024-05-09 12:49:36] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.3.4.tar.gz tmp/danling-0.3.5.tar.gz --markdown 20240509/d/danling/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-09 12:49:37] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon_ui_smartx-3.0.2.tar.gz]
+[2024-05-09 12:49:37] INFO root fetch - processPackages [pytest-splunk-addon-ui-smartx]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon_ui_smartx-3.1.0.tar.gz]
+[2024-05-09 12:49:37] INFO root fetch - main [MainThread]: End processing [pytest-splunk-addon-ui-smartx]: success
+[2024-05-09 12:49:38] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.4.tar.gz]
+[2024-05-09 12:49:38] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.5.tar.gz]
+[2024-05-09 12:49:38] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2024-05-09 12:49:38] INFO root fetch - main [MainThread]: Store serial: [23129808]
