@@ -20449,3 +20449,60 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:38:42] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.2.4.tar.gz]
 [2024-05-09 12:38:42] INFO root fetch - main [MainThread]: End processing [ai21]: success
 [2024-05-09 12:38:42] INFO root fetch - main [MainThread]: Store serial: [23129735]
+[2024-05-09 12:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129735]
+[2024-05-09 12:40:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libgunshotmatch-mpl
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-prep-lab-kfp
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemgpt-nightly
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytiqs
+[2024-05-09 12:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threed-optix
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pytiqs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [libgunshotmatch-mpl]: New version: [0.6.0b1] Old Version: [0.5.2]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [data-prep-lab-kfp]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240508] Old Version: [1.0.0.dev20240507]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [libgunshotmatch-mpl]: Downloading https://files.pythonhosted.org/packages/54/88/76c621c8c16ff6433a83f01a3123a8fc7822115eac6129a296870bcd0ffc/libgunshotmatch_mpl-0.5.2.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [threed-optix]: New version: [5.0.9] Old Version: [5.0.7]
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/95/8e/30a66078f825e4ef7045cffc809f51ec2b0ff062088fd5a1af1b443447a6/pytiqs-1.0.8.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/2d/6f/8ad98d051e2f1c775f84c32d1044591ddf42994b099c41320df488a1f060/data_prep_lab_kfp-0.1.7.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/61/1a/481be8bc24c3bece159e108d7a8a789dba7792b03b5b898241d7747cf35c/skypilot_nightly-1.0.0.dev20240507.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/94/03/e30594f053e612d06755b9c3cb0fcbb3e3d92b589787fc330cf732bbce9b/threed_optix-5.0.7.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [libgunshotmatch-mpl]: Downloading https://files.pythonhosted.org/packages/c2/38/482bbe87803c6f769512a7ecd37d36ed9393956cda717a3eaa96c4ae18a0/libgunshotmatch_mpl-0.6.0b1.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/58/d2/c0049b0f30ead12686d88eed4acd08a2cd919d150d089ac12e4616494aed/pytiqs-1.0.9.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [data-prep-lab-kfp]: Downloading https://files.pythonhosted.org/packages/20/d8/51c32a2e9e1946af419d0e3338274227fb7b0628d7ddd1c54e544fa2ad4b/data_prep_lab_kfp-0.1.8.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-09 12:40:51] INFO root fetch - processPackages [libgunshotmatch-mpl]: executing diffoscope
+[2024-05-09 12:40:51] INFO root fetch - processPackages [libgunshotmatch-mpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libgunshotmatch_mpl-0.5.2.tar.gz tmp/libgunshotmatch_mpl-0.6.0b1.tar.gz --markdown 20240509/l/libgunshotmatch-mpl/0.5.2-0.6.0b1/README.md --exclude *.pyd
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-05-09 12:40:51] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.8.tar.gz tmp/pytiqs-1.0.9.tar.gz --markdown 20240509/p/pytiqs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 12:40:51] INFO root fetch - processPackages [data-prep-lab-kfp]: executing diffoscope
+[2024-05-09 12:40:51] INFO root fetch - processPackages [data-prep-lab-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_lab_kfp-0.1.7.tar.gz tmp/data_prep_lab_kfp-0.1.8.tar.gz --markdown 20240509/d/data-prep-lab-kfp/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 12:40:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8d/25/453712df540838afb42d7c894304ec43ee2e509004194b8e281783bf35bc/skypilot_nightly-1.0.0.dev20240508.tar.gz
+[2024-05-09 12:40:52] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-09 12:40:52] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240509/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-09 12:40:52] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/f1/39/19c79d3cf920bfe16b3562938107081ddeecaf8deb4def0b8d29f8054a66/threed_optix-5.0.9-py3-none-any.whl
+[2024-05-09 12:40:52] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-09 12:40:52] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz tmp/skypilot_nightly-1.0.0.dev20240508.tar.gz --markdown 20240509/s/skypilot-nightly/1.0.0.dev20240507-1.0.0.dev20240508/README.md --exclude *.pyd
+[2024-05-09 12:40:52] INFO root fetch - processPackages [libgunshotmatch-mpl]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch_mpl-0.5.2.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - processPackages [libgunshotmatch-mpl]: Remove: archive file [/home/abi/fetcher/tmp/libgunshotmatch_mpl-0.6.0b1.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - main [MainThread]: End processing [libgunshotmatch-mpl]: success
+[2024-05-09 12:40:52] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.8.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.9.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-05-09 12:40:52] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.7.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - processPackages [data-prep-lab-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_lab_kfp-0.1.8.tar.gz]
+[2024-05-09 12:40:52] INFO root fetch - main [MainThread]: End processing [data-prep-lab-kfp]: success
+[2024-05-09 12:40:52] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-09 12:40:52] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.7.tar.gz tmp/threed_optix-5.0.9-py3-none-any.whl.zip --markdown 20240509/t/threed-optix/5.0.7-5.0.9/README.md --exclude *.pyd
+[2024-05-09 12:40:53] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-09 12:40:53] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-09 12:40:53] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-09 12:40:53] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.7.tar.gz]
+[2024-05-09 12:40:53] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.9-py3-none-any.whl.zip]
+[2024-05-09 12:40:53] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-09 12:40:54] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240507.tar.gz]
+[2024-05-09 12:40:54] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240508.tar.gz]
+[2024-05-09 12:40:54] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-09 12:40:54] INFO root fetch - main [MainThread]: Store serial: [23129750]
