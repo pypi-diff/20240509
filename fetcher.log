@@ -18589,3 +18589,180 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:20:31] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-05-09 11:20:31] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-05-09 11:20:31] INFO root fetch - main [MainThread]: Store serial: [23128954]
+[2024-05-09 11:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128954]
+[2024-05-09 11:22:40] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intrinez
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perceval-opnfv
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perceval-puppet
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval-mozilla
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py5paisa
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightkube-models
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightkube-models
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: perceval-weblate
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightkube-models
+[2024-05-09 11:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightkube-models
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-weblate]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-opnfv]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-puppet]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-mozilla]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 11:22:40] WARNING root fetch - processPackages [intrinez]: Skipping, unable to determine old version
+[2024-05-09 11:22:40] INFO root fetch - processPackages [intrinez]: Start processing: lightkube-models
+[2024-05-09 11:22:40] INFO root fetch - main [MainThread]: End processing [intrinez] error
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/71/6c/67467db1d57342ef92f265d2b47e75f3b1928bf448d7222cece3db0d6374/perceval_weblate-1.0.0rc2.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [py5paisa]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/b0/3d/a1834436db592451e8d24360e822b57a5e86a0d3f50def015d2ed4cfe116/perceval_opnfv-1.0.0rc2.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/aa/18/0430e4b1c074e2bf5baed5c00255c1661c0801887606ad28f571eb50c492/perceval_mozilla-1.0.0rc2.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/de/f8/8e69f85af2a94cb66d379bcc603a153ed1be6aaa3f9ab3465a2782e882bc/perceval_puppet-1.0.0rc2.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-weblate]: Downloading https://files.pythonhosted.org/packages/e0/b7/e69be113bd52651788e540a915ae6578663b0c01b9610aa38aed5424f346/perceval_weblate-1.0.1rc1.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-opnfv]: Downloading https://files.pythonhosted.org/packages/44/8c/9866634f881ea00c96eae3babc8e9a8d084ba6c381b6312533f3b0fb7c47/perceval_opnfv-1.0.1rc1.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-puppet]: Downloading https://files.pythonhosted.org/packages/c3/77/22ee840fbb3ec18f3d8ff39f3d605a733b2e2b5ca89800fdfa629008498a/perceval_puppet-1.0.1rc1.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [py5paisa]: Downloading https://files.pythonhosted.org/packages/0f/15/9d61007e1254e95db0423683819e91a95e78386cee1f7470a347f713046c/py5paisa-0.7.8.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-mozilla]: Downloading https://files.pythonhosted.org/packages/c7/d1/87d0d5e3d4be51e96d63311bb83999b60a68e8aae355bef509b26c62950a/perceval_mozilla-1.0.1rc1.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-weblate]: executing diffoscope
+[2024-05-09 11:22:40] INFO root fetch - processPackages [perceval-weblate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_weblate-1.0.0rc2.tar.gz tmp/perceval_weblate-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-weblate/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-opnfv]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-opnfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_opnfv-1.0.0rc2.tar.gz tmp/perceval_opnfv-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-opnfv/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-puppet]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-puppet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_puppet-1.0.0rc2.tar.gz tmp/perceval_puppet-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-puppet/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-mozilla]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-mozilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_mozilla-1.0.0rc2.tar.gz tmp/perceval_mozilla-1.0.1rc1.tar.gz --markdown 20240509/p/perceval-mozilla/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [py5paisa]: Downloading https://files.pythonhosted.org/packages/79/aa/254a7262cfa5c10bfd4e79a7aef54f4be53abe11b294111ecded28191b21/py5paisa-0.7.9.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:41] INFO root fetch - processPackages [py5paisa]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [py5paisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py5paisa-0.7.8.tar.gz tmp/py5paisa-0.7.9.tar.gz --markdown 20240509/p/py5paisa/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.0rc2.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-weblate]: Remove: archive file [/home/abi/fetcher/tmp/perceval_weblate-1.0.1rc1.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-weblate]: Start processing: lightkube-models
+[2024-05-09 11:22:41] INFO root fetch - main [MainThread]: End processing [perceval-weblate]: success
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.0rc2.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.1rc1.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-opnfv]: Start processing: lightkube-models
+[2024-05-09 11:22:41] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.0rc2.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-puppet]: Remove: archive file [/home/abi/fetcher/tmp/perceval_puppet-1.0.1rc1.tar.gz]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [perceval-puppet]: Start processing: lightkube-models
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - main [MainThread]: End processing [perceval-puppet]: success
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:41] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:42] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.0rc2.tar.gz]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [perceval-mozilla]: Remove: archive file [/home/abi/fetcher/tmp/perceval_mozilla-1.0.1rc1.tar.gz]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [perceval-mozilla]: Start processing: lightkube-models
+[2024-05-09 11:22:42] INFO root fetch - main [MainThread]: End processing [perceval-mozilla]: success
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:42] INFO root fetch - processPackages [py5paisa]: Remove: archive file [/home/abi/fetcher/tmp/py5paisa-0.7.8.tar.gz]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [py5paisa]: Remove: archive file [/home/abi/fetcher/tmp/py5paisa-0.7.9.tar.gz]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [py5paisa]: Start processing: lightkube-models
+[2024-05-09 11:22:42] INFO root fetch - main [MainThread]: End processing [py5paisa]: success
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:42] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.7.tar.gz]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.8.tar.gz]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:43] ERROR root fetch - processPackages [lightkube-models]: Diffoscope failed: time="2024-05-09T11:22:42+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
+
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Start processing: lightkube-models
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models] error
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: New version: [1.30.0.8] Old Version: [1.30.0.7]
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.7.tar.gz]
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.7.tar.gz]
+[2024-05-09 11:22:43] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:43] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/6f/dc/f2fc4578b0a087673f6ba3f3ab17da7addc18cf559ba39c74fdb35a24d46/lightkube-models-1.30.0.7.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: Downloading https://files.pythonhosted.org/packages/e0/31/576f5cf2e87f749c893591235c0051afb1a3e456d0cdd876a1ec4aa7123d/lightkube-models-1.30.0.8.tar.gz
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: executing diffoscope
+[2024-05-09 11:22:44] INFO root fetch - processPackages [lightkube-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-models-1.30.0.7.tar.gz tmp/lightkube-models-1.30.0.8.tar.gz --markdown 20240509/l/lightkube-models/1.30.0.7-1.30.0.8/README.md --exclude *.pyd
+[2024-05-09 11:22:45] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.7.tar.gz]
+[2024-05-09 11:22:45] INFO root fetch - processPackages [lightkube-models]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-models-1.30.0.8.tar.gz]
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
+[2024-05-09 11:22:45] INFO root fetch - main [MainThread]: Store serial: [23129023]
