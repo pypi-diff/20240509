@@ -15388,3 +15388,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:12:46] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.49-py3-none-any.whl.zip]
 [2024-05-09 10:12:46] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-09 10:12:46] INFO root fetch - main [MainThread]: Store serial: [23127914]
+[2024-05-09 10:14:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127914]
+[2024-05-09 10:14:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 10:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DNA-SE
+[2024-05-09 10:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlee
+[2024-05-09 10:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-core-python
+[2024-05-09 10:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cheatshh
+[2024-05-09 10:14:55] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 10:14:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: New version: [1.7.0.dev1715156174] Old Version: [1.7.0.dev1715156166]
+[2024-05-09 10:14:55] ERROR root fetch - processPackages [cheatshh]: Unable to get metadata: No such project 'cheatshh'
+[2024-05-09 10:14:55] INFO root fetch - main [MainThread]: End processing [cheatshh] error
+[2024-05-09 10:14:55] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b9] Old Version: [0.0.3b8]
+[2024-05-09 10:14:55] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/e6/2d/80a3131d3c2f5d7b64c8d22c14f37038d1ab580397c578934b37363a5fd6/dna_se-0.0.6.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/b9/53/d70caafbd3ce1d409f96591711c46e74e5fa71b1d21c444680dd44dd3492/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9f/72/688eb2e27a31cb96a74e93e99a90d6fe1cf7353cce9f00adbde3974adb74/crawlee-0.0.3b8.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/89/c5/48479d7a72cbef1f6e3cdde2ca6d17d20418fe834dae62855b81dd07bfb0/dna_se-0.0.7.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: Downloading https://files.pythonhosted.org/packages/2c/56/823d92f6765fac67700e56384bb596978cca655d4fd57a73aa37543cb27b/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 10:14:55] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.6.tar.gz tmp/dna_se-0.0.7.tar.gz --markdown 20240509/D/DNA-SE/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 10:14:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: executing diffoscope
+[2024-05-09 10:14:55] INFO root fetch - processPackages [aissemble-foundation-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz --markdown 20240509/a/aissemble-foundation-core-python/1.7.0.dev1715156166-1.7.0.dev1715156174/README.md --exclude *.pyd
+[2024-05-09 10:14:55] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/84/03/9368bf77c453e6b5e03fac8250e51113b079ed2408053fc99d1e551fe02f/crawlee-0.0.3b9.tar.gz
+[2024-05-09 10:14:55] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-09 10:14:55] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b8.tar.gz tmp/crawlee-0.0.3b9.tar.gz --markdown 20240509/c/crawlee/0.0.3b8-0.0.3b9/README.md --exclude *.pyd
+[2024-05-09 10:14:56] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715156166.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - processPackages [aissemble-foundation-core-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_core_python-1.7.0.dev1715156174.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-core-python]: success
+[2024-05-09 10:14:56] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.6.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.7.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 10:14:56] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b8.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b9.tar.gz]
+[2024-05-09 10:14:56] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-09 10:14:56] INFO root fetch - main [MainThread]: Store serial: [23127927]
