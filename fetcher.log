@@ -10703,3 +10703,49 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:35:26] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.3.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-09 06:35:26] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
 [2024-05-09 06:35:26] INFO root fetch - main [MainThread]: Store serial: [23126079]
+[2024-05-09 06:37:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126079]
+[2024-05-09 06:37:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azuread
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azuredevops
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-consul
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xyscreens
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xc-enc
+[2024-05-09 06:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: viewai
+[2024-05-09 06:37:38] INFO root fetch - processPackages [viewai]: New version: [0.1.2] Old Version: [0.1.17]
+[2024-05-09 06:37:38] INFO root fetch - processPackages [xyscreens]: New version: [0.1.2.dev1] Old Version: [0.1.1]
+[2024-05-09 06:37:38] WARNING root fetch - processPackages [xc-enc]: Skipping, unable to determine old version
+[2024-05-09 06:37:38] INFO root fetch - main [MainThread]: End processing [xc-enc] error
+[2024-05-09 06:37:38] ERROR root fetch - processPackages [viewai]: Unable to fetch info: No such project/version 'viewai' 0.1.17
+[2024-05-09 06:37:38] INFO root fetch - main [MainThread]: End processing [viewai] error
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1715228116] Old Version: [3.1.0a1715059317]
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-09 06:37:38] INFO root fetch - processPackages [xyscreens]: Downloading https://files.pythonhosted.org/packages/09/05/0caea1533e2a375d84f94c3e93213c2081b11769c48c67a650d62b2a8bfe/xyscreens-0.1.1.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/02/32/497f3374a8cef9a2713e23f401dd5cd9a9c9624239c8440e98ff35597561/pulumi_azuredevops-3.1.0a1715059317.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [xyscreens]: Downloading https://files.pythonhosted.org/packages/ba/cd/2bf0e2b7ec7ab360c16f26ab1381e98049d3f3a7d4857232c8bc500bf52a/xyscreens-0.1.2.dev1.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/83/fb/41008d42791d1e72974a3930f249ee313c76402757d103e98b319d6d79e5/pulumi_azuredevops-3.1.0a1715228116.tar.gz
+[2024-05-09 06:37:38] INFO root fetch - processPackages [xyscreens]: executing diffoscope
+[2024-05-09 06:37:38] INFO root fetch - processPackages [xyscreens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xyscreens-0.1.1.tar.gz tmp/xyscreens-0.1.2.dev1.tar.gz --markdown 20240509/x/xyscreens/0.1.1-0.1.2.dev1/README.md --exclude *.pyd
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240509/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz tmp/pulumi_azuredevops-3.1.0a1715228116.tar.gz --markdown 20240509/p/pulumi-azuredevops/3.1.0a1715059317-3.1.0a1715228116/README.md --exclude *.pyd
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240509/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-09 06:37:39] INFO root fetch - processPackages [xyscreens]: Remove: archive file [/home/abi/fetcher/tmp/xyscreens-0.1.1.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - processPackages [xyscreens]: Remove: archive file [/home/abi/fetcher/tmp/xyscreens-0.1.2.dev1.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - main [MainThread]: End processing [xyscreens]: success
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-09 06:37:39] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-09 06:37:40] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715059317.tar.gz]
+[2024-05-09 06:37:40] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715228116.tar.gz]
+[2024-05-09 06:37:40] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-09 06:37:40] INFO root fetch - main [MainThread]: Store serial: [23126101]
