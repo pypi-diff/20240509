@@ -19767,3 +19767,81 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:59:29] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-1.0.1rc1.tar.gz]
 [2024-05-09 11:59:29] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2024-05-09 11:59:29] INFO root fetch - main [MainThread]: Store serial: [23129460]
+[2024-05-09 12:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129460]
+[2024-05-09 12:01:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoscope
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdm-polylith-workspace
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amsdal
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccxt-custom-adapter
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyodoo-connect
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm-polylith-bricks
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nanonisTCP
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-polylith-bricks
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-daf-butler
+[2024-05-09 12:01:38] INFO root fetch - processPackages [pyodoo-connect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 12:01:38] WARNING root fetch - processPackages [ccxt-custom-adapter]: Skipping, unable to determine old version
+[2024-05-09 12:01:38] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter] error
+[2024-05-09 12:01:38] INFO root fetch - processPackages [nanonisTCP]: New version: [1.1.2] Old Version: [1.0.2]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [pyodoo-connect]: Downloading https://files.pythonhosted.org/packages/0a/07/88b0ce970f814d7d322004cc97228870d37288b07d296c1df523482cd2c6/pyodoo_connect-0.1.0.tar.gz
+[2024-05-09 12:01:38] INFO root fetch - processPackages [ecoscope]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [pdm-polylith-workspace]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [pdm-polylith-bricks]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [hatch-polylith-bricks]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [lsst-daf-butler]: New version: [27.2024.1900] Old Version: [27.2024.1800]
+[2024-05-09 12:01:38] INFO root fetch - processPackages [amsdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 12:01:39] INFO root fetch - processPackages [nanonisTCP]: Downloading https://files.pythonhosted.org/packages/6a/69/c6403da24dc2439539e77d5ac88e1f4ec45b5942e74410fe02b0b8ab68ab/nanonisTCP-1.0.2.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pyodoo-connect]: Downloading https://files.pythonhosted.org/packages/12/08/e66b5433a9ea0adf9d1ec140f5eebc750b7e2954e6c3de801daa2529c5d6/pyodoo_connect-0.1.1.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/22/98/2790fbda6e683b08660be554a22e464cf0f0f5791194b75e6e141ce93209/ecoscope-1.7.0.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [hatch-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/4b/7e/92943ad8c20e971001f5d7cdfe88f8bd6dbe5e30091350b1230153180524/hatch_polylith_bricks-1.2.2.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-workspace]: Downloading https://files.pythonhosted.org/packages/ce/ef/edd733c676f020d854711a7169ea7a460a89f24571f3ed6af72f13326495/pdm_polylith_workspace-1.0.2.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/81/41/7c89de53112aa08b0117f187a5632ede72b89ae4874502f2d676c6b65443/pdm_polylith_bricks-1.0.2.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/35/91/08b8e4832599d4795404a016b623782bc1a4f392e1e668a3f7f11598dc96/lsst_daf_butler-27.2024.1800.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/c5/7e/d8caacf06082489ad7348f2b62b27958c5a7bf09511f0f8430f8e2ca2c4d/amsdal-0.1.8-cp311-cp311-win_amd64.whl
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pyodoo-connect]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pyodoo-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodoo_connect-0.1.0.tar.gz tmp/pyodoo_connect-0.1.1.tar.gz --markdown 20240509/p/pyodoo-connect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [nanonisTCP]: Downloading https://files.pythonhosted.org/packages/c8/46/1eab35e31e771af087422c9b97074b2c6d3ab594e03686e51710bcaeec8f/nanonistcp-1.1.2.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-workspace]: Downloading https://files.pythonhosted.org/packages/e4/d9/326406467f54a5334cc7ee9d53533acee4afa326dbe84116a20b68a32b82/pdm_polylith_workspace-1.0.3.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/6a/52/0a46af67a3c370b23a90bb8409835f59c20bec26feb356c0fae9781c6249/ecoscope-1.7.1.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/d9/78/e553b16c55a57777bd7f2613357b08a7bb0b7a38aafe0cf06c268b621926/pdm_polylith_bricks-1.0.3.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [nanonisTCP]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [nanonisTCP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanonisTCP-1.0.2.tar.gz tmp/nanonistcp-1.1.2.tar.gz --markdown 20240509/n/nanonisTCP/1.0.2-1.1.2/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [hatch-polylith-bricks]: Downloading https://files.pythonhosted.org/packages/5f/d8/9523494b6bb329bd61f29465d41930ce17310bc0d0e60e390d42674562a6/hatch_polylith_bricks-1.2.3.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-workspace]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-workspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_polylith_workspace-1.0.2.tar.gz tmp/pdm_polylith_workspace-1.0.3.tar.gz --markdown 20240509/p/pdm-polylith-workspace/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-bricks]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pdm-polylith-bricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_polylith_bricks-1.0.2.tar.gz tmp/pdm_polylith_bricks-1.0.3.tar.gz --markdown 20240509/p/pdm-polylith-bricks/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.7.0.tar.gz tmp/ecoscope-1.7.1.tar.gz --markdown 20240509/e/ecoscope/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [hatch-polylith-bricks]: executing diffoscope
+[2024-05-09 12:01:39] INFO root fetch - processPackages [hatch-polylith-bricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_polylith_bricks-1.2.2.tar.gz tmp/hatch_polylith_bricks-1.2.3.tar.gz --markdown 20240509/h/hatch-polylith-bricks/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-09 12:01:39] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/c9/4b/655472d76729fac017f7d6e1edc8047470c142e5cf3a19f3114a75ddcdb6/lsst_daf_butler-27.2024.1900.tar.gz
+[2024-05-09 12:01:39] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/fc/51/0edf43ba12347c41ea640f7efb7f415b15b212483248e0b0a4c490b716f2/amsdal-0.1.9-cp311-cp311-win_amd64.whl
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pyodoo-connect]: Remove: archive file [/home/abi/fetcher/tmp/pyodoo_connect-0.1.0.tar.gz]
+[2024-05-09 12:01:39] INFO root fetch - processPackages [pyodoo-connect]: Remove: archive file [/home/abi/fetcher/tmp/pyodoo_connect-0.1.1.tar.gz]
+[2024-05-09 12:01:39] INFO root fetch - main [MainThread]: End processing [pyodoo-connect]: success
+[2024-05-09 12:01:40] INFO root fetch - processPackages [amsdal]: executing diffoscope
+[2024-05-09 12:01:40] INFO root fetch - processPackages [amsdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240509/a/amsdal/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 12:01:40] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-05-09 12:01:40] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_daf_butler-27.2024.1800.tar.gz tmp/lsst_daf_butler-27.2024.1900.tar.gz --markdown 20240509/l/lsst-daf-butler/27.2024.1800-27.2024.1900/README.md --exclude *.pyd
+[2024-05-09 12:01:40] INFO root fetch - processPackages [pdm-polylith-workspace]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_workspace-1.0.2.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - processPackages [pdm-polylith-workspace]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_workspace-1.0.3.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - main [MainThread]: End processing [pdm-polylith-workspace]: success
+[2024-05-09 12:01:40] INFO root fetch - processPackages [pdm-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_bricks-1.0.2.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - processPackages [pdm-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/pdm_polylith_bricks-1.0.3.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - main [MainThread]: End processing [pdm-polylith-bricks]: success
+[2024-05-09 12:01:40] INFO root fetch - processPackages [nanonisTCP]: Remove: archive file [/home/abi/fetcher/tmp/nanonisTCP-1.0.2.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - processPackages [nanonisTCP]: Remove: archive file [/home/abi/fetcher/tmp/nanonistcp-1.1.2.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - main [MainThread]: End processing [nanonisTCP]: success
+[2024-05-09 12:01:40] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.7.0.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.7.1.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2024-05-09 12:01:40] INFO root fetch - processPackages [hatch-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/hatch_polylith_bricks-1.2.2.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - processPackages [hatch-polylith-bricks]: Remove: archive file [/home/abi/fetcher/tmp/hatch_polylith_bricks-1.2.3.tar.gz]
+[2024-05-09 12:01:40] INFO root fetch - main [MainThread]: End processing [hatch-polylith-bricks]: success
+[2024-05-09 12:01:41] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-05-09 12:01:41] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-05-09 12:01:41] INFO root fetch - main [MainThread]: End processing [amsdal]: success
+[2024-05-09 12:01:42] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1800.tar.gz]
+[2024-05-09 12:01:42] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.1900.tar.gz]
+[2024-05-09 12:01:42] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-05-09 12:01:42] INFO root fetch - main [MainThread]: Store serial: [23129493]
