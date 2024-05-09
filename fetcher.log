@@ -10773,3 +10773,69 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:39:51] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715228330.tar.gz]
 [2024-05-09 06:39:51] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
 [2024-05-09 06:39:51] INFO root fetch - main [MainThread]: Store serial: [23126117]
+[2024-05-09 06:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126117]
+[2024-05-09 06:41:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spit
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bullmq
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-toponyms
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litellm
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-vat-book
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvxpy
+[2024-05-09 06:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: partenaire-qualif
+[2024-05-09 06:41:59] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 06:41:59] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-09 06:41:59] INFO root fetch - processPackages [spit]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-09 06:41:59] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-09 06:41:59] INFO root fetch - processPackages [bullmq]: New version: [2.7.6] Old Version: [2.7.5]
+[2024-05-09 06:41:59] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/a7/2f/d6ccbdc86304a71b7388ca7455f976d9de9f2ccb2b79e2847033bc1a1a93/partenaire-qualif-0.0.3.tar.gz
+[2024-05-09 06:41:59] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-09 06:42:00] INFO root fetch - processPackages [cvxpy]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-05-09 06:42:00] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/ae/82/32f19cb7af36ff1b6cad1f4d5437798d1f09ae394b38bac8c8ba8cd4a652/cvxpy-1.4.3.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/a3/41/95c2b32d3c225f7fa0cd1b957d8a4e11da5b22cececd0396c623963ac6eb/spit-0.1.9.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/41/17/97b6f196ac7e58248b07087190fe9db9cfe20770a90acf64d6a0da40e967/bullmq-2.7.5.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: Downloading https://files.pythonhosted.org/packages/e5/fa/3526f8d118e7a82a3968a398e188d965e9d35a8ce8e94c456efe6e708e14/odoo_addon_l10n_es_toponyms-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/90/4d/68c02e72f0e4f5d6bc276a17aaedea0c437f6c10de0bde295b5955f5f2ce/odoo_addon_l10n_es_vat_book-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-09 06:42:00] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/6f/d5/1b8745614d92aedba3828fe05394cda27f3f6eb2eb38ed82797e7225cb77/partenaire-qualif-0.0.4.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/14/2f/8229554fcc2b61b308d80ddb2ac41663b830e46dcb22272ae7873fce90f2/spit-0.2.0.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: Downloading https://files.pythonhosted.org/packages/a3/08/283f29b182e5528f040277b9da228e6f7c182ed4912184ca99e4d3910368/odoo_addon_l10n_es_toponyms-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 06:42:00] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/39/56/9fa2fd233d3797c6ae8ec21baef3ad613f7634b8aa40b2df0388dcf81518/bullmq-2.7.6.tar.gz
+[2024-05-09 06:42:00] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/5d/3e/379d33fe47d8292da9cd7bab95ff2de9137423985c8a35a9569c30442748/cvxpy-1.5.0-cp312-cp312-win_amd64.whl
+[2024-05-09 06:42:00] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.3.tar.gz tmp/partenaire-qualif-0.0.4.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.1.9.tar.gz tmp/spit-0.2.0.tar.gz --markdown 20240509/s/spit/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/44/63/23974ea6817ae6681e6801fe1da5861a3efa497b07bbd12b571a51a38ef6/odoo_addon_l10n_es_vat_book-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-09 06:42:00] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240509/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_toponyms-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_toponyms-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-es-toponyms/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-2.7.5.tar.gz tmp/bullmq-2.7.6.tar.gz --markdown 20240509/b/bullmq/2.7.5-2.7.6/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-es-vat-book/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-09 06:42:00] INFO root fetch - processPackages [cvxpy]: executing diffoscope
+[2024-05-09 06:42:00] INFO root fetch - processPackages [cvxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy-1.4.3.tar.gz tmp/cvxpy-1.5.0-cp312-cp312-win_amd64.whl.zip --markdown 20240509/c/cvxpy/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-05-09 06:42:01] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.3.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.4.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 06:42:01] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.1.9.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.0.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-05-09 06:42:01] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_toponyms-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [odoo-addon-l10n-es-toponyms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_toponyms-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-toponyms]: success
+[2024-05-09 06:42:01] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2024-05-09 06:42:01] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.5.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-2.7.6.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2024-05-09 06:42:01] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.4.3.tar.gz]
+[2024-05-09 06:42:01] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.5.0-cp312-cp312-win_amd64.whl.zip]
+[2024-05-09 06:42:01] INFO root fetch - main [MainThread]: End processing [cvxpy]: success
+[2024-05-09 06:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-09 06:42:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-09 06:42:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-09 06:42:02] INFO root fetch - main [MainThread]: Store serial: [23126135]
