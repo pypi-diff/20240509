@@ -22929,3 +22929,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:21:36] INFO root fetch - processPackages [glyphspkg]: Remove: archive file [/home/abi/fetcher/tmp/glyphspkg-0.2.0.tar.gz]
 [2024-05-09 14:21:36] INFO root fetch - main [MainThread]: End processing [glyphspkg]: success
 [2024-05-09 14:21:36] INFO root fetch - main [MainThread]: Store serial: [23130794]
+[2024-05-09 14:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130794]
+[2024-05-09 14:23:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lark-oapi
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-source-local
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagshub
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: re-ircbot
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-researcher
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: argilla-server
+[2024-05-09 14:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RP2040Home
+[2024-05-09 14:23:45] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [re-ircbot]: New version: [2.0.9.dev0] Old Version: [2.0.8.dev0]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [phidata]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/e7/9f/5430e34543c19e4bc78ea02d7cdd2d8c289f23c2c61266e1c103dc8da038/gpt-researcher-0.3.2.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [lark-oapi]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [RP2040Home]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [data-source-local]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [argilla-server]: New version: [1.28.0] Old Version: [1.27.0]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [dagshub]: New version: [0.3.9] Old Version: [0.3.8.post2]
+[2024-05-09 14:23:45] INFO root fetch - processPackages [re-ircbot]: Downloading https://files.pythonhosted.org/packages/86/63/2548e476ee37ed757618dd6e8bb688b8a95059c3b56ba14086d817fc3704/re_ircbot-2.0.8.dev0.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/14/c3/283110afc0a97209f67d8acb00a209c80f584a61b3effba02791a6a61b7d/phidata-2.4.1.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/88/07/70c70fc48a14a55dae9892581a579c678f4012098759ea5c1e74c9d59ce0/lark-oapi-1.2.5.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/e4/b3/b07b08954f174c668a9512b2808609c97c7c6c311e53d85f7a4d49aeb907/data_source_local-0.0.2.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/48/89/8bb3a84ebd082889ed2dc85597e8954fec711589e17f0891e344b6e627a9/dagshub-0.3.8.post2.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [RP2040Home]: Downloading https://files.pythonhosted.org/packages/f7/1a/306b8e9ffaa3919f739099a84f837601803e6c3c79fcc9d47422b1571b5e/rp2040home-0.1.4.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [argilla-server]: Downloading https://files.pythonhosted.org/packages/de/b0/179d8edefeb461dae3ffbed5efed72d7a15d7cb0fe53bc0f023655d792b7/argilla_server-1.27.0.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [re-ircbot]: Downloading https://files.pythonhosted.org/packages/5b/67/03b9ff951a394cb6c5bf84151e0d3d73bbbb14a6aaf552fa5e49f5d35589/re_ircbot-2.0.9.dev0.tar.gz
+[2024-05-09 14:23:45] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/64/5f/1e4415a53e5add2e99e1424f7bbd342c82389378023031cd7f25af52df97/gpt-researcher-0.3.3.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/b0/e4/de7a2092f683a801e10c190da8c07a038901730b0b8241a93293c505d70f/phidata-2.4.2.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [re-ircbot]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [re-ircbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re_ircbot-2.0.8.dev0.tar.gz tmp/re_ircbot-2.0.9.dev0.tar.gz --markdown 20240509/r/re-ircbot/2.0.8.dev0-2.0.9.dev0/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.2.tar.gz tmp/gpt-researcher-0.3.3.tar.gz --markdown 20240509/g/gpt-researcher/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [data-source-local]: Downloading https://files.pythonhosted.org/packages/45/46/fa4dff90215d2cd298b808b51968e30886b668b4d87ef1d558b04bcb5cbb/data_source_local-0.0.3.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.1.tar.gz tmp/phidata-2.4.2.tar.gz --markdown 20240509/p/phidata/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [RP2040Home]: Downloading https://files.pythonhosted.org/packages/03/bf/fae0a12f78310c6151907496b3abf55501960ed826f8fd0918eed8bbe357/rp2040home-0.1.5.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [data-source-local]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [data-source-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_source_local-0.0.2.tar.gz tmp/data_source_local-0.0.3.tar.gz --markdown 20240509/d/data-source-local/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b6/58/bed17e869dd65b7d76ece8837800b97096849fcccf69372b6647a4f4ccd9/dagshub-0.3.9.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/c7/65/3ebba06a24b024c2cb7fe05732aa54f5be00ffa0360c843a9cf9904ae507/lark-oapi-1.2.6.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [RP2040Home]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [RP2040Home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp2040home-0.1.4.tar.gz tmp/rp2040home-0.1.5.tar.gz --markdown 20240509/R/RP2040Home/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.8.post2.tar.gz tmp/dagshub-0.3.9.tar.gz --markdown 20240509/d/dagshub/0.3.8.post2-0.3.9/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2024-05-09 14:23:46] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.2.5.tar.gz tmp/lark-oapi-1.2.6.tar.gz --markdown 20240509/l/lark-oapi/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-09 14:23:46] INFO root fetch - processPackages [argilla-server]: Downloading https://files.pythonhosted.org/packages/62/4f/0bfc3195fc67366b0ee9a28c579ccb33f5543724670cf9b1d991c17f5af2/argilla_server-1.28.0.tar.gz
+[2024-05-09 14:23:46] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.2.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - processPackages [data-source-local]: Remove: archive file [/home/abi/fetcher/tmp/data_source_local-0.0.3.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - main [MainThread]: End processing [data-source-local]: success
+[2024-05-09 14:23:46] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.2.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.3.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-09 14:23:46] INFO root fetch - processPackages [re-ircbot]: Remove: archive file [/home/abi/fetcher/tmp/re_ircbot-2.0.8.dev0.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - processPackages [re-ircbot]: Remove: archive file [/home/abi/fetcher/tmp/re_ircbot-2.0.9.dev0.tar.gz]
+[2024-05-09 14:23:46] INFO root fetch - main [MainThread]: End processing [re-ircbot]: success
+[2024-05-09 14:23:47] INFO root fetch - processPackages [RP2040Home]: Remove: archive file [/home/abi/fetcher/tmp/rp2040home-0.1.4.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - processPackages [RP2040Home]: Remove: archive file [/home/abi/fetcher/tmp/rp2040home-0.1.5.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - main [MainThread]: End processing [RP2040Home]: success
+[2024-05-09 14:23:47] INFO root fetch - processPackages [argilla-server]: executing diffoscope
+[2024-05-09 14:23:47] INFO root fetch - processPackages [argilla-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla_server-1.27.0.tar.gz tmp/argilla_server-1.28.0.tar.gz --markdown 20240509/a/argilla-server/1.27.0-1.28.0/README.md --exclude *.pyd
+[2024-05-09 14:23:47] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.8.post2.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.9.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2024-05-09 14:23:47] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.1.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.2.tar.gz]
+[2024-05-09 14:23:47] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-09 14:24:27] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.5.tar.gz]
+[2024-05-09 14:24:27] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.6.tar.gz]
+[2024-05-09 14:24:27] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2024-05-09 14:25:23] INFO root fetch - processPackages [argilla-server]: Remove: archive file [/home/abi/fetcher/tmp/argilla_server-1.27.0.tar.gz]
+[2024-05-09 14:25:23] INFO root fetch - processPackages [argilla-server]: Remove: archive file [/home/abi/fetcher/tmp/argilla_server-1.28.0.tar.gz]
+[2024-05-09 14:25:23] INFO root fetch - main [MainThread]: End processing [argilla-server]: success
+[2024-05-09 14:25:23] INFO root fetch - main [MainThread]: Store serial: [23130818]
