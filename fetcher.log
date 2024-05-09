@@ -8353,3 +8353,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:29:31] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-05-09 04:29:31] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-05-09 04:29:31] INFO root fetch - main [MainThread]: Store serial: [23124993]
+[2024-05-09 04:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124993]
+[2024-05-09 04:31:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-05-09 04:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-iris
+[2024-05-09 04:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylzss
+[2024-05-09 04:31:41] INFO root fetch - processPackages [llama-iris]: New version: [0.3.1b4] Old Version: [0.3.1b3]
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-05-09 04:31:41] INFO root fetch - processPackages [llama-iris]: Downloading https://files.pythonhosted.org/packages/87/04/7ee3670a4c8132369ee3ca7f1d5b6c740a6ee4f3395f047b2b97709648ab/llama_iris-0.3.1b3.tar.gz
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pylzss]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-09 04:31:41] INFO root fetch - processPackages [llama-iris]: Downloading https://files.pythonhosted.org/packages/01/4e/6b9ee1acaec6533418c6ae44ef436e61dce9a231ff42ff04649dca397ef1/llama_iris-0.3.1b4.tar.gz
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-05-09 04:31:41] INFO root fetch - processPackages [llama-iris]: executing diffoscope
+[2024-05-09 04:31:41] INFO root fetch - processPackages [llama-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_iris-0.3.1b3.tar.gz tmp/llama_iris-0.3.1b4.tar.gz --markdown 20240509/l/llama-iris/0.3.1b3-0.3.1b4/README.md --exclude *.pyd
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/1a/89/1ed833c3ff3491c2313f3c4675cd10bfe7ecf7fad53f8d44f325ce664cf9/pylzss-0.3.7.tar.gz
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240509/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-05-09 04:31:41] INFO root fetch - processPackages [pylzss]: Downloading https://files.pythonhosted.org/packages/b3/c5/c5120f15c0e8c9fa7c2e58e10914b0821faaeb31e7c9d16e538f60cb5726/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-09 04:31:42] INFO root fetch - processPackages [llama-iris]: Remove: archive file [/home/abi/fetcher/tmp/llama_iris-0.3.1b3.tar.gz]
+[2024-05-09 04:31:42] INFO root fetch - processPackages [llama-iris]: Remove: archive file [/home/abi/fetcher/tmp/llama_iris-0.3.1b4.tar.gz]
+[2024-05-09 04:31:42] INFO root fetch - main [MainThread]: End processing [llama-iris]: success
+[2024-05-09 04:31:42] INFO root fetch - processPackages [pylzss]: executing diffoscope
+[2024-05-09 04:31:42] INFO root fetch - processPackages [pylzss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylzss-0.3.7.tar.gz tmp/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240509/p/pylzss/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-09 04:31:43] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.7.tar.gz]
+[2024-05-09 04:31:43] INFO root fetch - processPackages [pylzss]: Remove: archive file [/home/abi/fetcher/tmp/pylzss-0.3.8-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-09 04:31:43] INFO root fetch - main [MainThread]: End processing [pylzss]: success
+[2024-05-09 04:31:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-05-09 04:31:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-05-09 04:31:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-05-09 04:31:58] INFO root fetch - main [MainThread]: Store serial: [23124999]
