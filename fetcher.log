@@ -10749,3 +10749,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:37:40] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715228116.tar.gz]
 [2024-05-09 06:37:40] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-05-09 06:37:40] INFO root fetch - main [MainThread]: Store serial: [23126101]
+[2024-05-09 06:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126101]
+[2024-05-09 06:39:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viewai
+[2024-05-09 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-dnsimple
+[2024-05-09 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basiglandularz
+[2024-05-09 06:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwaslab
+[2024-05-09 06:39:50] INFO root fetch - processPackages [viewai]: New version: [0.1.2] Old Version: [0.1.17]
+[2024-05-09 06:39:50] WARNING root fetch - processPackages [basiglandularz]: Skipping, unable to determine old version
+[2024-05-09 06:39:50] INFO root fetch - main [MainThread]: End processing [basiglandularz] error
+[2024-05-09 06:39:50] INFO root fetch - processPackages [gwaslab]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-09 06:39:50] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1715228330] Old Version: [3.5.0a1715059797]
+[2024-05-09 06:39:50] ERROR root fetch - processPackages [viewai]: Unable to fetch info: No such project/version 'viewai' 0.1.17
+[2024-05-09 06:39:50] INFO root fetch - main [MainThread]: End processing [viewai] error
+[2024-05-09 06:39:50] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/a6/f4/0ec120c14183719b99249f001fa2d79cec1ca4cb150a92ba70b7af2c4143/pulumi_dnsimple-3.5.0a1715059797.tar.gz
+[2024-05-09 06:39:50] INFO root fetch - processPackages [gwaslab]: Downloading https://files.pythonhosted.org/packages/57/4a/4ed921d4b6c0927c23727a987f62eeb1ab91df90b0b500b48e6f96b93fb1/gwaslab-3.4.8.tar.gz
+[2024-05-09 06:39:50] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/88/b7/f547bc709275c7d3130dd00c86da23b671a1084045c2db6265d662e1e252/pulumi_dnsimple-3.5.0a1715228330.tar.gz
+[2024-05-09 06:39:50] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-09 06:39:50] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1715059797.tar.gz tmp/pulumi_dnsimple-3.5.0a1715228330.tar.gz --markdown 20240509/p/pulumi-dnsimple/3.5.0a1715059797-3.5.0a1715228330/README.md --exclude *.pyd
+[2024-05-09 06:39:50] WARNING root fetch - processPackages [gwaslab]: Skipping package: exceeds size limit 20618587>=10485760
+[2024-05-09 06:39:50] INFO root fetch - main [MainThread]: End processing [gwaslab] error
+[2024-05-09 06:39:51] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715059797.tar.gz]
+[2024-05-09 06:39:51] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1715228330.tar.gz]
+[2024-05-09 06:39:51] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-09 06:39:51] INFO root fetch - main [MainThread]: Store serial: [23126117]
