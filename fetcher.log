@@ -14586,3 +14586,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:31:16] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.47-py3-none-any.whl.zip]
 [2024-05-09 09:31:16] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-05-09 09:31:16] INFO root fetch - main [MainThread]: Store serial: [23127598]
+[2024-05-09 09:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127598]
+[2024-05-09 09:33:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuttlesz
+[2024-05-09 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: narwhals
+[2024-05-09 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfg-llama
+[2024-05-09 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-contact-local
+[2024-05-09 09:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emotion-ai-api
+[2024-05-09 09:33:26] INFO root fetch - processPackages [emotion-ai-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 09:33:26] INFO root fetch - processPackages [narwhals]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-09 09:33:26] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/f0/18/44a66902fff7c54b2e8e170714f7310464afacfbe5dfcdc28ed7311e055c/emotion_ai_api-0.1.4.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [lfg-llama]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-09 09:33:26] INFO root fetch - processPackages [google-contact-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 09:33:26] WARNING root fetch - processPackages [cuttlesz]: Skipping, unable to determine old version
+[2024-05-09 09:33:26] INFO root fetch - main [MainThread]: End processing [cuttlesz] error
+[2024-05-09 09:33:26] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/62/6a/7846652d6cceff3b8f7951a39402f6a9a102b12eca6623cc0d5a8d99cb3d/narwhals-0.8.5.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/a8/55/f63aa14924da6703289e0881058be4b007251255a7c3affa28e065371e97/google-contact-local-0.0.8.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/61/79/1ed9f44ca426ec328eb2080bd9b6e8592ec7dcb57c125072a47a179ff9fc/lfg_llama-1.3.1.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/94/ae/4d9cbf2b7e7fe07cf6e0b65d951ee92c3be4f257b0f3af410090a4b928af/emotion_ai_api-0.1.5.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [narwhals]: Downloading https://files.pythonhosted.org/packages/cf/22/dba4e0a4720e2ff46a26eede537f668817ba1de15ad1f3c55de60f106327/narwhals-0.8.6.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [emotion-ai-api]: executing diffoscope
+[2024-05-09 09:33:26] INFO root fetch - processPackages [emotion-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_ai_api-0.1.4.tar.gz tmp/emotion_ai_api-0.1.5.tar.gz --markdown 20240509/e/emotion-ai-api/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 09:33:26] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/90/a0/6476b4b508a422b515b36c8e96bc42204832fa643e68545864d4ecc1f820/google-contact-local-0.0.9.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/80/55/05034902982d61c115baa996c9f206258f54acbdb570a0cebc1df27f11cb/lfg_llama-1.3.2.tar.gz
+[2024-05-09 09:33:26] INFO root fetch - processPackages [google-contact-local]: executing diffoscope
+[2024-05-09 09:33:26] INFO root fetch - processPackages [google-contact-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-contact-local-0.0.8.tar.gz tmp/google-contact-local-0.0.9.tar.gz --markdown 20240509/g/google-contact-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:33:26] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-09 09:33:26] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.3.1.tar.gz tmp/lfg_llama-1.3.2.tar.gz --markdown 20240509/l/lfg-llama/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-09 09:33:26] INFO root fetch - processPackages [narwhals]: executing diffoscope
+[2024-05-09 09:33:26] INFO root fetch - processPackages [narwhals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narwhals-0.8.5.tar.gz tmp/narwhals-0.8.6.tar.gz --markdown 20240509/n/narwhals/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-09 09:33:27] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.4.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.5.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - main [MainThread]: End processing [emotion-ai-api]: success
+[2024-05-09 09:33:27] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.8.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.9.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - main [MainThread]: End processing [google-contact-local]: success
+[2024-05-09 09:33:27] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.3.1.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.3.2.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-09 09:33:27] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.5.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - processPackages [narwhals]: Remove: archive file [/home/abi/fetcher/tmp/narwhals-0.8.6.tar.gz]
+[2024-05-09 09:33:27] INFO root fetch - main [MainThread]: End processing [narwhals]: success
+[2024-05-09 09:33:27] INFO root fetch - main [MainThread]: Store serial: [23127614]
