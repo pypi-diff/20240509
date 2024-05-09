@@ -17694,3 +17694,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:42:10] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
 [2024-05-09 10:42:10] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
 [2024-05-09 10:42:10] INFO root fetch - main [MainThread]: Store serial: [23128533]
+[2024-05-09 10:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128533]
+[2024-05-09 10:44:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-05-09 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rotundatez
+[2024-05-09 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: globy-core
+[2024-05-09 10:44:19] INFO root fetch - processPackages [globy-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 10:44:19] INFO root fetch - processPackages [globy-core]: Downloading https://files.pythonhosted.org/packages/da/f7/6a61899cb9408602c9b04de112d9da3636a40f0fc148ff73608f494dcb5e/globy_core-0.0.2.tar.gz
+[2024-05-09 10:44:19] WARNING root fetch - processPackages [rotundatez]: Skipping, unable to determine old version
+[2024-05-09 10:44:19] INFO root fetch - main [MainThread]: End processing [rotundatez] error
+[2024-05-09 10:44:19] INFO root fetch - processPackages [kuzu]: New version: [0.4.2.dev2] Old Version: [0.4.2.dev1]
+[2024-05-09 10:44:19] INFO root fetch - processPackages [globy-core]: Downloading https://files.pythonhosted.org/packages/c4/f6/470930ba1be5e5d70cbd3c5c7f364c9ac2f3e8ad6df29824b78ac6e44634/globy_core-0.0.3.tar.gz
+[2024-05-09 10:44:19] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/f1/f9/0eb13f8715e0df2e034f360bc379439c35019e9a7c1d1926454321f13340/kuzu-0.4.2.dev1.tar.gz
+[2024-05-09 10:44:19] INFO root fetch - processPackages [globy-core]: executing diffoscope
+[2024-05-09 10:44:19] INFO root fetch - processPackages [globy-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globy_core-0.0.2.tar.gz tmp/globy_core-0.0.3.tar.gz --markdown 20240509/g/globy-core/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 10:44:20] INFO root fetch - processPackages [globy-core]: Remove: archive file [/home/abi/fetcher/tmp/globy_core-0.0.2.tar.gz]
+[2024-05-09 10:44:20] INFO root fetch - processPackages [globy-core]: Remove: archive file [/home/abi/fetcher/tmp/globy_core-0.0.3.tar.gz]
+[2024-05-09 10:44:20] INFO root fetch - main [MainThread]: End processing [globy-core]: success
+[2024-05-09 10:44:20] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/dd/14/2711b3e22002bba9f726cb37ceb01a41345416b7780b403ec5b52c665d17/kuzu-0.4.2.dev2.tar.gz
+[2024-05-09 10:44:21] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-09 10:44:21] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.2.dev1.tar.gz tmp/kuzu-0.4.2.dev2.tar.gz --markdown 20240509/k/kuzu/0.4.2.dev1-0.4.2.dev2/README.md --exclude *.pyd
+[2024-05-09 10:44:27] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev1.tar.gz]
+[2024-05-09 10:44:27] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev2.tar.gz]
+[2024-05-09 10:44:27] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-09 10:44:27] INFO root fetch - main [MainThread]: Store serial: [23128572]
