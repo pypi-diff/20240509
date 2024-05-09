@@ -18766,3 +18766,36 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
 [2024-05-09 11:22:45] INFO root fetch - main [MainThread]: End processing [lightkube-models]: success
 [2024-05-09 11:22:45] INFO root fetch - main [MainThread]: Store serial: [23129023]
+[2024-05-09 11:24:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129023]
+[2024-05-09 11:24:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 11:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: debby
+[2024-05-09 11:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my_media_crawler
+[2024-05-09 11:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phc-ingestion
+[2024-05-09 11:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mesa2-preprocessing
+[2024-05-09 11:24:54] WARNING root fetch - processPackages [mesa2-preprocessing]: Skipping, unable to determine old version
+[2024-05-09 11:24:54] INFO root fetch - processPackages [my_media_crawler]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-05-09 11:24:54] INFO root fetch - main [MainThread]: End processing [mesa2-preprocessing] error
+[2024-05-09 11:24:54] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-09 11:24:54] INFO root fetch - processPackages [debby]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-09 11:24:54] INFO root fetch - processPackages [my_media_crawler]: Downloading https://files.pythonhosted.org/packages/dd/94/a407f0ede3087ef22f4e895f1cc99673e576ecd5319f4f53cf31a3aa44f8/my_media_crawler-0.1.0.tar.gz
+[2024-05-09 11:24:54] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/02/04/8d438a1686e66b52dfdfa5de3b7057ceb58aa969e2234409675b6e62556e/phc-ingestion-0.8.8.tar.gz
+[2024-05-09 11:24:54] INFO root fetch - processPackages [debby]: Downloading https://files.pythonhosted.org/packages/6e/4a/1b92a0f1d748b7494bd13be96c37907d0bc2dab3ec7930edb7ef065bd269/debby-1.0.4.tar.gz
+[2024-05-09 11:24:54] INFO root fetch - processPackages [my_media_crawler]: Downloading https://files.pythonhosted.org/packages/be/83/6094c37a12d4be4d1f5f0db2d646060a216af7b96402e33fd6b3218148f5/my_media_crawler-0.1.4-py3-none-any.whl
+[2024-05-09 11:24:54] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/f8/0f/62839607b06ab11e228299fc8542a8149718c194d0d7da12972bfc1133c5/phc-ingestion-0.8.9.tar.gz
+[2024-05-09 11:24:54] INFO root fetch - processPackages [my_media_crawler]: executing diffoscope
+[2024-05-09 11:24:54] INFO root fetch - processPackages [my_media_crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_media_crawler-0.1.0.tar.gz tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip --markdown 20240509/m/my_media_crawler/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-05-09 11:24:55] INFO root fetch - processPackages [debby]: Downloading https://files.pythonhosted.org/packages/72/4d/54d60e2e988af5352817448785319b6badba1de83797fd2d97eff21257ba/debby-1.1.0.tar.gz
+[2024-05-09 11:24:55] INFO root fetch - processPackages [debby]: executing diffoscope
+[2024-05-09 11:24:55] INFO root fetch - processPackages [debby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debby-1.0.4.tar.gz tmp/debby-1.1.0.tar.gz --markdown 20240509/d/debby/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-09 11:24:55] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-05-09 11:24:55] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.8.tar.gz tmp/phc-ingestion-0.8.9.tar.gz --markdown 20240509/p/phc-ingestion/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-09 11:24:55] INFO root fetch - processPackages [my_media_crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.0.tar.gz]
+[2024-05-09 11:24:55] INFO root fetch - processPackages [my_media_crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip]
+[2024-05-09 11:24:55] INFO root fetch - main [MainThread]: End processing [my_media_crawler]: success
+[2024-05-09 11:24:55] INFO root fetch - processPackages [debby]: Remove: archive file [/home/abi/fetcher/tmp/debby-1.0.4.tar.gz]
+[2024-05-09 11:24:55] INFO root fetch - processPackages [debby]: Remove: archive file [/home/abi/fetcher/tmp/debby-1.1.0.tar.gz]
+[2024-05-09 11:24:55] INFO root fetch - main [MainThread]: End processing [debby]: success
+[2024-05-09 11:24:55] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.8.tar.gz]
+[2024-05-09 11:24:55] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.9.tar.gz]
+[2024-05-09 11:24:55] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-05-09 11:24:55] INFO root fetch - main [MainThread]: Store serial: [23129036]
