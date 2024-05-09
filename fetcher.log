@@ -7756,3 +7756,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:45:14] INFO root fetch - processPackages [go-task-bin]: Remove: archive file [/home/abi/fetcher/tmp/go_task_bin-3.37.0.tar.gz]
 [2024-05-09 03:45:14] INFO root fetch - main [MainThread]: End processing [go-task-bin]: success
 [2024-05-09 03:45:14] INFO root fetch - main [MainThread]: Store serial: [23124618]
+[2024-05-09 03:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124618]
+[2024-05-09 03:47:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 03:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyCatFile
+[2024-05-09 03:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvprocessor
+[2024-05-09 03:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: propertyshipz
+[2024-05-09 03:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluxional
+[2024-05-09 03:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datalogd
+[2024-05-09 03:47:24] INFO root fetch - processPackages [fluxional]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-09 03:47:24] INFO root fetch - processPackages [PyCatFile]: New version: [0.9.8] Old Version: [0.9.6]
+[2024-05-09 03:47:24] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-05-09 03:47:24] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/cf/fe/7d9f87c82acbd50cac7e655fd3f4389e1d59bafd18f9370a674364a3e53f/fluxional-0.1.4.tar.gz
+[2024-05-09 03:47:24] WARNING root fetch - processPackages [propertyshipz]: Skipping, unable to determine old version
+[2024-05-09 03:47:24] INFO root fetch - main [MainThread]: End processing [propertyshipz] error
+[2024-05-09 03:47:24] INFO root fetch - processPackages [datalogd]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-09 03:47:24] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/08/96/4c154ca314dbb76c0bba84e70c73f3a53cd4528ee43f7ac17b54954c0b85/pycatfile-0.9.6.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/7d/22/3cce66342661e2b16701eec0b107ee2ac07e004a2dae091a9f744bc34d65/cvprocessor-0.0.28.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [fluxional]: Downloading https://files.pythonhosted.org/packages/d5/b8/6ad238ca2f19c11ab60cd2af01c0b7eb0df964167f8bc40aa19c7b93d430/fluxional-0.1.5.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [datalogd]: Downloading https://files.pythonhosted.org/packages/c6/92/3ea856f0a38294b9e6d051d68051f7cabd759fb32627e5ccf0253dcb10b5/datalogd-0.3.7.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/d8/c3/779688dd1beca850480edb18c8e26ce64dcf364b8ab9b110d2a55552ca93/pycatfile-0.9.8.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [fluxional]: executing diffoscope
+[2024-05-09 03:47:24] INFO root fetch - processPackages [fluxional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxional-0.1.4.tar.gz tmp/fluxional-0.1.5.tar.gz --markdown 20240509/f/fluxional/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-09 03:47:24] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-05-09 03:47:24] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatfile-0.9.6.tar.gz tmp/pycatfile-0.9.8.tar.gz --markdown 20240509/P/PyCatFile/0.9.6-0.9.8/README.md --exclude *.pyd
+[2024-05-09 03:47:24] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/a5/9e/909b41ecd08d9693df1593965ab25cce9e1847e4f3777133dea25a637cd9/cvprocessor-0.0.29.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [datalogd]: Downloading https://files.pythonhosted.org/packages/20/95/577fa423167ef2c1e93d7c66110d75aba22f4700c1d0b2c2cc4a84655855/datalogd-0.4.0.tar.gz
+[2024-05-09 03:47:24] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-09 03:47:24] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.28.tar.gz tmp/cvprocessor-0.0.29.tar.gz --markdown 20240509/c/cvprocessor/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-05-09 03:47:24] INFO root fetch - processPackages [datalogd]: executing diffoscope
+[2024-05-09 03:47:24] INFO root fetch - processPackages [datalogd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalogd-0.3.7.tar.gz tmp/datalogd-0.4.0.tar.gz --markdown 20240509/d/datalogd/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-09 03:47:25] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.4.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - processPackages [fluxional]: Remove: archive file [/home/abi/fetcher/tmp/fluxional-0.1.5.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - main [MainThread]: End processing [fluxional]: success
+[2024-05-09 03:47:25] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.6.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/pycatfile-0.9.8.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-05-09 03:47:25] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.28.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.29.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-09 03:47:25] INFO root fetch - processPackages [datalogd]: Remove: archive file [/home/abi/fetcher/tmp/datalogd-0.3.7.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - processPackages [datalogd]: Remove: archive file [/home/abi/fetcher/tmp/datalogd-0.4.0.tar.gz]
+[2024-05-09 03:47:25] INFO root fetch - main [MainThread]: End processing [datalogd]: success
+[2024-05-09 03:47:25] INFO root fetch - main [MainThread]: Store serial: [23124634]
