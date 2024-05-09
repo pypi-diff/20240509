@@ -3411,3 +3411,18 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:40:46] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.4.2.tar.gz]
 [2024-05-09 02:40:46] INFO root fetch - main [MainThread]: End processing [dyff-client]: success
 [2024-05-09 02:40:46] INFO root fetch - main [MainThread]: Store serial: [23123025]
+[2024-05-09 02:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23123025]
+[2024-05-09 02:42:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 02:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekdjtools
+[2024-05-09 02:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Qm-lib
+[2024-05-09 02:42:55] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:42:55] WARNING root fetch - processPackages [Qm-lib]: Skipping, unable to determine old version
+[2024-05-09 02:42:55] INFO root fetch - main [MainThread]: End processing [Qm-lib] error
+[2024-05-09 02:42:56] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-09 02:42:56] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-09 02:42:56] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-09 02:42:56] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240509/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:42:57] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-09 02:42:57] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-09 02:42:57] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-09 02:42:57] INFO root fetch - main [MainThread]: Store serial: [23123035]
