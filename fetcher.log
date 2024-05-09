@@ -14720,3 +14720,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:40:00] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
 [2024-05-09 09:40:00] INFO root fetch - main [MainThread]: End processing [lalsuite] error
 [2024-05-09 09:40:00] INFO root fetch - main [MainThread]: Store serial: [23127655]
+[2024-05-09 09:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127655]
+[2024-05-09 09:42:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pg-sync-roles
+[2024-05-09 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zsx-facile-heatmap
+[2024-05-09 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-searchengine20211025
+[2024-05-09 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gnomonicus
+[2024-05-09 09:42:10] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 09:42:10] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-09 09:42:10] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/90/a7/dcb6996ca22a83b7775c4813695bc5aef0a3192e05bcd4187940770b49a4/pg_sync_roles-0.0.6.tar.gz
+[2024-05-09 09:42:10] INFO root fetch - processPackages [gnomonicus]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-09 09:42:10] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Downloading https://files.pythonhosted.org/packages/7d/55/f43dbfe2f789108f94bff5c1614eed5329b0ce9f769f401687ecbf8b298d/alibabacloud_searchengine20211025-2.0.3.tar.gz
+[2024-05-09 09:42:10] WARNING root fetch - processPackages [zsx-facile-heatmap]: Skipping, unable to determine old version
+[2024-05-09 09:42:10] INFO root fetch - main [MainThread]: End processing [zsx-facile-heatmap] error
+[2024-05-09 09:42:10] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Downloading https://files.pythonhosted.org/packages/07/0f/40911f38a4b0533cfc33da9154ec1df0c93ed74ff909f3f312eefbe66b9b/alibabacloud_searchengine20211025-2.1.0.tar.gz
+[2024-05-09 09:42:10] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/17/3a/862a0e07f18144c2a5f881591c264dbb7a21eb31a4e560940ca708194533/gnomonicus-2.5.3.tar.gz
+[2024-05-09 09:42:10] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/95/59/0062880e3413229857c2eca786049e7e57e252d7a798397974de31ed4266/pg_sync_roles-0.0.7.tar.gz
+[2024-05-09 09:42:10] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: executing diffoscope
+[2024-05-09 09:42:10] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_searchengine20211025-2.0.3.tar.gz tmp/alibabacloud_searchengine20211025-2.1.0.tar.gz --markdown 20240509/a/alibabacloud-searchengine20211025/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-09 09:42:10] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-09 09:42:10] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.6.tar.gz tmp/pg_sync_roles-0.0.7.tar.gz --markdown 20240509/p/pg-sync-roles/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 09:42:10] INFO root fetch - processPackages [gnomonicus]: Downloading https://files.pythonhosted.org/packages/ae/40/82d24e902a4812eb16c5a531c736a643c459157b8f6ae3b80130b3a86051/gnomonicus-2.5.4.tar.gz
+[2024-05-09 09:42:11] INFO root fetch - processPackages [gnomonicus]: executing diffoscope
+[2024-05-09 09:42:11] INFO root fetch - processPackages [gnomonicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnomonicus-2.5.3.tar.gz tmp/gnomonicus-2.5.4.tar.gz --markdown 20240509/g/gnomonicus/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-09 09:42:11] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.6.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.7.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-09 09:42:11] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_searchengine20211025-2.0.3.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - processPackages [alibabacloud-searchengine20211025]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_searchengine20211025-2.1.0.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-searchengine20211025]: success
+[2024-05-09 09:42:11] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.3.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - processPackages [gnomonicus]: Remove: archive file [/home/abi/fetcher/tmp/gnomonicus-2.5.4.tar.gz]
+[2024-05-09 09:42:11] INFO root fetch - main [MainThread]: End processing [gnomonicus]: success
+[2024-05-09 09:42:11] INFO root fetch - main [MainThread]: Store serial: [23127675]
