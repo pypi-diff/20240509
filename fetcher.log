@@ -13919,3 +13919,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 08:58:05] INFO root fetch - processPackages [mlpro-int-scikit-learn]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_scikit_learn-0.1.2.tar.gz]
 [2024-05-09 08:58:05] INFO root fetch - main [MainThread]: End processing [mlpro-int-scikit-learn]: success
 [2024-05-09 08:58:05] INFO root fetch - main [MainThread]: Store serial: [23127367]
+[2024-05-09 09:00:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127367]
+[2024-05-09 09:00:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-ai-api
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: effortfulnessz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: everai
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangorestframework-ext
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fittrackee
+[2024-05-09 09:00:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kidash
+[2024-05-09 09:00:15] INFO root fetch - processPackages [emotion-ai-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-09 09:00:15] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/09/45/b632a5628ab1747d26be288017d5dffb40ee2b9cf2020ae316b19bec3653/emotion_ai_api-0.1.2.tar.gz
+[2024-05-09 09:00:15] WARNING root fetch - processPackages [effortfulnessz]: Skipping, unable to determine old version
+[2024-05-09 09:00:15] INFO root fetch - main [MainThread]: End processing [effortfulnessz] error
+[2024-05-09 09:00:15] INFO root fetch - processPackages [kidash]: New version: [1.0.1rc1] Old Version: [1.0.0rc2]
+[2024-05-09 09:00:15] INFO root fetch - processPackages [djangorestframework-ext]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 09:00:15] INFO root fetch - processPackages [everai]: New version: [0.1.47] Old Version: [0.1.46]
+[2024-05-09 09:00:15] INFO root fetch - processPackages [fittrackee]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-09 09:00:15] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/d6/be/76ec8844c998542b4bdda0eaf61bc3babcd7c9909cfabfb92ad236e7d7fe/djangorestframework-ext-0.8.tar.gz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/3d/49/e8e9e5b1ebfce74a794d5994a2fee77fafc32acdbc8b02f2182897604f72/fittrackee-0.8.2.tar.gz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [emotion-ai-api]: Downloading https://files.pythonhosted.org/packages/c7/2e/4c0e1d5c9ad350c672c264f90d9e32cb1ffb85f51f6d928a21ff6b866243/emotion_ai_api-0.1.3.tar.gz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/f0/44/a3737fdc43884e7c0446c9d4a064f55042c9c89cb9757fd55e6f07bd8f6c/kidash-1.0.0rc2.tar.gz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [emotion-ai-api]: executing diffoscope
+[2024-05-09 09:00:15] INFO root fetch - processPackages [emotion-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_ai_api-0.1.2.tar.gz tmp/emotion_ai_api-0.1.3.tar.gz --markdown 20240509/e/emotion-ai-api/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-09 09:00:15] INFO root fetch - processPackages [djangorestframework-ext]: Downloading https://files.pythonhosted.org/packages/68/7f/a0089289d4ec8908e1a1eb790688de9d770b056bc9785f48187b30f6178b/djangorestframework-ext-0.9.tar.gz
+[2024-05-09 09:00:15] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/d3/ba/d59c31b63ba14d0b3c0ec814924ce1130cb2a2493bc95712a7674ef7e52f/everai-0.1.46-py3-none-any.whl
+[2024-05-09 09:00:15] INFO root fetch - processPackages [djangorestframework-ext]: executing diffoscope
+[2024-05-09 09:00:15] INFO root fetch - processPackages [djangorestframework-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework-ext-0.8.tar.gz tmp/djangorestframework-ext-0.9.tar.gz --markdown 20240509/d/djangorestframework-ext/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 09:00:16] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/37/c7/5bb0acbb02256bfdb34685433d95a04301521084991181e26e063b0a4190/kidash-1.0.1rc1.tar.gz
+[2024-05-09 09:00:16] INFO root fetch - processPackages [fittrackee]: Downloading https://files.pythonhosted.org/packages/30/41/adf097d500d7c1964c344ae763e07c4f63d77636f3013d9460fb4782560e/fittrackee-0.8.3.tar.gz
+[2024-05-09 09:00:16] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/79/bb/f9efaa6c97a71f35210ebd1301ca85934706dcf50e545b9416cf7b3848f5/everai-0.1.47-py3-none-any.whl
+[2024-05-09 09:00:16] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.2.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - processPackages [emotion-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/emotion_ai_api-0.1.3.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - main [MainThread]: End processing [emotion-ai-api]: success
+[2024-05-09 09:00:16] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2024-05-09 09:00:16] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-1.0.0rc2.tar.gz tmp/kidash-1.0.1rc1.tar.gz --markdown 20240509/k/kidash/1.0.0rc2-1.0.1rc1/README.md --exclude *.pyd
+[2024-05-09 09:00:16] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-05-09 09:00:16] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.46-py3-none-any.whl.zip tmp/everai-0.1.47-py3-none-any.whl.zip --markdown 20240509/e/everai/0.1.46-0.1.47/README.md --exclude *.pyd
+[2024-05-09 09:00:16] INFO root fetch - processPackages [fittrackee]: executing diffoscope
+[2024-05-09 09:00:16] INFO root fetch - processPackages [fittrackee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittrackee-0.8.2.tar.gz tmp/fittrackee-0.8.3.tar.gz --markdown 20240509/f/fittrackee/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-09 09:00:16] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.8.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - processPackages [djangorestframework-ext]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework-ext-0.9.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - main [MainThread]: End processing [djangorestframework-ext]: success
+[2024-05-09 09:00:16] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.0rc2.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-1.0.1rc1.tar.gz]
+[2024-05-09 09:00:16] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2024-05-09 09:00:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.46-py3-none-any.whl.zip]
+[2024-05-09 09:00:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.47-py3-none-any.whl.zip]
+[2024-05-09 09:00:17] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-05-09 09:00:25] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.2.tar.gz]
+[2024-05-09 09:00:25] INFO root fetch - processPackages [fittrackee]: Remove: archive file [/home/abi/fetcher/tmp/fittrackee-0.8.3.tar.gz]
+[2024-05-09 09:00:25] INFO root fetch - main [MainThread]: End processing [fittrackee]: success
+[2024-05-09 09:00:25] INFO root fetch - main [MainThread]: Store serial: [23127385]
