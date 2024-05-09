@@ -11404,3 +11404,48 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:04:02] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-09 07:04:02] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-09 07:04:02] INFO root fetch - main [MainThread]: Store serial: [23126401]
+[2024-05-09 07:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126401]
+[2024-05-09 07:06:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lime-stable
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aim-flask
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-snowflake
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-rancher2
+[2024-05-09 07:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-pe
+[2024-05-09 07:06:11] WARNING root fetch - processPackages [aim-flask]: Skipping, unable to determine old version
+[2024-05-09 07:06:11] INFO root fetch - main [MainThread]: End processing [aim-flask] error
+[2024-05-09 07:06:11] WARNING root fetch - processPackages [pms-encoder]: Skipping, unable to determine old version
+[2024-05-09 07:06:11] INFO root fetch - main [MainThread]: End processing [pms-encoder] error
+[2024-05-09 07:06:12] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240508] Old Version: [0.1.2.dev20240507]
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-09 07:06:12] INFO root fetch - processPackages [lime-stable]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-09 07:06:12] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/78/9f/35b028b3951c91d85b94132d3d2e4547c50460b926b61d15092342de4d40/rapid_pe-0.1.2.dev20240507.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-rancher2]: New version: [6.2.0a1715229630] Old Version: [6.2.0a1715062402]
+[2024-05-09 07:06:12] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/e3/c7/2057a0571f2d79a93c808aac3f2e73d4f75494c2b919ce09595c1d320121/lime-stable-1.0.1.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/f6/cb/1d129b7d3cee04d7ccf7e897721da13f3a11c3e3507427de8a6a69a01207/pulumi_rancher2-6.2.0a1715062402.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/a0/11/8d1095aea0c0c78013365962691d4f96ac83fd62c5b54e4159e9b67b988b/rapid_pe-0.1.2.dev20240508.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-09 07:06:12] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240507.tar.gz tmp/rapid_pe-0.1.2.dev20240508.tar.gz --markdown 20240509/r/rapid-pe/0.1.2.dev20240507-0.1.2.dev20240508/README.md --exclude *.pyd
+[2024-05-09 07:06:12] INFO root fetch - processPackages [lime-stable]: Downloading https://files.pythonhosted.org/packages/9c/17/159d589ae7b5d91ffcbdc9983a3d4fd782f08f915ab907eb9f6721762de5/lime-stable-1.0.2.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-rancher2]: Downloading https://files.pythonhosted.org/packages/dc/66/03b7d69b3b69efda5e4fb02d727eb158beee810d2d1f4c170ab874df3838/pulumi_rancher2-6.2.0a1715229630.tar.gz
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240509/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-rancher2]: executing diffoscope
+[2024-05-09 07:06:12] INFO root fetch - processPackages [pulumi-rancher2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz --markdown 20240509/p/pulumi-rancher2/6.2.0a1715062402-6.2.0a1715229630/README.md --exclude *.pyd
+[2024-05-09 07:06:12] INFO root fetch - processPackages [lime-stable]: executing diffoscope
+[2024-05-09 07:06:12] INFO root fetch - processPackages [lime-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime-stable-1.0.1.tar.gz tmp/lime-stable-1.0.2.tar.gz --markdown 20240509/l/lime-stable/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-09 07:06:13] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240507.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240508.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-09 07:06:13] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-1.0.1.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - processPackages [lime-stable]: Remove: archive file [/home/abi/fetcher/tmp/lime-stable-1.0.2.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - main [MainThread]: End processing [lime-stable]: success
+[2024-05-09 07:06:13] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-09 07:06:13] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-09 07:06:14] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715062402.tar.gz]
+[2024-05-09 07:06:14] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1715229630.tar.gz]
+[2024-05-09 07:06:14] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
+[2024-05-09 07:06:14] INFO root fetch - main [MainThread]: Store serial: [23126420]
