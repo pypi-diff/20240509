@@ -21038,3 +21038,84 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 13:08:08] INFO root fetch - processPackages [Abava-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Abava_SDK-1.0.7-py3-none-any.whl.zip]
 [2024-05-09 13:08:08] INFO root fetch - main [MainThread]: End processing [Abava-SDK]: success
 [2024-05-09 13:08:08] INFO root fetch - main [MainThread]: Store serial: [23129946]
+[2024-05-09 13:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129946]
+[2024-05-09 13:10:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textmate-grammar-python
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lcax
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isidiophorousz
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kal-middleware
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: safe-eth-py
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llmprototyping
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esphome
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-tgpt
+[2024-05-09 13:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optimum
+[2024-05-09 13:10:17] INFO root fetch - processPackages [lcax]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-09 13:10:17] WARNING root fetch - processPackages [kal-middleware]: Skipping, unable to determine old version
+[2024-05-09 13:10:17] INFO root fetch - main [MainThread]: End processing [kal-middleware] error
+[2024-05-09 13:10:17] INFO root fetch - processPackages [esphome]: New version: [2024.5.0b2] Old Version: [2024.5.0b1]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.88]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/52/2d/e0003954d95c9e2f81886f48f601e431e46ee336ce7c15887ff66483286b/lcax-2.0.5.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [textmate-grammar-python]: New version: [0.5.1] Old Version: [0.4.0]
+[2024-05-09 13:10:17] WARNING root fetch - processPackages [isidiophorousz]: Skipping, unable to determine old version
+[2024-05-09 13:10:17] INFO root fetch - main [MainThread]: End processing [isidiophorousz] error
+[2024-05-09 13:10:17] INFO root fetch - processPackages [llmprototyping]: New version: [0.1.0.dev4] Old Version: [0.1.0.dev3]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [python-tgpt]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/46/58/5aff723f900ce4565a2885235ce2fd37774eab8a86d0c39062bb1d981717/esphome-2024.5.0b1.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [optimum]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 13:10:17] INFO root fetch - processPackages [textmate-grammar-python]: Downloading https://files.pythonhosted.org/packages/e4/c6/a895798eb859047f8c2e39d4c5889f1d5e9b1152c8e62f6053a19ca9bb19/textmate_grammar_python-0.4.0.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/31/a0/700b83101a9f634db7452e49f589cfbd501b21409984da5a0265d32a46bb/checkov-3.2.88.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/8e/26/d410aefccb663a7b4cb0d5ad05b6d9ae401c3041fa18cf365fb3da225f53/python_tgpt-0.7.1.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [llmprototyping]: Downloading https://files.pythonhosted.org/packages/fd/c6/1c76ddc9376be822692508434147c1681a2d2abb4320d5e49249226a1824/llmprototyping-0.1.0.dev3.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/a7/24/410e1ddb5012dee559f2eaca7a0f04688b8817501ac63d08eac5dc5d2f97/optimum-1.9.0.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/fa/12/134035ef0892dd6afb1f616c2c18c69efdd7d21395c0195403f35bbca53b/lcax-2.0.6.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/8a/24/edc6b6914878455d849ef06fb6077a6353ed4e54f4c57962319bd20532cc/esphome-2024.5.0b2.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [textmate-grammar-python]: Downloading https://files.pythonhosted.org/packages/67/af/5f61f0c940a736f2fc0327efe128bbb39502adff396ec71bc20b7d4b37b4/textmate_grammar_python-0.5.1.tar.gz
+[2024-05-09 13:10:17] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-05-09 13:10:17] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-2.0.5.tar.gz tmp/lcax-2.0.6.tar.gz --markdown 20240509/l/lcax/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-09 13:10:17] INFO root fetch - processPackages [llmprototyping]: Downloading https://files.pythonhosted.org/packages/ba/83/41b6e38efa5f09ec24c3cee6c0b15954cd653c6f6229080b41d55ffb857a/llmprototyping-0.1.0.dev4.tar.gz
+[2024-05-09 13:10:18] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/ae/a6/e8a106f5a78fa4794f201b10739bd14eaaf9c91f8ff3a285b2dcabbf17aa/python_tgpt-0.7.2.tar.gz
+[2024-05-09 13:10:18] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-05-09 13:10:18] INFO root fetch - processPackages [textmate-grammar-python]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [textmate-grammar-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textmate_grammar_python-0.4.0.tar.gz tmp/textmate_grammar_python-0.5.1.tar.gz --markdown 20240509/t/textmate-grammar-python/0.4.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [llmprototyping]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [llmprototyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmprototyping-0.1.0.dev3.tar.gz tmp/llmprototyping-0.1.0.dev4.tar.gz --markdown 20240509/l/llmprototyping/0.1.0.dev3-0.1.0.dev4/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/26/9c/afc49f230da15aa18ff17f6fc4290263455100ca8de672984a9917131a88/optimum-1.9.1.tar.gz
+[2024-05-09 13:10:18] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.88.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240509/c/checkov/3.2.88-3.2.9/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.5.0b1.tar.gz tmp/esphome-2024.5.0b2.tar.gz --markdown 20240509/e/esphome/2024.5.0b1-2024.5.0b2/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [python-tgpt]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [python-tgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tgpt-0.7.1.tar.gz tmp/python_tgpt-0.7.2.tar.gz --markdown 20240509/p/python-tgpt/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240509/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2024-05-09 13:10:18] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.9.0.tar.gz tmp/optimum-1.9.1.tar.gz --markdown 20240509/o/optimum/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 13:10:18] INFO root fetch - processPackages [llmprototyping]: Remove: archive file [/home/abi/fetcher/tmp/llmprototyping-0.1.0.dev3.tar.gz]
+[2024-05-09 13:10:18] INFO root fetch - processPackages [llmprototyping]: Remove: archive file [/home/abi/fetcher/tmp/llmprototyping-0.1.0.dev4.tar.gz]
+[2024-05-09 13:10:18] INFO root fetch - main [MainThread]: End processing [llmprototyping]: success
+[2024-05-09 13:10:18] INFO root fetch - processPackages [textmate-grammar-python]: Remove: archive file [/home/abi/fetcher/tmp/textmate_grammar_python-0.4.0.tar.gz]
+[2024-05-09 13:10:18] INFO root fetch - processPackages [textmate-grammar-python]: Remove: archive file [/home/abi/fetcher/tmp/textmate_grammar_python-0.5.1.tar.gz]
+[2024-05-09 13:10:18] INFO root fetch - main [MainThread]: End processing [textmate-grammar-python]: success
+[2024-05-09 13:10:19] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.7.1.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.7.2.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
+[2024-05-09 13:10:19] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.0.5.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.0.6.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-05-09 13:10:19] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.0.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.1.tar.gz]
+[2024-05-09 13:10:19] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2024-05-09 13:10:20] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-05-09 13:10:20] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-05-09 13:10:20] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-05-09 13:10:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.88.tar.gz]
+[2024-05-09 13:10:26] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-05-09 13:10:26] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-09 13:10:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b1.tar.gz]
+[2024-05-09 13:10:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b2.tar.gz]
+[2024-05-09 13:10:30] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-05-09 13:10:30] INFO root fetch - main [MainThread]: Store serial: [23129977]
