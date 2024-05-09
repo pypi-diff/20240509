@@ -18925,3 +18925,45 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:31:33] INFO root fetch - processPackages [vdk-oracle]: Remove: archive file [/home/abi/fetcher/tmp/vdk-oracle-0.1.2.tar.gz]
 [2024-05-09 11:31:33] INFO root fetch - main [MainThread]: End processing [vdk-oracle]: success
 [2024-05-09 11:31:33] INFO root fetch - main [MainThread]: Store serial: [23129085]
+[2024-05-09 11:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129085]
+[2024-05-09 11:33:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 11:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolbaram
+[2024-05-09 11:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultz
+[2024-05-09 11:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-build-core-conan
+[2024-05-09 11:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m9s-nereid-base
+[2024-05-09 11:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mxlm
+[2024-05-09 11:33:43] WARNING root fetch - processPackages [ultz]: Skipping, unable to determine old version
+[2024-05-09 11:33:43] INFO root fetch - processPackages [dolbaram]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-09 11:33:43] INFO root fetch - main [MainThread]: End processing [ultz] error
+[2024-05-09 11:33:43] INFO root fetch - processPackages [m9s-nereid-base]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-05-09 11:33:43] INFO root fetch - processPackages [scikit-build-core-conan]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-09 11:33:43] INFO root fetch - processPackages [mxlm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 11:33:43] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/58/81/7abb29aa5d17d5d17e99a3a1837e6db62486a9733684247dcbf3e767ec83/dolbaram-0.2.7.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [scikit-build-core-conan]: Downloading https://files.pythonhosted.org/packages/05/61/9cb7f03dd74c739a7f6d7f785e57a2015e88554b037ab2c289506be56ef6/scikit_build_core_conan-0.3.0.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [m9s-nereid-base]: Downloading https://files.pythonhosted.org/packages/83/5f/6b7a201010b62b56c0b802776700ce38f6d89b94b26a6cb07e79ac557049/m9s_nereid_base-7.0.1.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/c8/57/dbe206423eabe3cd329cb2716c5c283894f2489f36444add9d55f555f65f/mxlm-0.0.7.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/01/8b/014f853e022ce98b5f24d12c2fcfa4a42b6a5f2db4d90f85f52f82d4e869/dolbaram-0.2.8.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [scikit-build-core-conan]: Downloading https://files.pythonhosted.org/packages/e2/e5/62f8c28a00f56ab1cfa752e2e51e6cceecca1ffd74d6ae8ecf0479855470/scikit_build_core_conan-0.3.1.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [m9s-nereid-base]: Downloading https://files.pythonhosted.org/packages/bd/4f/cc1fedd37b23eb337f5479769885366b7e00c3bf3f87adcb160e07831e44/m9s_nereid_base-7.0.2.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [mxlm]: Downloading https://files.pythonhosted.org/packages/ed/b8/064bf4a9343e6d3119fd86585daaffb17ff093ce4f9455e450194e3769db/mxlm-0.0.8.tar.gz
+[2024-05-09 11:33:43] INFO root fetch - processPackages [scikit-build-core-conan]: executing diffoscope
+[2024-05-09 11:33:43] INFO root fetch - processPackages [scikit-build-core-conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core_conan-0.3.0.tar.gz tmp/scikit_build_core_conan-0.3.1.tar.gz --markdown 20240509/s/scikit-build-core-conan/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-09 11:33:43] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-05-09 11:33:43] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.7.tar.gz tmp/dolbaram-0.2.8.tar.gz --markdown 20240509/d/dolbaram/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-09 11:33:43] INFO root fetch - processPackages [m9s-nereid-base]: executing diffoscope
+[2024-05-09 11:33:43] INFO root fetch - processPackages [m9s-nereid-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_nereid_base-7.0.1.tar.gz tmp/m9s_nereid_base-7.0.2.tar.gz --markdown 20240509/m/m9s-nereid-base/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-05-09 11:33:44] INFO root fetch - processPackages [mxlm]: executing diffoscope
+[2024-05-09 11:33:44] INFO root fetch - processPackages [mxlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxlm-0.0.7.tar.gz tmp/mxlm-0.0.8.tar.gz --markdown 20240509/m/mxlm/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 11:33:44] INFO root fetch - processPackages [scikit-build-core-conan]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core_conan-0.3.0.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - processPackages [scikit-build-core-conan]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core_conan-0.3.1.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - main [MainThread]: End processing [scikit-build-core-conan]: success
+[2024-05-09 11:33:44] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.7.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - processPackages [mxlm]: Remove: archive file [/home/abi/fetcher/tmp/mxlm-0.0.8.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - main [MainThread]: End processing [mxlm]: success
+[2024-05-09 11:33:44] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.7.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.8.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-05-09 11:33:44] INFO root fetch - processPackages [m9s-nereid-base]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid_base-7.0.1.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - processPackages [m9s-nereid-base]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid_base-7.0.2.tar.gz]
+[2024-05-09 11:33:44] INFO root fetch - main [MainThread]: End processing [m9s-nereid-base]: success
+[2024-05-09 11:33:44] INFO root fetch - main [MainThread]: Store serial: [23129101]
