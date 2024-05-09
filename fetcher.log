@@ -15256,3 +15256,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:06:13] INFO root fetch - processPackages [perceval-opnfv]: Remove: archive file [/home/abi/fetcher/tmp/perceval_opnfv-1.0.1rc1.tar.gz]
 [2024-05-09 10:06:13] INFO root fetch - main [MainThread]: End processing [perceval-opnfv]: success
 [2024-05-09 10:06:13] INFO root fetch - main [MainThread]: Store serial: [23127865]
+[2024-05-09 10:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127865]
+[2024-05-09 10:08:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 10:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-shopify
+[2024-05-09 10:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qdx-py
+[2024-05-09 10:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-05-09 10:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wdm-wavelet
+[2024-05-09 10:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokamesh
+[2024-05-09 10:08:22] INFO root fetch - processPackages [qdx-py]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 10:08:22] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240508] Old Version: [0.4.5.dev20240507]
+[2024-05-09 10:08:22] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.1.0.dev202405090807] Old Version: [2.0.8]
+[2024-05-09 10:08:22] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/a9/65/bc5b8284e54113185d3f8acd5230dea47ee8861aa104a99e06341cf61fd5/qdx_py-0.9.2.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [wdm-wavelet]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-09 10:08:22] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/61/36/10a8e382076230dd7fa32ffa55d73f37a58c01fab5fbcb2808dc33ed59e1/pyglove-0.4.5.dev20240507.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [tokamesh]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-09 10:08:22] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/eb/60/66e9cdc292b5fe38a953dea595ff76aef5a9ea791cd9b2b4a50603848053/airbyte_source_shopify-2.0.8.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [wdm-wavelet]: Downloading https://files.pythonhosted.org/packages/93/b3/f80cffef65f0ce0256bd114854a5a8dcf07e2f6eeb69bd0ed7d9cd4f57e9/wdm-wavelet-0.0.2.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/5a/6b/10963e4cac1c4cec8325de1a2af7f5f94c5eb29791ec36a62b3c2cf61b3c/qdx_py-0.9.3.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [tokamesh]: Downloading https://files.pythonhosted.org/packages/dc/4f/3e3500623ed0453daec18c20f04cb97864642db637a8e4cc159f13312937/tokamesh-0.4.1.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-05-09 10:08:22] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.9.2.tar.gz tmp/qdx_py-0.9.3.tar.gz --markdown 20240509/q/qdx-py/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 10:08:22] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/53/5d/8f18e36a9d0f60a9227cd04682be4d13a89cf669ac232dc0aeb25f97ba4d/pyglove-0.4.5.dev20240508.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/8a/9f/7d46bf666d365a811ac97eae52ebcee92e7359467868094b56dbb7882e78/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-09 10:08:22] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240507.tar.gz tmp/pyglove-0.4.5.dev20240508.tar.gz --markdown 20240509/p/pyglove/0.4.5.dev20240507-0.4.5.dev20240508/README.md --exclude *.pyd
+[2024-05-09 10:08:22] INFO root fetch - processPackages [wdm-wavelet]: Downloading https://files.pythonhosted.org/packages/c0/89/b722d312e2b19a9eb59c8b550a6f49af1b5e68e02c1f62b264e4aa667a08/wdm_wavelet-0.1.1.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-05-09 10:08:22] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.0.8.tar.gz tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz --markdown 20240509/a/airbyte-source-shopify/2.0.8-2.1.0.dev202405090807/README.md --exclude *.pyd
+[2024-05-09 10:08:22] INFO root fetch - processPackages [tokamesh]: Downloading https://files.pythonhosted.org/packages/58/62/1a025da571726a5f026f6afe9204ce1c182c837472286d584770f2f240f1/tokamesh-0.4.2.tar.gz
+[2024-05-09 10:08:22] INFO root fetch - processPackages [wdm-wavelet]: executing diffoscope
+[2024-05-09 10:08:22] INFO root fetch - processPackages [wdm-wavelet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wdm-wavelet-0.0.2.tar.gz tmp/wdm_wavelet-0.1.1.tar.gz --markdown 20240509/w/wdm-wavelet/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-09 10:08:23] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.2.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.3.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-05-09 10:08:23] INFO root fetch - processPackages [tokamesh]: executing diffoscope
+[2024-05-09 10:08:23] INFO root fetch - processPackages [tokamesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokamesh-0.4.1.tar.gz tmp/tokamesh-0.4.2.tar.gz --markdown 20240509/t/tokamesh/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-09 10:08:23] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.8.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-05-09 10:08:23] INFO root fetch - processPackages [wdm-wavelet]: Remove: archive file [/home/abi/fetcher/tmp/wdm-wavelet-0.0.2.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - processPackages [wdm-wavelet]: Remove: archive file [/home/abi/fetcher/tmp/wdm_wavelet-0.1.1.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: End processing [wdm-wavelet]: success
+[2024-05-09 10:08:23] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240507.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240508.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-09 10:08:23] INFO root fetch - processPackages [tokamesh]: Remove: archive file [/home/abi/fetcher/tmp/tokamesh-0.4.1.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - processPackages [tokamesh]: Remove: archive file [/home/abi/fetcher/tmp/tokamesh-0.4.2.tar.gz]
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: End processing [tokamesh]: success
+[2024-05-09 10:08:23] INFO root fetch - main [MainThread]: Store serial: [23127879]
