@@ -14957,3 +14957,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:55:12] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a9.tar.gz]
 [2024-05-09 09:55:12] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
 [2024-05-09 09:55:12] INFO root fetch - main [MainThread]: Store serial: [23127752]
+[2024-05-09 09:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127752]
+[2024-05-09 09:57:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 09:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub
+[2024-05-09 09:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-09 09:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jy_lib
+[2024-05-09 09:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-09 09:57:22] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-09 09:57:22] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-09 09:57:23] INFO root fetch - processPackages [jy_lib]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-09 09:57:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-09 09:57:23] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-09 09:57:23] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240509] Old Version: [2.17.0.dev20240508]
+[2024-05-09 09:57:23] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/ec/86/924e211d3c4f212e2c64c2d7cf4188adfc5be41c437a85b7a171fbf3b32a/jy_lib-0.7.3.tar.gz
+[2024-05-09 09:57:23] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/88/95/5dda21b3a7a244a221f53e9718a50282c5bc8494ced6d66d09e4b80ee991/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-09 09:57:24] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/78/71/db666c1b12d756e61f38af38d13ac57b0d2e2d6c742d60f9450ab4864ddb/jy_lib-0.7.4.tar.gz
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240509/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-09 09:57:24] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/8c/e3/7c98792856350864ba9ce72ae24636f04bc8b0418ca072b05df23935039a/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl
+[2024-05-09 09:57:24] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-09 09:57:24] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.3.tar.gz tmp/jy_lib-0.7.4.tar.gz --markdown 20240509/j/jy_lib/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-09 09:57:24] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240509/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-09 09:57:24] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-09 09:57:24] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip --markdown 20240509/t/tf-nightly/2.17.0.dev20240508-2.17.0.dev20240509/README.md --exclude *.pyd
+[2024-05-09 09:57:25] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-09 09:57:25] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-09 09:57:25] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-09 09:57:25] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.3.tar.gz]
+[2024-05-09 09:57:25] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.4.tar.gz]
+[2024-05-09 09:57:25] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-09 09:57:25] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 09:57:25] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 09:57:25] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-09 09:57:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-09 09:57:26] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-09 09:57:26] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-09 09:57:26] INFO root fetch - main [MainThread]: Store serial: [23127768]
