@@ -11740,3 +11740,96 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:21:55] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-09 07:21:55] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-09 07:21:55] INFO root fetch - main [MainThread]: Store serial: [23126533]
+[2024-05-09 07:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126533]
+[2024-05-09 07:24:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: urdfeus
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tse-motion
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-pybroker
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: instill-sdk
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smgram
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-purchase-order-variant-mgmt
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-archive
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-sale-order-variant-mgmt
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-usefathom
+[2024-05-09 07:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo11-addon-purchase-order-variant-mgmt
+[2024-05-09 07:24:05] INFO root fetch - processPackages [instill-sdk]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [django-usefathom]: New version: [2.0.0] Old Version: [1.2.2]
+[2024-05-09 07:24:05] WARNING root fetch - processPackages [tse-motion]: Skipping, unable to determine old version
+[2024-05-09 07:24:05] INFO root fetch - processPackages [tse-motion]: Start processing: odoo11-addon-sale-order-variant-mgmt
+[2024-05-09 07:24:05] INFO root fetch - main [MainThread]: End processing [tse-motion] error
+[2024-05-09 07:24:05] INFO root fetch - processPackages [urdfeus]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 07:24:05] WARNING root fetch - processPackages [smgram]: Skipping, unable to determine old version
+[2024-05-09 07:24:05] INFO root fetch - processPackages [smgram]: Start processing: betanglementz
+[2024-05-09 07:24:05] INFO root fetch - main [MainThread]: End processing [smgram] error
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/ef/44/e82999958d2e8f11d401e144dcdb581def936306f8fa41cd0bb7bff4b3ca/instill_sdk-0.9.0.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [django-usefathom]: Downloading https://files.pythonhosted.org/packages/f4/e3/32bcfe12286a3cf70344332d924c34f586775f06c84c81e3835fe629e1c3/django-usefathom-1.2.2.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: New version: [11.0.1.0.0.99.dev21] Old Version: [11.0.1.0.0.99.dev20]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1715231401] Old Version: [0.1.0a1715058618]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [lib-pybroker]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: New version: [11.0.1.0.1.99.dev9] Old Version: [11.0.1.0.1.99.dev8]
+[2024-05-09 07:24:05] INFO root fetch - processPackages [urdfeus]: Downloading https://files.pythonhosted.org/packages/b3/08/7fff06de3aa5eed48a2693a8840d5696624306d813f530f5c4342211c97a/urdfeus-0.0.8.tar.gz
+[2024-05-09 07:24:05] WARNING root fetch - processPackages [betanglementz]: Skipping, unable to determine old version
+[2024-05-09 07:24:05] INFO root fetch - main [MainThread]: End processing [betanglementz] error
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/68/c4/5fa904266eb16abe45dabb0357ab717b4fe0dfaef42d4a73e8d489171345/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2024-05-09 07:24:05] INFO root fetch - processPackages [django-usefathom]: Downloading https://files.pythonhosted.org/packages/c9/78/8abdc8cd96b46573670f1615d3ffcde911b376495a22ff8cab4b5773bd73/django_usefathom-2.0.0.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/34/3c/7a7a15f5a575198f5681a2eacd112a20ad5dca5783c6e8b758896a6818cf/lib-pybroker-1.1.8.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/d2/02/1715286c0cb60e45dc8c1e06845daa85ec595d3472eb4a96fd382cc97d93/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/73/22/defc6c1ba388481a44c29a5d2003bc8ab4540d48f66413c504087f8529a3/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev20-py2.py3-none-any.whl
+[2024-05-09 07:24:05] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/6b/6d/028399dac983f956f4f97a48b8bafd0c3f14970f8ee3563499f75c616b6b/pulumi_archive-0.1.0a1715058618.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/5c/e2/631aff36b5b09527cd73930ff861db37c15ca850eedf20454bbf83f663dc/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev8-py2.py3-none-any.whl
+[2024-05-09 07:24:05] INFO root fetch - processPackages [instill-sdk]: Downloading https://files.pythonhosted.org/packages/9d/ba/55f436eb8ceb30331f9f7e4df95a211e70671823a66e26c8867e4efa7fdc/instill_sdk-0.9.0rc0.tar.gz
+[2024-05-09 07:24:05] INFO root fetch - processPackages [django-usefathom]: executing diffoscope
+[2024-05-09 07:24:05] INFO root fetch - processPackages [django-usefathom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-usefathom-1.2.2.tar.gz tmp/django_usefathom-2.0.0.tar.gz --markdown 20240509/d/django-usefathom/1.2.2-2.0.0/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [urdfeus]: Downloading https://files.pythonhosted.org/packages/21/ba/4420736f25cd0ee26b058be5d209e71500b025bb97ac69bf5186fbba28a5/urdfeus-0.0.9.tar.gz
+[2024-05-09 07:24:06] INFO root fetch - processPackages [instill-sdk]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [instill-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instill_sdk-0.9.0.tar.gz tmp/instill_sdk-0.9.0rc0.tar.gz --markdown 20240509/i/instill-sdk/0.9.0-0.9.0rc0/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [urdfeus]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [urdfeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urdfeus-0.0.8.tar.gz tmp/urdfeus-0.0.9.tar.gz --markdown 20240509/u/urdfeus/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/03/ba/2846ffa9bb1f63ef75b20cf0abb0dd732a6b02cc4436bc16e63eaa146d9a/pulumi_archive-0.1.0a1715231401.tar.gz
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/54/5d/29fb5222d3b026e34df43a7d8f00f8dc990d2d24fb418e6552622b9323ee/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2024-05-09 07:24:06] INFO root fetch - processPackages [lib-pybroker]: Downloading https://files.pythonhosted.org/packages/92/47/5d3c2f878c1e65d38032b9450a585161c2761a80814b046f502951c65eed/lib-pybroker-1.1.9.tar.gz
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/0c/63/b62fa3d2200ad0ffba64e095c9585a9287671d5379f945eb76ca8ba9d840/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev21-py2.py3-none-any.whl
+[2024-05-09 07:24:06] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1715058618.tar.gz tmp/pulumi_archive-0.1.0a1715231401.tar.gz --markdown 20240509/p/pulumi-archive/0.1.0a1715058618-0.1.0a1715231401/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/11/34/6978fad3da9b43dff23d07a48d68a571a0429318f97eb322e57d1690bf65/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/58/02/ded657fdd8bebd048b70afb9c382430e5db4fba077b22dd2932fdd65723e/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev9-py2.py3-none-any.whl
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20240509/o/odoo12-addon-purchase-order-variant-mgmt/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev20-py2.py3-none-any.whl.zip tmp/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev21-py2.py3-none-any.whl.zip --markdown 20240509/o/odoo11-addon-purchase-order-variant-mgmt/11.0.1.0.0.99.dev20-11.0.1.0.0.99.dev21/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20240509/o/odoo12-addon-sale-order-variant-mgmt/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [lib-pybroker]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [lib-pybroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-pybroker-1.1.8.tar.gz tmp/lib-pybroker-1.1.9.tar.gz --markdown 20240509/l/lib-pybroker/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: executing diffoscope
+[2024-05-09 07:24:06] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip --markdown 20240509/o/odoo11-addon-sale-order-variant-mgmt/11.0.1.0.1.99.dev8-11.0.1.0.1.99.dev9/README.md --exclude *.pyd
+[2024-05-09 07:24:06] INFO root fetch - processPackages [django-usefathom]: Remove: archive file [/home/abi/fetcher/tmp/django-usefathom-1.2.2.tar.gz]
+[2024-05-09 07:24:06] INFO root fetch - processPackages [django-usefathom]: Remove: archive file [/home/abi/fetcher/tmp/django_usefathom-2.0.0.tar.gz]
+[2024-05-09 07:24:06] INFO root fetch - main [MainThread]: End processing [django-usefathom]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [urdfeus]: Remove: archive file [/home/abi/fetcher/tmp/urdfeus-0.0.8.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [urdfeus]: Remove: archive file [/home/abi/fetcher/tmp/urdfeus-0.0.9.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [urdfeus]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715058618.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1715231401.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev20-py2.py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo11-addon-purchase-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_purchase_order_variant_mgmt-11.0.1.0.0.99.dev21-py2.py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [odoo11-addon-purchase-order-variant-mgmt]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo12-addon-purchase-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-order-variant-mgmt]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.8.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [lib-pybroker]: Remove: archive file [/home/abi/fetcher/tmp/lib-pybroker-1.1.9.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [lib-pybroker]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev8-py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo12-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_order_variant_mgmt-12.0.1.0.2.99.dev9-py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-order-variant-mgmt]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [odoo11-addon-sale-order-variant-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_sale_order_variant_mgmt-11.0.1.0.1.99.dev9-py2.py3-none-any.whl.zip]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [odoo11-addon-sale-order-variant-mgmt]: success
+[2024-05-09 07:24:07] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - processPackages [instill-sdk]: Remove: archive file [/home/abi/fetcher/tmp/instill_sdk-0.9.0rc0.tar.gz]
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: End processing [instill-sdk]: success
+[2024-05-09 07:24:07] INFO root fetch - main [MainThread]: Store serial: [23126569]
