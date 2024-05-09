@@ -11581,3 +11581,42 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:13:04] INFO root fetch - processPackages [odoo-addon-base-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_location-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-09 07:13:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-location]: success
 [2024-05-09 07:13:04] INFO root fetch - main [MainThread]: Store serial: [23126473]
+[2024-05-09 07:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126473]
+[2024-05-09 07:15:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-partner-sequence
+[2024-05-09 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zcorepy
+[2024-05-09 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biomedisa
+[2024-05-09 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-pms
+[2024-05-09 07:15:13] INFO root fetch - processPackages [zcorepy]: New version: [0.2.0rc0] Old Version: [0.2.0a1]
+[2024-05-09 07:15:13] INFO root fetch - processPackages [biomedisa]: New version: [2024.5.15] Old Version: [2024.5.14]
+[2024-05-09 07:15:13] INFO root fetch - processPackages [zcorepy]: Downloading https://files.pythonhosted.org/packages/a5/48/f4e56e50ffd1d45038c9ecef4213056c5db17b436faa32fdd505a47aa67b/zcorepy-0.2.0a1.tar.gz
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: New version: [17.0.1.0.0.5] Old Version: [16.0.1.1.0.2]
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-05-09 07:15:13] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/89/94/b2272d0716425259e0a5af69dc5bcf6668d0b5e4592072e68389077eb0be/biomedisa-2024.5.14.tar.gz
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Downloading https://files.pythonhosted.org/packages/4c/8d/e077d91b85fc0823d69a87d16698b67a142dadb35c5dcfff44473c668561/odoo_addon_base_partner_sequence-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-05-09 07:15:13] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/cf/a7/31b5d0144f7ea9d8b8ad55047e2fc23ed5715b32781ac6e5c7af37f52ba8/biomedisa-2024.5.15.tar.gz
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Downloading https://files.pythonhosted.org/packages/34/b9/cbcc453512235f8eaa2c9a42cedecdcf604179e382ad40a1302a9af0eb45/odoo_addon_base_partner_sequence-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-09 07:15:13] INFO root fetch - processPackages [zcorepy]: Downloading https://files.pythonhosted.org/packages/f6/4b/91e010fff02fae1417d70e03235560ab16216edc3deb722f15d4f2057244/zcorepy-0.2.0rc0.tar.gz
+[2024-05-09 07:15:13] INFO root fetch - processPackages [biomedisa]: executing diffoscope
+[2024-05-09 07:15:13] INFO root fetch - processPackages [biomedisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedisa-2024.5.14.tar.gz tmp/biomedisa-2024.5.15.tar.gz --markdown 20240509/b/biomedisa/2024.5.14-2024.5.15/README.md --exclude *.pyd
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: executing diffoscope
+[2024-05-09 07:15:13] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_partner_sequence-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_partner_sequence-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-base-partner-sequence/16.0.1.1.0.2-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-09 07:15:14] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-05-09 07:15:14] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240509/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-05-09 07:15:14] INFO root fetch - processPackages [zcorepy]: executing diffoscope
+[2024-05-09 07:15:14] INFO root fetch - processPackages [zcorepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcorepy-0.2.0a1.tar.gz tmp/zcorepy-0.2.0rc0.tar.gz --markdown 20240509/z/zcorepy/0.2.0a1-0.2.0rc0/README.md --exclude *.pyd
+[2024-05-09 07:15:14] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.14.tar.gz]
+[2024-05-09 07:15:14] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.15.tar.gz]
+[2024-05-09 07:15:14] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
+[2024-05-09 07:15:14] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_sequence-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-09 07:15:14] INFO root fetch - processPackages [odoo-addon-base-partner-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_partner_sequence-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-09 07:15:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-partner-sequence]: success
+[2024-05-09 07:15:15] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-09 07:15:15] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-09 07:15:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-05-09 07:15:16] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0a1.tar.gz]
+[2024-05-09 07:15:16] INFO root fetch - processPackages [zcorepy]: Remove: archive file [/home/abi/fetcher/tmp/zcorepy-0.2.0rc0.tar.gz]
+[2024-05-09 07:15:16] INFO root fetch - main [MainThread]: End processing [zcorepy]: success
+[2024-05-09 07:15:16] INFO root fetch - main [MainThread]: Store serial: [23126489]
