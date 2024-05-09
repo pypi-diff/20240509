@@ -13029,3 +13029,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:19:57] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.10.tar.gz]
 [2024-05-09 08:19:57] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-05-09 08:19:57] INFO root fetch - main [MainThread]: Store serial: [23127043]
+[2024-05-09 08:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127043]
+[2024-05-09 08:22:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-project-creator
+[2024-05-09 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-identity
+[2024-05-09 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-linode
+[2024-05-09 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2024-05-09 08:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-ns1
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1715228755] Old Version: [3.6.0a1715060871]
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1715228975] Old Version: [3.3.0a1715061254]
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/e7/8c/bd66889bfed13460c4cd908682f77eb6c37509f5616c78b60fb60de2347f/pulumi_mailgun-3.6.0a1715060871.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-09 08:22:06] WARNING root fetch - processPackages [flask-project-creator]: Skipping, unable to determine old version
+[2024-05-09 08:22:06] INFO root fetch - main [MainThread]: End processing [flask-project-creator] error
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/a6/f9/a2c88df91cd460ceb89520b65abb31f3ee33b32be2b5e425702b77583096/pulumi_ns1-3.3.0a1715061254.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/26/c3/b0007d0b1095560d42273e532ca99129e01187fe83c5caaf12f48645dc85/pulumi_mailgun-3.6.0a1715228755.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/4c/d1/d6d10db999400e46c6ed59e6cdbfe7dcc2d0cc357a6eb5e0a37c8aaf9876/pulumi_ns1-3.3.0a1715228975.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz tmp/pulumi_mailgun-3.6.0a1715228755.tar.gz --markdown 20240509/p/pulumi-mailgun/3.6.0a1715060871-3.6.0a1715228755/README.md --exclude *.pyd
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1715061254.tar.gz tmp/pulumi_ns1-3.3.0a1715228975.tar.gz --markdown 20240509/p/pulumi-ns1/3.3.0a1715061254-3.3.0a1715228975/README.md --exclude *.pyd
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-09 08:22:06] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240509/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-09 08:22:06] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-05-09 08:22:07] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-05-09 08:22:07] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240509/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715060871.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1715228755.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715061254.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1715228975.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-09 08:22:07] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-09 08:22:08] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-05-09 08:22:08] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-05-09 08:22:08] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-05-09 08:22:08] INFO root fetch - main [MainThread]: Store serial: [23127060]
