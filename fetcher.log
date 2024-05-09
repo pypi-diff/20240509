@@ -22240,3 +22240,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:57:00] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240507.tar.gz]
 [2024-05-09 13:57:00] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-09 13:57:00] INFO root fetch - main [MainThread]: Store serial: [23130405]
+[2024-05-09 13:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130405]
+[2024-05-09 13:59:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtualmachine
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamana
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: triton-bert
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-datev-export
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-datev-export-xml
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazyqml
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soma-integ
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asynctnt
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bactetiophagez
+[2024-05-09 13:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickstart-vdk
+[2024-05-09 13:59:10] INFO root fetch - processPackages [soma-integ]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [datamana]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [lazyqml]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/36/2f/b815594fc876fe1f088ee1898093bf549ef7e72e5f7c55a1f275635e53f6/soma_integ-0.0.3.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [odoo-addon-datev-export]: New version: [16.0.1.0.1] Old Version: [15.0.1.0.0.2]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [virtualmachine]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [triton-bert]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/7e/4f/1e08e5d074217d2d65408795c7b7bae40db1f469ceffbb943f4762b28466/datamana-0.0.8.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: New version: [16.0.1.0.1] Old Version: [15.0.1.0.1.1]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/2b/1a/db0cad936374ba18635b7a28a19878e5e187719b0e946f64614ee94c390c/lazyqml-0.3.0.tar.gz
+[2024-05-09 13:59:10] WARNING root fetch - processPackages [bactetiophagez]: Skipping, unable to determine old version
+[2024-05-09 13:59:10] INFO root fetch - processPackages [bactetiophagez]: Start processing: cohere
+[2024-05-09 13:59:10] INFO root fetch - main [MainThread]: End processing [bactetiophagez] error
+[2024-05-09 13:59:10] INFO root fetch - processPackages [asynctnt]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [virtualmachine]: Downloading https://files.pythonhosted.org/packages/2a/f9/d0bb2a99dcccb39aa8241c3b1e1ac1f3f1d5127b648815bcda02492cfaae/virtualmachine-1.3.1.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [odoo-addon-datev-export]: Downloading https://files.pythonhosted.org/packages/30/e5/dae1b6e73abd3fd39d2860b07de7039a6035ade7a352a134b08e2237fa74/odoo_addon_datev_export-15.0.1.0.0.2-py3-none-any.whl
+[2024-05-09 13:59:10] INFO root fetch - processPackages [cohere]: New version: [5.4.0] Old Version: [5.3.5]
+[2024-05-09 13:59:10] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Downloading https://files.pythonhosted.org/packages/bf/cb/521931357342c720ea3a40b1433adfcc32cbfcf48c62d86b6acbfccab59b/odoo_addon_datev_export_xml-15.0.1.0.1.1-py3-none-any.whl
+[2024-05-09 13:59:10] INFO root fetch - processPackages [triton-bert]: Downloading https://files.pythonhosted.org/packages/11/d3/01d97e593599bfe9784cb5552404401b1034a896c5ad9145135dee7928ad/triton_bert-0.3.0.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/b4/11/0f1208e064d5a981af9e09c4ea0075f010e1ab1d1875dbbe42974d6b0d6f/datamana-0.0.9.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [asynctnt]: Downloading https://files.pythonhosted.org/packages/3a/6a/28a4e0bf789482d1fc9b4fd5b4a1fef227c30545379d205fa494804a956d/asynctnt-2.2.0.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [soma-integ]: Downloading https://files.pythonhosted.org/packages/96/88/6de964915db8819a420a4b754194d3b25165c3ce02ef343f21ddd2f94ab5/soma_integ-0.0.4.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/35/7c/78a251d1b68045ec832b0edbbe2c4205b1a33034602fd55876edb08038fb/lazyqml-0.3.1.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/f5/3e/878d22514ca116ae2c138b27e9d111f773d9946ce4254c1fb266319d2636/cohere-5.3.5.tar.gz
+[2024-05-09 13:59:10] INFO root fetch - processPackages [datamana]: executing diffoscope
+[2024-05-09 13:59:10] INFO root fetch - processPackages [datamana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamana-0.0.8.tar.gz tmp/datamana-0.0.9.tar.gz --markdown 20240509/d/datamana/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [soma-integ]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [soma-integ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soma_integ-0.0.3.tar.gz tmp/soma_integ-0.0.4.tar.gz --markdown 20240509/s/soma-integ/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240509/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [virtualmachine]: Downloading https://files.pythonhosted.org/packages/d8/fd/1c24d035267053f6e37c383f6e2a8f381f0666344792ad0a826c57c6f4bd/virtualmachine-1.3.2.tar.gz
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export]: Downloading https://files.pythonhosted.org/packages/10/a0/ff022224adccb5631a1ace80f916d1816be6bc40b2eb533e5e71dcd08523/odoo_addon_datev_export-16.0.1.0.1-py3-none-any.whl
+[2024-05-09 13:59:11] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.3.0.tar.gz tmp/lazyqml-0.3.1.tar.gz --markdown 20240509/l/lazyqml/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_datev_export-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_datev_export-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-datev-export/15.0.1.0.0.2-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [virtualmachine]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [triton-bert]: Downloading https://files.pythonhosted.org/packages/a1/ec/3457e214e84834be692265e7cb089194ab5f01565c0cf57664c774b68f03/triton_bert-0.3.2.tar.gz
+[2024-05-09 13:59:11] INFO root fetch - processPackages [virtualmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtualmachine-1.3.1.tar.gz tmp/virtualmachine-1.3.2.tar.gz --markdown 20240509/v/virtualmachine/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [asynctnt]: Downloading https://files.pythonhosted.org/packages/dd/80/a50a69fc2b07f3b42850243ac1ca6cca34a3ca84e0718d8eb102d5d073e6/asynctnt-2.3.0-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-09 13:59:11] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/73/90/7c0b45a4a82a7e68f0d16d9387634072e1c0893a17b9200e895a0ed00dc6/cohere-5.4.0.tar.gz
+[2024-05-09 13:59:11] INFO root fetch - processPackages [triton-bert]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [triton-bert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triton_bert-0.3.0.tar.gz tmp/triton_bert-0.3.2.tar.gz --markdown 20240509/t/triton-bert/0.3.0-0.3.2/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Downloading https://files.pythonhosted.org/packages/a1/c7/505cc759cd4f0b8959a4fd8df5131d0f6e50ca4fe1af5daaa24e797aae81/odoo_addon_datev_export_xml-16.0.1.0.1-py3-none-any.whl
+[2024-05-09 13:59:11] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-5.3.5.tar.gz tmp/cohere-5.4.0.tar.gz --markdown 20240509/c/cohere/5.3.5-5.4.0/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [asynctnt]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [asynctnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynctnt-2.2.0.tar.gz tmp/asynctnt-2.3.0-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240509/a/asynctnt/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: executing diffoscope
+[2024-05-09 13:59:11] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_datev_export_xml-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_datev_export_xml-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-datev-export-xml/15.0.1.0.1.1-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-09 13:59:11] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.0.8.tar.gz]
+[2024-05-09 13:59:11] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.0.9.tar.gz]
+[2024-05-09 13:59:11] INFO root fetch - main [MainThread]: End processing [datamana]: success
+[2024-05-09 13:59:11] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.3.tar.gz]
+[2024-05-09 13:59:11] INFO root fetch - processPackages [soma-integ]: Remove: archive file [/home/abi/fetcher/tmp/soma_integ-0.0.4.tar.gz]
+[2024-05-09 13:59:11] INFO root fetch - main [MainThread]: End processing [soma-integ]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [virtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/virtualmachine-1.3.1.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [virtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/virtualmachine-1.3.2.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [virtualmachine]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.0.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.1.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [triton-bert]: Remove: archive file [/home/abi/fetcher/tmp/triton_bert-0.3.0.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [triton-bert]: Remove: archive file [/home/abi/fetcher/tmp/triton_bert-0.3.2.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [triton-bert]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [odoo-addon-datev-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [odoo-addon-datev-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-datev-export]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [asynctnt]: Remove: archive file [/home/abi/fetcher/tmp/asynctnt-2.2.0.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [asynctnt]: Remove: archive file [/home/abi/fetcher/tmp/asynctnt-2.3.0-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [asynctnt]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.3.5.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.4.0.tar.gz]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2024-05-09 13:59:12] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-09 13:59:12] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-datev-export-xml]: success
+[2024-05-09 13:59:12] INFO root fetch - main [MainThread]: Store serial: [23130469]

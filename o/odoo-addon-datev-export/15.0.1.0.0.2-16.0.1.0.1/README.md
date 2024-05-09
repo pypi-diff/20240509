@@ -1,0 +1,442 @@
+# Comparing `tmp/odoo_addon_datev_export-15.0.1.0.0.2-py3-none-any.whl.zip` & `tmp/odoo_addon_datev_export-16.0.1.0.1-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,19 +1,19 @@
+-Zip file size: 22448 bytes, number of entries: 17
+--rw-r--r--  2.0 unx     3022 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/README.rst
+--rw-r--r--  2.0 unx      120 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/__init__.py
+--rw-r--r--  2.0 unx      670 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/__manifest__.py
+--rw-r--r--  2.0 unx     2735 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/i18n/datev_export.pot
+--rw-r--r--  2.0 unx      146 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/models/__init__.py
+--rw-r--r--  2.0 unx      460 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/models/res_company.py
+--rw-r--r--  2.0 unx      466 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/models/res_config_settings.py
+--rw-r--r--  2.0 unx        0 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/readme/CONFIGURATION.rst
+--rw-r--r--  2.0 unx       58 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/readme/CONTRIBUTORS.rst
+--rw-r--r--  2.0 unx      181 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/readme/DESCRIPTION.rst
+--rw-r--r--  2.0 unx     9455 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/static/description/icon.png
+--rw-r--r--  2.0 unx    11476 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/static/description/index.html
+--rw-r--r--  2.0 unx     3262 b- defN 24-Mar-14 15:46 odoo/addons/datev_export/views/res_config_settings_views.xml
+--rw-r--r--  2.0 unx     3689 b- defN 24-Mar-14 15:46 odoo_addon_datev_export-15.0.1.0.0.2.dist-info/METADATA
+--rw-r--r--  2.0 unx       92 b- defN 24-Mar-14 15:46 odoo_addon_datev_export-15.0.1.0.0.2.dist-info/WHEEL
+--rw-r--r--  2.0 unx        5 b- defN 24-Mar-14 15:46 odoo_addon_datev_export-15.0.1.0.0.2.dist-info/top_level.txt
+--rw-rw-r--  2.0 unx     1730 b- defN 24-Mar-14 15:46 odoo_addon_datev_export-15.0.1.0.0.2.dist-info/RECORD
+-17 files, 37567 bytes uncompressed, 19474 bytes compressed:  48.2%
++Zip file size: 22492 bytes, number of entries: 17
++-rw-r--r--  2.0 unx     3037 b- defN 24-May-09 11:57 odoo/addons/datev_export/README.rst
++-rw-r--r--  2.0 unx      120 b- defN 24-May-09 11:57 odoo/addons/datev_export/__init__.py
++-rw-r--r--  2.0 unx      743 b- defN 24-May-09 11:57 odoo/addons/datev_export/__manifest__.py
++-rw-r--r--  2.0 unx     2735 b- defN 24-May-09 11:57 odoo/addons/datev_export/i18n/datev_export.pot
++-rw-r--r--  2.0 unx      146 b- defN 24-May-09 11:57 odoo/addons/datev_export/models/__init__.py
++-rw-r--r--  2.0 unx      460 b- defN 24-May-09 11:57 odoo/addons/datev_export/models/res_company.py
++-rw-r--r--  2.0 unx      466 b- defN 24-May-09 11:57 odoo/addons/datev_export/models/res_config_settings.py
++-rw-r--r--  2.0 unx        0 b- defN 24-May-09 11:57 odoo/addons/datev_export/readme/CONFIGURATION.rst
++-rw-r--r--  2.0 unx       58 b- defN 24-May-09 11:57 odoo/addons/datev_export/readme/CONTRIBUTORS.rst
++-rw-r--r--  2.0 unx      181 b- defN 24-May-09 11:57 odoo/addons/datev_export/readme/DESCRIPTION.rst
++-rw-r--r--  2.0 unx     9455 b- defN 24-May-09 11:57 odoo/addons/datev_export/static/description/icon.png
++-rw-r--r--  2.0 unx    11498 b- defN 24-May-09 11:57 odoo/addons/datev_export/static/description/index.html
++-rw-r--r--  2.0 unx     3262 b- defN 24-May-09 11:57 odoo/addons/datev_export/views/res_config_settings_views.xml
++-rw-r--r--  2.0 unx     3717 b- defN 24-May-09 11:57 odoo_addon_datev_export-16.0.1.0.1.dist-info/METADATA
++-rw-r--r--  2.0 unx       92 b- defN 24-May-09 11:57 odoo_addon_datev_export-16.0.1.0.1.dist-info/WHEEL
++-rw-r--r--  2.0 unx        5 b- defN 24-May-09 11:57 odoo_addon_datev_export-16.0.1.0.1.dist-info/top_level.txt
++-rw-rw-r--  2.0 unx     1722 b- defN 24-May-09 11:57 odoo_addon_datev_export-16.0.1.0.1.dist-info/RECORD
++17 files, 37697 bytes uncompressed, 19534 bytes compressed:  48.2%
+```
+
+## zipnote {}
+
+```diff
+@@ -33,20 +33,20 @@
+ 
+ Filename: odoo/addons/datev_export/static/description/index.html
+ Comment: 
+ 
+ Filename: odoo/addons/datev_export/views/res_config_settings_views.xml
+ Comment: 
+ 
+-Filename: odoo_addon_datev_export-15.0.1.0.0.2.dist-info/METADATA
++Filename: odoo_addon_datev_export-16.0.1.0.1.dist-info/METADATA
+ Comment: 
+ 
+-Filename: odoo_addon_datev_export-15.0.1.0.0.2.dist-info/WHEEL
++Filename: odoo_addon_datev_export-16.0.1.0.1.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: odoo_addon_datev_export-15.0.1.0.0.2.dist-info/top_level.txt
++Filename: odoo_addon_datev_export-16.0.1.0.1.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: odoo_addon_datev_export-15.0.1.0.0.2.dist-info/RECORD
++Filename: odoo_addon_datev_export-16.0.1.0.1.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## odoo/addons/datev_export/README.rst
+
+```diff
+@@ -3,31 +3,31 @@
+ ============
+ 
+ .. 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !! This file is generated by oca-gen-addon-readme !!
+    !! changes will be overwritten.                   !!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-   !! source digest: sha256:298d38303f5a9a2ccc75f57b0ea973f1b25b936816527ff64a864ab8f4a15092
++   !! source digest: sha256:9a34958a17ab57da2abcaafc9b57dd5614e8548a563bbbddf827dce0304d139c
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+     :target: https://odoo-community.org/page/development-status
+     :alt: Beta
+ .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+     :alt: License: AGPL-3
+ .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--germany-lightgray.png?logo=github
+-    :target: https://github.com/OCA/l10n-germany/tree/15.0/datev_export
++    :target: https://github.com/OCA/l10n-germany/tree/16.0/datev_export
+     :alt: OCA/l10n-germany
+ .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
+-    :target: https://translation.odoo-community.org/projects/l10n-germany-15-0/l10n-germany-15-0-datev_export
++    :target: https://translation.odoo-community.org/projects/l10n-germany-16-0/l10n-germany-16-0-datev_export
+     :alt: Translate me on Weblate
+ .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
+-    :target: https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&target_branch=15.0
++    :target: https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&target_branch=16.0
+     :alt: Try me on Runboat
+ 
+ |badge1| |badge2| |badge3| |badge4| |badge5|
+ 
+ Odoo Export to DATEV
+ ====================
+ 
+@@ -41,15 +41,15 @@
+ 
+ Bug Tracker
+ ===========
+ 
+ Bugs are tracked on `GitHub Issues <https://github.com/OCA/l10n-germany/issues>`_.
+ In case of trouble, please check there if your issue has already been reported.
+ If you spotted it first, help us to smash it by providing a detailed and welcomed
+-`feedback <https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
++`feedback <https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+ 
+ Do not contact contributors directly about support or help with technical issues.
+ 
+ Credits
+ =======
+ 
+ Authors
+@@ -57,14 +57,15 @@
+ 
+ * Guenter Selbert
+ * Thorsten Vocks
+ * Maciej Wichowski
+ * Daniela Scarpa
+ * Maria Sparenberg
+ * initOS GmbH
++* Jan Sierpina
+ 
+ Contributors
+ ~~~~~~~~~~~~
+ 
+ * Thorsten Vocks (OpenBIG.org)
+ * initOS GmbH (initOS.com)
+ 
+@@ -77,10 +78,10 @@
+    :alt: Odoo Community Association
+    :target: https://odoo-community.org
+ 
+ OCA, or the Odoo Community Association, is a nonprofit organization whose
+ mission is to support the collaborative development of Odoo features and
+ promote its widespread use.
+ 
+-This module is part of the `OCA/l10n-germany <https://github.com/OCA/l10n-germany/tree/15.0/datev_export>`_ project on GitHub.
++This module is part of the `OCA/l10n-germany <https://github.com/OCA/l10n-germany/tree/16.0/datev_export>`_ project on GitHub.
+ 
+ You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
+```
+
+## odoo/addons/datev_export/__manifest__.py
+
+```diff
+@@ -1,17 +1,18 @@
++# Copyright (C) 2024 Solvti sp. z o.o. (https://solvti.pl)
+ # Copyright (C) 2023 initOS GmbH
+ # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+ 
+ {
+     "name": "Datev Export",
+-    "version": "15.0.1.0.0",
++    "version": "16.0.1.0.1",
+     "category": "Accounting",
+     "license": "AGPL-3",
+     "author": "Guenter Selbert, Thorsten Vocks, Maciej Wichowski, Daniela Scarpa, "
+-    "Maria Sparenberg, initOS GmbH, Odoo Community Association (OCA)",
++    "Maria Sparenberg, initOS GmbH, Jan Sierpina, Odoo Community Association (OCA)",
+     "summary": "Export invoices and refunds as xml and pdf files zipped in DATEV format.",
+     "website": "https://github.com/OCA/l10n-germany",
+     "depends": [
+         "account",
+         "l10n_de",
+     ],
+     "data": [
+```
+
+## odoo/addons/datev_export/i18n/datev_export.pot
+
+```diff
+@@ -1,14 +1,14 @@
+ # Translation of Odoo Server.
+ # This file contains the translation of the following modules:
+ # 	* datev_export
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Odoo Server 15.0\n"
++"Project-Id-Version: Odoo Server 16.0\n"
+ "Report-Msgid-Bugs-To: \n"
+ "Last-Translator: \n"
+ "Language-Team: \n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: \n"
+ "Plural-Forms: \n"
+```
+
+## odoo/addons/datev_export/static/description/index.html
+
+```diff
+@@ -362,42 +362,43 @@
+ <div class="document" id="datev-export">
+ <h1 class="title">Datev Export</h1>
+ 
+ <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ !! This file is generated by oca-gen-addon-readme !!
+ !! changes will be overwritten.                   !!
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-!! source digest: sha256:298d38303f5a9a2ccc75f57b0ea973f1b25b936816527ff64a864ab8f4a15092
++!! source digest: sha256:9a34958a17ab57da2abcaafc9b57dd5614e8548a563bbbddf827dce0304d139c
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+-<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/l10n-germany/tree/15.0/datev_export"><img alt="OCA/l10n-germany" src="https://img.shields.io/badge/github-OCA%2Fl10n--germany-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/l10n-germany-15-0/l10n-germany-15-0-datev_export"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&amp;target_branch=15.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
++<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/l10n-germany/tree/16.0/datev_export"><img alt="OCA/l10n-germany" src="https://img.shields.io/badge/github-OCA%2Fl10n--germany-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/l10n-germany-16-0/l10n-germany-16-0-datev_export"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&amp;target_branch=16.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
+ <div class="section" id="odoo-export-to-datev">
+ <h1>Odoo Export to DATEV</h1>
+ <p>This module contains the basic configuration of the additional DATEV modules to offer
+ various ways to export data for the usage in DATEV.</p>
+ <p><strong>Table of contents</strong></p>
+ </div>
+ <div class="section" id="bug-tracker">
+ <h1>Bug Tracker</h1>
+ <p>Bugs are tracked on <a class="reference external" href="https://github.com/OCA/l10n-germany/issues">GitHub Issues</a>.
+ In case of trouble, please check there if your issue has already been reported.
+ If you spotted it first, help us to smash it by providing a detailed and welcomed
+-<a class="reference external" href="https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
++<a class="reference external" href="https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**">feedback</a>.</p>
+ <p>Do not contact contributors directly about support or help with technical issues.</p>
+ </div>
+ <div class="section" id="credits">
+ <h1>Credits</h1>
+ <div class="section" id="authors">
+ <h2>Authors</h2>
+ <ul class="simple">
+ <li>Guenter Selbert</li>
+ <li>Thorsten Vocks</li>
+ <li>Maciej Wichowski</li>
+ <li>Daniela Scarpa</li>
+ <li>Maria Sparenberg</li>
+ <li>initOS GmbH</li>
++<li>Jan Sierpina</li>
+ </ul>
+ </div>
+ <div class="section" id="contributors">
+ <h2>Contributors</h2>
+ <ul class="simple">
+ <li>Thorsten Vocks (OpenBIG.org)</li>
+ <li>initOS GmbH (initOS.com)</li>
+@@ -406,14 +407,14 @@
+ <div class="section" id="maintainers">
+ <h2>Maintainers</h2>
+ <p>This module is maintained by the OCA.</p>
+ <a class="reference external image-reference" href="https://odoo-community.org"><img alt="Odoo Community Association" src="https://odoo-community.org/logo.png" /></a>
+ <p>OCA, or the Odoo Community Association, is a nonprofit organization whose
+ mission is to support the collaborative development of Odoo features and
+ promote its widespread use.</p>
+-<p>This module is part of the <a class="reference external" href="https://github.com/OCA/l10n-germany/tree/15.0/datev_export">OCA/l10n-germany</a> project on GitHub.</p>
++<p>This module is part of the <a class="reference external" href="https://github.com/OCA/l10n-germany/tree/16.0/datev_export">OCA/l10n-germany</a> project on GitHub.</p>
+ <p>You are welcome to contribute. To learn how please visit <a class="reference external" href="https://odoo-community.org/page/Contribute">https://odoo-community.org/page/Contribute</a>.</p>
+ </div>
+ </div>
+ </div>
+ </body>
+ </html>
+```
+
+### html2text {}
+
+```diff
+@@ -15,14 +15,15 @@
+ ********** AAuutthhoorrss **********
+     * Guenter Selbert
+     * Thorsten Vocks
+     * Maciej Wichowski
+     * Daniela Scarpa
+     * Maria Sparenberg
+     * initOS GmbH
++    * Jan Sierpina
+ ********** CCoonnttrriibbuuttoorrss **********
+     * Thorsten Vocks (OpenBIG.org)
+     * initOS GmbH (initOS.com)
+ ********** MMaaiinnttaaiinneerrss **********
+ This module is maintained by the OCA.
+ _[_O_d_o_o_ _C_o_m_m_u_n_i_t_y_ _A_s_s_o_c_i_a_t_i_o_n_]
+ OCA, or the Odoo Community Association, is a nonprofit organization whose
+```
+
+## Comparing `odoo_addon_datev_export-15.0.1.0.0.2.dist-info/METADATA` & `odoo_addon_datev_export-16.0.1.0.1.dist-info/METADATA`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,49 +1,49 @@
+ Metadata-Version: 2.1
+ Name: odoo-addon-datev-export
+-Version: 15.0.1.0.0.2
++Version: 16.0.1.0.1
+ Summary: Export invoices and refunds as xml and pdf files zipped in DATEV format.
+ Home-page: https://github.com/OCA/l10n-germany
+-Author: Guenter Selbert, Thorsten Vocks, Maciej Wichowski, Daniela Scarpa, Maria Sparenberg, initOS GmbH, Odoo Community Association (OCA)
++Author: Guenter Selbert, Thorsten Vocks, Maciej Wichowski, Daniela Scarpa, Maria Sparenberg, initOS GmbH, Jan Sierpina, Odoo Community Association (OCA)
+ Author-email: support@odoo-community.org
+ License: AGPL-3
+ Platform: UNKNOWN
+ Classifier: Programming Language :: Python
+ Classifier: Framework :: Odoo
+-Classifier: Framework :: Odoo :: 15.0
++Classifier: Framework :: Odoo :: 16.0
+ Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+-Requires-Python: >=3.8
+-Requires-Dist: odoo <15.1dev,>=15.0a
++Requires-Python: >=3.10
++Requires-Dist: odoo <16.1dev,>=16.0a
+ 
+ ============
+ Datev Export
+ ============
+ 
+ .. 
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    !! This file is generated by oca-gen-addon-readme !!
+    !! changes will be overwritten.                   !!
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-   !! source digest: sha256:298d38303f5a9a2ccc75f57b0ea973f1b25b936816527ff64a864ab8f4a15092
++   !! source digest: sha256:9a34958a17ab57da2abcaafc9b57dd5614e8548a563bbbddf827dce0304d139c
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+     :target: https://odoo-community.org/page/development-status
+     :alt: Beta
+ .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
+     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+     :alt: License: AGPL-3
+ .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--germany-lightgray.png?logo=github
+-    :target: https://github.com/OCA/l10n-germany/tree/15.0/datev_export
++    :target: https://github.com/OCA/l10n-germany/tree/16.0/datev_export
+     :alt: OCA/l10n-germany
+ .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
+-    :target: https://translation.odoo-community.org/projects/l10n-germany-15-0/l10n-germany-15-0-datev_export
++    :target: https://translation.odoo-community.org/projects/l10n-germany-16-0/l10n-germany-16-0-datev_export
+     :alt: Translate me on Weblate
+ .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
+-    :target: https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&target_branch=15.0
++    :target: https://runboat.odoo-community.org/builds?repo=OCA/l10n-germany&target_branch=16.0
+     :alt: Try me on Runboat
+ 
+ |badge1| |badge2| |badge3| |badge4| |badge5|
+ 
+ Odoo Export to DATEV
+ ====================
+ 
+@@ -57,15 +57,15 @@
+ 
+ Bug Tracker
+ ===========
+ 
+ Bugs are tracked on `GitHub Issues <https://github.com/OCA/l10n-germany/issues>`_.
+ In case of trouble, please check there if your issue has already been reported.
+ If you spotted it first, help us to smash it by providing a detailed and welcomed
+-`feedback <https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
++`feedback <https://github.com/OCA/l10n-germany/issues/new?body=module:%20datev_export%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+ 
+ Do not contact contributors directly about support or help with technical issues.
+ 
+ Credits
+ =======
+ 
+ Authors
+@@ -73,14 +73,15 @@
+ 
+ * Guenter Selbert
+ * Thorsten Vocks
+ * Maciej Wichowski
+ * Daniela Scarpa
+ * Maria Sparenberg
+ * initOS GmbH
++* Jan Sierpina
+ 
+ Contributors
+ ~~~~~~~~~~~~
+ 
+ * Thorsten Vocks (OpenBIG.org)
+ * initOS GmbH (initOS.com)
+ 
+@@ -93,12 +94,12 @@
+    :alt: Odoo Community Association
+    :target: https://odoo-community.org
+ 
+ OCA, or the Odoo Community Association, is a nonprofit organization whose
+ mission is to support the collaborative development of Odoo features and
+ promote its widespread use.
+ 
+-This module is part of the `OCA/l10n-germany <https://github.com/OCA/l10n-germany/tree/15.0/datev_export>`_ project on GitHub.
++This module is part of the `OCA/l10n-germany <https://github.com/OCA/l10n-germany/tree/16.0/datev_export>`_ project on GitHub.
+ 
+ You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
+```
+
+## Comparing `odoo_addon_datev_export-15.0.1.0.0.2.dist-info/RECORD` & `odoo_addon_datev_export-16.0.1.0.1.dist-info/RECORD`
+
+ * *Files 22% similar despite different names*
+
+```diff
+@@ -1,17 +1,17 @@
+-odoo/addons/datev_export/README.rst,sha256=afyjwqHnzZkA5katRwgvdNMVUlnv0mB-KaWc9P8stns,3022
++odoo/addons/datev_export/README.rst,sha256=eNGsY-ZXwYDk_MAWT7B3el-B9JOg3hZ08TeBANkEXlQ,3037
+ odoo/addons/datev_export/__init__.py,sha256=zs6pggzqmYojZ9FnJOP7nCF2WCEMnzEYd_mZvpPDOEA,120
+-odoo/addons/datev_export/__manifest__.py,sha256=8-LAMjQcewWrTiboiNnRtrDklOP2gyQ4f33zIJ2218o,670
+-odoo/addons/datev_export/i18n/datev_export.pot,sha256=T88KWl_QKfC3iOIzJkqSwTHjRZo7UV74PNXLlDN_Cug,2735
++odoo/addons/datev_export/__manifest__.py,sha256=GsBgrFFcdk9hwj933S-rlC5wMTZ_aX8Jg4MZ-wNnDYE,743
++odoo/addons/datev_export/i18n/datev_export.pot,sha256=-dUnx4DFEQ6pqNMI4pX1W9JzH0cnME-AP-XmHN9votI,2735
+ odoo/addons/datev_export/models/__init__.py,sha256=ntBvGdja8Nf1l0qHFia3jm2-vAKVSdya3jGUU0Kpfhg,146
+ odoo/addons/datev_export/models/res_company.py,sha256=VAJNVveSaV0WQGgn95p5r0vzm1qt_Cz2JFs4bacyb1c,460
+ odoo/addons/datev_export/models/res_config_settings.py,sha256=mkueck9sYlLLVoKIkugQMHalgCHcEvXaXmQAkUaAqf4,466
+ odoo/addons/datev_export/readme/CONFIGURATION.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ odoo/addons/datev_export/readme/CONTRIBUTORS.rst,sha256=yGxQEZSWFEwkHtHDyDO2qVcIB02VvUZ9aIs4O8NW2j8,58
+ odoo/addons/datev_export/readme/DESCRIPTION.rst,sha256=ihZXkFikkW8xqGPc8QslHmYHz6f08xB7e3VR64dd_I4,181
+ odoo/addons/datev_export/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+-odoo/addons/datev_export/static/description/index.html,sha256=XiFT3-wfjvCIKEwF2ApgpsKcuS6a35QsbPTdMowH6ys,11476
++odoo/addons/datev_export/static/description/index.html,sha256=DMicW5CWSWEIqD22RpenX0B4FFqi0KCvTT7o41fQOHU,11498
+ odoo/addons/datev_export/views/res_config_settings_views.xml,sha256=oIV1R8V-vUdgp9Rz8SfvdmSE2HfGl0q7Z-5HFf-GoxM,3262
+-odoo_addon_datev_export-15.0.1.0.0.2.dist-info/METADATA,sha256=__HlJbbrsSJIK3ThHFrrDPV4CK5QHkbCAB_g7DQXyKE,3689
+-odoo_addon_datev_export-15.0.1.0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+-odoo_addon_datev_export-15.0.1.0.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+-odoo_addon_datev_export-15.0.1.0.0.2.dist-info/RECORD,,
++odoo_addon_datev_export-16.0.1.0.1.dist-info/METADATA,sha256=nlrV3PnjNjGWhHVPmPKg6E_g_320euQZokC0IbYvlrM,3717
++odoo_addon_datev_export-16.0.1.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
++odoo_addon_datev_export-16.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
++odoo_addon_datev_export-16.0.1.0.1.dist-info/RECORD,,
+```
+
