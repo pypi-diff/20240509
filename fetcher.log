@@ -9038,3 +9038,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:18:12] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
 [2024-05-09 05:18:12] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-05-09 05:18:12] INFO root fetch - main [MainThread]: Store serial: [23125492]
+[2024-05-09 05:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125492]
+[2024-05-09 05:20:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatticz
+[2024-05-09 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subshift
+[2024-05-09 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdbook-pdf-summary
+[2024-05-09 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-be-cooperator-website-national-number
+[2024-05-09 05:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webarchiver
+[2024-05-09 05:20:20] WARNING root fetch - processPackages [mdbook-pdf-summary]: Skipping, unable to determine old version
+[2024-05-09 05:20:20] INFO root fetch - main [MainThread]: End processing [mdbook-pdf-summary] error
+[2024-05-09 05:20:20] WARNING root fetch - processPackages [hatticz]: Skipping, unable to determine old version
+[2024-05-09 05:20:20] INFO root fetch - main [MainThread]: End processing [hatticz] error
+[2024-05-09 05:20:20] INFO root fetch - processPackages [webarchiver]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:20:20] INFO root fetch - processPackages [webarchiver]: Downloading https://files.pythonhosted.org/packages/8b/9a/c8f521351841e4f8f2e9edc8e89dc32dd5d69a459228392ab38660d0914b/webarchiver-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:20:20] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2024-05-09 05:20:20] INFO root fetch - processPackages [subshift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:20:21] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Downloading https://files.pythonhosted.org/packages/6d/ee/9d2aa43e78a45aa31b25f79711269f38621fd06b40e48e3b2ef213f8c260/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/be/c0/4105d13745d0e749930d5632609fed0de7d60ea009dd75a179fcd037e978/subshift-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:20:21] INFO root fetch - processPackages [webarchiver]: Downloading https://files.pythonhosted.org/packages/4d/18/d61823bb35498ed6ef62a78d2e0f5c75cbe3c3c36c63d417def12d394870/webarchiver-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:20:21] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Downloading https://files.pythonhosted.org/packages/df/d2/625fb2e57f666b317b2835ee0cb9be0e2efb41600719c24f3c07c99e3fb6/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/1a/1c/52f2d03a1bc34515813e4a8069849a3241629884496df65f8b2ccb8a3e74/subshift-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:20:21] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: executing diffoscope
+[2024-05-09 05:20:21] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-l10n-be-cooperator-website-national-number/16.0.1.0.1.2-16.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: executing diffoscope
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subshift-0.8.0-py2.py3-none-any.whl.zip tmp/subshift-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/subshift/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:20:21] INFO root fetch - processPackages [webarchiver]: executing diffoscope
+[2024-05-09 05:20:21] INFO root fetch - processPackages [webarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webarchiver-0.8.0-py2.py3-none-any.whl.zip tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/w/webarchiver/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:20:21] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:20:21] INFO root fetch - main [MainThread]: End processing [subshift]: success
+[2024-05-09 05:20:22] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-09 05:20:22] INFO root fetch - processPackages [odoo-addon-l10n-be-cooperator-website-national-number]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_be_cooperator_website_national_number-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-09 05:20:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-be-cooperator-website-national-number]: success
+[2024-05-09 05:20:22] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:20:22] INFO root fetch - processPackages [webarchiver]: Remove: archive file [/home/abi/fetcher/tmp/webarchiver-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:20:22] INFO root fetch - main [MainThread]: End processing [webarchiver]: success
+[2024-05-09 05:20:22] INFO root fetch - main [MainThread]: Store serial: [23125507]
