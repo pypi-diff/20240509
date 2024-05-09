@@ -12487,3 +12487,69 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 07:57:26] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-05-09 07:57:26] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-05-09 07:57:26] INFO root fetch - main [MainThread]: Store serial: [23126826]
+[2024-05-09 07:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126826]
+[2024-05-09 07:59:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfmtools
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-ise
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingodb
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specsy
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swit-core
+[2024-05-09 07:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-datadog
+[2024-05-09 07:59:35] INFO root fetch - processPackages [specsy]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1715232907] Old Version: [0.2.0a1715176754]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/e0/87/8b5f8e765b6de956f406f0adbc008d6ff6a63d327616b3acc2908f747f1f/specsy-0.2.7.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pyfmtools]: New version: [5.1] Old Version: [0.81]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [swit-core]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/ad/39/b51631243d640bd831d3557b449814d3cea853f5f8bebde0dc37294f2a9f/pulumi_ise-0.2.0a1715176754.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pyfmtools]: Downloading https://files.pythonhosted.org/packages/db/d0/9fca1cf7539dec3a409bc216014f47890b1756e98cbfd2dc7e83b6847b4d/pyfmtools-0.81.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/52/78/8dbf8d259ded05f7d13d1b4f52a1edab55c3a5ddcd0c12d2f32319fd2670/swit_core-4.0.1.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [specsy]: Downloading https://files.pythonhosted.org/packages/3c/dc/e9f07e104c1451f04470eb36e6b86da0afa91a0a9edb34aea25d308dfc91/specsy-0.2.8.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [specsy]: executing diffoscope
+[2024-05-09 07:59:35] INFO root fetch - processPackages [specsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specsy-0.2.7.tar.gz tmp/specsy-0.2.8.tar.gz --markdown 20240509/s/specsy/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/1b/5d/f63b60fc8125c816095da6764b68305298c9aa8d4e57933e202a5629b049/pulumi_ise-0.2.0a1715232907.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1715176754.tar.gz tmp/pulumi_ise-0.2.0a1715232907.tar.gz --markdown 20240509/p/pulumi-ise/0.2.0a1715176754-0.2.0a1715232907/README.md --exclude *.pyd
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pyfmtools]: Downloading https://files.pythonhosted.org/packages/dc/62/8ca6ec842e72db504bd218327d834e7d48cfdd06470eaab46b27f274b713/pyfmtools-5.1.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-09 07:59:35] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240509/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-09 07:59:36] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-05-09 07:59:36] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240509/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-05-09 07:59:36] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-09 07:59:36] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240509/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 07:59:36] INFO root fetch - processPackages [pyfmtools]: executing diffoscope
+[2024-05-09 07:59:36] INFO root fetch - processPackages [pyfmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfmtools-0.81.tar.gz tmp/pyfmtools-5.1.tar.gz --markdown 20240509/p/pyfmtools/0.81-5.1/README.md --exclude *.pyd
+[2024-05-09 07:59:36] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/22/fe/863b91697a1031102e43cbb43d99793dfd1cbd0dad63367794574536b6a8/swit_core-4.0.2.tar.gz
+[2024-05-09 07:59:36] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.7.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - processPackages [specsy]: Remove: archive file [/home/abi/fetcher/tmp/specsy-0.2.8.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - main [MainThread]: End processing [specsy]: success
+[2024-05-09 07:59:36] INFO root fetch - processPackages [swit-core]: executing diffoscope
+[2024-05-09 07:59:36] INFO root fetch - processPackages [swit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swit_core-4.0.1.tar.gz tmp/swit_core-4.0.2.tar.gz --markdown 20240509/s/swit-core/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-09 07:59:36] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-09 07:59:36] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715176754.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1715232907.tar.gz]
+[2024-05-09 07:59:36] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-09 07:59:37] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-05-09 07:59:37] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-05-09 07:59:37] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-05-09 07:59:38] INFO root fetch - processPackages [pyfmtools]: Remove: archive file [/home/abi/fetcher/tmp/pyfmtools-0.81.tar.gz]
+[2024-05-09 07:59:38] INFO root fetch - processPackages [pyfmtools]: Remove: archive file [/home/abi/fetcher/tmp/pyfmtools-5.1.tar.gz]
+[2024-05-09 07:59:38] INFO root fetch - main [MainThread]: End processing [pyfmtools]: success
+[2024-05-09 07:59:38] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-09 07:59:38] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-09 07:59:38] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-09 07:59:40] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-4.0.1.tar.gz]
+[2024-05-09 07:59:40] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-4.0.2.tar.gz]
+[2024-05-09 07:59:40] INFO root fetch - main [MainThread]: End processing [swit-core]: success
+[2024-05-09 07:59:40] INFO root fetch - main [MainThread]: Store serial: [23126850]
