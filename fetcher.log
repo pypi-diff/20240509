@@ -14691,3 +14691,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:37:50] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
 [2024-05-09 09:37:50] INFO root fetch - main [MainThread]: End processing [boxmot]: success
 [2024-05-09 09:37:50] INFO root fetch - main [MainThread]: Store serial: [23127636]
+[2024-05-09 09:39:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127636]
+[2024-05-09 09:39:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 09:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-05-09 09:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: once-utils
+[2024-05-09 09:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatsapp-message-vonage-local
+[2024-05-09 09:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MultiGather
+[2024-05-09 09:39:58] WARNING root fetch - processPackages [MultiGather]: Skipping, unable to determine old version
+[2024-05-09 09:39:58] INFO root fetch - main [MainThread]: End processing [MultiGather] error
+[2024-05-09 09:39:59] INFO root fetch - processPackages [whatsapp-message-vonage-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 09:39:59] INFO root fetch - processPackages [once-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 09:39:59] INFO root fetch - processPackages [once-utils]: Downloading https://files.pythonhosted.org/packages/4f/ba/2e178d01855dfa253dbb78e57291830e92f97150e1e3a6822f7ee96f4b90/once-utils-0.0.6.tar.gz
+[2024-05-09 09:39:59] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Downloading https://files.pythonhosted.org/packages/24/45/4d8a5c84a5939dadc5ad07d86769dfaa1b8ff1fad5c6489ff30372f3fe4f/whatsapp-message-vonage-local-0.0.8.tar.gz
+[2024-05-09 09:39:59] INFO root fetch - processPackages [once-utils]: Downloading https://files.pythonhosted.org/packages/ca/84/fbd666c65522a7d94caa04938f20a8d995e1a1019737455b4f0f5dcebd4a/once_utils-0.0.7.tar.gz
+[2024-05-09 09:39:59] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Downloading https://files.pythonhosted.org/packages/42/c1/2af3ca96319512ef7cd9326f0810f35374810c7dfd021802de26745318ac/whatsapp-message-vonage-local-0.0.9.tar.gz
+[2024-05-09 09:39:59] INFO root fetch - processPackages [whatsapp-message-vonage-local]: executing diffoscope
+[2024-05-09 09:39:59] INFO root fetch - processPackages [once-utils]: executing diffoscope
+[2024-05-09 09:39:59] INFO root fetch - processPackages [whatsapp-message-vonage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-message-vonage-local-0.0.8.tar.gz tmp/whatsapp-message-vonage-local-0.0.9.tar.gz --markdown 20240509/w/whatsapp-message-vonage-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:39:59] INFO root fetch - processPackages [once-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/once-utils-0.0.6.tar.gz tmp/once_utils-0.0.7.tar.gz --markdown 20240509/o/once-utils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 09:40:00] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-09 09:40:00] INFO root fetch - processPackages [once-utils]: Remove: archive file [/home/abi/fetcher/tmp/once-utils-0.0.6.tar.gz]
+[2024-05-09 09:40:00] INFO root fetch - processPackages [once-utils]: Remove: archive file [/home/abi/fetcher/tmp/once_utils-0.0.7.tar.gz]
+[2024-05-09 09:40:00] INFO root fetch - main [MainThread]: End processing [once-utils]: success
+[2024-05-09 09:40:00] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-message-vonage-local-0.0.8.tar.gz]
+[2024-05-09 09:40:00] INFO root fetch - processPackages [whatsapp-message-vonage-local]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-message-vonage-local-0.0.9.tar.gz]
+[2024-05-09 09:40:00] INFO root fetch - main [MainThread]: End processing [whatsapp-message-vonage-local]: success
+[2024-05-09 09:40:00] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 09:40:00] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-09 09:40:00] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-09 09:40:00] INFO root fetch - main [MainThread]: Store serial: [23127655]
