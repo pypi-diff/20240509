@@ -15477,3 +15477,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:17:10] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
 [2024-05-09 10:17:10] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
 [2024-05-09 10:17:10] INFO root fetch - main [MainThread]: Store serial: [23127948]
+[2024-05-09 10:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127948]
+[2024-05-09 10:19:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aissemble-foundation-messaging-python
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neqsim
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: misleep
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhrms
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aissemble-foundation-model-lineage
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aissemble-foundation-data-lineage-python
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uiautodev
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aissemble-foundation-model-lineage
+[2024-05-09 10:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aissemble-foundation-pdp-client-python
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: New version: [1.7.0.dev1715242588] Old Version: [1.7.0.dev1715156319]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: New version: [1.7.0.dev1715156502] Old Version: [1.7.0.dev1715156498]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1715156397] Old Version: [1.7.0.dev1715156376]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: New version: [1.7.0.dev1715156397] Old Version: [1.7.0.dev1715156376]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1715156441] Old Version: [1.7.0.dev1715156418]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: New version: [1.7.0.dev1715156441] Old Version: [1.7.0.dev1715156418]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [uiautodev]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [neqsim]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [pyhrms]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/05/da7c8923f1f2f1cf6ffa061496c04911779e5851a078893a7414f08aebd6/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/88/9d/dd04ee7baff1dcb4f883882191ccce13537feb885286879745ae226ab65c/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/5a/05/da7c8923f1f2f1cf6ffa061496c04911779e5851a078893a7414f08aebd6/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/e2/ab/053e162ff59baeea0b25695e8185fcfaca6de744501e29da6f2e642a10e9/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/e2/ab/053e162ff59baeea0b25695e8185fcfaca6de744501e29da6f2e642a10e9/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [aissemble-foundation-messaging-python]: Downloading https://files.pythonhosted.org/packages/11/42/ff395a020d65c406e0ac8e7f2a716dc0679684f0a6d4da74cb6bf6b9915e/aissemble_foundation_messaging_python-1.7.0.dev1715156319.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/bf/e0/9095d0e6565a7475534479bcc6e4c2d5501d4e58316a5da9a5f73ea135ae/uiautodev-0.3.4.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-09 10:19:19] WARNING root fetch - processPackages [aissemble-foundation-messaging-python]: Skipping package: exceeds size limit 75170573>=10485760
+[2024-05-09 10:19:19] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-messaging-python] error
+[2024-05-09 10:19:19] INFO root fetch - processPackages [neqsim]: Downloading https://files.pythonhosted.org/packages/1f/d7/d340087712e8d6af09461fd0c71e1c6eaa35d0eee2739edc07d874642ddd/neqsim-2.5.8.tar.gz
+[2024-05-09 10:19:19] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/cb/f6/47eb9c0101c81a60363148baf2a389495158e38c28594de1f405f16d291b/pyhrms-0.9.0.zip
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/c9/1c/c207a10fbb2bfbb7209268422e6f3044d79367ac525f14ab32a81e0f4162/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Downloading https://files.pythonhosted.org/packages/68/84/4e447a811ed893e4545ce3fc9060f5e8a059238ac89f222c862c0ced7b41/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Downloading https://files.pythonhosted.org/packages/c9/1c/c207a10fbb2bfbb7209268422e6f3044d79367ac525f14ab32a81e0f4162/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/ad/facbce8176ce5e884f55723c870de50f76c90770763d00990bfbbabaffef/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Downloading https://files.pythonhosted.org/packages/a4/ad/facbce8176ce5e884f55723c870de50f76c90770763d00990bfbbabaffef/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz --markdown 20240509/a/aissemble-foundation-model-lineage/1.7.0.dev1715156418-1.7.0.dev1715156441/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz --markdown 20240509/a/aissemble-foundation-pdp-client-python/1.7.0.dev1715156498-1.7.0.dev1715156502/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz --markdown 20240509/a/aissemble-foundation-model-lineage/1.7.0.dev1715156418-1.7.0.dev1715156441/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz --markdown 20240509/a/aissemble-foundation-data-lineage-python/1.7.0.dev1715156376-1.7.0.dev1715156397/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz --markdown 20240509/a/aissemble-foundation-data-lineage-python/1.7.0.dev1715156376-1.7.0.dev1715156397/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-09 10:19:20] WARNING root fetch - processPackages [neqsim]: Skipping package: exceeds size limit 28193627>=10485760
+[2024-05-09 10:19:20] INFO root fetch - main [MainThread]: End processing [neqsim] error
+[2024-05-09 10:19:20] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/80/b1/55d15bb17cfcd52329f2c4d80e425d8c4a7b55494d9a45a0a97626b9a118/uiautodev-0.3.5.tar.gz
+[2024-05-09 10:19:20] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/4e/6f/cb60f3f1f6f4727404c5d6c9988fc30795179f11360221341ab21aa846c3/pyhrms-0.9.1.zip
+[2024-05-09 10:19:20] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240509/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.9.0.zip tmp/pyhrms-0.9.1.zip --markdown 20240509/p/pyhrms/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 10:19:20] INFO root fetch - processPackages [uiautodev]: executing diffoscope
+[2024-05-09 10:19:20] INFO root fetch - processPackages [uiautodev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautodev-0.3.4.tar.gz tmp/uiautodev-0.3.5.tar.gz --markdown 20240509/u/uiautodev/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156418.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-model-lineage]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_model_lineage-1.7.0.dev1715156441.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156498.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-pdp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_pdp_client_python-1.7.0.dev1715156502.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-pdp-client-python]: success
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-model-lineage]: success
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156376.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [aissemble-foundation-data-lineage-python]: Remove: archive file [/home/abi/fetcher/tmp/aissemble_foundation_data_lineage_python-1.7.0.dev1715156397.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [aissemble-foundation-data-lineage-python]: success
+[2024-05-09 10:19:21] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-09 10:19:21] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.9.0.zip]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.9.1.zip]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2024-05-09 10:19:21] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.4.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.5.tar.gz]
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: End processing [uiautodev]: success
+[2024-05-09 10:19:21] INFO root fetch - main [MainThread]: Store serial: [23127978]
