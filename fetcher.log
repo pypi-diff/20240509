@@ -17766,3 +17766,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:46:39] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip]
 [2024-05-09 10:46:39] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
 [2024-05-09 10:46:39] INFO root fetch - main [MainThread]: Store serial: [23128585]
+[2024-05-09 10:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128585]
+[2024-05-09 10:48:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaea-operator
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrapica
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-scheema
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reviutils
+[2024-05-09 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scikit-build-core-conan
+[2024-05-09 10:48:48] INFO root fetch - processPackages [scikit-build-core-conan]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev4] Old Version: [4.1.2.dev1]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [scikit-build-core-conan]: Downloading https://files.pythonhosted.org/packages/e6/64/5d8fa88caca8af68a7729dae86382b05d307fa65a1fce98cb63bb011b86d/scikit_build_core_conan-0.1.0.tar.gz
+[2024-05-09 10:48:48] INFO root fetch - processPackages [reviutils]: New version: [1.4.1] Old Version: [1.4.0b2]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/48/98/62375da4ac97b25cc1c06e165d4cd2ab6429e8680393b6b4324be8454f1d/gaea_operator-4.1.2.dev1-py3-none-any.whl
+[2024-05-09 10:48:48] INFO root fetch - processPackages [wrapica]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240509] Old Version: [2.17.0.dev20240508]
+[2024-05-09 10:48:48] INFO root fetch - processPackages [scikit-build-core-conan]: Downloading https://files.pythonhosted.org/packages/6c/62/54f49e9aac30c2156da47ed0e7b44d259d198e316d9487886880ad7dc84c/scikit_build_core_conan-0.2.0.tar.gz
+[2024-05-09 10:48:48] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/ba/34/76247cbf248a093146d1c112cb4c240eecedacbf375da096ebd9fb31f95c/reviutils-1.4.0b2.tar.gz
+[2024-05-09 10:48:48] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/87/a0/d18372b75c03af82257483f61334f45d6bd315769d4efccf33d90fa119cd/gaea_operator-4.1.2.dev4-py3-none-any.whl
+[2024-05-09 10:48:48] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-09 10:48:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/06/cd/3ddd864aab868a0018a0c8d046877b44862bcf57e62dce7d6bc65faa18e5/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl
+[2024-05-09 10:48:48] INFO root fetch - processPackages [wrapica]: Downloading https://files.pythonhosted.org/packages/10/4c/0fc6d2fd6e6815217a89ea7d57d27d487c5c217af626363680660c632c31/wrapica-1.0.3.tar.gz
+[2024-05-09 10:48:48] INFO root fetch - processPackages [scikit-build-core-conan]: executing diffoscope
+[2024-05-09 10:48:48] INFO root fetch - processPackages [scikit-build-core-conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core_conan-0.1.0.tar.gz tmp/scikit_build_core_conan-0.2.0.tar.gz --markdown 20240509/s/scikit-build-core-conan/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-09 10:48:48] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-09 10:48:48] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev1-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip --markdown 20240509/g/gaea-operator/4.1.2.dev1-4.1.2.dev4/README.md --exclude *.pyd
+[2024-05-09 10:48:48] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/28/973beef03feca651a3f3b225000fd4478f025fb3abfcd85d5f25f83f3e9a/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl
+[2024-05-09 10:48:48] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/d8/85/5017d1fbdfffd094a5c263fe56895bf916272b7f58145a0cb46c2f54c60c/reviutils-1.4.1.tar.gz
+[2024-05-09 10:48:48] INFO root fetch - processPackages [wrapica]: Downloading https://files.pythonhosted.org/packages/94/62/a644ad0588f7fda6f6b2d669c3a972ee650a06084bc4f80fce2dc9155fbd/wrapica-1.0.4.tar.gz
+[2024-05-09 10:48:49] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-05-09 10:48:49] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.4.0b2.tar.gz tmp/reviutils-1.4.1.tar.gz --markdown 20240509/r/reviutils/1.4.0b2-1.4.1/README.md --exclude *.pyd
+[2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-09 10:48:49] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-09 10:48:49] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip --markdown 20240509/t/tf-nightly-cpu/2.17.0.dev20240508-2.17.0.dev20240509/README.md --exclude *.pyd
+[2024-05-09 10:48:49] INFO root fetch - processPackages [wrapica]: executing diffoscope
+[2024-05-09 10:48:49] INFO root fetch - processPackages [wrapica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapica-1.0.3.tar.gz tmp/wrapica-1.0.4.tar.gz --markdown 20240509/w/wrapica/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-09 10:48:49] INFO root fetch - processPackages [scikit-build-core-conan]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core_conan-0.1.0.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [scikit-build-core-conan]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core_conan-0.2.0.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [scikit-build-core-conan]: success
+[2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240509/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-09 10:48:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240508-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240509-cp39-cp39-win_amd64.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-09 10:48:49] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0b2.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.1.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-05-09 10:48:49] INFO root fetch - processPackages [wrapica]: Remove: archive file [/home/abi/fetcher/tmp/wrapica-1.0.3.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [wrapica]: Remove: archive file [/home/abi/fetcher/tmp/wrapica-1.0.4.tar.gz]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [wrapica]: success
+[2024-05-09 10:48:49] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev1-py3-none-any.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev4-py3-none-any.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-09 10:48:49] INFO root fetch - main [MainThread]: Store serial: [23128603]
