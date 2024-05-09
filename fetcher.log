@@ -3219,3 +3219,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:29:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-05-09 02:29:54] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-05-09 02:29:54] INFO root fetch - main [MainThread]: Store serial: [23122948]
+[2024-05-09 02:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122948]
+[2024-05-09 02:32:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-core
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firecrawl-py
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marimo
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-gcp
+[2024-05-09 02:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emmet-builders
+[2024-05-09 02:32:03] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240508] Old Version: [0.1.5.dev20240507]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/04/0e/5dc2216d894ae0aee20f92a179d202abc061a667cb393baac4c4096116b3/firecrawl-py-0.0.6.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/fe/96/a3b9c8c92888e401ee0c5e5d3ae67ce18a6fd3df6a46fc61c3350599486c/aeppl_nightly-0.1.5.dev20240507.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [marimo]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-09 02:32:03] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/26/53/21a05cc370ca469ad257c4ed93e6e0d17a8cecdb028598c27710f8b1462a/firecrawl-py-0.0.7.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/97/60/d46e2e899e25763fb1515209d2400e00edb6066a9a864921ad948aaf0c27/marimo-0.5.0.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-05-09 02:32:03] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.6.tar.gz tmp/firecrawl-py-0.0.7.tar.gz --markdown 20240509/f/firecrawl-py/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-09 02:32:03] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c5/4e/407daabad37f214db071ff5129fbbbc5fb9d60ccdbe4d8ec02b2c7f9369a/aeppl_nightly-0.1.5.dev20240508.tar.gz
+[2024-05-09 02:32:03] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2024-05-09 02:32:04] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-09 02:32:04] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240507.tar.gz tmp/aeppl_nightly-0.1.5.dev20240508.tar.gz --markdown 20240509/a/aeppl-nightly/0.1.5.dev20240507-0.1.5.dev20240508/README.md --exclude *.pyd
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20240509/e/emmet-builders/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 02:32:04] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.6.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.7.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-05-09 02:32:04] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-09 02:32:04] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240509/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-09 02:32:04] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/4d/5f/2e4e943bbc316db119843b8361a255d32dbab0c01c4afb52d1f4c11c57a9/marimo-0.5.1.tar.gz
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20240509/e/emmet-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 02:32:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240507.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240508.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2024-05-09 02:32:04] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2024-05-09 02:32:05] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2024-05-09 02:32:05] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2024-05-09 02:32:05] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2024-05-09 02:32:06] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-09 02:32:06] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.5.0.tar.gz tmp/marimo-0.5.1.tar.gz --markdown 20240509/m/marimo/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 02:32:14] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-09 02:32:14] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-09 02:32:14] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-09 02:34:10] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.5.0.tar.gz]
+[2024-05-09 02:34:10] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.5.1.tar.gz]
+[2024-05-09 02:34:10] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-09 02:34:10] INFO root fetch - main [MainThread]: Store serial: [23122968]
