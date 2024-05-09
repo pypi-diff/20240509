@@ -11092,3 +11092,51 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 06:50:53] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.3.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-09 06:50:53] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
 [2024-05-09 06:50:53] INFO root fetch - main [MainThread]: Store serial: [23126272]
+[2024-05-09 06:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126272]
+[2024-05-09 06:53:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spit
+[2024-05-09 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlipt
+[2024-05-09 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-09 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: partenaire-qualif
+[2024-05-09 06:53:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-langdetect
+[2024-05-09 06:53:04] INFO root fetch - processPackages [partenaire-qualif]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-09 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-09 06:53:04] INFO root fetch - processPackages [crawlipt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 06:53:04] INFO root fetch - processPackages [spit]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-09 06:53:04] INFO root fetch - processPackages [fast-langdetect]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 06:53:04] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/00/5a/1bfde835d0c8ffe0eaf58199055d212d2ff49fe621b07addc1648a3f2e4e/partenaire-qualif-0.0.5.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/ce/1f/0678ac35ff9273106d2bf0ecda8e275193e04d56c4d501b1eeb3b1305b97/crawlipt-0.0.8.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/84/65/94008d0c46655325780014d3cb4016d6538828ad9aa51131cc443e3db96a/spit-0.2.1.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [fast-langdetect]: Downloading https://files.pythonhosted.org/packages/2d/45/c96393ea63e56b0bb56ce693ae1259a19e3b6711cb2b7721b9a2e5e26501/fast_langdetect-0.1.0.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [partenaire-qualif]: Downloading https://files.pythonhosted.org/packages/68/87/ec1cc700bfec7ba57972dfdcc16c6bcf62e0f114b7d42d6dfbc04c856efd/partenaire-qualif-0.0.6.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-09 06:53:04] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240509/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-09 06:53:04] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/d0/81/8383e612a8fc5bb967571b437a5c2cee980d3047c87ad8a2584161509f4c/crawlipt-0.0.9.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [spit]: Downloading https://files.pythonhosted.org/packages/4e/d2/61a41df30eb1b55b377f9c24874f3d2e30f31cae03e57b6442424b5e9904/spit-0.2.2.tar.gz
+[2024-05-09 06:53:04] INFO root fetch - processPackages [partenaire-qualif]: executing diffoscope
+[2024-05-09 06:53:04] INFO root fetch - processPackages [partenaire-qualif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partenaire-qualif-0.0.5.tar.gz tmp/partenaire-qualif-0.0.6.tar.gz --markdown 20240509/p/partenaire-qualif/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-09 06:53:04] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-05-09 06:53:04] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.0.8.tar.gz tmp/crawlipt-0.0.9.tar.gz --markdown 20240509/c/crawlipt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 06:53:04] INFO root fetch - processPackages [spit]: executing diffoscope
+[2024-05-09 06:53:04] INFO root fetch - processPackages [spit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spit-0.2.1.tar.gz tmp/spit-0.2.2.tar.gz --markdown 20240509/s/spit/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-09 06:53:04] INFO root fetch - processPackages [fast-langdetect]: Downloading https://files.pythonhosted.org/packages/61/72/a08c0adf5b968ca34640e9ecb8da500935539e32d10d40347a6970cee1be/fast_langdetect-0.1.1.tar.gz
+[2024-05-09 06:53:05] INFO root fetch - processPackages [fast-langdetect]: executing diffoscope
+[2024-05-09 06:53:05] INFO root fetch - processPackages [fast-langdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_langdetect-0.1.0.tar.gz tmp/fast_langdetect-0.1.1.tar.gz --markdown 20240509/f/fast-langdetect/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-09 06:53:05] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.5.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - processPackages [partenaire-qualif]: Remove: archive file [/home/abi/fetcher/tmp/partenaire-qualif-0.0.6.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [partenaire-qualif]: success
+[2024-05-09 06:53:05] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.8.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.9.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-05-09 06:53:05] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.1.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - processPackages [spit]: Remove: archive file [/home/abi/fetcher/tmp/spit-0.2.2.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [spit]: success
+[2024-05-09 06:53:05] INFO root fetch - processPackages [fast-langdetect]: Remove: archive file [/home/abi/fetcher/tmp/fast_langdetect-0.1.0.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - processPackages [fast-langdetect]: Remove: archive file [/home/abi/fetcher/tmp/fast_langdetect-0.1.1.tar.gz]
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: End processing [fast-langdetect]: success
+[2024-05-09 06:53:05] INFO root fetch - main [MainThread]: Store serial: [23126290]
