@@ -20506,3 +20506,54 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:40:54] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240508.tar.gz]
 [2024-05-09 12:40:54] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-05-09 12:40:54] INFO root fetch - main [MainThread]: Store serial: [23129750]
+[2024-05-09 12:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129750]
+[2024-05-09 12:43:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threed-optix
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardo-python-utils
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-core
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykan
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phdu
+[2024-05-09 12:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistimez
+[2024-05-09 12:43:03] INFO root fetch - processPackages [phdu]: New version: [2.4.0] Old Version: [2.3.9]
+[2024-05-09 12:43:03] INFO root fetch - processPackages [pypomes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-09 12:43:03] INFO root fetch - processPackages [threed-optix]: New version: [5.0.9] Old Version: [5.0.7]
+[2024-05-09 12:43:03] WARNING root fetch - processPackages [mistimez]: Skipping, unable to determine old version
+[2024-05-09 12:43:03] INFO root fetch - main [MainThread]: End processing [mistimez] error
+[2024-05-09 12:43:03] INFO root fetch - processPackages [pykan]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-09 12:43:03] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/5d/b0/67abc3b8a4e36f40087a2abf09ecaec9446ecd620c21b91df360e9093b34/phdu-2.3.9.tar.gz
+[2024-05-09 12:43:03] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/3c/af/cf63c6393e28500aac8ca8523de957855921f6642525a634e9b5e9a91210/pypomes_core-0.9.7.tar.gz
+[2024-05-09 12:43:03] INFO root fetch - processPackages [cardo-python-utils]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-09 12:43:03] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/94/03/e30594f053e612d06755b9c3cb0fcbb3e3d92b589787fc330cf732bbce9b/threed_optix-5.0.7.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pykan]: Downloading https://files.pythonhosted.org/packages/80/16/bd37d7561faf979a6bb6caa79da76145459f41817c33d9d7ecabf98441e8/pykan-0.0.3.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/55/55/df054b16c89005a112c681d2ac5c1bffcfecf1b90b5afa594184bcc680f5/cardo-python-utils-0.2.7.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/41/f2/e26a5a760d49b36361e9a7daffe62b5bc912106e520ca3e615842d01aae1/pypomes_core-0.9.8.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/f1/39/19c79d3cf920bfe16b3562938107081ddeecaf8deb4def0b8d29f8054a66/threed_optix-5.0.9-py3-none-any.whl
+[2024-05-09 12:43:04] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/73/c7/fa8ac18619fa08a6e4fcec1b783e42ee51335818ed7b1d3ba3bca074a99a/phdu-2.4.0.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.9.7.tar.gz tmp/pypomes_core-0.9.8.tar.gz --markdown 20240509/p/pypomes-core/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-09 12:43:04] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2024-05-09 12:43:04] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-5.0.7.tar.gz tmp/threed_optix-5.0.9-py3-none-any.whl.zip --markdown 20240509/t/threed-optix/5.0.7-5.0.9/README.md --exclude *.pyd
+[2024-05-09 12:43:04] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-09 12:43:04] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.9.tar.gz tmp/phdu-2.4.0.tar.gz --markdown 20240509/p/phdu/2.3.9-2.4.0/README.md --exclude *.pyd
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pykan]: Downloading https://files.pythonhosted.org/packages/fc/56/d1aeffa96c7a9eda8b5477e8025b5496463eca0c8069cac073cd89e38a3f/pykan-0.0.5.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/ca/6b/0eff1c25a5a4331b1a5a1b6011b791fba27146884ff9f3c4451918340e83/cardo-python-utils-0.2.8.tar.gz
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pykan]: executing diffoscope
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pykan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykan-0.0.3.tar.gz tmp/pykan-0.0.5.tar.gz --markdown 20240509/p/pykan/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-09 12:43:04] INFO root fetch - processPackages [cardo-python-utils]: executing diffoscope
+[2024-05-09 12:43:04] INFO root fetch - processPackages [cardo-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardo-python-utils-0.2.7.tar.gz tmp/cardo-python-utils-0.2.8.tar.gz --markdown 20240509/c/cardo-python-utils/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-09 12:43:04] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.7.tar.gz]
+[2024-05-09 12:43:04] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-5.0.9-py3-none-any.whl.zip]
+[2024-05-09 12:43:04] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.9.7.tar.gz]
+[2024-05-09 12:43:04] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.9.8.tar.gz]
+[2024-05-09 12:43:04] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-09 12:43:05] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.9.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.0.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-09 12:43:05] INFO root fetch - processPackages [pykan]: Remove: archive file [/home/abi/fetcher/tmp/pykan-0.0.3.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - processPackages [pykan]: Remove: archive file [/home/abi/fetcher/tmp/pykan-0.0.5.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - main [MainThread]: End processing [pykan]: success
+[2024-05-09 12:43:05] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.7.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.8.tar.gz]
+[2024-05-09 12:43:05] INFO root fetch - main [MainThread]: End processing [cardo-python-utils]: success
+[2024-05-09 12:43:05] INFO root fetch - main [MainThread]: Store serial: [23129776]
