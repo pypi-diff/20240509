@@ -13516,3 +13516,60 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:44:46] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
 [2024-05-09 08:44:46] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-09 08:44:46] INFO root fetch - main [MainThread]: Store serial: [23127232]
+[2024-05-09 08:46:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127232]
+[2024-05-09 08:46:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambdaq
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-rabbitmq
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blat-cli
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-pagerduty
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-repair
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DNA-SE
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aimrun
+[2024-05-09 08:46:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: capletz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 08:46:55] WARNING root fetch - processPackages [aimrun]: Skipping, unable to determine old version
+[2024-05-09 08:46:55] INFO root fetch - main [MainThread]: End processing [aimrun] error
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1715229415] Old Version: [3.4.0a1715062412]
+[2024-05-09 08:46:55] INFO root fetch - processPackages [lambdaq]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-09 08:46:55] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-09 08:46:55] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/4c/2a/3d03f95dc18fb5357f9e67353c6d11c10a8c862604c1c407e606c041bc3b/dna_se-0.0.2.tar.gz
+[2024-05-09 08:46:55] WARNING root fetch - processPackages [blat-cli]: Skipping, unable to determine old version
+[2024-05-09 08:46:55] INFO root fetch - main [MainThread]: End processing [blat-cli] error
+[2024-05-09 08:46:55] WARNING root fetch - processPackages [capletz]: Skipping, unable to determine old version
+[2024-05-09 08:46:55] INFO root fetch - main [MainThread]: End processing [capletz] error
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/90/c1/b8db39578ed43d1a6a0d6b123d93ada091984ef9435de23c555fb077737e/pulumi_rabbitmq-3.4.0a1715062412.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/a1/b8/11d5d24d27e1f2b58e2dfee30f320ca1150d886f791fb29a80be08eab670/lambdaq-1.0.0-py3-none-any.whl
+[2024-05-09 08:46:55] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/79/b5/e94e0b2cb4e1fd21c437c6c1436bc22c807f025dd3670ee3e15861a19e7d/pulumi_rabbitmq-3.4.0a1715229415.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/cd/12/026a751cac520bb52f2a4abf294395f77550c12b34cdd4a0831f6f5f3db2/dna_se-0.0.3.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz --markdown 20240509/p/pulumi-rabbitmq/3.4.0a1715062412-3.4.0a1715229415/README.md --exclude *.pyd
+[2024-05-09 08:46:55] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 08:46:55] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.2.tar.gz tmp/dna_se-0.0.3.tar.gz --markdown 20240509/D/DNA-SE/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 08:46:55] INFO root fetch - processPackages [lambdaq]: Downloading https://files.pythonhosted.org/packages/eb/f0/20f64c8281d957da781a016b36d89b1f78df2849eaa25ec8339f98802d27/lambdaq-2.0.0-py3-none-any.whl
+[2024-05-09 08:46:55] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [lambdaq]: executing diffoscope
+[2024-05-09 08:46:55] INFO root fetch - processPackages [lambdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdaq-1.0.0-py3-none-any.whl.zip tmp/lambdaq-2.0.0-py3-none-any.whl.zip --markdown 20240509/l/lambdaq/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-09 08:46:55] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-09 08:46:55] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-09 08:46:55] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240509/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-09 08:46:56] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-09 08:46:56] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240509/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-09 08:46:56] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715062412.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1715229415.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-09 08:46:56] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.2.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.3.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 08:46:56] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-1.0.0-py3-none-any.whl.zip]
+[2024-05-09 08:46:56] INFO root fetch - processPackages [lambdaq]: Remove: archive file [/home/abi/fetcher/tmp/lambdaq-2.0.0-py3-none-any.whl.zip]
+[2024-05-09 08:46:56] INFO root fetch - main [MainThread]: End processing [lambdaq]: success
+[2024-05-09 08:46:56] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-09 08:46:56] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-09 08:46:57] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-09 08:46:57] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-09 08:46:57] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-09 08:46:57] INFO root fetch - main [MainThread]: Store serial: [23127256]
