@@ -8807,3 +8807,54 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:00:45] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-05-09 05:00:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
 [2024-05-09 05:00:45] INFO root fetch - main [MainThread]: Store serial: [23125401]
+[2024-05-09 05:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125401]
+[2024-05-09 05:02:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: espy-contact
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smart-sdk
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taguchi
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-includecontents
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prealludingz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systema
+[2024-05-09 05:02:54] INFO root fetch - processPackages [django-includecontents]: New version: [0.8] Old Version: [0.7]
+[2024-05-09 05:02:54] INFO root fetch - processPackages [taguchi]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-09 05:02:54] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/b5/8b/99f72fa578c23c74f92d227db274bee09355291f0c0651812a4b486fde1b/django_includecontents-0.7.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 05:02:54] WARNING root fetch - processPackages [prealludingz]: Skipping, unable to determine old version
+[2024-05-09 05:02:54] INFO root fetch - main [MainThread]: End processing [prealludingz] error
+[2024-05-09 05:02:54] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 05:02:54] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/47/f8/0e1899346592aa6ccd5c01b344e38869871fa7c705e169e8ea413355149c/duwi_smart_sdk-0.1.7.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-09 05:02:54] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/8e/3c/0667f0776c662bb19cd0d977cdb6a48dfe392f86f8f5c2c080ddbd3b0d3a/taguchi-0.0.3.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/dc/b8/2e130ba6891ae1681312f50a81a0736cc6d07edf9aa72ca9340d1764198a/django_includecontents-0.8.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-05-09 05:02:54] INFO root fetch - processPackages [django-includecontents]: executing diffoscope
+[2024-05-09 05:02:54] INFO root fetch - processPackages [django-includecontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_includecontents-0.7.tar.gz tmp/django_includecontents-0.8.tar.gz --markdown 20240509/d/django-includecontents/0.7-0.8/README.md --exclude *.pyd
+[2024-05-09 05:02:54] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/82/53/f2ee167b687f2adeb1d325c640844d82b0f1fa6bf2f7bafd784fbb711296/duwi_smart_sdk-0.1.8.tar.gz
+[2024-05-09 05:02:55] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-09 05:02:55] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.1.7.tar.gz tmp/duwi_smart_sdk-0.1.8.tar.gz --markdown 20240509/d/duwi-smart-sdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 05:02:55] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/a2/89/a1398144ea42dfdef1f95ae0ee51d4394073ceccf9f0a7eb91928981ece9/taguchi-1.0.0.tar.gz
+[2024-05-09 05:02:55] INFO root fetch - processPackages [taguchi]: executing diffoscope
+[2024-05-09 05:02:55] INFO root fetch - processPackages [taguchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taguchi-0.0.3.tar.gz tmp/taguchi-1.0.0.tar.gz --markdown 20240509/t/taguchi/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-09 05:02:55] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-09 05:02:55] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-05-09 05:02:55] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-09 05:02:55] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240509/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 05:02:55] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-05-09 05:02:55] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240509/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-09 05:02:55] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.7.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.8.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - main [MainThread]: End processing [django-includecontents]: success
+[2024-05-09 05:02:55] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.7.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.1.8.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-09 05:02:55] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-0.0.3.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.0.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - main [MainThread]: End processing [taguchi]: success
+[2024-05-09 05:02:55] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-09 05:02:55] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-09 05:02:56] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-05-09 05:02:56] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-05-09 05:02:56] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-05-09 05:02:56] INFO root fetch - main [MainThread]: Store serial: [23125422]
