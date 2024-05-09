@@ -10086,3 +10086,45 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:51:11] INFO root fetch - processPackages [listmonk-api]: Remove: archive file [/home/abi/fetcher/tmp/listmonk_api-0.3.1-py2.py3-none-any.whl.zip]
 [2024-05-09 05:51:11] INFO root fetch - main [MainThread]: End processing [listmonk-api]: success
 [2024-05-09 05:51:11] INFO root fetch - main [MainThread]: Store serial: [23125819]
+[2024-05-09 05:53:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125819]
+[2024-05-09 05:53:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 05:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geniusbot
+[2024-05-09 05:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viewai
+[2024-05-09 05:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subshift
+[2024-05-09 05:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TUIFIManager
+[2024-05-09 05:53:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: servicenow-api
+[2024-05-09 05:53:20] INFO root fetch - processPackages [subshift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:53:20] WARNING root fetch - processPackages [viewai]: Skipping, unable to determine old version
+[2024-05-09 05:53:20] INFO root fetch - main [MainThread]: End processing [viewai] error
+[2024-05-09 05:53:20] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/be/c0/4105d13745d0e749930d5632609fed0de7d60ea009dd75a179fcd037e978/subshift-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:53:20] INFO root fetch - processPackages [geniusbot]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-09 05:53:20] INFO root fetch - processPackages [TUIFIManager]: New version: [4.0.6] Old Version: [4.0.5]
+[2024-05-09 05:53:20] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 05:53:20] INFO root fetch - processPackages [subshift]: Downloading https://files.pythonhosted.org/packages/1a/1c/52f2d03a1bc34515813e4a8069849a3241629884496df65f8b2ccb8a3e74/subshift-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:53:20] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/87/c3/88d2af0ecdbe668b9913881156aaa2a50de55b9d6483d66755117f18371a/geniusbot-3.9.0-py2.py3-none-any.whl
+[2024-05-09 05:53:20] INFO root fetch - processPackages [TUIFIManager]: Downloading https://files.pythonhosted.org/packages/70/45/8e00c44908c6be15e861fbfe039a8e6db3ef7b6b1c488ecd1095f3a7d4d3/TUIFIManager-4.0.5.tar.gz
+[2024-05-09 05:53:20] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-09 05:53:20] INFO root fetch - processPackages [subshift]: executing diffoscope
+[2024-05-09 05:53:20] INFO root fetch - processPackages [subshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subshift-0.8.0-py2.py3-none-any.whl.zip tmp/subshift-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/subshift/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:53:21] INFO root fetch - processPackages [TUIFIManager]: Downloading https://files.pythonhosted.org/packages/2c/64/aec62ce0a5791b6e69211bd59162b2e5e39532590f53608c084023cdd14c/TUIFIManager-4.0.6.tar.gz
+[2024-05-09 05:53:21] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-09 05:53:21] INFO root fetch - processPackages [geniusbot]: Downloading https://files.pythonhosted.org/packages/d7/1a/f3b2573c0ae4f53b9de279f2ca2c73dc121e230d12340e32fe3592e059a8/geniusbot-3.9.1-py2.py3-none-any.whl
+[2024-05-09 05:53:21] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-09 05:53:21] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240509/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 05:53:21] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:21] INFO root fetch - processPackages [subshift]: Remove: archive file [/home/abi/fetcher/tmp/subshift-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:21] INFO root fetch - main [MainThread]: End processing [subshift]: success
+[2024-05-09 05:53:21] INFO root fetch - processPackages [TUIFIManager]: executing diffoscope
+[2024-05-09 05:53:21] INFO root fetch - processPackages [TUIFIManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TUIFIManager-4.0.5.tar.gz tmp/TUIFIManager-4.0.6.tar.gz --markdown 20240509/T/TUIFIManager/4.0.5-4.0.6/README.md --exclude *.pyd
+[2024-05-09 05:53:21] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:21] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:21] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-09 05:53:21] INFO root fetch - processPackages [geniusbot]: executing diffoscope
+[2024-05-09 05:53:21] INFO root fetch - processPackages [geniusbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip --markdown 20240509/g/geniusbot/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-09 05:53:22] INFO root fetch - processPackages [TUIFIManager]: Remove: archive file [/home/abi/fetcher/tmp/TUIFIManager-4.0.5.tar.gz]
+[2024-05-09 05:53:22] INFO root fetch - processPackages [TUIFIManager]: Remove: archive file [/home/abi/fetcher/tmp/TUIFIManager-4.0.6.tar.gz]
+[2024-05-09 05:53:22] INFO root fetch - main [MainThread]: End processing [TUIFIManager]: success
+[2024-05-09 05:53:22] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.0-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:22] INFO root fetch - processPackages [geniusbot]: Remove: archive file [/home/abi/fetcher/tmp/geniusbot-3.9.1-py2.py3-none-any.whl.zip]
+[2024-05-09 05:53:22] INFO root fetch - main [MainThread]: End processing [geniusbot]: success
+[2024-05-09 05:53:22] INFO root fetch - main [MainThread]: Store serial: [23125829]
