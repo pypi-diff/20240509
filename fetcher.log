@@ -8858,3 +8858,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:02:56] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
 [2024-05-09 05:02:56] INFO root fetch - main [MainThread]: End processing [systema]: success
 [2024-05-09 05:02:56] INFO root fetch - main [MainThread]: Store serial: [23125422]
+[2024-05-09 05:04:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125422]
+[2024-05-09 05:05:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 05:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkhub2
+[2024-05-09 05:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-qt
+[2024-05-09 05:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trieve-py-client
+[2024-05-09 05:05:04] INFO root fetch - processPackages [trieve-py-client]: New version: [0.8.2] Old Version: [0.8.0]
+[2024-05-09 05:05:04] WARNING root fetch - processPackages [sparkhub2]: Skipping, unable to determine old version
+[2024-05-09 05:05:04] INFO root fetch - main [MainThread]: End processing [sparkhub2] error
+[2024-05-09 05:05:04] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-09 05:05:05] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/6c/a8/b36056236a57032a6e20e415b353797ec6795144dd2538d2db72b14da51e/trieve_py_client-0.8.0-py3-none-any.whl
+[2024-05-09 05:05:05] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-05-09 05:05:05] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/96/8e/f0a7a00b00bb8def68902061c4f544ae96be141c42815ae695220f941dac/trieve_py_client-0.8.2-py3-none-any.whl
+[2024-05-09 05:05:05] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-05-09 05:05:05] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.8.0-py3-none-any.whl.zip tmp/trieve_py_client-0.8.2-py3-none-any.whl.zip --markdown 20240509/t/trieve-py-client/0.8.0-0.8.2/README.md --exclude *.pyd
+[2024-05-09 05:05:05] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-05-09 05:05:05] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-05-09 05:05:05] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240509/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-09 05:05:06] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-05-09 05:05:06] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-05-09 05:05:06] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-05-09 05:05:07] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.0-py3-none-any.whl.zip]
+[2024-05-09 05:05:07] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.8.2-py3-none-any.whl.zip]
+[2024-05-09 05:05:07] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-05-09 05:05:07] INFO root fetch - main [MainThread]: Store serial: [23125436]
