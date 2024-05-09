@@ -8176,3 +8176,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:18:18] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
 [2024-05-09 04:18:18] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
 [2024-05-09 04:18:18] INFO root fetch - main [MainThread]: Store serial: [23124924]
+[2024-05-09 04:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124924]
+[2024-05-09 04:20:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparklestock
+[2024-05-09 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ape-aws
+[2024-05-09 04:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cae-cli
+[2024-05-09 04:20:26] INFO root fetch - processPackages [cae-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-09 04:20:26] INFO root fetch - processPackages [sparklestock]: New version: [0.0.0.5] Old Version: [0.0.0.4]
+[2024-05-09 04:20:27] WARNING root fetch - processPackages [ape-aws]: Skipping, unable to determine old version
+[2024-05-09 04:20:27] INFO root fetch - main [MainThread]: End processing [ape-aws] error
+[2024-05-09 04:20:27] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/25/db/e88e9ab3b77fd8c6704814a9144430742a5e33b114556b7ba9b92d2b4dff/cae_cli-0.2.3.tar.gz
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/32/50/eb45eb8b4d35294d290ecead925ca5785ab7de748d4df88065f4fc050eb6/sparklestock-0.0.0.4.tar.gz
+[2024-05-09 04:20:27] INFO root fetch - processPackages [cae-cli]: Downloading https://files.pythonhosted.org/packages/d2/0b/17cf75d26bd93ab504b0e99d09c4a116dcf605eee75337ffa76f39107a12/cae_cli-0.2.4.tar.gz
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: Downloading https://files.pythonhosted.org/packages/d7/05/aac709f400a79ea0fb289228f4bca4f1256cb83408be07f717e9196fa7e7/sparklestock-0.0.0.5.tar.gz
+[2024-05-09 04:20:27] INFO root fetch - processPackages [cae-cli]: executing diffoscope
+[2024-05-09 04:20:27] INFO root fetch - processPackages [cae-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cae_cli-0.2.3.tar.gz tmp/cae_cli-0.2.4.tar.gz --markdown 20240509/c/cae-cli/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: executing diffoscope
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparklestock-0.0.0.4.tar.gz tmp/sparklestock-0.0.0.5.tar.gz --markdown 20240509/s/sparklestock/0.0.0.4-0.0.0.5/README.md --exclude *.pyd
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.4.tar.gz]
+[2024-05-09 04:20:27] INFO root fetch - processPackages [sparklestock]: Remove: archive file [/home/abi/fetcher/tmp/sparklestock-0.0.0.5.tar.gz]
+[2024-05-09 04:20:27] INFO root fetch - main [MainThread]: End processing [sparklestock]: success
+[2024-05-09 04:20:28] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.3.tar.gz]
+[2024-05-09 04:20:28] INFO root fetch - processPackages [cae-cli]: Remove: archive file [/home/abi/fetcher/tmp/cae_cli-0.2.4.tar.gz]
+[2024-05-09 04:20:28] INFO root fetch - main [MainThread]: End processing [cae-cli]: success
+[2024-05-09 04:20:28] INFO root fetch - main [MainThread]: Store serial: [23124934]
