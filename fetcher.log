@@ -8689,3 +8689,26 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:51:31] INFO root fetch - processPackages [tamp]: Remove: archive file [/home/abi/fetcher/tmp/tamp-1.5.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-09 04:51:31] INFO root fetch - main [MainThread]: End processing [tamp]: success
 [2024-05-09 04:51:31] INFO root fetch - main [MainThread]: Store serial: [23125289]
+[2024-05-09 04:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125289]
+[2024-05-09 04:53:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 04:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtmp-streaming
+[2024-05-09 04:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frykit
+[2024-05-09 04:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hebill-html
+[2024-05-09 04:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hello-robot-stretch-body
+[2024-05-09 04:53:40] INFO root fetch - processPackages [frykit]: New version: [0.6.0] Old Version: [0.5.3.post1]
+[2024-05-09 04:53:40] INFO root fetch - processPackages [hello-robot-stretch-body]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-09 04:53:40] WARNING root fetch - processPackages [rtmp-streaming]: Skipping, unable to determine old version
+[2024-05-09 04:53:40] INFO root fetch - main [MainThread]: End processing [rtmp-streaming] error
+[2024-05-09 04:53:40] WARNING root fetch - processPackages [hebill-html]: Skipping, unable to determine old version
+[2024-05-09 04:53:40] INFO root fetch - main [MainThread]: End processing [hebill-html] error
+[2024-05-09 04:53:40] INFO root fetch - processPackages [frykit]: Downloading https://files.pythonhosted.org/packages/80/34/d93926dd89c9a6010de2a72f349c258fee93c4f8f495b20d15b87b7ae32e/frykit-0.5.3.post1.tar.gz
+[2024-05-09 04:53:40] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/34/6d/c2f4fc88c5ee93e0335a9eec18e8ac7f4e6a5e69955498d10b53d657df9d/hello_robot_stretch_body-0.7.8.tar.gz
+[2024-05-09 04:53:40] WARNING root fetch - processPackages [frykit]: Skipping package: exceeds size limit 13746816>=10485760
+[2024-05-09 04:53:40] INFO root fetch - main [MainThread]: End processing [frykit] error
+[2024-05-09 04:53:40] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/55/b6/ab83246a576763366d06c70f8e955e386747dd1667fa52e1bd51bf021912/hello_robot_stretch_body-0.7.9.tar.gz
+[2024-05-09 04:53:40] INFO root fetch - processPackages [hello-robot-stretch-body]: executing diffoscope
+[2024-05-09 04:53:40] INFO root fetch - processPackages [hello-robot-stretch-body]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_body-0.7.8.tar.gz tmp/hello_robot_stretch_body-0.7.9.tar.gz --markdown 20240509/h/hello-robot-stretch-body/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-09 04:53:41] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.8.tar.gz]
+[2024-05-09 04:53:41] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.9.tar.gz]
+[2024-05-09 04:53:41] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
+[2024-05-09 04:53:41] INFO root fetch - main [MainThread]: Store serial: [23125362]
