@@ -17952,3 +17952,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:55:26] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.3.tar.gz]
 [2024-05-09 10:55:26] INFO root fetch - main [MainThread]: End processing [gradio-model4dgs]: success
 [2024-05-09 10:55:26] INFO root fetch - main [MainThread]: Store serial: [23128658]
+[2024-05-09 10:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128658]
+[2024-05-09 10:57:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-k8s
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytoniq
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml4teens
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccs-digitalmarketplace-content-loader
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blasttools
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ml4teens]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-05-09 10:57:35] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-05-09 10:57:35] INFO root fetch - processPackages [blasttools]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-05-09 10:57:36] INFO root fetch - processPackages [pytoniq]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 10:57:36] INFO root fetch - processPackages [easy-k8s]: New version: [0.2.0.post4] Old Version: [0.2.0.post2]
+[2024-05-09 10:57:36] INFO root fetch - processPackages [ml4teens]: Downloading https://files.pythonhosted.org/packages/e2/c2/b35762a80cfc94db628a819c8caba26d0487f2e32268005c4121314939a8/ml4teens-0.1.40.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/84/8d/9fed599fe3a0606b5df05b6af1e395d3670e6f67d16cba227de262405d1f/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz
+[2024-05-09 10:57:36] WARNING root fetch - processPackages [ml4teens]: Skipping package: exceeds size limit 22456439>=10485760
+[2024-05-09 10:57:36] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-09 10:57:36] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/a0/a2/0047e9d59f053ca6f09518147a13e6d94a7fac32cc3635b75f318d34faf1/blasttools-0.1.11.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/83/60/0c6ea7f844b87f5904225428fba7d0a193d5a9110c309119939c7e8c89a9/pytoniq-0.1.8.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/7d/3f/74128bbf32dd4b1c483110256e732d57348c3d2e8b15a50542487155ab1e/easy_k8s-0.2.0.post2.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/f6/58/9dcf721bc4e4a65d106025b423e30e6082e93c943edeaa0eff78b77f988b/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: executing diffoscope
+[2024-05-09 10:57:36] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz --markdown 20240509/c/ccs-digitalmarketplace-content-loader/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-05-09 10:57:36] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/a0/e7/cbbeabffdba517dc323817cb38cdf1aed8c2ec91cd4a04f9363b99eb3401/blasttools-0.1.12.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [easy-k8s]: Downloading https://files.pythonhosted.org/packages/d3/6a/c6d1d1302d129caa0123f1df16421f94b9661b9ff3d9aa85ccb68f90e31a/easy_k8s-0.2.0.post4.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [blasttools]: executing diffoscope
+[2024-05-09 10:57:36] INFO root fetch - processPackages [blasttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blasttools-0.1.11.tar.gz tmp/blasttools-0.1.12.tar.gz --markdown 20240509/b/blasttools/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-05-09 10:57:36] INFO root fetch - processPackages [easy-k8s]: executing diffoscope
+[2024-05-09 10:57:36] INFO root fetch - processPackages [easy-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_k8s-0.2.0.post2.tar.gz tmp/easy_k8s-0.2.0.post4.tar.gz --markdown 20240509/e/easy-k8s/0.2.0.post2-0.2.0.post4/README.md --exclude *.pyd
+[2024-05-09 10:57:36] INFO root fetch - processPackages [pytoniq]: Downloading https://files.pythonhosted.org/packages/fc/12/0a8feae4d11e9c3e6d606d74bdb341a15545be7d644d797b3acebd3e1fd9/pytoniq-0.1.9.tar.gz
+[2024-05-09 10:57:36] INFO root fetch - processPackages [pytoniq]: executing diffoscope
+[2024-05-09 10:57:36] INFO root fetch - processPackages [pytoniq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-0.1.8.tar.gz tmp/pytoniq-0.1.9.tar.gz --markdown 20240509/p/pytoniq/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 10:57:37] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-content-loader]: success
+[2024-05-09 10:57:37] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post2.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - processPackages [easy-k8s]: Remove: archive file [/home/abi/fetcher/tmp/easy_k8s-0.2.0.post4.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - main [MainThread]: End processing [easy-k8s]: success
+[2024-05-09 10:57:37] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.11.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.12.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - main [MainThread]: End processing [blasttools]: success
+[2024-05-09 10:57:37] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.8.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - processPackages [pytoniq]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-0.1.9.tar.gz]
+[2024-05-09 10:57:37] INFO root fetch - main [MainThread]: End processing [pytoniq]: success
+[2024-05-09 10:57:37] INFO root fetch - main [MainThread]: Store serial: [23128673]
