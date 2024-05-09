@@ -8615,3 +8615,20 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:45:03] INFO root fetch - processPackages [anabih-python-test]: Remove: archive file [/home/abi/fetcher/tmp/anabih_python_test-2.0.0.tar.gz]
 [2024-05-09 04:45:03] INFO root fetch - main [MainThread]: End processing [anabih-python-test]: success
 [2024-05-09 04:45:03] INFO root fetch - main [MainThread]: Store serial: [23125258]
+[2024-05-09 04:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125258]
+[2024-05-09 04:47:11] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-09 04:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125258]
+[2024-05-09 04:49:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 04:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-05-09 04:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Society-Evolution-Network
+[2024-05-09 04:49:18] INFO root fetch - processPackages [dvcx]: New version: [0.78.0] Old Version: [0.77.0]
+[2024-05-09 04:49:18] WARNING root fetch - processPackages [Society-Evolution-Network]: Skipping, unable to determine old version
+[2024-05-09 04:49:18] INFO root fetch - main [MainThread]: End processing [Society-Evolution-Network] error
+[2024-05-09 04:49:18] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2e/bf/48f3c5442977fc5fc9d665e51e69639d4b3abe9999eb86fdec29859fd400/dvcx-0.77.0.tar.gz
+[2024-05-09 04:49:19] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/f1/6c/ba5360887e8f6fd9aee4afa02edddd298d2de7ef0c46279b811956b25dee/dvcx-0.78.0.tar.gz
+[2024-05-09 04:49:19] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-09 04:49:19] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.77.0.tar.gz tmp/dvcx-0.78.0.tar.gz --markdown 20240509/d/dvcx/0.77.0-0.78.0/README.md --exclude *.pyd
+[2024-05-09 04:49:20] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.77.0.tar.gz]
+[2024-05-09 04:49:20] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.78.0.tar.gz]
+[2024-05-09 04:49:20] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-09 04:49:20] INFO root fetch - main [MainThread]: Store serial: [23125266]
