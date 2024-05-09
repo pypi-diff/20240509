@@ -20317,3 +20317,32 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:29:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-09 12:29:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-09 12:29:40] INFO root fetch - main [MainThread]: Store serial: [23129682]
+[2024-05-09 12:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129682]
+[2024-05-09 12:31:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lovis4u
+[2024-05-09 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mig
+[2024-05-09 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recentnessz
+[2024-05-09 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crossword-puzzle
+[2024-05-09 12:31:49] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.63] Old Version: [1.2.62]
+[2024-05-09 12:31:49] INFO root fetch - processPackages [lovis4u]: New version: [0.0.3.6] Old Version: [0.0.3.5]
+[2024-05-09 12:31:49] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.95] Old Version: [1.0.94]
+[2024-05-09 12:31:49] WARNING root fetch - processPackages [recentnessz]: Skipping, unable to determine old version
+[2024-05-09 12:31:49] INFO root fetch - main [MainThread]: End processing [recentnessz] error
+[2024-05-09 12:31:49] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/11/30/72b07f971bb49b182d4c4c73a72e203c6d705de60aea48d8cc1cfbabd0fe/crossword_puzzle-1.2.62.tar.gz
+[2024-05-09 12:31:49] INFO root fetch - processPackages [lovis4u]: Downloading https://files.pythonhosted.org/packages/f9/ba/a531ab84fc6016e27d9af21a9888e64dd76015a49b43a5106fb746ed3cfb/lovis4u-0.0.3.5.tar.gz
+[2024-05-09 12:31:49] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/e4/5d/3a2612249fe70e0f131104a1bc402ac9378c672671b20394ce7489eb1daf/sbcli_mig-1.0.94.zip
+[2024-05-09 12:31:49] WARNING root fetch - processPackages [lovis4u]: Skipping package: exceeds size limit 71364059>=10485760
+[2024-05-09 12:31:49] INFO root fetch - main [MainThread]: End processing [lovis4u] error
+[2024-05-09 12:31:50] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/e0/94/42aa564f33347d2a9837bdcaca37d4488e71e1b043dc0d4002adb1c244ac/crossword_puzzle-1.2.63.tar.gz
+[2024-05-09 12:31:50] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/7a/c9/d20d38aab81bcf1d2afe6aa0434a35875299c29756f40c3557554640f476/sbcli_mig-1.0.95.zip
+[2024-05-09 12:31:50] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-09 12:31:50] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.94.zip tmp/sbcli_mig-1.0.95.zip --markdown 20240509/s/sbcli-mig/1.0.94-1.0.95/README.md --exclude *.pyd
+[2024-05-09 12:31:50] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-09 12:31:50] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.62.tar.gz tmp/crossword_puzzle-1.2.63.tar.gz --markdown 20240509/c/crossword-puzzle/1.2.62-1.2.63/README.md --exclude *.pyd
+[2024-05-09 12:31:51] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.94.zip]
+[2024-05-09 12:31:51] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.95.zip]
+[2024-05-09 12:31:51] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-09 12:32:10] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.62.tar.gz]
+[2024-05-09 12:32:10] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.63.tar.gz]
+[2024-05-09 12:32:10] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-09 12:32:10] INFO root fetch - main [MainThread]: Store serial: [23129693]
