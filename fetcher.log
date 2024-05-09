@@ -13588,3 +13588,55 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:49:06] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.2.tar.gz]
 [2024-05-09 08:49:06] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
 [2024-05-09 08:49:06] INFO root fetch - main [MainThread]: Store serial: [23127262]
+[2024-05-09 08:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127262]
+[2024-05-09 08:51:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DNA-SE
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tooniez-timetree-sdk
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zynapse
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MultiGather
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DNA-SE
+[2024-05-09 08:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textmate-grammar-python
+[2024-05-09 08:51:15] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 08:51:15] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-09 08:51:15] INFO root fetch - processPackages [DNA-SE]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 08:51:15] WARNING root fetch - processPackages [MultiGather]: Skipping, unable to determine old version
+[2024-05-09 08:51:15] INFO root fetch - main [MainThread]: End processing [MultiGather] error
+[2024-05-09 08:51:15] INFO root fetch - processPackages [tooniez-timetree-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-09 08:51:15] INFO root fetch - processPackages [textmate-grammar-python]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-09 08:51:15] WARNING root fetch - processPackages [zynapse]: Skipping, unable to determine old version
+[2024-05-09 08:51:15] INFO root fetch - main [MainThread]: End processing [zynapse] error
+[2024-05-09 08:51:15] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/cd/12/026a751cac520bb52f2a4abf294395f77550c12b34cdd4a0831f6f5f3db2/dna_se-0.0.3.tar.gz
+[2024-05-09 08:51:15] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-09 08:51:15] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/cd/12/026a751cac520bb52f2a4abf294395f77550c12b34cdd4a0831f6f5f3db2/dna_se-0.0.3.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/63/e5/956e86a51144e8840534ee456d287a72f3589edb423b984c5ef314175bdb/tooniez-timetree-sdk-0.0.3.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [textmate-grammar-python]: Downloading https://files.pythonhosted.org/packages/e4/c6/a895798eb859047f8c2e39d4c5889f1d5e9b1152c8e62f6053a19ca9bb19/textmate_grammar_python-0.4.0.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/30/fc/84dd638da2531d3ee052cdc28a707eed65fa1b519c872b981aec93f5cba3/dna_se-0.0.4.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: Downloading https://files.pythonhosted.org/packages/30/fc/84dd638da2531d3ee052cdc28a707eed65fa1b519c872b981aec93f5cba3/dna_se-0.0.4.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-09 08:51:16] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240509/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-09 08:51:16] INFO root fetch - processPackages [tooniez-timetree-sdk]: Downloading https://files.pythonhosted.org/packages/fe/0a/f996d1ff7b54ce89e6600134c0a9fe0319c460146bf8ac6892dd23a3c783/tooniez-timetree-sdk-0.0.4.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.3.tar.gz tmp/dna_se-0.0.4.tar.gz --markdown 20240509/D/DNA-SE/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: executing diffoscope
+[2024-05-09 08:51:16] INFO root fetch - processPackages [DNA-SE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dna_se-0.0.3.tar.gz tmp/dna_se-0.0.4.tar.gz --markdown 20240509/D/DNA-SE/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 08:51:16] INFO root fetch - processPackages [tooniez-timetree-sdk]: executing diffoscope
+[2024-05-09 08:51:16] INFO root fetch - processPackages [tooniez-timetree-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooniez-timetree-sdk-0.0.3.tar.gz tmp/tooniez-timetree-sdk-0.0.4.tar.gz --markdown 20240509/t/tooniez-timetree-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-09 08:51:16] INFO root fetch - processPackages [textmate-grammar-python]: Downloading https://files.pythonhosted.org/packages/8a/bd/842395d49e198574dc071572a76f4a13c3ddb32c0ac08dc23c02a3c2e6a2/textmate_grammar_python-0.5.0.tar.gz
+[2024-05-09 08:51:16] INFO root fetch - processPackages [textmate-grammar-python]: executing diffoscope
+[2024-05-09 08:51:16] INFO root fetch - processPackages [textmate-grammar-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textmate_grammar_python-0.4.0.tar.gz tmp/textmate_grammar_python-0.5.0.tar.gz --markdown 20240509/t/textmate-grammar-python/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-09 08:51:17] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-09 08:51:17] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.3.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - processPackages [DNA-SE]: Remove: archive file [/home/abi/fetcher/tmp/dna_se-0.0.4.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [DNA-SE]: success
+[2024-05-09 08:51:17] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez-timetree-sdk-0.0.3.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - processPackages [tooniez-timetree-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tooniez-timetree-sdk-0.0.4.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [tooniez-timetree-sdk]: success
+[2024-05-09 08:51:17] INFO root fetch - processPackages [textmate-grammar-python]: Remove: archive file [/home/abi/fetcher/tmp/textmate_grammar_python-0.4.0.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - processPackages [textmate-grammar-python]: Remove: archive file [/home/abi/fetcher/tmp/textmate_grammar_python-0.5.0.tar.gz]
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: End processing [textmate-grammar-python]: success
+[2024-05-09 08:51:17] INFO root fetch - main [MainThread]: Store serial: [23127286]
