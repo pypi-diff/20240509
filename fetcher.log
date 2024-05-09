@@ -18220,3 +18220,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 11:09:26] INFO root fetch - processPackages [pyav]: Remove: archive file [/home/abi/fetcher/tmp/pyav-12.1.0rc2.tar.gz]
 [2024-05-09 11:09:26] INFO root fetch - main [MainThread]: End processing [pyav]: success
 [2024-05-09 11:09:26] INFO root fetch - main [MainThread]: Store serial: [23128795]
+[2024-05-09 11:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128795]
+[2024-05-09 11:11:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-09 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ferulaicz
+[2024-05-09 11:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-model4dgs
+[2024-05-09 11:11:35] INFO root fetch - processPackages [gradio-model4dgs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 11:11:35] INFO root fetch - processPackages [gradio-model4dgs]: Downloading https://files.pythonhosted.org/packages/b5/19/0d77f0a018d96f2a31612aff7a05f17addf830bfa6db7559bc7fd43e5fda/gradio_model4dgs-0.0.2.tar.gz
+[2024-05-09 11:11:35] WARNING root fetch - processPackages [ferulaicz]: Skipping, unable to determine old version
+[2024-05-09 11:11:35] INFO root fetch - main [MainThread]: End processing [ferulaicz] error
+[2024-05-09 11:11:36] INFO root fetch - processPackages [gradio-model4dgs]: Downloading https://files.pythonhosted.org/packages/76/57/c87b1c6e43384e75a6f379e0bc0b3c05180a5769d9fc3cd59639fc1d44d6/gradio_model4dgs-0.0.3.tar.gz
+[2024-05-09 11:11:36] INFO root fetch - processPackages [gradio-model4dgs]: executing diffoscope
+[2024-05-09 11:11:36] INFO root fetch - processPackages [gradio-model4dgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_model4dgs-0.0.2.tar.gz tmp/gradio_model4dgs-0.0.3.tar.gz --markdown 20240509/g/gradio-model4dgs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 11:11:42] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.2.tar.gz]
+[2024-05-09 11:11:42] INFO root fetch - processPackages [gradio-model4dgs]: Remove: archive file [/home/abi/fetcher/tmp/gradio_model4dgs-0.0.3.tar.gz]
+[2024-05-09 11:11:42] INFO root fetch - main [MainThread]: End processing [gradio-model4dgs]: success
+[2024-05-09 11:11:42] INFO root fetch - main [MainThread]: Store serial: [23128809]
