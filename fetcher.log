@@ -7559,3 +7559,27 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 03:31:17] INFO root fetch - processPackages [ambient-event-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ambient_event_bus_client-0.1.2.tar.gz]
 [2024-05-09 03:31:17] INFO root fetch - main [MainThread]: End processing [ambient-event-bus-client]: success
 [2024-05-09 03:31:17] INFO root fetch - main [MainThread]: Store serial: [23124334]
+[2024-05-09 03:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124334]
+[2024-05-09 03:33:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 03:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basedpyright
+[2024-05-09 03:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blasttools
+[2024-05-09 03:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dallinger
+[2024-05-09 03:33:26] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-09 03:33:26] INFO root fetch - processPackages [dallinger]: New version: [9.9.0] Old Version: [9.8.2]
+[2024-05-09 03:33:26] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-05-09 03:33:26] WARNING root fetch - processPackages [blasttools]: Skipping, unable to determine old version
+[2024-05-09 03:33:26] INFO root fetch - main [MainThread]: End processing [blasttools] error
+[2024-05-09 03:33:26] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/26/15/26cd07e5285f67f0badb524b8a62db78aef0bef608f74dbd61faeaad1820/dallinger-9.8.2.tar.gz
+[2024-05-09 03:33:26] INFO root fetch - processPackages [dallinger]: Downloading https://files.pythonhosted.org/packages/1c/22/665d1d159f085407292bd8be63b7f5480f478a114bdf80dcca67eb9bc4d8/dallinger-9.9.0.tar.gz
+[2024-05-09 03:33:26] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-05-09 03:33:26] INFO root fetch - processPackages [dallinger]: executing diffoscope
+[2024-05-09 03:33:26] INFO root fetch - processPackages [dallinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dallinger-9.8.2.tar.gz tmp/dallinger-9.9.0.tar.gz --markdown 20240509/d/dallinger/9.8.2-9.9.0/README.md --exclude *.pyd
+[2024-05-09 03:33:27] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-05-09 03:33:27] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240509/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-09 03:33:28] INFO root fetch - processPackages [dallinger]: Remove: archive file [/home/abi/fetcher/tmp/dallinger-9.8.2.tar.gz]
+[2024-05-09 03:33:28] INFO root fetch - processPackages [dallinger]: Remove: archive file [/home/abi/fetcher/tmp/dallinger-9.9.0.tar.gz]
+[2024-05-09 03:33:28] INFO root fetch - main [MainThread]: End processing [dallinger]: success
+[2024-05-09 03:34:22] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-05-09 03:34:22] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-05-09 03:34:22] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-05-09 03:34:22] INFO root fetch - main [MainThread]: Store serial: [23124399]
