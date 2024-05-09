@@ -19265,3 +19265,83 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 11:43:52] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.9.tar.gz]
 [2024-05-09 11:43:52] INFO root fetch - main [MainThread]: End processing [sommify]: success
 [2024-05-09 11:43:52] INFO root fetch - main [MainThread]: Store serial: [23129202]
+[2024-05-09 11:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129202]
+[2024-05-09 11:46:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlumedToHTML
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miner-ai-beta
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedinesia
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-integrity
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptsmiles
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uswid
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rapyd-sdk
+[2024-05-09 11:46:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cachebox
+[2024-05-09 11:46:01] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240508.6.26.738405] Old Version: [20240508.17.36.82093]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [rapyd-sdk]: New version: [1.0.5] Old Version: [1.0.1]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [miner-ai-beta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [django-integrity]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [fedinesia]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [promptsmiles]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [uswid]: New version: [0.5.0] Old Version: [0.4.7]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [cachebox]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-09 11:46:01] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9a/17/ec5085096262757ff30fb00c7145e739d0e972360e771ba5b1d3a9403d04/certora-cli-alpha-master-20240508.17.36.82093.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [rapyd-sdk]: Downloading https://files.pythonhosted.org/packages/03/71/5ce47af71fadac415961e2bac102ca73237585e35301fad835f2857686a7/rapyd_sdk-1.0.1.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/00/17/a8e12c78701411a52be44538063ce319621de925286780dfdb1ea604d647/miner_ai_beta-0.1.8.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [django-integrity]: Downloading https://files.pythonhosted.org/packages/a9/00/8d7b6dc7b1a55a09544209c7329a6c7eedf7ddcd209e637973155d50039c/django_integrity-0.1.0.tar.gz
+[2024-05-09 11:46:01] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14505847>=10485760
+[2024-05-09 11:46:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-09 11:46:01] INFO root fetch - processPackages [uswid]: Downloading https://files.pythonhosted.org/packages/a9/91/d1c391ed90bf57bff810db659105bf61af04e7c2649ca71f759533100cb3/uswid-0.4.7.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [fedinesia]: Downloading https://files.pythonhosted.org/packages/2d/ea/ee84781ad7cda5e3ce30b21387cbca87d21490e7e20b1e1f04c826ab77ef/fedinesia-3.1.0.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [promptsmiles]: Downloading https://files.pythonhosted.org/packages/c2/48/21344470884703494372a5106efdffb734efc1b6f733634fe024c368c8de/promptsmiles-1.4.1.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-09 11:46:01] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240509/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 11:46:01] INFO root fetch - processPackages [cachebox]: Downloading https://files.pythonhosted.org/packages/aa/7d/e8799fc9888bc498739b57526a6bdb9ced7da46a97a677972ac86c1b6f4e/cachebox-2.2.3.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [django-integrity]: Downloading https://files.pythonhosted.org/packages/8c/2a/54a09eb8128a285b98bb539d3ac3085b8c614188765673dba3f6ca4b83c5/django_integrity-0.1.1.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [fedinesia]: Downloading https://files.pythonhosted.org/packages/ed/8b/58a1b78b6141334eba6d22f880ccc32b075df4dbf43ac955261eed2bcccc/fedinesia-3.1.1.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [uswid]: Downloading https://files.pythonhosted.org/packages/dc/bf/05291df12037befeacda2083c798e98691043978e07ca4a00b4eb94aeb61/uswid-0.5.0.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [promptsmiles]: Downloading https://files.pythonhosted.org/packages/5c/bd/79c0b32d1725c58aae5d51bda72bed9fbd58d8438092a544d1ddd1ff6fa1/promptsmiles-1.4.2.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [rapyd-sdk]: Downloading https://files.pythonhosted.org/packages/9a/d0/34e643e7c51230bbdce9d88ac10afee59d52b12ac87c777128e06bcef085/rapyd_sdk-1.0.5.tar.gz
+[2024-05-09 11:46:01] INFO root fetch - processPackages [miner-ai-beta]: Downloading https://files.pythonhosted.org/packages/c3/2f/8d81de83f660badac6d2a642e9f5b25b8e7c0151e99edc333e4eeffcb521/miner_ai_beta-0.1.9.tar.gz
+[2024-05-09 11:46:02] INFO root fetch - processPackages [django-integrity]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [django-integrity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_integrity-0.1.0.tar.gz tmp/django_integrity-0.1.1.tar.gz --markdown 20240509/d/django-integrity/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [cachebox]: Downloading https://files.pythonhosted.org/packages/35/c8/b4e0a8b13380ebd42dedd4a1f89373bd439ed48237ad9176c221f90c0ef2/cachebox-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-09 11:46:02] INFO root fetch - processPackages [fedinesia]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [fedinesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedinesia-3.1.0.tar.gz tmp/fedinesia-3.1.1.tar.gz --markdown 20240509/f/fedinesia/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [promptsmiles]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [promptsmiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptsmiles-1.4.1.tar.gz tmp/promptsmiles-1.4.2.tar.gz --markdown 20240509/p/promptsmiles/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [uswid]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [uswid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uswid-0.4.7.tar.gz tmp/uswid-0.5.0.tar.gz --markdown 20240509/u/uswid/0.4.7-0.5.0/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [rapyd-sdk]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [rapyd-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapyd_sdk-1.0.1.tar.gz tmp/rapyd_sdk-1.0.5.tar.gz --markdown 20240509/r/rapyd-sdk/1.0.1-1.0.5/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [miner-ai-beta]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [miner-ai-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miner_ai_beta-0.1.8.tar.gz tmp/miner_ai_beta-0.1.9.tar.gz --markdown 20240509/m/miner-ai-beta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 11:46:02] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-09 11:46:02] INFO root fetch - processPackages [django-integrity]: Remove: archive file [/home/abi/fetcher/tmp/django_integrity-0.1.0.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [django-integrity]: Remove: archive file [/home/abi/fetcher/tmp/django_integrity-0.1.1.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - main [MainThread]: End processing [django-integrity]: success
+[2024-05-09 11:46:02] INFO root fetch - processPackages [promptsmiles]: Remove: archive file [/home/abi/fetcher/tmp/promptsmiles-1.4.1.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [fedinesia]: Remove: archive file [/home/abi/fetcher/tmp/fedinesia-3.1.0.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [promptsmiles]: Remove: archive file [/home/abi/fetcher/tmp/promptsmiles-1.4.2.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [fedinesia]: Remove: archive file [/home/abi/fetcher/tmp/fedinesia-3.1.1.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - main [MainThread]: End processing [promptsmiles]: success
+[2024-05-09 11:46:02] INFO root fetch - main [MainThread]: End processing [fedinesia]: success
+[2024-05-09 11:46:02] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.8.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - processPackages [miner-ai-beta]: Remove: archive file [/home/abi/fetcher/tmp/miner_ai_beta-0.1.9.tar.gz]
+[2024-05-09 11:46:02] INFO root fetch - main [MainThread]: End processing [miner-ai-beta]: success
+[2024-05-09 11:46:02] INFO root fetch - processPackages [cachebox]: executing diffoscope
+[2024-05-09 11:46:02] INFO root fetch - processPackages [cachebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachebox-2.2.3.tar.gz tmp/cachebox-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240509/c/cachebox/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-09 11:46:03] INFO root fetch - processPackages [uswid]: Remove: archive file [/home/abi/fetcher/tmp/uswid-0.4.7.tar.gz]
+[2024-05-09 11:46:03] INFO root fetch - processPackages [uswid]: Remove: archive file [/home/abi/fetcher/tmp/uswid-0.5.0.tar.gz]
+[2024-05-09 11:46:03] INFO root fetch - main [MainThread]: End processing [uswid]: success
+[2024-05-09 11:46:03] INFO root fetch - processPackages [rapyd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rapyd_sdk-1.0.1.tar.gz]
+[2024-05-09 11:46:03] INFO root fetch - processPackages [rapyd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rapyd_sdk-1.0.5.tar.gz]
+[2024-05-09 11:46:03] INFO root fetch - main [MainThread]: End processing [rapyd-sdk]: success
+[2024-05-09 11:46:03] INFO root fetch - processPackages [cachebox]: Remove: archive file [/home/abi/fetcher/tmp/cachebox-2.2.3.tar.gz]
+[2024-05-09 11:46:03] INFO root fetch - processPackages [cachebox]: Remove: archive file [/home/abi/fetcher/tmp/cachebox-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-09 11:46:03] INFO root fetch - main [MainThread]: End processing [cachebox]: success
+[2024-05-09 11:46:03] INFO root fetch - main [MainThread]: Store serial: [23129235]
