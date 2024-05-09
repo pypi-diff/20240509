@@ -20742,3 +20742,54 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:56:32] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.3.1.tar.gz]
 [2024-05-09 12:56:32] INFO root fetch - main [MainThread]: End processing [setech]: success
 [2024-05-09 12:56:32] INFO root fetch - main [MainThread]: Store serial: [23129841]
+[2024-05-09 12:58:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129841]
+[2024-05-09 12:58:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glpic
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ketacli
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Clorm
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gbd-tools
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spinozistz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: game-generators
+[2024-05-09 12:58:41] INFO root fetch - processPackages [glpic]: New version: [99.0.202405090836] Old Version: [99.0.202405090736]
+[2024-05-09 12:58:41] INFO root fetch - processPackages [game-generators]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 12:58:41] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/67/a4/90c8d08006af311a9a502c44483dd5312d4e20714311025730d80dbebd5d/glpic-99.0.202405090736.tar.gz
+[2024-05-09 12:58:41] WARNING root fetch - processPackages [spinozistz]: Skipping, unable to determine old version
+[2024-05-09 12:58:41] INFO root fetch - main [MainThread]: End processing [spinozistz] error
+[2024-05-09 12:58:41] INFO root fetch - processPackages [gbd-tools]: New version: [4.8.6] Old Version: [4.8.5]
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ketacli]: New version: [0.9] Old Version: [0.8]
+[2024-05-09 12:58:41] INFO root fetch - processPackages [Clorm]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/26/21/56d65bb9c164a4fda18b7374277a8c8235463d0e639ec6f3b77630516473/ketacli-0.8.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [Clorm]: Downloading https://files.pythonhosted.org/packages/07/01/c6aac116ade481453859fff41ed5422f92cf4b7e8b8e17e47edd34a18c85/Clorm-1.5.1.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/7b/d3/29b68630b3b65652b4dd719baabc80afc1e13f206c22f5cfc5dc8ef97965/gbd_tools-4.8.5.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [game-generators]: Downloading https://files.pythonhosted.org/packages/a0/f4/e7af5dfe76d2afd23eb4ec80d643ccfd180570198b01bddb7e7c6772d76b/game_generators-0.1.1.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/89/69/085122c859622af3f96d363607af849780d442e9eeb1551abe97bbe60fca/glpic-99.0.202405090836.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-05-09 12:58:41] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202405090736.tar.gz tmp/glpic-99.0.202405090836.tar.gz --markdown 20240509/g/glpic/99.0.202405090736-99.0.202405090836/README.md --exclude *.pyd
+[2024-05-09 12:58:41] INFO root fetch - processPackages [ketacli]: Downloading https://files.pythonhosted.org/packages/a9/f4/d17557b1ae241bb7d49f310e2d6dca5c0bc3fae2f46dd05d76b0ac740d16/ketacli-0.9.tar.gz
+[2024-05-09 12:58:41] INFO root fetch - processPackages [Clorm]: Downloading https://files.pythonhosted.org/packages/4a/32/85007107b85315ef6be1b43f68f492ccf3de2f1641499e1ea9ca4cec85c5/clorm-1.6.0.tar.gz
+[2024-05-09 12:58:42] INFO root fetch - processPackages [ketacli]: executing diffoscope
+[2024-05-09 12:58:42] INFO root fetch - processPackages [ketacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ketacli-0.8.tar.gz tmp/ketacli-0.9.tar.gz --markdown 20240509/k/ketacli/0.8-0.9/README.md --exclude *.pyd
+[2024-05-09 12:58:42] INFO root fetch - processPackages [game-generators]: Downloading https://files.pythonhosted.org/packages/1f/aa/59a01105171dc31ac350634e2acff26ff18f5bae47a5d3b9d571cc1f5bee/game_generators-0.1.2.tar.gz
+[2024-05-09 12:58:42] INFO root fetch - processPackages [Clorm]: executing diffoscope
+[2024-05-09 12:58:42] INFO root fetch - processPackages [Clorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clorm-1.5.1.tar.gz tmp/clorm-1.6.0.tar.gz --markdown 20240509/C/Clorm/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-09 12:58:42] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/b3/67/58ad2a987795b42cdbf36e63879b72c11964b364645c4c67b0596b090fca/gbd_tools-4.8.6.tar.gz
+[2024-05-09 12:58:42] INFO root fetch - processPackages [game-generators]: executing diffoscope
+[2024-05-09 12:58:42] INFO root fetch - processPackages [game-generators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_generators-0.1.1.tar.gz tmp/game_generators-0.1.2.tar.gz --markdown 20240509/g/game-generators/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 12:58:42] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2024-05-09 12:58:42] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.8.5.tar.gz tmp/gbd_tools-4.8.6.tar.gz --markdown 20240509/g/gbd-tools/4.8.5-4.8.6/README.md --exclude *.pyd
+[2024-05-09 12:58:42] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405090736.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202405090836.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-05-09 12:58:42] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.8.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - processPackages [ketacli]: Remove: archive file [/home/abi/fetcher/tmp/ketacli-0.9.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - main [MainThread]: End processing [ketacli]: success
+[2024-05-09 12:58:42] INFO root fetch - processPackages [game-generators]: Remove: archive file [/home/abi/fetcher/tmp/game_generators-0.1.1.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - processPackages [game-generators]: Remove: archive file [/home/abi/fetcher/tmp/game_generators-0.1.2.tar.gz]
+[2024-05-09 12:58:42] INFO root fetch - main [MainThread]: End processing [game-generators]: success
+[2024-05-09 12:58:43] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.8.5.tar.gz]
+[2024-05-09 12:58:43] INFO root fetch - processPackages [gbd-tools]: Remove: archive file [/home/abi/fetcher/tmp/gbd_tools-4.8.6.tar.gz]
+[2024-05-09 12:58:43] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2024-05-09 12:58:43] INFO root fetch - processPackages [Clorm]: Remove: archive file [/home/abi/fetcher/tmp/Clorm-1.5.1.tar.gz]
+[2024-05-09 12:58:43] INFO root fetch - processPackages [Clorm]: Remove: archive file [/home/abi/fetcher/tmp/clorm-1.6.0.tar.gz]
+[2024-05-09 12:58:43] INFO root fetch - main [MainThread]: End processing [Clorm]: success
+[2024-05-09 12:58:43] INFO root fetch - main [MainThread]: Store serial: [23129859]
