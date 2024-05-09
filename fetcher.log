@@ -12649,3 +12649,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 08:04:01] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1715233350.tar.gz]
 [2024-05-09 08:04:01] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2024-05-09 08:04:01] INFO root fetch - main [MainThread]: Store serial: [23126899]
+[2024-05-09 08:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23126899]
+[2024-05-09 08:06:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migration-db
+[2024-05-09 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-cli
+[2024-05-09 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: punkweb-bb
+[2024-05-09 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qr-lib
+[2024-05-09 08:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faasmsctl
+[2024-05-09 08:06:10] INFO root fetch - processPackages [migration-db]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 08:06:10] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/7f/ed/1d35592a8041b6e70f3af7408af064fcea50ebc84c2e08def0f09107c7ce/migration_db-1.0.8.tar.gz
+[2024-05-09 08:06:10] WARNING root fetch - processPackages [qr-lib]: Skipping, unable to determine old version
+[2024-05-09 08:06:10] WARNING root fetch - processPackages [docmesh-cli]: Skipping, unable to determine old version
+[2024-05-09 08:06:10] INFO root fetch - main [MainThread]: End processing [qr-lib] error
+[2024-05-09 08:06:10] INFO root fetch - main [MainThread]: End processing [docmesh-cli] error
+[2024-05-09 08:06:10] INFO root fetch - processPackages [punkweb-bb]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-09 08:06:10] INFO root fetch - processPackages [faasmsctl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 08:06:11] INFO root fetch - processPackages [faasmsctl]: Downloading https://files.pythonhosted.org/packages/e6/b2/c48aa4e936a684d5e54b012d0222a91de22d54ae8716192ec984bd5c5a0d/faasmsctl-0.0.2.tar.gz
+[2024-05-09 08:06:11] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/00/5c/57444557512f9d0c29cc76447f75ec327c1c2a3e3b03bd5beaa6a34e4c93/punkweb_bb-0.1.3.tar.gz
+[2024-05-09 08:06:11] INFO root fetch - processPackages [migration-db]: Downloading https://files.pythonhosted.org/packages/21/4d/a05ab9a9bb48f79223952469dbca6b72d5dd7b36d9ecafec42abe2033706/migration_db-1.0.9.tar.gz
+[2024-05-09 08:06:11] INFO root fetch - processPackages [migration-db]: executing diffoscope
+[2024-05-09 08:06:11] INFO root fetch - processPackages [migration-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migration_db-1.0.8.tar.gz tmp/migration_db-1.0.9.tar.gz --markdown 20240509/m/migration-db/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 08:06:11] INFO root fetch - processPackages [faasmsctl]: Downloading https://files.pythonhosted.org/packages/61/99/939ab07d4696290d25a46a378b4f8301a8f5c9324a39a8cf61a58d5d5344/faasmsctl-0.0.3.tar.gz
+[2024-05-09 08:06:11] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/7c/95/a9d9c61c5e1ff104e8311d24dac87ab6a33ec34223b00643a3cc8708964b/punkweb_bb-0.1.4.tar.gz
+[2024-05-09 08:06:11] INFO root fetch - processPackages [faasmsctl]: executing diffoscope
+[2024-05-09 08:06:11] INFO root fetch - processPackages [faasmsctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmsctl-0.0.2.tar.gz tmp/faasmsctl-0.0.3.tar.gz --markdown 20240509/f/faasmsctl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 08:06:11] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-09 08:06:11] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.1.3.tar.gz tmp/punkweb_bb-0.1.4.tar.gz --markdown 20240509/p/punkweb-bb/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-09 08:06:11] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.8.tar.gz]
+[2024-05-09 08:06:11] INFO root fetch - processPackages [migration-db]: Remove: archive file [/home/abi/fetcher/tmp/migration_db-1.0.9.tar.gz]
+[2024-05-09 08:06:11] INFO root fetch - main [MainThread]: End processing [migration-db]: success
+[2024-05-09 08:06:12] INFO root fetch - processPackages [faasmsctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmsctl-0.0.2.tar.gz]
+[2024-05-09 08:06:12] INFO root fetch - processPackages [faasmsctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmsctl-0.0.3.tar.gz]
+[2024-05-09 08:06:12] INFO root fetch - main [MainThread]: End processing [faasmsctl]: success
+[2024-05-09 08:06:12] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.3.tar.gz]
+[2024-05-09 08:06:12] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.1.4.tar.gz]
+[2024-05-09 08:06:12] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-09 08:06:12] INFO root fetch - main [MainThread]: Store serial: [23126918]
