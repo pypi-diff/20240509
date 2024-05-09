@@ -8266,3 +8266,33 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:24:49] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240508.1.tar.gz]
 [2024-05-09 04:24:49] INFO root fetch - main [MainThread]: End processing [medicafe]: success
 [2024-05-09 04:24:49] INFO root fetch - main [MainThread]: Store serial: [23124960]
+[2024-05-09 04:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124960]
+[2024-05-09 04:26:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esupar
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-app-ui
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-09 04:26:58] INFO root fetch - processPackages [esupar]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/5d/99/e8664bc414b9b6e94e8dcc22c43abf61e51e33e21700080dd11ace5eda78/ctrip-app-ui-0.3.8.tar.gz
+[2024-05-09 04:26:58] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240509] Old Version: [1.2.20240508]
+[2024-05-09 04:26:58] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/7d/3e/3c79d72bf61ff90d301582b098a31f53877e1928d2c460554de01f141f30/esupar-1.7.0-py3-none-any.whl
+[2024-05-09 04:26:58] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/39/fa/02e78ae42456c969e0180ec619563c793ea5f9306347abbe61b594fc4569/ctrip-app-ui-0.3.9.tar.gz
+[2024-05-09 04:26:58] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/3c/08/cf06c2e0d5a681085bdb03818a393650419bcb3818302a68ec1ceea1f48a/iam_actions-1.2.20240508.tar.gz
+[2024-05-09 04:26:59] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-09 04:26:59] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.3.8.tar.gz tmp/ctrip-app-ui-0.3.9.tar.gz --markdown 20240509/c/ctrip-app-ui/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-09 04:26:59] INFO root fetch - processPackages [esupar]: Downloading https://files.pythonhosted.org/packages/26/a9/af144e8020788accf4ce7a06c2228954abfacacce3ecc2431b84fcb33ff1/esupar-1.7.1-py3-none-any.whl
+[2024-05-09 04:26:59] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/7f/63/719355b5214971508a95c2562ea566ce9007963a04c3b789dad7778bccb5/iam_actions-1.2.20240509.tar.gz
+[2024-05-09 04:26:59] INFO root fetch - processPackages [esupar]: executing diffoscope
+[2024-05-09 04:26:59] INFO root fetch - processPackages [esupar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esupar-1.7.0-py3-none-any.whl.zip tmp/esupar-1.7.1-py3-none-any.whl.zip --markdown 20240509/e/esupar/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-09 04:26:59] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-09 04:26:59] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240508.tar.gz tmp/iam_actions-1.2.20240509.tar.gz --markdown 20240509/i/iam-actions/1.2.20240508-1.2.20240509/README.md --exclude *.pyd
+[2024-05-09 04:26:59] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.8.tar.gz]
+[2024-05-09 04:26:59] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.3.9.tar.gz]
+[2024-05-09 04:26:59] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-09 04:26:59] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.7.0-py3-none-any.whl.zip]
+[2024-05-09 04:26:59] INFO root fetch - processPackages [esupar]: Remove: archive file [/home/abi/fetcher/tmp/esupar-1.7.1-py3-none-any.whl.zip]
+[2024-05-09 04:26:59] INFO root fetch - main [MainThread]: End processing [esupar]: success
+[2024-05-09 04:27:04] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240508.tar.gz]
+[2024-05-09 04:27:04] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240509.tar.gz]
+[2024-05-09 04:27:04] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-09 04:27:04] INFO root fetch - main [MainThread]: Store serial: [23124967]
