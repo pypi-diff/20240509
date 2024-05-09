@@ -8029,3 +8029,39 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 04:07:07] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-05-09 04:07:07] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-05-09 04:07:07] INFO root fetch - main [MainThread]: Store serial: [23124739]
+[2024-05-09 04:09:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23124739]
+[2024-05-09 04:09:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 04:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatium
+[2024-05-09 04:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvprocessor
+[2024-05-09 04:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unemphaticallyz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entegywrapper
+[2024-05-09 04:09:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atas-client
+[2024-05-09 04:09:17] INFO root fetch - processPackages [entegywrapper]: New version: [7.2.7] Old Version: [7.2.6]
+[2024-05-09 04:09:17] WARNING root fetch - processPackages [unemphaticallyz]: Skipping, unable to determine old version
+[2024-05-09 04:09:17] INFO root fetch - main [MainThread]: End processing [unemphaticallyz] error
+[2024-05-09 04:09:17] INFO root fetch - processPackages [cvprocessor]: New version: [0.0.31] Old Version: [0.0.30]
+[2024-05-09 04:09:17] INFO root fetch - processPackages [atas-client]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-09 04:09:17] WARNING root fetch - processPackages [spatium]: Skipping, unable to determine old version
+[2024-05-09 04:09:17] INFO root fetch - main [MainThread]: End processing [spatium] error
+[2024-05-09 04:09:17] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/62/ed/7061df6417c9f5fdcef58d7ac28424c34636c5a8fffd367a04842573320d/cvprocessor-0.0.30.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/9d/78/195f557b1fe4f45b7751218a5c021c85603920df7a4a94480e58a8f6f4c6/entegywrapper-7.2.6.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/a2/da/e0c755c3cc2d8e9a7b13f9474fbb6ac96d9c843d1de80b48582f19485b3b/atas_client-0.1.1.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/40/56/242a4edbfab2ea303d27569bdd7e1b29865efa351c6c4ce66178e96ceda5/cvprocessor-0.0.31.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/a4/2f/20528c9fa051330bf6b91e8665d5146bc2f5f69ab2b77f92e4cb0b6fabeb/entegywrapper-7.2.7.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/e4/01/90b58229c8027bece8c2156055f4357bf81212f64600ec56e7a04a55bee1/atas_client-1.0.0.tar.gz
+[2024-05-09 04:09:17] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-09 04:09:17] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.0.30.tar.gz tmp/cvprocessor-0.0.31.tar.gz --markdown 20240509/c/cvprocessor/0.0.30-0.0.31/README.md --exclude *.pyd
+[2024-05-09 04:09:17] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-09 04:09:17] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.2.6.tar.gz tmp/entegywrapper-7.2.7.tar.gz --markdown 20240509/e/entegywrapper/7.2.6-7.2.7/README.md --exclude *.pyd
+[2024-05-09 04:09:18] INFO root fetch - processPackages [atas-client]: executing diffoscope
+[2024-05-09 04:09:18] INFO root fetch - processPackages [atas-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atas_client-0.1.1.tar.gz tmp/atas_client-1.0.0.tar.gz --markdown 20240509/a/atas-client/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-09 04:09:18] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.30.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.0.31.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-09 04:09:18] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-0.1.1.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - processPackages [atas-client]: Remove: archive file [/home/abi/fetcher/tmp/atas_client-1.0.0.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - main [MainThread]: End processing [atas-client]: success
+[2024-05-09 04:09:18] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.6.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.2.7.tar.gz]
+[2024-05-09 04:09:18] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-09 04:09:18] INFO root fetch - main [MainThread]: Store serial: [23124808]
