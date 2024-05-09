@@ -22336,3 +22336,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:59:12] INFO root fetch - processPackages [odoo-addon-datev-export-xml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_datev_export_xml-16.0.1.0.1-py3-none-any.whl.zip]
 [2024-05-09 13:59:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-datev-export-xml]: success
 [2024-05-09 13:59:12] INFO root fetch - main [MainThread]: Store serial: [23130469]
+[2024-05-09 14:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130469]
+[2024-05-09 14:01:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feezfuzz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-superset
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reloader.py
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nobuco
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-nvidia-ai-endpoints
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aipkgs-firebase
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lcax
+[2024-05-09 14:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrapwithgpt
+[2024-05-09 14:01:22] INFO root fetch - processPackages [aipkgs-firebase]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [lcax]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [nobuco]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240509] Old Version: [2.5.0b20240508]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [apache-superset]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2024-05-09 14:01:22] WARNING root fetch - processPackages [scrapwithgpt]: Skipping, unable to determine old version
+[2024-05-09 14:01:22] INFO root fetch - main [MainThread]: End processing [scrapwithgpt] error
+[2024-05-09 14:01:22] INFO root fetch - processPackages [feezfuzz]: New version: [0.1.4.4] Old Version: [0.1.4.3]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [reloader.py]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-09 14:01:22] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/60/e0/69dc666392bdade23f817a0bf986a0c5515505750a48b475b318e9e8083c/aipkgs_firebase-0.0.8.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/70/6d/d531630ff195af3d6a123e06a3bf9ef53c30bdbdc9f98eb8249c5fcf6093/lcax-2.1.0.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/68/84/794132dacc433e3e334bbd166200a6803b9ba4ee42d075e7a99aff115d7a/nobuco-0.9.1.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/29/ef/0952a9f8b7931027a4aece7c399828fc1b4a7872ae3f3665dae3087d305a/bigdl_core_xe_esimd-2.5.0b20240508-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-09 14:01:22] INFO root fetch - processPackages [apache-superset]: Downloading https://files.pythonhosted.org/packages/f2/8e/3a50c697cc0a4bde393c000dbca38d26af6bc79e7d36342dcd28a2a9e83c/apache-superset-4.0.0rc1.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/2e/22/aab3a282711d8f4b0c7e1fcdaf8e0af09e7313beace92862f81d9604e448/langchain_nvidia_ai_endpoints-0.0.8.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/2e/77/75f66726e49b4b303b830ca5496e300569ff2136f679b2c63d7d8f18840c/feezfuzz-0.1.4.3.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [reloader.py]: Downloading https://files.pythonhosted.org/packages/46/61/8c51c05aa76f44386cf1d04f45cbd8d29faa97a0205a7e69233cc248f13d/reloader_py-0.9.0.tar.gz
+[2024-05-09 14:01:22] WARNING root fetch - processPackages [apache-superset]: Skipping package: exceeds size limit 49493607>=10485760
+[2024-05-09 14:01:22] INFO root fetch - main [MainThread]: End processing [apache-superset] error
+[2024-05-09 14:01:22] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/99/79/af6dbbe811fe0a12d668e3665e1b2d00dfe2c6ce4cad2d9bf55436b29a70/aipkgs_firebase-0.0.9.tar.gz
+[2024-05-09 14:01:22] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871661>=10485760
+[2024-05-09 14:01:22] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-05-09 14:01:22] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/45/59/73c6ceefe715aa15046cf0ac83a7fed7c2c0764eaff79ddcd08bc8c623d7/lcax-2.1.1.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-09 14:01:22] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240509/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-09 14:01:22] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-09 14:01:22] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-0.0.8.tar.gz tmp/aipkgs_firebase-0.0.9.tar.gz --markdown 20240509/a/aipkgs-firebase/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:01:22] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/b6/03/8df6b61933dfcf3ab80a5b663e4508f722d1375339b9919bfe00796f5676/langchain_nvidia_ai_endpoints-0.0.9.tar.gz
+[2024-05-09 14:01:22] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/95/3a/fd6794044332ec5b7c9cb113330e577eca14f325ce7440e0faba6333018d/feezfuzz-0.1.4.4.tar.gz
+[2024-05-09 14:01:23] INFO root fetch - processPackages [reloader.py]: Downloading https://files.pythonhosted.org/packages/95/38/d6e5aef5543064890ba471b655f8265e562ff65f2d654db6f0d00429e3f8/reloader_py-0.9.1.tar.gz
+[2024-05-09 14:01:23] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-05-09 14:01:23] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-2.1.0.tar.gz tmp/lcax-2.1.1.tar.gz --markdown 20240509/l/lcax/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-09 14:01:23] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/82/54/7cd12a09de91e79fb5f11fb08e9049763568458773fc0c674164336780b2/nobuco-0.9.2.tar.gz
+[2024-05-09 14:01:23] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: executing diffoscope
+[2024-05-09 14:01:23] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_nvidia_ai_endpoints-0.0.8.tar.gz tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz --markdown 20240509/l/langchain-nvidia-ai-endpoints/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 14:01:23] INFO root fetch - processPackages [feezfuzz]: executing diffoscope
+[2024-05-09 14:01:23] INFO root fetch - processPackages [feezfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feezfuzz-0.1.4.3.tar.gz tmp/feezfuzz-0.1.4.4.tar.gz --markdown 20240509/f/feezfuzz/0.1.4.3-0.1.4.4/README.md --exclude *.pyd
+[2024-05-09 14:01:23] INFO root fetch - processPackages [reloader.py]: executing diffoscope
+[2024-05-09 14:01:23] INFO root fetch - processPackages [reloader.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reloader_py-0.9.0.tar.gz tmp/reloader_py-0.9.1.tar.gz --markdown 20240509/r/reloader.py/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-09 14:01:23] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2024-05-09 14:01:23] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.9.1.tar.gz tmp/nobuco-0.9.2.tar.gz --markdown 20240509/n/nobuco/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-09 14:01:23] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-09 14:01:23] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.8.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-0.0.9.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-09 14:01:23] INFO root fetch - processPackages [reloader.py]: Remove: archive file [/home/abi/fetcher/tmp/reloader_py-0.9.0.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - processPackages [reloader.py]: Remove: archive file [/home/abi/fetcher/tmp/reloader_py-0.9.1.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - main [MainThread]: End processing [reloader.py]: success
+[2024-05-09 14:01:23] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.8.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - main [MainThread]: End processing [langchain-nvidia-ai-endpoints]: success
+[2024-05-09 14:01:23] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.3.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.4.tar.gz]
+[2024-05-09 14:01:23] INFO root fetch - main [MainThread]: End processing [feezfuzz]: success
+[2024-05-09 14:01:24] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.1.tar.gz]
+[2024-05-09 14:01:24] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.2.tar.gz]
+[2024-05-09 14:01:24] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2024-05-09 14:01:24] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.1.0.tar.gz]
+[2024-05-09 14:01:24] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.1.1.tar.gz]
+[2024-05-09 14:01:24] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-05-09 14:01:24] INFO root fetch - main [MainThread]: Store serial: [23130513]
