@@ -9154,3 +9154,72 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:24:45] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-05-09 05:24:45] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-05-09 05:24:45] INFO root fetch - main [MainThread]: Store serial: [23125538]
+[2024-05-09 05:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125538]
+[2024-05-09 05:26:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-functions
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HawaData
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-snowflake
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-ionoscloud
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crawlipt
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdog
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-ddmrp-history
+[2024-05-09 05:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.2]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [crawlipt]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-05-09 05:26:54] WARNING root fetch - processPackages [image-functions]: Skipping, unable to determine old version
+[2024-05-09 05:26:54] INFO root fetch - main [MainThread]: End processing [image-functions] error
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/5e/c3/c9e970bc5a8805a726e1d4399aab3767214d612303c830db920c5be8e3d0/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-09 05:26:54] INFO root fetch - processPackages [deepdog]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/d0/4b/166c8a6d74a4fb22781dab982b27ce02b469e3ad34a6511097e3c33a51e9/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl
+[2024-05-09 05:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: New version: [9.0.4] Old Version: [9.0.3]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-09 05:26:54] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/ab/82/893d45f8e6d1c677b85aeafec3b8dae696439d973f055869e30f5cc58447/crawlipt-0.0.7.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/5b/3e/f4dea9be5f5745651a90d331cec9d1aa047255529a970ba16df2124af5e6/deepdog-1.1.0.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/98/d1/d203bb9a68d0d5122f21f808b803ed6073d9a295658898a958996214ab4e/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl
+[2024-05-09 05:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/87/59/1e42265f5a62860e91de7eca69df7a796732140960d944277f15c7834354/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/d3/e0/753a2773c341240ef31485210bb3ef5ae2f6e6dd3651dc38b6d800ccdf7f/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Downloading https://files.pythonhosted.org/packages/95/c4/6fde9c729f0cbf7e36a59de94c568162c85d48e110e020a52263616e0075/odoo_addon_ddmrp_history-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.1.0.2-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: executing diffoscope
+[2024-05-09 05:26:54] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_history-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240509/o/odoo-addon-ddmrp-history/16.0.1.2.0-16.0.1.2.0.1/README.md --exclude *.pyd
+[2024-05-09 05:26:54] INFO root fetch - processPackages [crawlipt]: Downloading https://files.pythonhosted.org/packages/ce/1f/0678ac35ff9273106d2bf0ecda8e275193e04d56c4d501b1eeb3b1305b97/crawlipt-0.0.8.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/e2/36/43471bf710b5147a857db24bc8246a15961e3604fd64d921332e50cd3c01/deepdog-1.2.0.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-05-09 05:26:54] INFO root fetch - processPackages [crawlipt]: executing diffoscope
+[2024-05-09 05:26:54] INFO root fetch - processPackages [crawlipt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlipt-0.0.7.tar.gz tmp/crawlipt-0.0.8.tar.gz --markdown 20240509/c/crawlipt/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-09 05:26:55] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-05-09 05:26:55] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240509/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-09 05:26:55] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2024-05-09 05:26:55] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-1.1.0.tar.gz tmp/deepdog-1.2.0.tar.gz --markdown 20240509/d/deepdog/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Downloading https://files.pythonhosted.org/packages/c0/6f/a1d64f04dbd47c282d0ec29d3a9a1a51346734468ca5477007fcff1598cc/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Downloading https://files.pythonhosted.org/packages/c0/05/7f5626a77e000c0ec1208a5c4ea98dc678ba765e4502b3f3114ec4930f00/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz
+[2024-05-09 05:26:55] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-09 05:26:55] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-09 05:26:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-05-09 05:26:55] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-09 05:26:55] INFO root fetch - processPackages [odoo-addon-ddmrp-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_history-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-09 05:26:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-history]: success
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: executing diffoscope
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz --markdown 20240509/c/cdktf-cdktf-provider-snowflake/9.0.3-9.0.4/README.md --exclude *.pyd
+[2024-05-09 05:26:55] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.7.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - processPackages [crawlipt]: Remove: archive file [/home/abi/fetcher/tmp/crawlipt-0.0.8.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - main [MainThread]: End processing [crawlipt]: success
+[2024-05-09 05:26:55] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.1.0.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.2.0.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2024-05-09 05:26:55] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-05-09 05:26:55] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: executing diffoscope
+[2024-05-09 05:26:55] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz --markdown 20240509/c/cdktf-cdktf-provider-ionoscloud/9.0.1-9.0.2/README.md --exclude *.pyd
+[2024-05-09 05:26:58] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.3.tar.gz]
+[2024-05-09 05:26:58] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz]
+[2024-05-09 05:26:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
+[2024-05-09 05:26:58] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.1.tar.gz]
+[2024-05-09 05:26:58] INFO root fetch - processPackages [cdktf-cdktf-provider-ionoscloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-ionoscloud-9.0.2.tar.gz]
+[2024-05-09 05:26:58] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-ionoscloud]: success
+[2024-05-09 05:26:58] INFO root fetch - main [MainThread]: Store serial: [23125560]
