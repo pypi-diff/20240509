@@ -21119,3 +21119,162 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 13:10:30] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b2.tar.gz]
 [2024-05-09 13:10:30] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-09 13:10:30] INFO root fetch - main [MainThread]: Store serial: [23129977]
+[2024-05-09 13:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129977]
+[2024-05-09 13:12:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newyorkfed-pandas
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ptmultiviews
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stimulsoft-dashboards
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stimulsoft-data-adapters
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my_media_crawler
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-Captchaify
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stimulsoft-reports
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: b2sdk
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-09 13:12:39] INFO root fetch - processPackages [my_media_crawler]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [b2sdk]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [flask-Captchaify]: New version: [1.6.8.2] Old Version: [1.6.8.1]
+[2024-05-09 13:12:39] WARNING root fetch - processPackages [newyorkfed-pandas]: Skipping, unable to determine old version
+[2024-05-09 13:12:39] INFO root fetch - main [MainThread]: End processing [newyorkfed-pandas] error
+[2024-05-09 13:12:39] INFO root fetch - processPackages [stimulsoft-dashboards]: New version: [2024.2.5] Old Version: [2024.2.4]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [my_media_crawler]: Downloading https://files.pythonhosted.org/packages/dd/94/a407f0ede3087ef22f4e895f1cc99673e576ecd5319f4f53cf31a3aa44f8/my_media_crawler-0.1.0.tar.gz
+[2024-05-09 13:12:39] INFO root fetch - processPackages [ptmultiviews]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [stimulsoft-reports]: New version: [2024.2.5] Old Version: [2024.2.4]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [stimulsoft-data-adapters]: New version: [2024.2.5] Old Version: [2024.2.4]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240509] Old Version: [2.5.0b20240508]
+[2024-05-09 13:12:39] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/1e/c2/4ce1b1424e2d03b61fd153cf71933e5260f6b738bd4f2e0537708a91a23e/b2sdk-2.1.0.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [flask-Captchaify]: Downloading https://files.pythonhosted.org/packages/d3/e4/bb225f6794e1aef1f160932c545c8ca4cef1a844a38836a02c6c6f99f5b3/flask_captchaify-1.6.8.1.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-dashboards]: Downloading https://files.pythonhosted.org/packages/c8/fe/61a2cea50e98105f8244bac5f622e3085eba00f00298b22fcc8f33a9225f/stimulsoft_dashboards-2024.2.4.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [ptmultiviews]: Downloading https://files.pythonhosted.org/packages/dc/84/8449d50ee11d20f4c1a0bff0cb445b9c11e74c042aecffe4f1ab0244058e/ptmultiviews-1.0.3.tar.gz
+[2024-05-09 13:12:40] WARNING root fetch - processPackages [flask-Captchaify]: Skipping package: exceeds size limit 33506245>=10485760
+[2024-05-09 13:12:40] INFO root fetch - main [MainThread]: End processing [flask-Captchaify] error
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-data-adapters]: Downloading https://files.pythonhosted.org/packages/a9/c2/315fa51b71ca12eb96af207f27c68e4d001b17d8ef0c2c9c74733318f935/stimulsoft_data_adapters-2024.2.4.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-reports]: Downloading https://files.pythonhosted.org/packages/8f/cd/f8a570eb3d3b1875cea6dfaccf1cf5006d9b233a8f3332e3f07967c842c2/stimulsoft_reports-2024.2.4.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/c5/8e/26ea66fefa4109dfad11d933469f28bbc6ac59b25f8d0f75a1424f741836/bigdl_core_xe_esimd_21-2.5.0b20240508-cp39-cp39-win_amd64.whl
+[2024-05-09 13:12:40] INFO root fetch - processPackages [my_media_crawler]: Downloading https://files.pythonhosted.org/packages/be/83/6094c37a12d4be4d1f5f0db2d646060a216af7b96402e33fd6b3218148f5/my_media_crawler-0.1.4-py3-none-any.whl
+[2024-05-09 13:12:40] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/df/a3/f18cf45746fcb4a07b5edaffa197ee7ed87c2b7cfceb6c000be6caa96f1f/b2sdk-2.2.0.tar.gz
+[2024-05-09 13:12:40] WARNING root fetch - processPackages [stimulsoft-reports]: Skipping package: exceeds size limit 30249694>=10485760
+[2024-05-09 13:12:40] INFO root fetch - main [MainThread]: End processing [stimulsoft-reports] error
+[2024-05-09 13:12:40] INFO root fetch - processPackages [my_media_crawler]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [my_media_crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_media_crawler-0.1.0.tar.gz tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip --markdown 20240509/m/my_media_crawler/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-2.1.0.tar.gz tmp/b2sdk-2.2.0.tar.gz --markdown 20240509/b/b2sdk/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-dashboards]: Downloading https://files.pythonhosted.org/packages/cb/b7/89ac9cfdad45f9dadd58103ac1b32609619d2d2e84786cf616d8336ecc97/stimulsoft_dashboards-2024.2.5.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [ptmultiviews]: Downloading https://files.pythonhosted.org/packages/63/f7/1817af441488a7c878f196e265a4c71e6dc91b3d0516c90434aafd107d98/ptmultiviews-1.0.4.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/d2/17/a27641227a69c3085279aad50771002e9e2994602f976c87039e34219954/bigdl_core_xe_esimd_21-2.5.0b20240509-cp310-cp310-win_amd64.whl
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-data-adapters]: Downloading https://files.pythonhosted.org/packages/ea/66/b3d173fabadbfe70d4144c5786f177c4a1894c91159dd57501684ef1fd6f/stimulsoft_data_adapters-2024.2.5.tar.gz
+[2024-05-09 13:12:40] INFO root fetch - processPackages [ptmultiviews]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [ptmultiviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptmultiviews-1.0.3.tar.gz tmp/ptmultiviews-1.0.4.tar.gz --markdown 20240509/p/ptmultiviews/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-dashboards]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimulsoft_dashboards-2024.2.4.tar.gz tmp/stimulsoft_dashboards-2024.2.5.tar.gz --markdown 20240509/s/stimulsoft-dashboards/2024.2.4-2024.2.5/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-data-adapters]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [stimulsoft-data-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimulsoft_data_adapters-2024.2.4.tar.gz tmp/stimulsoft_data_adapters-2024.2.5.tar.gz --markdown 20240509/s/stimulsoft-data-adapters/2024.2.4-2024.2.5/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-09 13:12:40] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240508-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240509-cp310-cp310-win_amd64.whl.zip --markdown 20240509/b/bigdl-core-xe-esimd-21/2.5.0b20240508-2.5.0b20240509/README.md --exclude *.pyd
+[2024-05-09 13:12:40] INFO root fetch - processPackages [my_media_crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.0.tar.gz]
+[2024-05-09 13:12:40] INFO root fetch - processPackages [my_media_crawler]: Remove: archive file [/home/abi/fetcher/tmp/my_media_crawler-0.1.4-py3-none-any.whl.zip]
+[2024-05-09 13:12:40] INFO root fetch - main [MainThread]: End processing [my_media_crawler]: success
+[2024-05-09 13:12:41] INFO root fetch - processPackages [ptmultiviews]: Remove: archive file [/home/abi/fetcher/tmp/ptmultiviews-1.0.3.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - processPackages [ptmultiviews]: Remove: archive file [/home/abi/fetcher/tmp/ptmultiviews-1.0.4.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - main [MainThread]: End processing [ptmultiviews]: success
+[2024-05-09 13:12:41] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.1.0.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.2.0.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2024-05-09 13:12:41] INFO root fetch - processPackages [stimulsoft-data-adapters]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_data_adapters-2024.2.4.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - processPackages [stimulsoft-data-adapters]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_data_adapters-2024.2.5.tar.gz]
+[2024-05-09 13:12:41] INFO root fetch - main [MainThread]: End processing [stimulsoft-data-adapters]: success
+[2024-05-09 13:12:41] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-09T13:12:41+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140218267082128)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140218401299968)
+
+[2024-05-09 13:12:41] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-09 13:12:46] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.4.tar.gz]
+[2024-05-09 13:12:46] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.5.tar.gz]
+[2024-05-09 13:12:46] INFO root fetch - main [MainThread]: End processing [stimulsoft-dashboards]: success
+[2024-05-09 13:12:46] INFO root fetch - main [MainThread]: Store serial: [23130007]
