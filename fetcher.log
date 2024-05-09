@@ -19890,3 +19890,66 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:06:26] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.63.tar.gz]
 [2024-05-09 12:06:26] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-09 12:06:26] INFO root fetch - main [MainThread]: Store serial: [23129509]
+[2024-05-09 12:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129509]
+[2024-05-09 12:08:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: candy-crush
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuneapi
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcax
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zoy
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt-custom-adapter
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: time-tracker
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-keras-nightly
+[2024-05-09 12:08:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mleko
+[2024-05-09 12:08:36] WARNING root fetch - processPackages [zoy]: Skipping, unable to determine old version
+[2024-05-09 12:08:36] INFO root fetch - main [MainThread]: End processing [zoy] error
+[2024-05-09 12:08:36] INFO root fetch - processPackages [time-tracker]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-09 12:08:36] INFO root fetch - processPackages [ccxt-custom-adapter]: New version: [4.3.21] Old Version: [4.3.20]
+[2024-05-09 12:08:36] INFO root fetch - processPackages [lcax]: New version: [2.0.5] Old Version: [1.7.0]
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024050809] Old Version: [2.17.0.dev2024050709]
+[2024-05-09 12:08:36] WARNING root fetch - processPackages [candy-crush]: Skipping, unable to determine old version
+[2024-05-09 12:08:36] INFO root fetch - main [MainThread]: End processing [candy-crush] error
+[2024-05-09 12:08:36] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/a4/56/3d79b68f599b1a9554f9ef8a15310fe7532451f3f210b7d1e0da6e7a5090/time_tracker-0.5.0.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/3b/04/6fc3b06b5158381f2504e1ff80caf3bd4d861b49c3fa3a414a97ee692cc0/lcax-1.7.0.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [mleko]: New version: [4.0.0] Old Version: [3.2.0]
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tuneapi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/78/83/f982410f4b694357e55f560499baa10240fc09b7680a408f13330b88885e/tf_keras_nightly-2.17.0.dev2024050709.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/a3/39/e2c8833c6bb8ae91b81906e6cf0c35e48f3b99a166c88234d6568f851809/ccxt-custom-adapter-4.3.20.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/26/5d/ff6711cf78c58c820003114853a897f08a82c1032a2b554c1cc60087d53c/tuneapi-0.3.1.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [time-tracker]: Downloading https://files.pythonhosted.org/packages/a5/f4/8010b93f1bb2f0b5c71065f48cde5bcbb538780a80cc5058a81cc891700e/time_tracker-0.5.1.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/95/2e/a5f81c56260622af498a632bb13e31b5a53c6c26f4c0f54123b1869a0ecf/mleko-3.2.0.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [lcax]: Downloading https://files.pythonhosted.org/packages/52/2d/e0003954d95c9e2f81886f48f601e431e46ee336ce7c15887ff66483286b/lcax-2.0.5.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [time-tracker]: executing diffoscope
+[2024-05-09 12:08:36] INFO root fetch - processPackages [time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_tracker-0.5.0.tar.gz tmp/time_tracker-0.5.1.tar.gz --markdown 20240509/t/time-tracker/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/68/42/bcc22304c9c6c64d568edde9419a6507ab06a521d7f99a21c9b4edc0b082/tf_keras_nightly-2.17.0.dev2024050809.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [lcax]: executing diffoscope
+[2024-05-09 12:08:36] INFO root fetch - processPackages [lcax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcax-1.7.0.tar.gz tmp/lcax-2.0.5.tar.gz --markdown 20240509/l/lcax/1.7.0-2.0.5/README.md --exclude *.pyd
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/03/13/6df6159b21b4d9ac607a5821f7d6d69e46d84c47a6cdf0de0cc85ea60856/tuneapi-0.3.2.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [mleko]: Downloading https://files.pythonhosted.org/packages/e3/ba/d980397caaff3dd92b45cc4a426125722dbbeb1678bdc865215d904bba1e/mleko-4.0.0.tar.gz
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.3.1.tar.gz tmp/tuneapi-0.3.2.tar.gz --markdown 20240509/t/tuneapi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-09 12:08:36] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024050709.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024050809.tar.gz --markdown 20240509/t/tf-keras-nightly/2.17.0.dev2024050709-2.17.0.dev2024050809/README.md --exclude *.pyd
+[2024-05-09 12:08:37] INFO root fetch - processPackages [ccxt-custom-adapter]: Downloading https://files.pythonhosted.org/packages/b9/f0/6e65f1e68408c7cce61c3bfdbffcffa20fa7acdbfee8b6491cda53e3820d/ccxt-custom-adapter-4.3.21.tar.gz
+[2024-05-09 12:08:37] INFO root fetch - processPackages [mleko]: executing diffoscope
+[2024-05-09 12:08:37] INFO root fetch - processPackages [mleko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mleko-3.2.0.tar.gz tmp/mleko-4.0.0.tar.gz --markdown 20240509/m/mleko/3.2.0-4.0.0/README.md --exclude *.pyd
+[2024-05-09 12:08:37] INFO root fetch - processPackages [time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/time_tracker-0.5.0.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - processPackages [time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/time_tracker-0.5.1.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - main [MainThread]: End processing [time-tracker]: success
+[2024-05-09 12:08:37] INFO root fetch - processPackages [ccxt-custom-adapter]: executing diffoscope
+[2024-05-09 12:08:37] INFO root fetch - processPackages [ccxt-custom-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-custom-adapter-4.3.20.tar.gz tmp/ccxt-custom-adapter-4.3.21.tar.gz --markdown 20240509/c/ccxt-custom-adapter/4.3.20-4.3.21/README.md --exclude *.pyd
+[2024-05-09 12:08:37] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.1.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.3.2.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-05-09 12:08:37] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-1.7.0.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - processPackages [lcax]: Remove: archive file [/home/abi/fetcher/tmp/lcax-2.0.5.tar.gz]
+[2024-05-09 12:08:37] INFO root fetch - main [MainThread]: End processing [lcax]: success
+[2024-05-09 12:08:38] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-3.2.0.tar.gz]
+[2024-05-09 12:08:38] INFO root fetch - processPackages [mleko]: Remove: archive file [/home/abi/fetcher/tmp/mleko-4.0.0.tar.gz]
+[2024-05-09 12:08:38] INFO root fetch - main [MainThread]: End processing [mleko]: success
+[2024-05-09 12:08:39] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050709.tar.gz]
+[2024-05-09 12:08:39] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024050809.tar.gz]
+[2024-05-09 12:08:39] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-09 12:08:41] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.20.tar.gz]
+[2024-05-09 12:08:41] INFO root fetch - processPackages [ccxt-custom-adapter]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-custom-adapter-4.3.21.tar.gz]
+[2024-05-09 12:08:41] INFO root fetch - main [MainThread]: End processing [ccxt-custom-adapter]: success
+[2024-05-09 12:08:41] INFO root fetch - main [MainThread]: Store serial: [23129535]
