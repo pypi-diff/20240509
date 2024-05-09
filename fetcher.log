@@ -22893,3 +22893,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:19:20] INFO root fetch - processPackages [fontfinder]: Remove: archive file [/home/abi/fetcher/tmp/fontfinder-0.12.0.tar.gz]
 [2024-05-09 14:19:20] INFO root fetch - main [MainThread]: End processing [fontfinder]: success
 [2024-05-09 14:19:20] INFO root fetch - main [MainThread]: Store serial: [23130776]
+[2024-05-09 14:21:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130776]
+[2024-05-09 14:21:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-09 14:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lindi
+[2024-05-09 14:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glyphspkg
+[2024-05-09 14:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pressurizesz
+[2024-05-09 14:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: device-user-agent
+[2024-05-09 14:21:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycharm-remote-debugger
+[2024-05-09 14:21:29] INFO root fetch - processPackages [lindi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-09 14:21:29] WARNING root fetch - processPackages [device-user-agent]: Skipping, unable to determine old version
+[2024-05-09 14:21:29] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/c3/6a/7c8fc5dbaa8ab83e49c3612b6b425eb33694e899143566b354565a4c6222/lindi-0.3.1.tar.gz
+[2024-05-09 14:21:29] INFO root fetch - main [MainThread]: End processing [device-user-agent] error
+[2024-05-09 14:21:29] INFO root fetch - processPackages [glyphspkg]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-09 14:21:29] INFO root fetch - processPackages [pycharm-remote-debugger]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 14:21:29] WARNING root fetch - processPackages [pressurizesz]: Skipping, unable to determine old version
+[2024-05-09 14:21:29] INFO root fetch - main [MainThread]: End processing [pressurizesz] error
+[2024-05-09 14:21:29] INFO root fetch - processPackages [glyphspkg]: Downloading https://files.pythonhosted.org/packages/a8/df/cf9779f8fc77d65d4640c84ac013854be92e9a6a633f2bad49b7aff39ef0/glyphspkg-0.1.9.tar.gz
+[2024-05-09 14:21:29] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/88/88/5ad530875fc29ec2f1427e9455b7268d8246e2a3f1b2e91802c221a1aec9/lindi-0.3.2.tar.gz
+[2024-05-09 14:21:29] INFO root fetch - processPackages [pycharm-remote-debugger]: Downloading https://files.pythonhosted.org/packages/38/ee/a06269d570cedf2e5eb4e82dba42f3fd991d69b0d51fb98b8a5b4a46f7b8/pycharm_remote_debugger-0.1.8.tar.gz
+[2024-05-09 14:21:29] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-09 14:21:29] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.1.tar.gz tmp/lindi-0.3.2.tar.gz --markdown 20240509/l/lindi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-09 14:21:30] INFO root fetch - processPackages [glyphspkg]: Downloading https://files.pythonhosted.org/packages/0c/2d/8aaa8b2efb4cbff121a94dfe11f76e08021ccdf0f5ee3e232507675a3490/glyphspkg-0.2.0.tar.gz
+[2024-05-09 14:21:30] INFO root fetch - processPackages [pycharm-remote-debugger]: Downloading https://files.pythonhosted.org/packages/dd/fc/fb4d7ec7e0ced6edc01b6ad0f66e26238adb0989855e08b21e9773eb88a7/pycharm_remote_debugger-0.1.9.tar.gz
+[2024-05-09 14:21:30] INFO root fetch - processPackages [glyphspkg]: executing diffoscope
+[2024-05-09 14:21:30] INFO root fetch - processPackages [glyphspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glyphspkg-0.1.9.tar.gz tmp/glyphspkg-0.2.0.tar.gz --markdown 20240509/g/glyphspkg/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-09 14:21:30] INFO root fetch - processPackages [pycharm-remote-debugger]: executing diffoscope
+[2024-05-09 14:21:30] INFO root fetch - processPackages [pycharm-remote-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycharm_remote_debugger-0.1.8.tar.gz tmp/pycharm_remote_debugger-0.1.9.tar.gz --markdown 20240509/p/pycharm-remote-debugger/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 14:21:30] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.1.tar.gz]
+[2024-05-09 14:21:30] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.2.tar.gz]
+[2024-05-09 14:21:30] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-09 14:21:30] INFO root fetch - processPackages [pycharm-remote-debugger]: Remove: archive file [/home/abi/fetcher/tmp/pycharm_remote_debugger-0.1.8.tar.gz]
+[2024-05-09 14:21:30] INFO root fetch - processPackages [pycharm-remote-debugger]: Remove: archive file [/home/abi/fetcher/tmp/pycharm_remote_debugger-0.1.9.tar.gz]
+[2024-05-09 14:21:30] INFO root fetch - main [MainThread]: End processing [pycharm-remote-debugger]: success
+[2024-05-09 14:21:36] INFO root fetch - processPackages [glyphspkg]: Remove: archive file [/home/abi/fetcher/tmp/glyphspkg-0.1.9.tar.gz]
+[2024-05-09 14:21:36] INFO root fetch - processPackages [glyphspkg]: Remove: archive file [/home/abi/fetcher/tmp/glyphspkg-0.2.0.tar.gz]
+[2024-05-09 14:21:36] INFO root fetch - main [MainThread]: End processing [glyphspkg]: success
+[2024-05-09 14:21:36] INFO root fetch - main [MainThread]: Store serial: [23130794]
