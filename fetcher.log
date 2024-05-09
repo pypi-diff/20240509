@@ -14870,3 +14870,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:50:52] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-05-09 09:50:52] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-05-09 09:50:52] INFO root fetch - main [MainThread]: Store serial: [23127716]
+[2024-05-09 09:52:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127716]
+[2024-05-09 09:53:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telicent-label-builder
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsm-services
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccdexplorer-fundamentals
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ccdexplorer-fundamentals]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/4e/a5/a76b9eebccdc98f397cd9f57d41de8d58f8b90b6c57d79506251c34afe87/ccdexplorer_fundamentals-0.2.8.tar.gz
+[2024-05-09 09:53:01] WARNING root fetch - processPackages [dsm-services]: Skipping, unable to determine old version
+[2024-05-09 09:53:01] INFO root fetch - main [MainThread]: End processing [dsm-services] error
+[2024-05-09 09:53:01] WARNING root fetch - processPackages [telicent-label-builder]: Skipping, unable to determine old version
+[2024-05-09 09:53:01] INFO root fetch - main [MainThread]: End processing [telicent-label-builder] error
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/ac/23/40a34a459098305cf0a2334cc22d0bb8adca99b618978727a5b12f7c3d9b/ccdexplorer_fundamentals-0.2.9.tar.gz
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ccdexplorer-fundamentals]: executing diffoscope
+[2024-05-09 09:53:01] INFO root fetch - processPackages [ccdexplorer-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_fundamentals-0.2.8.tar.gz tmp/ccdexplorer_fundamentals-0.2.9.tar.gz --markdown 20240509/c/ccdexplorer-fundamentals/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-09 09:53:02] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_fundamentals-0.2.8.tar.gz]
+[2024-05-09 09:53:02] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_fundamentals-0.2.9.tar.gz]
+[2024-05-09 09:53:02] INFO root fetch - main [MainThread]: End processing [ccdexplorer-fundamentals]: success
+[2024-05-09 09:53:02] INFO root fetch - main [MainThread]: Store serial: [23127728]
