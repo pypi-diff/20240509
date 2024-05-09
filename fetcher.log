@@ -23212,3 +23212,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:30:13] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b2.tar.gz]
 [2024-05-09 14:30:13] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-05-09 14:30:13] INFO root fetch - main [MainThread]: Store serial: [23130963]
+[2024-05-09 14:32:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130963]
+[2024-05-09 14:32:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gamspy-xpress
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-researcher
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamspy-snopt
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kbcstorage
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gamspy-gurobi
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gamspy-mpsge
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gamspy-mosek
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mintpy
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gamspy-shot
+[2024-05-09 14:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: feuilletonistz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gpt-researcher]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-xpress]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/64/5f/1e4415a53e5add2e99e1424f7bbd342c82389378023031cd7f25af52df97/gpt-researcher-0.3.3.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [mintpy]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-xpress]: Downloading https://files.pythonhosted.org/packages/e8/20/079edc32f2111fb28da0426dce8afc080dc1f2e722c222124e8c8e900cbf/gamspy_xpress-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] WARNING root fetch - processPackages [feuilletonistz]: Skipping, unable to determine old version
+[2024-05-09 14:32:25] INFO root fetch - processPackages [feuilletonistz]: Start processing: gamspy-conopt3
+[2024-05-09 14:32:25] INFO root fetch - main [MainThread]: End processing [feuilletonistz] error
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-snopt]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-mpsge]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [kbcstorage]: New version: [0.9.0] Old Version: [0.7.2]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-shot]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-gurobi]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-mosek]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] WARNING root fetch - processPackages [gamspy-xpress]: Skipping package: exceeds size limit 17355976>=10485760
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-xpress]: Start processing: gamspy-highs
+[2024-05-09 14:32:25] INFO root fetch - main [MainThread]: End processing [gamspy-xpress] error
+[2024-05-09 14:32:25] INFO root fetch - processPackages [mintpy]: Downloading https://files.pythonhosted.org/packages/98/7c/60364bbda28cc94de1c33415779af4501da7276d30309fdd5a894acb1281/mintpy-1.5.3.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-conopt3]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-highs]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-snopt]: Downloading https://files.pythonhosted.org/packages/f6/d5/0a710f325f4acd7b1cacfa076e1c246c913b90483a6c4827874c49417893/gamspy_snopt-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-mosek]: Downloading https://files.pythonhosted.org/packages/26/ed/923f4f78d93e397e7e1267df4700b3eeef4ceb01963ebedead5b9c688cc6/gamspy_mosek-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-gurobi]: Downloading https://files.pythonhosted.org/packages/2f/d0/2d6c00f6cde08972554d13ec463feb7ddc951b5cc9e47ce1c1e7ab04bd81/gamspy_gurobi-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-shot]: Downloading https://files.pythonhosted.org/packages/f5/1f/78f2de8e2513725699e60acd6e5e312ddddc22fff3560a3dc94dde76cbe3/gamspy_shot-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [kbcstorage]: Downloading https://files.pythonhosted.org/packages/ba/f0/71803dc4eb96cf4768b7aa3c0fa759907b3467e2bd11d2df76f7c19a32e3/kbcstorage-0.7.2.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-conopt3]: Downloading https://files.pythonhosted.org/packages/c2/2c/6d681d60cf0736db1bbbb80ab1366c45d4b63b5b096cd26cc1e9b6f26715/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/3d/a9/e0296a14ba01ad13f96f45a57ffeb166c963bd3bcab60e29f274d5722dd7/gpt-researcher-0.3.4.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-mpsge]: Downloading https://files.pythonhosted.org/packages/77/e6/6bf6217868874f55a2b3018d16880b2ed0c3fb87ea0ad921ae1c3df9f3be/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] WARNING root fetch - processPackages [gamspy-shot]: Skipping package: exceeds size limit 53567741>=10485760
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-shot]: Start processing: simple-ddl-parser
+[2024-05-09 14:32:25] INFO root fetch - main [MainThread]: End processing [gamspy-shot] error
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-highs]: Downloading https://files.pythonhosted.org/packages/8c/9c/b020379984f21b9057d4eded08d11a74499dba4a645bcf490746ea07ac7c/gamspy_highs-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] WARNING root fetch - processPackages [gamspy-gurobi]: Skipping package: exceeds size limit 20433583>=10485760
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-gurobi]: Start processing: gamspy-cbc
+[2024-05-09 14:32:25] INFO root fetch - main [MainThread]: End processing [gamspy-gurobi] error
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.3.3.tar.gz tmp/gpt-researcher-0.3.4.tar.gz --markdown 20240509/g/gpt-researcher/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-09 14:32:25] INFO root fetch - processPackages [mintpy]: Downloading https://files.pythonhosted.org/packages/d9/e6/074c8604b442281bc9c531c1a966564c3017fb4da26b89ed269435453dde/mintpy-1.6.0.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [kbcstorage]: Downloading https://files.pythonhosted.org/packages/e4/1b/9639a69bd083ec51e69b07b4f3b69ec8361e4185e11b05cd546219cf08fc/kbcstorage-0.9.0.tar.gz
+[2024-05-09 14:32:25] INFO root fetch - processPackages [simple-ddl-parser]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-cbc]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:25] INFO root fetch - processPackages [gamspy-snopt]: Downloading https://files.pythonhosted.org/packages/a3/3f/371610501070fac2aadae72e5d30beeeec52fc1a9f48146e51ab4e8ebb26/gamspy_snopt-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:25] INFO root fetch - processPackages [kbcstorage]: executing diffoscope
+[2024-05-09 14:32:25] INFO root fetch - processPackages [kbcstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbcstorage-0.7.2.tar.gz tmp/kbcstorage-0.9.0.tar.gz --markdown 20240509/k/kbcstorage/0.7.2-0.9.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] INFO root fetch - processPackages [mintpy]: executing diffoscope
+[2024-05-09 14:32:26] INFO root fetch - processPackages [mintpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mintpy-1.5.3.tar.gz tmp/mintpy-1.6.0.tar.gz --markdown 20240509/m/mintpy/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] INFO root fetch - processPackages [simple-ddl-parser]: Downloading https://files.pythonhosted.org/packages/44/00/3cb18b3af32e39ded7b4270a475b42075ea2937354bbeca4025c3bd03d2e/simple_ddl_parser-1.1.0.tar.gz
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-conopt3]: Downloading https://files.pythonhosted.org/packages/95/c4/718c1ffd9c5cc34994f0de0be270fe1028460de6c8b9945abb2ec9f2147a/gamspy_conopt3-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-mpsge]: Downloading https://files.pythonhosted.org/packages/3d/34/76391796b9ac5290c85b199691f6eaca7f82c69c5b85925ba4553f16184c/gamspy_mpsge-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-snopt]: executing diffoscope
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-cbc]: Downloading https://files.pythonhosted.org/packages/3e/77/0baea60ee106fd31236c4da60dfb6f0fdf19b7af220b4d7ad25b1ca86867/gamspy_cbc-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-snopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_snopt-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_snopt-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-snopt/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] WARNING root fetch - processPackages [gamspy-cbc]: Skipping package: exceeds size limit 39479527>=10485760
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-cbc]: Start processing: kickstart-flask-app
+[2024-05-09 14:32:26] INFO root fetch - main [MainThread]: End processing [gamspy-cbc] error
+[2024-05-09 14:32:26] INFO root fetch - processPackages [kickstart-flask-app]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-conopt3]: executing diffoscope
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-conopt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_conopt3-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-conopt3/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] INFO root fetch - processPackages [simple-ddl-parser]: Downloading https://files.pythonhosted.org/packages/33/06/d6e012e7c623ab21da3cb3e48fc72d1b93fc1d86be7d364dff036890f30b/simple_ddl_parser-1.2.0.tar.gz
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-mpsge]: executing diffoscope
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-mpsge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_mpsge-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-mpsge/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.3.tar.gz]
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.3.4.tar.gz]
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gpt-researcher]: Start processing: gamspy-dicopt
+[2024-05-09 14:32:26] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-05-09 14:32:26] INFO root fetch - processPackages [kickstart-flask-app]: Downloading https://files.pythonhosted.org/packages/33/ec/16fd3cc448eae7796b17c96b8425c782ca356cda75bf7bf8eeff339a4006/kickstart_flask_app-1.1.6-py3-none-any.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [simple-ddl-parser]: executing diffoscope
+[2024-05-09 14:32:26] INFO root fetch - processPackages [simple-ddl-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_ddl_parser-1.1.0.tar.gz tmp/simple_ddl_parser-1.2.0.tar.gz --markdown 20240509/s/simple-ddl-parser/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-dicopt]: New version: [46.5.0] Old Version: [46.4.1]
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-highs]: Downloading https://files.pythonhosted.org/packages/dd/f4/36a6d189d3a65c43acbd6cf4128cb2c4bb1a789a070dda7bc34ae36326e0/gamspy_highs-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [kbcstorage]: Remove: archive file [/home/abi/fetcher/tmp/kbcstorage-0.7.2.tar.gz]
+[2024-05-09 14:32:26] INFO root fetch - processPackages [kbcstorage]: Remove: archive file [/home/abi/fetcher/tmp/kbcstorage-0.9.0.tar.gz]
+[2024-05-09 14:32:26] INFO root fetch - main [MainThread]: End processing [kbcstorage]: success
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-dicopt]: Downloading https://files.pythonhosted.org/packages/33/b7/dd1d81f08d27f79299a2935abacd3532c1ddba07e50762e9f5916c071d8a/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [gamspy-mosek]: Downloading https://files.pythonhosted.org/packages/9e/32/ec51d374879a481b7ae5c33907c2598332f200652dfed05c35780f1808f3/gamspy_mosek-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:26] INFO root fetch - processPackages [kickstart-flask-app]: Downloading https://files.pythonhosted.org/packages/8b/6a/054efdd31c5ddfc386afc0c2320760816267c6e3eef105871865e239f73d/kickstart_flask_app-1.2.0.tar.gz
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-highs]: executing diffoscope
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-highs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_highs-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_highs-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-highs/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:27] INFO root fetch - processPackages [kickstart-flask-app]: executing diffoscope
+[2024-05-09 14:32:27] INFO root fetch - processPackages [kickstart-flask-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kickstart_flask_app-1.1.6-py3-none-any.whl.zip tmp/kickstart_flask_app-1.2.0.tar.gz --markdown 20240509/k/kickstart-flask-app/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-09 14:32:27] INFO root fetch - processPackages [simple-ddl-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple_ddl_parser-1.1.0.tar.gz]
+[2024-05-09 14:32:27] INFO root fetch - processPackages [simple-ddl-parser]: Remove: archive file [/home/abi/fetcher/tmp/simple_ddl_parser-1.2.0.tar.gz]
+[2024-05-09 14:32:27] INFO root fetch - main [MainThread]: End processing [simple-ddl-parser]: success
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-dicopt]: Downloading https://files.pythonhosted.org/packages/b3/bc/2dad14b1347cc05f7a0095152d91014d1fc605ec7fb9217f6c7861e20420/gamspy_dicopt-46.5.0-py3-none-win_amd64.whl
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-mosek]: executing diffoscope
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_mosek-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_mosek-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-mosek/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:27] INFO root fetch - processPackages [kickstart-flask-app]: Remove: archive file [/home/abi/fetcher/tmp/kickstart_flask_app-1.1.6-py3-none-any.whl.zip]
+[2024-05-09 14:32:27] INFO root fetch - processPackages [kickstart-flask-app]: Remove: archive file [/home/abi/fetcher/tmp/kickstart_flask_app-1.2.0.tar.gz]
+[2024-05-09 14:32:27] INFO root fetch - main [MainThread]: End processing [kickstart-flask-app]: success
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-dicopt]: executing diffoscope
+[2024-05-09 14:32:27] INFO root fetch - processPackages [gamspy-dicopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl.zip tmp/gamspy_dicopt-46.5.0-py3-none-win_amd64.whl.zip --markdown 20240509/g/gamspy-dicopt/46.4.1-46.5.0/README.md --exclude *.pyd
+[2024-05-09 14:32:28] INFO root fetch - processPackages [mintpy]: Remove: archive file [/home/abi/fetcher/tmp/mintpy-1.5.3.tar.gz]
+[2024-05-09 14:32:28] INFO root fetch - processPackages [mintpy]: Remove: archive file [/home/abi/fetcher/tmp/mintpy-1.6.0.tar.gz]
+[2024-05-09 14:32:28] INFO root fetch - main [MainThread]: End processing [mintpy]: success
+[2024-05-09 14:32:29] INFO root fetch - processPackages [gamspy-dicopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_dicopt-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:29] INFO root fetch - processPackages [gamspy-dicopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_dicopt-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:29] INFO root fetch - main [MainThread]: End processing [gamspy-dicopt]: success
+[2024-05-09 14:32:29] INFO root fetch - processPackages [gamspy-mosek]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mosek-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:29] INFO root fetch - processPackages [gamspy-mosek]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mosek-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:29] INFO root fetch - main [MainThread]: End processing [gamspy-mosek]: success
+[2024-05-09 14:32:30] INFO root fetch - processPackages [gamspy-snopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_snopt-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:30] INFO root fetch - processPackages [gamspy-snopt]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_snopt-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:30] INFO root fetch - main [MainThread]: End processing [gamspy-snopt]: success
+[2024-05-09 14:32:30] INFO root fetch - processPackages [gamspy-mpsge]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mpsge-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:30] INFO root fetch - processPackages [gamspy-mpsge]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_mpsge-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:30] INFO root fetch - main [MainThread]: End processing [gamspy-mpsge]: success
+[2024-05-09 14:32:32] INFO root fetch - processPackages [gamspy-conopt3]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_conopt3-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:32] INFO root fetch - processPackages [gamspy-conopt3]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_conopt3-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:32] INFO root fetch - main [MainThread]: End processing [gamspy-conopt3]: success
+[2024-05-09 14:32:43] INFO root fetch - processPackages [gamspy-highs]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_highs-46.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:43] INFO root fetch - processPackages [gamspy-highs]: Remove: archive file [/home/abi/fetcher/tmp/gamspy_highs-46.5.0-py3-none-win_amd64.whl.zip]
+[2024-05-09 14:32:43] INFO root fetch - main [MainThread]: End processing [gamspy-highs]: success
+[2024-05-09 14:32:43] INFO root fetch - main [MainThread]: Store serial: [23131032]
