@@ -8912,3 +8912,36 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 05:07:17] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
 [2024-05-09 05:07:17] INFO root fetch - main [MainThread]: End processing [lazyad]: success
 [2024-05-09 05:07:17] INFO root fetch - main [MainThread]: Store serial: [23125443]
+[2024-05-09 05:09:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23125443]
+[2024-05-09 05:09:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-09 05:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calippicz
+[2024-05-09 05:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-05-09 05:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyScopedStorage
+[2024-05-09 05:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MinVectorDB
+[2024-05-09 05:09:25] INFO root fetch - processPackages [MinVectorDB]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-09 05:09:25] INFO root fetch - processPackages [iac-init]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-09 05:09:26] WARNING root fetch - processPackages [calippicz]: Skipping, unable to determine old version
+[2024-05-09 05:09:26] INFO root fetch - main [MainThread]: End processing [calippicz] error
+[2024-05-09 05:09:26] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/f6/e3/ea083fd82bff554dd74fad19d4beef9ae99dd50f0f5d3a10e917605345de/iac_init-0.5.8.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [PyScopedStorage]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 05:09:26] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/43/67/57c0d952f0bb1f1ded3abcea146543e4b05f6c6d802b5bf92f7bf0073261/minvectordb-0.3.2.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e2/e1/199bd8ec07d380390cfda91e99ae1dacba99b2a33b0e0564efdf6f685f1a/iac_init-0.5.9.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [PyScopedStorage]: Downloading https://files.pythonhosted.org/packages/08/96/e32b24478e365bd297cef3800c419798927fe8c192be78d87eb4a0658ad7/pyscopedstorage-0.0.2.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/d3/82/18e144b143ae82d52d5a02f39d04b1bf658c8e95aa0f37fab66363586849/minvectordb-0.3.3.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-09 05:09:26] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.5.8.tar.gz tmp/iac_init-0.5.9.tar.gz --markdown 20240509/i/iac-init/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-09 05:09:26] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-05-09 05:09:26] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.3.2.tar.gz tmp/minvectordb-0.3.3.tar.gz --markdown 20240509/M/MinVectorDB/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-09 05:09:26] INFO root fetch - processPackages [PyScopedStorage]: Downloading https://files.pythonhosted.org/packages/6f/5d/abb658b9fe2a0ca36b8bf8651df3b8fcd0f7f2404a42b7731ceca121ba7e/pyscopedstorage-0.0.3.tar.gz
+[2024-05-09 05:09:26] INFO root fetch - processPackages [PyScopedStorage]: executing diffoscope
+[2024-05-09 05:09:26] INFO root fetch - processPackages [PyScopedStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscopedstorage-0.0.2.tar.gz tmp/pyscopedstorage-0.0.3.tar.gz --markdown 20240509/P/PyScopedStorage/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 05:09:27] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.8.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.5.9.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-09 05:09:27] INFO root fetch - processPackages [PyScopedStorage]: Remove: archive file [/home/abi/fetcher/tmp/pyscopedstorage-0.0.2.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - processPackages [PyScopedStorage]: Remove: archive file [/home/abi/fetcher/tmp/pyscopedstorage-0.0.3.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - main [MainThread]: End processing [PyScopedStorage]: success
+[2024-05-09 05:09:27] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.2.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.3.3.tar.gz]
+[2024-05-09 05:09:27] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-05-09 05:09:27] INFO root fetch - main [MainThread]: Store serial: [23125458]
