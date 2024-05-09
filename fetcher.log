@@ -22033,3 +22033,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 13:48:25] INFO root fetch - processPackages [faststream]: Remove: archive file [/home/abi/fetcher/tmp/faststream-0.5.5.tar.gz]
 [2024-05-09 13:48:25] INFO root fetch - main [MainThread]: End processing [faststream]: success
 [2024-05-09 13:48:25] INFO root fetch - main [MainThread]: Store serial: [23130337]
+[2024-05-09 13:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130337]
+[2024-05-09 13:50:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickresize
+[2024-05-09 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whaox-wapi
+[2024-05-09 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyqml
+[2024-05-09 13:50:34] INFO root fetch - processPackages [lazyqml]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-09 13:50:34] INFO root fetch - processPackages [whaox-wapi]: New version: [1.0.29] Old Version: [1.0.28]
+[2024-05-09 13:50:34] WARNING root fetch - processPackages [quickresize]: Skipping, unable to determine old version
+[2024-05-09 13:50:34] INFO root fetch - main [MainThread]: End processing [quickresize] error
+[2024-05-09 13:50:34] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/2e/37/71819cf3d16fa4034c8dfafeb6200ad0cad58d3422e179092c0ea3dda3a1/lazyqml-0.2.0.tar.gz
+[2024-05-09 13:50:34] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/ef/64/a5ecc8fd46444afe3634a1286e9eb07421d7e5433699b0e79602bd25a44f/whaox-wapi-1.0.28.tar.gz
+[2024-05-09 13:50:34] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/50/0e/b73b19a86494770b546e17e6c3113f19bfa4d4461611a68927fe6146b605/whaox-wapi-1.0.29.tar.gz
+[2024-05-09 13:50:34] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/2b/1a/db0cad936374ba18635b7a28a19878e5e187719b0e946f64614ee94c390c/lazyqml-0.3.0.tar.gz
+[2024-05-09 13:50:34] INFO root fetch - processPackages [whaox-wapi]: executing diffoscope
+[2024-05-09 13:50:34] INFO root fetch - processPackages [whaox-wapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wapi-1.0.28.tar.gz tmp/whaox-wapi-1.0.29.tar.gz --markdown 20240509/w/whaox-wapi/1.0.28-1.0.29/README.md --exclude *.pyd
+[2024-05-09 13:50:34] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-09 13:50:34] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.2.0.tar.gz tmp/lazyqml-0.3.0.tar.gz --markdown 20240509/l/lazyqml/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-09 13:50:35] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.28.tar.gz]
+[2024-05-09 13:50:35] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.29.tar.gz]
+[2024-05-09 13:50:35] INFO root fetch - main [MainThread]: End processing [whaox-wapi]: success
+[2024-05-09 13:50:35] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.2.0.tar.gz]
+[2024-05-09 13:50:35] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.3.0.tar.gz]
+[2024-05-09 13:50:35] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-09 13:50:35] INFO root fetch - main [MainThread]: Store serial: [23130349]
