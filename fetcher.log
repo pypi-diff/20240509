@@ -14167,3 +14167,44 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 09:07:04] INFO root fetch - processPackages [llama-cpp-python]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_python-0.2.9.tar.gz]
 [2024-05-09 09:07:04] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
 [2024-05-09 09:07:04] INFO root fetch - main [MainThread]: Store serial: [23127451]
+[2024-05-09 09:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23127451]
+[2024-05-09 09:09:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-vsphere
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specmatic
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vault
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pennystonez
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paraping
+[2024-05-09 09:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FasterAPI
+[2024-05-09 09:09:14] INFO root fetch - processPackages [FasterAPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-09 09:09:14] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-09 09:09:14] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1715230012] Old Version: [6.2.0a1715063875]
+[2024-05-09 09:09:14] WARNING root fetch - processPackages [paraping]: Skipping, unable to determine old version
+[2024-05-09 09:09:14] INFO root fetch - main [MainThread]: End processing [paraping] error
+[2024-05-09 09:09:14] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/dc/4f/7387d4a3d73df0697fb82575cf0abf3616188443a1780b1a678316992352/FasterAPI-0.0.8.tar.gz
+[2024-05-09 09:09:14] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/40/ab/030db184f8a2b03e258c0d9560f31b7d316485ab0ff895961a38c545bf21/pulumi_vault-6.2.0a1715063875.tar.gz
+[2024-05-09 09:09:14] WARNING root fetch - processPackages [pennystonez]: Skipping, unable to determine old version
+[2024-05-09 09:09:14] INFO root fetch - main [MainThread]: End processing [pennystonez] error
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-09 09:09:15] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-09 09:09:15] INFO root fetch - processPackages [FasterAPI]: Downloading https://files.pythonhosted.org/packages/09/63/f2c95b745b48d5d64a4d53291dd2fd375492d53193a93427dd80cea9a480/FasterAPI-0.0.9.tar.gz
+[2024-05-09 09:09:15] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/cd/ae/8d95992ac816fcb18dc54a8164db30c37792e7ebb3a3d4ebc91339e71e78/pulumi_vault-6.2.0a1715230012.tar.gz
+[2024-05-09 09:09:15] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-05-09 09:09:15] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-05-09 09:09:15] INFO root fetch - processPackages [FasterAPI]: executing diffoscope
+[2024-05-09 09:09:15] INFO root fetch - processPackages [FasterAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FasterAPI-0.0.8.tar.gz tmp/FasterAPI-0.0.9.tar.gz --markdown 20240509/F/FasterAPI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240509/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-09 09:09:15] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1715063875.tar.gz tmp/pulumi_vault-6.2.0a1715230012.tar.gz --markdown 20240509/p/pulumi-vault/6.2.0a1715063875-6.2.0a1715230012/README.md --exclude *.pyd
+[2024-05-09 09:09:15] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.8.tar.gz]
+[2024-05-09 09:09:15] INFO root fetch - processPackages [FasterAPI]: Remove: archive file [/home/abi/fetcher/tmp/FasterAPI-0.0.9.tar.gz]
+[2024-05-09 09:09:15] INFO root fetch - main [MainThread]: End processing [FasterAPI]: success
+[2024-05-09 09:09:16] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-09 09:09:16] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-09 09:09:16] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-09 09:09:16] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715063875.tar.gz]
+[2024-05-09 09:09:16] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1715230012.tar.gz]
+[2024-05-09 09:09:16] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-09 09:09:16] INFO root fetch - main [MainThread]: Store serial: [23127469]
