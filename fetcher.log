@@ -20346,3 +20346,31 @@ AssertionError: tmp/lightkube-models-1.30.0.7.tar.gz does not exist
 [2024-05-09 12:32:10] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.63.tar.gz]
 [2024-05-09 12:32:10] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-05-09 12:32:10] INFO root fetch - main [MainThread]: Store serial: [23129693]
+[2024-05-09 12:34:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23129693]
+[2024-05-09 12:34:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-09 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaussian-step
+[2024-05-09 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evo
+[2024-05-09 12:34:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo
+[2024-05-09 12:34:19] INFO root fetch - processPackages [gaussian-step]: New version: [2024.5.8] Old Version: [2024.1.19]
+[2024-05-09 12:34:19] INFO root fetch - processPackages [evo]: New version: [1.9.1] Old Version: [1.9]
+[2024-05-09 12:34:19] INFO root fetch - processPackages [evo]: New version: [1.9.1] Old Version: [1.9]
+[2024-05-09 12:34:19] INFO root fetch - processPackages [gaussian-step]: Downloading https://files.pythonhosted.org/packages/2c/38/e6a7bf8a7d8446d1275391bd6abcc4f947f2abab93c33ef8943ec2af9e6e/gaussian_step-2024.1.19.tar.gz
+[2024-05-09 12:34:19] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/fa/e5/ee49f9a9284fdc048d92a81fd7415a0edbfcdfb5cb1a4591bf861ed3ee41/evo-1.9.tar.gz
+[2024-05-09 12:34:19] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/fa/e5/ee49f9a9284fdc048d92a81fd7415a0edbfcdfb5cb1a4591bf861ed3ee41/evo-1.9.tar.gz
+[2024-05-09 12:34:20] INFO root fetch - processPackages [gaussian-step]: Downloading https://files.pythonhosted.org/packages/f7/08/eba7daf239b67376af3081a036ae3da626fa8a0a819d0de1d769d5838f53/gaussian_step-2024.5.8.tar.gz
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/a2/43/5be79fe2d4ceac3509b0eabb311aa1a37ae30e1bf2a0267346548575c189/evo-1.9.1.tar.gz
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: Downloading https://files.pythonhosted.org/packages/a2/43/5be79fe2d4ceac3509b0eabb311aa1a37ae30e1bf2a0267346548575c189/evo-1.9.1.tar.gz
+[2024-05-09 12:34:20] INFO root fetch - processPackages [gaussian-step]: executing diffoscope
+[2024-05-09 12:34:20] INFO root fetch - processPackages [gaussian-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaussian_step-2024.1.19.tar.gz tmp/gaussian_step-2024.5.8.tar.gz --markdown 20240509/g/gaussian-step/2024.1.19-2024.5.8/README.md --exclude *.pyd
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: executing diffoscope
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-1.9.tar.gz tmp/evo-1.9.1.tar.gz --markdown 20240509/e/evo/1.9-1.9.1/README.md --exclude *.pyd
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: executing diffoscope
+[2024-05-09 12:34:20] INFO root fetch - processPackages [evo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo-1.9.tar.gz tmp/evo-1.9.1.tar.gz --markdown 20240509/e/evo/1.9-1.9.1/README.md --exclude *.pyd
+[2024-05-09 12:34:21] INFO root fetch - processPackages [gaussian-step]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_step-2024.1.19.tar.gz]
+[2024-05-09 12:34:21] INFO root fetch - processPackages [gaussian-step]: Remove: archive file [/home/abi/fetcher/tmp/gaussian_step-2024.5.8.tar.gz]
+[2024-05-09 12:34:21] INFO root fetch - main [MainThread]: End processing [gaussian-step]: success
+[2024-05-09 12:34:21] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.tar.gz]
+[2024-05-09 12:34:21] INFO root fetch - processPackages [evo]: Remove: archive file [/home/abi/fetcher/tmp/evo-1.9.1.tar.gz]
+[2024-05-09 12:34:21] INFO root fetch - main [MainThread]: End processing [evo]: success
+[2024-05-09 12:34:21] INFO root fetch - main [MainThread]: End processing [evo]: success
+[2024-05-09 12:34:21] INFO root fetch - main [MainThread]: Store serial: [23129703]
