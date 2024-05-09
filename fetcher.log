@@ -22464,3 +22464,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-09 14:03:35] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.9.tar.gz]
 [2024-05-09 14:03:35] INFO root fetch - main [MainThread]: End processing [sommify]: success
 [2024-05-09 14:03:35] INFO root fetch - main [MainThread]: Store serial: [23130536]
+[2024-05-09 14:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23130536]
+[2024-05-09 14:05:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sussz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: game-generators
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fed-net-liquidity
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveflask
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: InternEvo
+[2024-05-09 14:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rotary-emb
+[2024-05-09 14:05:44] INFO root fetch - processPackages [game-generators]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-09 14:05:44] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc4] Old Version: [1.0.9rc3]
+[2024-05-09 14:05:44] INFO root fetch - processPackages [rotary-emb]: New version: [0.5] Old Version: [0.4.5]
+[2024-05-09 14:05:44] INFO root fetch - processPackages [InternEvo]: New version: [0.4.8] Old Version: [0.4.6]
+[2024-05-09 14:05:44] WARNING root fetch - processPackages [sussz]: Skipping, unable to determine old version
+[2024-05-09 14:05:44] INFO root fetch - main [MainThread]: End processing [sussz] error
+[2024-05-09 14:05:44] WARNING root fetch - processPackages [fed-net-liquidity]: Skipping, unable to determine old version
+[2024-05-09 14:05:44] INFO root fetch - main [MainThread]: End processing [fed-net-liquidity] error
+[2024-05-09 14:05:44] INFO root fetch - processPackages [game-generators]: Downloading https://files.pythonhosted.org/packages/a0/f4/e7af5dfe76d2afd23eb4ec80d643ccfd180570198b01bddb7e7c6772d76b/game_generators-0.1.1.tar.gz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/ed/ed/5379fee0776f116bac2d010694a8e92fea50be9d59a92fabbe52b25468f3/rotary_emb-0.4.5.tar.gz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/17/36/85f1d71298f4b3a91c0264f23cc181c567bfe145bed14dee932a6f1bdfe8/liveflask-1.0.9rc3.tar.gz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/78/49/a626a12e9569256054f423de2f9d979955bf383eb0a87161a2e41f32d7ce/InternEvo-0.4.6.tar.gz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [game-generators]: Downloading https://files.pythonhosted.org/packages/1f/aa/59a01105171dc31ac350634e2acff26ff18f5bae47a5d3b9d571cc1f5bee/game_generators-0.1.2.tar.gz
+[2024-05-09 14:05:44] INFO root fetch - processPackages [rotary-emb]: Downloading https://files.pythonhosted.org/packages/3c/3e/abb8cd35308f7d92406a6ec73fb5c038ddde854dbde5d323ea886574ff04/rotary_emb-0.5.tar.gz
+[2024-05-09 14:05:45] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/5d/1a/a7207ada5d38c1cecb76832f7578d7c617914d552a446cb113e76476ea6d/liveflask-1.0.9rc4.tar.gz
+[2024-05-09 14:05:45] INFO root fetch - processPackages [game-generators]: executing diffoscope
+[2024-05-09 14:05:45] INFO root fetch - processPackages [game-generators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game_generators-0.1.1.tar.gz tmp/game_generators-0.1.2.tar.gz --markdown 20240509/g/game-generators/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-09 14:05:45] INFO root fetch - processPackages [rotary-emb]: executing diffoscope
+[2024-05-09 14:05:45] INFO root fetch - processPackages [rotary-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rotary_emb-0.4.5.tar.gz tmp/rotary_emb-0.5.tar.gz --markdown 20240509/r/rotary-emb/0.4.5-0.5/README.md --exclude *.pyd
+[2024-05-09 14:05:45] INFO root fetch - processPackages [InternEvo]: Downloading https://files.pythonhosted.org/packages/dd/c7/ba32450c2f8500fa6b23a308af9074e7eb0bd99237922e4cb976f6ebedd8/InternEvo-0.4.8.tar.gz
+[2024-05-09 14:05:45] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-09 14:05:45] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc3.tar.gz tmp/liveflask-1.0.9rc4.tar.gz --markdown 20240509/l/liveflask/1.0.9rc3-1.0.9rc4/README.md --exclude *.pyd
+[2024-05-09 14:05:45] INFO root fetch - processPackages [InternEvo]: executing diffoscope
+[2024-05-09 14:05:45] INFO root fetch - processPackages [InternEvo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InternEvo-0.4.6.tar.gz tmp/InternEvo-0.4.8.tar.gz --markdown 20240509/I/InternEvo/0.4.6-0.4.8/README.md --exclude *.pyd
+[2024-05-09 14:05:45] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.4.5.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - processPackages [rotary-emb]: Remove: archive file [/home/abi/fetcher/tmp/rotary_emb-0.5.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - main [MainThread]: End processing [rotary-emb]: success
+[2024-05-09 14:05:45] INFO root fetch - processPackages [game-generators]: Remove: archive file [/home/abi/fetcher/tmp/game_generators-0.1.1.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - processPackages [game-generators]: Remove: archive file [/home/abi/fetcher/tmp/game_generators-0.1.2.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - main [MainThread]: End processing [game-generators]: success
+[2024-05-09 14:05:45] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc3.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc4.tar.gz]
+[2024-05-09 14:05:45] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-09 14:05:46] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.6.tar.gz]
+[2024-05-09 14:05:46] INFO root fetch - processPackages [InternEvo]: Remove: archive file [/home/abi/fetcher/tmp/InternEvo-0.4.8.tar.gz]
+[2024-05-09 14:05:46] INFO root fetch - main [MainThread]: End processing [InternEvo]: success
+[2024-05-09 14:05:46] INFO root fetch - main [MainThread]: Store serial: [23130559]
