@@ -17592,3 +17592,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-09 10:37:46] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.95-py2.py3-none-any.whl.zip]
 [2024-05-09 10:37:46] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkwaf]: success
 [2024-05-09 10:37:46] INFO root fetch - main [MainThread]: Store serial: [23128498]
+[2024-05-09 10:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23128498]
+[2024-05-09 10:39:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huaweicloudsdkwaf
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huaweicloudsdkworkspace
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huaweicloudsdkworkspaceapp
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: splanchnosomaticz
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-creartramas
+[2024-05-09 10:39:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nadc-datahub
+[2024-05-09 10:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grimoire-elk
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkwaf]: New version: [3.1.95] Old Version: [3.1.94]
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: New version: [3.1.95] Old Version: [3.1.94]
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspace]: New version: [3.1.95] Old Version: [3.1.94]
+[2024-05-09 10:39:56] WARNING root fetch - processPackages [splanchnosomaticz]: Skipping, unable to determine old version
+[2024-05-09 10:39:56] WARNING root fetch - processPackages [nadc-datahub]: Skipping, unable to determine old version
+[2024-05-09 10:39:56] INFO root fetch - main [MainThread]: End processing [splanchnosomaticz] error
+[2024-05-09 10:39:56] INFO root fetch - main [MainThread]: End processing [nadc-datahub] error
+[2024-05-09 10:39:56] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkwaf]: Downloading https://files.pythonhosted.org/packages/99/b3/889c70ebda3d0a0668acbcb3204d585212c42663f1165e62b2cedaea3edb/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [grimoire-elk]: New version: [1.1.0rc1] Old Version: [1.0.0rc3]
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Downloading https://files.pythonhosted.org/packages/69/8d/a36ec157967fc4834b7ceddffc7777d429d1a78c0be0c86b734550034ed8/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Downloading https://files.pythonhosted.org/packages/05/a0/53ad7d9f987a9d945d5fc13cf569fcc90934439afba0b20c2432ba7b924c/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/d7/92/4ef85cbf927e354198b1f4b69653131e08171f2f8a2be17712d75dfb2690/robotframework_creartramas-2.1.7.tar.gz
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkwaf]: Downloading https://files.pythonhosted.org/packages/87/1c/86623bdb8f4ab5ea16734e554f15f48e723b6c9bca0da67653c39bc7c26c/huaweicloudsdkwaf-3.1.95-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/b0/b3/9f2783850a056f73ae09ed5da14a138c7a866e064e43fdf8c003f28ecdb0/grimoire_elk-1.0.0rc3.tar.gz
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkwaf]: executing diffoscope
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkwaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl.zip tmp/huaweicloudsdkwaf-3.1.95-py2.py3-none-any.whl.zip --markdown 20240509/h/huaweicloudsdkwaf/3.1.94-3.1.95/README.md --exclude *.pyd
+[2024-05-09 10:39:56] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/07/9d/f0d99555775fbc18d31ab601a044e60803065b5ee0c06dd13eea025df291/robotframework_creartramas-2.1.8.tar.gz
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Downloading https://files.pythonhosted.org/packages/42/38/a5a7982c5f5bcd2b8b3ea1f0a700ba75e0a2387486949121d162d5c4db0b/huaweicloudsdkworkspaceapp-3.1.95-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Downloading https://files.pythonhosted.org/packages/0a/c4/08fb3856dba5de895f2ae6dee5810adeb6d57661648f07321fb9c72a6676/huaweicloudsdkworkspace-3.1.95-py2.py3-none-any.whl
+[2024-05-09 10:39:56] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-05-09 10:39:56] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.7.tar.gz tmp/robotframework_creartramas-2.1.8.tar.gz --markdown 20240509/r/robotframework-creartramas/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-05-09 10:39:57] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: executing diffoscope
+[2024-05-09 10:39:57] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl.zip tmp/huaweicloudsdkworkspaceapp-3.1.95-py2.py3-none-any.whl.zip --markdown 20240509/h/huaweicloudsdkworkspaceapp/3.1.94-3.1.95/README.md --exclude *.pyd
+[2024-05-09 10:39:57] INFO root fetch - processPackages [huaweicloudsdkworkspace]: executing diffoscope
+[2024-05-09 10:39:57] INFO root fetch - processPackages [huaweicloudsdkworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl.zip tmp/huaweicloudsdkworkspace-3.1.95-py2.py3-none-any.whl.zip --markdown 20240509/h/huaweicloudsdkworkspace/3.1.94-3.1.95/README.md --exclude *.pyd
+[2024-05-09 10:39:57] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/83/e6/82a35df8eb9234df99890f308a871709b20766fdfa8a7b18691d28329a2b/grimoire_elk-1.1.0rc1.tar.gz
+[2024-05-09 10:39:57] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.7.tar.gz]
+[2024-05-09 10:39:57] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.8.tar.gz]
+[2024-05-09 10:39:57] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-05-09 10:39:58] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2024-05-09 10:39:58] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire_elk-1.0.0rc3.tar.gz tmp/grimoire_elk-1.1.0rc1.tar.gz --markdown 20240509/g/grimoire-elk/1.0.0rc3-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspaceapp-3.1.94-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkworkspaceapp]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspaceapp-3.1.95-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspaceapp]: success
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.94-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkwaf]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkwaf-3.1.95-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkwaf]: success
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspace-3.1.94-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - processPackages [huaweicloudsdkworkspace]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkworkspace-3.1.95-py2.py3-none-any.whl.zip]
+[2024-05-09 10:39:58] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkworkspace]: success
+[2024-05-09 10:39:59] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk-1.0.0rc3.tar.gz]
+[2024-05-09 10:39:59] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire_elk-1.1.0rc1.tar.gz]
+[2024-05-09 10:39:59] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2024-05-09 10:39:59] INFO root fetch - main [MainThread]: Store serial: [23128518]
