@@ -3087,3 +3087,117 @@ AssertionError: tmp/lyyre-2.8.tar.gz does not exist
 [2024-05-09 02:25:32] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.5.tar.gz]
 [2024-05-09 02:25:32] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-05-09 02:25:32] INFO root fetch - main [MainThread]: Store serial: [23122893]
+[2024-05-09 02:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23122893]
+[2024-05-09 02:27:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf2tf
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mylocale
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minq
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arcam-fmj
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agentkit-llm
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Unified-python-sdk
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarms
+[2024-05-09 02:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydantic-tensor
+[2024-05-09 02:27:40] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [minq]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [mylocale]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [swarms]: New version: [4.9.6] Old Version: [4.9.5]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-09 02:27:40] WARNING root fetch - processPackages [pydantic-tensor]: Skipping, unable to determine old version
+[2024-05-09 02:27:40] INFO root fetch - processPackages [pydantic-tensor]: Start processing: auto-coder
+[2024-05-09 02:27:40] INFO root fetch - main [MainThread]: End processing [pydantic-tensor] error
+[2024-05-09 02:27:40] INFO root fetch - processPackages [cf2tf]: New version: [0.8.1a1] Old Version: [0.8.1a0]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [arcam-fmj]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [agentkit-llm]: New version: [0.1.7.post1] Old Version: [0.1.7]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-09 02:27:40] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.22.0] Old Version: [0.21.9]
+[2024-05-09 02:27:40] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/2f/5b/5f942678cf7b6312828c8c42d0ad634e3a78f330e639d0aec633281923a9/mylocale-0.8.0.tar.gz
+[2024-05-09 02:27:40] INFO root fetch - processPackages [minq]: Downloading https://files.pythonhosted.org/packages/43/3b/2da32fd41f632f6c767aeb76716ea91516d39500ec6259ddf2523dcfe854/minq-0.0.2.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-09 02:27:41] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/fd/60/62b098ebc1e7d39ddf7f36ff403776c010f2afc9294ad1fe7cd514cc7ddc/swarms-4.9.5.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/62/4c/b23eb292423a8b5c26cad9c906b557f8e0ac2e2811b5e5767949e627e32e/arcam-fmj-1.4.0.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/87/5e/b31e1deae5b8a9c9f3904347d0f02e5c0d231c517194d7d686a05b950e7d/cf2tf-0.8.1a0.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [agentkit-llm]: Downloading https://files.pythonhosted.org/packages/e4/86/77e7671ed0c12adf7a4f9793ea6711a378fed81cb6abbd31aaaf0c7329ad/agentkit-llm-0.1.7.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/93/08/c0dbabec56c6743ad9b2b52a74e3ee9b7735e5a20d2230905e47d9085fa8/Unified-python-sdk-0.21.9.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [mylocale]: Downloading https://files.pythonhosted.org/packages/cf/31/7eaef23f3354fae298c96e7453c8c73b0605787b351c7010185d89124bb0/mylocale-0.9.0.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [minq]: Downloading https://files.pythonhosted.org/packages/a6/32/4ed2381de248129b8be0b33239b5dab677edff9845dfa07342372e2761e2/minq-0.0.3.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [mylocale]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [mylocale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mylocale-0.8.0.tar.gz tmp/mylocale-0.9.0.tar.gz --markdown 20240509/m/mylocale/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240509/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d5/a0/ae669b00594e8658ef6febbe93cf3a04b84b040591755b8f7efb652b2a46/swarms-4.9.6.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [minq]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [minq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minq-0.0.2.tar.gz tmp/minq-0.0.3.tar.gz --markdown 20240509/m/minq/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240509/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240509/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [agentkit-llm]: Downloading https://files.pythonhosted.org/packages/6e/84/98a0d49a964afe71f353631bc2067d2d613c27f981f651bd8d47b35304b0/agentkit-llm-0.1.7.post1.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.9.5.tar.gz tmp/swarms-4.9.6.tar.gz --markdown 20240509/s/swarms/4.9.5-4.9.6/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/20/c9/050469495108855ac06fb9c0e98cb4e04f3cc93f199fb3850e73f016ed7b/Unified-python-sdk-0.22.0.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [arcam-fmj]: Downloading https://files.pythonhosted.org/packages/10/7f/a9509474ddbafa1a803d7af626f9094424a4f288ec63d0f71f2faca1a3eb/arcam_fmj-1.5.0.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/4d/a9/8e36072952cbc32bafedc74089860c93b370a34651e37f25874a7892a288/cf2tf-0.8.1a1.tar.gz
+[2024-05-09 02:27:41] INFO root fetch - processPackages [agentkit-llm]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [agentkit-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentkit-llm-0.1.7.tar.gz tmp/agentkit-llm-0.1.7.post1.tar.gz --markdown 20240509/a/agentkit-llm/0.1.7-0.1.7.post1/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [arcam-fmj]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [arcam-fmj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcam-fmj-1.4.0.tar.gz tmp/arcam_fmj-1.5.0.tar.gz --markdown 20240509/a/arcam-fmj/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.21.9.tar.gz tmp/Unified-python-sdk-0.22.0.tar.gz --markdown 20240509/U/Unified-python-sdk/0.21.9-0.22.0/README.md --exclude *.pyd
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-09 02:27:41] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.1a0.tar.gz tmp/cf2tf-0.8.1a1.tar.gz --markdown 20240509/c/cf2tf/0.8.1a0-0.8.1a1/README.md --exclude *.pyd
+[2024-05-09 02:27:42] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.8.0.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [mylocale]: Remove: archive file [/home/abi/fetcher/tmp/mylocale-0.9.0.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [mylocale]: Start processing: cdk-gitlab-runner
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [mylocale]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: cdk-certbot-dns-route53
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [minq]: Remove: archive file [/home/abi/fetcher/tmp/minq-0.0.2.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [minq]: Remove: archive file [/home/abi/fetcher/tmp/minq-0.0.3.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [minq]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-09 02:27:42] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-09 02:27:42] INFO root fetch - processPackages [agentkit-llm]: Remove: archive file [/home/abi/fetcher/tmp/agentkit-llm-0.1.7.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [agentkit-llm]: Remove: archive file [/home/abi/fetcher/tmp/agentkit-llm-0.1.7.post1.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [agentkit-llm]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam-fmj-1.4.0.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [arcam-fmj]: Remove: archive file [/home/abi/fetcher/tmp/arcam_fmj-1.5.0.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [arcam-fmj]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a0.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a1.tar.gz]
+[2024-05-09 02:27:42] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-09 02:27:42] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240509/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240509:/home/abi/fetcher/20240509:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240509/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-09 02:27:43] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.5.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.9.6.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-09 02:27:43] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-09 02:27:44] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.9.tar.gz]
+[2024-05-09 02:27:44] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.0.tar.gz]
+[2024-05-09 02:27:44] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-05-09 02:27:44] INFO root fetch - main [MainThread]: Store serial: [23122933]
